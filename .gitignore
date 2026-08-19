@@ -1,0 +1,20 @@
+# Secrets
+credentials/
+secrets/
+*.key
+*.pem
+.env
+
+# Logs & cache
+logs/
+*.log
+*.jsonl
+cache/
+tmp/
+*.sqlite
+
+# Large files
+media/
+node_modules/
+.DS_Store
+__pycache__/

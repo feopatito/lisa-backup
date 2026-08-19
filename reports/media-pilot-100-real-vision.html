@@ -1,0 +1,1142 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image SEO pilot 100 - AndroidMagazine</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --panel-2: #0f1722;
+      --text: #e6edf3;
+      --muted: #9da7b3;
+      --line: rgba(255,255,255,.08);
+      --accent: #7dd3fc;
+      --good: #16a34a;
+      --warn: #f59e0b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at top, #132238 0, var(--bg) 52%);
+      color: var(--text);
+      line-height: 1.45;
+    }
+    .wrap { max-width: 1480px; margin: 0 auto; padding: 28px 18px 48px; }
+    .hero {
+      background: linear-gradient(180deg, rgba(125,211,252,.12), rgba(22,27,34,.95));
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.25);
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(26px, 3vw, 40px); }
+    .sub { color: var(--muted); max-width: 920px; margin-bottom: 16px; }
+    .stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 12px; }
+    .pill, .stat {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 7px 12px; border-radius: 999px;
+      border: 1px solid var(--line); background: rgba(255,255,255,.04);
+      font-size: 13px; color: var(--text);
+    }
+    .stat strong { color: #fff; }
+    .good { color: #bbf7d0; border-color: rgba(22,163,74,.35); }
+    .warn { color: #fde68a; border-color: rgba(245,158,11,.35); }
+    .section {
+      margin-top: 18px;
+      background: rgba(22,27,34,.88);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    h2 { font-size: 22px; margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 20px; color: var(--text); }
+    li { margin: 6px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      overflow: hidden;
+      border-radius: 16px;
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--line);
+    }
+    th, td {
+      padding: 10px 11px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      text-align: left;
+      font-size: 13px;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      background: #111827;
+      z-index: 1;
+      color: #fff;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    tbody tr:hover { background: rgba(125,211,252,.07); }
+    tbody tr.warn { background: rgba(245,158,11,.07); }
+    .fn { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; word-break: break-all; }
+    .alt { min-width: 260px; }
+    .desc { min-width: 420px; color: #d7dde5; }
+    .issue { color: #fde68a; min-width: 140px; }
+    .footer { color: var(--muted); font-size: 12px; padding: 14px 2px 0; }
+    .scroll { overflow: auto; max-height: 78vh; border-radius: 16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Image SEO pilot 100 pro AndroidMagazine</h1>
+      <div class="sub">
+        První lokální 100kusový výstup pro ruční kontrolu. Cíl: dostat názvy a ALT texty k přesnějšímu popisu zařízení, ale bez hádání tam, kde je model nejistý.
+      </div>
+      <div class="stats">
+        <span class="stat"><strong>Celkem</strong> 100</span>
+        <span class="stat good"><strong>OK</strong> 74</span>
+        <span class="stat warn"><strong>QA warning</strong> 26</span>
+      </div>
+      <div class="stats"><span class='pill'>google: 20</span><span class='pill'>xiaomi: 5</span><span class='pill'>redmi: 4</span><span class='pill'>vivo: 3</span><span class='pill'>oneplus: 2</span><span class='pill'>oppo: 2</span><span class='pill'>samsung: 2</span><span class='pill'>garmin: 2</span><span class='pill'>motorola: 1</span><span class='pill'>huawei: 1</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Co z toho plyne</h2>
+      <ul>
+        <li><strong>26</strong> záznamů má varování podle rychlého QA filtru</li><li>Nejčastěji jde o příliš obecné formulace nebo možné brand/model chyby</li><li>Vzorky problematických položek: gemini-live-shopping-help.avif, Microsoft-OneNote-5-e1783265906510.png, Fold8-wide-srovnani-2.jpeg, Nothing-Phone-4b-RCB.webp, Motorola-Edge-70-Max-2.webp, huawei-Pura.jpg, Lava-Agni-4.webp, Automaticky-dabing-3.avif</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Detailní tabulka</h2>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>ID</th>
+              <th>Old filename</th>
+              <th>New filename</th>
+              <th>Alt text</th>
+              <th>Obsah popis</th>
+              <th>QA</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr class="ok">
+              <td>1</td>
+              <td>76295</td>
+              <td class="fn">pixel-10-pro-gemini-setting-2.avif</td>
+              <td class="fn">pixel-10-pro-android-settings-menu.jpg</td>
+              <td class="alt">Nastavení Androidu na Google Pixel 10 Pro s přehledem systému a úložiště</td>
+              <td class="desc">Screenshot nastavení Androidu na telefonu Google Pixel 10 Pro v tmavém režimu. Zobrazuje sekce nastavení včetně Storage (35% využito</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>2</td>
+              <td>76306</td>
+              <td class="fn">Google-Health-6.jpg</td>
+              <td class="fn">wear-os-fitness-aktivity-bike-run-smartwatch.jpg</td>
+              <td class="alt">Chytré hodinky Wear OS s fitness aplikací pro sledování aktivit cyklistiky a běhu</td>
+              <td class="desc">Snímek obrazovky chytrých hodinek (pravděpodobně Wear OS) zobrazující fitness aplikaci s menu &quot;Recent&quot; pro sledování aktivit. Vidíme kruhový displej s tmavým rozhraním</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>3</td>
+              <td>76309</td>
+              <td class="fn">Google-Health-3.png</td>
+              <td class="fn">android-analyza-kvality-spanku-sleep-tracking.jpg</td>
+              <td class="alt">Android aplikace pro analýzu kvality spánku zobrazující spánkové fáze REM a hluboký spánek</td>
+              <td class="desc">Propagační snímek aplikace pro sledování spánku (pravděpodobně Google Fitbit / Health Connect) na Android smartphonu. Zobrazuje detailní analýzu kvality spánku &quot;Last night&#x27;s sleep&quot; s hláškou &quot;A fragmented and restless night&quot;. Obrazovka ukazuje spánkové fáze — Total awake (1h 53m)</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>4</td>
+              <td>76322</td>
+              <td class="fn">CMF-Phone-1-zada.avif</td>
+              <td class="fn">cmf-phone-1-nothing-cerna-zadni-strana.jpg</td>
+              <td class="alt">CMF Phone 1 od Nothing v černé barvě</td>
+              <td class="desc"> zadní strana s duálním fotoaparátem</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>5</td>
+              <td>76343</td>
+              <td class="fn">android-digital-wellbeing-focus.avif</td>
+              <td class="fn">android-digital-wellbeing-screen-time-tracking.png</td>
+              <td class="alt">Digital Wellbeing na Androidu zobrazuje čas u obrazovky a statistiky používání aplikací</td>
+              <td class="desc">Screenshot z Androidu zobrazující nastavení Digital Wellbeing (Digitální rovnováha). Kruhový graf ukazuje dnešní čas u obrazovky 2h 44m rozdělený mezi aplikace (TikTok</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>6</td>
+              <td>76378</td>
+              <td class="fn">Google-App-Voice-search-new-UI.webp</td>
+              <td class="fn">google-voice-search-nove-ui-dark-mode.jpg</td>
+              <td class="alt">Google hlasové vyhledávání nové UI a dark mode – srovnění redesignu rozhraní Listening</td>
+              <td class="desc">Srovnění tří screenshotů Google aplikace zobrazujících hlasové vyhledávání (Voice Search) s rozhraním &quot;Listening...&quot;. Zleva doprava: stávající UI se samostatným tlačítkem &quot;Search a song&quot;</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>7</td>
+              <td>76392</td>
+              <td class="fn">gemini-live-shopping-help.avif</td>
+              <td class="fn">ai-vizualni-asistent-skenovani-produktu-supermarket.jpg</td>
+              <td class="alt">AI vizuální asistent na Android telefonu skenuje mražené produkty v supermarketu</td>
+              <td class="desc">Screenshot z chytrého telefonu zobrazující AI asistenta (pravděpodobně Gemini Live nebo podobný vizuální AI nástroj) skenující police mrazicího boxu v supermarketu. AI analyzuje v reálném čase mražené výrobky (lasagne</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>8</td>
+              <td>76496</td>
+              <td class="fn">1920_1080_Motorola_Edge_70_Pro_colors.jpg</td>
+              <td class="fn">motorola-edge-ctyri-barevne-varianty-fotoaparat.jpg</td>
+              <td class="alt">Motorola Edge ve čtyřech barvách se čtyřnásobným fotoaparátem LYTIA a Super Zoom</td>
+              <td class="desc">Čtyři smartphony Motorola (pravděpodobně řada Edge) zobrazené zezadu ve čtyřech barevných variantách – hnědá/bronzová</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>9</td>
+              <td>76524</td>
+              <td class="fn">Blur-efekt-Xiaomi-5.jpg</td>
+              <td class="fn">android-ovladani-hlasitosti-slidery-timer.jpg</td>
+              <td class="alt">Android ovládací panel hlasitosti se slidery pro hudbu</td>
+              <td class="desc"> vyzvánění a časovač</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>10</td>
+              <td>76545</td>
+              <td class="fn">odstraneni-mezery-pod-klavesnici-4.jpg</td>
+              <td class="fn">adb-pm-uninstall-gesture-line-overlay-android.jpg</td>
+              <td class="alt">Příkaz pm uninstall pro odstranění gesture navigační čáry v Androidu přes ADB shell</td>
+              <td class="desc">Screenshot Android aplikace pro spouštění ADB/shell příkazů s tmavým rozhraním &quot;Exec command&quot;. V textovém poli je zadán příkaz `pm uninstall -k --user 0 com.android.systemui.gesture.line.overlay`</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>11</td>
+              <td>76548</td>
+              <td class="fn">odstraneni-mezery-pod-klavesnici.jpg</td>
+              <td class="fn">android-system-navigation-gestures-nastaveni.png</td>
+              <td class="alt">Nastavení systémové navigace v Androidu – gesta vs. tlačítka na Xiaomi telefonu</td>
+              <td class="desc">Screenshot nastavení systémové navigace v Androidu (pravděpodobně MIUI/HyperOS od Xiaomi). Zobrazuje výběr mezi dvěma režimy navigace – &quot;Gestures&quot; (gesta</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>12</td>
+              <td>76567</td>
+              <td class="fn">google-drive-projects-4.avif</td>
+              <td class="fn">gemini-google-drive-workspace-ai-search-dokumenty.jpg</td>
+              <td class="alt">Funkce Gemini v Google Drive analyzuje dokumenty a odpovídá na dotazy pomocí AI</td>
+              <td class="desc">Snímek obrazovky funkce Gemini v Google Drive (Gemini in Workspace). Uživatelské rozhraní zobrazuje panel &quot;Project sources&quot; se třemi zdrojovými dokumenty a hlavní chatové okno</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>13</td>
+              <td>76578</td>
+              <td class="fn">screenshot_20260622_192509_maps.avif</td>
+              <td class="fn">google-maps-know-before-you-go-ai-feature.jpg</td>
+              <td class="alt">Google Maps s AI funkcí Know before you go shrnující recenze restaurace</td>
+              <td class="desc">Snímek obrazovky z aplikace Google Maps zobrazující profil restaurace &quot;Uncle Ray&#x27;s Chicken&quot;. Nejvýraznějším prvkem je nová AI funkce &quot;Know before you go&quot; (označená štítkem &quot;New!&quot;)</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>14</td>
+              <td>76590</td>
+              <td class="fn">Screenshot-2026-06-28-at-19-45-55-Previewing-GPT-5.6-Sol-a-next-generation-model-OpenAI.png</td>
+              <td class="fn">openai-gpt-5-6-exploitgym-benchmark-graf.png</td>
+              <td class="alt">Graf ExploitGym benchmark modelů OpenAI GPT-5.6 Sol Terra Luna a výkon AI</td>
+              <td class="desc">Graf s názvem &quot;ExploitGym&quot; zobrazující výkonnostní benchmark modelů OpenAI GPT-5.6 (Sol</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>15</td>
+              <td>76614</td>
+              <td class="fn">Aandroid-17-Photo-Shuffle-pixel.webp</td>
+              <td class="fn">android-photo-shuffle-wallpaper-feature.jpg</td>
+              <td class="alt">Funkce Photo shuffle pro automatické střídání tapety na Androidu s tvorbou alba</td>
+              <td class="desc">Screenshot uživatelského rozhraní funkce &quot;Photo shuffle&quot; (Fotomíchání) v nastavení tapety na Androidu. Obrazovka zobrazuje ilustraci s fotografiemi lidí</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>16</td>
+              <td>76623</td>
+              <td class="fn">Android-17-organizer-domovske-obrazovky-4.webp</td>
+              <td class="fn">android-launcher-add-home-screen-edit-mode.jpg</td>
+              <td class="alt">Android launcher režim editace domovské obrazovky s možností přidat screen a widgety</td>
+              <td class="desc">Screenshot Android launcheru zobrazující režim editace domovské obrazovky (home screen). Vidíme rozhraní pro přidávání nových obrazovek – tlačítko &quot;Close&quot; vlevo nahoře</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>17</td>
+              <td>76674</td>
+              <td class="fn">OpenClaw-Android-app-1-539w-1200h.jpeg.webp</td>
+              <td class="fn">openclaw-ai-assistant-app-onboarding-screen.jpg</td>
+              <td class="alt">Úvodní obrazovka aplikace OpenClaw AI asistent s tlačítkem Connect Gateway</td>
+              <td class="desc">Úvodní/uvítací obrazovka mobilní aplikace &quot;OPENCLAW&quot;</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>18</td>
+              <td>76679</td>
+              <td class="fn">OnePlus-N6-cover.webp</td>
+              <td class="fn">oneplus-n6-8000mah-baterie-smartphone.jpg</td>
+              <td class="alt">OnePlus N6 smartphone s 8000mAh baterií v černé a mátové barvě</td>
+              <td class="desc"> nový telefon</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>19</td>
+              <td>76680</td>
+              <td class="fn">OnePlus-N6-4.webp</td>
+              <td class="fn">oneplus-smartphone-mint-green-front-back.jpg</td>
+              <td class="alt">OnePlus smartphone v mint zelené barvě</td>
+              <td class="desc"> přední a zadní strana s dvojitým fotoaparátem</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>20</td>
+              <td>76757</td>
+              <td class="fn">vivo-X-Fold-6-4.webp</td>
+              <td class="fn">vivo-x-fold-skladaci-telefon-zeiss-kamera.jpg</td>
+              <td class="alt">Skládací telefon Vivo X Fold v tyrkysové barvě se ZEISS fotoaparátem</td>
+              <td class="desc"> přední a zadní strana</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>21</td>
+              <td>76781</td>
+              <td class="fn">Claude-Sonnet-5-3.webp</td>
+              <td class="fn">ai-modely-misaligned-behavior-benchmark-graf.png</td>
+              <td class="alt">Graf misaligned behavior AI modelů – porovnání skóre Sonnet</td>
+              <td class="desc"> Opus a Mythos benchmark</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>22</td>
+              <td>76791</td>
+              <td class="fn">AliExpress-618.webp</td>
+              <td class="fn">aliexpress-618-cinske-znacky-zebricek-prodeju.jpg</td>
+              <td class="alt">AliExpress 618 žebříček prodejů čínských značek smartphonů Xiaomi POCO a elektroniky</td>
+              <td class="desc">Infografika zobrazující žebříček prodejů čínských značek na AliExpressu během akce 618 (data od 13. května do 18. června 2025). Grafika je rozdělena do deseti kategorií: Smartphones (POCO</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>23</td>
+              <td>76838</td>
+              <td class="fn">Google-Keep-5.png</td>
+              <td class="fn">google-keep-tablet-poznamky-seznamy-ui.jpg</td>
+              <td class="alt">Google Keep na tabletu s barevnými poznámkami</td>
+              <td class="desc"> seznamy a připomínkami v mřížce</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>24</td>
+              <td>76839</td>
+              <td class="fn">Google-Keep-4.png</td>
+              <td class="fn">google-keep-search-filters-android.jpg</td>
+              <td class="alt">Google Keep vyhledávání poznámek s filtry na Android telefonu</td>
+              <td class="desc"> funkce Search Keep</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>25</td>
+              <td>76843</td>
+              <td class="fn">Microsoft-OneNote-5-e1783265906510.png</td>
+              <td class="fn">microsoft-onenote-android-tablet-smartphone-sync.jpg</td>
+              <td class="alt">Microsoft OneNote na Android tabletu a telefonu se synchronizací poznámek napříč zařízeními</td>
+              <td class="desc">Aplikace Microsoft OneNote zobrazená napříč třemi zařízeními – desktop/tablet (Windows)</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>26</td>
+              <td>76853</td>
+              <td class="fn">Fold8-wide-srovnani-2.jpeg</td>
+              <td class="fn">unik-skladaci-telefon-vs-smartphone-porovnani.jpg</td>
+              <td class="alt">Únik skládacího telefonu a smartphonu na mramoru</td>
+              <td class="desc"> porovnání velikosti displejů</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>27</td>
+              <td>76878</td>
+              <td class="fn">zalohovani-Android.webp</td>
+              <td class="fn">android-google-backup-nastaveni-zaloha-dat.png</td>
+              <td class="alt">Nastavení zálohování dat na Android telefonu Google Pixel s Google One úložištěm</td>
+              <td class="desc">Snímek obrazovky z Android telefonu (pravděpodobně Google Pixel) zobrazující nastavení zálohování &quot;Back up other data&quot; v Google One / systémovém záloze. Vidíme aktivovaný přepínač pro zálohu dat zařízení (60 MB</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>28</td>
+              <td>76901</td>
+              <td class="fn">Nothing-Phone-4b-RCB.webp</td>
+              <td class="fn">nothing-phone-cerveny-zadni-strana-fotoaparat.jpg</td>
+              <td class="alt">Červený telefon Nothing Phone se zadním fotoaparátem a průhledným designem</td>
+              <td class="desc">Zadní strana chytrého telefonu Nothing (pravděpodobně Phone série CMF/Nothing) v výrazném červeném provedení. Telefon má charakteristický poloprůhledný design horní části s viditelnou vnitřní strukturou</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>29</td>
+              <td>76908</td>
+              <td class="fn">Motorola-Edge-70-Max-2.webp</td>
+              <td class="fn">smartphone-npu-ai-vykon-magneticke-nabijeni.jpg</td>
+              <td class="alt">Smartphone s výkonným NPU čipem pro AI a magnetickým bezdrátovým nabíjením na 100 %</td>
+              <td class="desc">Dvoudílná propagační grafika smartphonu. Horní část zobrazuje procesorový čip (SoC/NPU) na modrém pozadí s obvody a světelnými efekty</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>30</td>
+              <td>76934</td>
+              <td class="fn">Screenshot-2026-07-08-at-09-09-28-Devices-LineageOS-Wiki.png</td>
+              <td class="fn">lineageos-wiki-devices-podporovana-zarizeni.png</td>
+              <td class="alt">LineageOS Wiki stránka se seznamem podporovaných zařízení pro custom ROM</td>
+              <td class="desc">Screenshot webové stránky LineageOS Wiki</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>31</td>
+              <td>76977</td>
+              <td class="fn">Google-Voice-predplatne.webp</td>
+              <td class="fn">google-voice-cenove-tarify-plany-gemini.jpg</td>
+              <td class="alt">Cenové tarify Google Voice s plány Basic</td>
+              <td class="desc"> Starter a Standard včetně funkcí Gemini</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>32</td>
+              <td>76983</td>
+              <td class="fn">Google-Voice-5.webp</td>
+              <td class="fn">google-voice-dialer-mezinarodni-hovory-mapa.png</td>
+              <td class="alt">Google Voice dialer s číselnou klávesnicí a mapou pro mezinárodní VoIP hovory</td>
+              <td class="desc">Ilustrace zobrazující rozhraní Google Voice (nebo podobné VoIP/telefonní služby) s číselnou klávesnicí (dialer) v Material Design stylu. Vpravo je panel s možností &quot;Call as&quot; a telefonním číslem (650) 555-4532</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>33</td>
+              <td>77007</td>
+              <td class="fn">huawei-Pura.jpg</td>
+              <td class="fn">huawei-pura-flagship-launch-2026.jpg</td>
+              <td class="alt">Huawei flagship telefon s XMAGE fotoaparátem a datum launch eventu Kuala Lumpur 2026</td>
+              <td class="desc">Propagační/teaser materiál pro Huawei flagship telefon (pravděpodobně řady Pura). Zobrazuje zadní stranu bílého/zlatého telefonu s výrazným trojúhelníkovým fotoaparátem s XMAGE brandingem a třemi objektivy. Text &quot;Now Is Your Moment&quot; a informace o launch eventu &quot;HUAWEI Flagship Product Launch</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>34</td>
+              <td>77029</td>
+              <td class="fn">redmi-note-17-leak-2.webp</td>
+              <td class="fn">redmi-note-17-pro-battery-upgrade-lu-weibing.jpg</td>
+              <td class="alt">Redmi Note 17 Pro a oznámení pětileté záruky na baterii od Lu Weibinga</td>
+              <td class="desc">Snímek příspěvku ze sociální sítě (pravděpodobně Weibo) od Lu Weibinga</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>35</td>
+              <td>77044</td>
+              <td class="fn">Google-Play-novy-vzhled-2.webp</td>
+              <td class="fn">google-play-store-top-free-games-zebricek.jpg</td>
+              <td class="alt">Google Play Store žebříček nejlepších bezplatných her zdarma ke stažení pro Android</td>
+              <td class="desc">Snímek obrazovky z Google Play Store zobrazující sekci &quot;Top Charts&quot; (Nejlepší žebříčky) s filtrem &quot;Top free&quot; (Nejlepší zdarma). Seznam obsahuje osm nejlepších bezplatných her: Arrow Puzzle</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>36</td>
+              <td>77052</td>
+              <td class="fn">Xiaomi-18-Ultra-leak.webp</td>
+              <td class="fn">oppo-ultra-gimbal-kamera-leak-dcs.jpg</td>
+              <td class="alt">Leak Digital Chat Station o Oppo Ultra telefonu a gimbal kameře Pocket</td>
+              <td class="desc">Screenshot příspěvku ze sociální sítě od známého leakera Digital Chat Station (s ikonou Iron Mana jako profilovým obrázkem). Text v angličtině pojednává o tom</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>37</td>
+              <td>77083</td>
+              <td class="fn">Xiaomi_17T_Pro-3.jpg</td>
+              <td class="fn">xiaomi-telefon-modry-leica-fotoaparat.jpg</td>
+              <td class="alt">Modrý smartphone Xiaomi s Leica fotoaparátem držený v ruce</td>
+              <td class="desc"> recenze telefonu</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>38</td>
+              <td>77103</td>
+              <td class="fn">Lava-Agni-4.webp</td>
+              <td class="fn">lava-agni-5g-white-camera-design.jpg</td>
+              <td class="alt">Smartphone Lava Agni 5G v bílé barvě s dvojitým fotoaparátem a 5G podporou</td>
+              <td class="desc">Smartphone Lava Agni 5G (nebo Agni série) v bílé/stříbrné barvě ležící na hnědém koženém povrchu. Telefon je zobrazen zezadu</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>39</td>
+              <td>77140</td>
+              <td class="fn">Picture-2.jpg</td>
+              <td class="fn">ai-for-good-summit-agentic-ai-vivo-panel.jpg</td>
+              <td class="alt">Panelová diskuse o důvěře v Agentic AI na konferenci AI for Good Summit se značkou vivo</td>
+              <td class="desc">Panelová diskuse na konferenci &quot;AI for Good Global Summit&quot; (pořádané ITU/OSN) věnovaná tématu důvěry v Agentic AI. Na pódiu sedí čtyři panelisté (tři muži</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>40</td>
+              <td>77146</td>
+              <td class="fn">Samsung_S26-2.jpg</td>
+              <td class="fn">samsung-galaxy-s24-zeleny-zadni-fotoaparat.jpg</td>
+              <td class="alt">Samsung Galaxy S24 v zelené barvě v ruce</td>
+              <td class="desc"> detail zadního trojitého fotoaparátu</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>41</td>
+              <td>77174</td>
+              <td class="fn">Automaticky-dabing-4.avif</td>
+              <td class="fn">youtube-nastaveni-prehravace-dune-android.jpg</td>
+              <td class="alt">YouTube nastavení kvality videa a přehrávače na Androidu</td>
+              <td class="desc"> trailer Dune</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>42</td>
+              <td>77175</td>
+              <td class="fn">Automaticky-dabing-3.avif</td>
+              <td class="fn">android-vyber-jazyku-nastaveni-dark-mode.jpg</td>
+              <td class="alt">Android nastavení výběru jazyků s checkboxy v tmavém režimu na telefonu</td>
+              <td class="desc">Screenshot z Android telefonu zobrazující nastavení výběru jazyků (Languages) v tmavém režimu. Vidíme seznam jazyků s checkboxy – Dutch</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>43</td>
+              <td>77205</td>
+              <td class="fn">Pixel-11-Pro-Amazon-unik-2.webp</td>
+              <td class="fn">google-pixel-amazon-listing-specifications-leak.jpg</td>
+              <td class="alt">Uniklé specifikace Google Pixel na Amazonu - fotoaparát a displej</td>
+              <td class="desc">Screenshot z Amazon produktové stránky zobrazující specifikace nezveřejněného smartphonu (pravděpodobně Google Pixel dle designu). Vidíme technické parametry: CPU 3.1 GHz</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>44</td>
+              <td>77263</td>
+              <td class="fn">REDMI-17-4G-render-3.webp</td>
+              <td class="fn">redmi-smartphone-108mp-camera-green-blue-leak.jpg</td>
+              <td class="alt">Redmi telefon s 108MP fotoaparátem v zelené a modré barvě</td>
+              <td class="desc"> uniklé rendery</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>45</td>
+              <td>77277</td>
+              <td class="fn">Screenshot-2026-07-17-at-06-11-18-Suno-AI-Music-Generator.png</td>
+              <td class="fn">suno-ai-hudba-generator-web-rozhrani.jpg</td>
+              <td class="alt">Suno AI generátor hudby – webové rozhraní pro tvorbu skladeb pomocí AI promptu</td>
+              <td class="desc">Domovská stránka webu Suno – AI nástroje pro tvorbu hudby. Zobrazuje hlavní landing page s výrazným nadpisem &quot;Make a house song about quitting your job&quot; na barevném gradientovém pozadí (oranžová/červená/žlutá). Uprostřed je prompt pole &quot;Chat to make music&quot;.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>46</td>
+              <td>77292</td>
+              <td class="fn">Oppo-K15-uvedeni.jpg</td>
+              <td class="fn">oppo-k15-smartphone-8000mah-50mp-kamera.jpg</td>
+              <td class="alt">OPPO K15 bílý telefon s 50MP trojitým fotoaparátem a 8000mAh baterií</td>
+              <td class="desc">Propagační/reklamní grafika pro chytrý telefon OPPO K15 v bílém provedení. Osoba v modré kapuci drží telefon vodorovně</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>47</td>
+              <td>77337</td>
+              <td class="fn">Gemini-Notebook-2.jpg</td>
+              <td class="fn">google-notebooklm-ai-chat-citace-zdroje.jpg</td>
+              <td class="alt">Google NotebookLM aplikace s AI chatem a in-line citacemi zdrojů na telefonu</td>
+              <td class="desc">Propagační snímek aplikace Google NotebookLM (Gemini Notebook) zobrazený na smartphonu. Ukazuje AI chat rozhraní s funkcí in-line citací (číslované odkazy 1</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>48</td>
+              <td>77405</td>
+              <td class="fn">Redm-Watch-6-Active-7.webp</td>
+              <td class="fn">xiaomi-redmi-watch-pink-smartwatch-render.jpg</td>
+              <td class="alt">Chytré hodinky Xiaomi Redmi Watch v růžové barvě s hranatým displejem a měřičem tepu</td>
+              <td class="desc">Chytré hodinky (smartwatch) s hranatým displejem a růžovým/oranžovým silikonovým řemínkem. Na obrazovce je vidět ciferník s velkým digitálním časem (10:09)</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>49</td>
+              <td>77493</td>
+              <td class="fn">Galaxy-Z-Flip8-23.jpg</td>
+              <td class="fn">skladaci-telefon-flip-cerny-vnejsi-displej-fotoaparat.jpg</td>
+              <td class="alt">Černý skládací telefon flip s vnějším displejem a duálním fotoaparátem v ruce</td>
+              <td class="desc">Skládací telefon typu clamshell (flip) v černé barvě</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>50</td>
+              <td>77503</td>
+              <td class="fn">Galaxy-Watch9-10.jpg</td>
+              <td class="fn">chytre-hodinky-smartwatch-fitness-zapesti.jpg</td>
+              <td class="alt">Kulaté chytré hodinky smartwatch na zápěstí s fitness metrikami a AMOLED displejem venku</td>
+              <td class="desc">Kulaté chytré hodinky (smartwatch) s kruhovým AMOLED displejem se stříbrným/hliníkovým tělem a šedozeleným silikonovým řemínkem</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>51</td>
+              <td>77508</td>
+              <td class="fn">Galaxy-Watch-Ultra2-12.jpg</td>
+              <td class="fn">samsung-galaxy-watch-zadni-strana-senzory-lte.jpg</td>
+              <td class="alt">Zadní strana Samsung Galaxy Watch LTE se senzorem tepu a sportovním řemínkem</td>
+              <td class="desc">Zadní strana chytrých hodinek Samsung Galaxy Watch (model SM-L315F</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>52</td>
+              <td>77579</td>
+              <td class="fn">Garmin-Cirqa-4.webp</td>
+              <td class="fn">fitness-naramek-sledovani-spanku-sleep-tracker.jpg</td>
+              <td class="alt">Žena spí s fitness náramkem na zápěstí sledujícím kvalitu spánku a tep</td>
+              <td class="desc">Fotografie zachycuje spící ženu ležící v posteli na bílém polštáři</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>53</td>
+              <td>77582</td>
+              <td class="fn">Garmin-Cirqa.jpg</td>
+              <td class="fn">garmin-fitness-tracker-latkove-reminky-barvy.jpg</td>
+              <td class="alt">Chytré náramky Garmin s látkovými řemínky ve čtyřech barvách – fitness tracker</td>
+              <td class="desc">Detailní produktová fotografie chytrých náramků/fitness trackerů značky Garmin (logo GARMIN viditelné na spodní straně těla zařízení). Zobrazeny jsou čtyři kusy s textilními/látkovými řemínky v různých barvách – béžová/krémová</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>54</td>
+              <td>77637</td>
+              <td class="fn">Pixel-11-Pro-barvy-3.webp</td>
+              <td class="fn">iphone-leak-render-bocni-profil-zlata-barva.jpg</td>
+              <td class="alt">Uniklý render iPhone z boku ve zlaté barvě s modulem kamery a tenkým rámem</td>
+              <td class="desc">Uniklý render (leak) chytrého telefonu zobrazený z boční strany (profilu) ve zlaté/šampaňské barvě. Vidět je tenký kovový rám s tlačítky hlasitosti a bočními tlačítky</td>
+              <td class="issue">possible-brand-mismatch</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>55</td>
+              <td>77639</td>
+              <td class="fn">Pixel-11-Pro-barvy.webp</td>
+              <td class="fn">google-pixel-9-pro-peach-leak-render.jpg</td>
+              <td class="alt">Google Pixel 9 Pro v broskvové barvě – uniklý render zadní strany s trojitým fotoaparátem</td>
+              <td class="desc">Render (leak) telefonu Google Pixel 9 Pro v růžovo-broskvové (peach/rose) barvě</td>
+              <td class="issue">possible-model-mismatch</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>56</td>
+              <td>77663</td>
+              <td class="fn">Health-ChatGPT.webp</td>
+              <td class="fn">ai-chatbot-zdravotni-asistent-mobil.jpg</td>
+              <td class="alt">AI chatbot jako zdravotní asistent na mobilu radí ohledně cvičení a kroků</td>
+              <td class="desc">Screenshot mobilního AI chatbota (pravděpodobně ChatGPT/AI zdravotní asistent) zobrazeného na smartphonu na růžovo-oranžovém gradientovém pozadí. Konverzace se týká zdravotních rad – uživatel se ptá</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>57</td>
+              <td>77681</td>
+              <td class="fn">prihlasovani-selfie-video.jpg</td>
+              <td class="fn">google-face-unlock-android-nastaveni-obliceje.jpg</td>
+              <td class="alt">Nastavení odemykání obličejem Face Unlock na Android telefonu s Google</td>
+              <td class="desc">Snímek obrazovky (video) zobrazující proces nastavení biometrického ověření obličeje (Face Unlock / rozpoznávání obličeje) na smartphonu s Google logem. Uživatelské rozhraní vede uživatele instrukcí &quot;Turn your head back to the center&quot; s výzvou pokračovat.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>58</td>
+              <td>77691</td>
+              <td class="fn">vivo-V70-3.webp</td>
+              <td class="fn">smartphone-6500mah-baterie-90w-rychlonabijeni.jpg</td>
+              <td class="alt">Smartphone s velkou baterií 6500 mAh a rychlonabíjením 90W</td>
+              <td class="desc"> vnitřní komponenty telefonu</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>59</td>
+              <td>77696</td>
+              <td class="fn">Netflix-.jpg</td>
+              <td class="fn">klesajici-trend-akcie-krypto-cerveny-graf.jpg</td>
+              <td class="alt">Klesající trend na burze s červeným grafem a šipkou dolů</td>
+              <td class="desc"> pokles cen akcií a krypta</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>60</td>
+              <td>77709</td>
+              <td class="fn">Vivo-X300e-3.png</td>
+              <td class="fn">vivo-smartphone-tri-barvy-zeiss-fotoaparat.jpg</td>
+              <td class="alt">Smartphone Vivo ve třech barvách s trojitým fotoaparátem ZEISS zezadu</td>
+              <td class="desc">Propagační obrázek zobrazuje tři smartphony značky Vivo ve třech barevných variantách – oranžové (zlaté)</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>61</td>
+              <td>77724</td>
+              <td class="fn">RingConn-Gen-3.webp</td>
+              <td class="fn">chytry-prsten-smart-ring-senzory-zdravi.jpg</td>
+              <td class="alt">Chytrý prsten smart ring se senzory pro měření tepu a SpO2 ve zlaté a stříbrné barvě</td>
+              <td class="desc">Dva chytré prsteny (smart rings) zobrazené z vnitřní strany</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>62</td>
+              <td>77743</td>
+              <td class="fn">Snimek-obrazovky-2026-07-27-v-15.37.22.jpg</td>
+              <td class="fn">welock-chytre-zamky-wifibox-3-kolekce.jpg</td>
+              <td class="alt">WELOCK chytré zámky s WiFi bránou a čtečkou otisků – smart zabezpečení domácnosti</td>
+              <td class="desc">Produktová fotografie chytrých zámků značky WELOCK v letní/plážové scéně s palmou</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>63</td>
+              <td>77749</td>
+              <td class="fn">Screenshot-2026-07-28-at-07-32-18-Unavailable-In-Your-Region.png</td>
+              <td class="fn">peacock-streaming-us-only-geoblokace.jpg</td>
+              <td class="alt">Peacock streamovací služba dostupná pouze v USA - geoblokace a mezinárodní dostupnost</td>
+              <td class="desc">Uvítací/informační obrazovka streamovací služby Peacock (od NBCUniversal) na černém pozadí. Zobrazuje barevné logo Peacock s duhovým peřím a zprávu o geografické dostupnosti - služba je dostupná pouze pro zákazníky fyzicky umístěné v USA.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>64</td>
+              <td>77856</td>
+              <td class="fn">Galaxy-A27-One-UI-8.5.avif</td>
+              <td class="fn">android-widgety-pocasi-kroky-spanek-zdravi.jpg</td>
+              <td class="alt">Android widgety pro sledování počasí</td>
+              <td class="desc"> kroků</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>65</td>
+              <td>77863</td>
+              <td class="fn">google-pay.webp</td>
+              <td class="fn">google-pay-nfc-bezkontaktni-platba-telefon.jpg</td>
+              <td class="alt">Bezkontaktní platba přes Google Pay a NFC na Android telefonu u terminálu</td>
+              <td class="desc">Fotografie zachycující bezkontaktní platbu pomocí Google Pay. Ruka drží smartphone (Android telefon s průstřelovou přední kamerou v levém rohu displeje)</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>66</td>
+              <td>77888</td>
+              <td class="fn">Piel-zrychleni-telefonu-5.avif</td>
+              <td class="fn">android-storage-nastaveni-uloziste-spravce.jpg</td>
+              <td class="alt">Nastavení úložiště Android telefonu se správou 128 GB paměti a přehledem využití</td>
+              <td class="desc">Screenshot nastavení úložiště (Storage) na Android telefonu</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>67</td>
+              <td>77891</td>
+              <td class="fn">Piel-zrychleni-telefonu-2.avif</td>
+              <td class="fn">android-touch-sensitivity-screen-protector-mode.jpg</td>
+              <td class="alt">Nastavení citlivosti dotyku v Androidu s režimem ochranné fólie displeje zapnutým</td>
+              <td class="desc">Screenshot nastavení Androidu zobrazující obrazovku &quot;Touch sensitivity&quot; (Citlivost dotyku). Vidíme ilustraci ruky s prstem dotýkajícím se displeje s vlnami znázorňujícími dotyk. Pod ní je karta s přepínačem &quot;Screen protector mode&quot; (režim ochranné fólie)</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>68</td>
+              <td>77916</td>
+              <td class="fn">Pixel-Buds-Pro-2-dark-green-rewards-leak.webp</td>
+              <td class="fn">google-nest-camera-pixel-buds-pro-2-watch-4.jpg</td>
+              <td class="alt">Google Nest Camera</td>
+              <td class="desc"> Pixel Buds Pro 2 a Pixel Watch 4 s cenami</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>69</td>
+              <td>77944</td>
+              <td class="fn">Pixel-Watch-5-render-8.webp</td>
+              <td class="fn">google-pixel-watch-3-45mm-zelena-zadni-strana.jpg</td>
+              <td class="alt">Google Pixel Watch 3 45mm v olivové barvě - zadní strana se senzorem tepu</td>
+              <td class="desc">Google Pixel Watch 3 (45mm varianta) zobrazené zezadu na bílém pozadí. Vidět je zadní strana hodinek se snímačem srdečního tepu (Heart Rate Sensor) a optickými senzory</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>70</td>
+              <td>77969</td>
+              <td class="fn">Tecno-koncept-telefon-bez-ramecku-4.webp</td>
+              <td class="fn">smartphone-v-ruce-displej-barvy-selfie-kamera.jpg</td>
+              <td class="alt">Smartphone v ruce s jasným displejem a tenkými rámečky</td>
+              <td class="desc"> ukázka kvality obrazovky a barev</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>71</td>
+              <td>77976</td>
+              <td class="fn">Gemini-rozsireni.webp</td>
+              <td class="fn">google-gemini-ai-agent-flight-booking-task.jpg</td>
+              <td class="alt">Google Gemini AI agent hledá letenky a plní úkoly autonomně</td>
+              <td class="desc">Ukázka funkce Google Gemini AI agenta</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>72</td>
+              <td>77991</td>
+              <td class="fn">Pixel-11-unik-fotoaparat-2.png</td>
+              <td class="fn">30x-zoom-smartphone-fotoaparat-papousek-ara.jpg</td>
+              <td class="alt">Ukázka 30x zoomu fotoaparátu smartphonu zachycující detail červeného papouška ara v parku</td>
+              <td class="desc">Ukázka 30x zoomu smartphonu (pravděpodobně Samsung Galaxy nebo podobný vlajkový model s teleobjektivem). Vlevo širokoúhlý záběr člověka sedícího na lavičce v parku s papouškem na rameni</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>73</td>
+              <td>77994</td>
+              <td class="fn">Pixel-11-unik-funkce-2.png</td>
+              <td class="fn">google-gemini-messages-android-ai-chat.jpg</td>
+              <td class="alt">Google Gemini a chat aplikace Messages na Android telefonech s AI asistentem</td>
+              <td class="desc">Dva chytré telefony vedle sebe na světle růžovém gradientovém pozadí. Levý telefon zobrazuje domovskou obrazovku s aktivovaným Google Gemini asistentem (voice search bar) a modrošedou abstraktní tapetou. Pravý telefon ukazuje chatovací aplikaci (pravděpodobně Google Messages) s konverzací.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>74</td>
+              <td>77996</td>
+              <td class="fn">Pixel-11-render-4.png</td>
+              <td class="fn">smartphone-tenky-ramecek-titan-displej-detail.jpg</td>
+              <td class="alt">Detail smartphonu s tenkým rámečkem a titanovým tělem</td>
+              <td class="desc"> prémiový displej</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>75</td>
+              <td>77999</td>
+              <td class="fn">Pixel-11-render-2.jpg</td>
+              <td class="fn">google-pixel-11-gemini-ai-lavender.jpg</td>
+              <td class="alt">Google Pixel 11 v levandulové barvě s trojitým fotoaparátem a Gemini AI</td>
+              <td class="desc">Propagační/koncepční render Google Pixel 11 ve světle fialové (levandulové) barvě. Detailní záběr na zadní stranu telefonu s charakteristickým oválným kamerovým modulem (camera bar) obsahujícím trojici fotoaparátů a LED blesk. Viditelné logo Google &quot;G&quot; a nápisy &quot;Google Pixel 11&quot; a &quot;with Gemini Intelligence&quot;.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>76</td>
+              <td>78026</td>
+              <td class="fn">Redmi-K100-Pro-Max-leak.webp</td>
+              <td class="fn">redmi-k100-pro-max-snapdragon-8e-gen5-benchmark.jpg</td>
+              <td class="alt">REDMI K100 Pro Max recenze výkon Snapdragon 8E Gen5 a baterie 9070mAh</td>
+              <td class="desc">Screenshot příspěvku ze sociální sítě (Weibo) od uživatele Xinxin_Mia</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>77</td>
+              <td>78045</td>
+              <td class="fn">Quick-Share-Tap-to-Share-2.webp</td>
+              <td class="fn">android-tap-to-share-nfc-funkce-sdileni.jpg</td>
+              <td class="alt">Android funkce Tap to share pro sdílení kontaktů a obsahu přes NFC mezi telefony</td>
+              <td class="desc">Screenshot Android obrazovky s novou funkcí &quot;Tap to share&quot; (Klepnutím sdílet). Zobrazuje ilustraci dvou telefonů</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>78</td>
+              <td>78058</td>
+              <td class="fn">Google-Pixel-11-Pro-5.webp</td>
+              <td class="fn">120x-space-zoom-mesic-fotoaparat-smartphone.jpg</td>
+              <td class="alt">120x Space Zoom fotoaparát smartphonu s detailním záběrem měsíce a stromů</td>
+              <td class="desc">Propagační grafika zvýrazňující funkci 120x zoomu (Space Zoom) chytrého telefonu. Dominuje detailní záběr oranžového měsíce se zřetelnými krátery</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>79</td>
+              <td>78117</td>
+              <td class="fn">REDMI-17-5G-render-2.webp</td>
+              <td class="fn">redmi-17-5g-orange-leaked-render-design.jpg</td>
+              <td class="alt">Redmi 17 5G v oranžové barvě s koženým krytem a 50MP fotoaparátem – uniklé renderované obrázky</td>
+              <td class="desc">Únikové promo renderované obrázky smartphonu Redmi 17 5G v oranžové/korálové barvě s koženým zadním krytem. Zobrazuje přední stranu s průstřelovou kamerou a plochým displejem</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>80</td>
+              <td>78122</td>
+              <td class="fn">Screenshot_2026-08-04-14-10-45-153_com.google.android.apps_.wellbeing.jpg</td>
+              <td class="fn">android-digitalni-rovnovaha-nastaveni-wellbeing.jpg</td>
+              <td class="alt">Nastavení digitální rovnováhy a rodičovské kontroly v Androidu s časovači aplikací</td>
+              <td class="desc">Screenshot z Android telefonu zobrazující nastavení &quot;Digitální rovnováha a rodičovská kontrola&quot; (Digital Wellbeing). Vidíme sekce &quot;Jak se odpojit&quot; s možnostmi jako Časovače aplikací</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>81</td>
+              <td>78126</td>
+              <td class="fn">Screenshot_2026-08-04-14-11-24-529_com.google.android.permissioncontroller.jpg</td>
+              <td class="fn">android-poloha-opravneni-nastaveni-aplikace.jpg</td>
+              <td class="alt">Nastavení oprávnění polohy pro Android aplikaci Digitální rovnováha na Xiaomi telefonu</td>
+              <td class="desc">Screenshot obrazovky nastavení oprávnění polohy pro aplikaci &quot;Digitální rovnováha&quot; na Android telefonu (pravděpodobně Xiaomi/MIUI systém). Zobrazuje možnosti přístupu k poloze: Povolit vždy</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>82</td>
+              <td>78177</td>
+              <td class="fn">Galaxy-Watch8.jpg</td>
+              <td class="fn">chytre-hodinky-smartwatch-cifernik-zapesti.jpg</td>
+              <td class="alt">Kulaté chytré hodinky smartwatch s analogovým ciferníkem na zápěstí venku</td>
+              <td class="desc">Kulaté chytré hodinky (smartwatch) s kovovým rámečkem a černým silikonovým řemínkem</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>83</td>
+              <td>78198</td>
+              <td class="fn">Pixel-Watch-5-unik-5.webp</td>
+              <td class="fn">health-alert-irregular-heart-rhythm-afib-detection.png</td>
+              <td class="alt">Zdravotní upozornění na nepravidelný srdeční rytmus a detekci atriální fibrilace na chytrých hodinkách</td>
+              <td class="desc">Notifikace/health alert dialog na modrém pozadí zobrazující zdravotní upozornění o detekci nepravidelného srdečního rytmu. Obsahuje štítek &quot;Health alert&quot; s ikonou</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>84</td>
+              <td>78224</td>
+              <td class="fn">Vivo-S2-2.png</td>
+              <td class="fn">smartphone-50mp-sony-imx852-32mp-front-camera.jpg</td>
+              <td class="alt">Bílý smartphone s 50 MP Sony IMX852 fotoaparátem a 32 MP přední kamerou</td>
+              <td class="desc">Marketingový infografický obrázek smartphonu (pravděpodobně Vivo/iQOO) v bílé barvě</td>
+              <td class="issue">generic-device</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>85</td>
+              <td>78244</td>
+              <td class="fn">Duolingo-vyzvy.png</td>
+              <td class="fn">medved-flat-design-maskot-ilustrace.png</td>
+              <td class="alt">Ilustrace medvěda maskota s pomerančem v plochém flat design stylu na zeleném pozadí</td>
+              <td class="desc">Ilustrace v plochém (flat design) stylu zobrazující roztomilého hnědého medvěda s modrou čepicí</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>86</td>
+              <td>78245</td>
+              <td class="fn">Screenshot-2026-08-06-at-11-21-07-Duolingo-Learn-Navajo-with-lessons-that-work.png</td>
+              <td class="fn">duolingo-duo-uvitaci-obrazovka-onboarding.png</td>
+              <td class="alt">Duolingo uvítací obrazovka s maskotem sovou Duo a tlačítkem Continue v aplikaci</td>
+              <td class="desc">Úvodní onboarding obrazovka aplikace Duolingo pro učení jazyků. Zobrazuje zeleného maskota – sovu Duo s bublinou &quot;Hi there! I&#x27;m Duo!&quot; na bílém pozadí. Vpravo dole je zelené tlačítko &quot;CONTINUE&quot;. Jde o uvítací screen při prvním spuštění aplikace.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>87</td>
+              <td>78267</td>
+              <td class="fn">Android-17-zmena-poradi.webp</td>
+              <td class="fn">android-qqs-media-player-layout-quick-settings.jpg</td>
+              <td class="alt">Rozložení Quick Settings a media playeru v notifikačním panelu Androidu QQS</td>
+              <td class="desc">Srovnávací snímek dvou variant rozložení Quick Quick Settings (QQS) v notifikačním panelu Androidu. Vlevo &quot;Default QQS layout&quot; – rychlá nastavení (Wi-Fi</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>88</td>
+              <td>78275</td>
+              <td class="fn">4_51i.jpg</td>
+              <td class="fn">cmf-buds-open-ear-nabijeci-pouzdro-cerne.jpg</td>
+              <td class="alt">Černá open-ear sluchátka CMF s nabíjecím pouzdrem a otočným ovladačem</td>
+              <td class="desc">Černá bezdrátová sluchátka typu open-ear (s háčkem přes ucho) od značky CMF (sub-brand Nothing) společně s nabíjecím pouzdrem. Pouzdro má oválný design s výrazným otočným ovladačem (dial/knob) v horní části a matnou černou povrchovou úpravou s logem CMF.</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>89</td>
+              <td>78276</td>
+              <td class="fn">4_51h.jpg</td>
+              <td class="fn">cmf-nothing-open-ear-sluchatka-bila.jpg</td>
+              <td class="alt">CMF by Nothing open-ear bezdrátová sluchátka s nabíjecím pouzdrem v bílé barvě</td>
+              <td class="desc">Bezdrátová sluchátka CMF by Nothing typu open-ear (s háčkem přes ucho) v bílé/šedé barvě</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>90</td>
+              <td>78286</td>
+              <td class="fn">Garmin-InReach-Messenger-Plus.jpg</td>
+              <td class="fn">garmin-inreach-messenger-plus-satelitni-komunikator.jpg</td>
+              <td class="alt">Garmin inReach Messenger Plus satelitní komunikátor s displejem a zprávou</td>
+              <td class="desc">Satelitní komunikátor Garmin inReach Messenger Plus v červeno-černém provedení. Zařízení má robustní gumové tělo s texturovaným povrchem a malý monochromatický displej ve spodní části</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="ok">
+              <td>91</td>
+              <td>78297</td>
+              <td class="fn">Google-Pixel-6-Pro-2.webp</td>
+              <td class="fn">digital-chat-station-leak-rear-screen-camera-phone.jpg</td>
+              <td class="alt">Leak Digital Chat Station o zadním displeji 1</td>
+              <td class="desc">7 palce ve fotomobilu</td>
+              <td class="issue">ok</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>92</td>
+              <td>78298</td>
+              <td class="fn">Google-Pixel-6-Pro.jpg</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>93</td>
+              <td>78316</td>
+              <td class="fn">App-Lock-novinka-6.webp</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>94</td>
+              <td>78402</td>
+              <td class="fn">Ulefone-Armor-29-Pro-Thermal.avif</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>95</td>
+              <td>78404</td>
+              <td class="fn">Samsung-Galaxy-XCover7-Pro.webp</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>96</td>
+              <td>78438</td>
+              <td class="fn">Pixel-11-2.jpg</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>97</td>
+              <td>78440</td>
+              <td class="fn">Pixel-11-Pro-5-e1786601384848.jpg</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>98</td>
+              <td>78443</td>
+              <td class="fn">Pixel-11-Pro-4.jpg</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>99</td>
+              <td>78445</td>
+              <td class="fn">Pixel-11-Pro-2.jpg</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+            <tr class="warn">
+              <td>100</td>
+              <td>78493</td>
+              <td class="fn">Honor-unik-2.webp</td>
+              <td class="fn">SKIP</td>
+              <td class="alt">SKIP</td>
+              <td class="desc">SKIP</td>
+              <td class="issue">short-alt</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      Generated from /Users/lisa/.openclaw/workspace/reports/media-pilot-100-real-vision.csv. Prepared for GitHub Pages / review before prompt tuning.
+    </div>
+  </div>
+</body>
+</html>
