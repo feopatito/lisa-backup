@@ -179,3 +179,106 @@ df = pt.interest_over_time()
 4. NIKDY nenahrazovat Trends odhadem — buď live data, nebo transparentně UNAVAILABLE
 
 **Config:** 
+
+
+## 🎯 EDITORIAL INTUITION GATE — Roman Test (přidáno 2026-08-26)
+
+**POVINNÝ krok před každým briefem.** Každé téma musí projít 4 otázkami:
+
+### 4 otázky (každá musí mít odpověď ANO):
+
+**1. Je to dnes?**
+Má téma konkrétní news peg na TENTO nebo ZÍTŘEJŠÍ den? (event, oznámení, vydání, únik)
+→ "iOS 27 bude za měsíc" = NE. "Keynote pozvánky dnes přišly" = ANO.
+
+**2. Má to náš angle?**
+Může LSA/Samsung/Android napsat něco co přidá hodnotu nad přepis zahraničního článku?
+Praktický dopad pro CZ čtenáře, lokální kontext, nebo unikátní pohled?
+→ Překlad 9to5Mac = NE. "Co to znamená pro CZ uživatele iPhonu" = ANO.
+
+**3. Klikl by na to Roman?**
+Kdyby Roman viděl jen titulek — kliknul by? Je to zajímavé samo o sobě, nebo jen SEO gap?
+→ "Samsung má 224k imp na Gemini" = SEO gap, ne příběh. "Proč Gemini na Samsungu nefunguje jak čekáš" = příběh.
+
+**4. Je to ověřené?**
+Máme alespoň 1 primární zdroj (Apple Newsroom, Samsung Newsroom, 9to5Mac, GSMArena, Google Blog)?
+Spekulace/úniky jsou označeny jako EXPECTED/LEAK — ne jako fakt.
+→ "iPhone 18 bude mít titanový rám" bez zdroje = NE.
+
+### Skórování:
+- 4/4 ANO → CREATE/UPDATE
+- 3/4 ANO → CREATE jen pokud slabé "ne" není u otázky 4
+- 2/4 nebo méně → MONITOR nebo DROP
+
+### Výjimky kdy pravidlo přeskočit:
+- BREAKING NEWS (potvrzená zpráva v posledních 2h od primárního zdroje)
+- Roman nebo Tom explicitně zadají téma
+
+
+
+## 🔍 "POD STOLEM" DISCOVERY SOURCES (přidáno 2026-08-26)
+
+**POVINNÉ zdroje pro ranní scan — KAŽDÝ den, PŘED portfolio výběrem:**
+
+### Tier S+ (signál před mainstream médii):
+1. **Mark Gurman / Bloomberg** — X: @markgurman, newsletter PowerOn
+   Hledat: úniky iPhone, Mac, Apple Watch, iOS bety
+   Jak: web_search "gurman" + dnešní datum, nebo RSS bloomberg.com/authors/gurman
+
+2. **9to5Mac leaks** — https://9to5mac.com/tag/leak/
+   Hledat: iOS teardowns, App Store změny, beta nálezy
+
+3. **9to5Google leaks** — https://9to5google.com/tag/exclusive/
+   Hledat: Android bety, Pixel úniky, Google app teardowns
+
+4. **APK Mirror / teardowns** — https://www.apkmirror.com/
+   Hledat: nové verze Google/Samsung/Android System apps
+
+5. **Reddit r/apple + r/Android + r/samsung** — top posts 24h
+   Hledat: co komunita řeší, co je viral, co mainstream ještě nepíše
+
+6. **GitHub commits** (dle LISA_V6_5, sekce 33):
+   - android/platform_frameworks_base
+   - chromium/chromium
+   - google/material-components-android
+   Hledat: nové feature flags, API changes
+
+7. **GSMArena news** — https://www.gsmarena.com/news.php3
+   Hledat: hardware úniky, benchmarky, certifikace (FCC, TENAA, Bluetooth SIG)
+
+8. **Samsung Community + Members App** 
+   Hledat: One UI bety, beta program oznámení
+
+### Pravidlo pro "pod stolem" témata:
+- Pokud téma NENÍ v mainstream CZ médiích → +10 bodů do signal score
+- Pokud téma je jen na 1-2 anglických zdrojích a CZ verze neexistuje → CREATE s BREAKING tagem
+- Pokud téma je "whisper" (komunita to ví, média ještě ne) → DISCOVERY lane, vysoká priorita
+
+### Cross-day uniqueness check:
+Před každým CREATE zkontroluj: "Publikovalo LSA/Samsung/Android tohle za posledních 7 dní?"
+→ Manticore + GA4 (recent URLs) + vlastní paměť (session_learnings_VCERA.md)
+
+
+
+## 📅 CROSS-DAY CONTEXT (přidáno 2026-08-26)
+
+**PRVNÍ krok každého ranního cyklu — PŘED DATA GATE:**
+
+```python
+import datetime, os
+YESTERDAY = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+LEARNING_PATH = f"~/.openclaw/workspace/cache/session_learnings_{YESTERDAY}.md"
+if os.path.exists(os.path.expanduser(LEARNING_PATH)):
+    with open(os.path.expanduser(LEARNING_PATH)) as f:
+        yesterday_context = f.read()
+    # Použij jako kontext: co Roman schválil/odmítl, jaké pravidlo platí dnes
+```
+
+**Konkrétně — na začátku ranního cyklu:**
+1. Načti `session_learnings_VCERA.md`
+2. Pokud Roman včera odmítl "Gemini na Samsungu" → NENAVRHUJI DNES znovu bez nového pegas
+3. Pokud Roman včera schválil "praktické návody pro Samsung" → PRIORITIZUJI podobný angle
+4. Pravidlo z včerejška → aplikuji na dnešní portfolio
+
+**Pokud soubor neexistuje (první den nebo po resetu):** pokračuj normálně bez kontextu.
+
