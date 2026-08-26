@@ -20,10 +20,15 @@
 5. Google Trends: globální + CZ
 6. Candidate pool: merge signálů
 7. Roman Test + Reality check + scoring
-8. Portfolio selection (2 Discovery + 3 SEO + 5 Current Demand = target, ne kvóta)
-9. Output: brief do #redakční-plán
+8. **EDITORIAL GATE JSON** (HARD REQUIREMENT):
+   - Před finálním briefem uložit kandidáty do `~/.openclaw/workspace/cache/morning_candidates_YYYY-MM-DD.json`
+   - Spustit: `python3 ~/.openclaw/workspace/scripts/editorial_gate.py ~/.openclaw/workspace/cache/morning_candidates_YYYY-MM-DD.json`
+   - Pokud gate vrátí FAIL/non-zero → NEPOSÍLAT finální report Romanovi, poslat audit do #ai_nastavení_lisa
+   - CREATE bez `duplicate_status=PASS`, bez evidence, bez `final_write_gate=PASS`, nebo s Roman Test < 3/4 je zakázané
+9. Portfolio selection (2 Discovery + 3 SEO + 5 Current Demand = target, ne kvóta)
+10. Output: brief do #redakční-plán pouze po Editorial Gate PASS
 
-**Output format:** Markdown report + JSON metadata do cache
+**Output format:** Markdown report + JSON metadata do cache + Editorial Gate audit
 
 **Timeout:** max 90 minut (završit do 7:30, odesílat 8:00)
 

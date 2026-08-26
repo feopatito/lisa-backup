@@ -22,5 +22,13 @@ cd "$WORKSPACE"
 
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] preflight PASS, starting OpenClaw heartbeat"
   /usr/local/bin/openclaw heartbeat morning_editorial_cycle
+  CANDIDATES="$WORKSPACE/cache/morning_candidates_$(date '+%Y-%m-%d').json"
+  if [[ -f "$CANDIDATES" ]]; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] running editorial gate audit"
+    /usr/bin/env python3 "$WORKSPACE/scripts/editorial_gate.py" "$CANDIDATES"
+  else
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: candidate JSON missing after heartbeat: $CANDIDATES"
+    exit 1
+  fi
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] morning_cycle_wrapper DONE"
 } >> "$LOG" 2>&1
