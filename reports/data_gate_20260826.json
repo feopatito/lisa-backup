@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-26",
+  "pass": true,
+  "results": {
+    "LSA (letemsvetemapplem.eu)": {
+      "gsc": "\u2705 PASS \u2014 5 queries, top: \"iphone 18\", celkem 273483 imp/7d",
+      "ga4": "\u2705 PASS \u2014 sessions 7d: ?, PV: ?",
+      "manticore": "\u2705 PASS \u2014 0 v\u00fdsledk\u016f pro \"iphone\""
+    },
+    "Samsung (samsungmagazine.eu)": {
+      "gsc": "\u2705 PASS \u2014 5 queries, top: \"samsung\", celkem 121830 imp/7d",
+      "ga4": "\u2705 PASS \u2014 sessions 7d: ?, PV: ?",
+      "manticore": "\u2705 PASS \u2014 0 v\u00fdsledk\u016f pro \"samsung\""
+    },
+    "Android (androidmagazine.eu)": {
+      "gsc": "\u2705 PASS \u2014 5 queries, top: \"\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9\u7528\u30c8\u30e9\u30c3\u30ab\", celkem 216 imp/7d",
+      "ga4": "\u2705 PASS \u2014 sessions 7d: ?, PV: ?",
+      "manticore": "\u2705 PASS \u2014 0 v\u00fdsledk\u016f pro \"android\""
+    }
+  }
+}

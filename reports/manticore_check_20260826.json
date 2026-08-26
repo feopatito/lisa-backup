@@ -1,0 +1,92 @@
+{
+  "letemsvetemapplem.eu": [
+    {
+      "query": "iphone 17 pro",
+      "imp": 66319,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "chatgpt",
+      "imp": 32238,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "lego",
+      "imp": 68243,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "apple watch ultra",
+      "imp": 15000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "mac mini",
+      "imp": 12000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    }
+  ],
+  "samsungmagazine.eu": [
+    {
+      "query": "samsung galaxy s26",
+      "imp": 50000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "galaxy watch ultra",
+      "imp": 30000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "one ui 8",
+      "imp": 25000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "samsung galaxy a56",
+      "imp": 20000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "galaxy s27",
+      "imp": 18000,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    }
+  ],
+  "androidmagazine.eu": [
+    {
+      "query": "always on display",
+      "imp": 261,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    },
+    {
+      "query": "android tips",
+      "imp": 200,
+      "manticore": "NO DUP",
+      "hits": 0,
+      "relevant": 0
+    }
+  ]
+}

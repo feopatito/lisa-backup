@@ -1,0 +1,4363 @@
+{
+  "source": "reports/lsa_evergreen_candidates_20260826.json",
+  "selected": [
+    {
+      "title": "Jak vypnout iPhone",
+      "inc": [
+        "vypnout",
+        "iphone"
+      ],
+      "exc": [
+        "vibrace",
+        "zvuk",
+        "fotoaparatu",
+        "autokorekci"
+      ],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Základní evergreen pro všechny modely + nouzové vypnutí tlačítky.",
+      "agg": {
+        "imp": 11152,
+        "clicks": 551,
+        "pos": 6.427187948350071,
+        "ctr": 0.049408177905308465,
+        "top_queries": [
+          {
+            "keys": [
+              "jak vypnout iphone"
+            ],
+            "clicks": 2,
+            "impressions": 1514,
+            "ctr": 0.001321003963011889,
+            "position": 9.641347424042273,
+            "q": "jak vypnout iphone",
+            "nq": "jak vypnout iphone"
+          },
+          {
+            "keys": [
+              "jak vypnout iphone 16"
+            ],
+            "clicks": 1,
+            "impressions": 583,
+            "ctr": 0.0017152658662092624,
+            "position": 9.30188679245283,
+            "q": "jak vypnout iphone 16",
+            "nq": "jak vypnout iphone 16"
+          },
+          {
+            "keys": [
+              "jak vypnout odposlech telefonu iphone"
+            ],
+            "clicks": 34,
+            "impressions": 568,
+            "ctr": 0.05985915492957746,
+            "position": 4.126760563380282,
+            "q": "jak vypnout odposlech telefonu iphone",
+            "nq": "jak vypnout odposlech telefonu iphone"
+          },
+          {
+            "keys": [
+              "jak vypnout iphone 13"
+            ],
+            "clicks": 1,
+            "impressions": 562,
+            "ctr": 0.0017793594306049821,
+            "position": 9.683274021352313,
+            "q": "jak vypnout iphone 13",
+            "nq": "jak vypnout iphone 13"
+          },
+          {
+            "keys": [
+              "jak vypnout polohu iphone"
+            ],
+            "clicks": 9,
+            "impressions": 541,
+            "ctr": 0.0166358595194085,
+            "position": 6.133086876155268,
+            "q": "jak vypnout polohu iphone",
+            "nq": "jak vypnout polohu iphone"
+          },
+          {
+            "keys": [
+              "jak vypnout voiceover iphone"
+            ],
+            "clicks": 72,
+            "impressions": 539,
+            "ctr": 0.13358070500927643,
+            "position": 3.7755102040816326,
+            "q": "jak vypnout voiceover iphone",
+            "nq": "jak vypnout voiceover iphone"
+          }
+        ],
+        "imp90": 647,
+        "clicks90": 19,
+        "pos90": 4.361669242658423,
+        "page": "https://www.letemsvetemapplem.eu/2023/09/05/4-zpusoby-jak-vypnout-nebo-restartovat-iphone-s-face-id/",
+        "page_imp": 1625,
+        "page_clicks": 3,
+        "page_pos": 10.711384615384615,
+        "query_count": 49
+      },
+      "score": 17919.0336,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iPhone nejde vypnout nebo nereaguje: tlačítka, Nastavení, AssistiveTouch a tvrdý restart",
+      "serp_adjusted_score": 35838.0672,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 1
+    },
+    {
+      "title": "Jak nastavit hlasitost budíku na iPhonu",
+      "inc": [
+        "hlasitost",
+        "budiku",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Hlasitost budíku vs vyzvánění, režimy, chyby.",
+      "agg": {
+        "imp": 7919,
+        "clicks": 47,
+        "pos": 7.82674580123753,
+        "ctr": 0.005935092814749337,
+        "top_queries": [
+          {
+            "keys": [
+              "hlasitost budíku iphone"
+            ],
+            "clicks": 15,
+            "impressions": 3781,
+            "ctr": 0.003967204443268976,
+            "position": 8.097328749008199,
+            "q": "hlasitost budíku iphone",
+            "nq": "hlasitost budiku iphone"
+          },
+          {
+            "keys": [
+              "iphone hlasitost budíku"
+            ],
+            "clicks": 10,
+            "impressions": 1017,
+            "ctr": 0.00983284169124877,
+            "position": 7.977384464110128,
+            "q": "iphone hlasitost budíku",
+            "nq": "iphone hlasitost budiku"
+          },
+          {
+            "keys": [
+              "jak nastavit hlasitost budíku iphone"
+            ],
+            "clicks": 6,
+            "impressions": 927,
+            "ctr": 0.006472491909385114,
+            "position": 7.206040992448759,
+            "q": "jak nastavit hlasitost budíku iphone",
+            "nq": "jak nastavit hlasitost budiku iphone"
+          },
+          {
+            "keys": [
+              "nastavení hlasitosti budíku iphone"
+            ],
+            "clicks": 1,
+            "impressions": 672,
+            "ctr": 0.001488095238095238,
+            "position": 7.824404761904762,
+            "q": "nastavení hlasitosti budíku iphone",
+            "nq": "nastaveni hlasitosti budiku iphone"
+          },
+          {
+            "keys": [
+              "jak zvysit hlasitost budiku iphone"
+            ],
+            "clicks": 2,
+            "impressions": 665,
+            "ctr": 0.0030075187969924814,
+            "position": 6.1533834586466165,
+            "q": "jak zvysit hlasitost budiku iphone",
+            "nq": "jak zvysit hlasitost budiku iphone"
+          },
+          {
+            "keys": [
+              "hlasitost budiku iphone"
+            ],
+            "clicks": 3,
+            "impressions": 323,
+            "ctr": 0.009287925696594427,
+            "position": 10.018575851393189,
+            "q": "hlasitost budiku iphone",
+            "nq": "hlasitost budiku iphone"
+          }
+        ],
+        "imp90": 532,
+        "clicks90": 5,
+        "pos90": 9.295112781954888,
+        "page": "https://www.letemsvetemapplem.eu/2023/03/30/jak-na-iphonu-nastavit-hlasitost-budiku/",
+        "page_imp": 6898,
+        "page_clicks": 30,
+        "page_pos": 7.63728616990432,
+        "query_count": 10
+      },
+      "score": 15619.812000000002,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Budík na iPhonu je potichu nebo nezvoní: hlasitost, režimy, spánek a opravy",
+      "serp_adjusted_score": 31239.624000000003,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 2
+    },
+    {
+      "title": "Jak připojit Apple Pencil k iPadu",
+      "inc": [
+        "pripojit",
+        "apple pencil"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Kompatibilita generací Pencil + párování + řešení problémů.",
+      "agg": {
+        "imp": 6301,
+        "clicks": 35,
+        "pos": 6.438184415172195,
+        "ctr": 0.005554673861291859,
+        "top_queries": [
+          {
+            "keys": [
+              "jak pripojit apple pencil"
+            ],
+            "clicks": 14,
+            "impressions": 4140,
+            "ctr": 0.003381642512077295,
+            "position": 6.925845410628019,
+            "q": "jak pripojit apple pencil",
+            "nq": "jak pripojit apple pencil"
+          },
+          {
+            "keys": [
+              "jak připojit apple pencil k ipadu"
+            ],
+            "clicks": 10,
+            "impressions": 1538,
+            "ctr": 0.006501950585175552,
+            "position": 5.915474642392718,
+            "q": "jak připojit apple pencil k ipadu",
+            "nq": "jak pripojit apple pencil k ipadu"
+          },
+          {
+            "keys": [
+              "jak připojit apple pencil 2 k ipadu"
+            ],
+            "clicks": 3,
+            "impressions": 266,
+            "ctr": 0.011278195488721804,
+            "position": 3.43609022556391,
+            "q": "jak připojit apple pencil 2 k ipadu",
+            "nq": "jak pripojit apple pencil 2 k ipadu"
+          },
+          {
+            "keys": [
+              "jak pripojit apple pencil k ipadu"
+            ],
+            "clicks": 1,
+            "impressions": 162,
+            "ctr": 0.006172839506172839,
+            "position": 5.7407407407407405,
+            "q": "jak pripojit apple pencil k ipadu",
+            "nq": "jak pripojit apple pencil k ipadu"
+          },
+          {
+            "keys": [
+              "jak připojit apple pencil 1. generace"
+            ],
+            "clicks": 6,
+            "impressions": 87,
+            "ctr": 0.06896551724137931,
+            "position": 4.35632183908046,
+            "q": "jak připojit apple pencil 1. generace",
+            "nq": "jak pripojit apple pencil 1. generace"
+          },
+          {
+            "keys": [
+              "jak připojit apple pencil s ipadem"
+            ],
+            "clicks": 1,
+            "impressions": 78,
+            "ctr": 0.01282051282051282,
+            "position": 4.935897435897436,
+            "q": "jak připojit apple pencil s ipadem",
+            "nq": "jak pripojit apple pencil s ipadem"
+          }
+        ],
+        "imp90": 193,
+        "clicks90": 1,
+        "pos90": 10.652849740932643,
+        "page": "https://www.letemsvetemapplem.eu/2022/12/24/prvni-kroky-s-apple-pencil/",
+        "page_imp": 5398,
+        "page_clicks": 34,
+        "page_pos": 5.92145238977399,
+        "query_count": 9
+      },
+      "score": 12450.828,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Apple Pencil nejde připojit k iPadu: kompatibilita, párování, nabíjení a opravy",
+      "serp_adjusted_score": 24901.656,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 3
+    },
+    {
+      "title": "Jak zapnout iPhone",
+      "inc": [
+        "zapnout",
+        "iphone"
+      ],
+      "exc": [
+        "nejde"
+      ],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Zapnutí, nabíjení, co dělat když nereaguje.",
+      "agg": {
+        "imp": 5458,
+        "clicks": 113,
+        "pos": 7.059545621106633,
+        "ctr": 0.020703554415536826,
+        "top_queries": [
+          {
+            "keys": [
+              "jak zapnout iphone"
+            ],
+            "clicks": 5,
+            "impressions": 1286,
+            "ctr": 0.0038880248833592537,
+            "position": 9.030326594090202,
+            "q": "jak zapnout iphone",
+            "nq": "jak zapnout iphone"
+          },
+          {
+            "keys": [
+              "jak zapnout vibrace na iphone"
+            ],
+            "clicks": 1,
+            "impressions": 676,
+            "ctr": 0.0014792899408284023,
+            "position": 8.22189349112426,
+            "q": "jak zapnout vibrace na iphone",
+            "nq": "jak zapnout vibrace na iphone"
+          },
+          {
+            "keys": [
+              "jak zapnout imessage na iphone"
+            ],
+            "clicks": 6,
+            "impressions": 658,
+            "ctr": 0.00911854103343465,
+            "position": 6.689969604863222,
+            "q": "jak zapnout imessage na iphone",
+            "nq": "jak zapnout imessage na iphone"
+          },
+          {
+            "keys": [
+              "jak zapnout hotspot na iphone"
+            ],
+            "clicks": 1,
+            "impressions": 617,
+            "ctr": 0.0016207455429497568,
+            "position": 6.513776337115073,
+            "q": "jak zapnout hotspot na iphone",
+            "nq": "jak zapnout hotspot na iphone"
+          },
+          {
+            "keys": [
+              "jak zapnout bezdrátové nabíjení iphone"
+            ],
+            "clicks": 21,
+            "impressions": 529,
+            "ctr": 0.03969754253308128,
+            "position": 5.168241965973535,
+            "q": "jak zapnout bezdrátové nabíjení iphone",
+            "nq": "jak zapnout bezdratove nabijeni iphone"
+          },
+          {
+            "keys": [
+              "jak zapnout cervene svetlo na iphone"
+            ],
+            "clicks": 23,
+            "impressions": 451,
+            "ctr": 0.050997782705099776,
+            "position": 3.2283813747228383,
+            "q": "jak zapnout cervene svetlo na iphone",
+            "nq": "jak zapnout cervene svetlo na iphone"
+          }
+        ],
+        "imp90": 153,
+        "clicks90": 6,
+        "pos90": 5.699346405228758,
+        "page": "https://www.letemsvetemapplem.eu/2018/08/27/co-delat-kdyz-se-iphone-z-niceho-nic-nechce-zapnout/",
+        "page_imp": 891,
+        "page_clicks": 2,
+        "page_pos": 8.603815937149271,
+        "query_count": 20
+      },
+      "score": 10011.143999999998,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iPhone nejde zapnout: černá obrazovka, nabíjení, tvrdý restart a kdy do servisu",
+      "serp_adjusted_score": 20022.287999999997,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 4
+    },
+    {
+      "title": "Jak zapnout iMessage",
+      "inc": [
+        "zapnout",
+        "imessage"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Aktivace iMessage, telefonní číslo, Apple ID, čekání na aktivaci.",
+      "agg": {
+        "imp": 5088,
+        "clicks": 36,
+        "pos": 6.03871855345912,
+        "ctr": 0.007075471698113208,
+        "top_queries": [
+          {
+            "keys": [
+              "jak zapnout imessage"
+            ],
+            "clicks": 20,
+            "impressions": 4109,
+            "ctr": 0.004867364322219518,
+            "position": 5.948162569968362,
+            "q": "jak zapnout imessage",
+            "nq": "jak zapnout imessage"
+          },
+          {
+            "keys": [
+              "jak zapnout imessage na iphone"
+            ],
+            "clicks": 6,
+            "impressions": 658,
+            "ctr": 0.00911854103343465,
+            "position": 6.689969604863222,
+            "q": "jak zapnout imessage na iphone",
+            "nq": "jak zapnout imessage na iphone"
+          },
+          {
+            "keys": [
+              "jak zapnout imessage u kontaktu"
+            ],
+            "clicks": 6,
+            "impressions": 127,
+            "ctr": 0.047244094488188976,
+            "position": 6.181102362204724,
+            "q": "jak zapnout imessage u kontaktu",
+            "nq": "jak zapnout imessage u kontaktu"
+          },
+          {
+            "keys": [
+              "imessage jak zapnout"
+            ],
+            "clicks": 2,
+            "impressions": 109,
+            "ctr": 0.01834862385321101,
+            "position": 5.651376146788991,
+            "q": "imessage jak zapnout",
+            "nq": "imessage jak zapnout"
+          },
+          {
+            "keys": [
+              "jak zapnout sluzbu imessage"
+            ],
+            "clicks": 1,
+            "impressions": 72,
+            "ctr": 0.013888888888888888,
+            "position": 5.625,
+            "q": "jak zapnout sluzbu imessage",
+            "nq": "jak zapnout sluzbu imessage"
+          },
+          {
+            "keys": [
+              "jak zapnout imessage iphone"
+            ],
+            "clicks": 1,
+            "impressions": 13,
+            "ctr": 0.07692307692307693,
+            "position": 5.846153846153846,
+            "q": "jak zapnout imessage iphone",
+            "nq": "jak zapnout imessage iphone"
+          }
+        ],
+        "imp90": 431,
+        "clicks90": 1,
+        "pos90": 6.459396751740139,
+        "page": "https://www.letemsvetemapplem.eu/2022/12/07/iphone-nefunguje-imessage/",
+        "page_imp": 4997,
+        "page_clicks": 29,
+        "page_pos": 6.082449469681809,
+        "query_count": 6
+      },
+      "score": 9981.504,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iMessage nejde aktivovat: nastavení, telefonní číslo, Apple ID a opravy aktivace",
+      "serp_adjusted_score": 19963.008,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 5
+    },
+    {
+      "title": "Jak smazat historii v Safari",
+      "inc": [
+        "smazat",
+        "historii",
+        "safari"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Smazání historie, cookies, anonymní režim, synchronizace přes iCloud.",
+      "agg": {
+        "imp": 4746,
+        "clicks": 19,
+        "pos": 5.788874841972187,
+        "ctr": 0.004003371260008428,
+        "top_queries": [
+          {
+            "keys": [
+              "jak smazat historii na safari"
+            ],
+            "clicks": 3,
+            "impressions": 2035,
+            "ctr": 0.0014742014742014742,
+            "position": 5.825552825552825,
+            "q": "jak smazat historii na safari",
+            "nq": "jak smazat historii na safari"
+          },
+          {
+            "keys": [
+              "jak smazat historii safari"
+            ],
+            "clicks": 11,
+            "impressions": 1784,
+            "ctr": 0.00616591928251121,
+            "position": 5.91872197309417,
+            "q": "jak smazat historii safari",
+            "nq": "jak smazat historii safari"
+          },
+          {
+            "keys": [
+              "smazat historii safari"
+            ],
+            "clicks": 1,
+            "impressions": 368,
+            "ctr": 0.002717391304347826,
+            "position": 5.940217391304348,
+            "q": "smazat historii safari",
+            "nq": "smazat historii safari"
+          },
+          {
+            "keys": [
+              "jak smazat historii v safari"
+            ],
+            "clicks": 1,
+            "impressions": 312,
+            "ctr": 0.003205128205128205,
+            "position": 5.310897435897436,
+            "q": "jak smazat historii v safari",
+            "nq": "jak smazat historii v safari"
+          },
+          {
+            "keys": [
+              "jak smazat historii safari iphone"
+            ],
+            "clicks": 1,
+            "impressions": 208,
+            "ctr": 0.004807692307692308,
+            "position": 5.0673076923076925,
+            "q": "jak smazat historii safari iphone",
+            "nq": "jak smazat historii safari iphone"
+          },
+          {
+            "keys": [
+              "jak smazat historii vyhledávání safari"
+            ],
+            "clicks": 1,
+            "impressions": 20,
+            "ctr": 0.05,
+            "position": 4.9,
+            "q": "jak smazat historii vyhledávání safari",
+            "nq": "jak smazat historii vyhledavani safari"
+          }
+        ],
+        "imp90": 143,
+        "clicks90": 2,
+        "pos90": 8.055944055944057,
+        "page": "https://www.letemsvetemapplem.eu/2022/03/24/jak-na-iphone-v-safari-vymazat-historii-prohlizeni/",
+        "page_imp": 4215,
+        "page_clicks": 15,
+        "page_pos": 5.99644128113879,
+        "query_count": 7
+      },
+      "score": 9447.047999999999,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Safari historie nejde smazat nebo se vrací: iCloud, Čas u obrazovky a soukromí",
+      "serp_adjusted_score": 18894.095999999998,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 6
+    },
+    {
+      "title": "Jak restartovat Apple Watch",
+      "inc": [
+        "restartovat",
+        "apple watch"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Restart, force restart, kdy nepoužívat při aktualizaci.",
+      "agg": {
+        "imp": 3612,
+        "clicks": 33,
+        "pos": 4.803986710963455,
+        "ctr": 0.009136212624584718,
+        "top_queries": [
+          {
+            "keys": [
+              "jak restartovat apple watch"
+            ],
+            "clicks": 33,
+            "impressions": 3605,
+            "ctr": 0.009153952843273232,
+            "position": 4.80249653259362,
+            "q": "jak restartovat apple watch",
+            "nq": "jak restartovat apple watch"
+          },
+          {
+            "keys": [
+              "ako restartovat apple watch"
+            ],
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 5.571428571428571,
+            "q": "ako restartovat apple watch",
+            "nq": "ako restartovat apple watch"
+          }
+        ],
+        "imp90": 627,
+        "clicks90": 2,
+        "pos90": 5.240829346092505,
+        "page": "https://www.letemsvetemapplem.eu/2019/04/03/jak-natvrdo-restartovat-apple-watch/",
+        "page_imp": 3595,
+        "page_clicks": 33,
+        "page_pos": 4.707649513212795,
+        "query_count": 2
+      },
+      "score": 8365.11,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Apple Watch nejdou restartovat: tvrdý restart, zamrzlé hodinky a kdy je resetovat",
+      "serp_adjusted_score": 16730.22,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 7
+    },
+    {
+      "title": "Face ID nefunguje: příčiny a opravy",
+      "inc": [
+        "face id",
+        "nefunguje"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Nastavení, TrueDepth, servis, kdy resetovat.",
+      "agg": {
+        "imp": 3805,
+        "clicks": 37,
+        "pos": 6.088567674113009,
+        "ctr": 0.009724047306176084,
+        "top_queries": [
+          {
+            "keys": [
+              "nefunguje face id"
+            ],
+            "clicks": 9,
+            "impressions": 1233,
+            "ctr": 0.0072992700729927005,
+            "position": 6.031630170316301,
+            "q": "nefunguje face id",
+            "nq": "nefunguje face id"
+          },
+          {
+            "keys": [
+              "proc mi nefunguje face id"
+            ],
+            "clicks": 2,
+            "impressions": 954,
+            "ctr": 0.0020964360587002098,
+            "position": 5.759958071278826,
+            "q": "proc mi nefunguje face id",
+            "nq": "proc mi nefunguje face id"
+          },
+          {
+            "keys": [
+              "face id nefunguje"
+            ],
+            "clicks": 15,
+            "impressions": 880,
+            "ctr": 0.017045454545454544,
+            "position": 6.986363636363636,
+            "q": "face id nefunguje",
+            "nq": "face id nefunguje"
+          },
+          {
+            "keys": [
+              "nefunguje mi face id"
+            ],
+            "clicks": 4,
+            "impressions": 350,
+            "ctr": 0.011428571428571429,
+            "position": 5.482857142857143,
+            "q": "nefunguje mi face id",
+            "nq": "nefunguje mi face id"
+          },
+          {
+            "keys": [
+              "proc nefunguje face id"
+            ],
+            "clicks": 3,
+            "impressions": 319,
+            "ctr": 0.009404388714733543,
+            "position": 5.620689655172414,
+            "q": "proc nefunguje face id",
+            "nq": "proc nefunguje face id"
+          },
+          {
+            "keys": [
+              "iphone nefunguje face id"
+            ],
+            "clicks": 4,
+            "impressions": 69,
+            "ctr": 0.057971014492753624,
+            "position": 5.434782608695652,
+            "q": "iphone nefunguje face id",
+            "nq": "iphone nefunguje face id"
+          }
+        ],
+        "imp90": 102,
+        "clicks90": 0,
+        "pos90": 12.254901960784315,
+        "page": "https://www.letemsvetemapplem.eu/2022/06/03/iphone-nejde-face-id/",
+        "page_imp": 3641,
+        "page_clicks": 36,
+        "page_pos": 5.699258445482011,
+        "query_count": 6
+      },
+      "score": 7677.3125,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Face ID nefunguje: špinavý senzor, rouška, servis, nastavení a opravy krok za krokem",
+      "serp_adjusted_score": 15354.625,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 8
+    },
+    {
+      "title": "Jak obnovit smazané soubory z SD karty",
+      "inc": [
+        "obnovit",
+        "smazane",
+        "sd"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "CREATE/UPDATE",
+      "why": "Data recovery evergreen, doplnit bezpečný postup a co už nedělat.",
+      "agg": {
+        "imp": 5041,
+        "clicks": 1,
+        "pos": 14.22495536599881,
+        "ctr": 0.00019837333862328903,
+        "top_queries": [
+          {
+            "keys": [
+              "jak obnovit smazané soubory z sd karty"
+            ],
+            "clicks": 1,
+            "impressions": 5041,
+            "ctr": 0.00019837333862328903,
+            "position": 14.22495536599881,
+            "q": "jak obnovit smazané soubory z sd karty",
+            "nq": "jak obnovit smazane soubory z sd karty"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2024/11/25/jak-obnovit-smazane-soubory-z-sd-karty-na-macu-zdarma-2024-pruvodce/",
+        "page_imp": 5029,
+        "page_clicks": 1,
+        "page_pos": 14.212368264068404,
+        "query_count": 1
+      },
+      "score": 7427.975,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Smazané soubory z SD karty na Macu: co lze obnovit, čemu se vyhnout a kdy je pozdě",
+      "serp_adjusted_score": 14855.95,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 9
+    },
+    {
+      "title": "WhatsApp podvod: jak ho poznat a co dělat",
+      "inc": [
+        "whatsapp",
+        "podvod"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Podvody, falešné zprávy, ochrana účtu.",
+      "agg": {
+        "imp": 4410,
+        "clicks": 268,
+        "pos": 6.798639455782313,
+        "ctr": 0.060770975056689346,
+        "top_queries": [
+          {
+            "keys": [
+              "whatsapp podvod"
+            ],
+            "clicks": 221,
+            "impressions": 3761,
+            "ctr": 0.058760967827705395,
+            "position": 5.576176548790215,
+            "q": "whatsapp podvod",
+            "nq": "whatsapp podvod"
+          },
+          {
+            "keys": [
+              "whatsapp podvodné zprávy"
+            ],
+            "clicks": 3,
+            "impressions": 172,
+            "ctr": 0.01744186046511628,
+            "position": 31.372093023255815,
+            "q": "whatsapp podvodné zprávy",
+            "nq": "whatsapp podvodne zpravy"
+          },
+          {
+            "keys": [
+              "podvod na whatsapp"
+            ],
+            "clicks": 10,
+            "impressions": 121,
+            "ctr": 0.08264462809917356,
+            "position": 5.479338842975206,
+            "q": "podvod na whatsapp",
+            "nq": "podvod na whatsapp"
+          },
+          {
+            "keys": [
+              "podvod whatsapp"
+            ],
+            "clicks": 11,
+            "impressions": 104,
+            "ctr": 0.10576923076923077,
+            "position": 5.9326923076923075,
+            "q": "podvod whatsapp",
+            "nq": "podvod whatsapp"
+          },
+          {
+            "keys": [
+              "podvody na whatsapp"
+            ],
+            "clicks": 3,
+            "impressions": 90,
+            "ctr": 0.03333333333333333,
+            "position": 5.788888888888889,
+            "q": "podvody na whatsapp",
+            "nq": "podvody na whatsapp"
+          },
+          {
+            "keys": [
+              "podvodný whatsapp"
+            ],
+            "clicks": 2,
+            "impressions": 44,
+            "ctr": 0.045454545454545456,
+            "position": 10.431818181818182,
+            "q": "podvodný whatsapp",
+            "nq": "podvodny whatsapp"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2025/05/09/policie-varuje-nebezpecny-podvod-pres-whatsapp-laka-na-hlasovani-v-oblibenych-soutezich-lide-prichazi-o-penize/",
+        "page_imp": 2326,
+        "page_clicks": 68,
+        "page_pos": 7.2979363714531384,
+        "query_count": 15
+      },
+      "score": 7381.2375,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "WhatsApp podvod: jak poznat falešné hlasování, krádež účtu a co udělat hned",
+      "serp_adjusted_score": 14762.475,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 10
+    },
+    {
+      "title": "iPhone nejde zapnout",
+      "inc": [
+        "iphone",
+        "nejde",
+        "zapnout"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Diagnostický návod: baterie, logo Apple, hard reset, servis.",
+      "agg": {
+        "imp": 4331,
+        "clicks": 250,
+        "pos": 9.199722927730317,
+        "ctr": 0.057723389517432465,
+        "top_queries": [
+          {
+            "keys": [
+              "iphone nejde zapnout"
+            ],
+            "clicks": 102,
+            "impressions": 2922,
+            "ctr": 0.03490759753593429,
+            "position": 11.021902806297057,
+            "q": "iphone nejde zapnout",
+            "nq": "iphone nejde zapnout"
+          },
+          {
+            "keys": [
+              "vybitý iphone nejde zapnout"
+            ],
+            "clicks": 22,
+            "impressions": 458,
+            "ctr": 0.048034934497816595,
+            "position": 5.713973799126638,
+            "q": "vybitý iphone nejde zapnout",
+            "nq": "vybity iphone nejde zapnout"
+          },
+          {
+            "keys": [
+              "iphone nejde zapnout svítí jablko"
+            ],
+            "clicks": 45,
+            "impressions": 277,
+            "ctr": 0.1624548736462094,
+            "position": 3.4981949458483754,
+            "q": "iphone nejde zapnout svítí jablko",
+            "nq": "iphone nejde zapnout sviti jablko"
+          },
+          {
+            "keys": [
+              "nejde zapnout iphone"
+            ],
+            "clicks": 25,
+            "impressions": 213,
+            "ctr": 0.11737089201877934,
+            "position": 5.187793427230047,
+            "q": "nejde zapnout iphone",
+            "nq": "nejde zapnout iphone"
+          },
+          {
+            "keys": [
+              "iphone nejde zapnout wifi"
+            ],
+            "clicks": 8,
+            "impressions": 188,
+            "ctr": 0.0425531914893617,
+            "position": 10.909574468085106,
+            "q": "iphone nejde zapnout wifi",
+            "nq": "iphone nejde zapnout wifi"
+          },
+          {
+            "keys": [
+              "nejde mi zapnout iphone"
+            ],
+            "clicks": 23,
+            "impressions": 168,
+            "ctr": 0.13690476190476192,
+            "position": 3.6547619047619047,
+            "q": "nejde mi zapnout iphone",
+            "nq": "nejde mi zapnout iphone"
+          }
+        ],
+        "imp90": 561,
+        "clicks90": 13,
+        "pos90": 7.841354723707665,
+        "page": "https://www.letemsvetemapplem.eu/2022/06/01/iphone-nejde-zapnout/",
+        "page_imp": 2642,
+        "page_clicks": 183,
+        "page_pos": 4.032551097653293,
+        "query_count": 10
+      },
+      "score": 7249.0112500000005,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iPhone nejde zapnout: nabíjení, tvrdý restart, obnova a kdy už je problém hardware",
+      "serp_adjusted_score": 14498.022500000001,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 11
+    },
+    {
+      "title": "Jak restartovat iPhone",
+      "inc": [
+        "restartovat",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Soft restart, force restart podle modelů, kdy použít.",
+      "agg": {
+        "imp": 4081,
+        "clicks": 64,
+        "pos": 10.583435432492037,
+        "ctr": 0.0156824307767704,
+        "top_queries": [
+          {
+            "keys": [
+              "jak restartovat iphone"
+            ],
+            "clicks": 1,
+            "impressions": 1423,
+            "ctr": 0.0007027406886858749,
+            "position": 14.607167955024597,
+            "q": "jak restartovat iphone",
+            "nq": "jak restartovat iphone"
+          },
+          {
+            "keys": [
+              "jak restartovat iphone 11"
+            ],
+            "clicks": 3,
+            "impressions": 927,
+            "ctr": 0.003236245954692557,
+            "position": 10.058252427184467,
+            "q": "jak restartovat iphone 11",
+            "nq": "jak restartovat iphone 11"
+          },
+          {
+            "keys": [
+              "jak restartovat iphone 12"
+            ],
+            "clicks": 4,
+            "impressions": 723,
+            "ctr": 0.005532503457814661,
+            "position": 7.289073305670816,
+            "q": "jak restartovat iphone 12",
+            "nq": "jak restartovat iphone 12"
+          },
+          {
+            "keys": [
+              "jak restartovat fotoaparát iphone"
+            ],
+            "clicks": 32,
+            "impressions": 297,
+            "ctr": 0.10774410774410774,
+            "position": 3.121212121212121,
+            "q": "jak restartovat fotoaparát iphone",
+            "nq": "jak restartovat fotoaparat iphone"
+          },
+          {
+            "keys": [
+              "jak restartovat iphone se 2020"
+            ],
+            "clicks": 6,
+            "impressions": 194,
+            "ctr": 0.030927835051546393,
+            "position": 6.118556701030927,
+            "q": "jak restartovat iphone se 2020",
+            "nq": "jak restartovat iphone se 2020"
+          },
+          {
+            "keys": [
+              "jak restartovat iphone 13"
+            ],
+            "clicks": 2,
+            "impressions": 179,
+            "ctr": 0.0111731843575419,
+            "position": 11.888268156424582,
+            "q": "jak restartovat iphone 13",
+            "nq": "jak restartovat iphone 13"
+          }
+        ],
+        "imp90": 34,
+        "clicks90": 1,
+        "pos90": 5.5,
+        "page": "https://www.letemsvetemapplem.eu/2020/12/10/jak-iphone-12-a-12-pro-vynucene-restartovat-a-dostat-do-rezimu-zotaveni-ci-dfu/",
+        "page_imp": 1476,
+        "page_clicks": 5,
+        "page_pos": 10.571138211382113,
+        "query_count": 16
+      },
+      "score": 7201.3175,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iPhone je zamrzlý: jak ho vynuceně restartovat podle modelu a kdy použít recovery",
+      "serp_adjusted_score": 14402.635,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 12
+    },
+    {
+      "title": "Jak restartovat MacBook",
+      "inc": [
+        "restartovat",
+        "macbook"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Restart, force restart, zamrzlý Mac, Apple Silicon.",
+      "agg": {
+        "imp": 2731,
+        "clicks": 6,
+        "pos": 8.366898571951667,
+        "ctr": 0.0021969974368363236,
+        "top_queries": [
+          {
+            "keys": [
+              "jak restartovat macbook"
+            ],
+            "clicks": 4,
+            "impressions": 2704,
+            "ctr": 0.0014792899408284023,
+            "position": 8.376849112426036,
+            "q": "jak restartovat macbook",
+            "nq": "jak restartovat macbook"
+          },
+          {
+            "keys": [
+              "jak restartovat macbook když nereaguje"
+            ],
+            "clicks": 1,
+            "impressions": 19,
+            "ctr": 0.05263157894736842,
+            "position": 7,
+            "q": "jak restartovat macbook když nereaguje",
+            "nq": "jak restartovat macbook kdyz nereaguje"
+          },
+          {
+            "keys": [
+              "ako restartovat macbook"
+            ],
+            "clicks": 1,
+            "impressions": 8,
+            "ctr": 0.125,
+            "position": 8.25,
+            "q": "ako restartovat macbook",
+            "nq": "ako restartovat macbook"
+          }
+        ],
+        "imp90": 4,
+        "clicks90": 0,
+        "pos90": 9.25,
+        "page": "https://www.letemsvetemapplem.eu/2021/06/13/jak-restartovat-mac/",
+        "page_imp": 2644,
+        "page_clicks": 2,
+        "page_pos": 8.21444780635401,
+        "query_count": 3
+      },
+      "score": 5710.7375,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "MacBook je zamrzlý nebo nejde vypnout: bezpečný restart, force quit a obnova",
+      "serp_adjusted_score": 11421.475,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 13
+    },
+    {
+      "title": "WhatsApp Web: přihlášení, odhlášení a bezpečnost",
+      "inc": [
+        "whatsapp web"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Párování, odhlášení zařízení, notifikace.",
+      "agg": {
+        "imp": 2338,
+        "clicks": 5,
+        "pos": 5.886655260906758,
+        "ctr": 0.00213857998289136,
+        "top_queries": [
+          {
+            "keys": [
+              "whatsapp web"
+            ],
+            "clicks": 2,
+            "impressions": 2335,
+            "ctr": 0.0008565310492505353,
+            "position": 5.8886509635974305,
+            "q": "whatsapp web",
+            "nq": "whatsapp web"
+          },
+          {
+            "keys": [
+              "whatsapp web iphone"
+            ],
+            "clicks": 2,
+            "impressions": 2,
+            "ctr": 1,
+            "position": 6,
+            "q": "whatsapp web iphone",
+            "nq": "whatsapp web iphone"
+          },
+          {
+            "keys": [
+              "whatsapp web chatgpt"
+            ],
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 1,
+            "q": "whatsapp web chatgpt",
+            "nq": "whatsapp web chatgpt"
+          }
+        ],
+        "imp90": 2322,
+        "clicks90": 2,
+        "pos90": 5.856158484065461,
+        "page": "https://www.letemsvetemapplem.eu/2026/07/29/whatsapp-web-dohani-mobilni-aplikaci-z-prohlizece-si-konecne-zavolate-a-snadno-prepnete-hovor-mezi-zarizenimi/",
+        "page_imp": 2309,
+        "page_clicks": 2,
+        "page_pos": 5.8531831961888265,
+        "query_count": 3
+      },
+      "score": 4694.664000000001,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "WhatsApp Web bezpečně: přihlášení, odhlášení ze všech zařízení a kontrola cizího přístupu",
+      "serp_adjusted_score": 9389.328000000001,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 14
+    },
+    {
+      "title": "Jak resetovat iPhone / tovární nastavení",
+      "inc": [
+        "resetovat",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Tovární nastavení, reset nastavení, bez ztráty dat vs vymazání.",
+      "agg": {
+        "imp": 2472,
+        "clicks": 22,
+        "pos": 10.062702265372168,
+        "ctr": 0.00889967637540453,
+        "top_queries": [
+          {
+            "keys": [
+              "jak resetovat iphone"
+            ],
+            "clicks": 2,
+            "impressions": 1884,
+            "ctr": 0.0010615711252653928,
+            "position": 10.679936305732484,
+            "q": "jak resetovat iphone",
+            "nq": "jak resetovat iphone"
+          },
+          {
+            "keys": [
+              "jak resetovat iphone do továrního nastavení"
+            ],
+            "clicks": 4,
+            "impressions": 255,
+            "ctr": 0.01568627450980392,
+            "position": 11.647058823529411,
+            "q": "jak resetovat iphone do továrního nastavení",
+            "nq": "jak resetovat iphone do tovarniho nastaveni"
+          },
+          {
+            "keys": [
+              "co znamena resetovat iphone"
+            ],
+            "clicks": 4,
+            "impressions": 224,
+            "ctr": 0.017857142857142856,
+            "position": 5.861607142857143,
+            "q": "co znamena resetovat iphone",
+            "nq": "co znamena resetovat iphone"
+          },
+          {
+            "keys": [
+              "jak resetovat iphone bez hesla"
+            ],
+            "clicks": 10,
+            "impressions": 85,
+            "ctr": 0.11764705882352941,
+            "position": 3.776470588235294,
+            "q": "jak resetovat iphone bez hesla",
+            "nq": "jak resetovat iphone bez hesla"
+          },
+          {
+            "keys": [
+              "jak resetovat iphone 11"
+            ],
+            "clicks": 1,
+            "impressions": 18,
+            "ctr": 0.05555555555555555,
+            "position": 5.833333333333333,
+            "q": "jak resetovat iphone 11",
+            "nq": "jak resetovat iphone 11"
+          },
+          {
+            "keys": [
+              "ako resetovat iphone do tovarenskych nastavení"
+            ],
+            "clicks": 1,
+            "impressions": 3,
+            "ctr": 0.3333333333333333,
+            "position": 7.666666666666667,
+            "q": "ako resetovat iphone do tovarenskych nastavení",
+            "nq": "ako resetovat iphone do tovarenskych nastaveni"
+          }
+        ],
+        "imp90": 40,
+        "clicks90": 0,
+        "pos90": 9.5,
+        "page": "https://www.letemsvetemapplem.eu/2022/03/22/jak-obnovit-iphone-do-tovarniho-nastaveni-kdyz-neznate-heslo-k-apple-id/",
+        "page_imp": 2121,
+        "page_clicks": 17,
+        "page_pos": 9.907590759075907,
+        "query_count": 7
+      },
+      "score": 4525.5599999999995,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Tovární nastavení iPhonu bez ztráty dat: záloha, Apple ID, Find My a prodej telefonu",
+      "serp_adjusted_score": 9051.119999999999,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 15
+    },
+    {
+      "title": "Jak vypnout MacBook",
+      "inc": [
+        "vypnout",
+        "macbook"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Vypnutí, uspání, restart, vynucené vypnutí.",
+      "agg": {
+        "imp": 2124,
+        "clicks": 5,
+        "pos": 9.587099811676083,
+        "ctr": 0.0023540489642184556,
+        "top_queries": [
+          {
+            "keys": [
+              "jak vypnout macbook"
+            ],
+            "clicks": 1,
+            "impressions": 1713,
+            "ctr": 0.0005837711617046118,
+            "position": 9.290718038528897,
+            "q": "jak vypnout macbook",
+            "nq": "jak vypnout macbook"
+          },
+          {
+            "keys": [
+              "jak vypnout macbook pomocí klávesnice"
+            ],
+            "clicks": 1,
+            "impressions": 361,
+            "ctr": 0.002770083102493075,
+            "position": 11.357340720221607,
+            "q": "jak vypnout macbook pomocí klávesnice",
+            "nq": "jak vypnout macbook pomoci klavesnice"
+          },
+          {
+            "keys": [
+              "jak vypnout macbook air"
+            ],
+            "clicks": 1,
+            "impressions": 29,
+            "ctr": 0.034482758620689655,
+            "position": 9.275862068965518,
+            "q": "jak vypnout macbook air",
+            "nq": "jak vypnout macbook air"
+          },
+          {
+            "keys": [
+              "jak natvrdo vypnout macbook"
+            ],
+            "clicks": 1,
+            "impressions": 17,
+            "ctr": 0.058823529411764705,
+            "position": 3.8823529411764706,
+            "q": "jak natvrdo vypnout macbook",
+            "nq": "jak natvrdo vypnout macbook"
+          },
+          {
+            "keys": [
+              "jak vypnout kameru na macbooku"
+            ],
+            "clicks": 1,
+            "impressions": 4,
+            "ctr": 0.25,
+            "position": 3.25,
+            "q": "jak vypnout kameru na macbooku",
+            "nq": "jak vypnout kameru na macbooku"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2021/05/19/jak-na-macu-nastavit-jeho-vypnuti-restart-ci-uspani-za-urcity-cas/",
+        "page_imp": 593,
+        "page_clicks": 2,
+        "page_pos": 10.143338954468803,
+        "query_count": 5
+      },
+      "score": 4260.6720000000005,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "MacBook nejde vypnout nebo se sám probouzí: vypnutí, restart, spánek a plánování",
+      "serp_adjusted_score": 8521.344000000001,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 16
+    },
+    {
+      "title": "Jak smazat systémová data iPhone",
+      "inc": [
+        "systemova data",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Co jsou systémová data a co reálně pomůže.",
+      "agg": {
+        "imp": 3785,
+        "clicks": 1218,
+        "pos": 1.7894319682959048,
+        "ctr": 0.32179656538969614,
+        "top_queries": [
+          {
+            "keys": [
+              "systemova data iphone"
+            ],
+            "clicks": 484,
+            "impressions": 1110,
+            "ctr": 0.436036036036036,
+            "position": 1.4225225225225224,
+            "q": "systemova data iphone",
+            "nq": "systemova data iphone"
+          },
+          {
+            "keys": [
+              "jak smazat systémová data iphone"
+            ],
+            "clicks": 185,
+            "impressions": 1076,
+            "ctr": 0.17193308550185873,
+            "position": 2.145910780669145,
+            "q": "jak smazat systémová data iphone",
+            "nq": "jak smazat systemova data iphone"
+          },
+          {
+            "keys": [
+              "systémová data iphone"
+            ],
+            "clicks": 187,
+            "impressions": 386,
+            "ctr": 0.4844559585492228,
+            "position": 2.005181347150259,
+            "q": "systémová data iphone",
+            "nq": "systemova data iphone"
+          },
+          {
+            "keys": [
+              "iphone systemova data"
+            ],
+            "clicks": 163,
+            "impressions": 287,
+            "ctr": 0.5679442508710801,
+            "position": 1.2926829268292683,
+            "q": "iphone systemova data",
+            "nq": "iphone systemova data"
+          },
+          {
+            "keys": [
+              "jak vymazat systémová data iphone"
+            ],
+            "clicks": 48,
+            "impressions": 261,
+            "ctr": 0.1839080459770115,
+            "position": 2.260536398467433,
+            "q": "jak vymazat systémová data iphone",
+            "nq": "jak vymazat systemova data iphone"
+          },
+          {
+            "keys": [
+              "co jsou systemova data iphone"
+            ],
+            "clicks": 80,
+            "impressions": 247,
+            "ctr": 0.32388663967611336,
+            "position": 1.6599190283400809,
+            "q": "co jsou systemova data iphone",
+            "nq": "co jsou systemova data iphone"
+          }
+        ],
+        "imp90": 412,
+        "clicks90": 39,
+        "pos90": 2.9805825242718447,
+        "page": "https://www.letemsvetemapplem.eu/2021/12/16/jak-odstranit-systemova-data-v-iphone/",
+        "page_imp": 3666,
+        "page_clicks": 1037,
+        "page_pos": 1.8456082924168031,
+        "query_count": 11
+      },
+      "score": 3167.571875,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Systémová data v iPhonu zabírají místo: co jde smazat a co je jen cache iOS",
+      "serp_adjusted_score": 6335.14375,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 17
+    },
+    {
+      "title": "iPhone se nenabíjí",
+      "inc": [
+        "iphone",
+        "nenabiji"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Kabel, konektor, optimalizované nabíjení, software, servis.",
+      "agg": {
+        "imp": 2228,
+        "clicks": 17,
+        "pos": 15.685368043087971,
+        "ctr": 0.00763016157989228,
+        "top_queries": [
+          {
+            "keys": [
+              "iphone se nenabíjí"
+            ],
+            "clicks": 1,
+            "impressions": 1062,
+            "ctr": 0.0009416195856873823,
+            "position": 17.048022598870055,
+            "q": "iphone se nenabíjí",
+            "nq": "iphone se nenabiji"
+          },
+          {
+            "keys": [
+              "iphone nenabíjí"
+            ],
+            "clicks": 2,
+            "impressions": 404,
+            "ctr": 0.0049504950495049506,
+            "position": 18.584158415841586,
+            "q": "iphone nenabíjí",
+            "nq": "iphone nenabiji"
+          },
+          {
+            "keys": [
+              "iphone se nenabiji"
+            ],
+            "clicks": 1,
+            "impressions": 241,
+            "ctr": 0.004149377593360996,
+            "position": 15.08713692946058,
+            "q": "iphone se nenabiji",
+            "nq": "iphone se nenabiji"
+          },
+          {
+            "keys": [
+              "iphone nenabiji"
+            ],
+            "clicks": 1,
+            "impressions": 228,
+            "ctr": 0.0043859649122807015,
+            "position": 15.013157894736842,
+            "q": "iphone nenabiji",
+            "nq": "iphone nenabiji"
+          },
+          {
+            "keys": [
+              "iphone ukazuje že nabíjí ale nenabíjí"
+            ],
+            "clicks": 5,
+            "impressions": 124,
+            "ctr": 0.04032258064516129,
+            "position": 7.112903225806452,
+            "q": "iphone ukazuje že nabíjí ale nenabíjí",
+            "nq": "iphone ukazuje ze nabiji ale nenabiji"
+          },
+          {
+            "keys": [
+              "nenabiji mi iphone"
+            ],
+            "clicks": 2,
+            "impressions": 84,
+            "ctr": 0.023809523809523808,
+            "position": 9.30952380952381,
+            "q": "nenabiji mi iphone",
+            "nq": "nenabiji mi iphone"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2024/01/31/co-delat-kdyz-se-iphone-nenabiji/",
+        "page_imp": 653,
+        "page_clicks": 4,
+        "page_pos": 15.130168453292496,
+        "query_count": 8
+      },
+      "score": 3158.8,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iPhone se nenabíjí: kabel, port, optimalizace baterie, MagSafe a servisní varovné signály",
+      "serp_adjusted_score": 6317.6,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 18
+    },
+    {
+      "title": "Jak resetovat Apple Watch",
+      "inc": [
+        "resetovat",
+        "apple watch"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Reset před prodejem, odpárování, zámek aktivace.",
+      "agg": {
+        "imp": 1474,
+        "clicks": 6,
+        "pos": 9.200814111261872,
+        "ctr": 0.004070556309362279,
+        "top_queries": [
+          {
+            "keys": [
+              "jak resetovat apple watch"
+            ],
+            "clicks": 6,
+            "impressions": 1470,
+            "ctr": 0.004081632653061225,
+            "position": 9.208163265306123,
+            "q": "jak resetovat apple watch",
+            "nq": "jak resetovat apple watch"
+          },
+          {
+            "keys": [
+              "ako resetovat apple watch"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 7,
+            "q": "ako resetovat apple watch",
+            "nq": "ako resetovat apple watch"
+          },
+          {
+            "keys": [
+              "ako resetovať apple watch"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 6,
+            "q": "ako resetovať apple watch",
+            "nq": "ako resetovat apple watch"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2019/04/03/jak-natvrdo-restartovat-apple-watch/",
+        "page_imp": 1457,
+        "page_clicks": 6,
+        "page_pos": 9.165408373369939,
+        "query_count": 3
+      },
+      "score": 3055.325,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Apple Watch reset: kdy stačí restart, kdy tovární nastavení a jak neztratit data",
+      "serp_adjusted_score": 6110.65,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 19
+    },
+    {
+      "title": "Jak uvolnit místo v iPhonu",
+      "inc": [
+        "uvolnit",
+        "misto",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Úložiště, fotky, systémová data, aplikace, iCloud.",
+      "agg": {
+        "imp": 1635,
+        "clicks": 43,
+        "pos": 5.125382262996942,
+        "ctr": 0.026299694189602447,
+        "top_queries": [
+          {
+            "keys": [
+              "jak uvolnit misto v iphone"
+            ],
+            "clicks": 41,
+            "impressions": 1538,
+            "ctr": 0.026657997399219768,
+            "position": 4.81924577373212,
+            "q": "jak uvolnit misto v iphone",
+            "nq": "jak uvolnit misto v iphone"
+          },
+          {
+            "keys": [
+              "jak uvolnit misto iphone"
+            ],
+            "clicks": 2,
+            "impressions": 97,
+            "ctr": 0.020618556701030927,
+            "position": 9.97938144329897,
+            "q": "jak uvolnit misto iphone",
+            "nq": "jak uvolnit misto iphone"
+          }
+        ],
+        "imp90": 318,
+        "clicks90": 5,
+        "pos90": 6.622641509433962,
+        "page": "https://www.letemsvetemapplem.eu/2019/01/13/10-tipu-a-triku-triku-pro-uvolneni-uloziste-ve-vasem-iphonu/",
+        "page_imp": 1576,
+        "page_clicks": 42,
+        "page_pos": 5.649746192893401,
+        "query_count": 2
+      },
+      "score": 2913.2999999999997,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Úložiště iPhonu je plné: co smazat bezpečně, Fotky, WhatsApp a systémová data",
+      "serp_adjusted_score": 5826.599999999999,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 20
+    },
+    {
+      "title": "Zapomenuté heslo Apple ID",
+      "inc": [
+        "zapomenute",
+        "heslo",
+        "apple id"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Obnova hesla, důvěryhodné zařízení, čekací doba.",
+      "agg": {
+        "imp": 1145,
+        "clicks": 7,
+        "pos": 9.509170305676856,
+        "ctr": 0.00611353711790393,
+        "top_queries": [
+          {
+            "keys": [
+              "zapomenuté heslo apple id"
+            ],
+            "clicks": 3,
+            "impressions": 734,
+            "ctr": 0.004087193460490463,
+            "position": 8.923705722070846,
+            "q": "zapomenuté heslo apple id",
+            "nq": "zapomenute heslo apple id"
+          },
+          {
+            "keys": [
+              "apple id zapomenuté heslo"
+            ],
+            "clicks": 0,
+            "impressions": 255,
+            "ctr": 0,
+            "position": 10.63921568627451,
+            "q": "apple id zapomenuté heslo",
+            "nq": "apple id zapomenute heslo"
+          },
+          {
+            "keys": [
+              "zapomenute heslo apple id"
+            ],
+            "clicks": 2,
+            "impressions": 68,
+            "ctr": 0.029411764705882353,
+            "position": 8.544117647058822,
+            "q": "zapomenute heslo apple id",
+            "nq": "zapomenute heslo apple id"
+          },
+          {
+            "keys": [
+              "apple id zapomenuté heslo iphone"
+            ],
+            "clicks": 1,
+            "impressions": 39,
+            "ctr": 0.02564102564102564,
+            "position": 8.897435897435898,
+            "q": "apple id zapomenuté heslo iphone",
+            "nq": "apple id zapomenute heslo iphone"
+          },
+          {
+            "keys": [
+              "zapomenuté heslo k apple id"
+            ],
+            "clicks": 1,
+            "impressions": 29,
+            "ctr": 0.034482758620689655,
+            "position": 8.310344827586206,
+            "q": "zapomenuté heslo k apple id",
+            "nq": "zapomenute heslo k apple id"
+          },
+          {
+            "keys": [
+              "apple id zapomenute heslo"
+            ],
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 22.8,
+            "q": "apple id zapomenute heslo",
+            "nq": "apple id zapomenute heslo"
+          }
+        ],
+        "imp90": 15,
+        "clicks90": 0,
+        "pos90": 21.266666666666666,
+        "page": "https://www.letemsvetemapplem.eu/2022/08/06/jak-resetovat-apple-id/",
+        "page_imp": 804,
+        "page_clicks": 6,
+        "page_pos": 8.756218905472636,
+        "query_count": 6
+      },
+      "score": 2350.5625,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Zapomenuté heslo Apple ID: obnova účtu, důvěryhodné číslo a co dělat bez zařízení",
+      "serp_adjusted_score": 4701.125,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 21
+    },
+    {
+      "title": "Jak sdílet Wi‑Fi heslo z iPhonu",
+      "inc": [
+        "sdilet",
+        "wifi",
+        "heslo",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Sdílení hesla mezi Apple zařízeními, QR workaround.",
+      "agg": {
+        "imp": 1133,
+        "clicks": 16,
+        "pos": 5.781112091791703,
+        "ctr": 0.01412180052956752,
+        "top_queries": [
+          {
+            "keys": [
+              "jak sdílet heslo na wifi iphone"
+            ],
+            "clicks": 4,
+            "impressions": 532,
+            "ctr": 0.007518796992481203,
+            "position": 5.962406015037594,
+            "q": "jak sdílet heslo na wifi iphone",
+            "nq": "jak sdilet heslo na wifi iphone"
+          },
+          {
+            "keys": [
+              "jak sdilet wifi heslo iphone"
+            ],
+            "clicks": 10,
+            "impressions": 502,
+            "ctr": 0.0199203187250996,
+            "position": 5.5717131474103585,
+            "q": "jak sdilet wifi heslo iphone",
+            "nq": "jak sdilet wifi heslo iphone"
+          },
+          {
+            "keys": [
+              "jak sdílet heslo wifi iphone"
+            ],
+            "clicks": 1,
+            "impressions": 56,
+            "ctr": 0.017857142857142856,
+            "position": 6.660714285714286,
+            "q": "jak sdílet heslo wifi iphone",
+            "nq": "jak sdilet heslo wifi iphone"
+          },
+          {
+            "keys": [
+              "sdilet wifi heslo iphone"
+            ],
+            "clicks": 1,
+            "impressions": 43,
+            "ctr": 0.023255813953488372,
+            "position": 4.837209302325581,
+            "q": "sdilet wifi heslo iphone",
+            "nq": "sdilet wifi heslo iphone"
+          }
+        ],
+        "imp90": 136,
+        "clicks90": 3,
+        "pos90": 6.419117647058823,
+        "page": "https://www.letemsvetemapplem.eu/2024/09/18/jak-v-ios-18-sdilet-heslo-na-wifi-prostrednictvim-qr-kodu/",
+        "page_imp": 1053,
+        "page_clicks": 15,
+        "page_pos": 5.8243114909781575,
+        "query_count": 4
+      },
+      "score": 2147.964,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Sdílení Wi‑Fi hesla z iPhonu: QR, kontakty, iCloud Keychain a když sdílení nefunguje",
+      "serp_adjusted_score": 4295.928,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 22
+    },
+    {
+      "title": "Apple ID registrace / vytvoření účtu",
+      "inc": [
+        "apple id",
+        "registrace"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Vytvoření Apple ID, věk, platební karta, bezpečnost.",
+      "agg": {
+        "imp": 1132,
+        "clicks": 9,
+        "pos": 10.796819787985866,
+        "ctr": 0.007950530035335688,
+        "top_queries": [
+          {
+            "keys": [
+              "apple id registrace"
+            ],
+            "clicks": 9,
+            "impressions": 1131,
+            "ctr": 0.007957559681697613,
+            "position": 10.799292661361626,
+            "q": "apple id registrace",
+            "nq": "apple id registrace"
+          },
+          {
+            "keys": [
+              "apple id registrace online"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8,
+            "q": "apple id registrace online",
+            "nq": "apple id registrace online"
+          }
+        ],
+        "imp90": 82,
+        "clicks90": 0,
+        "pos90": 14.487804878048781,
+        "page": "https://www.letemsvetemapplem.eu/2020/12/24/pro-zacatecniky-jak-zalozit-apple-id-bez-kreditni-karty-2020/",
+        "page_imp": 1009,
+        "page_clicks": 9,
+        "page_pos": 10.461843409316154,
+        "query_count": 2
+      },
+      "score": 1999.5456000000001,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Apple ID bez platební karty: založení účtu, věk dítěte, rodina a bezpečnost",
+      "serp_adjusted_score": 3999.0912000000003,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 23
+    },
+    {
+      "title": "Jak aktualizovat iPhone",
+      "inc": [
+        "aktualizovat",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Aktualizace iOS, místo, Wi‑Fi, starší modely.",
+      "agg": {
+        "imp": 1015,
+        "clicks": 16,
+        "pos": 9.351724137931035,
+        "ctr": 0.015763546798029555,
+        "top_queries": [
+          {
+            "keys": [
+              "jak aktualizovat iphone"
+            ],
+            "clicks": 1,
+            "impressions": 481,
+            "ctr": 0.002079002079002079,
+            "position": 10.388773388773389,
+            "q": "jak aktualizovat iphone",
+            "nq": "jak aktualizovat iphone"
+          },
+          {
+            "keys": [
+              "jak aktualizovat iphone 7 na ios 16"
+            ],
+            "clicks": 5,
+            "impressions": 320,
+            "ctr": 0.015625,
+            "position": 9.1,
+            "q": "jak aktualizovat iphone 7 na ios 16",
+            "nq": "jak aktualizovat iphone 7 na ios 16"
+          },
+          {
+            "keys": [
+              "jak aktualizovat iphone 6 na ios 16"
+            ],
+            "clicks": 5,
+            "impressions": 149,
+            "ctr": 0.03355704697986577,
+            "position": 7.355704697986577,
+            "q": "jak aktualizovat iphone 6 na ios 16",
+            "nq": "jak aktualizovat iphone 6 na ios 16"
+          },
+          {
+            "keys": [
+              "jak aktualizovat iphone 6 na ios 15"
+            ],
+            "clicks": 2,
+            "impressions": 26,
+            "ctr": 0.07692307692307693,
+            "position": 10.73076923076923,
+            "q": "jak aktualizovat iphone 6 na ios 15",
+            "nq": "jak aktualizovat iphone 6 na ios 15"
+          },
+          {
+            "keys": [
+              "jak aktualizovat iphone na ios 26"
+            ],
+            "clicks": 1,
+            "impressions": 24,
+            "ctr": 0.041666666666666664,
+            "position": 4.875,
+            "q": "jak aktualizovat iphone na ios 26",
+            "nq": "jak aktualizovat iphone na ios 26"
+          },
+          {
+            "keys": [
+              "jak aktualizovat platebni udaje na iphone"
+            ],
+            "clicks": 2,
+            "impressions": 13,
+            "ctr": 0.15384615384615385,
+            "position": 5.615384615384615,
+            "q": "jak aktualizovat platebni udaje na iphone",
+            "nq": "jak aktualizovat platebni udaje na iphone"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2022/09/12/jak-provest-cistou-instalaci-ios-16/",
+        "page_imp": 440,
+        "page_clicks": 9,
+        "page_pos": 8.543181818181818,
+        "query_count": 7
+      },
+      "score": 1908.6599999999999,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Aktualizace iPhonu nejde nainstalovat: místo, Wi‑Fi, chyba ověření a čistá instalace",
+      "serp_adjusted_score": 3817.3199999999997,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 24
+    },
+    {
+      "title": "Jak vypnout Siri",
+      "inc": [
+        "vypnout",
+        "siri"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Vypnutí Siri, návrhů Siri a soukromí.",
+      "agg": {
+        "imp": 2178,
+        "clicks": 135,
+        "pos": 3.783287419651056,
+        "ctr": 0.06198347107438017,
+        "top_queries": [
+          {
+            "keys": [
+              "jak vypnout siri"
+            ],
+            "clicks": 109,
+            "impressions": 1774,
+            "ctr": 0.06144306651634724,
+            "position": 3.9847801578354,
+            "q": "jak vypnout siri",
+            "nq": "jak vypnout siri"
+          },
+          {
+            "keys": [
+              "jak vypnout siri na iphonu"
+            ],
+            "clicks": 22,
+            "impressions": 382,
+            "ctr": 0.05759162303664921,
+            "position": 2.9136125654450264,
+            "q": "jak vypnout siri na iphonu",
+            "nq": "jak vypnout siri na iphonu"
+          },
+          {
+            "keys": [
+              "vypnout siri"
+            ],
+            "clicks": 3,
+            "impressions": 18,
+            "ctr": 0.16666666666666666,
+            "position": 2.5,
+            "q": "vypnout siri",
+            "nq": "vypnout siri"
+          },
+          {
+            "keys": [
+              "jak vypnout siri na iphone"
+            ],
+            "clicks": 1,
+            "impressions": 4,
+            "ctr": 0.25,
+            "position": 3.25,
+            "q": "jak vypnout siri na iphone",
+            "nq": "jak vypnout siri na iphone"
+          }
+        ],
+        "imp90": 432,
+        "clicks90": 14,
+        "pos90": 4.3125,
+        "page": "https://www.letemsvetemapplem.eu/2023/05/09/jak-na-iphonu-vypnout-siri/",
+        "page_imp": 2117,
+        "page_clicks": 128,
+        "page_pos": 3.4246575342465753,
+        "query_count": 4
+      },
+      "score": 1882.4832000000001,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Siri nejde úplně vypnout? Hlasová aktivace, návrhy Siri, diktování a soukromí",
+      "serp_adjusted_score": 3764.9664000000002,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 25
+    },
+    {
+      "title": "Jak změnit Apple ID",
+      "inc": [
+        "zmenit",
+        "apple id"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Změna e-mailu, odhlášení, dopady na iCloud.",
+      "agg": {
+        "imp": 1075,
+        "clicks": 53,
+        "pos": 6.622325581395349,
+        "ctr": 0.04930232558139535,
+        "top_queries": [
+          {
+            "keys": [
+              "jak změnit apple id"
+            ],
+            "clicks": 28,
+            "impressions": 538,
+            "ctr": 0.05204460966542751,
+            "position": 5.598513011152416,
+            "q": "jak změnit apple id",
+            "nq": "jak zmenit apple id"
+          },
+          {
+            "keys": [
+              "jak změnit věk dítěte v apple id"
+            ],
+            "clicks": 3,
+            "impressions": 268,
+            "ctr": 0.011194029850746268,
+            "position": 10.559701492537313,
+            "q": "jak změnit věk dítěte v apple id",
+            "nq": "jak zmenit vek ditete v apple id"
+          },
+          {
+            "keys": [
+              "jak zmenit apple id"
+            ],
+            "clicks": 9,
+            "impressions": 134,
+            "ctr": 0.06716417910447761,
+            "position": 3.611940298507463,
+            "q": "jak zmenit apple id",
+            "nq": "jak zmenit apple id"
+          },
+          {
+            "keys": [
+              "jak změnit apple id heslo"
+            ],
+            "clicks": 1,
+            "impressions": 51,
+            "ctr": 0.0196078431372549,
+            "position": 7.470588235294118,
+            "q": "jak změnit apple id heslo",
+            "nq": "jak zmenit apple id heslo"
+          },
+          {
+            "keys": [
+              "jak zmenit apple id na iphonu"
+            ],
+            "clicks": 3,
+            "impressions": 27,
+            "ctr": 0.1111111111111111,
+            "position": 4.074074074074074,
+            "q": "jak zmenit apple id na iphonu",
+            "nq": "jak zmenit apple id na iphonu"
+          },
+          {
+            "keys": [
+              "jak změnit email na apple id"
+            ],
+            "clicks": 2,
+            "impressions": 22,
+            "ctr": 0.09090909090909091,
+            "position": 7.545454545454546,
+            "q": "jak změnit email na apple id",
+            "nq": "jak zmenit email na apple id"
+          }
+        ],
+        "imp90": 73,
+        "clicks90": 1,
+        "pos90": 8.753424657534246,
+        "page": "https://www.letemsvetemapplem.eu/2019/01/17/jak-zmenit-apple-id-a-jak-jej-nadobro-odstranit/",
+        "page_imp": 699,
+        "page_clicks": 44,
+        "page_pos": 4.0844062947067235,
+        "query_count": 9
+      },
+      "score": 1727.31,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Změna Apple ID bez ztráty dat: e-mail, iCloud, nákupy, rodina a bezpečnost",
+      "serp_adjusted_score": 3454.62,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 26
+    },
+    {
+      "title": "Jak zálohovat WhatsApp",
+      "inc": [
+        "zalohovat",
+        "whatsapp"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "iCloud záloha, šifrování, obnova chatů.",
+      "agg": {
+        "imp": 892,
+        "clicks": 2,
+        "pos": 10.516816143497758,
+        "ctr": 0.002242152466367713,
+        "top_queries": [
+          {
+            "keys": [
+              "jak zálohovat whatsapp"
+            ],
+            "clicks": 1,
+            "impressions": 881,
+            "ctr": 0.0011350737797956867,
+            "position": 10.595913734392736,
+            "q": "jak zálohovat whatsapp",
+            "nq": "jak zalohovat whatsapp"
+          },
+          {
+            "keys": [
+              "jak zálohovat whatsapp na icloud"
+            ],
+            "clicks": 1,
+            "impressions": 11,
+            "ctr": 0.09090909090909091,
+            "position": 4.181818181818182,
+            "q": "jak zálohovat whatsapp na icloud",
+            "nq": "jak zalohovat whatsapp na icloud"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2024/08/12/jak-zalohovat-whatsapp-na-iphone-bez-icloudu-aktualizovany-navod-pro-rok-2024/",
+        "page_imp": 433,
+        "page_clicks": 1,
+        "page_pos": 9.653579676674365,
+        "query_count": 2
+      },
+      "score": 1623.2736000000002,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "Záloha WhatsApp na iPhonu: iCloud, šifrování, obnova a co dělat když záloha selže",
+      "serp_adjusted_score": 3246.5472000000004,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 27
+    },
+    {
+      "title": "MacBook nejde zapnout",
+      "inc": [
+        "macbook",
+        "nejde",
+        "zapnout"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Napájení, SMC/Apple Silicon postup, obrazovka, servis.",
+      "agg": {
+        "imp": 905,
+        "clicks": 13,
+        "pos": 11.307182320441989,
+        "ctr": 0.014364640883977901,
+        "top_queries": [
+          {
+            "keys": [
+              "macbook nejde zapnout"
+            ],
+            "clicks": 11,
+            "impressions": 886,
+            "ctr": 0.012415349887133182,
+            "position": 11.358916478555305,
+            "q": "macbook nejde zapnout",
+            "nq": "macbook nejde zapnout"
+          },
+          {
+            "keys": [
+              "macbook air nejde zapnout"
+            ],
+            "clicks": 2,
+            "impressions": 19,
+            "ctr": 0.10526315789473684,
+            "position": 8.894736842105264,
+            "q": "macbook air nejde zapnout",
+            "nq": "macbook air nejde zapnout"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2019/12/08/co-delat-kdyz-se-mac-nechce-zapnout-nebo-vypnout/",
+        "page_imp": 734,
+        "page_clicks": 12,
+        "page_pos": 9.39509536784741,
+        "query_count": 2
+      },
+      "score": 1608.5874999999999,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "MacBook nejde zapnout: nabíječka, SMC/napájení, displej a kdy řešit servis",
+      "serp_adjusted_score": 3217.1749999999997,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 28
+    },
+    {
+      "title": "AirPods: jedno sluchátko se nenabíjí / hraje potichu",
+      "inc": [
+        "jedno sluchatko"
+      ],
+      "exc": [],
+      "cat": "Troubleshooting",
+      "action": "UPDATE",
+      "why": "Čištění, reset, pouzdro, servis.",
+      "agg": {
+        "imp": 763,
+        "clicks": 52,
+        "pos": 7.988204456094365,
+        "ctr": 0.06815203145478375,
+        "top_queries": [
+          {
+            "keys": [
+              "jedno sluchátko se nenabíjí"
+            ],
+            "clicks": 8,
+            "impressions": 254,
+            "ctr": 0.031496062992125984,
+            "position": 6.393700787401575,
+            "q": "jedno sluchátko se nenabíjí",
+            "nq": "jedno sluchatko se nenabiji"
+          },
+          {
+            "keys": [
+              "airpods jedno sluchátko hraje potichu"
+            ],
+            "clicks": 10,
+            "impressions": 191,
+            "ctr": 0.05235602094240838,
+            "position": 6.272251308900524,
+            "q": "airpods jedno sluchátko hraje potichu",
+            "nq": "airpods jedno sluchatko hraje potichu"
+          },
+          {
+            "keys": [
+              "airpods jedno sluchátko se nenabíjí"
+            ],
+            "clicks": 25,
+            "impressions": 132,
+            "ctr": 0.1893939393939394,
+            "position": 3.371212121212121,
+            "q": "airpods jedno sluchátko se nenabíjí",
+            "nq": "airpods jedno sluchatko se nenabiji"
+          },
+          {
+            "keys": [
+              "airpods hraje jen jedno sluchátko"
+            ],
+            "clicks": 0,
+            "impressions": 99,
+            "ctr": 0,
+            "position": 16.454545454545453,
+            "q": "airpods hraje jen jedno sluchátko",
+            "nq": "airpods hraje jen jedno sluchatko"
+          },
+          {
+            "keys": [
+              "airpods jedno sluchatko"
+            ],
+            "clicks": 0,
+            "impressions": 54,
+            "ctr": 0,
+            "position": 19.01851851851852,
+            "q": "airpods jedno sluchatko",
+            "nq": "airpods jedno sluchatko"
+          },
+          {
+            "keys": [
+              "proc se mi nenabiji jedno sluchatko"
+            ],
+            "clicks": 6,
+            "impressions": 30,
+            "ctr": 0.2,
+            "position": 3.566666666666667,
+            "q": "proc se mi nenabiji jedno sluchatko",
+            "nq": "proc se mi nenabiji jedno sluchatko"
+          }
+        ],
+        "imp90": 67,
+        "clicks90": 0,
+        "pos90": 11.746268656716419,
+        "page": "https://www.letemsvetemapplem.eu/2023/11/05/jeden-airpods-se-nenabiji-jak-postupovat/",
+        "page_imp": 355,
+        "page_clicks": 35,
+        "page_pos": 3.7267605633802816,
+        "query_count": 9
+      },
+      "score": 1277.07125,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "AirPods hrají potichu nebo se jedno nenabíjí: čištění, reset, baterie a servis",
+      "serp_adjusted_score": 2554.1425,
+      "serp_note": "Dobře bránitelný Search intent: uživatel řeší problém, riziko, ztrátu dat, bezpečnost nebo vícekrokový postup.",
+      "rank_v2": 29
+    },
+    {
+      "title": "iCloud Fotky: jak fungují a co se děje při mazání",
+      "inc": [
+        "icloud",
+        "fotky"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Synchronizace fotek, mazání, optimalizace úložiště.",
+      "agg": {
+        "imp": 6678,
+        "clicks": 113,
+        "pos": 9.054806828391735,
+        "ctr": 0.016921233902365978,
+        "top_queries": [
+          {
+            "keys": [
+              "icloud fotky"
+            ],
+            "clicks": 14,
+            "impressions": 2594,
+            "ctr": 0.005397070161912105,
+            "position": 11.116422513492676,
+            "q": "icloud fotky",
+            "nq": "icloud fotky"
+          },
+          {
+            "keys": [
+              "jak synchronizovat fotky na icloud"
+            ],
+            "clicks": 21,
+            "impressions": 707,
+            "ctr": 0.0297029702970297,
+            "position": 6.256011315417256,
+            "q": "jak synchronizovat fotky na icloud",
+            "nq": "jak synchronizovat fotky na icloud"
+          },
+          {
+            "keys": [
+              "když smažu fotky z iphone zůstanou na icloud"
+            ],
+            "clicks": 14,
+            "impressions": 591,
+            "ctr": 0.023688663282571912,
+            "position": 9.321489001692047,
+            "q": "když smažu fotky z iphone zůstanou na icloud",
+            "nq": "kdyz smazu fotky z iphone zustanou na icloud"
+          },
+          {
+            "keys": [
+              "jak smazat fotky z icloudu"
+            ],
+            "clicks": 12,
+            "impressions": 434,
+            "ctr": 0.027649769585253458,
+            "position": 6.820276497695852,
+            "q": "jak smazat fotky z icloudu",
+            "nq": "jak smazat fotky z icloudu"
+          },
+          {
+            "keys": [
+              "jak vymazat fotky z icloudu"
+            ],
+            "clicks": 1,
+            "impressions": 258,
+            "ctr": 0.003875968992248062,
+            "position": 7.457364341085271,
+            "q": "jak vymazat fotky z icloudu",
+            "nq": "jak vymazat fotky z icloudu"
+          },
+          {
+            "keys": [
+              "jak přesunout fotky na icloud"
+            ],
+            "clicks": 8,
+            "impressions": 243,
+            "ctr": 0.03292181069958848,
+            "position": 4.995884773662551,
+            "q": "jak přesunout fotky na icloud",
+            "nq": "jak presunout fotky na icloud"
+          }
+        ],
+        "imp90": 332,
+        "clicks90": 1,
+        "pos90": 12.16566265060241,
+        "page": "https://www.letemsvetemapplem.eu/2020/04/21/jak-na-iphonu-pouzivat-fotky-na-icloudu-a-jak-je-nastavit/",
+        "page_imp": 1897,
+        "page_clicks": 17,
+        "page_pos": 10.568265682656827,
+        "query_count": 27
+      },
+      "score": 12485.303999999998,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iCloud Fotky bez průšvihu: co se smaže z iPhonu, co zůstane v cloudu a jak obnovit fotky",
+      "serp_adjusted_score": 17947.624499999998,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 30
+    },
+    {
+      "title": "iCloud cena a tarify",
+      "inc": [
+        "icloud",
+        "cena"
+      ],
+      "exc": [],
+      "cat": "Commercial evergreen",
+      "action": "UPDATE",
+      "why": "Aktuální české ceny, tarify, rodinné sdílení, kdy připlatit.",
+      "agg": {
+        "imp": 6170,
+        "clicks": 28,
+        "pos": 11.223176661264182,
+        "ctr": 0.00453808752025932,
+        "top_queries": [
+          {
+            "keys": [
+              "icloud cena"
+            ],
+            "clicks": 7,
+            "impressions": 5426,
+            "ctr": 0.0012900847769996315,
+            "position": 11.577957980095835,
+            "q": "icloud cena",
+            "nq": "icloud cena"
+          },
+          {
+            "keys": [
+              "icloud rodina cena"
+            ],
+            "clicks": 15,
+            "impressions": 332,
+            "ctr": 0.045180722891566265,
+            "position": 7.099397590361446,
+            "q": "icloud rodina cena",
+            "nq": "icloud rodina cena"
+          },
+          {
+            "keys": [
+              "apple icloud cena"
+            ],
+            "clicks": 1,
+            "impressions": 211,
+            "ctr": 0.004739336492890996,
+            "position": 9.071090047393366,
+            "q": "apple icloud cena",
+            "nq": "apple icloud cena"
+          },
+          {
+            "keys": [
+              "icloud cena 2025"
+            ],
+            "clicks": 1,
+            "impressions": 77,
+            "ctr": 0.012987012987012988,
+            "position": 7.8311688311688314,
+            "q": "icloud cena 2025",
+            "nq": "icloud cena 2025"
+          },
+          {
+            "keys": [
+              "odblokování icloud cena"
+            ],
+            "clicks": 1,
+            "impressions": 76,
+            "ctr": 0.013157894736842105,
+            "position": 12.828947368421053,
+            "q": "odblokování icloud cena",
+            "nq": "odblokovani icloud cena"
+          },
+          {
+            "keys": [
+              "icloud úložiště cena"
+            ],
+            "clicks": 1,
+            "impressions": 43,
+            "ctr": 0.023255813953488372,
+            "position": 12.511627906976743,
+            "q": "icloud úložiště cena",
+            "nq": "icloud uloziste cena"
+          }
+        ],
+        "imp90": 257,
+        "clicks90": 1,
+        "pos90": 13.214007782101167,
+        "page": "https://www.letemsvetemapplem.eu/2015/09/16/apple-prave-zlevnil-icloud-zacina-se-na-27-kc-za-50-gb-a-konci-na-270-kc-za-1-tb/",
+        "page_imp": 4958,
+        "page_clicks": 1,
+        "page_pos": 11.672851956434046,
+        "query_count": 9
+      },
+      "score": 9246.380000000001,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iCloud tarify v ČR: kolik stojí, kdy se vyplatí a jak vybrat úložiště pro rodinu",
+      "serp_adjusted_score": 13291.671250000001,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 31
+    },
+    {
+      "title": "Co je iCloud a jak funguje",
+      "inc": [
+        "co je",
+        "icloud"
+      ],
+      "exc": [],
+      "cat": "Definition",
+      "action": "UPDATE",
+      "why": "Základní hub: zálohy, fotky, Drive, tarify, bezpečnost.",
+      "agg": {
+        "imp": 2661,
+        "clicks": 70,
+        "pos": 4.46260804208944,
+        "ctr": 0.026305900037579856,
+        "top_queries": [
+          {
+            "keys": [
+              "co je icloud"
+            ],
+            "clicks": 42,
+            "impressions": 1833,
+            "ctr": 0.022913256955810146,
+            "position": 4.123840698308784,
+            "q": "co je icloud",
+            "nq": "co je icloud"
+          },
+          {
+            "keys": [
+              "co je to icloud"
+            ],
+            "clicks": 16,
+            "impressions": 533,
+            "ctr": 0.0300187617260788,
+            "position": 4.968105065666041,
+            "q": "co je to icloud",
+            "nq": "co je to icloud"
+          },
+          {
+            "keys": [
+              "co je icloud drive"
+            ],
+            "clicks": 9,
+            "impressions": 265,
+            "ctr": 0.033962264150943396,
+            "position": 5.509433962264151,
+            "q": "co je icloud drive",
+            "nq": "co je icloud drive"
+          },
+          {
+            "keys": [
+              "co je icloud apple"
+            ],
+            "clicks": 3,
+            "impressions": 30,
+            "ctr": 0.1,
+            "position": 6.933333333333334,
+            "q": "co je icloud apple",
+            "nq": "co je icloud apple"
+          }
+        ],
+        "imp90": 497,
+        "clicks90": 9,
+        "pos90": 5.396378269617706,
+        "page": "https://www.letemsvetemapplem.eu/2025/01/18/co-je-icloud-a-co-vsechno-nabizi/",
+        "page_imp": 2530,
+        "page_clicks": 63,
+        "page_pos": 5.310671936758894,
+        "query_count": 4
+      },
+      "score": 4116.3876,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iCloud vysvětlený prakticky: záloha, Fotky, Drive, synchronizace a co se stane při mazání",
+      "serp_adjusted_score": 5917.307175,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 32
+    },
+    {
+      "title": "AirTag pro Android: co funguje a co ne",
+      "inc": [
+        "airtag",
+        "android"
+      ],
+      "exc": [],
+      "cat": "Definition",
+      "action": "UPDATE",
+      "why": "Tracker Detect, anti-stalking, limity Androidu.",
+      "agg": {
+        "imp": 1641,
+        "clicks": 44,
+        "pos": 10.079829372333943,
+        "ctr": 0.02681291895185862,
+        "top_queries": [
+          {
+            "keys": [
+              "airtag pro android"
+            ],
+            "clicks": 27,
+            "impressions": 1374,
+            "ctr": 0.019650655021834062,
+            "position": 10.24599708879185,
+            "q": "airtag pro android",
+            "nq": "airtag pro android"
+          },
+          {
+            "keys": [
+              "airtag android"
+            ],
+            "clicks": 5,
+            "impressions": 110,
+            "ctr": 0.045454545454545456,
+            "position": 9.645454545454545,
+            "q": "airtag android",
+            "nq": "airtag android"
+          },
+          {
+            "keys": [
+              "alternativa airtag pro android"
+            ],
+            "clicks": 1,
+            "impressions": 70,
+            "ctr": 0.014285714285714285,
+            "position": 7.457142857142857,
+            "q": "alternativa airtag pro android",
+            "nq": "alternativa airtag pro android"
+          },
+          {
+            "keys": [
+              "airtag na android"
+            ],
+            "clicks": 1,
+            "impressions": 25,
+            "ctr": 0.04,
+            "position": 10.12,
+            "q": "airtag na android",
+            "nq": "airtag na android"
+          },
+          {
+            "keys": [
+              "airtag alternativa pro android"
+            ],
+            "clicks": 4,
+            "impressions": 23,
+            "ctr": 0.17391304347826086,
+            "position": 5.217391304347826,
+            "q": "airtag alternativa pro android",
+            "nq": "airtag alternativa pro android"
+          },
+          {
+            "keys": [
+              "airtag alternativa android"
+            ],
+            "clicks": 3,
+            "impressions": 9,
+            "ctr": 0.3333333333333333,
+            "position": 4.777777777777778,
+            "q": "airtag alternativa android",
+            "nq": "airtag alternativa android"
+          }
+        ],
+        "imp90": 30,
+        "clicks90": 1,
+        "pos90": 12.966666666666667,
+        "page": "https://www.letemsvetemapplem.eu/2024/05/13/ztraci-airtagy-smysl-mobily-zacinaji-upozornovat-na-to-ze-vas-sleduji-a-poradi-jak-je-vypnout/",
+        "page_imp": 1399,
+        "page_clicks": 27,
+        "page_pos": 10.432451751250893,
+        "query_count": 18
+      },
+      "score": 1977.5691000000004,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "AirTag a Android: co umí upozornění na sledování, co neumí a jak se chránit",
+      "serp_adjusted_score": 2842.7555812500004,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 33
+    },
+    {
+      "title": "iCloud Drive: co to je a jak ho používat",
+      "inc": [
+        "icloud drive"
+      ],
+      "exc": [],
+      "cat": "Definition",
+      "action": "UPDATE",
+      "why": "Rozdíl iCloud Drive vs iCloud Fotky vs záloha.",
+      "agg": {
+        "imp": 1247,
+        "clicks": 24,
+        "pos": 8.428227746591821,
+        "ctr": 0.019246190858059342,
+        "top_queries": [
+          {
+            "keys": [
+              "icloud drive"
+            ],
+            "clicks": 3,
+            "impressions": 702,
+            "ctr": 0.004273504273504274,
+            "position": 10.924501424501425,
+            "q": "icloud drive",
+            "nq": "icloud drive"
+          },
+          {
+            "keys": [
+              "icloud drive co to je"
+            ],
+            "clicks": 9,
+            "impressions": 273,
+            "ctr": 0.03296703296703297,
+            "position": 4.897435897435898,
+            "q": "icloud drive co to je",
+            "nq": "icloud drive co to je"
+          },
+          {
+            "keys": [
+              "co je icloud drive"
+            ],
+            "clicks": 9,
+            "impressions": 265,
+            "ctr": 0.033962264150943396,
+            "position": 5.509433962264151,
+            "q": "co je icloud drive",
+            "nq": "co je icloud drive"
+          },
+          {
+            "keys": [
+              "icloud drive vs onedrive"
+            ],
+            "clicks": 1,
+            "impressions": 4,
+            "ctr": 0.25,
+            "position": 4.75,
+            "q": "icloud drive vs onedrive",
+            "nq": "icloud drive vs onedrive"
+          },
+          {
+            "keys": [
+              "icloud drive cena"
+            ],
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 12,
+            "q": "icloud drive cena",
+            "nq": "icloud drive cena"
+          },
+          {
+            "keys": [
+              "icloud drive vs google drive"
+            ],
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 6,
+            "q": "icloud drive vs google drive",
+            "nq": "icloud drive vs google drive"
+          }
+        ],
+        "imp90": 126,
+        "clicks90": 0,
+        "pos90": 7.2063492063492065,
+        "page": "https://www.letemsvetemapplem.eu/2025/01/18/co-je-icloud-a-co-vsechno-nabizi/",
+        "page_imp": 1082,
+        "page_clicks": 18,
+        "page_pos": 7.66173752310536,
+        "query_count": 7
+      },
+      "score": 1728.2070000000003,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "iCloud Drive prakticky: rozdíl proti Fotkám, záloze iPhonu a sdílení souborů",
+      "serp_adjusted_score": 2484.2975625000004,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 34
+    },
+    {
+      "title": "Jak funguje AirTag a jaký má dosah",
+      "inc": [
+        "airtag",
+        "dosah"
+      ],
+      "exc": [],
+      "cat": "Definition",
+      "action": "UPDATE",
+      "why": "Bluetooth, Find My síť, přesné hledání, limity.",
+      "agg": {
+        "imp": 2352,
+        "clicks": 315,
+        "pos": 3.3477891156462585,
+        "ctr": 0.13392857142857142,
+        "top_queries": [
+          {
+            "keys": [
+              "airtag dosah"
+            ],
+            "clicks": 171,
+            "impressions": 1353,
+            "ctr": 0.12638580931263857,
+            "position": 3.073170731707317,
+            "q": "airtag dosah",
+            "nq": "airtag dosah"
+          },
+          {
+            "keys": [
+              "apple airtag dosah"
+            ],
+            "clicks": 57,
+            "impressions": 453,
+            "ctr": 0.12582781456953643,
+            "position": 5.682119205298013,
+            "q": "apple airtag dosah",
+            "nq": "apple airtag dosah"
+          },
+          {
+            "keys": [
+              "dosah airtag"
+            ],
+            "clicks": 44,
+            "impressions": 227,
+            "ctr": 0.19383259911894274,
+            "position": 1.8898678414096917,
+            "q": "dosah airtag",
+            "nq": "dosah airtag"
+          },
+          {
+            "keys": [
+              "airtag apple dosah"
+            ],
+            "clicks": 21,
+            "impressions": 133,
+            "ctr": 0.15789473684210525,
+            "position": 2.030075187969925,
+            "q": "airtag apple dosah",
+            "nq": "airtag apple dosah"
+          },
+          {
+            "keys": [
+              "jaky dosah ma airtag"
+            ],
+            "clicks": 16,
+            "impressions": 109,
+            "ctr": 0.14678899082568808,
+            "position": 1.981651376146789,
+            "q": "jaky dosah ma airtag",
+            "nq": "jaky dosah ma airtag"
+          },
+          {
+            "keys": [
+              "dosah airtagu"
+            ],
+            "clicks": 4,
+            "impressions": 53,
+            "ctr": 0.07547169811320754,
+            "position": 1.9056603773584906,
+            "q": "dosah airtagu",
+            "nq": "dosah airtagu"
+          }
+        ],
+        "imp90": 263,
+        "clicks90": 20,
+        "pos90": 2.220532319391635,
+        "page": "https://www.letemsvetemapplem.eu/2021/05/02/otestovali-jsme-jaky-dosah-ma-apple-airtag-pripojeny-k-jeho-materskemu-iphonu/",
+        "page_imp": 2161,
+        "page_clicks": 299,
+        "page_pos": 3.01850994909764,
+        "query_count": 7
+      },
+      "score": 1417.1976000000002,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "HIGH",
+      "defensible_title": "AirTag dosah v praxi: Bluetooth, síť Najít, přesnost hledání a limity v ČR",
+      "serp_adjusted_score": 2037.2215500000002,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 35
+    },
+    {
+      "title": "Jak najít telefon podle čísla zdarma",
+      "inc": [
+        "jak",
+        "najit",
+        "telefon",
+        "cisla"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "CREATE/UPDATE",
+      "why": "Vyhledávání telefonu podle čísla, Find My, limity a bezpečnost. Vysvětlit legální možnosti a scam rizika.",
+      "agg": {
+        "imp": 11089,
+        "clicks": 144,
+        "pos": 9.866083506177294,
+        "ctr": 0.012985841825232212,
+        "top_queries": [
+          {
+            "keys": [
+              "jak najít telefon podle čísla zdarma"
+            ],
+            "clicks": 131,
+            "impressions": 10587,
+            "ctr": 0.012373665816567488,
+            "position": 9.822801549069613,
+            "q": "jak najít telefon podle čísla zdarma",
+            "nq": "jak najit telefon podle cisla zdarma"
+          },
+          {
+            "keys": [
+              "jak najít člověka podle telefonního čísla zdarma"
+            ],
+            "clicks": 8,
+            "impressions": 174,
+            "ctr": 0.04597701149425287,
+            "position": 10.431034482758621,
+            "q": "jak najít člověka podle telefonního čísla zdarma",
+            "nq": "jak najit cloveka podle telefonniho cisla zdarma"
+          },
+          {
+            "keys": [
+              "jak najít telefon podle čísla"
+            ],
+            "clicks": 2,
+            "impressions": 157,
+            "ctr": 0.012738853503184714,
+            "position": 12.02547770700637,
+            "q": "jak najít telefon podle čísla",
+            "nq": "jak najit telefon podle cisla"
+          },
+          {
+            "keys": [
+              "jak najit telefon podle telefonniho cisla"
+            ],
+            "clicks": 2,
+            "impressions": 116,
+            "ctr": 0.017241379310344827,
+            "position": 10.310344827586206,
+            "q": "jak najit telefon podle telefonniho cisla",
+            "nq": "jak najit telefon podle telefonniho cisla"
+          },
+          {
+            "keys": [
+              "jak najit polohu podle telefonniho cisla"
+            ],
+            "clicks": 1,
+            "impressions": 55,
+            "ctr": 0.01818181818181818,
+            "position": 9.309090909090909,
+            "q": "jak najit polohu podle telefonniho cisla",
+            "nq": "jak najit polohu podle telefonniho cisla"
+          }
+        ],
+        "imp90": 709,
+        "clicks90": 12,
+        "pos90": 9.856135401974612,
+        "page": "https://www.letemsvetemapplem.eu/2025/02/19/sledovani-telefonu-podle-cisla-s-pomoci-aplikace-eyezy/",
+        "page_imp": 9331,
+        "page_clicks": 107,
+        "page_pos": 10.376808487836245,
+        "query_count": 5
+      },
+      "score": 21140.652000000002,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Jde najít telefon podle čísla zdarma? Legální možnosti, Find My, operátoři a scam rizika",
+      "serp_adjusted_score": 24311.7498,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 36
+    },
+    {
+      "title": "WhatsApp anketa: jak ji vytvořit",
+      "inc": [
+        "anketu",
+        "whatsapp"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Tvorba ankety, hlasování, skupiny, limity.",
+      "agg": {
+        "imp": 12063,
+        "clicks": 232,
+        "pos": 3.0568681090939234,
+        "ctr": 0.019232363425350243,
+        "top_queries": [
+          {
+            "keys": [
+              "jak vytvořit anketu na whatsapp"
+            ],
+            "clicks": 68,
+            "impressions": 3952,
+            "ctr": 0.01720647773279352,
+            "position": 3.1662449392712553,
+            "q": "jak vytvořit anketu na whatsapp",
+            "nq": "jak vytvorit anketu na whatsapp"
+          },
+          {
+            "keys": [
+              "jak udělat anketu na whatsapp"
+            ],
+            "clicks": 33,
+            "impressions": 2266,
+            "ctr": 0.014563106796116505,
+            "position": 3.064430714916152,
+            "q": "jak udělat anketu na whatsapp",
+            "nq": "jak udelat anketu na whatsapp"
+          },
+          {
+            "keys": [
+              "jak vytvořit anketu ve whatsapp"
+            ],
+            "clicks": 18,
+            "impressions": 1086,
+            "ctr": 0.016574585635359115,
+            "position": 2.955801104972376,
+            "q": "jak vytvořit anketu ve whatsapp",
+            "nq": "jak vytvorit anketu ve whatsapp"
+          },
+          {
+            "keys": [
+              "jak ve whatsapp vytvořit anketu"
+            ],
+            "clicks": 9,
+            "impressions": 588,
+            "ctr": 0.015306122448979591,
+            "position": 2.923469387755102,
+            "q": "jak ve whatsapp vytvořit anketu",
+            "nq": "jak ve whatsapp vytvorit anketu"
+          },
+          {
+            "keys": [
+              "jak udělat anketu na whatsappu"
+            ],
+            "clicks": 8,
+            "impressions": 552,
+            "ctr": 0.014492753623188406,
+            "position": 3.1557971014492754,
+            "q": "jak udělat anketu na whatsappu",
+            "nq": "jak udelat anketu na whatsappu"
+          },
+          {
+            "keys": [
+              "jak udělat anketu ve whatsapp"
+            ],
+            "clicks": 12,
+            "impressions": 492,
+            "ctr": 0.024390243902439025,
+            "position": 3.0548780487804876,
+            "q": "jak udělat anketu ve whatsapp",
+            "nq": "jak udelat anketu ve whatsapp"
+          }
+        ],
+        "imp90": 1902,
+        "clicks90": 33,
+        "pos90": 2.5252365930599368,
+        "page": "https://www.letemsvetemapplem.eu/2023/03/10/jak-vytvorit-anketu-ve-whatsapp/",
+        "page_imp": 11853,
+        "page_clicks": 228,
+        "page_pos": 3.039989875980764,
+        "query_count": 25
+      },
+      "score": 12839.767199999998,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "WhatsApp ankety: jak je vytvořit, upravit, omezit odpovědi a použít ve skupině",
+      "serp_adjusted_score": 14765.732279999997,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 37
+    },
+    {
+      "title": "AirTag baterie: výměna a typ baterie",
+      "inc": [
+        "airtag",
+        "baterie"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "CR2032, hořká vrstva, výměna, stav baterie.",
+      "agg": {
+        "imp": 5873,
+        "clicks": 29,
+        "pos": 11.286906180827517,
+        "ctr": 0.0049378511833815765,
+        "top_queries": [
+          {
+            "keys": [
+              "airtag baterie"
+            ],
+            "clicks": 11,
+            "impressions": 3296,
+            "ctr": 0.003337378640776699,
+            "position": 11.620449029126213,
+            "q": "airtag baterie",
+            "nq": "airtag baterie"
+          },
+          {
+            "keys": [
+              "baterie airtag"
+            ],
+            "clicks": 1,
+            "impressions": 1062,
+            "ctr": 0.0009416195856873823,
+            "position": 11.27306967984934,
+            "q": "baterie airtag",
+            "nq": "baterie airtag"
+          },
+          {
+            "keys": [
+              "baterie do airtag"
+            ],
+            "clicks": 1,
+            "impressions": 410,
+            "ctr": 0.0024390243902439024,
+            "position": 12,
+            "q": "baterie do airtag",
+            "nq": "baterie do airtag"
+          },
+          {
+            "keys": [
+              "airtag vymena baterie"
+            ],
+            "clicks": 1,
+            "impressions": 308,
+            "ctr": 0.003246753246753247,
+            "position": 11.230519480519481,
+            "q": "airtag vymena baterie",
+            "nq": "airtag vymena baterie"
+          },
+          {
+            "keys": [
+              "airtag výdrž baterie"
+            ],
+            "clicks": 4,
+            "impressions": 257,
+            "ctr": 0.01556420233463035,
+            "position": 6.011673151750973,
+            "q": "airtag výdrž baterie",
+            "nq": "airtag vydrz baterie"
+          },
+          {
+            "keys": [
+              "airtag výměna baterie"
+            ],
+            "clicks": 0,
+            "impressions": 127,
+            "ctr": 0,
+            "position": 16.52755905511811,
+            "q": "airtag výměna baterie",
+            "nq": "airtag vymena baterie"
+          }
+        ],
+        "imp90": 729,
+        "clicks90": 1,
+        "pos90": 11.25514403292181,
+        "page": "https://www.letemsvetemapplem.eu/2022/05/03/jak-zkontrolovat-vydrz-baterii-v-airtagu-aneb-kdyz-se-apple-prekvapive-podceni/",
+        "page_imp": 2790,
+        "page_clicks": 16,
+        "page_pos": 10.380286738351254,
+        "query_count": 15
+      },
+      "score": 10539.578400000002,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "AirTag baterie: jaký typ koupit, proč některé CR2032 nefungují a kdy baterii vyměnit",
+      "serp_adjusted_score": 12120.51516,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 38
+    },
+    {
+      "title": "Jak přenést eSIM do nového iPhonu",
+      "inc": [
+        "prenest",
+        "esim"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "O2/T-Mobile/Vodafone, iOS přenos, QR kód.",
+      "agg": {
+        "imp": 3291,
+        "clicks": 194,
+        "pos": 6.138559708295351,
+        "ctr": 0.05894864782740808,
+        "top_queries": [
+          {
+            "keys": [
+              "jak přenést esim do nového telefonu"
+            ],
+            "clicks": 10,
+            "impressions": 599,
+            "ctr": 0.01669449081803005,
+            "position": 9.61602671118531,
+            "q": "jak přenést esim do nového telefonu",
+            "nq": "jak prenest esim do noveho telefonu"
+          },
+          {
+            "keys": [
+              "jak přenést esim do nového iphonu"
+            ],
+            "clicks": 44,
+            "impressions": 517,
+            "ctr": 0.0851063829787234,
+            "position": 4.851063829787234,
+            "q": "jak přenést esim do nového iphonu",
+            "nq": "jak prenest esim do noveho iphonu"
+          },
+          {
+            "keys": [
+              "jak přenést esim"
+            ],
+            "clicks": 14,
+            "impressions": 418,
+            "ctr": 0.03349282296650718,
+            "position": 7.172248803827751,
+            "q": "jak přenést esim",
+            "nq": "jak prenest esim"
+          },
+          {
+            "keys": [
+              "jak přenést esim na nový iphone"
+            ],
+            "clicks": 20,
+            "impressions": 357,
+            "ctr": 0.056022408963585436,
+            "position": 5.215686274509804,
+            "q": "jak přenést esim na nový iphone",
+            "nq": "jak prenest esim na novy iphone"
+          },
+          {
+            "keys": [
+              "jak prenest esim iphone"
+            ],
+            "clicks": 22,
+            "impressions": 295,
+            "ctr": 0.07457627118644068,
+            "position": 4.742372881355932,
+            "q": "jak prenest esim iphone",
+            "nq": "jak prenest esim iphone"
+          },
+          {
+            "keys": [
+              "jak přenést esim z iphone na iphone"
+            ],
+            "clicks": 21,
+            "impressions": 235,
+            "ctr": 0.08936170212765958,
+            "position": 4.421276595744681,
+            "q": "jak přenést esim z iphone na iphone",
+            "nq": "jak prenest esim z iphone na iphone"
+          }
+        ],
+        "imp90": 350,
+        "clicks90": 9,
+        "pos90": 5.777142857142858,
+        "page": "https://www.letemsvetemapplem.eu/2023/09/22/jak-prenest-esim-ze-stareho-iphonu-na-novy-aneb-cesta-na-pobocku-neni-vetsinou-potreba/",
+        "page_imp": 3211,
+        "page_clicks": 194,
+        "page_pos": 6.135160386172532,
+        "query_count": 13
+      },
+      "score": 5287.9788,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Přenos eSIM do nového iPhonu: operátor, QR kód, dual SIM a chyby aktivace",
+      "serp_adjusted_score": 6081.175619999999,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 39
+    },
+    {
+      "title": "Safari nastavení: co změnit na iPhonu a Macu",
+      "inc": [
+        "safari",
+        "nastaveni"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Výchozí vyhledávač, blokování popupů, cookies, soukromí.",
+      "agg": {
+        "imp": 1905,
+        "clicks": 13,
+        "pos": 5.265616797900263,
+        "ctr": 0.0068241469816272965,
+        "top_queries": [
+          {
+            "keys": [
+              "safari nastavení"
+            ],
+            "clicks": 4,
+            "impressions": 1307,
+            "ctr": 0.00306044376434583,
+            "position": 5.267023718439174,
+            "q": "safari nastavení",
+            "nq": "safari nastaveni"
+          },
+          {
+            "keys": [
+              "nastavení safari"
+            ],
+            "clicks": 5,
+            "impressions": 373,
+            "ctr": 0.013404825737265416,
+            "position": 5.434316353887399,
+            "q": "nastavení safari",
+            "nq": "nastaveni safari"
+          },
+          {
+            "keys": [
+              "nastavení safari iphone"
+            ],
+            "clicks": 4,
+            "impressions": 225,
+            "ctr": 0.017777777777777778,
+            "position": 4.977777777777778,
+            "q": "nastavení safari iphone",
+            "nq": "nastaveni safari iphone"
+          }
+        ],
+        "imp90": 185,
+        "clicks90": 1,
+        "pos90": 6.248648648648649,
+        "page": "https://www.letemsvetemapplem.eu/2022/05/01/5-nastaveni-v-safari-v-ios-ktera-se-vyplati-zmenit/",
+        "page_imp": 1437,
+        "page_clicks": 10,
+        "page_pos": 5.267223382045929,
+        "query_count": 3
+      },
+      "score": 3741.66,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Safari nastavení pro soukromí a rychlost: co změnit na iPhonu i Macu a proč",
+      "serp_adjusted_score": 4302.909,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 40
+    },
+    {
+      "title": "Jak přenést data z iPhonu na iPhone",
+      "inc": [
+        "prenest",
+        "data",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Quick Start, iCloud, kabel, co před přesunem zkontrolovat.",
+      "agg": {
+        "imp": 1577,
+        "clicks": 15,
+        "pos": 11.188332276474318,
+        "ctr": 0.009511731135066582,
+        "top_queries": [
+          {
+            "keys": [
+              "jak prenest data z iphone na iphone"
+            ],
+            "clicks": 3,
+            "impressions": 604,
+            "ctr": 0.004966887417218543,
+            "position": 9.485099337748345,
+            "q": "jak prenest data z iphone na iphone",
+            "nq": "jak prenest data z iphone na iphone"
+          },
+          {
+            "keys": [
+              "jak přenést data z iphonu na iphone"
+            ],
+            "clicks": 3,
+            "impressions": 414,
+            "ctr": 0.007246376811594203,
+            "position": 9.927536231884059,
+            "q": "jak přenést data z iphonu na iphone",
+            "nq": "jak prenest data z iphonu na iphone"
+          },
+          {
+            "keys": [
+              "jak přenést data z androidu na iphone"
+            ],
+            "clicks": 2,
+            "impressions": 306,
+            "ctr": 0.006535947712418301,
+            "position": 15.4640522875817,
+            "q": "jak přenést data z androidu na iphone",
+            "nq": "jak prenest data z androidu na iphone"
+          },
+          {
+            "keys": [
+              "jak přenést data z iphone do iphone"
+            ],
+            "clicks": 2,
+            "impressions": 95,
+            "ctr": 0.021052631578947368,
+            "position": 9.694736842105263,
+            "q": "jak přenést data z iphone do iphone",
+            "nq": "jak prenest data z iphone do iphone"
+          },
+          {
+            "keys": [
+              "přenést data z iphone na iphone"
+            ],
+            "clicks": 2,
+            "impressions": 85,
+            "ctr": 0.023529411764705882,
+            "position": 8.952941176470588,
+            "q": "přenést data z iphone na iphone",
+            "nq": "prenest data z iphone na iphone"
+          },
+          {
+            "keys": [
+              "novy iphone jak prenest data"
+            ],
+            "clicks": 1,
+            "impressions": 47,
+            "ctr": 0.02127659574468085,
+            "position": 11.617021276595745,
+            "q": "novy iphone jak prenest data",
+            "nq": "novy iphone jak prenest data"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2023/08/24/4-zpusoby-prenosu-souboru-ze-stareho-iphonu-na-novy/",
+        "page_imp": 857,
+        "page_clicks": 5,
+        "page_pos": 9.66977829638273,
+        "query_count": 8
+      },
+      "score": 2762.5416,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Přenos dat do nového iPhonu: Quick Start, iCloud, kabel, eSIM a co zkontrolovat",
+      "serp_adjusted_score": 3176.9228399999997,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 41
+    },
+    {
+      "title": "Jak smazat iPhone před prodejem",
+      "inc": [
+        "smazat",
+        "iphone",
+        "prodejem"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Záloha, odhlášení Apple ID, Find My, tovární nastavení.",
+      "agg": {
+        "imp": 997,
+        "clicks": 15,
+        "pos": 6.793380140421264,
+        "ctr": 0.015045135406218655,
+        "top_queries": [
+          {
+            "keys": [
+              "jak smazat iphone před prodejem"
+            ],
+            "clicks": 15,
+            "impressions": 997,
+            "ctr": 0.015045135406218655,
+            "position": 6.793380140421264,
+            "q": "jak smazat iphone před prodejem",
+            "nq": "jak smazat iphone pred prodejem"
+          }
+        ],
+        "imp90": 47,
+        "clicks90": 1,
+        "pos90": 13.404255319148936,
+        "page": "https://www.letemsvetemapplem.eu/2022/01/31/dostali-jste-novy-iphone-jak-pripravit-stary-model-k-prodeji-a-na-co-nesmite-zapomenout/",
+        "page_imp": 905,
+        "page_clicks": 15,
+        "page_pos": 7.0408839779005525,
+        "query_count": 1
+      },
+      "score": 1881.5160000000003,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Jak připravit iPhone k prodeji: smazání, odhlášení Apple ID, eSIM a kontrola zámku aktivace",
+      "serp_adjusted_score": 2163.7434000000003,
+      "serp_note": "Část odpovědi může být přímo v SERPu, ale článek má klikovou šanci díky kontextu, rozhodování, bezpečnosti nebo více variantám.",
+      "rank_v2": 42
+    },
+    {
+      "title": "Jak napsat zavináč na Macu",
+      "inc": [
+        "zavinac",
+        "mac"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Krátký návod pro české klávesnice + tabulka znaků.",
+      "agg": {
+        "imp": 75065,
+        "clicks": 457,
+        "pos": 3.862785585825618,
+        "ctr": 0.006088057017251715,
+        "top_queries": [
+          {
+            "keys": [
+              "zavinac na mac"
+            ],
+            "clicks": 36,
+            "impressions": 9066,
+            "ctr": 0.003970880211780278,
+            "position": 3.515001103022281,
+            "q": "zavinac na mac",
+            "nq": "zavinac na mac"
+          },
+          {
+            "keys": [
+              "zavináč na macu"
+            ],
+            "clicks": 56,
+            "impressions": 8315,
+            "ctr": 0.006734816596512327,
+            "position": 2.973301262778112,
+            "q": "zavináč na macu",
+            "nq": "zavinac na macu"
+          },
+          {
+            "keys": [
+              "jak napsat zavináč na macu"
+            ],
+            "clicks": 44,
+            "impressions": 6524,
+            "ctr": 0.00674432863274065,
+            "position": 3.9799202942979766,
+            "q": "jak napsat zavináč na macu",
+            "nq": "jak napsat zavinac na macu"
+          },
+          {
+            "keys": [
+              "zavinac macbook"
+            ],
+            "clicks": 30,
+            "impressions": 5030,
+            "ctr": 0.005964214711729622,
+            "position": 4.060238568588469,
+            "q": "zavinac macbook",
+            "nq": "zavinac macbook"
+          },
+          {
+            "keys": [
+              "zavinac na macbooku"
+            ],
+            "clicks": 16,
+            "impressions": 4406,
+            "ctr": 0.003631411711302769,
+            "position": 3.805719473445302,
+            "q": "zavinac na macbooku",
+            "nq": "zavinac na macbooku"
+          },
+          {
+            "keys": [
+              "jak se dela zavinac na macbook"
+            ],
+            "clicks": 13,
+            "impressions": 3442,
+            "ctr": 0.0037768739105171413,
+            "position": 4.4389889599070305,
+            "q": "jak se dela zavinac na macbook",
+            "nq": "jak se dela zavinac na macbook"
+          }
+        ],
+        "imp90": 10808,
+        "clicks90": 54,
+        "pos90": 4.474925980754996,
+        "page": "https://www.letemsvetemapplem.eu/2019/07/30/jak-napsat-zavinac-na-macu/",
+        "page_imp": 72220,
+        "page_clicks": 424,
+        "page_pos": 3.8084464137358074,
+        "query_count": 70
+      },
+      "score": 84516.276,
+      "action_v2": "REWRITE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Zavináč a speciální znaky na Macu: česká klávesnice, MacBook, Windows klávesnice a nejčastější chyby",
+      "serp_adjusted_score": 23664.55728,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 43
+    },
+    {
+      "title": "Jak napsat hvězdičku, paragraf a speciální znaky",
+      "inc": [
+        "jak",
+        "napsat"
+      ],
+      "exc": [
+        "zavinac"
+      ],
+      "cat": "How-to",
+      "action": "CREATE/UPDATE",
+      "why": "Sloučit hvězdička/paragraf/speciální znaky do evergreen klávesnicového hubu.",
+      "agg": {
+        "imp": 28039,
+        "clicks": 546,
+        "pos": 7.374121758978566,
+        "ctr": 0.019472877064089303,
+        "top_queries": [
+          {
+            "keys": [
+              "jak napsat hvězdičku"
+            ],
+            "clicks": 1,
+            "impressions": 5004,
+            "ctr": 0.00019984012789768185,
+            "position": 11.179656274980015,
+            "q": "jak napsat hvězdičku",
+            "nq": "jak napsat hvezdicku"
+          },
+          {
+            "keys": [
+              "jak napsat paragraf"
+            ],
+            "clicks": 1,
+            "impressions": 4864,
+            "ctr": 0.00020559210526315788,
+            "position": 7.159950657894737,
+            "q": "jak napsat paragraf",
+            "nq": "jak napsat paragraf"
+          },
+          {
+            "keys": [
+              "jak napsat plus"
+            ],
+            "clicks": 3,
+            "impressions": 3257,
+            "ctr": 0.00092109303039607,
+            "position": 9.059871046975745,
+            "q": "jak napsat plus",
+            "nq": "jak napsat plus"
+          },
+          {
+            "keys": [
+              "jak napsat přehlasované u"
+            ],
+            "clicks": 1,
+            "impressions": 2874,
+            "ctr": 0.0003479471120389701,
+            "position": 9.63535142658316,
+            "q": "jak napsat přehlasované u",
+            "nq": "jak napsat prehlasovane u"
+          },
+          {
+            "keys": [
+              "jak napsat metr čtvereční"
+            ],
+            "clicks": 2,
+            "impressions": 1242,
+            "ctr": 0.001610305958132045,
+            "position": 5.827697262479871,
+            "q": "jak napsat metr čtvereční",
+            "nq": "jak napsat metr ctverecni"
+          },
+          {
+            "keys": [
+              "jak napsat stupně celsia"
+            ],
+            "clicks": 1,
+            "impressions": 971,
+            "ctr": 0.0010298661174047373,
+            "position": 8.74356333676622,
+            "q": "jak napsat stupně celsia",
+            "nq": "jak napsat stupne celsia"
+          }
+        ],
+        "imp90": 584,
+        "clicks90": 29,
+        "pos90": 4.251712328767123,
+        "page": "https://www.letemsvetemapplem.eu/2023/04/27/jak-na-macbooku-napsat-hvezdicku/",
+        "page_imp": 6249,
+        "page_clicks": 19,
+        "page_pos": 9.447911665866538,
+        "query_count": 49
+      },
+      "score": 51752.532,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Speciální znaky na Macu: hvězdička, paragraf, zavináč, m² a kompletní český tahák",
+      "serp_adjusted_score": 14490.708960000002,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 44
+    },
+    {
+      "title": "Jak zrušit Netflix",
+      "inc": [
+        "zrusit",
+        "netflix"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Praktický návod na zrušení předplatného přes web, iPhone a App Store.",
+      "agg": {
+        "imp": 8336,
+        "clicks": 15,
+        "pos": 9.504438579654511,
+        "ctr": 0.0017994241842610365,
+        "top_queries": [
+          {
+            "keys": [
+              "jak zrušit netflix"
+            ],
+            "clicks": 4,
+            "impressions": 5874,
+            "ctr": 0.0006809669731018045,
+            "position": 9.362104187946885,
+            "q": "jak zrušit netflix",
+            "nq": "jak zrusit netflix"
+          },
+          {
+            "keys": [
+              "netflix zrušit předplatné"
+            ],
+            "clicks": 1,
+            "impressions": 1170,
+            "ctr": 0.0008547008547008547,
+            "position": 9.854700854700855,
+            "q": "netflix zrušit předplatné",
+            "nq": "netflix zrusit predplatne"
+          },
+          {
+            "keys": [
+              "jak zrušit předplatné na netflixu"
+            ],
+            "clicks": 2,
+            "impressions": 433,
+            "ctr": 0.004618937644341801,
+            "position": 7.651270207852194,
+            "q": "jak zrušit předplatné na netflixu",
+            "nq": "jak zrusit predplatne na netflixu"
+          },
+          {
+            "keys": [
+              "jak zrušit netflix předplatné"
+            ],
+            "clicks": 2,
+            "impressions": 402,
+            "ctr": 0.004975124378109453,
+            "position": 8.4726368159204,
+            "q": "jak zrušit netflix předplatné",
+            "nq": "jak zrusit netflix predplatne"
+          },
+          {
+            "keys": [
+              "netflix zrusit predplatne"
+            ],
+            "clicks": 1,
+            "impressions": 354,
+            "ctr": 0.002824858757062147,
+            "position": 13.971751412429379,
+            "q": "netflix zrusit predplatne",
+            "nq": "netflix zrusit predplatne"
+          },
+          {
+            "keys": [
+              "zrusit predplatne netflix"
+            ],
+            "clicks": 1,
+            "impressions": 52,
+            "ctr": 0.019230769230769232,
+            "position": 12.961538461538462,
+            "q": "zrusit predplatne netflix",
+            "nq": "zrusit predplatne netflix"
+          }
+        ],
+        "imp90": 12,
+        "clicks90": 0,
+        "pos90": 8.416666666666666,
+        "page": "https://www.letemsvetemapplem.eu/2023/02/02/jak-zrusit-predplatne-netflix/",
+        "page_imp": 6588,
+        "page_clicks": 10,
+        "page_pos": 8.958409228901033,
+        "query_count": 14
+      },
+      "score": 16765.008,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Jak zrušit Netflix placený přes Apple, kartu nebo operátora a kde lidé dělají chybu",
+      "serp_adjusted_score": 4694.2022400000005,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 45
+    },
+    {
+      "title": "Jak odinstalovat aplikaci na Macu",
+      "inc": [
+        "odinstalovat",
+        "aplikaci",
+        "mac"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Finder, Launchpad, zbytky aplikací, bezpečný postup.",
+      "agg": {
+        "imp": 5294,
+        "clicks": 52,
+        "pos": 5.744238760861353,
+        "ctr": 0.009822440498677748,
+        "top_queries": [
+          {
+            "keys": [
+              "jak odinstalovat aplikaci mac"
+            ],
+            "clicks": 35,
+            "impressions": 3550,
+            "ctr": 0.009859154929577466,
+            "position": 5.614366197183099,
+            "q": "jak odinstalovat aplikaci mac",
+            "nq": "jak odinstalovat aplikaci mac"
+          },
+          {
+            "keys": [
+              "jak odinstalovat aplikaci z macu"
+            ],
+            "clicks": 3,
+            "impressions": 645,
+            "ctr": 0.004651162790697674,
+            "position": 6.475968992248062,
+            "q": "jak odinstalovat aplikaci z macu",
+            "nq": "jak odinstalovat aplikaci z macu"
+          },
+          {
+            "keys": [
+              "jak odinstalovat aplikaci na macu"
+            ],
+            "clicks": 3,
+            "impressions": 349,
+            "ctr": 0.008595988538681949,
+            "position": 5.825214899713467,
+            "q": "jak odinstalovat aplikaci na macu",
+            "nq": "jak odinstalovat aplikaci na macu"
+          },
+          {
+            "keys": [
+              "jak na macu odinstalovat aplikaci"
+            ],
+            "clicks": 1,
+            "impressions": 241,
+            "ctr": 0.004149377593360996,
+            "position": 6.381742738589212,
+            "q": "jak na macu odinstalovat aplikaci",
+            "nq": "jak na macu odinstalovat aplikaci"
+          },
+          {
+            "keys": [
+              "macbook jak odinstalovat aplikaci"
+            ],
+            "clicks": 1,
+            "impressions": 148,
+            "ctr": 0.006756756756756757,
+            "position": 5.75,
+            "q": "macbook jak odinstalovat aplikaci",
+            "nq": "macbook jak odinstalovat aplikaci"
+          },
+          {
+            "keys": [
+              "mac jak odinstalovat aplikaci"
+            ],
+            "clicks": 3,
+            "impressions": 137,
+            "ctr": 0.021897810218978103,
+            "position": 5.372262773722627,
+            "q": "mac jak odinstalovat aplikaci",
+            "nq": "mac jak odinstalovat aplikaci"
+          }
+        ],
+        "imp90": 80,
+        "clicks90": 1,
+        "pos90": 7.1375,
+        "page": "https://www.letemsvetemapplem.eu/2023/04/18/jak-na-macu-odinstalovat-aplikaci/",
+        "page_imp": 5150,
+        "page_clicks": 52,
+        "page_pos": 5.692233009708738,
+        "query_count": 10
+      },
+      "score": 10249.511999999999,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Jak úplně odinstalovat aplikaci z Macu včetně zbytků, login položek a cache",
+      "serp_adjusted_score": 2869.86336,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 46
+    },
+    {
+      "title": "Od kolika let je WhatsApp",
+      "inc": [
+        "kolika let",
+        "whatsapp"
+      ],
+      "exc": [],
+      "cat": "Definition",
+      "action": "UPDATE",
+      "why": "Věkový limit, rodičovská kontrola, bezpečnost dětí.",
+      "agg": {
+        "imp": 6305,
+        "clicks": 87,
+        "pos": 5.682791435368755,
+        "ctr": 0.013798572561459159,
+        "top_queries": [
+          {
+            "keys": [
+              "od kolika let je whatsapp"
+            ],
+            "clicks": 32,
+            "impressions": 4832,
+            "ctr": 0.006622516556291391,
+            "position": 5.6115480132450335,
+            "q": "od kolika let je whatsapp",
+            "nq": "od kolika let je whatsapp"
+          },
+          {
+            "keys": [
+              "whatsapp od kolika let"
+            ],
+            "clicks": 21,
+            "impressions": 730,
+            "ctr": 0.028767123287671233,
+            "position": 6.058904109589041,
+            "q": "whatsapp od kolika let",
+            "nq": "whatsapp od kolika let"
+          },
+          {
+            "keys": [
+              "od kolika let je whatsapp v čr"
+            ],
+            "clicks": 30,
+            "impressions": 692,
+            "ctr": 0.04335260115606936,
+            "position": 5.835260115606936,
+            "q": "od kolika let je whatsapp v čr",
+            "nq": "od kolika let je whatsapp v cr"
+          },
+          {
+            "keys": [
+              "od kolika let whatsapp"
+            ],
+            "clicks": 4,
+            "impressions": 51,
+            "ctr": 0.0784313725490196,
+            "position": 4.980392156862745,
+            "q": "od kolika let whatsapp",
+            "nq": "od kolika let whatsapp"
+          }
+        ],
+        "imp90": 565,
+        "clicks90": 4,
+        "pos90": 6.343362831858407,
+        "page": "https://www.letemsvetemapplem.eu/2024/04/15/je-to-spravne-whatsapp-lze-nove-legalne-pouzivat-od-vyrazne-nizsiho-veku/",
+        "page_imp": 6154,
+        "page_clicks": 87,
+        "page_pos": 5.549073773155671,
+        "query_count": 4
+      },
+      "score": 8979.165,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Od kolika let je WhatsApp a co musí vědět rodiče: věk, soukromí, skupiny a rizika",
+      "serp_adjusted_score": 2514.1662000000006,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 47
+    },
+    {
+      "title": "Jak vypnout vibrace na iPhonu",
+      "inc": [
+        "vypnout",
+        "vibrace",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Vibrace, haptika, tichý režim, konkrétní přepínače v iOS.",
+      "agg": {
+        "imp": 2850,
+        "clicks": 13,
+        "pos": 5.324210526315789,
+        "ctr": 0.004561403508771929,
+        "top_queries": [
+          {
+            "keys": [
+              "jak vypnout vibrace iphone"
+            ],
+            "clicks": 8,
+            "impressions": 1805,
+            "ctr": 0.00443213296398892,
+            "position": 5.130193905817174,
+            "q": "jak vypnout vibrace iphone",
+            "nq": "jak vypnout vibrace iphone"
+          },
+          {
+            "keys": [
+              "jak vypnout vibrace na iphone"
+            ],
+            "clicks": 5,
+            "impressions": 1045,
+            "ctr": 0.004784688995215311,
+            "position": 5.65933014354067,
+            "q": "jak vypnout vibrace na iphone",
+            "nq": "jak vypnout vibrace na iphone"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2023/05/04/jak-na-iphone-vypnout-vibrace/",
+        "page_imp": 2775,
+        "page_clicks": 13,
+        "page_pos": 5.228108108108108,
+        "query_count": 2
+      },
+      "score": 5658.12,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "iPhone vibruje i když nemá: systémové vibrace, haptika, budík a tichý režim",
+      "serp_adjusted_score": 1584.2736000000002,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 48
+    },
+    {
+      "title": "Jak vypnout autokorekci na iPhonu",
+      "inc": [
+        "vypnout",
+        "autokorekci",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Autokorekce, predikce, kontrola pravopisu.",
+      "agg": {
+        "imp": 827,
+        "clicks": 3,
+        "pos": 4.399032648125756,
+        "ctr": 0.0036275695284159614,
+        "top_queries": [
+          {
+            "keys": [
+              "jak vypnout autokorekci iphone"
+            ],
+            "clicks": 3,
+            "impressions": 827,
+            "ctr": 0.0036275695284159614,
+            "position": 4.399032648125756,
+            "q": "jak vypnout autokorekci iphone",
+            "nq": "jak vypnout autokorekci iphone"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2023/03/31/jak-na-iphone-vypnout-autokorekci/",
+        "page_imp": 791,
+        "page_clicks": 3,
+        "page_pos": 3.677623261694058,
+        "query_count": 1
+      },
+      "score": 1881.2976,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Autokorekce na iPhonu zlobí: vypnutí, náhrady textu, slovník a predikce",
+      "serp_adjusted_score": 526.7633280000001,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 49
+    },
+    {
+      "title": "Jak skrýt aplikaci na iPhonu",
+      "inc": [
+        "skryt",
+        "aplikaci",
+        "iphone"
+      ],
+      "exc": [],
+      "cat": "How-to",
+      "action": "UPDATE",
+      "why": "Knihovna aplikací, skrytí ikon, iOS nastavení.",
+      "agg": {
+        "imp": 788,
+        "clicks": 4,
+        "pos": 7.493654822335025,
+        "ctr": 0.005076142131979695,
+        "top_queries": [
+          {
+            "keys": [
+              "jak skryt aplikaci na iphone"
+            ],
+            "clicks": 3,
+            "impressions": 770,
+            "ctr": 0.003896103896103896,
+            "position": 7.492207792207792,
+            "q": "jak skryt aplikaci na iphone",
+            "nq": "jak skryt aplikaci na iphone"
+          },
+          {
+            "keys": [
+              "jak skrýt aplikaci iphone"
+            ],
+            "clicks": 1,
+            "impressions": 18,
+            "ctr": 0.05555555555555555,
+            "position": 7.555555555555555,
+            "q": "jak skrýt aplikaci iphone",
+            "nq": "jak skryt aplikaci iphone"
+          }
+        ],
+        "imp90": 0,
+        "clicks90": 0,
+        "pos90": null,
+        "page": "https://www.letemsvetemapplem.eu/2023/01/15/jak-skryt-aplikaci-na-iphone-5-tipu-ktere-se-muzou-hodit/",
+        "page_imp": 767,
+        "page_clicks": 4,
+        "page_pos": 7.455019556714472,
+        "query_count": 2
+      },
+      "score": 1560.6239999999998,
+      "action_v2": "UPDATE",
+      "zero_click_risk": "HIGH",
+      "serp_defensibility": "MEDIUM",
+      "defensible_title": "Jak skrýt aplikaci na iPhonu opravdu: plocha, knihovna aplikací, Face ID a nákupy",
+      "serp_adjusted_score": 436.97472,
+      "serp_note": "Jednoduchý dotaz může Google/Gemini zodpovědět přímo. Samostatně dává smysl jen s problémovým, tabulkovým nebo variantním úhlem.",
+      "rank_v2": 50
+    }
+  ]
+}

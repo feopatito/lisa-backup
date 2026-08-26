@@ -1,0 +1,4505 @@
+{
+  "rows": [
+    {
+      "keys": [
+        "vypnout telefon"
+      ],
+      "clicks": 57,
+      "impressions": 3792,
+      "ctr": 0.015031645569620253,
+      "position": 4.063291139240507
+    },
+    {
+      "keys": [
+        "android magazine"
+      ],
+      "clicks": 39,
+      "impressions": 301,
+      "ctr": 0.12956810631229235,
+      "position": 9.740863787375416
+    },
+    {
+      "keys": [
+        "android magazin"
+      ],
+      "clicks": 38,
+      "impressions": 97,
+      "ctr": 0.3917525773195876,
+      "position": 9.474226804123711
+    },
+    {
+      "keys": [
+        "android telefon kikapcsolása"
+      ],
+      "clicks": 31,
+      "impressions": 341,
+      "ctr": 0.09090909090909091,
+      "position": 2.0469208211143695
+    },
+    {
+      "keys": [
+        "poco f9"
+      ],
+      "clicks": 27,
+      "impressions": 603,
+      "ctr": 0.04477611940298507,
+      "position": 11.203980099502488
+    },
+    {
+      "keys": [
+        "poco f9 pro"
+      ],
+      "clicks": 27,
+      "impressions": 633,
+      "ctr": 0.04265402843601896,
+      "position": 7.083728278041074
+    },
+    {
+      "keys": [
+        "ako zistim svoje telefonne cislo"
+      ],
+      "clicks": 25,
+      "impressions": 121,
+      "ctr": 0.2066115702479339,
+      "position": 1.8181818181818183
+    },
+    {
+      "keys": [
+        "vypnúť telefón"
+      ],
+      "clicks": 24,
+      "impressions": 1165,
+      "ctr": 0.020600858369098713,
+      "position": 2.230901287553648
+    },
+    {
+      "keys": [
+        "izklop telefona"
+      ],
+      "clicks": 23,
+      "impressions": 290,
+      "ctr": 0.07931034482758621,
+      "position": 1.9586206896551723
+    },
+    {
+      "keys": [
+        "kako isključiti ai na mobitelu"
+      ],
+      "clicks": 23,
+      "impressions": 255,
+      "ctr": 0.09019607843137255,
+      "position": 3.0392156862745097
+    },
+    {
+      "keys": [
+        "android törölt alkalmazás visszaállítása"
+      ],
+      "clicks": 22,
+      "impressions": 289,
+      "ctr": 0.07612456747404844,
+      "position": 4.017301038062284
+    },
+    {
+      "keys": [
+        "poco f9 ultra"
+      ],
+      "clicks": 22,
+      "impressions": 464,
+      "ctr": 0.04741379310344827,
+      "position": 14.575431034482758
+    },
+    {
+      "keys": [
+        "게임용 스마트 폰 2026"
+      ],
+      "clicks": 22,
+      "impressions": 146,
+      "ctr": 0.1506849315068493,
+      "position": 4.006849315068493
+    },
+    {
+      "keys": [
+        "izklop telefona samsung"
+      ],
+      "clicks": 21,
+      "impressions": 450,
+      "ctr": 0.04666666666666667,
+      "position": 3.088888888888889
+    },
+    {
+      "keys": [
+        "odblokiranje številke"
+      ],
+      "clicks": 21,
+      "impressions": 141,
+      "ctr": 0.14893617021276595,
+      "position": 3.4893617021276597
+    },
+    {
+      "keys": [
+        "vypnutí telefonu"
+      ],
+      "clicks": 20,
+      "impressions": 598,
+      "ctr": 0.033444816053511704,
+      "position": 3.157190635451505
+    },
+    {
+      "keys": [
+        "jak vypnout telefon"
+      ],
+      "clicks": 19,
+      "impressions": 1028,
+      "ctr": 0.01848249027237354,
+      "position": 4.547665369649805
+    },
+    {
+      "keys": [
+        "pixel 11"
+      ],
+      "clicks": 19,
+      "impressions": 208,
+      "ctr": 0.09134615384615384,
+      "position": 43.00480769230769
+    },
+    {
+      "keys": [
+        "telefon kikapcsolása"
+      ],
+      "clicks": 17,
+      "impressions": 2098,
+      "ctr": 0.008102955195424213,
+      "position": 3.635843660629171
+    },
+    {
+      "keys": [
+        "ai mód kikapcsolása telefonon"
+      ],
+      "clicks": 16,
+      "impressions": 196,
+      "ctr": 0.08163265306122448,
+      "position": 3.163265306122449
+    },
+    {
+      "keys": [
+        "google pixel"
+      ],
+      "clicks": 15,
+      "impressions": 423,
+      "ctr": 0.03546099290780142,
+      "position": 4.40661938534279
+    },
+    {
+      "keys": [
+        "letiltott telefonszám feloldása"
+      ],
+      "clicks": 15,
+      "impressions": 457,
+      "ctr": 0.03282275711159737,
+      "position": 4.818380743982495
+    },
+    {
+      "keys": [
+        "ako vypnúť mobil"
+      ],
+      "clicks": 14,
+      "impressions": 380,
+      "ctr": 0.03684210526315789,
+      "position": 2.2605263157894737
+    },
+    {
+      "keys": [
+        "android vysypat koš"
+      ],
+      "clicks": 13,
+      "impressions": 114,
+      "ctr": 0.11403508771929824,
+      "position": 3.6315789473684212
+    },
+    {
+      "keys": [
+        "ako zistim moje telefonne cislo"
+      ],
+      "clicks": 12,
+      "impressions": 52,
+      "ctr": 0.23076923076923078,
+      "position": 1.6153846153846154
+    },
+    {
+      "keys": [
+        "android17 不具合"
+      ],
+      "clicks": 12,
+      "impressions": 73,
+      "ctr": 0.1643835616438356,
+      "position": 27.26027397260274
+    },
+    {
+      "keys": [
+        "moje telefónne číslo"
+      ],
+      "clicks": 12,
+      "impressions": 183,
+      "ctr": 0.06557377049180328,
+      "position": 2.2295081967213113
+    },
+    {
+      "keys": [
+        "pixel11"
+      ],
+      "clicks": 12,
+      "impressions": 547,
+      "ctr": 0.021937842778793418,
+      "position": 9.575868372943328
+    },
+    {
+      "keys": [
+        "ako preposlať sms"
+      ],
+      "clicks": 11,
+      "impressions": 110,
+      "ctr": 0.1,
+      "position": 2.3909090909090907
+    },
+    {
+      "keys": [
+        "xiaomi pad 9"
+      ],
+      "clicks": 11,
+      "impressions": 126,
+      "ctr": 0.0873015873015873,
+      "position": 11.46031746031746
+    },
+    {
+      "keys": [
+        "フィットネス用トラッカ"
+      ],
+      "clicks": 11,
+      "impressions": 126,
+      "ctr": 0.0873015873015873,
+      "position": 1
+    },
+    {
+      "keys": [
+        "letiltott telefonszám feloldása android"
+      ],
+      "clicks": 10,
+      "impressions": 117,
+      "ctr": 0.08547008547008547,
+      "position": 3.7606837606837606
+    },
+    {
+      "keys": [
+        "اندرویدفای"
+      ],
+      "clicks": 10,
+      "impressions": 67,
+      "ctr": 0.14925373134328357,
+      "position": 4.044776119402985
+    },
+    {
+      "keys": [
+        "kaip sužinoti savo telefono numerį"
+      ],
+      "clicks": 9,
+      "impressions": 66,
+      "ctr": 0.13636363636363635,
+      "position": 1.9848484848484849
+    },
+    {
+      "keys": [
+        "kikapcsolás telefon"
+      ],
+      "clicks": 9,
+      "impressions": 154,
+      "ctr": 0.05844155844155844,
+      "position": 2.6623376623376624
+    },
+    {
+      "keys": [
+        "nömrəni blokdan çıxarmaq"
+      ],
+      "clicks": 9,
+      "impressions": 77,
+      "ctr": 0.11688311688311688,
+      "position": 2.051948051948052
+    },
+    {
+      "keys": [
+        "tøm papirkurv android"
+      ],
+      "clicks": 9,
+      "impressions": 330,
+      "ctr": 0.02727272727272727,
+      "position": 6.178787878787879
+    },
+    {
+      "keys": [
+        "スマホ 左利き 設定"
+      ],
+      "clicks": 9,
+      "impressions": 98,
+      "ctr": 0.09183673469387756,
+      "position": 3.979591836734694
+    },
+    {
+      "keys": [
+        "honor 700"
+      ],
+      "clicks": 8,
+      "impressions": 161,
+      "ctr": 0.049689440993788817,
+      "position": 9.118012422360248
+    },
+    {
+      "keys": [
+        "huawei freebuds pro 5 vs samsung buds 4 pro"
+      ],
+      "clicks": 8,
+      "impressions": 94,
+      "ctr": 0.0851063829787234,
+      "position": 11.808510638297872
+    },
+    {
+      "keys": [
+        "hyperos 4"
+      ],
+      "clicks": 8,
+      "impressions": 92,
+      "ctr": 0.08695652173913043,
+      "position": 36.619565217391305
+    },
+    {
+      "keys": [
+        "jak vypnout tento telefon"
+      ],
+      "clicks": 8,
+      "impressions": 222,
+      "ctr": 0.036036036036036036,
+      "position": 3.081081081081081
+    },
+    {
+      "keys": [
+        "miブラウザとは"
+      ],
+      "clicks": 8,
+      "impressions": 314,
+      "ctr": 0.025477707006369428,
+      "position": 7.060509554140127
+    },
+    {
+      "keys": [
+        "redmi k100 pro max"
+      ],
+      "clicks": 8,
+      "impressions": 296,
+      "ctr": 0.02702702702702703,
+      "position": 11.60135135135135
+    },
+    {
+      "keys": [
+        "redmi watch 5 hyperos 3"
+      ],
+      "clicks": 8,
+      "impressions": 40,
+      "ctr": 0.2,
+      "position": 11.225
+    },
+    {
+      "keys": [
+        "наборы тем pixel"
+      ],
+      "clicks": 8,
+      "impressions": 55,
+      "ctr": 0.14545454545454545,
+      "position": 4.454545454545455
+    },
+    {
+      "keys": [
+        "ako zistit svoje telefonne číslo"
+      ],
+      "clicks": 7,
+      "impressions": 64,
+      "ctr": 0.109375,
+      "position": 1.84375
+    },
+    {
+      "keys": [
+        "appareil connecté facebook"
+      ],
+      "clicks": 7,
+      "impressions": 262,
+      "ctr": 0.026717557251908396,
+      "position": 7.351145038167939
+    },
+    {
+      "keys": [
+        "jak přeposlat sms"
+      ],
+      "clicks": 7,
+      "impressions": 479,
+      "ctr": 0.014613778705636743,
+      "position": 5.912317327766179
+    },
+    {
+      "keys": [
+        "letiltott számok feloldása"
+      ],
+      "clicks": 7,
+      "impressions": 95,
+      "ctr": 0.07368421052631578,
+      "position": 4.3578947368421055
+    },
+    {
+      "keys": [
+        "letiltott telefonszám feloldása samsung"
+      ],
+      "clicks": 7,
+      "impressions": 103,
+      "ctr": 0.06796116504854369,
+      "position": 3.563106796116505
+    },
+    {
+      "keys": [
+        "poco x8 pro vs samsung a57"
+      ],
+      "clicks": 7,
+      "impressions": 73,
+      "ctr": 0.0958904109589041,
+      "position": 9.986301369863014
+    },
+    {
+      "keys": [
+        "samsung telefon kikapcsolása gomb nélkül"
+      ],
+      "clicks": 7,
+      "impressions": 655,
+      "ctr": 0.010687022900763359,
+      "position": 4.227480916030535
+    },
+    {
+      "keys": [
+        "stäng av telefonen"
+      ],
+      "clicks": 7,
+      "impressions": 3084,
+      "ctr": 0.002269779507133593,
+      "position": 9.011348897535669
+    },
+    {
+      "keys": [
+        "vypnout mobil"
+      ],
+      "clicks": 7,
+      "impressions": 587,
+      "ctr": 0.01192504258943782,
+      "position": 4.698466780238501
+    },
+    {
+      "keys": [
+        "vysypať kôš"
+      ],
+      "clicks": 7,
+      "impressions": 158,
+      "ctr": 0.04430379746835443,
+      "position": 3.0949367088607596
+    },
+    {
+      "keys": [
+        "adattakarékos mód kikapcsolása"
+      ],
+      "clicks": 6,
+      "impressions": 103,
+      "ctr": 0.05825242718446602,
+      "position": 2.766990291262136
+    },
+    {
+      "keys": [
+        "adattakarékos üzemmód kikapcsolása"
+      ],
+      "clicks": 6,
+      "impressions": 254,
+      "ctr": 0.023622047244094488,
+      "position": 2.9015748031496065
+    },
+    {
+      "keys": [
+        "ako vypnut telefon samsung"
+      ],
+      "clicks": 6,
+      "impressions": 354,
+      "ctr": 0.01694915254237288,
+      "position": 3.2175141242937855
+    },
+    {
+      "keys": [
+        "galaxy buds 4 pro vs huawei freebuds pro 5"
+      ],
+      "clicks": 6,
+      "impressions": 40,
+      "ctr": 0.15,
+      "position": 14.2
+    },
+    {
+      "keys": [
+        "google pixel 11"
+      ],
+      "clicks": 6,
+      "impressions": 134,
+      "ctr": 0.04477611940298507,
+      "position": 53.38805970149254
+    },
+    {
+      "keys": [
+        "jak zjistit svoje telefonní číslo"
+      ],
+      "clicks": 6,
+      "impressions": 355,
+      "ctr": 0.016901408450704224,
+      "position": 5.422535211267606
+    },
+    {
+      "keys": [
+        "kako videti svoj broj telefona"
+      ],
+      "clicks": 6,
+      "impressions": 71,
+      "ctr": 0.08450704225352113,
+      "position": 3.9859154929577465
+    },
+    {
+      "keys": [
+        "miブラウザ"
+      ],
+      "clicks": 6,
+      "impressions": 131,
+      "ctr": 0.04580152671755725,
+      "position": 8
+    },
+    {
+      "keys": [
+        "moje tel cislo"
+      ],
+      "clicks": 6,
+      "impressions": 35,
+      "ctr": 0.17142857142857143,
+      "position": 3.2857142857142856
+    },
+    {
+      "keys": [
+        "moje telefonní číslo"
+      ],
+      "clicks": 6,
+      "impressions": 492,
+      "ctr": 0.012195121951219513,
+      "position": 3.8536585365853657
+    },
+    {
+      "keys": [
+        "oppo find x9 pro vs realme gt 8 pro"
+      ],
+      "clicks": 6,
+      "impressions": 65,
+      "ctr": 0.09230769230769231,
+      "position": 9.307692307692308
+    },
+    {
+      "keys": [
+        "sms továbbküldése"
+      ],
+      "clicks": 6,
+      "impressions": 60,
+      "ctr": 0.1,
+      "position": 2.2
+    },
+    {
+      "keys": [
+        "spremljeno google"
+      ],
+      "clicks": 6,
+      "impressions": 281,
+      "ctr": 0.021352313167259787,
+      "position": 6.2313167259786475
+    },
+    {
+      "keys": [
+        "tema one ui 8 hyperos"
+      ],
+      "clicks": 6,
+      "impressions": 10,
+      "ctr": 0.6,
+      "position": 12
+    },
+    {
+      "keys": [
+        "törölt alkalmazás visszaállítása samsung"
+      ],
+      "clicks": 6,
+      "impressions": 172,
+      "ctr": 0.03488372093023256,
+      "position": 4.3313953488372094
+    },
+    {
+      "keys": [
+        "vypnutie telefonu"
+      ],
+      "clicks": 6,
+      "impressions": 156,
+      "ctr": 0.038461538461538464,
+      "position": 2.3525641025641026
+    },
+    {
+      "keys": [
+        "vypnúť mobil"
+      ],
+      "clicks": 6,
+      "impressions": 329,
+      "ctr": 0.0182370820668693,
+      "position": 2.7325227963525833
+    },
+    {
+      "keys": [
+        "a telefon kikapcsolása"
+      ],
+      "clicks": 5,
+      "impressions": 223,
+      "ctr": 0.02242152466367713,
+      "position": 2.914798206278027
+    },
+    {
+      "keys": [
+        "adattakarékos mód"
+      ],
+      "clicks": 5,
+      "impressions": 86,
+      "ctr": 0.05813953488372093,
+      "position": 3.3255813953488373
+    },
+    {
+      "keys": [
+        "ako zistit telefonne cislo sim karty"
+      ],
+      "clicks": 5,
+      "impressions": 44,
+      "ctr": 0.11363636363636363,
+      "position": 1.75
+    },
+    {
+      "keys": [
+        "android 17 qpr1 beta 7 что нового"
+      ],
+      "clicks": 5,
+      "impressions": 19,
+      "ctr": 0.2631578947368421,
+      "position": 5
+    },
+    {
+      "keys": [
+        "android auto frissítés magyarországon"
+      ],
+      "clicks": 5,
+      "impressions": 213,
+      "ctr": 0.023474178403755867,
+      "position": 7.727699530516432
+    },
+    {
+      "keys": [
+        "android 左利き 設定"
+      ],
+      "clicks": 5,
+      "impressions": 27,
+      "ctr": 0.18518518518518517,
+      "position": 2.185185185185185
+    },
+    {
+      "keys": [
+        "blokkolt szám feloldása"
+      ],
+      "clicks": 5,
+      "impressions": 218,
+      "ctr": 0.022935779816513763,
+      "position": 4.793577981651376
+    },
+    {
+      "keys": [
+        "honor magic v6 vs oppo find n6"
+      ],
+      "clicks": 5,
+      "impressions": 22,
+      "ctr": 0.22727272727272727,
+      "position": 25.954545454545453
+    },
+    {
+      "keys": [
+        "hyperos 3.1"
+      ],
+      "clicks": 5,
+      "impressions": 47,
+      "ctr": 0.10638297872340426,
+      "position": 32.40425531914894
+    },
+    {
+      "keys": [
+        "hyperos4"
+      ],
+      "clicks": 5,
+      "impressions": 48,
+      "ctr": 0.10416666666666667,
+      "position": 15.708333333333334
+    },
+    {
+      "keys": [
+        "kako da vidim svoj broj telefona"
+      ],
+      "clicks": 5,
+      "impressions": 157,
+      "ctr": 0.03184713375796178,
+      "position": 4.382165605095541
+    },
+    {
+      "keys": [
+        "redmi 17 4g"
+      ],
+      "clicks": 5,
+      "impressions": 22,
+      "ctr": 0.22727272727272727,
+      "position": 15.727272727272727
+    },
+    {
+      "keys": [
+        "spremljene stavke"
+      ],
+      "clicks": 5,
+      "impressions": 416,
+      "ctr": 0.01201923076923077,
+      "position": 6.959134615384615
+    },
+    {
+      "keys": [
+        "stänga av android"
+      ],
+      "clicks": 5,
+      "impressions": 90,
+      "ctr": 0.05555555555555555,
+      "position": 2.988888888888889
+    },
+    {
+      "keys": [
+        "törölt alkalmazások visszaállítása android"
+      ],
+      "clicks": 5,
+      "impressions": 218,
+      "ctr": 0.022935779816513763,
+      "position": 4.509174311926605
+    },
+    {
+      "keys": [
+        "vidarebefordra sms android"
+      ],
+      "clicks": 5,
+      "impressions": 251,
+      "ctr": 0.0199203187250996,
+      "position": 6.414342629482071
+    },
+    {
+      "keys": [
+        "xiaomi 18"
+      ],
+      "clicks": 5,
+      "impressions": 54,
+      "ctr": 0.09259259259259259,
+      "position": 45
+    },
+    {
+      "keys": [
+        "xiaomi pad 9 pro"
+      ],
+      "clicks": 5,
+      "impressions": 42,
+      "ctr": 0.11904761904761904,
+      "position": 10.19047619047619
+    },
+    {
+      "keys": [
+        "πωσ μπορω να δω τον αριθμο του κινητου μου"
+      ],
+      "clicks": 5,
+      "impressions": 65,
+      "ctr": 0.07692307692307693,
+      "position": 3.876923076923077
+    },
+    {
+      "keys": [
+        "как добавить ярлык на рабочий стол андроид"
+      ],
+      "clicks": 5,
+      "impressions": 553,
+      "ctr": 0.009041591320072333,
+      "position": 7.443037974683544
+    },
+    {
+      "keys": [
+        "как очистить корзину в телефоне"
+      ],
+      "clicks": 5,
+      "impressions": 1566,
+      "ctr": 0.0031928480204342275,
+      "position": 7.9272030651340994
+    },
+    {
+      "keys": [
+        "набор тем pixel"
+      ],
+      "clicks": 5,
+      "impressions": 65,
+      "ctr": 0.07692307692307693,
+      "position": 4.815384615384616
+    },
+    {
+      "keys": [
+        "پاسخ دادن به تماس با یک ضربه"
+      ],
+      "clicks": 5,
+      "impressions": 47,
+      "ctr": 0.10638297872340426,
+      "position": 6.531914893617022
+    },
+    {
+      "keys": [
+        "価格"
+      ],
+      "clicks": 5,
+      "impressions": 190,
+      "ctr": 0.02631578947368421,
+      "position": 1
+    },
+    {
+      "keys": [
+        "ako vypnem telefon"
+      ],
+      "clicks": 4,
+      "impressions": 86,
+      "ctr": 0.046511627906976744,
+      "position": 2.558139534883721
+    },
+    {
+      "keys": [
+        "ako vypnúť telefón"
+      ],
+      "clicks": 4,
+      "impressions": 117,
+      "ctr": 0.03418803418803419,
+      "position": 2.5384615384615383
+    },
+    {
+      "keys": [
+        "android"
+      ],
+      "clicks": 4,
+      "impressions": 768,
+      "ctr": 0.005208333333333333,
+      "position": 49.07421875
+    },
+    {
+      "keys": [
+        "automatikus válasz sms android"
+      ],
+      "clicks": 4,
+      "impressions": 38,
+      "ctr": 0.10526315789473684,
+      "position": 7.078947368421052
+    },
+    {
+      "keys": [
+        "historie oznámení android"
+      ],
+      "clicks": 4,
+      "impressions": 166,
+      "ctr": 0.024096385542168676,
+      "position": 6.530120481927711
+    },
+    {
+      "keys": [
+        "hyperos"
+      ],
+      "clicks": 4,
+      "impressions": 51,
+      "ctr": 0.0784313725490196,
+      "position": 6.745098039215686
+    },
+    {
+      "keys": [
+        "hyperos 3 redmi watch 5"
+      ],
+      "clicks": 4,
+      "impressions": 15,
+      "ctr": 0.26666666666666666,
+      "position": 8.466666666666667
+    },
+    {
+      "keys": [
+        "kako izklopiti telefon samsung"
+      ],
+      "clicks": 4,
+      "impressions": 79,
+      "ctr": 0.05063291139240506,
+      "position": 2.0632911392405062
+    },
+    {
+      "keys": [
+        "kalibrace kompasu android"
+      ],
+      "clicks": 4,
+      "impressions": 70,
+      "ctr": 0.05714285714285714,
+      "position": 3.1142857142857143
+    },
+    {
+      "keys": [
+        "moj broj telefona"
+      ],
+      "clicks": 4,
+      "impressions": 397,
+      "ctr": 0.010075566750629723,
+      "position": 4.289672544080604
+    },
+    {
+      "keys": [
+        "nastavitev melodije za zvonjenje"
+      ],
+      "clicks": 4,
+      "impressions": 155,
+      "ctr": 0.025806451612903226,
+      "position": 6.212903225806452
+    },
+    {
+      "keys": [
+        "oneplus 16 display rumors"
+      ],
+      "clicks": 4,
+      "impressions": 113,
+      "ctr": 0.035398230088495575,
+      "position": 1
+    },
+    {
+      "keys": [
+        "pear launcher"
+      ],
+      "clicks": 4,
+      "impressions": 59,
+      "ctr": 0.06779661016949153,
+      "position": 12.559322033898304
+    },
+    {
+      "keys": [
+        "poco f9 ultra 規格"
+      ],
+      "clicks": 4,
+      "impressions": 19,
+      "ctr": 0.21052631578947367,
+      "position": 13.421052631578947
+    },
+    {
+      "keys": [
+        "poco x8 pro 不具合"
+      ],
+      "clicks": 4,
+      "impressions": 29,
+      "ctr": 0.13793103448275862,
+      "position": 12.689655172413794
+    },
+    {
+      "keys": [
+        "release-8.00.02.2771-07171632-r"
+      ],
+      "clicks": 4,
+      "impressions": 127,
+      "ctr": 0.031496062992125984,
+      "position": 7.330708661417323
+    },
+    {
+      "keys": [
+        "samsung telefon kikapcsolása gombokkal"
+      ],
+      "clicks": 4,
+      "impressions": 794,
+      "ctr": 0.005037783375314861,
+      "position": 7.107052896725441
+    },
+    {
+      "keys": [
+        "telefoane cu android 16"
+      ],
+      "clicks": 4,
+      "impressions": 31,
+      "ctr": 0.12903225806451613,
+      "position": 3.870967741935484
+    },
+    {
+      "keys": [
+        "telefon kikapcsolása gomb nélkül"
+      ],
+      "clicks": 4,
+      "impressions": 115,
+      "ctr": 0.034782608695652174,
+      "position": 4.278260869565218
+    },
+    {
+      "keys": [
+        "vysypat koš v mobilu"
+      ],
+      "clicks": 4,
+      "impressions": 185,
+      "ctr": 0.021621621621621623,
+      "position": 7.383783783783784
+    },
+    {
+      "keys": [
+        "εφαρμογεσ στο παρασκηνιο samsung"
+      ],
+      "clicks": 4,
+      "impressions": 87,
+      "ctr": 0.04597701149425287,
+      "position": 5.022988505747127
+    },
+    {
+      "keys": [
+        "наборы тем google pixel"
+      ],
+      "clicks": 4,
+      "impressions": 50,
+      "ctr": 0.08,
+      "position": 3.56
+    },
+    {
+      "keys": [
+        "поко ф 9 про"
+      ],
+      "clicks": 4,
+      "impressions": 44,
+      "ctr": 0.09090909090909091,
+      "position": 9.181818181818182
+    },
+    {
+      "keys": [
+        "темы для google pixel"
+      ],
+      "clicks": 4,
+      "impressions": 65,
+      "ctr": 0.06153846153846154,
+      "position": 8.246153846153845
+    },
+    {
+      "keys": [
+        "ինչպես սկանավորել qr կոդը"
+      ],
+      "clicks": 4,
+      "impressions": 126,
+      "ctr": 0.031746031746031744,
+      "position": 4.26984126984127
+    },
+    {
+      "keys": [
+        "چگونه یوتیوب را از حالت تاریک خارج کنیم"
+      ],
+      "clicks": 4,
+      "impressions": 33,
+      "ctr": 0.12121212121212122,
+      "position": 4.0606060606060606
+    },
+    {
+      "keys": [
+        "ノートブックlm 日記"
+      ],
+      "clicks": 4,
+      "impressions": 32,
+      "ctr": 0.125,
+      "position": 10.28125
+    },
+    {
+      "keys": [
+        "ako vypnut ai v mobile"
+      ],
+      "clicks": 3,
+      "impressions": 12,
+      "ctr": 0.25,
+      "position": 2.083333333333333
+    },
+    {
+      "keys": [
+        "ako vysypat koš v mobilu"
+      ],
+      "clicks": 3,
+      "impressions": 15,
+      "ctr": 0.2,
+      "position": 2.8
+    },
+    {
+      "keys": [
+        "ako zistim moje telefonne cislo telekom"
+      ],
+      "clicks": 3,
+      "impressions": 94,
+      "ctr": 0.031914893617021274,
+      "position": 4.861702127659575
+    },
+    {
+      "keys": [
+        "alternative s26 ultra"
+      ],
+      "clicks": 3,
+      "impressions": 9,
+      "ctr": 0.3333333333333333,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "always on display"
+      ],
+      "clicks": 3,
+      "impressions": 444,
+      "ctr": 0.006756756756756757,
+      "position": 20.867117117117118
+    },
+    {
+      "keys": [
+        "android 17"
+      ],
+      "clicks": 3,
+      "impressions": 481,
+      "ctr": 0.006237006237006237,
+      "position": 10.638253638253639
+    },
+    {
+      "keys": [
+        "android 17 qpr1 beta 9"
+      ],
+      "clicks": 3,
+      "impressions": 15,
+      "ctr": 0.2,
+      "position": 7.8
+    },
+    {
+      "keys": [
+        "android kikapcsolása"
+      ],
+      "clicks": 3,
+      "impressions": 11,
+      "ctr": 0.2727272727272727,
+      "position": 2
+    },
+    {
+      "keys": [
+        "android バックアップの保存容量に関する新しいポリシーと管理機能"
+      ],
+      "clicks": 3,
+      "impressions": 57,
+      "ctr": 0.05263157894736842,
+      "position": 11.543859649122806
+    },
+    {
+      "keys": [
+        "android 壁紙 時間で変わる"
+      ],
+      "clicks": 3,
+      "impressions": 102,
+      "ctr": 0.029411764705882353,
+      "position": 9.07843137254902
+    },
+    {
+      "keys": [
+        "arrows alpha 2"
+      ],
+      "clicks": 3,
+      "impressions": 79,
+      "ctr": 0.0379746835443038,
+      "position": 9.544303797468354
+    },
+    {
+      "keys": [
+        "astrophoto samsung"
+      ],
+      "clicks": 3,
+      "impressions": 42,
+      "ctr": 0.07142857142857142,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "désactiver always on display samsung"
+      ],
+      "clicks": 3,
+      "impressions": 71,
+      "ctr": 0.04225352112676056,
+      "position": 7.704225352112676
+    },
+    {
+      "keys": [
+        "freebuds pro 5 vs galaxy buds 4 pro"
+      ],
+      "clicks": 3,
+      "impressions": 28,
+      "ctr": 0.10714285714285714,
+      "position": 15.071428571428571
+    },
+    {
+      "keys": [
+        "jak přidat ikonu na plochu android"
+      ],
+      "clicks": 3,
+      "impressions": 169,
+      "ctr": 0.01775147928994083,
+      "position": 7.733727810650888
+    },
+    {
+      "keys": [
+        "jak stáhnout hudbu ze spotify do mobilu"
+      ],
+      "clicks": 3,
+      "impressions": 77,
+      "ctr": 0.03896103896103896,
+      "position": 8.025974025974026
+    },
+    {
+      "keys": [
+        "jak vypnout tento mobil"
+      ],
+      "clicks": 3,
+      "impressions": 67,
+      "ctr": 0.04477611940298507,
+      "position": 3.328358208955224
+    },
+    {
+      "keys": [
+        "jak zjistit sve tel cislo"
+      ],
+      "clicks": 3,
+      "impressions": 75,
+      "ctr": 0.04,
+      "position": 5.8
+    },
+    {
+      "keys": [
+        "jak zjistit telefonní číslo sim karty"
+      ],
+      "clicks": 3,
+      "impressions": 201,
+      "ctr": 0.014925373134328358,
+      "position": 7.920398009950249
+    },
+    {
+      "keys": [
+        "kako saznati svoj broj telefona"
+      ],
+      "clicks": 3,
+      "impressions": 43,
+      "ctr": 0.06976744186046512,
+      "position": 5.976744186046512
+    },
+    {
+      "keys": [
+        "kde najdem koš v mobile xiaomi"
+      ],
+      "clicks": 3,
+      "impressions": 94,
+      "ctr": 0.031914893617021274,
+      "position": 7.946808510638298
+    },
+    {
+      "keys": [
+        "koks mano telefono numeris"
+      ],
+      "clicks": 3,
+      "impressions": 64,
+      "ctr": 0.046875,
+      "position": 3.65625
+    },
+    {
+      "keys": [
+        "mi browser vs chrome"
+      ],
+      "clicks": 3,
+      "impressions": 22,
+      "ctr": 0.13636363636363635,
+      "position": 7.045454545454546
+    },
+    {
+      "keys": [
+        "miブラウザー"
+      ],
+      "clicks": 3,
+      "impressions": 82,
+      "ctr": 0.036585365853658534,
+      "position": 7.682926829268292
+    },
+    {
+      "keys": [
+        "pixel 11 felica"
+      ],
+      "clicks": 3,
+      "impressions": 9,
+      "ctr": 0.3333333333333333,
+      "position": 14.11111111111111
+    },
+    {
+      "keys": [
+        "pixel 11 pro recensione"
+      ],
+      "clicks": 3,
+      "impressions": 5,
+      "ctr": 0.6,
+      "position": 3
+    },
+    {
+      "keys": [
+        "poco x8 pro vs galaxy a57"
+      ],
+      "clicks": 3,
+      "impressions": 15,
+      "ctr": 0.2,
+      "position": 8.066666666666666
+    },
+    {
+      "keys": [
+        "realme gt 8 pro vs oppo find x9 pro"
+      ],
+      "clicks": 3,
+      "impressions": 49,
+      "ctr": 0.061224489795918366,
+      "position": 9.428571428571429
+    },
+    {
+      "keys": [
+        "realme gt8 pro vs oppo find x9 pro"
+      ],
+      "clicks": 3,
+      "impressions": 13,
+      "ctr": 0.23076923076923078,
+      "position": 10.307692307692308
+    },
+    {
+      "keys": [
+        "realme ui 7.0"
+      ],
+      "clicks": 3,
+      "impressions": 7,
+      "ctr": 0.42857142857142855,
+      "position": 27.142857142857142
+    },
+    {
+      "keys": [
+        "recuperare aplicatii dezinstalate"
+      ],
+      "clicks": 3,
+      "impressions": 49,
+      "ctr": 0.061224489795918366,
+      "position": 10.061224489795919
+    },
+    {
+      "keys": [
+        "redmi note 17 pro max"
+      ],
+      "clicks": 3,
+      "impressions": 19,
+      "ctr": 0.15789473684210525,
+      "position": 35.31578947368421
+    },
+    {
+      "keys": [
+        "samsung buds 4 pro vs huawei freebuds 5 pro"
+      ],
+      "clicks": 3,
+      "impressions": 18,
+      "ctr": 0.16666666666666666,
+      "position": 15.944444444444445
+    },
+    {
+      "keys": [
+        "samsung magazine"
+      ],
+      "clicks": 3,
+      "impressions": 1152,
+      "ctr": 0.0026041666666666665,
+      "position": 5.7734375
+    },
+    {
+      "keys": [
+        "samsung magazín"
+      ],
+      "clicks": 3,
+      "impressions": 350,
+      "ctr": 0.008571428571428572,
+      "position": 3.3085714285714287
+    },
+    {
+      "keys": [
+        "setare melodie ton apel android"
+      ],
+      "clicks": 3,
+      "impressions": 125,
+      "ctr": 0.024,
+      "position": 8.08
+    },
+    {
+      "keys": [
+        "smetnjak na telefonu"
+      ],
+      "clicks": 3,
+      "impressions": 440,
+      "ctr": 0.006818181818181818,
+      "position": 7.586363636363636
+    },
+    {
+      "keys": [
+        "tajne kody samsung"
+      ],
+      "clicks": 3,
+      "impressions": 28,
+      "ctr": 0.10714285714285714,
+      "position": 13.357142857142858
+    },
+    {
+      "keys": [
+        "telefon kikapcsolás"
+      ],
+      "clicks": 3,
+      "impressions": 626,
+      "ctr": 0.004792332268370607,
+      "position": 3.8865814696485623
+    },
+    {
+      "keys": [
+        "telefonu söndürmək"
+      ],
+      "clicks": 3,
+      "impressions": 180,
+      "ctr": 0.016666666666666666,
+      "position": 4.961111111111111
+    },
+    {
+      "keys": [
+        "temas one ui para xiaomi"
+      ],
+      "clicks": 3,
+      "impressions": 4,
+      "ctr": 0.75,
+      "position": 9.75
+    },
+    {
+      "keys": [
+        "törölt app visszaállítása android"
+      ],
+      "clicks": 3,
+      "impressions": 52,
+      "ctr": 0.057692307692307696,
+      "position": 3.9038461538461537
+    },
+    {
+      "keys": [
+        "vidarebefordra sms"
+      ],
+      "clicks": 3,
+      "impressions": 1305,
+      "ctr": 0.0022988505747126436,
+      "position": 10.4
+    },
+    {
+      "keys": [
+        "waze leggyorsabb út beállítás"
+      ],
+      "clicks": 3,
+      "impressions": 59,
+      "ctr": 0.05084745762711865,
+      "position": 5.983050847457627
+    },
+    {
+      "keys": [
+        "zəng zamanı səs yazan proqram"
+      ],
+      "clicks": 3,
+      "impressions": 47,
+      "ctr": 0.06382978723404255,
+      "position": 9
+    },
+    {
+      "keys": [
+        "πωσ να βαλω ξυπνητηρι στο κινητο xiaomi"
+      ],
+      "clicks": 3,
+      "impressions": 124,
+      "ctr": 0.024193548387096774,
+      "position": 8.79032258064516
+    },
+    {
+      "keys": [
+        "възстановяване на деинсталирани приложения"
+      ],
+      "clicks": 3,
+      "impressions": 191,
+      "ctr": 0.015706806282722512,
+      "position": 8.586387434554974
+    },
+    {
+      "keys": [
+        "выключить телефон"
+      ],
+      "clicks": 3,
+      "impressions": 1971,
+      "ctr": 0.0015220700152207,
+      "position": 8.926940639269407
+    },
+    {
+      "keys": [
+        "как добавить иконку на рабочий стол андроид"
+      ],
+      "clicks": 3,
+      "impressions": 156,
+      "ctr": 0.019230769230769232,
+      "position": 7.487179487179487
+    },
+    {
+      "keys": [
+        "почистване на кошчето"
+      ],
+      "clicks": 3,
+      "impressions": 59,
+      "ctr": 0.05084745762711865,
+      "position": 8.084745762711865
+    },
+    {
+      "keys": [
+        "рингтоны google pixel 10"
+      ],
+      "clicks": 3,
+      "impressions": 12,
+      "ctr": 0.25,
+      "position": 13.666666666666666
+    },
+    {
+      "keys": [
+        "темы гугл пиксель"
+      ],
+      "clicks": 3,
+      "impressions": 51,
+      "ctr": 0.058823529411764705,
+      "position": 7.352941176470588
+    },
+    {
+      "keys": [
+        "темы для гугл пиксель"
+      ],
+      "clicks": 3,
+      "impressions": 62,
+      "ctr": 0.04838709677419355,
+      "position": 9.709677419354838
+    },
+    {
+      "keys": [
+        "איך לגלות סיסמא של wifi בטלפון סמסונג"
+      ],
+      "clicks": 3,
+      "impressions": 136,
+      "ctr": 0.022058823529411766,
+      "position": 7.5661764705882355
+    },
+    {
+      "keys": [
+        "כיבוי טלפון סמסונג"
+      ],
+      "clicks": 3,
+      "impressions": 516,
+      "ctr": 0.005813953488372093,
+      "position": 5.829457364341085
+    },
+    {
+      "keys": [
+        "خاموش کردن گوشی"
+      ],
+      "clicks": 3,
+      "impressions": 2728,
+      "ctr": 0.0010997067448680353,
+      "position": 7.210043988269795
+    },
+    {
+      "keys": [
+        "پاسخ دادن به تماس با یک ضربه سامسونگ"
+      ],
+      "clicks": 3,
+      "impressions": 74,
+      "ctr": 0.04054054054054054,
+      "position": 8.702702702702702
+    },
+    {
+      "keys": [
+        "چگونه ذخیره اینترنت همراه را خاموش کنیم"
+      ],
+      "clicks": 3,
+      "impressions": 384,
+      "ctr": 0.0078125,
+      "position": 4.783854166666666
+    },
+    {
+      "keys": [
+        "テーマパック pixel 無料"
+      ],
+      "clicks": 3,
+      "impressions": 45,
+      "ctr": 0.06666666666666667,
+      "position": 10.222222222222221
+    },
+    {
+      "keys": [
+        "2026"
+      ],
+      "clicks": 2,
+      "impressions": 11,
+      "ctr": 0.18181818181818182,
+      "position": 7.454545454545454
+    },
+    {
+      "keys": [
+        "ako zistim svoje cislo"
+      ],
+      "clicks": 2,
+      "impressions": 44,
+      "ctr": 0.045454545454545456,
+      "position": 2
+    },
+    {
+      "keys": [
+        "ako zistit cislo sim karty"
+      ],
+      "clicks": 2,
+      "impressions": 57,
+      "ctr": 0.03508771929824561,
+      "position": 2.3684210526315788
+    },
+    {
+      "keys": [
+        "alternativa s26 ultra"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 3.375
+    },
+    {
+      "keys": [
+        "android lomtár ürítése"
+      ],
+      "clicks": 2,
+      "impressions": 131,
+      "ctr": 0.015267175572519083,
+      "position": 5.488549618320611
+    },
+    {
+      "keys": [
+        "android novinky"
+      ],
+      "clicks": 2,
+      "impressions": 86,
+      "ctr": 0.023255813953488372,
+      "position": 9.488372093023257
+    },
+    {
+      "keys": [
+        "aplikacije v ozadju"
+      ],
+      "clicks": 2,
+      "impressions": 94,
+      "ctr": 0.02127659574468085,
+      "position": 5.031914893617022
+    },
+    {
+      "keys": [
+        "aplikacije v ozadju android"
+      ],
+      "clicks": 2,
+      "impressions": 58,
+      "ctr": 0.034482758620689655,
+      "position": 4.551724137931035
+    },
+    {
+      "keys": [
+        "appareils connectés facebook"
+      ],
+      "clicks": 2,
+      "impressions": 112,
+      "ctr": 0.017857142857142856,
+      "position": 7.723214285714286
+    },
+    {
+      "keys": [
+        "astrophoto s24 ultra"
+      ],
+      "clicks": 2,
+      "impressions": 32,
+      "ctr": 0.0625,
+      "position": 7.28125
+    },
+    {
+      "keys": [
+        "bloķētie numuri"
+      ],
+      "clicks": 2,
+      "impressions": 74,
+      "ctr": 0.02702702702702703,
+      "position": 6.27027027027027
+    },
+    {
+      "keys": [
+        "chci vypnout telefon"
+      ],
+      "clicks": 2,
+      "impressions": 93,
+      "ctr": 0.021505376344086023,
+      "position": 4.182795698924731
+    },
+    {
+      "keys": [
+        "find hub 危険性"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 27.88888888888889
+    },
+    {
+      "keys": [
+        "freebuds pro 5 vs samsung buds 4 pro"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 15
+    },
+    {
+      "keys": [
+        "galaxy a57 google pixel 10a"
+      ],
+      "clicks": 2,
+      "impressions": 4,
+      "ctr": 0.5,
+      "position": 35.75
+    },
+    {
+      "keys": [
+        "galaxy a57 vs poco x8 pro"
+      ],
+      "clicks": 2,
+      "impressions": 14,
+      "ctr": 0.14285714285714285,
+      "position": 11.285714285714286
+    },
+    {
+      "keys": [
+        "galaxy buds pro 4 vs huawei freebuds pro 5"
+      ],
+      "clicks": 2,
+      "impressions": 7,
+      "ctr": 0.2857142857142857,
+      "position": 13
+    },
+    {
+      "keys": [
+        "galaxy watch ultra 2 durata batteria"
+      ],
+      "clicks": 2,
+      "impressions": 11,
+      "ctr": 0.18181818181818182,
+      "position": 9.636363636363637
+    },
+    {
+      "keys": [
+        "google pixel 11 pro"
+      ],
+      "clicks": 2,
+      "impressions": 23,
+      "ctr": 0.08695652173913043,
+      "position": 44.73913043478261
+    },
+    {
+      "keys": [
+        "google フォト アイコン 表示"
+      ],
+      "clicks": 2,
+      "impressions": 28,
+      "ctr": 0.07142857142857142,
+      "position": 1.5714285714285714
+    },
+    {
+      "keys": [
+        "grok 4.5 apk"
+      ],
+      "clicks": 2,
+      "impressions": 3,
+      "ctr": 0.6666666666666666,
+      "position": 30.333333333333332
+    },
+    {
+      "keys": [
+        "honor v6 vs oppo n6"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 16.11111111111111
+    },
+    {
+      "keys": [
+        "honor x9d cijena"
+      ],
+      "clicks": 2,
+      "impressions": 18,
+      "ctr": 0.1111111111111111,
+      "position": 7.166666666666667
+    },
+    {
+      "keys": [
+        "huawei freebuds pro 5 vs galaxy buds 4 pro"
+      ],
+      "clicks": 2,
+      "impressions": 20,
+      "ctr": 0.1,
+      "position": 11.35
+    },
+    {
+      "keys": [
+        "hur stänger jag av min mobil"
+      ],
+      "clicks": 2,
+      "impressions": 104,
+      "ctr": 0.019230769230769232,
+      "position": 6.048076923076923
+    },
+    {
+      "keys": [
+        "hur vidarebefordrar jag ett sms"
+      ],
+      "clicks": 2,
+      "impressions": 832,
+      "ctr": 0.002403846153846154,
+      "position": 8.305288461538462
+    },
+    {
+      "keys": [
+        "hyper os 3.3"
+      ],
+      "clicks": 2,
+      "impressions": 11,
+      "ctr": 0.18181818181818182,
+      "position": 8.636363636363637
+    },
+    {
+      "keys": [
+        "hyper os 4"
+      ],
+      "clicks": 2,
+      "impressions": 12,
+      "ctr": 0.16666666666666666,
+      "position": 23
+    },
+    {
+      "keys": [
+        "hyperos 3.3"
+      ],
+      "clicks": 2,
+      "impressions": 38,
+      "ctr": 0.05263157894736842,
+      "position": 11.868421052631579
+    },
+    {
+      "keys": [
+        "izklopi telefon"
+      ],
+      "clicks": 2,
+      "impressions": 38,
+      "ctr": 0.05263157894736842,
+      "position": 2.3421052631578947
+    },
+    {
+      "keys": [
+        "iztīrīt atkritni"
+      ],
+      "clicks": 2,
+      "impressions": 88,
+      "ctr": 0.022727272727272728,
+      "position": 4.772727272727273
+    },
+    {
+      "keys": [
+        "jak odblokovat telefonní číslo"
+      ],
+      "clicks": 2,
+      "impressions": 199,
+      "ctr": 0.010050251256281407,
+      "position": 9.195979899497488
+    },
+    {
+      "keys": [
+        "jak vypnout spořič dat"
+      ],
+      "clicks": 2,
+      "impressions": 141,
+      "ctr": 0.014184397163120567,
+      "position": 3.858156028368794
+    },
+    {
+      "keys": [
+        "jak zjistit svoje telefonní číslo vodafone"
+      ],
+      "clicks": 2,
+      "impressions": 56,
+      "ctr": 0.03571428571428571,
+      "position": 10.678571428571429
+    },
+    {
+      "keys": [
+        "jak zjistit své telefonní číslo"
+      ],
+      "clicks": 2,
+      "impressions": 131,
+      "ctr": 0.015267175572519083,
+      "position": 5.1603053435114505
+    },
+    {
+      "keys": [
+        "jak znaleźć airtag android"
+      ],
+      "clicks": 2,
+      "impressions": 54,
+      "ctr": 0.037037037037037035,
+      "position": 10.037037037037036
+    },
+    {
+      "keys": [
+        "jaké je moje telefonní číslo"
+      ],
+      "clicks": 2,
+      "impressions": 66,
+      "ctr": 0.030303030303030304,
+      "position": 3.0757575757575757
+    },
+    {
+      "keys": [
+        "jbl partybox 330"
+      ],
+      "clicks": 2,
+      "impressions": 16,
+      "ctr": 0.125,
+      "position": 28.4375
+    },
+    {
+      "keys": [
+        "kako da vidim moj broj telefona"
+      ],
+      "clicks": 2,
+      "impressions": 75,
+      "ctr": 0.02666666666666667,
+      "position": 4.906666666666666
+    },
+    {
+      "keys": [
+        "kako postaviti pjesmu za zvuk zvona na androidu"
+      ],
+      "clicks": 2,
+      "impressions": 58,
+      "ctr": 0.034482758620689655,
+      "position": 7.810344827586207
+    },
+    {
+      "keys": [
+        "kiedy android 17 na pixel"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 5.5
+    },
+    {
+      "keys": [
+        "letiltott alkalmazás visszaállítása android"
+      ],
+      "clicks": 2,
+      "impressions": 76,
+      "ctr": 0.02631578947368421,
+      "position": 7.552631578947368
+    },
+    {
+      "keys": [
+        "letiltott szám feloldása"
+      ],
+      "clicks": 2,
+      "impressions": 12,
+      "ctr": 0.16666666666666666,
+      "position": 3.4166666666666665
+    },
+    {
+      "keys": [
+        "letöltött fájlok megnyitása android"
+      ],
+      "clicks": 2,
+      "impressions": 672,
+      "ctr": 0.002976190476190476,
+      "position": 9.436011904761905
+    },
+    {
+      "keys": [
+        "letöltött fájlok megnyitása telefonon"
+      ],
+      "clicks": 2,
+      "impressions": 1850,
+      "ctr": 0.001081081081081081,
+      "position": 9.393513513513513
+    },
+    {
+      "keys": [
+        "magazine android"
+      ],
+      "clicks": 2,
+      "impressions": 40,
+      "ctr": 0.05,
+      "position": 10.975
+    },
+    {
+      "keys": [
+        "magic os 11 дата выхода"
+      ],
+      "clicks": 2,
+      "impressions": 87,
+      "ctr": 0.022988505747126436,
+      "position": 9.39080459770115
+    },
+    {
+      "keys": [
+        "marshall acton iii hendrix edition"
+      ],
+      "clicks": 2,
+      "impressions": 196,
+      "ctr": 0.01020408163265306,
+      "position": 1
+    },
+    {
+      "keys": [
+        "matebook pro s"
+      ],
+      "clicks": 2,
+      "impressions": 70,
+      "ctr": 0.02857142857142857,
+      "position": 9.557142857142857
+    },
+    {
+      "keys": [
+        "mi ブラウザ"
+      ],
+      "clicks": 2,
+      "impressions": 22,
+      "ctr": 0.09090909090909091,
+      "position": 8.318181818181818
+    },
+    {
+      "keys": [
+        "missä on android-puhelimen roskakori"
+      ],
+      "clicks": 2,
+      "impressions": 76,
+      "ctr": 0.02631578947368421,
+      "position": 9.592105263157896
+    },
+    {
+      "keys": [
+        "miért nem tudom kikapcsolni a telefont"
+      ],
+      "clicks": 2,
+      "impressions": 144,
+      "ctr": 0.013888888888888888,
+      "position": 3.5625
+    },
+    {
+      "keys": [
+        "mode astrophotographie samsung"
+      ],
+      "clicks": 2,
+      "impressions": 138,
+      "ctr": 0.014492753623188406,
+      "position": 10.478260869565217
+    },
+    {
+      "keys": [
+        "moja telefonska številka"
+      ],
+      "clicks": 2,
+      "impressions": 41,
+      "ctr": 0.04878048780487805,
+      "position": 5.487804878048781
+    },
+    {
+      "keys": [
+        "moje uložené položky"
+      ],
+      "clicks": 2,
+      "impressions": 366,
+      "ctr": 0.00546448087431694,
+      "position": 7.688524590163935
+    },
+    {
+      "keys": [
+        "motorola edge 2026"
+      ],
+      "clicks": 2,
+      "impressions": 19,
+      "ctr": 0.10526315789473684,
+      "position": 38.578947368421055
+    },
+    {
+      "keys": [
+        "notebooklm 日記"
+      ],
+      "clicks": 2,
+      "impressions": 14,
+      "ctr": 0.14285714285714285,
+      "position": 22
+    },
+    {
+      "keys": [
+        "nothing phone 4a レビュー"
+      ],
+      "clicks": 2,
+      "impressions": 7,
+      "ctr": 0.2857142857142857,
+      "position": 61.285714285714285
+    },
+    {
+      "keys": [
+        "nothing phone tiktok"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "oppo n6 vs honor v6"
+      ],
+      "clicks": 2,
+      "impressions": 6,
+      "ctr": 0.3333333333333333,
+      "position": 26.166666666666668
+    },
+    {
+      "keys": [
+        "oxygen os 17"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 37.5
+    },
+    {
+      "keys": [
+        "parim telefon 2026"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 11.444444444444445
+    },
+    {
+      "keys": [
+        "parima kaameraga telefon 2026"
+      ],
+      "clicks": 2,
+      "impressions": 3,
+      "ctr": 0.6666666666666666,
+      "position": 18
+    },
+    {
+      "keys": [
+        "pear launcher 使い方"
+      ],
+      "clicks": 2,
+      "impressions": 25,
+      "ctr": 0.08,
+      "position": 10.16
+    },
+    {
+      "keys": [
+        "pixel 10a galaxy a57 比較"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 25.5
+    },
+    {
+      "keys": [
+        "pixel 11 pro"
+      ],
+      "clicks": 2,
+      "impressions": 43,
+      "ctr": 0.046511627906976744,
+      "position": 39.97674418604651
+    },
+    {
+      "keys": [
+        "pixel 9a vs 10a"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 53
+    },
+    {
+      "keys": [
+        "pixel tag"
+      ],
+      "clicks": 2,
+      "impressions": 7,
+      "ctr": 0.2857142857142857,
+      "position": 16.285714285714285
+    },
+    {
+      "keys": [
+        "pixel9 qi2"
+      ],
+      "clicks": 2,
+      "impressions": 33,
+      "ctr": 0.06060606060606061,
+      "position": 8.454545454545453
+    },
+    {
+      "keys": [
+        "poco f9 date de sortie"
+      ],
+      "clicks": 2,
+      "impressions": 20,
+      "ctr": 0.1,
+      "position": 13.9
+    },
+    {
+      "keys": [
+        "poco x8 pro vs a57"
+      ],
+      "clicks": 2,
+      "impressions": 20,
+      "ctr": 0.1,
+      "position": 10.65
+    },
+    {
+      "keys": [
+        "příběhové hry na mobil"
+      ],
+      "clicks": 2,
+      "impressions": 20,
+      "ctr": 0.1,
+      "position": 4
+    },
+    {
+      "keys": [
+        "qnap computex 2026"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 14.5
+    },
+    {
+      "keys": [
+        "realme 17"
+      ],
+      "clicks": 2,
+      "impressions": 54,
+      "ctr": 0.037037037037037035,
+      "position": 6.296296296296297
+    },
+    {
+      "keys": [
+        "realme gt 9"
+      ],
+      "clicks": 2,
+      "impressions": 22,
+      "ctr": 0.09090909090909091,
+      "position": 9.363636363636363
+    },
+    {
+      "keys": [
+        "redmi note 17 max"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "redmi watch 6 active"
+      ],
+      "clicks": 2,
+      "impressions": 7,
+      "ctr": 0.2857142857142857,
+      "position": 13.571428571428571
+    },
+    {
+      "keys": [
+        "režim hosta"
+      ],
+      "clicks": 2,
+      "impressions": 46,
+      "ctr": 0.043478260869565216,
+      "position": 7.1521739130434785
+    },
+    {
+      "keys": [
+        "roskakorin tyhjennys android"
+      ],
+      "clicks": 2,
+      "impressions": 538,
+      "ctr": 0.0037174721189591076,
+      "position": 9.578066914498141
+    },
+    {
+      "keys": [
+        "samsung a57 vs poco x8 pro"
+      ],
+      "clicks": 2,
+      "impressions": 44,
+      "ctr": 0.045454545454545456,
+      "position": 11.840909090909092
+    },
+    {
+      "keys": [
+        "samsung adattakarékos üzemmód kikapcsolása"
+      ],
+      "clicks": 2,
+      "impressions": 45,
+      "ctr": 0.044444444444444446,
+      "position": 2.4222222222222225
+    },
+    {
+      "keys": [
+        "samsung buds 4 pro vs huawei freebuds pro 5"
+      ],
+      "clicks": 2,
+      "impressions": 30,
+      "ctr": 0.06666666666666667,
+      "position": 11.066666666666666
+    },
+    {
+      "keys": [
+        "samsung galaxy a57 vs poco x8 pro"
+      ],
+      "clicks": 2,
+      "impressions": 14,
+      "ctr": 0.14285714285714285,
+      "position": 8.928571428571429
+    },
+    {
+      "keys": [
+        "samsung galaxy buds 4 pro vs huawei freebuds pro 5"
+      ],
+      "clicks": 2,
+      "impressions": 38,
+      "ctr": 0.05263157894736842,
+      "position": 11.131578947368421
+    },
+    {
+      "keys": [
+        "samsung magazin"
+      ],
+      "clicks": 2,
+      "impressions": 370,
+      "ctr": 0.005405405405405406,
+      "position": 6.010810810810811
+    },
+    {
+      "keys": [
+        "samsung magazine cz"
+      ],
+      "clicks": 2,
+      "impressions": 56,
+      "ctr": 0.03571428571428571,
+      "position": 5.607142857142857
+    },
+    {
+      "keys": [
+        "samsung members"
+      ],
+      "clicks": 2,
+      "impressions": 72,
+      "ctr": 0.027777777777777776,
+      "position": 39.09722222222222
+    },
+    {
+      "keys": [
+        "samsung sammutus"
+      ],
+      "clicks": 2,
+      "impressions": 483,
+      "ctr": 0.004140786749482402,
+      "position": 6.554865424430642
+    },
+    {
+      "keys": [
+        "samsung sh-100"
+      ],
+      "clicks": 2,
+      "impressions": 113,
+      "ctr": 0.017699115044247787,
+      "position": 3.398230088495575
+    },
+    {
+      "keys": [
+        "samsung telefon kikapcsolása"
+      ],
+      "clicks": 2,
+      "impressions": 820,
+      "ctr": 0.0024390243902439024,
+      "position": 9.135365853658536
+    },
+    {
+      "keys": [
+        "samsung wb50f"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 24.625
+    },
+    {
+      "keys": [
+        "samsungi telefoni väljalülitamine"
+      ],
+      "clicks": 2,
+      "impressions": 108,
+      "ctr": 0.018518518518518517,
+      "position": 4.62962962962963
+    },
+    {
+      "keys": [
+        "sandisk"
+      ],
+      "clicks": 2,
+      "impressions": 5,
+      "ctr": 0.4,
+      "position": 14.4
+    },
+    {
+      "keys": [
+        "smartphone batteria 8000 mah"
+      ],
+      "clicks": 2,
+      "impressions": 56,
+      "ctr": 0.03571428571428571,
+      "position": 8.803571428571429
+    },
+    {
+      "keys": [
+        "snapdragon 8 elite gen 6 pro"
+      ],
+      "clicks": 2,
+      "impressions": 17,
+      "ctr": 0.11764705882352941,
+      "position": 45.470588235294116
+    },
+    {
+      "keys": [
+        "solicita rambursare google play"
+      ],
+      "clicks": 2,
+      "impressions": 68,
+      "ctr": 0.029411764705882353,
+      "position": 5.705882352941177
+    },
+    {
+      "keys": [
+        "stepx neo"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 9.222222222222221
+    },
+    {
+      "keys": [
+        "stiahnuté súbory dnes"
+      ],
+      "clicks": 2,
+      "impressions": 842,
+      "ctr": 0.0023752969121140144,
+      "position": 8.52731591448931
+    },
+    {
+      "keys": [
+        "stäng mobilen"
+      ],
+      "clicks": 2,
+      "impressions": 68,
+      "ctr": 0.029411764705882353,
+      "position": 5.897058823529412
+    },
+    {
+      "keys": [
+        "stäng telefonen"
+      ],
+      "clicks": 2,
+      "impressions": 290,
+      "ctr": 0.006896551724137931,
+      "position": 7.044827586206897
+    },
+    {
+      "keys": [
+        "stänga av telefon"
+      ],
+      "clicks": 2,
+      "impressions": 115,
+      "ctr": 0.017391304347826087,
+      "position": 7.130434782608695
+    },
+    {
+      "keys": [
+        "stänga av telefonen"
+      ],
+      "clicks": 2,
+      "impressions": 698,
+      "ctr": 0.0028653295128939827,
+      "position": 9.084527220630372
+    },
+    {
+      "keys": [
+        "telefonda wifi koduna baxmaq"
+      ],
+      "clicks": 2,
+      "impressions": 148,
+      "ctr": 0.013513513513513514,
+      "position": 8.472972972972972
+    },
+    {
+      "keys": [
+        "telefonda zibil qutusu"
+      ],
+      "clicks": 2,
+      "impressions": 230,
+      "ctr": 0.008695652173913044,
+      "position": 5.678260869565217
+    },
+    {
+      "keys": [
+        "telefonról törölt alkalmazás visszaállítása"
+      ],
+      "clicks": 2,
+      "impressions": 116,
+      "ctr": 0.017241379310344827,
+      "position": 5.517241379310345
+    },
+    {
+      "keys": [
+        "telefonu necə söndürmək olar"
+      ],
+      "clicks": 2,
+      "impressions": 93,
+      "ctr": 0.021505376344086023,
+      "position": 4.89247311827957
+    },
+    {
+      "keys": [
+        "tema one ui para xiaomi"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 11.875
+    },
+    {
+      "keys": [
+        "uložené položky"
+      ],
+      "clicks": 2,
+      "impressions": 73,
+      "ctr": 0.0273972602739726,
+      "position": 8.712328767123289
+    },
+    {
+      "keys": [
+        "un nouvel appareil s'est connecté à votre compte facebook"
+      ],
+      "clicks": 2,
+      "impressions": 73,
+      "ctr": 0.0273972602739726,
+      "position": 9.780821917808218
+    },
+    {
+      "keys": [
+        "vidarebefordra sms samsung"
+      ],
+      "clicks": 2,
+      "impressions": 154,
+      "ctr": 0.012987012987012988,
+      "position": 4.396103896103896
+    },
+    {
+      "keys": [
+        "videresend sms android"
+      ],
+      "clicks": 2,
+      "impressions": 106,
+      "ctr": 0.018867924528301886,
+      "position": 4.849056603773585
+    },
+    {
+      "keys": [
+        "vivo x500"
+      ],
+      "clicks": 2,
+      "impressions": 25,
+      "ctr": 0.08,
+      "position": 13.2
+    },
+    {
+      "keys": [
+        "vivo x500 pro max"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 15.5
+    },
+    {
+      "keys": [
+        "voir appareil connecté facebook"
+      ],
+      "clicks": 2,
+      "impressions": 76,
+      "ctr": 0.02631578947368421,
+      "position": 7.184210526315789
+    },
+    {
+      "keys": [
+        "vypni telefón"
+      ],
+      "clicks": 2,
+      "impressions": 148,
+      "ctr": 0.013513513513513514,
+      "position": 3.9662162162162162
+    },
+    {
+      "keys": [
+        "vypnúť telefon"
+      ],
+      "clicks": 2,
+      "impressions": 90,
+      "ctr": 0.022222222222222223,
+      "position": 2.7666666666666666
+    },
+    {
+      "keys": [
+        "vysypat koš"
+      ],
+      "clicks": 2,
+      "impressions": 186,
+      "ctr": 0.010752688172043012,
+      "position": 9.03763440860215
+    },
+    {
+      "keys": [
+        "xiaomi hyperisland"
+      ],
+      "clicks": 2,
+      "impressions": 32,
+      "ctr": 0.0625,
+      "position": 14.40625
+    },
+    {
+      "keys": [
+        "xiaomi poco f9 ultra"
+      ],
+      "clicks": 2,
+      "impressions": 25,
+      "ctr": 0.08,
+      "position": 16.04
+    },
+    {
+      "keys": [
+        "zanger heraxosi samsung"
+      ],
+      "clicks": 2,
+      "impressions": 33,
+      "ctr": 0.06060606060606061,
+      "position": 8.121212121212121
+    },
+    {
+      "keys": [
+        "αδειασμα καδου κινητου"
+      ],
+      "clicks": 2,
+      "impressions": 151,
+      "ctr": 0.013245033112582781,
+      "position": 8.264900662251655
+    },
+    {
+      "keys": [
+        "εφαρμογεσ στο παρασκηνιο xiaomi"
+      ],
+      "clicks": 2,
+      "impressions": 53,
+      "ctr": 0.03773584905660377,
+      "position": 4.773584905660377
+    },
+    {
+      "keys": [
+        "ιστορικο ειδοποιησεων android"
+      ],
+      "clicks": 2,
+      "impressions": 69,
+      "ctr": 0.028985507246376812,
+      "position": 4.391304347826087
+    },
+    {
+      "keys": [
+        "πληκτρολογιο κινητου samsung"
+      ],
+      "clicks": 2,
+      "impressions": 47,
+      "ctr": 0.0425531914893617,
+      "position": 10.319148936170214
+    },
+    {
+      "keys": [
+        "астрофото самсунг"
+      ],
+      "clicks": 2,
+      "impressions": 353,
+      "ctr": 0.0056657223796034,
+      "position": 7.90084985835694
+    },
+    {
+      "keys": [
+        "добавить ярлык на рабочий стол"
+      ],
+      "clicks": 2,
+      "impressions": 68,
+      "ctr": 0.029411764705882353,
+      "position": 7.352941176470588
+    },
+    {
+      "keys": [
+        "как да изчистя кошчето на телефона"
+      ],
+      "clicks": 2,
+      "impressions": 274,
+      "ctr": 0.0072992700729927005,
+      "position": 5.5510948905109485
+    },
+    {
+      "keys": [
+        "как да си изключа телефона"
+      ],
+      "clicks": 2,
+      "impressions": 93,
+      "ctr": 0.021505376344086023,
+      "position": 8.0752688172043
+    },
+    {
+      "keys": [
+        "как да си кача мелодия на телефона"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 43
+    },
+    {
+      "keys": [
+        "как добавить приложение на рабочий стол андроид"
+      ],
+      "clicks": 2,
+      "impressions": 145,
+      "ctr": 0.013793103448275862,
+      "position": 9.510344827586207
+    },
+    {
+      "keys": [
+        "как добавить ярлык на рабочий стол"
+      ],
+      "clicks": 2,
+      "impressions": 336,
+      "ctr": 0.005952380952380952,
+      "position": 8.717261904761905
+    },
+    {
+      "keys": [
+        "как создать ярлык на рабочем столе телефона"
+      ],
+      "clicks": 2,
+      "impressions": 348,
+      "ctr": 0.005747126436781609,
+      "position": 8.827586206896552
+    },
+    {
+      "keys": [
+        "какъв телефон да си купя 2026"
+      ],
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 35.75
+    },
+    {
+      "keys": [
+        "создать ярлык на рабочем столе андроид"
+      ],
+      "clicks": 2,
+      "impressions": 46,
+      "ctr": 0.043478260869565216,
+      "position": 7.456521739130435
+    },
+    {
+      "keys": [
+        "як додати ярлик на робочий стіл на телефоні"
+      ],
+      "clicks": 2,
+      "impressions": 366,
+      "ctr": 0.00546448087431694,
+      "position": 6.35792349726776
+    },
+    {
+      "keys": [
+        "איך מכבים גלקסי"
+      ],
+      "clicks": 2,
+      "impressions": 174,
+      "ctr": 0.011494252873563218,
+      "position": 5.954022988505747
+    },
+    {
+      "keys": [
+        "איך מכבים טלפון סמסונג"
+      ],
+      "clicks": 2,
+      "impressions": 414,
+      "ctr": 0.004830917874396135,
+      "position": 6.359903381642512
+    },
+    {
+      "keys": [
+        "אפליקציה להסתרת אפליקציות"
+      ],
+      "clicks": 2,
+      "impressions": 10,
+      "ctr": 0.2,
+      "position": 15
+    },
+    {
+      "keys": [
+        "מה המספר שלי"
+      ],
+      "clicks": 2,
+      "impressions": 164,
+      "ctr": 0.012195121951219513,
+      "position": 6.774390243902439
+    },
+    {
+      "keys": [
+        "خاموش کردن گوشی اندروید"
+      ],
+      "clicks": 2,
+      "impressions": 65,
+      "ctr": 0.03076923076923077,
+      "position": 6.6
+    },
+    {
+      "keys": [
+        "نحوه اتصال هندزفری بیتس به گوشی"
+      ],
+      "clicks": 2,
+      "impressions": 22,
+      "ctr": 0.09090909090909091,
+      "position": 4.318181818181818
+    },
+    {
+      "keys": [
+        "ติดต่อ google play ขอเงินคืน"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 37
+    },
+    {
+      "keys": [
+        "ナッシング フォン 4a レビュー"
+      ],
+      "clicks": 2,
+      "impressions": 13,
+      "ctr": 0.15384615384615385,
+      "position": 58.69230769230769
+    },
+    {
+      "keys": [
+        "ピクセル11"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 47.888888888888886
+    },
+    {
+      "keys": [
+        "ピクセル11pro"
+      ],
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 3.5
+    },
+    {
+      "keys": [
+        "ピクセルウォッチ 5"
+      ],
+      "clicks": 2,
+      "impressions": 10,
+      "ctr": 0.2,
+      "position": 6.7
+    },
+    {
+      "keys": [
+        "모토로라 레이저 70 울트라"
+      ],
+      "clicks": 2,
+      "impressions": 44,
+      "ctr": 0.045454545454545456,
+      "position": 4.159090909090909
+    },
+    {
+      "keys": [
+        "안드로이드 다운그레이드"
+      ],
+      "clicks": 2,
+      "impressions": 5,
+      "ctr": 0.4,
+      "position": 21.8
+    },
+    {
+      "keys": [
+        "틱톡 자동 스크롤 안됨"
+      ],
+      "clicks": 2,
+      "impressions": 95,
+      "ctr": 0.021052631578947368,
+      "position": 8.368421052631579
+    },
+    {
+      "keys": [
+        "틱톡라이트 자동 스크롤 디시"
+      ],
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 11.222222222222221
+    },
+    {
+      "keys": [
+        "17ultra"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 71
+    },
+    {
+      "keys": [
+        "18 ultra xiaomi"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 17
+    },
+    {
+      "keys": [
+        "26077pc53g"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 10.466666666666667
+    },
+    {
+      "keys": [
+        "2607apca5g"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 9
+    },
+    {
+      "keys": [
+        "8000 mah smartphone"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "8000mah smartphone"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 8.333333333333332
+    },
+    {
+      "keys": [
+        "86qned85"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 7.555555555555555
+    },
+    {
+      "keys": [
+        "86qned85a"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 9
+    },
+    {
+      "keys": [
+        "a37 a57 比較"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 20
+    },
+    {
+      "keys": [
+        "a57 10a 比較"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 21
+    },
+    {
+      "keys": [
+        "adathasználat"
+      ],
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047619047619047616,
+      "position": 13.238095238095237
+    },
+    {
+      "keys": [
+        "ai nudify app"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 8
+    },
+    {
+      "keys": [
+        "airpods poco"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "airtag app android"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 11
+    },
+    {
+      "keys": [
+        "ako aktualizovať android auto"
+      ],
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 9.157894736842104
+    },
+    {
+      "keys": [
+        "ako dat ikonu na plochu android"
+      ],
+      "clicks": 1,
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "position": 7.611111111111111
+    },
+    {
+      "keys": [
+        "ako nahrat hovor"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 19.5
+    },
+    {
+      "keys": [
+        "ako odblokovat zablokované číslo"
+      ],
+      "clicks": 1,
+      "impressions": 205,
+      "ctr": 0.004878048780487805,
+      "position": 9.06829268292683
+    },
+    {
+      "keys": [
+        "ako odblokovať telefónne číslo"
+      ],
+      "clicks": 1,
+      "impressions": 13,
+      "ctr": 0.07692307692307693,
+      "position": 4.153846153846153
+    },
+    {
+      "keys": [
+        "ako sa vypína samsung"
+      ],
+      "clicks": 1,
+      "impressions": 27,
+      "ctr": 0.037037037037037035,
+      "position": 5.925925925925926
+    },
+    {
+      "keys": [
+        "ako stiahnut pesnicku zo spotify"
+      ],
+      "clicks": 1,
+      "impressions": 52,
+      "ctr": 0.019230769230769232,
+      "position": 5.173076923076923
+    },
+    {
+      "keys": [
+        "ako vypnut ai v google"
+      ],
+      "clicks": 1,
+      "impressions": 100,
+      "ctr": 0.01,
+      "position": 46.2
+    },
+    {
+      "keys": [
+        "ako vypnut mobil samsung"
+      ],
+      "clicks": 1,
+      "impressions": 107,
+      "ctr": 0.009345794392523364,
+      "position": 5.130841121495327
+    },
+    {
+      "keys": [
+        "ako vypnut samsung"
+      ],
+      "clicks": 1,
+      "impressions": 175,
+      "ctr": 0.005714285714285714,
+      "position": 5.617142857142857
+    },
+    {
+      "keys": [
+        "ako vypnúť mobil samsung"
+      ],
+      "clicks": 1,
+      "impressions": 45,
+      "ctr": 0.022222222222222223,
+      "position": 4.333333333333334
+    },
+    {
+      "keys": [
+        "ako vypnúť samsung"
+      ],
+      "clicks": 1,
+      "impressions": 143,
+      "ctr": 0.006993006993006993,
+      "position": 4.783216783216783
+    },
+    {
+      "keys": [
+        "ako vypnúť telefón samsung"
+      ],
+      "clicks": 1,
+      "impressions": 51,
+      "ctr": 0.0196078431372549,
+      "position": 3.372549019607843
+    },
+    {
+      "keys": [
+        "ako vyprazdnit koš v mobile"
+      ],
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.03571428571428571,
+      "position": 5.25
+    },
+    {
+      "keys": [
+        "ako zistim svoje telefonne cislo 4ka"
+      ],
+      "clicks": 1,
+      "impressions": 37,
+      "ctr": 0.02702702702702703,
+      "position": 8.783783783783784
+    },
+    {
+      "keys": [
+        "ako zistim svoje telefonne cislo orange"
+      ],
+      "clicks": 1,
+      "impressions": 27,
+      "ctr": 0.037037037037037035,
+      "position": 14.777777777777779
+    },
+    {
+      "keys": [
+        "ako zistit telefonne cislo 4ka"
+      ],
+      "clicks": 1,
+      "impressions": 35,
+      "ctr": 0.02857142857142857,
+      "position": 8.428571428571429
+    },
+    {
+      "keys": [
+        "androgeym"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 58
+    },
+    {
+      "keys": [
+        "android 1.0"
+      ],
+      "clicks": 1,
+      "impressions": 32,
+      "ctr": 0.03125,
+      "position": 42.625
+    },
+    {
+      "keys": [
+        "android 17 alacak realme telefonlar"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 8
+    },
+    {
+      "keys": [
+        "android 17 beta 7"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 8
+    },
+    {
+      "keys": [
+        "android 17 beta 9"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 8
+    },
+    {
+      "keys": [
+        "android 17 motorola"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 23.77777777777778
+    },
+    {
+      "keys": [
+        "android 17 nickname"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 4
+    },
+    {
+      "keys": [
+        "android 17 pixel"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 29.75
+    },
+    {
+      "keys": [
+        "android 17 コードネーム"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "android 17 新機能"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 42.77777777777778
+    },
+    {
+      "keys": [
+        "android 8.0 oreo"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 42
+    },
+    {
+      "keys": [
+        "android aktualizácia aplikácií"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 26
+    },
+    {
+      "keys": [
+        "android always on display"
+      ],
+      "clicks": 1,
+      "impressions": 26,
+      "ctr": 0.038461538461538464,
+      "position": 14.576923076923077
+    },
+    {
+      "keys": [
+        "android ana ekrana kısayol ekleme"
+      ],
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": 0.07142857142857142,
+      "position": 14.714285714285714
+    },
+    {
+      "keys": [
+        "android answer"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 101
+    },
+    {
+      "keys": [
+        "android auto ayarları nasıl yapılır"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 8
+    },
+    {
+      "keys": [
+        "android auto gemini"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 30
+    },
+    {
+      "keys": [
+        "android auto アップデート"
+      ],
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 19.5
+    },
+    {
+      "keys": [
+        "android eclair"
+      ],
+      "clicks": 1,
+      "impressions": 22,
+      "ctr": 0.045454545454545456,
+      "position": 28.59090909090909
+    },
+    {
+      "keys": [
+        "android fps 表示"
+      ],
+      "clicks": 1,
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "position": 12.277777777777779
+    },
+    {
+      "keys": [
+        "android fps 表示 開発者向けオプション"
+      ],
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 8.25
+    },
+    {
+      "keys": [
+        "android hívásfogadás beállítása"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 26.88888888888889
+    },
+    {
+      "keys": [
+        "android piilotetut sovellukset"
+      ],
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "position": 9
+    },
+    {
+      "keys": [
+        "android porno"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 37.333333333333336
+    },
+    {
+      "keys": [
+        "android switch エミュ"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 22
+    },
+    {
+      "keys": [
+        "android ブロックした番号"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 19
+    },
+    {
+      "keys": [
+        "android リフレッシュレート変更 アプリ"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 26
+    },
+    {
+      "keys": [
+        "android 音質向上 設定"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "android17"
+      ],
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 0.05,
+      "position": 47.4
+    },
+    {
+      "keys": [
+        "android17 いつ"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 29.4
+    },
+    {
+      "keys": [
+        "android17 不具合 解消"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 45
+    },
+    {
+      "keys": [
+        "aplicatii dezinstalate recent"
+      ],
+      "clicks": 1,
+      "impressions": 24,
+      "ctr": 0.041666666666666664,
+      "position": 10.166666666666666
+    },
+    {
+      "keys": [
+        "aragaz samsung pe gaz"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 25
+    },
+    {
+      "keys": [
+        "arrows alpha2"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 27.4
+    },
+    {
+      "keys": [
+        "astrofoto samsung"
+      ],
+      "clicks": 1,
+      "impressions": 266,
+      "ctr": 0.0037593984962406013,
+      "position": 9.451127819548873
+    },
+    {
+      "keys": [
+        "asus rog phone 10"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 15.375
+    },
+    {
+      "keys": [
+        "automatyczne przewijanie tiktoka"
+      ],
+      "clicks": 1,
+      "impressions": 80,
+      "ctr": 0.0125,
+      "position": 5.3375
+    },
+    {
+      "keys": [
+        "autosvar sms android"
+      ],
+      "clicks": 1,
+      "impressions": 87,
+      "ctr": 0.011494252873563218,
+      "position": 10.333333333333334
+    },
+    {
+      "keys": [
+        "autosvar sms samsung"
+      ],
+      "clicks": 1,
+      "impressions": 48,
+      "ctr": 0.020833333333333332,
+      "position": 9.270833333333334
+    },
+    {
+      "keys": [
+        "ayaneo pocket fit g3"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 21
+    },
+    {
+      "keys": [
+        "ayarlardan telefon kapatma"
+      ],
+      "clicks": 1,
+      "impressions": 30,
+      "ctr": 0.03333333333333333,
+      "position": 8.433333333333334
+    },
+    {
+      "keys": [
+        "bakgrundsbilder android"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 98
+    },
+    {
+      "keys": [
+        "baseball game free"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 90.8
+    },
+    {
+      "keys": [
+        "beats kuulokkeet yhdistäminen"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 6
+    },
+    {
+      "keys": [
+        "best gemini instructions"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 21
+    },
+    {
+      "keys": [
+        "beállítások visszaállítása android"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 21
+    },
+    {
+      "keys": [
+        "blokda olan nomreye zeng etmek"
+      ],
+      "clicks": 1,
+      "impressions": 30,
+      "ctr": 0.03333333333333333,
+      "position": 7.233333333333333
+    },
+    {
+      "keys": [
+        "blokirane stevilke"
+      ],
+      "clicks": 1,
+      "impressions": 33,
+      "ctr": 0.030303030303030304,
+      "position": 6.666666666666667
+    },
+    {
+      "keys": [
+        "blokkolás feloldása"
+      ],
+      "clicks": 1,
+      "impressions": 118,
+      "ctr": 0.00847457627118644,
+      "position": 5.796610169491525
+    },
+    {
+      "keys": [
+        "bloklanmış nömrələr"
+      ],
+      "clicks": 1,
+      "impressions": 41,
+      "ctr": 0.024390243902439025,
+      "position": 5.463414634146342
+    },
+    {
+      "keys": [
+        "buds 4 pro vs freebuds pro 5"
+      ],
+      "clicks": 1,
+      "impressions": 11,
+      "ctr": 0.09090909090909091,
+      "position": 19.454545454545453
+    },
+    {
+      "keys": [
+        "cara dapatkan semula gambar yang telah dipadam android"
+      ],
+      "clicks": 1,
+      "impressions": 10,
+      "ctr": 0.1,
+      "position": 15.9
+    },
+    {
+      "keys": [
+        "chinese gaming phone brands"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 6.222222222222222
+    },
+    {
+      "keys": [
+        "chrome 縦タブ"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 4
+    },
+    {
+      "keys": [
+        "clip pro by cmf"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 9
+    },
+    {
+      "keys": [
+        "cmf クリップ"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 30
+    },
+    {
+      "keys": [
+        "come faccio a sapere qual è il mio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": 0.07142857142857142,
+      "position": 10.357142857142858
+    },
+    {
+      "keys": [
+        "come sapere il proprio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 196,
+      "ctr": 0.00510204081632653,
+      "position": 9.040816326530612
+    },
+    {
+      "keys": [
+        "come scoprire il proprio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 90,
+      "ctr": 0.011111111111111112,
+      "position": 9.1
+    },
+    {
+      "keys": [
+        "come si vede il proprio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 72,
+      "ctr": 0.013888888888888888,
+      "position": 8.569444444444445
+    },
+    {
+      "keys": [
+        "come spegnere il telefono senza tasto"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 29.333333333333332
+    },
+    {
+      "keys": [
+        "come trovare il proprio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 130,
+      "ctr": 0.007692307692307693,
+      "position": 9.6
+    },
+    {
+      "keys": [
+        "come vedere il mio numero di telefono android"
+      ],
+      "clicks": 1,
+      "impressions": 114,
+      "ctr": 0.008771929824561403,
+      "position": 9.412280701754385
+    },
+    {
+      "keys": [
+        "come vedere il proprio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 859,
+      "ctr": 0.0011641443538998836,
+      "position": 10.195576251455181
+    },
+    {
+      "keys": [
+        "come vedere il proprio numero di telefono android"
+      ],
+      "clicks": 1,
+      "impressions": 130,
+      "ctr": 0.007692307692307693,
+      "position": 8.946153846153846
+    },
+    {
+      "keys": [
+        "come vedere proprio numero di telefono su android"
+      ],
+      "clicks": 1,
+      "impressions": 37,
+      "ctr": 0.02702702702702703,
+      "position": 9.378378378378379
+    },
+    {
+      "keys": [
+        "comment connaitre son numéro de téléphone"
+      ],
+      "clicks": 1,
+      "impressions": 40,
+      "ctr": 0.025,
+      "position": 15.225
+    },
+    {
+      "keys": [
+        "comment savoir mon numéro de téléphone portable"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 9.125
+    },
+    {
+      "keys": [
+        "comment voir les appareils connectés sur facebook"
+      ],
+      "clicks": 1,
+      "impressions": 222,
+      "ctr": 0.0045045045045045045,
+      "position": 7.238738738738738
+    },
+    {
+      "keys": [
+        "comment éteindre mon téléphone android"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 15
+    },
+    {
+      "keys": [
+        "como recuperar aplicaciones borradas de mi celular samsung"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 31.5
+    },
+    {
+      "keys": [
+        "como saber mi número de teléfono sin llamar"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 40.13333333333333
+    },
+    {
+      "keys": [
+        "compare oppo find n6 and honor magic v6"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 20
+    },
+    {
+      "keys": [
+        "computex 2026 qnap"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 19
+    },
+    {
+      "keys": [
+        "cp21.260330.011"
+      ],
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 12
+    },
+    {
+      "keys": [
+        "date sortie google pixel 11"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 10
+    },
+    {
+      "keys": [
+        "depolama alanı nasıl boşaltilir"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 45
+    },
+    {
+      "keys": [
+        "descarcarile mele"
+      ],
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.03571428571428571,
+      "position": 10.357142857142858
+    },
+    {
+      "keys": [
+        "dimensity 9500 smartphone"
+      ],
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047619047619047616,
+      "position": 11.19047619047619
+    },
+    {
+      "keys": [
+        "dimensity 9500搭載スマホ"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 11
+    },
+    {
+      "keys": [
+        "duolingo アップデート"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 8
+    },
+    {
+      "keys": [
+        "dynamic island redmi"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 17
+    },
+    {
+      "keys": [
+        "edge70"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 4
+    },
+    {
+      "keys": [
+        "edge70 max"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 30.5
+    },
+    {
+      "keys": [
+        "f9 ultra poco"
+      ],
+      "clicks": 1,
+      "impressions": 22,
+      "ctr": 0.045454545454545456,
+      "position": 12.909090909090908
+    },
+    {
+      "keys": [
+        "facebook bottom navigation bar android"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 65
+    },
+    {
+      "keys": [
+        "finne wifi-passord android"
+      ],
+      "clicks": 1,
+      "impressions": 45,
+      "ctr": 0.022222222222222223,
+      "position": 8.511111111111111
+    },
+    {
+      "keys": [
+        "firma pdf chrome"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 12
+    },
+    {
+      "keys": [
+        "fold 8 ultra vs magic v6"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 15
+    },
+    {
+      "keys": [
+        "freebuds 5 pro vs galaxy buds 4 pro"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 13
+    },
+    {
+      "keys": [
+        "fujitsu arrows alpha 2"
+      ],
+      "clicks": 1,
+      "impressions": 45,
+      "ctr": 0.022222222222222223,
+      "position": 10.533333333333333
+    },
+    {
+      "keys": [
+        "galaxy a57 pixel 10a"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 29
+    },
+    {
+      "keys": [
+        "galaxy a57 pixel 10a 比較"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 25
+    },
+    {
+      "keys": [
+        "galaxy a57 pixel10a"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 18
+    },
+    {
+      "keys": [
+        "galaxy a57 pixel10a 比較"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 16
+    },
+    {
+      "keys": [
+        "galaxy s26 alternative"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 11
+    },
+    {
+      "keys": [
+        "galaxy s26 pixel11"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 34
+    },
+    {
+      "keys": [
+        "galaxy watch9"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 16
+    },
+    {
+      "keys": [
+        "galaxya57 pixel10a"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 14.333333333333334
+    },
+    {
+      "keys": [
+        "galaxyhome"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 13
+    },
+    {
+      "keys": [
+        "gambar yang hilang"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 16
+    },
+    {
+      "keys": [
+        "gamenative 1.1.0"
+      ],
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 9.894736842105264
+    },
+    {
+      "keys": [
+        "gangbang dp"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 6.75
+    },
+    {
+      "keys": [
+        "garmin pametni sat za žene"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 41
+    },
+    {
+      "keys": [
+        "gboard 설정"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 19
+    },
+    {
+      "keys": [
+        "gemini больше не работает"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 4.5
+    },
+    {
+      "keys": [
+        "gemini 制限"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 3
+    },
+    {
+      "keys": [
+        "giả lập nintendo switch cho android"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 68
+    },
+    {
+      "keys": [
+        "glasba za zvonjenje telefona"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 20
+    },
+    {
+      "keys": [
+        "google dammi il mio numero di telefono"
+      ],
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 0.05,
+      "position": 11.05
+    },
+    {
+      "keys": [
+        "google home スピーカー"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 14
+    },
+    {
+      "keys": [
+        "google is rolling out a native digital signature app for android"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 1
+    },
+    {
+      "keys": [
+        "google koš"
+      ],
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 6
+    },
+    {
+      "keys": [
+        "google nest hub gemini"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 27
+    },
+    {
+      "keys": [
+        "google nexus 7 2012"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 45.111111111111114
+    },
+    {
+      "keys": [
+        "google pixel 10 pro atsiliepimai"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 24.5
+    },
+    {
+      "keys": [
+        "google pixel 10 vs 11"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "google pixel 10a iphone17e"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 47
+    },
+    {
+      "keys": [
+        "google pixel 10a vs samsung galaxy a57"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 6
+    },
+    {
+      "keys": [
+        "google pixel 11 kdy vyjde"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "google pixel 11 vs pixel 10"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "keys": [
+        "google pixel 9 pro xl"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 43.4
+    },
+    {
+      "keys": [
+        "google pixel pin"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 10
+    },
+    {
+      "keys": [
+        "google pixel plush"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 5.25
+    },
+    {
+      "keys": [
+        "google pixel watch 5"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 25.933333333333334
+    },
+    {
+      "keys": [
+        "google play level up"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "google play rambursare"
+      ],
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047619047619047616,
+      "position": 9.238095238095237
+    },
+    {
+      "keys": [
+        "google plushies"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 35
+    },
+    {
+      "keys": [
+        "google signatures app android"
+      ],
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.03571428571428571,
+      "position": 7.071428571428571
+    },
+    {
+      "keys": [
+        "google sms zprávy"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 37
+    },
+    {
+      "keys": [
+        "google telefon alkalmazás"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 19
+    },
+    {
+      "keys": [
+        "google telefonní číslo"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 15.4
+    },
+    {
+      "keys": [
+        "google translate"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 1
+    },
+    {
+      "keys": [
+        "google tv app"
+      ],
+      "clicks": 1,
+      "impressions": 10,
+      "ctr": 0.1,
+      "position": 27.5
+    },
+    {
+      "keys": [
+        "google wallet"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 56.833333333333336
+    },
+    {
+      "keys": [
+        "google widgets"
+      ],
+      "clicks": 1,
+      "impressions": 33,
+      "ctr": 0.030303030303030304,
+      "position": 61.57575757575758
+    }
+  ],
+  "responseAggregationType": "byProperty"
+}

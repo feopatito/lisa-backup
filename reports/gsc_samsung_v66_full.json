@@ -1,0 +1,4502 @@
+[
+  {
+    "keys": [
+      "samsung"
+    ],
+    "clicks": 56968,
+    "impressions": 252213,
+    "ctr": 0.2258725759576231,
+    "position": 3.95213569482937
+  },
+  {
+    "keys": [
+      "エミュレータ"
+    ],
+    "clicks": 33809,
+    "impressions": 55731,
+    "ctr": 0.6066462112648257,
+    "position": 1.1003750157004182
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤緑"
+    ],
+    "clicks": 23305,
+    "impressions": 34729,
+    "ctr": 0.6710530104523597,
+    "position": 1.2587462927236603
+  },
+  {
+    "keys": [
+      "one ui"
+    ],
+    "clicks": 22704,
+    "impressions": 125608,
+    "ctr": 0.18075281829182854,
+    "position": 3.703617603974269
+  },
+  {
+    "keys": [
+      "android auto"
+    ],
+    "clicks": 20386,
+    "impressions": 107243,
+    "ctr": 0.19009166099419075,
+    "position": 5.015665358111951
+  },
+  {
+    "keys": [
+      "samsung galaxy"
+    ],
+    "clicks": 13545,
+    "impressions": 217279,
+    "ctr": 0.062339204433010095,
+    "position": 3.6885801204902453
+  },
+  {
+    "keys": [
+      "ニンテンドーds"
+    ],
+    "clicks": 12623,
+    "impressions": 38575,
+    "ctr": 0.32723266364225534,
+    "position": 2.74099805573558
+  },
+  {
+    "keys": [
+      "サムスン"
+    ],
+    "clicks": 11998,
+    "impressions": 46681,
+    "ctr": 0.2570210578179559,
+    "position": 3.8238041173068273
+  },
+  {
+    "keys": [
+      "포켓몬스터"
+    ],
+    "clicks": 8045,
+    "impressions": 15526,
+    "ctr": 0.5181630812830091,
+    "position": 2.5720082442354757
+  },
+  {
+    "keys": [
+      "삼성 갤럭시"
+    ],
+    "clicks": 7713,
+    "impressions": 13168,
+    "ctr": 0.5857381530984204,
+    "position": 1.0212636695018227
+  },
+  {
+    "keys": [
+      "닌텐도 ds"
+    ],
+    "clicks": 7421,
+    "impressions": 13027,
+    "ctr": 0.5696630075996009,
+    "position": 1.2800337760036846
+  },
+  {
+    "keys": [
+      "삼성"
+    ],
+    "clicks": 7301,
+    "impressions": 11844,
+    "ctr": 0.6164302600472813,
+    "position": 1.0293819655521783
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤・緑"
+    ],
+    "clicks": 6470,
+    "impressions": 8904,
+    "ctr": 0.7266397124887691,
+    "position": 1.0796271338724168
+  },
+  {
+    "keys": [
+      "garmin"
+    ],
+    "clicks": 6242,
+    "impressions": 47327,
+    "ctr": 0.13189088680879835,
+    "position": 5.337502905318317
+  },
+  {
+    "keys": [
+      "סמסונג"
+    ],
+    "clicks": 5131,
+    "impressions": 21569,
+    "ctr": 0.23788770921229543,
+    "position": 3.4489313366405487
+  },
+  {
+    "keys": [
+      "microsoft swiftkey ai keyboard"
+    ],
+    "clicks": 4758,
+    "impressions": 8464,
+    "ctr": 0.5621455576559546,
+    "position": 1
+  },
+  {
+    "keys": [
+      "סמסונג גלקסי"
+    ],
+    "clicks": 4726,
+    "impressions": 9433,
+    "ctr": 0.5010071027244779,
+    "position": 1.6127424997349729
+  },
+  {
+    "keys": [
+      "garmin fenix 9"
+    ],
+    "clicks": 4659,
+    "impressions": 41778,
+    "ctr": 0.11151802384029873,
+    "position": 5.14344870506008
+  },
+  {
+    "keys": [
+      "aktualizace"
+    ],
+    "clicks": 3815,
+    "impressions": 11054,
+    "ctr": 0.3451239370363669,
+    "position": 3.285326578614076
+  },
+  {
+    "keys": [
+      "one ui 9"
+    ],
+    "clicks": 3127,
+    "impressions": 68897,
+    "ctr": 0.045386591578733475,
+    "position": 2.2918849877353153
+  },
+  {
+    "keys": [
+      "samsung galaxy s26"
+    ],
+    "clicks": 2977,
+    "impressions": 94929,
+    "ctr": 0.03136027978805212,
+    "position": 3.087518039798165
+  },
+  {
+    "keys": [
+      "playstation 3"
+    ],
+    "clicks": 2587,
+    "impressions": 21942,
+    "ctr": 0.11790174095342267,
+    "position": 6.979628110473065
+  },
+  {
+    "keys": [
+      "google wallet"
+    ],
+    "clicks": 2512,
+    "impressions": 10073,
+    "ctr": 0.2493795294351236,
+    "position": 4.834805916807307
+  },
+  {
+    "keys": [
+      "fenix 9"
+    ],
+    "clicks": 2163,
+    "impressions": 17662,
+    "ctr": 0.12246631185596195,
+    "position": 5.608934435511267
+  },
+  {
+    "keys": [
+      "samsung galaxy s24"
+    ],
+    "clicks": 2044,
+    "impressions": 11710,
+    "ctr": 0.17455166524338173,
+    "position": 5.056532877882152
+  },
+  {
+    "keys": [
+      "waze"
+    ],
+    "clicks": 1898,
+    "impressions": 7527,
+    "ctr": 0.25215889464594127,
+    "position": 4.338780390593862
+  },
+  {
+    "keys": [
+      "ซัมซุง"
+    ],
+    "clicks": 1858,
+    "impressions": 22560,
+    "ctr": 0.0823581560283688,
+    "position": 5.095124113475177
+  },
+  {
+    "keys": [
+      "lego"
+    ],
+    "clicks": 1817,
+    "impressions": 7961,
+    "ctr": 0.22823765858560482,
+    "position": 5.701419419670896
+  },
+  {
+    "keys": [
+      "netflix"
+    ],
+    "clicks": 1806,
+    "impressions": 97633,
+    "ctr": 0.01849784396669159,
+    "position": 4.32339475382299
+  },
+  {
+    "keys": [
+      "सैमसंग"
+    ],
+    "clicks": 1577,
+    "impressions": 23404,
+    "ctr": 0.06738164416339087,
+    "position": 3.7872158605366604
+  },
+  {
+    "keys": [
+      "one ui 10"
+    ],
+    "clicks": 1481,
+    "impressions": 18442,
+    "ctr": 0.08030582366337707,
+    "position": 1.6316560026027545
+  },
+  {
+    "keys": [
+      "hodinky"
+    ],
+    "clicks": 1476,
+    "impressions": 2133,
+    "ctr": 0.6919831223628692,
+    "position": 1.4388185654008439
+  },
+  {
+    "keys": [
+      "s27 ultra"
+    ],
+    "clicks": 1215,
+    "impressions": 25890,
+    "ctr": 0.04692931633835458,
+    "position": 2.5381614522981844
+  },
+  {
+    "keys": [
+      "地図"
+    ],
+    "clicks": 1155,
+    "impressions": 2065,
+    "ctr": 0.559322033898305,
+    "position": 1.1196125907990315
+  },
+  {
+    "keys": [
+      "fotografování"
+    ],
+    "clicks": 1025,
+    "impressions": 1308,
+    "ctr": 0.7836391437308868,
+    "position": 1.0175840978593271
+  },
+  {
+    "keys": [
+      "samsung galaxy z series"
+    ],
+    "clicks": 1025,
+    "impressions": 1985,
+    "ctr": 0.5163727959697733,
+    "position": 2.9793450881612094
+  },
+  {
+    "keys": [
+      "galaxy s27"
+    ],
+    "clicks": 930,
+    "impressions": 15223,
+    "ctr": 0.061091769033699006,
+    "position": 3.4281679038297312
+  },
+  {
+    "keys": [
+      "mapy google"
+    ],
+    "clicks": 881,
+    "impressions": 133852,
+    "ctr": 0.006581896422914861,
+    "position": 5.480523264501091
+  },
+  {
+    "keys": [
+      "zprávy google"
+    ],
+    "clicks": 863,
+    "impressions": 3378,
+    "ctr": 0.25547661338069866,
+    "position": 3.9295441089402012
+  },
+  {
+    "keys": [
+      "안드로이드 오토"
+    ],
+    "clicks": 837,
+    "impressions": 3713,
+    "ctr": 0.2254241852949098,
+    "position": 6.126043630487477
+  },
+  {
+    "keys": [
+      "android"
+    ],
+    "clicks": 829,
+    "impressions": 24670,
+    "ctr": 0.03360356708552898,
+    "position": 5.211593027969194
+  },
+  {
+    "keys": [
+      "galaxy s26 ultra samsung"
+    ],
+    "clicks": 798,
+    "impressions": 2556,
+    "ctr": 0.31220657276995306,
+    "position": 3.594287949921753
+  },
+  {
+    "keys": [
+      "samsung galaxy s26 fe"
+    ],
+    "clicks": 788,
+    "impressions": 30238,
+    "ctr": 0.02605992459818771,
+    "position": 1.501124412990277
+  },
+  {
+    "keys": [
+      "xperia"
+    ],
+    "clicks": 781,
+    "impressions": 2148,
+    "ctr": 0.36359404096834264,
+    "position": 3.3784916201117317
+  },
+  {
+    "keys": [
+      "samsung galaxy s23"
+    ],
+    "clicks": 733,
+    "impressions": 13870,
+    "ctr": 0.0528478731074261,
+    "position": 7.574549387166546
+  },
+  {
+    "keys": [
+      "samsung galaxy buds"
+    ],
+    "clicks": 697,
+    "impressions": 5524,
+    "ctr": 0.12617668356263578,
+    "position": 6.312997827661115
+  },
+  {
+    "keys": [
+      "galaxy s27 ultra"
+    ],
+    "clicks": 626,
+    "impressions": 8581,
+    "ctr": 0.07295187041137396,
+    "position": 3.373266519053723
+  },
+  {
+    "keys": [
+      "samsung magazine"
+    ],
+    "clicks": 617,
+    "impressions": 887,
+    "ctr": 0.6956031567080045,
+    "position": 1.0992108229988726
+  },
+  {
+    "keys": [
+      "s27"
+    ],
+    "clicks": 597,
+    "impressions": 19246,
+    "ctr": 0.031019432609373378,
+    "position": 3.943053101943261
+  },
+  {
+    "keys": [
+      "pixel 11"
+    ],
+    "clicks": 596,
+    "impressions": 11104,
+    "ctr": 0.05367435158501441,
+    "position": 1.6954250720461095
+  },
+  {
+    "keys": [
+      "samsung galaxy s27 ultra"
+    ],
+    "clicks": 594,
+    "impressions": 14900,
+    "ctr": 0.039865771812080536,
+    "position": 2.5283892617449664
+  },
+  {
+    "keys": [
+      "wear os"
+    ],
+    "clicks": 592,
+    "impressions": 1720,
+    "ctr": 0.34418604651162793,
+    "position": 5.196511627906977
+  },
+  {
+    "keys": [
+      "google chrome pro android"
+    ],
+    "clicks": 584,
+    "impressions": 889,
+    "ctr": 0.6569178852643419,
+    "position": 1.5208098987626548
+  },
+  {
+    "keys": [
+      "sdílení fotografií"
+    ],
+    "clicks": 555,
+    "impressions": 771,
+    "ctr": 0.7198443579766537,
+    "position": 1.0350194552529184
+  },
+  {
+    "keys": [
+      "samsung galaxy s26 ultra"
+    ],
+    "clicks": 535,
+    "impressions": 23938,
+    "ctr": 0.022349402623443898,
+    "position": 4.1412816442476394
+  },
+  {
+    "keys": [
+      "マンダロリアン"
+    ],
+    "clicks": 527,
+    "impressions": 2288,
+    "ctr": 0.23033216783216784,
+    "position": 5.128496503496503
+  },
+  {
+    "keys": [
+      "samsung galaxy watch"
+    ],
+    "clicks": 525,
+    "impressions": 5721,
+    "ctr": 0.09176717357105402,
+    "position": 6.633455689564761
+  },
+  {
+    "keys": [
+      "s26 fe"
+    ],
+    "clicks": 475,
+    "impressions": 10978,
+    "ctr": 0.043268354891601385,
+    "position": 3.2680816177810166
+  },
+  {
+    "keys": [
+      "slunce"
+    ],
+    "clicks": 468,
+    "impressions": 633,
+    "ctr": 0.7393364928909952,
+    "position": 1.0252764612954186
+  },
+  {
+    "keys": [
+      "google pixel 11"
+    ],
+    "clicks": 466,
+    "impressions": 15121,
+    "ctr": 0.03081806758812248,
+    "position": 1.6633159182593744
+  },
+  {
+    "keys": [
+      "isocell"
+    ],
+    "clicks": 466,
+    "impressions": 5442,
+    "ctr": 0.08563028298419699,
+    "position": 1.967842704887909
+  },
+  {
+    "keys": [
+      "galaxy s26 samsung"
+    ],
+    "clicks": 456,
+    "impressions": 933,
+    "ctr": 0.4887459807073955,
+    "position": 1.7181136120042872
+  },
+  {
+    "keys": [
+      "samsung galaxy s27"
+    ],
+    "clicks": 444,
+    "impressions": 11436,
+    "ctr": 0.03882476390346275,
+    "position": 3.3954179783140956
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤緑 android"
+    ],
+    "clicks": 437,
+    "impressions": 635,
+    "ctr": 0.6881889763779527,
+    "position": 1.0598425196850394
+  },
+  {
+    "keys": [
+      "gmail"
+    ],
+    "clicks": 432,
+    "impressions": 17821,
+    "ctr": 0.02424106391336064,
+    "position": 7.724987374445878
+  },
+  {
+    "keys": [
+      "ciferník"
+    ],
+    "clicks": 428,
+    "impressions": 633,
+    "ctr": 0.6761453396524486,
+    "position": 1.617693522906793
+  },
+  {
+    "keys": [
+      "pokémon rojo y pokémon azul"
+    ],
+    "clicks": 420,
+    "impressions": 3126,
+    "ctr": 0.1343570057581574,
+    "position": 4.826935380678183
+  },
+  {
+    "keys": [
+      "fotky google"
+    ],
+    "clicks": 414,
+    "impressions": 6219,
+    "ctr": 0.06657018813314038,
+    "position": 6.516481749477408
+  },
+  {
+    "keys": [
+      "whatsapp"
+    ],
+    "clicks": 387,
+    "impressions": 114521,
+    "ctr": 0.0033792928807816905,
+    "position": 4.587080098846499
+  },
+  {
+    "keys": [
+      "google pixel"
+    ],
+    "clicks": 350,
+    "impressions": 7444,
+    "ctr": 0.047017732401934444,
+    "position": 5.536002149382052
+  },
+  {
+    "keys": [
+      "sci-fi"
+    ],
+    "clicks": 328,
+    "impressions": 468,
+    "ctr": 0.7008547008547008,
+    "position": 1.606837606837607
+  },
+  {
+    "keys": [
+      "s26 ultra"
+    ],
+    "clicks": 313,
+    "impressions": 37372,
+    "ctr": 0.008375254201006101,
+    "position": 3.4505779728138712
+  },
+  {
+    "keys": [
+      "samsung s27"
+    ],
+    "clicks": 312,
+    "impressions": 8615,
+    "ctr": 0.03621590249564713,
+    "position": 6.097852582704585
+  },
+  {
+    "keys": [
+      "gta vi"
+    ],
+    "clicks": 301,
+    "impressions": 6697,
+    "ctr": 0.044945497984172016,
+    "position": 1.1275197849783485
+  },
+  {
+    "keys": [
+      "s27 pro"
+    ],
+    "clicks": 300,
+    "impressions": 2426,
+    "ctr": 0.1236603462489695,
+    "position": 4.744435284418796
+  },
+  {
+    "keys": [
+      "galaxy s26 fe"
+    ],
+    "clicks": 292,
+    "impressions": 5514,
+    "ctr": 0.052956111715632935,
+    "position": 2.300689154878491
+  },
+  {
+    "keys": [
+      "garmin fēnix 8 pro amoled"
+    ],
+    "clicks": 288,
+    "impressions": 392,
+    "ctr": 0.7346938775510204,
+    "position": 1.066326530612245
+  },
+  {
+    "keys": [
+      "one ui 9.5"
+    ],
+    "clicks": 287,
+    "impressions": 6737,
+    "ctr": 0.042600564049280094,
+    "position": 2.2645094255603384
+  },
+  {
+    "keys": [
+      "삼성전자"
+    ],
+    "clicks": 282,
+    "impressions": 567,
+    "ctr": 0.4973544973544973,
+    "position": 1
+  },
+  {
+    "keys": [
+      "armsx2"
+    ],
+    "clicks": 276,
+    "impressions": 3714,
+    "ctr": 0.07431340872374798,
+    "position": 6.565697361335487
+  },
+  {
+    "keys": [
+      "galaxy s27 pro"
+    ],
+    "clicks": 271,
+    "impressions": 2386,
+    "ctr": 0.11357921207041073,
+    "position": 4.755658005029337
+  },
+  {
+    "keys": [
+      "samsung electronics"
+    ],
+    "clicks": 266,
+    "impressions": 831,
+    "ctr": 0.3200962695547533,
+    "position": 1.305655836341757
+  },
+  {
+    "keys": [
+      "spotify technology"
+    ],
+    "clicks": 266,
+    "impressions": 412,
+    "ctr": 0.6456310679611651,
+    "position": 1
+  },
+  {
+    "keys": [
+      "走る"
+    ],
+    "clicks": 262,
+    "impressions": 401,
+    "ctr": 0.6533665835411472,
+    "position": 1
+  },
+  {
+    "keys": [
+      "galaxy z fold8"
+    ],
+    "clicks": 258,
+    "impressions": 11197,
+    "ctr": 0.023041886219523088,
+    "position": 3.04447619898187
+  },
+  {
+    "keys": [
+      "gen1recomp"
+    ],
+    "clicks": 258,
+    "impressions": 1559,
+    "ctr": 0.16549069916613213,
+    "position": 3.722257857601026
+  },
+  {
+    "keys": [
+      "televizor"
+    ],
+    "clicks": 258,
+    "impressions": 346,
+    "ctr": 0.7456647398843931,
+    "position": 1
+  },
+  {
+    "keys": [
+      "garmin fenix 9 pro"
+    ],
+    "clicks": 256,
+    "impressions": 2365,
+    "ctr": 0.10824524312896405,
+    "position": 5.2553911205074
+  },
+  {
+    "keys": [
+      "galaxy tab s12"
+    ],
+    "clicks": 255,
+    "impressions": 2869,
+    "ctr": 0.08888114325548972,
+    "position": 4.599860578598815
+  },
+  {
+    "keys": [
+      "widget"
+    ],
+    "clicks": 255,
+    "impressions": 634,
+    "ctr": 0.4022082018927445,
+    "position": 2.2933753943217665
+  },
+  {
+    "keys": [
+      "スマートリング"
+    ],
+    "clicks": 244,
+    "impressions": 1823,
+    "ctr": 0.13384530992868898,
+    "position": 8.344487109160724
+  },
+  {
+    "keys": [
+      "pixel 11 pro"
+    ],
+    "clicks": 236,
+    "impressions": 6226,
+    "ctr": 0.037905557340186316,
+    "position": 1.5921940250562159
+  },
+  {
+    "keys": [
+      "सैमसंग गैलेक्सी"
+    ],
+    "clicks": 229,
+    "impressions": 1272,
+    "ctr": 0.1800314465408805,
+    "position": 1.251572327044025
+  },
+  {
+    "keys": [
+      "nintendo ds"
+    ],
+    "clicks": 228,
+    "impressions": 5023,
+    "ctr": 0.04539120047780211,
+    "position": 8.82241688234123
+  },
+  {
+    "keys": [
+      "gta 6"
+    ],
+    "clicks": 227,
+    "impressions": 8878,
+    "ctr": 0.025568821806713223,
+    "position": 1.5582338364496509
+  },
+  {
+    "keys": [
+      "samsung galaxy tab"
+    ],
+    "clicks": 224,
+    "impressions": 1244,
+    "ctr": 0.18006430868167203,
+    "position": 9.604501607717042
+  },
+  {
+    "keys": [
+      "samsung s26 fe"
+    ],
+    "clicks": 224,
+    "impressions": 4565,
+    "ctr": 0.04906900328587076,
+    "position": 3.843592552026287
+  },
+  {
+    "keys": [
+      "garmin marq 3"
+    ],
+    "clicks": 223,
+    "impressions": 2502,
+    "ctr": 0.0891286970423661,
+    "position": 6.341726618705036
+  },
+  {
+    "keys": [
+      "google pixel 11 pro"
+    ],
+    "clicks": 218,
+    "impressions": 11100,
+    "ctr": 0.01963963963963964,
+    "position": 1.4603603603603603
+  },
+  {
+    "keys": [
+      "google マップ"
+    ],
+    "clicks": 214,
+    "impressions": 2410,
+    "ctr": 0.08879668049792531,
+    "position": 5.92448132780083
+  },
+  {
+    "keys": [
+      "google"
+    ],
+    "clicks": 212,
+    "impressions": 522991,
+    "ctr": 0.0004053607041038947,
+    "position": 5.014885533403061
+  },
+  {
+    "keys": [
+      "சம்சுங் இலக்ட்ரோனிக்ஸ்"
+    ],
+    "clicks": 212,
+    "impressions": 1800,
+    "ctr": 0.11777777777777777,
+    "position": 3.3783333333333334
+  },
+  {
+    "keys": [
+      "samsung wallet-samsung pay"
+    ],
+    "clicks": 202,
+    "impressions": 279,
+    "ctr": 0.7240143369175627,
+    "position": 1.032258064516129
+  },
+  {
+    "keys": [
+      "samsung galaxy s25"
+    ],
+    "clicks": 200,
+    "impressions": 23567,
+    "ctr": 0.00848644290745534,
+    "position": 4.480417532991047
+  },
+  {
+    "keys": [
+      "the last of us"
+    ],
+    "clicks": 192,
+    "impressions": 2385,
+    "ctr": 0.08050314465408805,
+    "position": 7.60377358490566
+  },
+  {
+    "keys": [
+      "에뮬레이터"
+    ],
+    "clicks": 187,
+    "impressions": 679,
+    "ctr": 0.27540500736377027,
+    "position": 4.169366715758468
+  },
+  {
+    "keys": [
+      "samsung s27 ultra"
+    ],
+    "clicks": 184,
+    "impressions": 4307,
+    "ctr": 0.0427211516136522,
+    "position": 5.389830508474576
+  },
+  {
+    "keys": [
+      "सैमसंग गैलेक्सी s23 sm-s911uzkexaa"
+    ],
+    "clicks": 182,
+    "impressions": 541,
+    "ctr": 0.3364140480591497,
+    "position": 1
+  },
+  {
+    "keys": [
+      "gemini"
+    ],
+    "clicks": 181,
+    "impressions": 226234,
+    "ctr": 0.000800056578586773,
+    "position": 5.766909483101568
+  },
+  {
+    "keys": [
+      "samsung s27 pro"
+    ],
+    "clicks": 177,
+    "impressions": 1595,
+    "ctr": 0.11097178683385579,
+    "position": 5.842633228840126
+  },
+  {
+    "keys": [
+      "samsung magazin"
+    ],
+    "clicks": 174,
+    "impressions": 308,
+    "ctr": 0.564935064935065,
+    "position": 2.5681818181818183
+  },
+  {
+    "keys": [
+      "samsung one ui 9"
+    ],
+    "clicks": 171,
+    "impressions": 4317,
+    "ctr": 0.03961084086170952,
+    "position": 3.7713690062543432
+  },
+  {
+    "keys": [
+      "samsung wallet (samsung pay)"
+    ],
+    "clicks": 171,
+    "impressions": 332,
+    "ctr": 0.5150602409638554,
+    "position": 1.6626506024096386
+  },
+  {
+    "keys": [
+      "playstation"
+    ],
+    "clicks": 169,
+    "impressions": 14861,
+    "ctr": 0.011372047641477694,
+    "position": 4.598479240966288
+  },
+  {
+    "keys": [
+      "armsx3"
+    ],
+    "clicks": 168,
+    "impressions": 7969,
+    "ctr": 0.021081691554774754,
+    "position": 7.077801480737859
+  },
+  {
+    "keys": [
+      "s26"
+    ],
+    "clicks": 166,
+    "impressions": 37081,
+    "ctr": 0.004476686173512041,
+    "position": 3.825220463310051
+  },
+  {
+    "keys": [
+      "சாம்சங் கேலக்ஸி"
+    ],
+    "clicks": 163,
+    "impressions": 619,
+    "ctr": 0.2633279483037157,
+    "position": 2.2148626817447497
+  },
+  {
+    "keys": [
+      "fenix 9 garmin"
+    ],
+    "clicks": 162,
+    "impressions": 1429,
+    "ctr": 0.11336599020293912,
+    "position": 6.059482155353394
+  },
+  {
+    "keys": [
+      "samsung galaxy s27 pro"
+    ],
+    "clicks": 160,
+    "impressions": 1195,
+    "ctr": 0.13389121338912133,
+    "position": 4.243514644351464
+  },
+  {
+    "keys": [
+      "pokémon red & blue"
+    ],
+    "clicks": 156,
+    "impressions": 254,
+    "ctr": 0.6141732283464567,
+    "position": 1.8818897637795275
+  },
+  {
+    "keys": [
+      "samsung galaxy fit 4"
+    ],
+    "clicks": 150,
+    "impressions": 2026,
+    "ctr": 0.07403751233958539,
+    "position": 6.335636722606121
+  },
+  {
+    "keys": [
+      "samsung galaxy z"
+    ],
+    "clicks": 149,
+    "impressions": 5136,
+    "ctr": 0.029010903426791277,
+    "position": 3.8820093457943927
+  },
+  {
+    "keys": [
+      "삼성 갤럭시 엑스커버 6 프로"
+    ],
+    "clicks": 145,
+    "impressions": 310,
+    "ctr": 0.46774193548387094,
+    "position": 1.0580645161290323
+  },
+  {
+    "keys": [
+      "garmin cirqa"
+    ],
+    "clicks": 144,
+    "impressions": 14096,
+    "ctr": 0.01021566401816118,
+    "position": 5.554767309875142
+  },
+  {
+    "keys": [
+      "samsung introduces motion photo wallpapers in its one ui 9 update"
+    ],
+    "clicks": 144,
+    "impressions": 3079,
+    "ctr": 0.046768431308866515,
+    "position": 3.4345566742448845
+  },
+  {
+    "keys": [
+      "samsungmagazine"
+    ],
+    "clicks": 144,
+    "impressions": 172,
+    "ctr": 0.8372093023255814,
+    "position": 1
+  },
+  {
+    "keys": [
+      "chytrý telefon"
+    ],
+    "clicks": 141,
+    "impressions": 206,
+    "ctr": 0.6844660194174758,
+    "position": 1.058252427184466
+  },
+  {
+    "keys": [
+      "elektronika"
+    ],
+    "clicks": 140,
+    "impressions": 176,
+    "ctr": 0.7954545454545454,
+    "position": 1
+  },
+  {
+    "keys": [
+      "ifixit"
+    ],
+    "clicks": 140,
+    "impressions": 398,
+    "ctr": 0.35175879396984927,
+    "position": 3.6256281407035176
+  },
+  {
+    "keys": [
+      "samsung galaxy s8"
+    ],
+    "clicks": 140,
+    "impressions": 1600,
+    "ctr": 0.0875,
+    "position": 9.92375
+  },
+  {
+    "keys": [
+      "garmin enduro 4"
+    ],
+    "clicks": 136,
+    "impressions": 7296,
+    "ctr": 0.01864035087719298,
+    "position": 8.505482456140351
+  },
+  {
+    "keys": [
+      "one ui 9.0"
+    ],
+    "clicks": 132,
+    "impressions": 7775,
+    "ctr": 0.016977491961414792,
+    "position": 5.963086816720257
+  },
+  {
+    "keys": [
+      "ポケモン 赤 ダウンロード android"
+    ],
+    "clicks": 132,
+    "impressions": 319,
+    "ctr": 0.41379310344827586,
+    "position": 1.7272727272727273
+  },
+  {
+    "keys": [
+      "telefon"
+    ],
+    "clicks": 127,
+    "impressions": 570,
+    "ctr": 0.22280701754385965,
+    "position": 5.41578947368421
+  },
+  {
+    "keys": [
+      "fitbit"
+    ],
+    "clicks": 125,
+    "impressions": 389,
+    "ctr": 0.3213367609254499,
+    "position": 4.904884318766067
+  },
+  {
+    "keys": [
+      "quick share"
+    ],
+    "clicks": 123,
+    "impressions": 3262,
+    "ctr": 0.03770692826486818,
+    "position": 7.502759043531576
+  },
+  {
+    "keys": [
+      "garmin fenix"
+    ],
+    "clicks": 120,
+    "impressions": 1927,
+    "ctr": 0.062272963155163466,
+    "position": 9.875973015049299
+  },
+  {
+    "keys": [
+      "samsung s26 ultra"
+    ],
+    "clicks": 115,
+    "impressions": 18504,
+    "ctr": 0.006214872460008646,
+    "position": 4.360354517942067
+  },
+  {
+    "keys": [
+      "galaxy fit 4"
+    ],
+    "clicks": 109,
+    "impressions": 1480,
+    "ctr": 0.07364864864864865,
+    "position": 7.197297297297298
+  },
+  {
+    "keys": [
+      "गूगल"
+    ],
+    "clicks": 109,
+    "impressions": 12264,
+    "ctr": 0.008887801696020874,
+    "position": 1.5648238747553815
+  },
+  {
+    "keys": [
+      "android auto youtube"
+    ],
+    "clicks": 108,
+    "impressions": 671,
+    "ctr": 0.16095380029806258,
+    "position": 7.4575260804769
+  },
+  {
+    "keys": [
+      "spider-man"
+    ],
+    "clicks": 107,
+    "impressions": 516,
+    "ctr": 0.20736434108527133,
+    "position": 5.565891472868217
+  },
+  {
+    "keys": [
+      "சோனி எக்ஸ்பீரியா"
+    ],
+    "clicks": 107,
+    "impressions": 331,
+    "ctr": 0.32326283987915405,
+    "position": 1.0755287009063443
+  },
+  {
+    "keys": [
+      "구글 지도"
+    ],
+    "clicks": 107,
+    "impressions": 1825,
+    "ctr": 0.05863013698630137,
+    "position": 6.395616438356164
+  },
+  {
+    "keys": [
+      "samsung fit 4"
+    ],
+    "clicks": 103,
+    "impressions": 1293,
+    "ctr": 0.07965970610982212,
+    "position": 6.787316318638824
+  },
+  {
+    "keys": [
+      "3ds エミュレータ android"
+    ],
+    "clicks": 102,
+    "impressions": 743,
+    "ctr": 0.13728129205921938,
+    "position": 4.640646029609691
+  },
+  {
+    "keys": [
+      "samsung galaxy tab s12"
+    ],
+    "clicks": 99,
+    "impressions": 1505,
+    "ctr": 0.06578073089700996,
+    "position": 4.834551495016611
+  },
+  {
+    "keys": [
+      "horloge"
+    ],
+    "clicks": 96,
+    "impressions": 369,
+    "ctr": 0.2601626016260163,
+    "position": 5.848238482384824
+  },
+  {
+    "keys": [
+      "uwb samsung"
+    ],
+    "clicks": 96,
+    "impressions": 758,
+    "ctr": 0.1266490765171504,
+    "position": 4.894459102902374
+  },
+  {
+    "keys": [
+      "サムスンマガジン"
+    ],
+    "clicks": 95,
+    "impressions": 119,
+    "ctr": 0.7983193277310925,
+    "position": 1.0084033613445378
+  },
+  {
+    "keys": [
+      "garmin 9"
+    ],
+    "clicks": 94,
+    "impressions": 891,
+    "ctr": 0.10549943883277217,
+    "position": 6.3232323232323235
+  },
+  {
+    "keys": [
+      "orologio portatile"
+    ],
+    "clicks": 94,
+    "impressions": 162,
+    "ctr": 0.5802469135802469,
+    "position": 1
+  },
+  {
+    "keys": [
+      "one ui 9 watch"
+    ],
+    "clicks": 93,
+    "impressions": 1007,
+    "ctr": 0.09235352532274081,
+    "position": 5.953326713008938
+  },
+  {
+    "keys": [
+      "s27 samsung"
+    ],
+    "clicks": 93,
+    "impressions": 2057,
+    "ctr": 0.04521147301895965,
+    "position": 6.066115702479339
+  },
+  {
+    "keys": [
+      "android 17 samsung"
+    ],
+    "clicks": 92,
+    "impressions": 1323,
+    "ctr": 0.06953892668178382,
+    "position": 9.182161753590325
+  },
+  {
+    "keys": [
+      "samsung galaxy fit (gear fit)"
+    ],
+    "clicks": 91,
+    "impressions": 129,
+    "ctr": 0.7054263565891473,
+    "position": 1
+  },
+  {
+    "keys": [
+      "sony"
+    ],
+    "clicks": 91,
+    "impressions": 988,
+    "ctr": 0.09210526315789473,
+    "position": 4.733805668016194
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤緑 アンドロイド"
+    ],
+    "clicks": 91,
+    "impressions": 119,
+    "ctr": 0.7647058823529411,
+    "position": 1.403361344537815
+  },
+  {
+    "keys": [
+      "galaxy tab s12 ultra"
+    ],
+    "clicks": 90,
+    "impressions": 1310,
+    "ctr": 0.06870229007633588,
+    "position": 5.882442748091603
+  },
+  {
+    "keys": [
+      "gofullpage 消えた"
+    ],
+    "clicks": 90,
+    "impressions": 421,
+    "ctr": 0.21377672209026127,
+    "position": 2.4275534441805227
+  },
+  {
+    "keys": [
+      "hbo max"
+    ],
+    "clicks": 90,
+    "impressions": 2516,
+    "ctr": 0.03577106518282989,
+    "position": 4.953497615262322
+  },
+  {
+    "keys": [
+      "fold8"
+    ],
+    "clicks": 88,
+    "impressions": 4348,
+    "ctr": 0.020239190432382703,
+    "position": 3.31163753449862
+  },
+  {
+    "keys": [
+      "mandalorian"
+    ],
+    "clicks": 88,
+    "impressions": 1392,
+    "ctr": 0.06321839080459771,
+    "position": 6.499281609195402
+  },
+  {
+    "keys": [
+      "tab s12"
+    ],
+    "clicks": 88,
+    "impressions": 1177,
+    "ctr": 0.07476635514018691,
+    "position": 4.271877655055225
+  },
+  {
+    "keys": [
+      "fenix 9 pro"
+    ],
+    "clicks": 87,
+    "impressions": 850,
+    "ctr": 0.10235294117647059,
+    "position": 6.055294117647059
+  },
+  {
+    "keys": [
+      "galaxy fit4"
+    ],
+    "clicks": 87,
+    "impressions": 528,
+    "ctr": 0.16477272727272727,
+    "position": 6.628787878787879
+  },
+  {
+    "keys": [
+      "zegarek"
+    ],
+    "clicks": 87,
+    "impressions": 157,
+    "ctr": 0.554140127388535,
+    "position": 1.0636942675159236
+  },
+  {
+    "keys": [
+      "galaxy s26"
+    ],
+    "clicks": 86,
+    "impressions": 11818,
+    "ctr": 0.007277035031308174,
+    "position": 3.05889321374175
+  },
+  {
+    "keys": [
+      "galaxy buds 5"
+    ],
+    "clicks": 85,
+    "impressions": 965,
+    "ctr": 0.08808290155440414,
+    "position": 5.162694300518135
+  },
+  {
+    "keys": [
+      "samsung tab s12"
+    ],
+    "clicks": 84,
+    "impressions": 1279,
+    "ctr": 0.0656763096168882,
+    "position": 5.548084440969507
+  },
+  {
+    "keys": [
+      "garmin fēnix"
+    ],
+    "clicks": 83,
+    "impressions": 352,
+    "ctr": 0.23579545454545456,
+    "position": 5.119318181818182
+  },
+  {
+    "keys": [
+      "samsung galaxy s26 ultra 512gb"
+    ],
+    "clicks": 83,
+    "impressions": 155,
+    "ctr": 0.535483870967742,
+    "position": 1
+  },
+  {
+    "keys": [
+      "smartwatch"
+    ],
+    "clicks": 83,
+    "impressions": 206,
+    "ctr": 0.4029126213592233,
+    "position": 1.9563106796116505
+  },
+  {
+    "keys": [
+      "garmin marq gen 3"
+    ],
+    "clicks": 82,
+    "impressions": 1335,
+    "ctr": 0.06142322097378277,
+    "position": 7.480898876404495
+  },
+  {
+    "keys": [
+      "samsung galaxy buds אוזניות true wireless stereo (tws) תוך אזני שיחות/מוזיקה שן כחולה bluetooth שחור"
+    ],
+    "clicks": 82,
+    "impressions": 128,
+    "ctr": 0.640625,
+    "position": 1
+  },
+  {
+    "keys": [
+      "samsung magazín"
+    ],
+    "clicks": 82,
+    "impressions": 94,
+    "ctr": 0.8723404255319149,
+    "position": 1.0425531914893618
+  },
+  {
+    "keys": [
+      "good lock برای چه گوشی هایی است"
+    ],
+    "clicks": 81,
+    "impressions": 136,
+    "ctr": 0.5955882352941176,
+    "position": 1.0073529411764706
+  },
+  {
+    "keys": [
+      "ギャラクシーs27"
+    ],
+    "clicks": 81,
+    "impressions": 1268,
+    "ctr": 0.0638801261829653,
+    "position": 7.264984227129338
+  },
+  {
+    "keys": [
+      "플레이스테이션"
+    ],
+    "clicks": 81,
+    "impressions": 128,
+    "ctr": 0.6328125,
+    "position": 1
+  },
+  {
+    "keys": [
+      "gofullpage 違反"
+    ],
+    "clicks": 80,
+    "impressions": 171,
+    "ctr": 0.4678362573099415,
+    "position": 2.064327485380117
+  },
+  {
+    "keys": [
+      "samsung galaxy ring"
+    ],
+    "clicks": 80,
+    "impressions": 469,
+    "ctr": 0.17057569296375266,
+    "position": 19.776119402985074
+  },
+  {
+    "keys": [
+      "סמסונג גלקסי s23"
+    ],
+    "clicks": 78,
+    "impressions": 214,
+    "ctr": 0.3644859813084112,
+    "position": 2.5233644859813085
+  },
+  {
+    "keys": [
+      "fenix9"
+    ],
+    "clicks": 77,
+    "impressions": 1031,
+    "ctr": 0.07468477206595538,
+    "position": 6.921435499515034
+  },
+  {
+    "keys": [
+      "galaxy aero"
+    ],
+    "clicks": 76,
+    "impressions": 551,
+    "ctr": 0.13793103448275862,
+    "position": 4.406533575317605
+  },
+  {
+    "keys": [
+      "one ui 9 s26 ultra"
+    ],
+    "clicks": 74,
+    "impressions": 885,
+    "ctr": 0.08361581920903954,
+    "position": 7.038418079096045
+  },
+  {
+    "keys": [
+      "samsung galaxy s24 8gb/128gb 6.2 dual sim sm_s921bzadeub"
+    ],
+    "clicks": 73,
+    "impressions": 148,
+    "ctr": 0.49324324324324326,
+    "position": 1
+  },
+  {
+    "keys": [
+      "플레이스테이션 3"
+    ],
+    "clicks": 73,
+    "impressions": 102,
+    "ctr": 0.7156862745098039,
+    "position": 1.156862745098039
+  },
+  {
+    "keys": [
+      "samsung galaxy watch series"
+    ],
+    "clicks": 72,
+    "impressions": 196,
+    "ctr": 0.3673469387755102,
+    "position": 19.357142857142858
+  },
+  {
+    "keys": [
+      "samsung tag 3"
+    ],
+    "clicks": 72,
+    "impressions": 1306,
+    "ctr": 0.055130168453292494,
+    "position": 6.767228177641654
+  },
+  {
+    "keys": [
+      "samsung a18"
+    ],
+    "clicks": 71,
+    "impressions": 3099,
+    "ctr": 0.02291061632784769,
+    "position": 8.674411100354952
+  },
+  {
+    "keys": [
+      "סמסונג גלקסי טאב"
+    ],
+    "clicks": 71,
+    "impressions": 110,
+    "ctr": 0.6454545454545455,
+    "position": 1
+  },
+  {
+    "keys": [
+      "google earth"
+    ],
+    "clicks": 70,
+    "impressions": 3900,
+    "ctr": 0.017948717948717947,
+    "position": 6.3307692307692305
+  },
+  {
+    "keys": [
+      "oled"
+    ],
+    "clicks": 70,
+    "impressions": 227,
+    "ctr": 0.30837004405286345,
+    "position": 3.2599118942731278
+  },
+  {
+    "keys": [
+      "garmin fenix 8 amoled"
+    ],
+    "clicks": 69,
+    "impressions": 167,
+    "ctr": 0.41317365269461076,
+    "position": 3.5748502994011977
+  },
+  {
+    "keys": [
+      "2g"
+    ],
+    "clicks": 68,
+    "impressions": 153,
+    "ctr": 0.4444444444444444,
+    "position": 3.3986928104575163
+  },
+  {
+    "keys": [
+      "pixel 11 pro fold"
+    ],
+    "clicks": 67,
+    "impressions": 2100,
+    "ctr": 0.03190476190476191,
+    "position": 1.7519047619047619
+  },
+  {
+    "keys": [
+      "samsung smarttag 3"
+    ],
+    "clicks": 67,
+    "impressions": 655,
+    "ctr": 0.10229007633587786,
+    "position": 4.890076335877863
+  },
+  {
+    "keys": [
+      "nintendo"
+    ],
+    "clicks": 65,
+    "impressions": 2352,
+    "ctr": 0.027636054421768707,
+    "position": 4.943027210884354
+  },
+  {
+    "keys": [
+      "غیر فعال سازی رومینگ در گوشی سامسونگ"
+    ],
+    "clicks": 65,
+    "impressions": 1139,
+    "ctr": 0.05706760316066725,
+    "position": 4.536435469710272
+  },
+  {
+    "keys": [
+      "samsung galaxy watch8 classic 46mm スマートウォッチ"
+    ],
+    "clicks": 64,
+    "impressions": 97,
+    "ctr": 0.6597938144329897,
+    "position": 1
+  },
+  {
+    "keys": [
+      "안드로이드 오토 유튜브"
+    ],
+    "clicks": 64,
+    "impressions": 271,
+    "ctr": 0.23616236162361623,
+    "position": 5.369003690036901
+  },
+  {
+    "keys": [
+      "anker"
+    ],
+    "clicks": 63,
+    "impressions": 167,
+    "ctr": 0.3772455089820359,
+    "position": 6.11377245508982
+  },
+  {
+    "keys": [
+      "galaxy s26 ultra"
+    ],
+    "clicks": 63,
+    "impressions": 5352,
+    "ctr": 0.011771300448430493,
+    "position": 4.37406576980568
+  },
+  {
+    "keys": [
+      "samsung s26"
+    ],
+    "clicks": 63,
+    "impressions": 33156,
+    "ctr": 0.0019001085776330076,
+    "position": 6.125407166123779
+  },
+  {
+    "keys": [
+      "ポケモン赤緑 android"
+    ],
+    "clicks": 63,
+    "impressions": 85,
+    "ctr": 0.7411764705882353,
+    "position": 1.6352941176470588
+  },
+  {
+    "keys": [
+      "chytré brýle"
+    ],
+    "clicks": 62,
+    "impressions": 1699,
+    "ctr": 0.03649205414949971,
+    "position": 9.144791053560919
+  },
+  {
+    "keys": [
+      "sleva"
+    ],
+    "clicks": 62,
+    "impressions": 75,
+    "ctr": 0.8266666666666667,
+    "position": 1
+  },
+  {
+    "keys": [
+      "פלייסטיישן 3"
+    ],
+    "clicks": 62,
+    "impressions": 120,
+    "ctr": 0.5166666666666667,
+    "position": 1.2416666666666667
+  },
+  {
+    "keys": [
+      "emulátor"
+    ],
+    "clicks": 60,
+    "impressions": 92,
+    "ctr": 0.6521739130434783,
+    "position": 1.4456521739130435
+  },
+  {
+    "keys": [
+      "galaxy watch ultra 2"
+    ],
+    "clicks": 60,
+    "impressions": 3981,
+    "ctr": 0.015071590052750565,
+    "position": 3.42175332830947
+  },
+  {
+    "keys": [
+      "garmin שעון ספורט fēnix 8 pro – microled"
+    ],
+    "clicks": 60,
+    "impressions": 98,
+    "ctr": 0.6122448979591837,
+    "position": 1
+  },
+  {
+    "keys": [
+      "samsung galaxy a18"
+    ],
+    "clicks": 60,
+    "impressions": 3022,
+    "ctr": 0.01985440105890139,
+    "position": 5.854731965585705
+  },
+  {
+    "keys": [
+      "ポケモン 赤 緑 android"
+    ],
+    "clicks": 60,
+    "impressions": 76,
+    "ctr": 0.7894736842105263,
+    "position": 1.5789473684210527
+  },
+  {
+    "keys": [
+      "google pixel 11 pro fold"
+    ],
+    "clicks": 59,
+    "impressions": 3254,
+    "ctr": 0.018131530424093423,
+    "position": 1.4505224339274738
+  },
+  {
+    "keys": [
+      "samsung galaxy tab s12 ultra"
+    ],
+    "clicks": 59,
+    "impressions": 866,
+    "ctr": 0.06812933025404157,
+    "position": 4.469976905311778
+  },
+  {
+    "keys": [
+      "삼성 갤럭시 s24"
+    ],
+    "clicks": 59,
+    "impressions": 133,
+    "ctr": 0.44360902255639095,
+    "position": 1.4285714285714286
+  },
+  {
+    "keys": [
+      "fermata xtream"
+    ],
+    "clicks": 58,
+    "impressions": 2204,
+    "ctr": 0.02631578947368421,
+    "position": 7.691016333938294
+  },
+  {
+    "keys": [
+      "google play"
+    ],
+    "clicks": 58,
+    "impressions": 28578,
+    "ctr": 0.0020295332073623066,
+    "position": 6.717404996850724
+  },
+  {
+    "keys": [
+      "grand theft auto vi"
+    ],
+    "clicks": 58,
+    "impressions": 4345,
+    "ctr": 0.013348676639815881,
+    "position": 2.7868814729574223
+  },
+  {
+    "keys": [
+      "vivosmart 6"
+    ],
+    "clicks": 57,
+    "impressions": 774,
+    "ctr": 0.07364341085271318,
+    "position": 5.007751937984496
+  },
+  {
+    "keys": [
+      "one ui9"
+    ],
+    "clicks": 56,
+    "impressions": 997,
+    "ctr": 0.05616850551654965,
+    "position": 6.729187562688065
+  },
+  {
+    "keys": [
+      "play store"
+    ],
+    "clicks": 56,
+    "impressions": 10654,
+    "ctr": 0.005256241787122208,
+    "position": 3.775107940679557
+  },
+  {
+    "keys": [
+      "tapeta"
+    ],
+    "clicks": 56,
+    "impressions": 314,
+    "ctr": 0.17834394904458598,
+    "position": 6.535031847133758
+  },
+  {
+    "keys": [
+      "वनयूआई"
+    ],
+    "clicks": 56,
+    "impressions": 134,
+    "ctr": 0.417910447761194,
+    "position": 1.4402985074626866
+  },
+  {
+    "keys": [
+      "youtube"
+    ],
+    "clicks": 55,
+    "impressions": 346050,
+    "ctr": 0.00015893656985984685,
+    "position": 6.277064008091316
+  },
+  {
+    "keys": [
+      "ポケモン赤青黄 android"
+    ],
+    "clicks": 55,
+    "impressions": 71,
+    "ctr": 0.7746478873239436,
+    "position": 1.1690140845070423
+  },
+  {
+    "keys": [
+      "anbernic rg35xx sp rg35xx sp silver"
+    ],
+    "clicks": 54,
+    "impressions": 61,
+    "ctr": 0.8852459016393442,
+    "position": 1
+  },
+  {
+    "keys": [
+      "foto maken van eclips"
+    ],
+    "clicks": 54,
+    "impressions": 604,
+    "ctr": 0.08940397350993377,
+    "position": 1.0430463576158941
+  },
+  {
+    "keys": [
+      "good lock"
+    ],
+    "clicks": 54,
+    "impressions": 3431,
+    "ctr": 0.015738851646750218,
+    "position": 9.36519965024774
+  },
+  {
+    "keys": [
+      "ui 9"
+    ],
+    "clicks": 54,
+    "impressions": 691,
+    "ctr": 0.07814761215629522,
+    "position": 3.4109985528219973
+  },
+  {
+    "keys": [
+      "tab s12 ultra"
+    ],
+    "clicks": 53,
+    "impressions": 649,
+    "ctr": 0.08166409861325115,
+    "position": 4.728813559322034
+  },
+  {
+    "keys": [
+      "watermelonds"
+    ],
+    "clicks": 53,
+    "impressions": 951,
+    "ctr": 0.05573080967402734,
+    "position": 5.986330178759201
+  },
+  {
+    "keys": [
+      "3ds エミュレータ"
+    ],
+    "clicks": 52,
+    "impressions": 1081,
+    "ctr": 0.04810360777058279,
+    "position": 8.233117483811286
+  },
+  {
+    "keys": [
+      "スマホでポケモン やる 方法 android"
+    ],
+    "clicks": 52,
+    "impressions": 195,
+    "ctr": 0.26666666666666666,
+    "position": 3.3076923076923075
+  },
+  {
+    "keys": [
+      "ポケモン赤青緑 android"
+    ],
+    "clicks": 51,
+    "impressions": 71,
+    "ctr": 0.7183098591549296,
+    "position": 1.352112676056338
+  },
+  {
+    "keys": [
+      "google chrome"
+    ],
+    "clicks": 50,
+    "impressions": 949,
+    "ctr": 0.05268703898840885,
+    "position": 4.65858798735511
+  },
+  {
+    "keys": [
+      "يوتيوب"
+    ],
+    "clicks": 49,
+    "impressions": 270138,
+    "ctr": 0.00018138877166485278,
+    "position": 6.5260459468864065
+  },
+  {
+    "keys": [
+      "muse glimmer"
+    ],
+    "clicks": 48,
+    "impressions": 4446,
+    "ctr": 0.010796221322537112,
+    "position": 2.5008996851102117
+  },
+  {
+    "keys": [
+      "שעון"
+    ],
+    "clicks": 48,
+    "impressions": 166,
+    "ctr": 0.2891566265060241,
+    "position": 4.337349397590362
+  },
+  {
+    "keys": [
+      "garmin vivosmart 6"
+    ],
+    "clicks": 47,
+    "impressions": 959,
+    "ctr": 0.049009384775808136,
+    "position": 6.358706986444212
+  },
+  {
+    "keys": [
+      "ポケモン赤 android"
+    ],
+    "clicks": 46,
+    "impressions": 85,
+    "ctr": 0.5411764705882353,
+    "position": 1.788235294117647
+  },
+  {
+    "keys": [
+      "任天堂の伝説が再び息を吹き返す"
+    ],
+    "clicks": 46,
+    "impressions": 104,
+    "ctr": 0.4423076923076923,
+    "position": 2.2596153846153846
+  },
+  {
+    "keys": [
+      "garmin venu"
+    ],
+    "clicks": 45,
+    "impressions": 156,
+    "ctr": 0.28846153846153844,
+    "position": 3.4423076923076925
+  },
+  {
+    "keys": [
+      "enduro 4"
+    ],
+    "clicks": 44,
+    "impressions": 1234,
+    "ctr": 0.03565640194489465,
+    "position": 7.90194489465154
+  },
+  {
+    "keys": [
+      "gofullpage"
+    ],
+    "clicks": 44,
+    "impressions": 930,
+    "ctr": 0.047311827956989246,
+    "position": 9.63225806451613
+  },
+  {
+    "keys": [
+      "samsung galaxy s23 ultra"
+    ],
+    "clicks": 44,
+    "impressions": 1681,
+    "ctr": 0.026174895895300417,
+    "position": 10.400951814396192
+  },
+  {
+    "keys": [
+      "android 3ds エミュ"
+    ],
+    "clicks": 43,
+    "impressions": 225,
+    "ctr": 0.19111111111111112,
+    "position": 3.1333333333333333
+  },
+  {
+    "keys": [
+      "galaxy z fold 8"
+    ],
+    "clicks": 43,
+    "impressions": 1725,
+    "ctr": 0.024927536231884057,
+    "position": 6.328115942028986
+  },
+  {
+    "keys": [
+      "galaxy z fold8 ultra"
+    ],
+    "clicks": 43,
+    "impressions": 3277,
+    "ctr": 0.013121757705218187,
+    "position": 4.061031431187061
+  },
+  {
+    "keys": [
+      "samsung update"
+    ],
+    "clicks": 43,
+    "impressions": 923,
+    "ctr": 0.04658721560130011,
+    "position": 3.8028169014084505
+  },
+  {
+    "keys": [
+      "samsungmagazin"
+    ],
+    "clicks": 42,
+    "impressions": 47,
+    "ctr": 0.8936170212765957,
+    "position": 1.127659574468085
+  },
+  {
+    "keys": [
+      "ポケモン 赤 緑"
+    ],
+    "clicks": 42,
+    "impressions": 282,
+    "ctr": 0.14893617021276595,
+    "position": 3.769503546099291
+  },
+  {
+    "keys": [
+      "alza.cz"
+    ],
+    "clicks": 41,
+    "impressions": 70,
+    "ctr": 0.5857142857142857,
+    "position": 2.0285714285714285
+  },
+  {
+    "keys": [
+      "android ポケモン 初代"
+    ],
+    "clicks": 41,
+    "impressions": 83,
+    "ctr": 0.4939759036144578,
+    "position": 1.8433734939759037
+  },
+  {
+    "keys": [
+      "ohebný smartphone"
+    ],
+    "clicks": 40,
+    "impressions": 61,
+    "ctr": 0.6557377049180327,
+    "position": 1.1967213114754098
+  },
+  {
+    "keys": [
+      "pixel watch"
+    ],
+    "clicks": 40,
+    "impressions": 1292,
+    "ctr": 0.030959752321981424,
+    "position": 2.9411764705882355
+  },
+  {
+    "keys": [
+      "telefonda wifi koduna baxmaq"
+    ],
+    "clicks": 40,
+    "impressions": 171,
+    "ctr": 0.23391812865497075,
+    "position": 1.976608187134503
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤・緑 android"
+    ],
+    "clicks": 40,
+    "impressions": 55,
+    "ctr": 0.7272727272727273,
+    "position": 1.9090909090909092
+  },
+  {
+    "keys": [
+      "openai hardware"
+    ],
+    "clicks": 39,
+    "impressions": 218,
+    "ctr": 0.17889908256880735,
+    "position": 2.4128440366972477
+  },
+  {
+    "keys": [
+      "solformørkelse"
+    ],
+    "clicks": 38,
+    "impressions": 1238,
+    "ctr": 0.030694668820678513,
+    "position": 1.2326332794830372
+  },
+  {
+    "keys": [
+      "galaxy s26 ultra ブラック"
+    ],
+    "clicks": 37,
+    "impressions": 76,
+    "ctr": 0.4868421052631579,
+    "position": 1.131578947368421
+  },
+  {
+    "keys": [
+      "סמסונג גלקסי s26"
+    ],
+    "clicks": 37,
+    "impressions": 115,
+    "ctr": 0.3217391304347826,
+    "position": 1.5130434782608697
+  },
+  {
+    "keys": [
+      "갤럭시 에어로"
+    ],
+    "clicks": 37,
+    "impressions": 229,
+    "ctr": 0.1615720524017467,
+    "position": 5.554585152838428
+  },
+  {
+    "keys": [
+      "삼성 갤럭시 s26"
+    ],
+    "clicks": 37,
+    "impressions": 314,
+    "ctr": 0.1178343949044586,
+    "position": 5.36624203821656
+  },
+  {
+    "keys": [
+      "apple"
+    ],
+    "clicks": 36,
+    "impressions": 4260,
+    "ctr": 0.008450704225352112,
+    "position": 4.301643192488263
+  },
+  {
+    "keys": [
+      "celular samsung s26 ultra"
+    ],
+    "clicks": 36,
+    "impressions": 88,
+    "ctr": 0.4090909090909091,
+    "position": 1
+  },
+  {
+    "keys": [
+      "s26 ultra one ui 9"
+    ],
+    "clicks": 36,
+    "impressions": 284,
+    "ctr": 0.1267605633802817,
+    "position": 6.422535211267606
+  },
+  {
+    "keys": [
+      "samsung galaxy buds slúchadlá s mikrofónom true wireless stereo (tws) do ucha hovor / hudba bluetooth čierna"
+    ],
+    "clicks": 36,
+    "impressions": 56,
+    "ctr": 0.6428571428571429,
+    "position": 1
+  },
+  {
+    "keys": [
+      "ガーミン フェニックス9"
+    ],
+    "clicks": 36,
+    "impressions": 389,
+    "ctr": 0.09254498714652956,
+    "position": 7.796915167095116
+  },
+  {
+    "keys": [
+      "samsung galaxy z fold8"
+    ],
+    "clicks": 35,
+    "impressions": 13983,
+    "ctr": 0.0025030394049917757,
+    "position": 2.2769791890152327
+  },
+  {
+    "keys": [
+      "samsung s 27"
+    ],
+    "clicks": 34,
+    "impressions": 1255,
+    "ctr": 0.027091633466135457,
+    "position": 6.480478087649402
+  },
+  {
+    "keys": [
+      "جراند ثفت أوتو 6"
+    ],
+    "clicks": 34,
+    "impressions": 2371,
+    "ctr": 0.01433994095318431,
+    "position": 4.152256431885281
+  },
+  {
+    "keys": [
+      "가민 피닉스9"
+    ],
+    "clicks": 34,
+    "impressions": 328,
+    "ctr": 0.10365853658536585,
+    "position": 5.984756097560975
+  },
+  {
+    "keys": [
+      "armsx2 android"
+    ],
+    "clicks": 33,
+    "impressions": 467,
+    "ctr": 0.07066381156316917,
+    "position": 5.670235546038544
+  },
+  {
+    "keys": [
+      "garmin 22.43"
+    ],
+    "clicks": 33,
+    "impressions": 245,
+    "ctr": 0.1346938775510204,
+    "position": 4.608163265306123
+  },
+  {
+    "keys": [
+      "gofullpage ポリシー違反"
+    ],
+    "clicks": 33,
+    "impressions": 127,
+    "ctr": 0.25984251968503935,
+    "position": 4.110236220472441
+  },
+  {
+    "keys": [
+      "sony xperia"
+    ],
+    "clicks": 33,
+    "impressions": 537,
+    "ctr": 0.061452513966480445,
+    "position": 9.31098696461825
+  },
+  {
+    "keys": [
+      "アンドロイドオート ユーチューブ"
+    ],
+    "clicks": 33,
+    "impressions": 440,
+    "ctr": 0.075,
+    "position": 9.65
+  },
+  {
+    "keys": [
+      "スーパーマリオ"
+    ],
+    "clicks": 33,
+    "impressions": 87,
+    "ctr": 0.3793103448275862,
+    "position": 3.1724137931034484
+  },
+  {
+    "keys": [
+      "ポケモン android"
+    ],
+    "clicks": 33,
+    "impressions": 73,
+    "ctr": 0.4520547945205479,
+    "position": 6.767123287671233
+  },
+  {
+    "keys": [
+      "fotografera solförmörkelse med mobil"
+    ],
+    "clicks": 32,
+    "impressions": 273,
+    "ctr": 0.11721611721611722,
+    "position": 7.805860805860806
+  },
+  {
+    "keys": [
+      "garmin fenix9"
+    ],
+    "clicks": 32,
+    "impressions": 583,
+    "ctr": 0.0548885077186964,
+    "position": 7.483704974271012
+  },
+  {
+    "keys": [
+      "pixel watch 5"
+    ],
+    "clicks": 32,
+    "impressions": 2658,
+    "ctr": 0.012039127163280662,
+    "position": 2.020692249811889
+  },
+  {
+    "keys": [
+      "סמסונג אלקטרוניקס"
+    ],
+    "clicks": 32,
+    "impressions": 60,
+    "ctr": 0.5333333333333333,
+    "position": 1
+  },
+  {
+    "keys": [
+      "garmin cirqa review"
+    ],
+    "clicks": 31,
+    "impressions": 622,
+    "ctr": 0.04983922829581994,
+    "position": 3.5385852090032155
+  },
+  {
+    "keys": [
+      "garmin news"
+    ],
+    "clicks": 31,
+    "impressions": 206,
+    "ctr": 0.15048543689320387,
+    "position": 1.5485436893203883
+  },
+  {
+    "keys": [
+      "s26 fe samsung"
+    ],
+    "clicks": 31,
+    "impressions": 435,
+    "ctr": 0.07126436781609195,
+    "position": 4.085057471264368
+  },
+  {
+    "keys": [
+      "samsung galaxy smarttag"
+    ],
+    "clicks": 31,
+    "impressions": 130,
+    "ctr": 0.23846153846153847,
+    "position": 7.223076923076923
+  },
+  {
+    "keys": [
+      "samsung smart tag 3"
+    ],
+    "clicks": 31,
+    "impressions": 894,
+    "ctr": 0.03467561521252797,
+    "position": 7.738255033557047
+  },
+  {
+    "keys": [
+      "samsung tab s12 ultra"
+    ],
+    "clicks": 31,
+    "impressions": 548,
+    "ctr": 0.05656934306569343,
+    "position": 6.478102189781022
+  },
+  {
+    "keys": [
+      "ウィジェット"
+    ],
+    "clicks": 31,
+    "impressions": 224,
+    "ctr": 0.13839285714285715,
+    "position": 6.866071428571429
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤・緑 アンドロイド"
+    ],
+    "clicks": 31,
+    "impressions": 56,
+    "ctr": 0.5535714285714286,
+    "position": 2.267857142857143
+  },
+  {
+    "keys": [
+      "disney+"
+    ],
+    "clicks": 30,
+    "impressions": 3845,
+    "ctr": 0.007802340702210663,
+    "position": 5.445773732119636
+  },
+  {
+    "keys": [
+      "galaxy buds 5 pro"
+    ],
+    "clicks": 30,
+    "impressions": 410,
+    "ctr": 0.07317073170731707,
+    "position": 6.441463414634146
+  },
+  {
+    "keys": [
+      "galaxy tag 3"
+    ],
+    "clicks": 30,
+    "impressions": 273,
+    "ctr": 0.10989010989010989,
+    "position": 5.018315018315018
+  },
+  {
+    "keys": [
+      "now brief apk"
+    ],
+    "clicks": 30,
+    "impressions": 295,
+    "ctr": 0.1016949152542373,
+    "position": 6.983050847457627
+  },
+  {
+    "keys": [
+      "one ui 9 beta 5"
+    ],
+    "clicks": 30,
+    "impressions": 409,
+    "ctr": 0.07334963325183375,
+    "position": 5.254278728606357
+  },
+  {
+    "keys": [
+      "one ui 9 s25 ultra"
+    ],
+    "clicks": 30,
+    "impressions": 468,
+    "ctr": 0.0641025641025641,
+    "position": 7.019230769230769
+  },
+  {
+    "keys": [
+      "oyun konsolu"
+    ],
+    "clicks": 30,
+    "impressions": 54,
+    "ctr": 0.5555555555555556,
+    "position": 1
+  },
+  {
+    "keys": [
+      "samsung a27 vs a57"
+    ],
+    "clicks": 30,
+    "impressions": 235,
+    "ctr": 0.1276595744680851,
+    "position": 5.391489361702128
+  },
+  {
+    "keys": [
+      "science-fiction"
+    ],
+    "clicks": 30,
+    "impressions": 813,
+    "ctr": 0.03690036900369004,
+    "position": 2.6482164821648215
+  },
+  {
+    "keys": [
+      "מחשב לוח"
+    ],
+    "clicks": 30,
+    "impressions": 55,
+    "ctr": 0.5454545454545454,
+    "position": 1
+  },
+  {
+    "keys": [
+      "折りたたみスマホ"
+    ],
+    "clicks": 30,
+    "impressions": 69,
+    "ctr": 0.43478260869565216,
+    "position": 1
+  },
+  {
+    "keys": [
+      "galaxy s27 ultra 待つべき"
+    ],
+    "clicks": 29,
+    "impressions": 406,
+    "ctr": 0.07142857142857142,
+    "position": 6.475369458128079
+  },
+  {
+    "keys": [
+      "garmin fenix 9 uscita"
+    ],
+    "clicks": 29,
+    "impressions": 685,
+    "ctr": 0.042335766423357665,
+    "position": 7.074452554744526
+  },
+  {
+    "keys": [
+      "made by google 2026"
+    ],
+    "clicks": 29,
+    "impressions": 622,
+    "ctr": 0.04662379421221865,
+    "position": 4.622186495176849
+  },
+  {
+    "keys": [
+      "titta på solförmörkelse genom mobilen"
+    ],
+    "clicks": 29,
+    "impressions": 443,
+    "ctr": 0.0654627539503386,
+    "position": 10.284424379232506
+  },
+  {
+    "keys": [
+      "アルファベット 株価"
+    ],
+    "clicks": 29,
+    "impressions": 1088,
+    "ctr": 0.02665441176470588,
+    "position": 4.115808823529411
+  },
+  {
+    "keys": [
+      "アルファベット株価"
+    ],
+    "clicks": 29,
+    "impressions": 1779,
+    "ctr": 0.016301292861157952,
+    "position": 4.634626194491288
+  },
+  {
+    "keys": [
+      "galaxy s 27"
+    ],
+    "clicks": 28,
+    "impressions": 536,
+    "ctr": 0.05223880597014925,
+    "position": 6.507462686567164
+  },
+  {
+    "keys": [
+      "one ui 9 s23"
+    ],
+    "clicks": 28,
+    "impressions": 332,
+    "ctr": 0.08433734939759036,
+    "position": 5.981927710843373
+  },
+  {
+    "keys": [
+      "samsung galaxy classic 46mm"
+    ],
+    "clicks": 28,
+    "impressions": 42,
+    "ctr": 0.6666666666666666,
+    "position": 1
+  },
+  {
+    "keys": [
+      "任天堂"
+    ],
+    "clicks": 28,
+    "impressions": 516,
+    "ctr": 0.05426356589147287,
+    "position": 5.071705426356589
+  },
+  {
+    "keys": [
+      "camera glasses"
+    ],
+    "clicks": 27,
+    "impressions": 1356,
+    "ctr": 0.01991150442477876,
+    "position": 2.4151917404129795
+  },
+  {
+    "keys": [
+      "galaxy a18"
+    ],
+    "clicks": 27,
+    "impressions": 1352,
+    "ctr": 0.019970414201183433,
+    "position": 7.775887573964497
+  },
+  {
+    "keys": [
+      "galaxy z fold9"
+    ],
+    "clicks": 27,
+    "impressions": 238,
+    "ctr": 0.1134453781512605,
+    "position": 7.147058823529412
+  },
+  {
+    "keys": [
+      "kan man filma solförmörkelsen med mobilen"
+    ],
+    "clicks": 27,
+    "impressions": 638,
+    "ctr": 0.04231974921630094,
+    "position": 8.84012539184953
+  },
+  {
+    "keys": [
+      "ポケモン赤"
+    ],
+    "clicks": 27,
+    "impressions": 339,
+    "ctr": 0.07964601769911504,
+    "position": 7.188790560471976
+  },
+  {
+    "keys": [
+      "ポケモン赤 ダウンロード スマホ"
+    ],
+    "clicks": 27,
+    "impressions": 122,
+    "ctr": 0.22131147540983606,
+    "position": 4.39344262295082
+  },
+  {
+    "keys": [
+      "garmin fenix 9 leaks"
+    ],
+    "clicks": 26,
+    "impressions": 225,
+    "ctr": 0.11555555555555555,
+    "position": 6.8533333333333335
+  },
+  {
+    "keys": [
+      "gen1recomp ポケモン"
+    ],
+    "clicks": 26,
+    "impressions": 112,
+    "ctr": 0.23214285714285715,
+    "position": 2.946428571428571
+  },
+  {
+    "keys": [
+      "google メッセージ"
+    ],
+    "clicks": 26,
+    "impressions": 104,
+    "ctr": 0.25,
+    "position": 1.4519230769230769
+  },
+  {
+    "keys": [
+      "samsung a18 5g"
+    ],
+    "clicks": 26,
+    "impressions": 1129,
+    "ctr": 0.023029229406554472,
+    "position": 7.4977856510186
+  },
+  {
+    "keys": [
+      "samsung ui 9"
+    ],
+    "clicks": 26,
+    "impressions": 347,
+    "ctr": 0.07492795389048991,
+    "position": 6.884726224783861
+  },
+  {
+    "keys": [
+      "spacex"
+    ],
+    "clicks": 26,
+    "impressions": 1441,
+    "ctr": 0.018043025676613464,
+    "position": 1.6037473976405274
+  },
+  {
+    "keys": [
+      "ポケモン赤 スマホ"
+    ],
+    "clicks": 26,
+    "impressions": 56,
+    "ctr": 0.4642857142857143,
+    "position": 2.75
+  },
+  {
+    "keys": [
+      "android 17"
+    ],
+    "clicks": 25,
+    "impressions": 1232,
+    "ctr": 0.020292207792207792,
+    "position": 6.797077922077922
+  },
+  {
+    "keys": [
+      "samsung galaxy a18 5g"
+    ],
+    "clicks": 25,
+    "impressions": 963,
+    "ctr": 0.02596053997923157,
+    "position": 7.654205607476635
+  },
+  {
+    "keys": [
+      "samsung s25 fe мнения"
+    ],
+    "clicks": 25,
+    "impressions": 160,
+    "ctr": 0.15625,
+    "position": 3.5625
+  },
+  {
+    "keys": [
+      "the last of us season 3"
+    ],
+    "clicks": 25,
+    "impressions": 1391,
+    "ctr": 0.017972681524083392,
+    "position": 4.470884255930985
+  },
+  {
+    "keys": [
+      "android auto 17.4"
+    ],
+    "clicks": 24,
+    "impressions": 590,
+    "ctr": 0.04067796610169491,
+    "position": 6.571186440677966
+  },
+  {
+    "keys": [
+      "asml"
+    ],
+    "clicks": 24,
+    "impressions": 1487,
+    "ctr": 0.01613987895090787,
+    "position": 2.905850706119704
+  },
+  {
+    "keys": [
+      "gboard"
+    ],
+    "clicks": 24,
+    "impressions": 1762,
+    "ctr": 0.01362088535754824,
+    "position": 8.593076049943246
+  },
+  {
+    "keys": [
+      "openai"
+    ],
+    "clicks": 24,
+    "impressions": 22423,
+    "ctr": 0.0010703295723141417,
+    "position": 3.144494492262409
+  },
+  {
+    "keys": [
+      "samsung android 17"
+    ],
+    "clicks": 24,
+    "impressions": 290,
+    "ctr": 0.08275862068965517,
+    "position": 7.886206896551724
+  },
+  {
+    "keys": [
+      "samsung s 27 ultra"
+    ],
+    "clicks": 24,
+    "impressions": 719,
+    "ctr": 0.03337969401947149,
+    "position": 5.892906815020862
+  },
+  {
+    "keys": [
+      "smart tag 3"
+    ],
+    "clicks": 24,
+    "impressions": 339,
+    "ctr": 0.07079646017699115,
+    "position": 6.191740412979351
+  },
+  {
+    "keys": [
+      "solförmörkelse selfie kamera"
+    ],
+    "clicks": 24,
+    "impressions": 142,
+    "ctr": 0.16901408450704225,
+    "position": 7.380281690140845
+  },
+  {
+    "keys": [
+      "z fold8"
+    ],
+    "clicks": 24,
+    "impressions": 1895,
+    "ctr": 0.012664907651715039,
+    "position": 4.893403693931399
+  },
+  {
+    "keys": [
+      "فایل های دیگر در گوشی سامسونگ کجاست"
+    ],
+    "clicks": 24,
+    "impressions": 265,
+    "ctr": 0.09056603773584905,
+    "position": 4.535849056603773
+  },
+  {
+    "keys": [
+      "ギャラクシー s27"
+    ],
+    "clicks": 24,
+    "impressions": 361,
+    "ctr": 0.0664819944598338,
+    "position": 7.462603878116344
+  },
+  {
+    "keys": [
+      "삼성 갤럭시 z 시리즈"
+    ],
+    "clicks": 24,
+    "impressions": 205,
+    "ctr": 0.11707317073170732,
+    "position": 4.146341463414634
+  },
+  {
+    "keys": [
+      "삼성 갤럭시 탭"
+    ],
+    "clicks": 24,
+    "impressions": 40,
+    "ctr": 0.6,
+    "position": 1
+  },
+  {
+    "keys": [
+      "galaxy 壁紙 公式"
+    ],
+    "clicks": 23,
+    "impressions": 163,
+    "ctr": 0.1411042944785276,
+    "position": 2.736196319018405
+  },
+  {
+    "keys": [
+      "marq gen 3"
+    ],
+    "clicks": 23,
+    "impressions": 293,
+    "ctr": 0.07849829351535836,
+    "position": 7.085324232081911
+  },
+  {
+    "keys": [
+      "one ui 9 s24 ultra"
+    ],
+    "clicks": 23,
+    "impressions": 368,
+    "ctr": 0.0625,
+    "position": 7.826086956521739
+  },
+  {
+    "keys": [
+      "pixel"
+    ],
+    "clicks": 23,
+    "impressions": 2864,
+    "ctr": 0.00803072625698324,
+    "position": 5.414455307262569
+  },
+  {
+    "keys": [
+      "samsung galaxy buds 5"
+    ],
+    "clicks": 23,
+    "impressions": 301,
+    "ctr": 0.07641196013289037,
+    "position": 5.172757475083056
+  },
+  {
+    "keys": [
+      "ポケットモンスター 赤緑 スマホ"
+    ],
+    "clicks": 23,
+    "impressions": 48,
+    "ctr": 0.4791666666666667,
+    "position": 2.354166666666667
+  },
+  {
+    "keys": [
+      "aggiornamento"
+    ],
+    "clicks": 22,
+    "impressions": 85,
+    "ctr": 0.25882352941176473,
+    "position": 1.6
+  },
+  {
+    "keys": [
+      "android wear"
+    ],
+    "clicks": 22,
+    "impressions": 52,
+    "ctr": 0.4230769230769231,
+    "position": 2.9423076923076925
+  },
+  {
+    "keys": [
+      "android ポケモン赤"
+    ],
+    "clicks": 22,
+    "impressions": 34,
+    "ctr": 0.6470588235294118,
+    "position": 1.5882352941176472
+  },
+  {
+    "keys": [
+      "garmin 22.41"
+    ],
+    "clicks": 22,
+    "impressions": 164,
+    "ctr": 0.13414634146341464,
+    "position": 5.817073170731708
+  },
+  {
+    "keys": [
+      "good lock supported devices"
+    ],
+    "clicks": 22,
+    "impressions": 139,
+    "ctr": 0.15827338129496402,
+    "position": 2.172661870503597
+  },
+  {
+    "keys": [
+      "one uı 9"
+    ],
+    "clicks": 22,
+    "impressions": 375,
+    "ctr": 0.058666666666666666,
+    "position": 5.8613333333333335
+  },
+  {
+    "keys": [
+      "s27 ultra samsung"
+    ],
+    "clicks": 22,
+    "impressions": 472,
+    "ctr": 0.046610169491525424,
+    "position": 6.2309322033898304
+  },
+  {
+    "keys": [
+      "ui 9 samsung"
+    ],
+    "clicks": 22,
+    "impressions": 491,
+    "ctr": 0.04480651731160896,
+    "position": 7.1405295315682284
+  },
+  {
+    "keys": [
+      "zatmění slunce 2026"
+    ],
+    "clicks": 22,
+    "impressions": 2423,
+    "ctr": 0.009079653322327692,
+    "position": 5.879900949236483
+  },
+  {
+    "keys": [
+      "صدای زنگ s26 ultra"
+    ],
+    "clicks": 22,
+    "impressions": 236,
+    "ctr": 0.09322033898305085,
+    "position": 8.766949152542374
+  },
+  {
+    "keys": [
+      "ポケモン赤緑 スマホ"
+    ],
+    "clicks": 22,
+    "impressions": 42,
+    "ctr": 0.5238095238095238,
+    "position": 3.142857142857143
+  },
+  {
+    "keys": [
+      "a27 vs a57"
+    ],
+    "clicks": 21,
+    "impressions": 203,
+    "ctr": 0.10344827586206896,
+    "position": 5.073891625615763
+  },
+  {
+    "keys": [
+      "galaxy tab s12+"
+    ],
+    "clicks": 21,
+    "impressions": 174,
+    "ctr": 0.1206896551724138,
+    "position": 4.408045977011494
+  },
+  {
+    "keys": [
+      "garmin fenix 9 release date"
+    ],
+    "clicks": 21,
+    "impressions": 388,
+    "ctr": 0.05412371134020619,
+    "position": 10.778350515463918
+  },
+  {
+    "keys": [
+      "samsung a26 vs a27"
+    ],
+    "clicks": 21,
+    "impressions": 286,
+    "ctr": 0.07342657342657342,
+    "position": 6.919580419580419
+  },
+  {
+    "keys": [
+      "samsung s25"
+    ],
+    "clicks": 21,
+    "impressions": 6546,
+    "ctr": 0.0032080659945004585,
+    "position": 7.990223036969142
+  },
+  {
+    "keys": [
+      "samsung tab s12 plus"
+    ],
+    "clicks": 21,
+    "impressions": 176,
+    "ctr": 0.11931818181818182,
+    "position": 7.676136363636363
+  },
+  {
+    "keys": [
+      "طلا"
+    ],
+    "clicks": 21,
+    "impressions": 6322,
+    "ctr": 0.0033217336285985446,
+    "position": 4.537171781081936
+  },
+  {
+    "keys": [
+      "วันยูไอ"
+    ],
+    "clicks": 21,
+    "impressions": 7541,
+    "ctr": 0.0027847765548335763,
+    "position": 7.983291340670998
+  },
+  {
+    "keys": [
+      "ポケモン アンドロイド"
+    ],
+    "clicks": 21,
+    "impressions": 69,
+    "ctr": 0.30434782608695654,
+    "position": 6.782608695652174
+  },
+  {
+    "keys": [
+      "ポケモン エミュレータ android 無料"
+    ],
+    "clicks": 21,
+    "impressions": 109,
+    "ctr": 0.1926605504587156,
+    "position": 3.293577981651376
+  },
+  {
+    "keys": [
+      "a18 samsung"
+    ],
+    "clicks": 20,
+    "impressions": 827,
+    "ctr": 0.02418379685610641,
+    "position": 7.824667472793228
+  },
+  {
+    "keys": [
+      "fenix 9 news"
+    ],
+    "clicks": 20,
+    "impressions": 83,
+    "ctr": 0.24096385542168675,
+    "position": 5.506024096385542
+  },
+  {
+    "keys": [
+      "fotos eclipse solar"
+    ],
+    "clicks": 20,
+    "impressions": 464,
+    "ctr": 0.04310344827586207,
+    "position": 1.1702586206896552
+  },
+  {
+    "keys": [
+      "galaxy 水平器"
+    ],
+    "clicks": 20,
+    "impressions": 25,
+    "ctr": 0.8,
+    "position": 1
+  },
+  {
+    "keys": [
+      "gemini gizli kodları"
+    ],
+    "clicks": 20,
+    "impressions": 45,
+    "ctr": 0.4444444444444444,
+    "position": 1.5777777777777777
+  },
+  {
+    "keys": [
+      "gta 6 netflix"
+    ],
+    "clicks": 20,
+    "impressions": 877,
+    "ctr": 0.02280501710376283,
+    "position": 1.2474344355758267
+  },
+  {
+    "keys": [
+      "kedi 3d google"
+    ],
+    "clicks": 20,
+    "impressions": 308,
+    "ctr": 0.06493506493506493,
+    "position": 2.4545454545454546
+  },
+  {
+    "keys": [
+      "litellm"
+    ],
+    "clicks": 20,
+    "impressions": 1753,
+    "ctr": 0.011409013120365089,
+    "position": 3.9925841414717627
+  },
+  {
+    "keys": [
+      "marq 3"
+    ],
+    "clicks": 20,
+    "impressions": 183,
+    "ctr": 0.1092896174863388,
+    "position": 7.2349726775956285
+  },
+  {
+    "keys": [
+      "one ui 9 s23 ultra"
+    ],
+    "clicks": 20,
+    "impressions": 287,
+    "ctr": 0.06968641114982578,
+    "position": 6.606271777003484
+  },
+  {
+    "keys": [
+      "open ai hardware"
+    ],
+    "clicks": 20,
+    "impressions": 151,
+    "ctr": 0.13245033112582782,
+    "position": 1.4503311258278146
+  },
+  {
+    "keys": [
+      "samsung one ui 10"
+    ],
+    "clicks": 20,
+    "impressions": 85,
+    "ctr": 0.23529411764705882,
+    "position": 4.129411764705882
+  },
+  {
+    "keys": [
+      "как включить роуминг на самсунге"
+    ],
+    "clicks": 20,
+    "impressions": 656,
+    "ctr": 0.03048780487804878,
+    "position": 2.75
+  },
+  {
+    "keys": [
+      "גלקסי s27 אולטרה"
+    ],
+    "clicks": 20,
+    "impressions": 333,
+    "ctr": 0.06006006006006006,
+    "position": 6.54954954954955
+  },
+  {
+    "keys": [
+      "日食"
+    ],
+    "clicks": 20,
+    "impressions": 944,
+    "ctr": 0.0211864406779661,
+    "position": 1.2521186440677967
+  },
+  {
+    "keys": [
+      "anbernic"
+    ],
+    "clicks": 19,
+    "impressions": 539,
+    "ctr": 0.03525046382189239,
+    "position": 7.641929499072356
+  },
+  {
+    "keys": [
+      "ds エミュレータ"
+    ],
+    "clicks": 19,
+    "impressions": 223,
+    "ctr": 0.08520179372197309,
+    "position": 4.147982062780269
+  },
+  {
+    "keys": [
+      "falcon 9"
+    ],
+    "clicks": 19,
+    "impressions": 415,
+    "ctr": 0.04578313253012048,
+    "position": 3.180722891566265
+  },
+  {
+    "keys": [
+      "fotografar eclipse"
+    ],
+    "clicks": 19,
+    "impressions": 73,
+    "ctr": 0.2602739726027397,
+    "position": 1
+  },
+  {
+    "keys": [
+      "gofullpage - full page screen capture 安全性"
+    ],
+    "clicks": 19,
+    "impressions": 92,
+    "ctr": 0.20652173913043478,
+    "position": 8.923913043478262
+  },
+  {
+    "keys": [
+      "incarcator samsung s26 ultra"
+    ],
+    "clicks": 19,
+    "impressions": 254,
+    "ctr": 0.07480314960629922,
+    "position": 5.858267716535433
+  },
+  {
+    "keys": [
+      "one ui 9 s25"
+    ],
+    "clicks": 19,
+    "impressions": 321,
+    "ctr": 0.059190031152647975,
+    "position": 6.707165109034268
+  },
+  {
+    "keys": [
+      "one ui 9 samsung"
+    ],
+    "clicks": 19,
+    "impressions": 666,
+    "ctr": 0.028528528528528527,
+    "position": 6.944444444444445
+  },
+  {
+    "keys": [
+      "oneui 9"
+    ],
+    "clicks": 19,
+    "impressions": 624,
+    "ctr": 0.030448717948717948,
+    "position": 8.304487179487179
+  },
+  {
+    "keys": [
+      "s 27 ultra"
+    ],
+    "clicks": 19,
+    "impressions": 397,
+    "ctr": 0.04785894206549118,
+    "position": 6.045340050377834
+  },
+  {
+    "keys": [
+      "s27 pro samsung"
+    ],
+    "clicks": 19,
+    "impressions": 175,
+    "ctr": 0.10857142857142857,
+    "position": 6.68
+  },
+  {
+    "keys": [
+      "samsung galaxy watch4"
+    ],
+    "clicks": 19,
+    "impressions": 180,
+    "ctr": 0.10555555555555556,
+    "position": 10.488888888888889
+  },
+  {
+    "keys": [
+      "samsung galaxy watch9"
+    ],
+    "clicks": 19,
+    "impressions": 605,
+    "ctr": 0.03140495867768595,
+    "position": 8.10909090909091
+  },
+  {
+    "keys": [
+      "samsungmagazine.eu"
+    ],
+    "clicks": 19,
+    "impressions": 25,
+    "ctr": 0.76,
+    "position": 1
+  },
+  {
+    "keys": [
+      "ui9"
+    ],
+    "clicks": 19,
+    "impressions": 378,
+    "ctr": 0.05026455026455026,
+    "position": 7.8121693121693125
+  },
+  {
+    "keys": [
+      "zonsverduistering 2026"
+    ],
+    "clicks": 19,
+    "impressions": 1043,
+    "ctr": 0.01821668264621285,
+    "position": 2.261744966442953
+  },
+  {
+    "keys": [
+      "الشمس"
+    ],
+    "clicks": 19,
+    "impressions": 839,
+    "ctr": 0.02264600715137068,
+    "position": 2.0536352800953517
+  },
+  {
+    "keys": [
+      "ซัมซุง กาแล็กซี่"
+    ],
+    "clicks": 19,
+    "impressions": 1159,
+    "ctr": 0.01639344262295082,
+    "position": 8.483175150992235
+  },
+  {
+    "keys": [
+      "ガーミンフェニックス9"
+    ],
+    "clicks": 19,
+    "impressions": 264,
+    "ctr": 0.07196969696969698,
+    "position": 7.428030303030303
+  },
+  {
+    "keys": [
+      "android marshmallow"
+    ],
+    "clicks": 18,
+    "impressions": 2324,
+    "ctr": 0.00774526678141136,
+    "position": 7.066695352839931
+  },
+  {
+    "keys": [
+      "androidauto youtube"
+    ],
+    "clicks": 18,
+    "impressions": 86,
+    "ctr": 0.20930232558139536,
+    "position": 6.488372093023256
+  },
+  {
+    "keys": [
+      "cirqa smart band レビュー"
+    ],
+    "clicks": 18,
+    "impressions": 66,
+    "ctr": 0.2727272727272727,
+    "position": 8.181818181818182
+  },
+  {
+    "keys": [
+      "displej"
+    ],
+    "clicks": 18,
+    "impressions": 147,
+    "ctr": 0.12244897959183673,
+    "position": 6.73469387755102
+  },
+  {
+    "keys": [
+      "fenix 8 22.41"
+    ],
+    "clicks": 18,
+    "impressions": 111,
+    "ctr": 0.16216216216216217,
+    "position": 5.027027027027027
+  },
+  {
+    "keys": [
+      "fotografera solförmörkelse"
+    ],
+    "clicks": 18,
+    "impressions": 213,
+    "ctr": 0.08450704225352113,
+    "position": 8.018779342723004
+  },
+  {
+    "keys": [
+      "galaxy watch ultra vs ultra 2"
+    ],
+    "clicks": 18,
+    "impressions": 199,
+    "ctr": 0.09045226130653267,
+    "position": 5.864321608040201
+  },
+  {
+    "keys": [
+      "nastaveni fotoaparatu samsung"
+    ],
+    "clicks": 18,
+    "impressions": 39,
+    "ctr": 0.46153846153846156,
+    "position": 3.6923076923076925
+  },
+  {
+    "keys": [
+      "pixel watch 5 vs galaxy watch 9"
+    ],
+    "clicks": 18,
+    "impressions": 126,
+    "ctr": 0.14285714285714285,
+    "position": 5.2936507936507935
+  },
+  {
+    "keys": [
+      "pokemon rojo 3d"
+    ],
+    "clicks": 18,
+    "impressions": 406,
+    "ctr": 0.04433497536945813,
+    "position": 6.783251231527093
+  },
+  {
+    "keys": [
+      "s23 one ui 9"
+    ],
+    "clicks": 18,
+    "impressions": 226,
+    "ctr": 0.07964601769911504,
+    "position": 6.672566371681416
+  },
+  {
+    "keys": [
+      "samsung a58"
+    ],
+    "clicks": 18,
+    "impressions": 493,
+    "ctr": 0.036511156186612576,
+    "position": 4.547667342799189
+  },
+  {
+    "keys": [
+      "samsung buds 5"
+    ],
+    "clicks": 18,
+    "impressions": 483,
+    "ctr": 0.037267080745341616,
+    "position": 5.892339544513457
+  },
+  {
+    "keys": [
+      "samsung s 26 fe"
+    ],
+    "clicks": 18,
+    "impressions": 263,
+    "ctr": 0.06844106463878327,
+    "position": 5.802281368821292
+  },
+  {
+    "keys": [
+      "vivosmart6"
+    ],
+    "clicks": 18,
+    "impressions": 218,
+    "ctr": 0.08256880733944955,
+    "position": 3.110091743119266
+  },
+  {
+    "keys": [
+      "zatmění slunce 12. srpna 2026"
+    ],
+    "clicks": 18,
+    "impressions": 192,
+    "ctr": 0.09375,
+    "position": 5.041666666666667
+  },
+  {
+    "keys": [
+      "안드로이드오토 유튜브"
+    ],
+    "clicks": 18,
+    "impressions": 100,
+    "ctr": 0.18,
+    "position": 5.88
+  },
+  {
+    "keys": [
+      "폴드8 배경화면"
+    ],
+    "clicks": 18,
+    "impressions": 405,
+    "ctr": 0.044444444444444446,
+    "position": 15.582716049382716
+  },
+  {
+    "keys": [
+      "galaxy buds able"
+    ],
+    "clicks": 17,
+    "impressions": 320,
+    "ctr": 0.053125,
+    "position": 7.175
+  },
+  {
+    "keys": [
+      "galaxy buds5"
+    ],
+    "clicks": 17,
+    "impressions": 79,
+    "ctr": 0.21518987341772153,
+    "position": 4.215189873417721
+  },
+  {
+    "keys": [
+      "galaxy s 27 ultra"
+    ],
+    "clicks": 17,
+    "impressions": 285,
+    "ctr": 0.05964912280701754,
+    "position": 6.5017543859649125
+  },
+  {
+    "keys": [
+      "galaxy s27 リーク"
+    ],
+    "clicks": 17,
+    "impressions": 240,
+    "ctr": 0.07083333333333333,
+    "position": 7.241666666666666
+  },
+  {
+    "keys": [
+      "garmin 9 fenix"
+    ],
+    "clicks": 17,
+    "impressions": 227,
+    "ctr": 0.07488986784140969,
+    "position": 7.933920704845815
+  },
+  {
+    "keys": [
+      "gofullpage 使えなくなった"
+    ],
+    "clicks": 17,
+    "impressions": 103,
+    "ctr": 0.1650485436893204,
+    "position": 2.9902912621359223
+  },
+  {
+    "keys": [
+      "goldpreis"
+    ],
+    "clicks": 17,
+    "impressions": 248,
+    "ctr": 0.06854838709677419,
+    "position": 3.6129032258064515
+  },
+  {
+    "keys": [
+      "google fotos"
+    ],
+    "clicks": 17,
+    "impressions": 5170,
+    "ctr": 0.0032882011605415862,
+    "position": 7.840812379110251
+  },
+  {
+    "keys": [
+      "google 株価"
+    ],
+    "clicks": 17,
+    "impressions": 659,
+    "ctr": 0.025796661608497723,
+    "position": 4.685887708649469
+  },
+  {
+    "keys": [
+      "hayden panettiere movies and shows"
+    ],
+    "clicks": 17,
+    "impressions": 8848,
+    "ctr": 0.0019213381555153706,
+    "position": 4.961573236889693
+  },
+  {
+    "keys": [
+      "nasa solförmörkelse"
+    ],
+    "clicks": 17,
+    "impressions": 871,
+    "ctr": 0.01951779563719862,
+    "position": 8.299655568312286
+  },
+  {
+    "keys": [
+      "one ui 9 s26"
+    ],
+    "clicks": 17,
+    "impressions": 248,
+    "ctr": 0.06854838709677419,
+    "position": 6.866935483870968
+  },
+  {
+    "keys": [
+      "představení pixel 11"
+    ],
+    "clicks": 17,
+    "impressions": 34,
+    "ctr": 0.5,
+    "position": 2.9411764705882355
+  },
+  {
+    "keys": [
+      "samsung a36 vs a37"
+    ],
+    "clicks": 17,
+    "impressions": 274,
+    "ctr": 0.06204379562043796,
+    "position": 6.102189781021898
+  },
+  {
+    "keys": [
+      "samsung foldables spider-man movie"
+    ],
+    "clicks": 17,
+    "impressions": 139,
+    "ctr": 0.1223021582733813,
+    "position": 1
+  },
+  {
+    "keys": [
+      "samsung galaxy note 8"
+    ],
+    "clicks": 17,
+    "impressions": 1976,
+    "ctr": 0.00860323886639676,
+    "position": 9.743927125506072
+  },
+  {
+    "keys": [
+      "samsung galaxy s25+ 5g 12gb/512gb"
+    ],
+    "clicks": 17,
+    "impressions": 26,
+    "ctr": 0.6538461538461539,
+    "position": 1
+  },
+  {
+    "keys": [
+      "samsung galaxy s26 シルバーシャドウ"
+    ],
+    "clicks": 17,
+    "impressions": 28,
+    "ctr": 0.6071428571428571,
+    "position": 1
+  },
+  {
+    "keys": [
+      "samsungアプリ 削除していいもの"
+    ],
+    "clicks": 17,
+    "impressions": 133,
+    "ctr": 0.12781954887218044,
+    "position": 4.481203007518797
+  },
+  {
+    "keys": [
+      "تغییر نام عکس در گوشی سامسونگ"
+    ],
+    "clicks": 17,
+    "impressions": 23,
+    "ctr": 0.7391304347826086,
+    "position": 1.1304347826086956
+  },
+  {
+    "keys": [
+      "خلفيات s26 ultra 4k"
+    ],
+    "clicks": 17,
+    "impressions": 304,
+    "ctr": 0.05592105263157895,
+    "position": 2.513157894736842
+  },
+  {
+    "keys": [
+      "ガーミン vivosmart 6"
+    ],
+    "clicks": 17,
+    "impressions": 154,
+    "ctr": 0.11038961038961038,
+    "position": 6.181818181818182
+  },
+  {
+    "keys": [
+      "ポケモン 赤"
+    ],
+    "clicks": 17,
+    "impressions": 214,
+    "ctr": 0.0794392523364486,
+    "position": 7.0607476635514015
+  },
+  {
+    "keys": [
+      "가민 피닉스 9"
+    ],
+    "clicks": 17,
+    "impressions": 185,
+    "ctr": 0.0918918918918919,
+    "position": 6.616216216216216
+  },
+  {
+    "keys": [
+      "포켓몬스터 레드"
+    ],
+    "clicks": 17,
+    "impressions": 318,
+    "ctr": 0.05345911949685535,
+    "position": 6.933962264150943
+  },
+  {
+    "keys": [
+      "berkshire hathaway"
+    ],
+    "clicks": 16,
+    "impressions": 374,
+    "ctr": 0.0427807486631016,
+    "position": 3.7967914438502675
+  },
+  {
+    "keys": [
+      "elon musk"
+    ],
+    "clicks": 16,
+    "impressions": 1170,
+    "ctr": 0.013675213675213675,
+    "position": 3.5367521367521366
+  },
+  {
+    "keys": [
+      "enduro4"
+    ],
+    "clicks": 16,
+    "impressions": 358,
+    "ctr": 0.0446927374301676,
+    "position": 5.173184357541899
+  },
+  {
+    "keys": [
+      "galaxy a26 vs a27"
+    ],
+    "clicks": 16,
+    "impressions": 76,
+    "ctr": 0.21052631578947367,
+    "position": 6.0131578947368425
+  },
+  {
+    "keys": [
+      "galaxy ギャラリーラボ"
+    ],
+    "clicks": 16,
+    "impressions": 38,
+    "ctr": 0.42105263157894735,
+    "position": 3.3684210526315788
+  },
+  {
+    "keys": [
+      "isocell hpc"
+    ],
+    "clicks": 16,
+    "impressions": 424,
+    "ctr": 0.03773584905660377,
+    "position": 4.40566037735849
+  },
+  {
+    "keys": [
+      "odissea netflix"
+    ],
+    "clicks": 16,
+    "impressions": 570,
+    "ctr": 0.028070175438596492,
+    "position": 7.066666666666666
+  },
+  {
+    "keys": [
+      "oneui9"
+    ],
+    "clicks": 16,
+    "impressions": 733,
+    "ctr": 0.021828103683492497,
+    "position": 8.180081855388813
+  },
+  {
+    "keys": [
+      "pixel 11 wallpaper"
+    ],
+    "clicks": 16,
+    "impressions": 439,
+    "ctr": 0.03644646924829157,
+    "position": 5.712984054669704
+  },
+  {
+    "keys": [
+      "pokemon"
+    ],
+    "clicks": 16,
+    "impressions": 804,
+    "ctr": 0.01990049751243781,
+    "position": 5.36318407960199
+  },
+  {
+    "keys": [
+      "samsung galaxy s 27 ultra"
+    ],
+    "clicks": 16,
+    "impressions": 336,
+    "ctr": 0.047619047619047616,
+    "position": 6.211309523809524
+  },
+  {
+    "keys": [
+      "samsung galaxy tab s12 plus"
+    ],
+    "clicks": 16,
+    "impressions": 159,
+    "ctr": 0.10062893081761007,
+    "position": 7.40251572327044
+  },
+  {
+    "keys": [
+      "samsung galaxy xcover 6 pro 6gb/128gb"
+    ],
+    "clicks": 16,
+    "impressions": 50,
+    "ctr": 0.32,
+    "position": 1.3599999999999999
+  },
+  {
+    "keys": [
+      "sluchátka"
+    ],
+    "clicks": 16,
+    "impressions": 251,
+    "ctr": 0.06374501992031872,
+    "position": 12.900398406374501
+  },
+  {
+    "keys": [
+      "solförmörkelse genom mobilen"
+    ],
+    "clicks": 16,
+    "impressions": 248,
+    "ctr": 0.06451612903225806,
+    "position": 8.689516129032258
+  },
+  {
+    "keys": [
+      "tab s12 plus"
+    ],
+    "clicks": 16,
+    "impressions": 121,
+    "ctr": 0.1322314049586777,
+    "position": 6.785123966942149
+  },
+  {
+    "keys": [
+      "סמסונג גלקסי באדס"
+    ],
+    "clicks": 16,
+    "impressions": 545,
+    "ctr": 0.029357798165137616,
+    "position": 5.944954128440367
+  },
+  {
+    "keys": [
+      "زنگ موبایل سامسونگ s26 جدید galaxy bells"
+    ],
+    "clicks": 16,
+    "impressions": 35,
+    "ctr": 0.45714285714285713,
+    "position": 2.8857142857142857
+  },
+  {
+    "keys": [
+      "एक्सिनोस"
+    ],
+    "clicks": 16,
+    "impressions": 7714,
+    "ctr": 0.002074150894477573,
+    "position": 8.983536427275084
+  },
+  {
+    "keys": [
+      "フェニックス9"
+    ],
+    "clicks": 16,
+    "impressions": 141,
+    "ctr": 0.11347517730496454,
+    "position": 7.198581560283688
+  },
+  {
+    "keys": [
+      "ポケモン 赤 スマホ"
+    ],
+    "clicks": 16,
+    "impressions": 29,
+    "ctr": 0.5517241379310345,
+    "position": 3
+  },
+  {
+    "keys": [
+      "포켓몬스터 안드로이드"
+    ],
+    "clicks": 16,
+    "impressions": 25,
+    "ctr": 0.64,
+    "position": 2.8
+  },
+  {
+    "keys": [
+      "a26 vs a27"
+    ],
+    "clicks": 15,
+    "impressions": 239,
+    "ctr": 0.06276150627615062,
+    "position": 6.941422594142259
+  },
+  {
+    "keys": [
+      "android 17 galaxy"
+    ],
+    "clicks": 15,
+    "impressions": 182,
+    "ctr": 0.08241758241758242,
+    "position": 4.906593406593407
+  },
+  {
+    "keys": [
+      "android auto 17.3"
+    ],
+    "clicks": 15,
+    "impressions": 155,
+    "ctr": 0.0967741935483871,
+    "position": 6.7935483870967746
+  },
+  {
+    "keys": [
+      "enduro 4 garmin"
+    ],
+    "clicks": 15,
+    "impressions": 413,
+    "ctr": 0.03631961259079903,
+    "position": 8.092009685230025
+  },
+  {
+    "keys": [
+      "fond d'écran iphone 17 pro max"
+    ],
+    "clicks": 15,
+    "impressions": 571,
+    "ctr": 0.02626970227670753,
+    "position": 1.0490367775831875
+  },
+  {
+    "keys": [
+      "galaxy smarttag 3"
+    ],
+    "clicks": 15,
+    "impressions": 165,
+    "ctr": 0.09090909090909091,
+    "position": 5.16969696969697
+  },
+  {
+    "keys": [
+      "galaxy watch 9"
+    ],
+    "clicks": 15,
+    "impressions": 422,
+    "ctr": 0.035545023696682464,
+    "position": 9.77962085308057
+  },
+  {
+    "keys": [
+      "galaxy z fold8 ultra レビュー"
+    ],
+    "clicks": 15,
+    "impressions": 83,
+    "ctr": 0.18072289156626506,
+    "position": 13.385542168674698
+  },
+  {
+    "keys": [
+      "garmin fenix 9 kdy vyjdou"
+    ],
+    "clicks": 15,
+    "impressions": 278,
+    "ctr": 0.0539568345323741,
+    "position": 3.827338129496403
+  },
+  {
+    "keys": [
+      "garmin スマートリング"
+    ],
+    "clicks": 15,
+    "impressions": 54,
+    "ctr": 0.2777777777777778,
+    "position": 4.925925925925926
+  },
+  {
+    "keys": [
+      "google maps"
+    ],
+    "clicks": 15,
+    "impressions": 31130,
+    "ctr": 0.0004818503051718599,
+    "position": 4.348088660456152
+  },
+  {
+    "keys": [
+      "google pixel 11 pro xl"
+    ],
+    "clicks": 15,
+    "impressions": 1128,
+    "ctr": 0.013297872340425532,
+    "position": 1.8581560283687943
+  },
+  {
+    "keys": [
+      "google play store"
+    ],
+    "clicks": 15,
+    "impressions": 21508,
+    "ctr": 0.0006974149153803236,
+    "position": 6.729867956109355
+  },
+  {
+    "keys": [
+      "jak vyfotit zatmeni slunce"
+    ],
+    "clicks": 15,
+    "impressions": 1499,
+    "ctr": 0.01000667111407605,
+    "position": 5.741827885256838
+  },
+  {
+    "keys": [
+      "one ui watch 9"
+    ],
+    "clicks": 15,
+    "impressions": 162,
+    "ctr": 0.09259259259259259,
+    "position": 6.709876543209877
+  },
+  {
+    "keys": [
+      "prikaz ulice google maps"
+    ],
+    "clicks": 15,
+    "impressions": 3852,
+    "ctr": 0.003894080996884735,
+    "position": 5.425752855659398
+  },
+  {
+    "keys": [
+      "s12 ultra"
+    ],
+    "clicks": 15,
+    "impressions": 330,
+    "ctr": 0.045454545454545456,
+    "position": 5.087878787878788
+  },
+  {
+    "keys": [
+      "samsung uwb"
+    ],
+    "clicks": 15,
+    "impressions": 118,
+    "ctr": 0.1271186440677966,
+    "position": 4.73728813559322
+  },
+  {
+    "keys": [
+      "saules aptumsums"
+    ],
+    "clicks": 15,
+    "impressions": 262,
+    "ctr": 0.05725190839694656,
+    "position": 1.1946564885496183
+  },
+  {
+    "keys": [
+      "smarttag 3"
+    ],
+    "clicks": 15,
+    "impressions": 244,
+    "ctr": 0.06147540983606557,
+    "position": 6.172131147540983
+  },
+  {
+    "keys": [
+      "tečka"
+    ],
+    "clicks": 15,
+    "impressions": 22,
+    "ctr": 0.6818181818181818,
+    "position": 1
+  },
+  {
+    "keys": [
+      "vivosmart 6 いつ"
+    ],
+    "clicks": 15,
+    "impressions": 180,
+    "ctr": 0.08333333333333333,
+    "position": 5
+  },
+  {
+    "keys": [
+      "גרמין פניקס 9"
+    ],
+    "clicks": 15,
+    "impressions": 101,
+    "ctr": 0.1485148514851485,
+    "position": 4.00990099009901
+  },
+  {
+    "keys": [
+      "ガーミン エンデューロ 4"
+    ],
+    "clicks": 15,
+    "impressions": 220,
+    "ctr": 0.06818181818181818,
+    "position": 5.209090909090909
+  },
+  {
+    "keys": [
+      "ナスダック"
+    ],
+    "clicks": 15,
+    "impressions": 348,
+    "ctr": 0.04310344827586207,
+    "position": 3.3706896551724137
+  },
+  {
+    "keys": [
+      "ポケモン エミュレータ android"
+    ],
+    "clicks": 15,
+    "impressions": 32,
+    "ctr": 0.46875,
+    "position": 3.59375
+  },
+  {
+    "keys": [
+      "ポケモン 赤 緑 スマホ"
+    ],
+    "clicks": 15,
+    "impressions": 34,
+    "ctr": 0.4411764705882353,
+    "position": 3.1470588235294117
+  },
+  {
+    "keys": [
+      "ポケモン 赤緑"
+    ],
+    "clicks": 15,
+    "impressions": 123,
+    "ctr": 0.12195121951219512,
+    "position": 3.6747967479674797
+  },
+  {
+    "keys": [
+      "안드로이드 포켓몬"
+    ],
+    "clicks": 15,
+    "impressions": 39,
+    "ctr": 0.38461538461538464,
+    "position": 3.871794871794872
+  },
+  {
+    "keys": [
+      "포켓몬 안드로이드"
+    ],
+    "clicks": 15,
+    "impressions": 27,
+    "ctr": 0.5555555555555556,
+    "position": 1.8148148148148149
+  },
+  {
+    "keys": [
+      "aptoide"
+    ],
+    "clicks": 14,
+    "impressions": 9672,
+    "ctr": 0.0014474772539288668,
+    "position": 6.10990488006617
+  }
+]

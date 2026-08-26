@@ -1,0 +1,1108 @@
+{
+  "checked_at": "2026-08-26T08:48:00",
+  "sites": {
+    "LSA": [
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/novy-m6-je-vubec-prvni-2nm-apple-cip-prinasi-obrovsky-skok-hlavne-v-ai/",
+            "date": "2026-08-25T14:32:29.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-po-peti-letech-predstavil-novy-cistici-hadrik-a-tentokrat-za-nej-chce-vyrazne-mene/",
+            "date": "2026-08-25T14:04:37.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple právě představil nový Mac mini. S M6 nabídne až 4× vyšší AI výkon",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-prave-predstavil-novy-mac-mini-s-m6-nabidne-az-4x-vyssi-ai-vykon/",
+            "date": "2026-08-25T13:12:32.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-01",
+        "query": "mac mini m6",
+        "title": "Mac mini s M6: co Apple skutečně změnil a komu se vyplatí"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/novy-m5-ultra-je-dosud-nejvykonnejsi-apple-cip-zvladne-az-512-gb-ram/",
+            "date": "2026-08-25T15:06:53.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-po-peti-letech-predstavil-novy-cistici-hadrik-a-tentokrat-za-nej-chce-vyrazne-mene/",
+            "date": "2026-08-25T14:04:37.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple právě ukázal nový Mac Studio. S M5 Ultra míří na profesionály a AI",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/mac-studio-m5-ultra/",
+            "date": "2026-08-25T13:18:33.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-02",
+        "query": "mac studio m5 ultra",
+        "title": "Mac Studio s M5 Max a M5 Ultra: tichý upgrade pro profesionály"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "LSA-03",
+        "query": "m6 m5 ultra ai compute",
+        "title": "M6 a M5 Ultra: proč Apple tlačí AI výkon do Maců"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-uz-brzy-rozesle-pozvanky-na-nejvetsi-keynote-roku-iphone-18-pro-dorazi-v-tento-den/",
+            "date": "2026-08-25T10:02:49.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Unikla krabička iPhone 18 Pro Max. Apple na ní odhaluje největší novinku fotoaparátu",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/21/unikla-krabicka-iphone-18-pro-max-apple-na-ni-odhaluje-nejvetsi-novinku-fotoaparatu/",
+            "date": "2026-08-21T12:32:20.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Google chce předběhnout Apple. Pixel 11 ukáže ještě před iPhonem 18",
+            "url": "https://www.letemsvetemapplem.eu/2026/07/08/made-by-google-2026/",
+            "date": "2026-07-08T07:03:16.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-04",
+        "query": "jak sledovat apple keynote",
+        "title": "Jak sledovat Apple Keynote 9. září v Česku"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/",
+            "date": "2026-08-25T18:02:53.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-uz-brzy-rozesle-pozvanky-na-nejvetsi-keynote-roku-iphone-18-pro-dorazi-v-tento-den/",
+            "date": "2026-08-25T10:02:49.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/nejen-iphone-18-pro-a-ultra-apple-v-zari-predstavi-i-nove-airpods-5/",
+            "date": "2026-08-25T09:02:07.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-05",
+        "query": "iphone 18 pro",
+        "title": "iPhone 18 Pro: co víme, co jsou úniky a co neříkat jako fakt"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/",
+            "date": "2026-08-25T18:02:53.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-po-peti-letech-predstavil-novy-cistici-hadrik-a-tentokrat-za-nej-chce-vyrazne-mene/",
+            "date": "2026-08-25T14:04:37.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple Watch Ultra 3 chystají satelitní revoluci. Co přinese zářijový update?",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-ultra-3-update/",
+            "date": "2026-08-25T11:04:48.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-06",
+        "query": "iphone ultra",
+        "title": "iPhone Ultra: proč skládací iPhone táhne Discover"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple Maps zaplaví reklamy a to už letos v létě!",
+            "url": "https://www.letemsvetemapplem.eu/2026/03/24/apple-maps-zaplavi-reklamy-a-to-uz-letos-v-lete/",
+            "date": "2026-03-24T11:04:16.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU",
+            "url": "https://www.letemsvetemapplem.eu/2026/02/09/apple-muze-slavit-apple-maps-i-apple-ads-vyvazly-regulaci-ze-strany-eu/",
+            "date": "2026-02-09T14:00:40.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple začne v App Store od března 2026 zobrazovat více reklam a změní způsob, jak hledáme aplikace",
+            "url": "https://www.letemsvetemapplem.eu/2026/01/23/apple-zacne-v-app-store-od-brezna-2026-zobrazovat-vice-reklam-a-zmeni-zpusob-jak-hledame-aplikace/",
+            "date": "2026-01-23T20:00:28.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-07",
+        "query": "apple maps ads reklamy",
+        "title": "Apple Maps reklamy jsou živé: kde se zobrazí a proč nejdou vypnout"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 2,
+        "matches": [
+          {
+            "title": "ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesílat",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/21/chatgpt-dostal-na-mac-pristup-k-imessage-umi-zpravy-cist-analyzovat-je-i-odesilat/",
+            "date": "2026-08-21T09:06:01.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit",
+            "url": "https://www.letemsvetemapplem.eu/2024/03/24/ios-18-mozne-datum-vydani-nove-funkce-podporovana-zarizeni-a-na-co-dalsiho-se-muzeme-tesit/",
+            "date": "2024-03-23T23:01:16.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-08",
+        "query": "chatgpt imessage mac",
+        "title": "ChatGPT na Macu a iMessage: co je reálně možné a kde jsou rizika"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako originál a ukrývat herní překvapení",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/24/lego-playstation-1-bude-poradna-nostalgicka-pecka-ma-byt-stejne-velky-jako-original-a-ukryvat-herni-prekvapeni/",
+            "date": "2026-08-24T16:03:55.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "LEGO a Sony chystají senzaci. Vedle stavebnicového PlayStationu dorazí i legendární Astro Bot a bude zdarma",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/04/lego-a-sony-chystaji-senzaci-vedle-stavebnicoveho-playstationu-dorazi-i-legendarni-astro-bot-a-bude-zdarma/",
+            "date": "2026-08-04T16:03:20.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "LEGO prý chystá PlayStation 1, legendární konzole by mohla dorazit už letos na Vánoce",
+            "url": "https://www.letemsvetemapplem.eu/2026/03/16/lego-72306-playstation-1/",
+            "date": "2026-03-16T19:04:25.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-09",
+        "query": "lego playstation 1",
+        "title": "LEGO PlayStation 1 a proč LEGO teď funguje na LSA"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Apple ho brzy zatrhne",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/22/tajny-trik-jak-na-icloudu-ziskat-neomezene-uloziste-pro-vase-fotky-zdarma-apple-ho-brzy-zatrhne/",
+            "date": "2026-08-21T22:01:17.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplatí vědět",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/21/apple-vam-v-ios-27-vezme-dalsi-misto-na-icloudu-tohle-se-vyplati-vedet/",
+            "date": "2026-08-21T18:04:42.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Co je NAS a proč může být lepší volbou než cloud",
+            "url": "https://www.letemsvetemapplem.eu/2026/06/27/co-je-nas-a-proc-muze-byt-lepsi-volbou-nez-cloud/",
+            "date": "2026-06-27T11:01:02.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-10",
+        "query": "icloud uloziste fotky",
+        "title": "iCloud trik na fotky: co ještě funguje a co Apple brzy utne"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/20/carplay-se-v-ios-27-poradne-meni-apple-prida-funkce-ktere-jsme-chteli-roky/",
+            "date": "2026-08-20T18:05:45.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/09/apple-carplay-dostane-v-ios-27-dve-nove-funkce-ktere-potesi-miliony-ridicu/",
+            "date": "2026-08-09T14:06:52.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple odhalil všechny novinky pro CarPlay v iOS 27. Tohle jsou funkce, které ocení prakticky každý řidič",
+            "url": "https://www.letemsvetemapplem.eu/2026/07/10/apple-odhalil-vsechny-novinky-pro-carplay-v-ios-27-tohle-jsou-funkce-ktere-oceni-prakticky-kazdy-ridic/",
+            "date": "2026-07-10T18:04:24.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-11",
+        "query": "carplay ios 27",
+        "title": "CarPlay v iOS 27: změny, které řidiči uvidí jako první"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/",
+            "date": "2026-08-25T18:02:53.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-uz-brzy-rozesle-pozvanky-na-nejvetsi-keynote-roku-iphone-18-pro-dorazi-v-tento-den/",
+            "date": "2026-08-25T10:02:49.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple Watch se vrací k luxusu. Apple má letos znovu nabídnout keramickou verzi",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/21/apple-watch-se-vraci-k-luxusu-apple-ma-letos-znovu-nabidnout-keramickou-verzi/",
+            "date": "2026-08-21T07:04:02.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-12",
+        "query": "apple watch 12",
+        "title": "Apple Watch 12: šest očekávání před keynote, jasně oddělená od faktů"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/25/nejen-iphone-18-pro-a-ultra-apple-v-zari-predstavi-i-nove-airpods-5/",
+            "date": "2026-08-25T09:02:07.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/23/recenze-fixed-zen-10-loop-10-000-mah-30-w-a-dost-energie-i-pro-macbook-air/",
+            "date": "2026-08-23T10:03:56.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple omylem prozradil AirPods 5. Nová generace dorazí ve dvou verzích",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/18/apple-omylem-prozradil-airpods-5-nova-generace-dorazi-ve-dvou-verzich/",
+            "date": "2026-08-18T13:06:28.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-13",
+        "query": "airpods 5",
+        "title": "AirPods 5 před zářím: co dává smysl čekat a co je jen rumor"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone budoucnosti",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/20/apple-chysta-neco-opravdu-velkeho-nove-uniky-ukazuji-jak-muze-vypadat-iphone-budoucnosti/",
+            "date": "2026-08-20T06:04:06.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Bloomberg: Revoluční iPhone 20 není zrušen, bude ale vypadat jinak než původně měl",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/11/bloomberg-revolucni-iphone-20-neni-zrusen-bude-ale-vypadat-jinak-nez-puvodne-mel/",
+            "date": "2026-08-11T10:05:49.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Revoluční iPhone 20 příští rok prý nedorazí! Apple měl zrušit jeho vývoj",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/10/revolucni-iphone-20-pristi-rok-pry-nedorazi-apple-mel-zrusit-jeho-vyvoj/",
+            "date": "2026-08-10T20:03:16.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-14",
+        "query": "iphone 20 design",
+        "title": "iPhone 20 design: proč už teď zajímá čtenáře víc než by měl"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějších funkcí",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/19/s-novou-apple-tv-dorazi-i-vylepseny-ovladac-tohle-je-jedna-z-jeho-nejzadanejsich-funkci/",
+            "date": "2026-08-19T20:03:57.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri i přepracovaný ovladač",
+            "url": "https://www.letemsvetemapplem.eu/2026/06/24/cekani-konci-nova-apple-tv-4k-dorazi-na-podzim-a-prinese-chytrejsi-siri-i-prepracovany-ovladac/",
+            "date": "2026-06-23T22:02:06.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple chystá podzimní novinky. Konečně dorazí nová Apple TV i HomePod mini",
+            "url": "https://www.letemsvetemapplem.eu/2026/06/02/apple-chysta-podzimni-novinky-konecne-dorazi-nova-apple-tv-i-homepod-mini/",
+            "date": "2026-06-02T04:06:11.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-15",
+        "query": "apple tv 4k siri remote",
+        "title": "Nová Apple TV 4K a Siri Remote: malý update, velký dopad v obýváku"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "LSA-16",
+        "query": "apple european union apps changes",
+        "title": "Apple mění pravidla pro aplikace v EU: co to znamená pro majitele iPhonů"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Kompetní historie Apple iPhone: jak vznikal hudební přehrávač, telefon a internetový prohlížeč v jednom",
+            "url": "https://www.letemsvetemapplem.eu/2013/01/08/kompletna-historia-telefonu-iphone-ipod-telefon-internetovy-prehliadac/",
+            "date": "2013-01-07T23:04:15.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-17",
+        "query": "wifi 7 apple devices",
+        "title": "Která Apple zařízení už mají plnou podporu Wi-Fi 7"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "LSA-18",
+        "query": "benq iscreenbar imac",
+        "title": "BenQ iScreenBar pro iMac: doplněk, který Apple nikdy neudělal"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě až 60 W",
+            "url": "https://www.letemsvetemapplem.eu/2026/08/26/apple-konecne-privezl-do-evropy-svou-supernabijecku-pro-iphone-umi-kratkodobe-az-60-w/",
+            "date": "2026-08-26T05:52:52.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "iPad Pro M5 v prvních recenzích! Jaký je nejvýkonnější tablet současnosti v reálu?",
+            "url": "https://www.letemsvetemapplem.eu/2025/10/21/ipad-pro-m5-v-prvnich-recenzich-jaky-je-nejvykonnejsi-tablet-soucasnosti-v-realu/",
+            "date": "2025-10-21T14:13:02.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Apple šetřil u nového Vision Pro M5 na RAM paměti",
+            "url": "https://www.letemsvetemapplem.eu/2025/10/17/apple-setril-u-noveho-vision-pro-m5-na-ram-pameti/",
+            "date": "2025-10-17T13:00:02.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-19",
+        "query": "40w dynamic power adapter",
+        "title": "Apple 40W Dynamic Power Adapter míří do dalších zemí: proč je zajímavý"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Sklo pro iPhone a Apple Watch bude již brzy 100% z USA",
+            "url": "https://www.letemsvetemapplem.eu/2025/08/08/sklo-pro-iphone-a-apple-watch-bude-brzy-100-z-usa/",
+            "date": "2025-08-08T08:00:44.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "LSA-20",
+        "query": "apple manufacturing center houston",
+        "title": "Apple otevřel Advanced Manufacturing Center v Houstonu: proč to není jen PR"
+      }
+    ],
+    "Samsung": [
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Samsung vydává 6. betu One UI 9 pro Galaxy S26. Opravuje fotoaparát i rozbité widgety (Aktualizováno)",
+            "url": "https://samsungmagazine.eu/2026/08/25/samsung-vydava-6-betu-one-ui-9-pro-galaxy-s26-opravuje-fotoaparat-i-rozbite-widgety/",
+            "date": "2026-08-25T10:49:40.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Ostrá verze One UI 9 má zpoždění. Samsung pro Galaxy S26 chystá další betu",
+            "url": "https://samsungmagazine.eu/2026/08/25/samsung-galaxy-s26-one-ui-9-beta-6-delay/",
+            "date": "2026-08-25T09:04:59.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Přehled aktualizací Samsung: Která zařízení obdržela ve 34. týdnu roku 2026 nové verze?",
+            "url": "https://samsungmagazine.eu/2026/08/24/prehled-aktualizaci-samsung/",
+            "date": "2026-08-24T04:03:04.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-01",
+        "query": "one ui 9 beta 6",
+        "title": "One UI 9 Beta 6: co opravuje a kdo ji dostává"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Gemini Intelligence přináší do Androidu autonomii. Známe seznam telefonů, které ji dostanou",
+            "url": "https://samsungmagazine.eu/2026/08/25/samsung-gemini-intelligence/",
+            "date": "2026-08-25T10:05:00.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Stabilní verze One UI 9: Na která zařízení dorazí jako první a jak se liší od bety? Kompletní přehled rolloutu",
+            "url": "https://samsungmagazine.eu/2026/08/25/one-ui-9-update-list-features-samsung/",
+            "date": "2026-08-25T05:55:27.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji",
+            "url": "https://samsungmagazine.eu/2026/08/24/how-to-fix-frozen-galaxy-watch/",
+            "date": "2026-08-24T13:54:41.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-02",
+        "query": "gemini samsung",
+        "title": "Gemini na Samsungu: obří zájem, mizerný CTR, praktický návod"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Galaxy Z Fold8 Ultra dostane nečekaný upgrade displeje. Nejde jen o méně viditelný ohyb",
+            "url": "https://samsungmagazine.eu/2026/07/13/galaxy-z-fold8-ultra-dostane-necekany-upgrade-displeje-nejde-jen-o-mene-viditelny-ohyb/",
+            "date": "2026-07-13T06:06:05.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Čeká nás po čtyřech letech změna? Galaxy S27 Pro a Ultra dostanou novinku, kterou už Apple má",
+            "url": "https://samsungmagazine.eu/2026/07/03/ceka-nas-po-ctyrech-letech-zmena-galaxy-s27-pro-a-ultra-dostanou-novinku-kterou-uz-apple-ma/",
+            "date": "2026-07-03T06:04:08.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Galaxy A57 má přednosti vlajky, tenké tělo a jeho cena padá neuvěřitelně nízko",
+            "url": "https://samsungmagazine.eu/2026/05/15/galaxy-a57-ma-prednosti-vlajky-tenke-telo-a-jeho-cena-pada-neuveritelne-nizko/",
+            "date": "2026-05-15T17:00:22.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-03",
+        "query": "galaxy s26 s25 upgrade",
+        "title": "Galaxy S26 vs S25: má upgrade smysl?"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 3,
+        "matches": [
+          {
+            "title": "Samsung Galaxy S26 FE: cena, datum a co čekat od Galaxy Event August 2026",
+            "url": "https://samsungmagazine.eu/2026/08/25/samsung-galaxy-s26-fe-cena-datum-a-co-cekat-od-galaxy-event-august-2026/",
+            "date": "2026-08-25T13:59:15.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Zapište si toto datum. Samsung prozradil, kdy představí Galaxy S26 FE a další novinky",
+            "url": "https://samsungmagazine.eu/2026/08/20/galaxy-event-august-2026-galaxy-s26-fe/",
+            "date": "2026-08-20T05:09:22.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Galaxy Tri-Fold potvrzen, dostane se i na globální trh. Kdy se ho dočkáme?",
+            "url": "https://samsungmagazine.eu/2025/09/04/galaxy-tri-fold-potvrzen-dostane-se-i-na-globalni-trh-kdy-se-ho-dockame/",
+            "date": "2025-09-04T19:00:10.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-04",
+        "query": "galaxy s26 fe event",
+        "title": "Galaxy S26 FE: co sledovat po eventu 27. srpna"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Samsung Galaxy Z Fold8 Ultra recenze: Je to špička, ale trochu nuda",
+            "url": "https://samsungmagazine.eu/2026/08/09/samsung-galaxy-z-fold8-ultra-recenze/",
+            "date": "2026-08-09T17:56:54.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Nové skládačky od Samsungu stojí ranec. Tímto trikem ale můžete ušetřit desítky tisíc",
+            "url": "https://samsungmagazine.eu/2026/07/22/kolik-stoji-galaxy-z-fold8-flip8-a-watch9-kompletni-cenik/",
+            "date": "2026-07-22T13:10:16.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Recenze Galaxy Watch8 Classic: Skvělé chytré hodinky v nevábném obalu",
+            "url": "https://samsungmagazine.eu/2025/09/21/recenze-galaxy-watch8-classic/",
+            "date": "2025-09-21T18:00:55.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-05",
+        "query": "galaxy watch ultra 2 recenze",
+        "title": "Galaxy Watch Ultra 2: recenze a srovnání s Watch Ultra a Garminem"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 2,
+        "matches": [
+          {
+            "title": "Přehled aktualizací Samsung: Která zařízení obdržela ve 34. týdnu roku 2026 nové verze?",
+            "url": "https://samsungmagazine.eu/2026/08/24/prehled-aktualizaci-samsung/",
+            "date": "2026-08-24T04:03:04.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Skvělá aplikace od Samsungu má velký problém. Uživatelům po přechodu na nový telefon nefungují RCS chaty",
+            "url": "https://samsungmagazine.eu/2026/08/20/samsung-smart-switch-block-rcs/",
+            "date": "2026-08-20T08:55:00.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-06",
+        "query": "switch to galaxy z fold8",
+        "title": "Jak snadno přejít na Galaxy Z Fold8"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "SAM-07",
+        "query": "galaxy buds4 pro hi-fi sound",
+        "title": "Galaxy Buds4 Pro mají uznaný Hi-Fi zvuk: co to znamená v praxi"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "SAM-08",
+        "query": "august 2026 security patch galaxy",
+        "title": "Srpnové bezpečnostní aktualizace Galaxy: kdo je dostává"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "SAM-09",
+        "query": "galaxy s27 ultra camera bar",
+        "title": "Galaxy S27 Ultra leak: vodorovný fotomodul a riziko iPhone looku"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "SAM-10",
+        "query": "good lock multistar flipshot",
+        "title": "Good Lock MultiStar/FlipShot: malá funkce pro skládačky, velký rozdíl"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "SAM-11",
+        "query": "samsung gamescom 2026",
+        "title": "Samsung na Gamescomu 2026: proč to zajímá i majitele Galaxy"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "SAM-12",
+        "query": "galaxy z trifold china",
+        "title": "Čínská odpověď na Galaxy Z TriFold přijde příští měsíc"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Pixel 11 Pro vyzval Galaxy S26 Ultra. Která vlajková loď vám nabídne více?",
+            "url": "https://samsungmagazine.eu/2026/08/14/pixel-11-pro-vs-samsung-galaxy-s26-ultra/",
+            "date": "2026-08-14T12:04:07.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-13",
+        "query": "galaxy z fold 8 selfie camera",
+        "title": "Galaxy Z Fold8 má možná až moc selfie kamer"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Android Auto se zbavuje té nejotravnější chyby. Bude připojení konečně stabilní?",
+            "url": "https://samsungmagazine.eu/2026/08/21/android-auto-17-4-fixes-connection-issue/",
+            "date": "2026-08-21T07:59:15.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Epic, Google a Samsung hlásí mír. Do Androidu míří snadnější instalace obchodů, ale i přísnější správa RAM",
+            "url": "https://samsungmagazine.eu/2026/08/20/epic-google-partnership-android-ram-limits/",
+            "date": "2026-08-20T20:03:48.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Padá vám Android Auto? Google odhalil, co za tím stojí, a vydává záplatu",
+            "url": "https://samsungmagazine.eu/2026/07/17/pada-vam-android-auto-google-odhalil-co-za-tim-stoji-a-vydava-zaplatu/",
+            "date": "2026-07-17T04:01:53.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-14",
+        "query": "android auto samsung",
+        "title": "Android Auto na Samsungu: tři nastavení, která dnes řeší nejvíc lidí"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji",
+            "url": "https://samsungmagazine.eu/2026/08/24/how-to-fix-frozen-galaxy-watch/",
+            "date": "2026-08-24T13:54:41.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Majitelé telefonů Samsung oslavují. Konečně z nich smažou aplikaci, kterou nikdy nechtěli",
+            "url": "https://samsungmagazine.eu/2026/08/19/samsung-swiftkey/",
+            "date": "2026-08-18T23:56:23.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Není to jen další 200MPx snímač. Novinka od Samsungu může úplně změnit teleobjektivy",
+            "url": "https://samsungmagazine.eu/2026/08/10/200mpx-samsung-isocell-hpc-tele/",
+            "date": "2026-08-10T12:57:44.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-15",
+        "query": "uvolnit misto samsung",
+        "title": "Jak uvolnit místo na Samsungu bez mazání aplikací"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Peněženka Google spouští velký redesign, na který všichni čekali. Podívejte se, jaké novinky konečně dorazily",
+            "url": "https://samsungmagazine.eu/2026/08/19/google-wallet-redesign/",
+            "date": "2026-08-19T06:59:08.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-16",
+        "query": "google wallet redesign",
+        "title": "Google Wallet redesign na Samsungu: co se změnilo"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Příští telefon vás přijde draho. Samsung v tichosti chystá krok, který zničí dostupné smartphony",
+            "url": "https://samsungmagazine.eu/2026/08/21/samsung-chip-price-hike-midrange-smartphones/",
+            "date": "2026-08-21T06:06:31.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-17",
+        "query": "samsung chip price midrange",
+        "title": "Samsung zdražuje čipy: zdraží i telefony střední třídy?"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Těmto telefonům Samsung Galaxy dochází čas. Zkontrolujte, zda mezi nimi není i ten váš",
+            "url": "https://samsungmagazine.eu/2026/08/19/samsung-galaxy-phones-end-of-life-support/",
+            "date": "2026-08-19T17:55:52.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-18",
+        "query": "galaxy end of life support",
+        "title": "Které Galaxy telefony letos končí s podporou"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 2,
+        "matches": [
+          {
+            "title": "Majitelé telefonů Samsung oslavují. Konečně z nich smažou aplikaci, kterou nikdy nechtěli",
+            "url": "https://samsungmagazine.eu/2026/08/19/samsung-swiftkey/",
+            "date": "2026-08-18T23:56:23.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Každý Samsung obsahuje umělou inteligenci. Ano, i ten váš",
+            "url": "https://samsungmagazine.eu/2023/05/03/kazdy-uzivatel-galaxy-ma-nyni-ve-svem-telefonu-a-tabletu-nastroj-bing-ai/",
+            "date": "2023-05-03T19:00:59.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-19",
+        "query": "swiftkey samsung one ui 9",
+        "title": "SwiftKey v One UI 9: proč ho půjde odstranit a koho se to týká"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji",
+            "url": "https://samsungmagazine.eu/2026/08/24/how-to-fix-frozen-galaxy-watch/",
+            "date": "2026-08-24T13:54:41.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "SAM-20",
+        "query": "frozen galaxy watch reset",
+        "title": "Zamrzlé Galaxy Watch: proč nedělat tovární reset jako první"
+      }
+    ],
+    "Android": [
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-01",
+        "query": "android pulse app",
+        "title": "Co je Android Pulse a proč se objevuje v Google Play aktualizacích"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-02",
+        "query": "pixel rambler voice to text",
+        "title": "Pixel Rambler voice-to-text: funkce, která může změnit diktování"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Potřebujete změnit nastavení svého mobilu? Stačí požádat Gemini a nemusíte už nic složitě hledat",
+            "url": "https://androidmagazine.eu/2026/08/06/potrebujete-zmenit-nastaveni-sveho-mobilu-staci-pozadat-gemini-a-nemusite-uz-nic-slozite-hledat/",
+            "date": "2026-08-06T08:10:21.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-03",
+        "query": "gemini device help pixel",
+        "title": "Gemini Device Help na Pixelu: poradí s telefonem, ale není bez limitů"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-04",
+        "query": "google maps android auto traffic",
+        "title": "Google Maps v Android Auto nezobrazuje dopravu: co zkusit"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-05",
+        "query": "google system updates august",
+        "title": "Srpnové Google System Updates: co je nové v Androidu, Play Store a Auto"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-06",
+        "query": "android auto disconnect freeze",
+        "title": "Android Auto se odpojuje nebo mrzne: Google chystá opravu"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Pixel 11 Pro HiLight: co to vlastně je a proč první reakce vyvolaly rozpaky",
+            "url": "https://androidmagazine.eu/2026/08/19/pixel-11-pro-hilight/",
+            "date": "2026-08-19T06:56:32.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Google konečně zapíná Live Updates pro stopky a časovač. Novinka výrazně zpříjemní používání Androidu",
+            "url": "https://androidmagazine.eu/2026/08/04/google-konecne-zapina-live-updates-pro-stopky-a-casovac-novinka-vyrazne-zprijemni-pouzivani-androidu/",
+            "date": "2026-08-04T07:39:39.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Přehřívá se vám mobil? Stačí změnit tohle jedno nastavení a máte klid",
+            "url": "https://androidmagazine.eu/2026/06/14/prehriva-se-vam-mobil-staci-zmenit-tohle-jedno-nastaveni-a-mate-klid/",
+            "date": "2026-06-14T12:13:11.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-07",
+        "query": "always on display android",
+        "title": "Always On Display na Androidu: zapnutí, výdrž baterie a nejlepší nastavení"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Smazali jste omylem oznámení? Android ho umí najít. Stačí zapnout tuto funkci",
+            "url": "https://androidmagazine.eu/2026/08/19/android-notification/",
+            "date": "2026-08-19T14:00:12.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-08",
+        "query": "android notification history",
+        "title": "Smazali jste oznámení? Android ho umí najít"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100",
+            "url": "https://androidmagazine.eu/2026/08/21/google-3100/",
+            "date": "2026-08-21T08:20:05.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-09",
+        "query": "rcs chyba 3100",
+        "title": "RCS chyba 3100 po přechodu na Galaxy: co dělat"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Android 17 zpřísňuje aplikace běžící na pozadí. U některých může přestat fungovat zvuk",
+            "url": "https://androidmagazine.eu/2026/08/19/android-17-audio/",
+            "date": "2026-08-19T12:20:48.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-10",
+        "query": "android 17 background audio",
+        "title": "Android 17 zpřísňuje aplikace na pozadí: komu může přestat hrát zvuk"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-11",
+        "query": "pixel 11 deals",
+        "title": "Pixel 11 nabídky: kdy dává smysl koupit a kdy počkat"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-12",
+        "query": "android iphone tracker bike",
+        "title": "Tracker pro Android i iPhone do kola nebo golfových holí"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 1,
+        "matches": [
+          {
+            "title": "Google rozšiřuje polohu na Wear OS. Přibývá Location Sharing i Find people",
+            "url": "https://androidmagazine.eu/2026/08/22/wear-os-google-location-sharing/",
+            "date": "2026-08-21T22:02:20.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-13",
+        "query": "wear os location sharing",
+        "title": "Wear OS sdílení polohy: co Google přidává do hodinek"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "HONOR Robot Phone: gimbal, AI a nejdivnější smartphone roku",
+            "url": "https://androidmagazine.eu/2026/08/20/honor-robot-phone/",
+            "date": "2026-08-20T10:22:03.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "HONOR Robot Phone je realita, má gimbal, filmové barvy a AI, která zvládne přes 100 kroků. A stojí neuvěřitelné peníze",
+            "url": "https://androidmagazine.eu/2026/08/14/honor-robot-phone-je-realita-ma-gimbal-filmove-barvy-a-ai-ktera-zvladne-pres-100-kroku-a-stoji-neuveritelne-penize/",
+            "date": "2026-08-14T13:14:26.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Unikly kompletní specifikace revolučního Robot Phone, Honor spustil už i předobjednávky",
+            "url": "https://androidmagazine.eu/2026/08/04/unikly-kompletni-specifikace-revolucniho-robot-phone-honor-spustil-uz-i-predobjednavky/",
+            "date": "2026-08-04T12:10:51.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-14",
+        "query": "honor robot phone",
+        "title": "HONOR Robot Phone: nejdivnější telefon roku, nebo ukázka budoucnosti?"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-15",
+        "query": "pixel tips",
+        "title": "5 tipů, jak vylepšit Pixel bez výměny telefonu"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100",
+            "url": "https://androidmagazine.eu/2026/08/21/google-3100/",
+            "date": "2026-08-21T08:20:05.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Jak na Androidu snadno nastavit tapety podle denní doby",
+            "url": "https://androidmagazine.eu/2026/08/20/jak-na-androidu-snadno-nastavit-tapety-podle-denni-doby/",
+            "date": "2026-08-20T06:29:58.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Android 17 zpřísňuje aplikace běžící na pozadí. U některých může přestat fungovat zvuk",
+            "url": "https://androidmagazine.eu/2026/08/19/android-17-audio/",
+            "date": "2026-08-19T12:20:48.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-16",
+        "query": "vypnout android telefon",
+        "title": "Jak vypnout Android telefon: aktualizovaný návod pro rok 2026"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-17",
+        "query": "force lte 5g android",
+        "title": "Jak vynutit LTE nebo 5G na Androidu"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 4,
+        "matches": [
+          {
+            "title": "6 skrytých aplikací od Googlu, které by měl znát každý uživatel Androidu",
+            "url": "https://androidmagazine.eu/2026/08/11/78363/",
+            "date": "2026-08-11T13:01:51.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Jak obnovit smazané soubory a fotky v Androidu?",
+            "url": "https://androidmagazine.eu/2025/02/18/jak-obnovit-smazane-soubory-a-fotky-v-androidu/",
+            "date": "2025-02-18T08:00:53.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Google Photos konečně opravuje jeden z nejvíce kritizovaných designových prvků!",
+            "url": "https://androidmagazine.eu/2024/11/13/google-photos-konecne-opravuje-jeden-z-nejvice-kritizovanych-designovych-prvku/",
+            "date": "2024-11-13T07:00:43.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-18",
+        "query": "android kos",
+        "title": "Jak vysypat koš na Androidu"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 5,
+        "matches": [
+          {
+            "title": "Google Scam Detection míří mimo Pixel: jak Android pozná podvodný hovor",
+            "url": "https://androidmagazine.eu/2026/08/18/google-scam-detection/",
+            "date": "2026-08-18T12:42:37.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Konec bankovních podvodů? Google zavádí AI ochranu a biometrický zámek proti krádeži",
+            "url": "https://androidmagazine.eu/2026/05/14/konec-bankovnich-podvodu-google-zavadi-ai-ochranu-a-biometricky-zamek-proti-kradezi/",
+            "date": "2026-05-14T08:41:19.000Z",
+            "postStatus": "publish"
+          },
+          {
+            "title": "Jednoduchý návod pro zrušení blokace jakéhokoliv čísla na Androidu",
+            "url": "https://androidmagazine.eu/2024/10/23/jednoduchy-navod-pro-zruseni-blokace-jakehokoliv-cisla-na-androidu/",
+            "date": "2024-10-23T18:00:01.000Z",
+            "postStatus": "publish"
+          }
+        ],
+        "id": "AND-19",
+        "query": "blokovani cisla android",
+        "title": "Jak odblokovat číslo na Androidu"
+      },
+      {
+        "status": "CHECKED",
+        "docs": 0,
+        "matches": [],
+        "id": "AND-20",
+        "query": "grapheneos motorola 2027",
+        "title": "GrapheneOS míří nejdřív na Motorolu: proč je to velká změna"
+      }
+    ]
+  }
+}

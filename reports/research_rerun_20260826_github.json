@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-26T08:54:40.169035",
+  "repos": {
+    "google-gemini/gemini-cli": {
+      "releases": [
+        {
+          "name": "Release v0.59.0-nightly.20260826.g64b5b79a6",
+          "published_at": "2026-08-26T01:07:54Z",
+          "draft": false,
+          "prerelease": true
+        },
+        {
+          "name": "Release v0.58.0-preview.0",
+          "published_at": "2026-08-25T18:22:01Z",
+          "draft": false,
+          "prerelease": true
+        },
+        {
+          "name": "Release v0.57.0",
+          "published_at": "2026-08-25T18:37:14Z",
+          "draft": false,
+          "prerelease": false
+        }
+      ]
+    },
+    "androidx/androidx": {
+      "releases": []
+    },
+    "google/perfetto": {
+      "releases": [
+        {
+          "name": "Perfetto v58.2",
+          "published_at": "2026-08-24T23:45:54Z",
+          "draft": false,
+          "prerelease": false
+        },
+        {
+          "name": "Perfetto v57.2",
+          "published_at": "2026-07-07T16:57:21Z",
+          "draft": false,
+          "prerelease": false
+        },
+        {
+          "name": "Perfetto v57.1",
+          "published_at": "2026-07-02T20:10:40Z",
+          "draft": false,
+          "prerelease": false
+        }
+      ]
+    },
+    "google-ai-edge/gallery": {
+      "releases": [
+        {
+          "name": "1.0.18",
+          "published_at": "2026-08-10T17:18:42Z",
+          "draft": false,
+          "prerelease": false
+        },
+        {
+          "name": "1.0.17",
+          "published_at": "2026-08-03T17:28:30Z",
+          "draft": false,
+          "prerelease": false
+        },
+        {
+          "name": "1.0.16",
+          "published_at": "2026-06-23T17:26:15Z",
+          "draft": false,
+          "prerelease": false
+        }
+      ]
+    },
+    "chromium/chromium": {
+      "releases": []
+    }
+  },
+  "status": "CHECKED"
+}

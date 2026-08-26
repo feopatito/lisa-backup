@@ -1,0 +1,4375 @@
+{
+  "source": "reports/samsung_evergreen_gsc_16m_20260826.json",
+  "selected": [
+    {
+      "title": "Samsung nejde restartovat nebo se sám restartuje",
+      "type": "Troubleshooting",
+      "why": "Restart samotný je jednoduchý, ale problémový angle je bránitelný.",
+      "unique": "Vynucený restart, bezpečný režim, aktualizace, baterie, tlačítka.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 6276,
+      "clicks": 4,
+      "ctr": 0.0006373486297004461,
+      "position": 10.615360101975782,
+      "qcount": 9,
+      "impressions_90d": 3481,
+      "sk_impressions": 31,
+      "sk_position": 9.709677419354838,
+      "top_queries": [
+        {
+          "keys": [
+            "jak restartovat samsung"
+          ],
+          "clicks": 2,
+          "impressions": 3823,
+          "ctr": 0.000523149359142035,
+          "position": 10.434998692126602,
+          "_q": "jak restartovat samsung",
+          "_n": "jak restartovat samsung"
+        },
+        {
+          "keys": [
+            "jak restartovat telefon samsung"
+          ],
+          "clicks": 1,
+          "impressions": 1060,
+          "ctr": 0.0009433962264150943,
+          "position": 11.121698113207547,
+          "_q": "jak restartovat telefon samsung",
+          "_n": "jak restartovat telefon samsung"
+        },
+        {
+          "keys": [
+            "samsung se restartuje"
+          ],
+          "clicks": 0,
+          "impressions": 596,
+          "ctr": 0,
+          "position": 11.736577181208053,
+          "_q": "samsung se restartuje",
+          "_n": "samsung se restartuje"
+        },
+        {
+          "keys": [
+            "jak restartovat mobil samsung"
+          ],
+          "clicks": 0,
+          "impressions": 374,
+          "ctr": 0,
+          "position": 10.058823529411764,
+          "_q": "jak restartovat mobil samsung",
+          "_n": "jak restartovat mobil samsung"
+        },
+        {
+          "keys": [
+            "jak restartovat samsung galaxy"
+          ],
+          "clicks": 1,
+          "impressions": 330,
+          "ctr": 0.0030303030303030303,
+          "position": 9.66060606060606,
+          "_q": "jak restartovat samsung galaxy",
+          "_n": "jak restartovat samsung galaxy"
+        },
+        {
+          "keys": [
+            "jak restartovat samsung telefon"
+          ],
+          "clicks": 0,
+          "impressions": 67,
+          "ctr": 0,
+          "position": 10.865671641791044,
+          "_q": "jak restartovat samsung telefon",
+          "_n": "jak restartovat samsung telefon"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/06/07/jak-restartovat-samsung-a-proc-byste-to-meli-delat/",
+      "target_path": "/2024/06/07/jak-restartovat-samsung-a-proc-byste-to-meli-delat/",
+      "page_imp": 5671,
+      "page_clicks": 4,
+      "page_pos": 10.443131722800212,
+      "action": "UPDATE",
+      "score": 12876.841224251786,
+      "serp_adjusted_score": 24723.535150563428,
+      "http_status": "HTTP 200",
+      "rank_v2": 1
+    },
+    {
+      "title": "Samsung Account: co to je, přihlášení a zapomenuté heslo",
+      "type": "How-to",
+      "why": "Silný Samsung-specific evergreen, kde je potřeba vysvětlit účel a obnovu účtu.",
+      "unique": "Find, Cloud, Galaxy Store, Wallet, obnova hesla, odhlášení před prodejem.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 4091,
+      "clicks": 12,
+      "ctr": 0.0029332681495966755,
+      "position": 8.9992666829626,
+      "qcount": 52,
+      "impressions_90d": 2287,
+      "sk_impressions": 1195,
+      "sk_position": 5.947280334728034,
+      "top_queries": [
+        {
+          "keys": [
+            "samsung account co to je"
+          ],
+          "clicks": 3,
+          "impressions": 1027,
+          "ctr": 0.0029211295034079843,
+          "position": 9.357351509250243,
+          "_q": "samsung account co to je",
+          "_n": "samsung account co to je"
+        },
+        {
+          "keys": [
+            "samsung account"
+          ],
+          "clicks": 3,
+          "impressions": 996,
+          "ctr": 0.0030120481927710845,
+          "position": 9.491967871485944,
+          "_q": "samsung account",
+          "_n": "samsung account"
+        },
+        {
+          "keys": [
+            "co je samsung account"
+          ],
+          "clicks": 0,
+          "impressions": 512,
+          "ctr": 0,
+          "position": 9.8046875,
+          "_q": "co je samsung account",
+          "_n": "co je samsung account"
+        },
+        {
+          "keys": [
+            "samsung účet"
+          ],
+          "clicks": 1,
+          "impressions": 452,
+          "ctr": 0.0022123893805309734,
+          "position": 7.170353982300885,
+          "_q": "samsung účet",
+          "_n": "samsung ucet"
+        },
+        {
+          "keys": [
+            "samsung ucet"
+          ],
+          "clicks": 0,
+          "impressions": 413,
+          "ctr": 0,
+          "position": 6.283292978208232,
+          "_q": "samsung ucet",
+          "_n": "samsung ucet"
+        },
+        {
+          "keys": [
+            "samsung account zapomenuté heslo"
+          ],
+          "clicks": 2,
+          "impressions": 116,
+          "ctr": 0.017241379310344827,
+          "position": 9.913793103448276,
+          "_q": "samsung account zapomenuté heslo",
+          "_n": "samsung account zapomenute heslo"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2022/12/26/pro-zacatecniky-jak-zalozit-samsung-account/",
+      "target_path": "/2022/12/26/pro-zacatecniky-jak-zalozit-samsung-account/",
+      "page_imp": 2091,
+      "page_clicks": 5,
+      "page_pos": 9.923481587757054,
+      "action": "REWRITE",
+      "score": 11099.920392607375,
+      "serp_adjusted_score": 21311.84715380616,
+      "http_status": "HTTP 200",
+      "rank_v2": 2
+    },
+    {
+      "title": "Mezipaměť v Samsungu: kdy ji mazat a kdy ne",
+      "type": "How-to",
+      "why": "Vícekrokový troubleshooting, kde je potřeba vysvětlit riziko smazání dat aplikace.",
+      "unique": "Cache vs data, jednotlivé aplikace, Chrome, Obchod Play, výkon.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 3085,
+      "clicks": 23,
+      "ctr": 0.0074554294975688815,
+      "position": 6.86807131280389,
+      "qcount": 32,
+      "impressions_90d": 1526,
+      "sk_impressions": 3,
+      "sk_position": 18.333333333333332,
+      "top_queries": [
+        {
+          "keys": [
+            "jak vymazat mezipaměť"
+          ],
+          "clicks": 3,
+          "impressions": 641,
+          "ctr": 0.0046801872074883,
+          "position": 8.542901716068643,
+          "_q": "jak vymazat mezipaměť",
+          "_n": "jak vymazat mezipamet"
+        },
+        {
+          "keys": [
+            "jak vymazat mezipaměť v mobilu"
+          ],
+          "clicks": 6,
+          "impressions": 342,
+          "ctr": 0.017543859649122806,
+          "position": 5.295321637426901,
+          "_q": "jak vymazat mezipaměť v mobilu",
+          "_n": "jak vymazat mezipamet v mobilu"
+        },
+        {
+          "keys": [
+            "vymazat mezipaměť"
+          ],
+          "clicks": 0,
+          "impressions": 340,
+          "ctr": 0,
+          "position": 7.770588235294118,
+          "_q": "vymazat mezipaměť",
+          "_n": "vymazat mezipamet"
+        },
+        {
+          "keys": [
+            "jak vymazat mezipaměť android"
+          ],
+          "clicks": 3,
+          "impressions": 272,
+          "ctr": 0.011029411764705883,
+          "position": 4.3786764705882355,
+          "_q": "jak vymazat mezipaměť android",
+          "_n": "jak vymazat mezipamet android"
+        },
+        {
+          "keys": [
+            "vymazání mezipaměti android"
+          ],
+          "clicks": 1,
+          "impressions": 218,
+          "ctr": 0.0045871559633027525,
+          "position": 5.077981651376147,
+          "_q": "vymazání mezipaměti android",
+          "_n": "vymazani mezipameti android"
+        },
+        {
+          "keys": [
+            "mezipaměť"
+          ],
+          "clicks": 0,
+          "impressions": 217,
+          "ctr": 0,
+          "position": 10.640552995391705,
+          "_q": "mezipaměť",
+          "_n": "mezipamet"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2022/05/03/jak-vymazat-mezipamet-androidu-a-proc-byste-to-meli-delat/",
+      "target_path": "/2022/05/03/jak-vymazat-mezipamet-androidu-a-proc-byste-to-meli-delat/",
+      "page_imp": 2589,
+      "page_clicks": 23,
+      "page_pos": 6.141753572808034,
+      "action": "REWRITE",
+      "score": 9133.150112771466,
+      "serp_adjusted_score": 17535.648216521215,
+      "http_status": "HTTP 200",
+      "rank_v2": 3
+    },
+    {
+      "title": "Jak vyfotit zatmění Slunce mobilem Samsung",
+      "type": "How-to",
+      "why": "Sezónní, ale opakovaný praktický foto intent, kde direct answer nestačí kvůli bezpečnosti a nastavení.",
+      "unique": "Ochrana senzoru i očí, Pro režim, expozice, stativ, ND filtr.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 2954,
+      "clicks": 34,
+      "ctr": 0.011509817197020988,
+      "position": 6.936696005416384,
+      "qcount": 4,
+      "impressions_90d": 2954,
+      "sk_impressions": 6,
+      "sk_position": 5.333333333333333,
+      "top_queries": [
+        {
+          "keys": [
+            "jak vyfotit zatmeni slunce"
+          ],
+          "clicks": 15,
+          "impressions": 1473,
+          "ctr": 0.010183299389002037,
+          "position": 5.712830957230143,
+          "_q": "jak vyfotit zatmeni slunce",
+          "_n": "jak vyfotit zatmeni slunce"
+        },
+        {
+          "keys": [
+            "jak vyfotit zatmeni slunce mobilem"
+          ],
+          "clicks": 6,
+          "impressions": 1112,
+          "ctr": 0.00539568345323741,
+          "position": 9.06205035971223,
+          "_q": "jak vyfotit zatmeni slunce mobilem",
+          "_n": "jak vyfotit zatmeni slunce mobilem"
+        },
+        {
+          "keys": [
+            "jak vyfotit zatmění slunce"
+          ],
+          "clicks": 7,
+          "impressions": 198,
+          "ctr": 0.03535353535353535,
+          "position": 3.676767676767677,
+          "_q": "jak vyfotit zatmění slunce",
+          "_n": "jak vyfotit zatmeni slunce"
+        },
+        {
+          "keys": [
+            "jak vyfotit zatmění slunce mobilem"
+          ],
+          "clicks": 6,
+          "impressions": 171,
+          "ctr": 0.03508771929824561,
+          "position": 7.432748538011696,
+          "_q": "jak vyfotit zatmění slunce mobilem",
+          "_n": "jak vyfotit zatmeni slunce mobilem"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/08/12/jak-vyfotit-zatmeni-slunce-na-samsungu/2/",
+      "target_path": "/2026/08/12/jak-vyfotit-zatmeni-slunce-na-samsungu/2/",
+      "page_imp": 2369,
+      "page_clicks": 22,
+      "page_pos": 7.171802448290418,
+      "action": "UPDATE",
+      "score": 8470.876542993807,
+      "serp_adjusted_score": 16264.082962548107,
+      "http_status": "HTTP 200",
+      "rank_v2": 4
+    },
+    {
+      "title": "Samsung Wallet / Pay v ČR: co funguje a co ne",
+      "type": "Definition",
+      "why": "Samsung-specific komerčně-praktický evergreen.",
+      "unique": "Dostupnost v ČR, banky, Google Wallet srovnání, karty a bezpečnost.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 5227,
+      "clicks": 1133,
+      "ctr": 0.2167591352592309,
+      "position": 9.760857088195905,
+      "qcount": 90,
+      "impressions_90d": 3292,
+      "sk_impressions": 1990,
+      "sk_position": 7.066331658291458,
+      "top_queries": [
+        {
+          "keys": [
+            "samsung wallet"
+          ],
+          "clicks": 10,
+          "impressions": 1729,
+          "ctr": 0.00578368999421631,
+          "position": 13.452862926547137,
+          "_q": "samsung wallet",
+          "_n": "samsung wallet"
+        },
+        {
+          "keys": [
+            "samsung wallet (samsung pay)"
+          ],
+          "clicks": 865,
+          "impressions": 1544,
+          "ctr": 0.5602331606217616,
+          "position": 1.2240932642487046,
+          "_q": "samsung wallet (samsung pay)",
+          "_n": "samsung wallet samsung pay"
+        },
+        {
+          "keys": [
+            "samsung pay"
+          ],
+          "clicks": 3,
+          "impressions": 473,
+          "ctr": 0.006342494714587738,
+          "position": 27.74418604651163,
+          "_q": "samsung pay",
+          "_n": "samsung pay"
+        },
+        {
+          "keys": [
+            "co je samsung wallet"
+          ],
+          "clicks": 0,
+          "impressions": 333,
+          "ctr": 0,
+          "position": 11.24024024024024,
+          "_q": "co je samsung wallet",
+          "_n": "co je samsung wallet"
+        },
+        {
+          "keys": [
+            "samsung wallet-samsung pay"
+          ],
+          "clicks": 240,
+          "impressions": 327,
+          "ctr": 0.7339449541284404,
+          "position": 1.070336391437309,
+          "_q": "samsung wallet-samsung pay",
+          "_n": "samsung wallet samsung pay"
+        },
+        {
+          "keys": [
+            "samsung wallet co to je"
+          ],
+          "clicks": 0,
+          "impressions": 231,
+          "ctr": 0,
+          "position": 10.593073593073592,
+          "_q": "samsung wallet co to je",
+          "_n": "samsung wallet co to je"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2025/12/16/na-pouzivani-samsung-wallet-muzete-vydelat/",
+      "target_path": "/2025/12/16/na-pouzivani-samsung-wallet-muzete-vydelat/",
+      "page_imp": 1029,
+      "page_clicks": 5,
+      "page_pos": 8.300291545189504,
+      "action": "UPDATE",
+      "score": 8235.770012674575,
+      "serp_adjusted_score": 15812.678424335183,
+      "http_status": "HTTP 200",
+      "rank_v2": 5
+    },
+    {
+      "title": "Jak vyčistit zažloutlý kryt na mobil",
+      "type": "How-to",
+      "why": "Praktický evergreen s nízkou závislostí na news a jasnou uživatelskou bolestí.",
+      "unique": "Silikon/plast/kůže, co nepoužívat, prevence žloutnutí.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 4664,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 14.698327615780446,
+      "qcount": 4,
+      "impressions_90d": 1620,
+      "sk_impressions": 0,
+      "sk_position": null,
+      "top_queries": [
+        {
+          "keys": [
+            "jak vyčistit kryt na mobil"
+          ],
+          "clicks": 0,
+          "impressions": 2690,
+          "ctr": 0,
+          "position": 15.963197026022305,
+          "_q": "jak vyčistit kryt na mobil",
+          "_n": "jak vycistit kryt na mobil"
+        },
+        {
+          "keys": [
+            "jak vyčistit zažloutlý kryt"
+          ],
+          "clicks": 0,
+          "impressions": 1192,
+          "ctr": 0,
+          "position": 11.723154362416107,
+          "_q": "jak vyčistit zažloutlý kryt",
+          "_n": "jak vycistit zazloutly kryt"
+        },
+        {
+          "keys": [
+            "jak vyčistit obal na mobil"
+          ],
+          "clicks": 0,
+          "impressions": 750,
+          "ctr": 0,
+          "position": 15.001333333333333,
+          "_q": "jak vyčistit obal na mobil",
+          "_n": "jak vycistit obal na mobil"
+        },
+        {
+          "keys": [
+            "jak vyčistit zažloutlý kryt na mobil"
+          ],
+          "clicks": 0,
+          "impressions": 32,
+          "ctr": 0,
+          "position": 12.09375,
+          "_q": "jak vyčistit zažloutlý kryt na mobil",
+          "_n": "jak vycistit zazloutly kryt na mobil"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/11/12/proc-pruhledna-pouzdra-na-telefony-zloutnou-a-je-mozne-je-vycistit/",
+      "target_path": "/2023/11/12/proc-pruhledna-pouzdra-na-telefony-zloutnou-a-je-mozne-je-vycistit/",
+      "page_imp": 4626,
+      "page_clicks": 0,
+      "page_pos": 14.619757890185905,
+      "action": "UPDATE",
+      "score": 4287.659062500001,
+      "serp_adjusted_score": 8232.305400000001,
+      "http_status": "HTTP 200",
+      "rank_v2": 6
+    },
+    {
+      "title": "Zabezpečená složka Samsung: nastavení a zapomenuté heslo",
+      "type": "How-to",
+      "why": "Silný Samsung unikát a dobrý proti Gemini, protože jde o soukromí a riziko ztráty přístupu.",
+      "unique": "Zapnutí, přesun fotek/aplikací, záloha, reset hesla, limity.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 2264,
+      "clicks": 7,
+      "ctr": 0.0030918727915194345,
+      "position": 11.851590106007068,
+      "qcount": 11,
+      "impressions_90d": 1083,
+      "sk_impressions": 14,
+      "sk_position": 7.285714285714286,
+      "top_queries": [
+        {
+          "keys": [
+            "zabezpečená složka"
+          ],
+          "clicks": 1,
+          "impressions": 1121,
+          "ctr": 0.0008920606601248885,
+          "position": 13.190900981266726,
+          "_q": "zabezpečená složka",
+          "_n": "zabezpecena slozka"
+        },
+        {
+          "keys": [
+            "zabezpečená složka samsung"
+          ],
+          "clicks": 5,
+          "impressions": 827,
+          "ctr": 0.006045949214026602,
+          "position": 10.948004836759372,
+          "_q": "zabezpečená složka samsung",
+          "_n": "zabezpecena slozka samsung"
+        },
+        {
+          "keys": [
+            "samsung zabezpečená složka"
+          ],
+          "clicks": 0,
+          "impressions": 191,
+          "ctr": 0,
+          "position": 8.94240837696335,
+          "_q": "samsung zabezpečená složka",
+          "_n": "samsung zabezpecena slozka"
+        },
+        {
+          "keys": [
+            "zabezpečená složka samsung zapomenuté heslo"
+          ],
+          "clicks": 1,
+          "impressions": 29,
+          "ctr": 0.034482758620689655,
+          "position": 6.310344827586207,
+          "_q": "zabezpečená složka samsung zapomenuté heslo",
+          "_n": "zabezpecena slozka samsung zapomenute heslo"
+        },
+        {
+          "keys": [
+            "zabezpečena složka"
+          ],
+          "clicks": 0,
+          "impressions": 28,
+          "ctr": 0,
+          "position": 11.178571428571429,
+          "_q": "zabezpečena složka",
+          "_n": "zabezpecena slozka"
+        },
+        {
+          "keys": [
+            "zabezpečená složka galerie samsung"
+          ],
+          "clicks": 0,
+          "impressions": 15,
+          "ctr": 0,
+          "position": 7.8,
+          "_q": "zabezpečená složka galerie samsung",
+          "_n": "zabezpecena slozka galerie samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/06/11/jak-na-samsungu-vytvorit-a-pouzivat-zabezpecenou-slozku/",
+      "target_path": "/2024/06/11/jak-na-samsungu-vytvorit-a-pouzivat-zabezpecenou-slozku/",
+      "page_imp": 1655,
+      "page_clicks": 6,
+      "page_pos": 10.061027190332327,
+      "action": "UPDATE",
+      "score": 3811.453262963703,
+      "serp_adjusted_score": 7317.990264890309,
+      "http_status": "HTTP 200",
+      "rank_v2": 7
+    },
+    {
+      "title": "Galaxy Store: co to je a kdy ho použít místo Obchodu Play",
+      "type": "Definition",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Rozdíl Galaxy Store vs Google Play, Samsung aplikace, aktualizace systémových doplňků a bezpečnost.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 2657,
+      "clicks": 18,
+      "ctr": 0.006774557771923222,
+      "position": 8.243884079789236,
+      "qcount": 66,
+      "impressions_90d": 1578,
+      "sk_impressions": 969,
+      "sk_position": 5.8957688338493295,
+      "top_queries": [
+        {
+          "keys": [
+            "galaxy store"
+          ],
+          "clicks": 6,
+          "impressions": 1714,
+          "ctr": 0.003500583430571762,
+          "position": 8.85414235705951,
+          "_q": "galaxy store",
+          "_n": "galaxy store"
+        },
+        {
+          "keys": [
+            "samsung galaxy store"
+          ],
+          "clicks": 8,
+          "impressions": 301,
+          "ctr": 0.026578073089700997,
+          "position": 8.312292358803987,
+          "_q": "samsung galaxy store",
+          "_n": "samsung galaxy store"
+        },
+        {
+          "keys": [
+            "co je galaxy store"
+          ],
+          "clicks": 0,
+          "impressions": 286,
+          "ctr": 0,
+          "position": 6.027972027972028,
+          "_q": "co je galaxy store",
+          "_n": "co je galaxy store"
+        },
+        {
+          "keys": [
+            "galaxy store co to je"
+          ],
+          "clicks": 3,
+          "impressions": 195,
+          "ctr": 0.015384615384615385,
+          "position": 5.041025641025641,
+          "_q": "galaxy store co to je",
+          "_n": "galaxy store co to je"
+        },
+        {
+          "keys": [
+            "galaxy store app"
+          ],
+          "clicks": 0,
+          "impressions": 28,
+          "ctr": 0,
+          "position": 10.5,
+          "_q": "galaxy store app",
+          "_n": "galaxy store app"
+        },
+        {
+          "keys": [
+            "galaxy store download"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 12.076923076923077,
+          "_q": "galaxy store download",
+          "_n": "galaxy store download"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2022/03/04/co-je-to-vlastne-galaxy-store-a-jake-vyhody-oproti-google-play-prinasi/",
+      "target_path": "/2022/03/04/co-je-to-vlastne-galaxy-store-a-jake-vyhody-oproti-google-play-prinasi/",
+      "page_imp": 1334,
+      "page_clicks": 5,
+      "page_pos": 7.619190404797601,
+      "action": "UPDATE",
+      "score": 5846.157342867897,
+      "serp_adjusted_score": 5846.157342867897,
+      "http_status": "HTTP 200",
+      "rank_v2": 8
+    },
+    {
+      "title": "SmartThings: nastavení chytré domácnosti Samsung",
+      "type": "How-to",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Přidání zařízení, místnosti, členové domácnosti, rutiny, hub a časté chyby párování.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 2665,
+      "clicks": 1130,
+      "ctr": 0.42401500938086306,
+      "position": 7.673921200750469,
+      "qcount": 62,
+      "impressions_90d": 476,
+      "sk_impressions": 417,
+      "sk_position": 26.27338129496403,
+      "top_queries": [
+        {
+          "keys": [
+            "smartthings"
+          ],
+          "clicks": 1118,
+          "impressions": 2061,
+          "ctr": 0.5424551188743328,
+          "position": 4.063076176613294,
+          "_q": "smartthings",
+          "_n": "smartthings"
+        },
+        {
+          "keys": [
+            "samsung smartthings"
+          ],
+          "clicks": 2,
+          "impressions": 196,
+          "ctr": 0.01020408163265306,
+          "position": 34.42857142857143,
+          "_q": "samsung smartthings",
+          "_n": "samsung smartthings"
+        },
+        {
+          "keys": [
+            "smartthings hub"
+          ],
+          "clicks": 0,
+          "impressions": 114,
+          "ctr": 0,
+          "position": 13.649122807017545,
+          "_q": "smartthings hub",
+          "_n": "smartthings hub"
+        },
+        {
+          "keys": [
+            "samsung smartthings hub"
+          ],
+          "clicks": 2,
+          "impressions": 101,
+          "ctr": 0.019801980198019802,
+          "position": 10.900990099009901,
+          "_q": "samsung smartthings hub",
+          "_n": "samsung smartthings hub"
+        },
+        {
+          "keys": [
+            "smartthings samsung"
+          ],
+          "clicks": 0,
+          "impressions": 30,
+          "ctr": 0,
+          "position": 9.466666666666667,
+          "_q": "smartthings samsung",
+          "_n": "smartthings samsung"
+        },
+        {
+          "keys": [
+            "aplikace smartthings"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 13.23076923076923,
+          "_q": "aplikace smartthings",
+          "_n": "aplikace smartthings"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/04/26/vite-vubec-o-tom-ze-samsung-vydal-novou-aplikaci-zkuste-sound-misto-smartthings/",
+      "target_path": "/2026/04/26/vite-vubec-o-tom-ze-samsung-vydal-novou-aplikaci-zkuste-sound-misto-smartthings/",
+      "page_imp": 1815,
+      "page_clicks": 1062,
+      "page_pos": 1.440771349862259,
+      "action": "UPDATE",
+      "score": 5805.218240150094,
+      "serp_adjusted_score": 5805.218240150094,
+      "http_status": "HTTP 200",
+      "rank_v2": 9
+    },
+    {
+      "title": "RCS zprávy na Samsungu: zapnout, vypnout, přepnout na SMS",
+      "type": "How-to",
+      "why": "Přesný messaging intent s víc variantami a praktickými chybami.",
+      "unique": "Google Zprávy vs Samsung Messages, SMS fallback, operátor, ověření čísla.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 1244,
+      "clicks": 3,
+      "ctr": 0.002411575562700965,
+      "position": 11.534565916398714,
+      "qcount": 18,
+      "impressions_90d": 565,
+      "sk_impressions": 2,
+      "sk_position": 12.0,
+      "top_queries": [
+        {
+          "keys": [
+            "jak přepnout rcs na sms"
+          ],
+          "clicks": 0,
+          "impressions": 223,
+          "ctr": 0,
+          "position": 10.354260089686099,
+          "_q": "jak přepnout rcs na sms",
+          "_n": "jak prepnout rcs na sms"
+        },
+        {
+          "keys": [
+            "jak nastavit rcs zprávy"
+          ],
+          "clicks": 0,
+          "impressions": 187,
+          "ctr": 0,
+          "position": 9.834224598930481,
+          "_q": "jak nastavit rcs zprávy",
+          "_n": "jak nastavit rcs zpravy"
+        },
+        {
+          "keys": [
+            "jak zapnout rcs chat"
+          ],
+          "clicks": 3,
+          "impressions": 183,
+          "ctr": 0.01639344262295082,
+          "position": 6.699453551912568,
+          "_q": "jak zapnout rcs chat",
+          "_n": "jak zapnout rcs chat"
+        },
+        {
+          "keys": [
+            "jak vypnout rcs chat"
+          ],
+          "clicks": 0,
+          "impressions": 176,
+          "ctr": 0,
+          "position": 11.926136363636363,
+          "_q": "jak vypnout rcs chat",
+          "_n": "jak vypnout rcs chat"
+        },
+        {
+          "keys": [
+            "rcs zpráva"
+          ],
+          "clicks": 0,
+          "impressions": 159,
+          "ctr": 0,
+          "position": 16.635220125786162,
+          "_q": "rcs zpráva",
+          "_n": "rcs zprava"
+        },
+        {
+          "keys": [
+            "jak vypnout rcs zprávy samsung"
+          ],
+          "clicks": 0,
+          "impressions": 108,
+          "ctr": 0,
+          "position": 10.444444444444445,
+          "_q": "jak vypnout rcs zprávy samsung",
+          "_n": "jak vypnout rcs zpravy samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/09/26/jak-ve-zpravach-zapnout-rcs/",
+      "target_path": "/2024/09/26/jak-ve-zpravach-zapnout-rcs/",
+      "page_imp": 1207,
+      "page_clicks": 3,
+      "page_pos": 11.330571665285833,
+      "action": "UPDATE",
+      "score": 2207.983288052023,
+      "serp_adjusted_score": 4239.327913059884,
+      "http_status": "HTTP 200",
+      "rank_v2": 10
+    },
+    {
+      "title": "Stav baterie Samsung: kondice, diagnostika a kalibrace",
+      "type": "Troubleshooting",
+      "why": "Velmi dobrý Samsung evergreen a nelze ho odbýt jednou větou.",
+      "unique": "Samsung Members, diagnostika, mýty o kalibraci, výměna baterie.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 705,
+      "clicks": 20,
+      "ctr": 0.028368794326241134,
+      "position": 6.058156028368795,
+      "qcount": 6,
+      "impressions_90d": 317,
+      "sk_impressions": 73,
+      "sk_position": 3.095890410958904,
+      "top_queries": [
+        {
+          "keys": [
+            "stav baterie samsung"
+          ],
+          "clicks": 7,
+          "impressions": 212,
+          "ctr": 0.0330188679245283,
+          "position": 5.6745283018867925,
+          "_q": "stav baterie samsung",
+          "_n": "stav baterie samsung"
+        },
+        {
+          "keys": [
+            "kondice baterie samsung"
+          ],
+          "clicks": 3,
+          "impressions": 143,
+          "ctr": 0.02097902097902098,
+          "position": 5.496503496503497,
+          "_q": "kondice baterie samsung",
+          "_n": "kondice baterie samsung"
+        },
+        {
+          "keys": [
+            "jak zjistit kondici baterie samsung"
+          ],
+          "clicks": 2,
+          "impressions": 134,
+          "ctr": 0.014925373134328358,
+          "position": 6.037313432835821,
+          "_q": "jak zjistit kondici baterie samsung",
+          "_n": "jak zjistit kondici baterie samsung"
+        },
+        {
+          "keys": [
+            "kalibrace baterie samsung"
+          ],
+          "clicks": 8,
+          "impressions": 98,
+          "ctr": 0.08163265306122448,
+          "position": 6.612244897959184,
+          "_q": "kalibrace baterie samsung",
+          "_n": "kalibrace baterie samsung"
+        },
+        {
+          "keys": [
+            "jak zjistit stav baterie samsung"
+          ],
+          "clicks": 0,
+          "impressions": 74,
+          "ctr": 0,
+          "position": 7.013513513513513,
+          "_q": "jak zjistit stav baterie samsung",
+          "_n": "jak zjistit stav baterie samsung"
+        },
+        {
+          "keys": [
+            "test baterie samsung"
+          ],
+          "clicks": 0,
+          "impressions": 44,
+          "ctr": 0,
+          "position": 6.954545454545454,
+          "_q": "test baterie samsung",
+          "_n": "test baterie samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/05/09/jak-na-samsungu-zkontrolovat-stav-baterie/",
+      "target_path": "/2023/05/09/jak-na-samsungu-zkontrolovat-stav-baterie/",
+      "page_imp": 548,
+      "page_clicks": 12,
+      "page_pos": 5.786496350364963,
+      "action": "UPDATE",
+      "score": 2011.4767627192732,
+      "serp_adjusted_score": 3862.0353844210044,
+      "http_status": "HTTP 200",
+      "rank_v2": 11
+    },
+    {
+      "title": "Bluetooth na Samsungu: párování, Dual Audio a dosah",
+      "type": "Troubleshooting",
+      "why": "Praktický evergreen, dobře rozšířitelný proti direct answer.",
+      "unique": "Reset párování, kodeky, Dual Audio, sluchátka, auto, dosah.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 1069,
+      "clicks": 83,
+      "ctr": 0.07764265668849392,
+      "position": 11.039289055191768,
+      "qcount": 209,
+      "impressions_90d": 264,
+      "sk_impressions": 383,
+      "sk_position": 11.72845953002611,
+      "top_queries": [
+        {
+          "keys": [
+            "bluetooth"
+          ],
+          "clicks": 54,
+          "impressions": 422,
+          "ctr": 0.12796208530805686,
+          "position": 9.338862559241706,
+          "_q": "bluetooth",
+          "_n": "bluetooth"
+        },
+        {
+          "keys": [
+            "s25 ultra s pen bluetooth"
+          ],
+          "clicks": 10,
+          "impressions": 46,
+          "ctr": 0.21739130434782608,
+          "position": 3.4565217391304346,
+          "_q": "s25 ultra s pen bluetooth",
+          "_n": "s25 ultra s pen bluetooth"
+        },
+        {
+          "keys": [
+            "dual audio bluetooth"
+          ],
+          "clicks": 1,
+          "impressions": 35,
+          "ctr": 0.02857142857142857,
+          "position": 8.285714285714285,
+          "_q": "dual audio bluetooth",
+          "_n": "dual audio bluetooth"
+        },
+        {
+          "keys": [
+            "bluetooth reproduktor"
+          ],
+          "clicks": 0,
+          "impressions": 27,
+          "ctr": 0,
+          "position": 11.407407407407407,
+          "_q": "bluetooth reproduktor",
+          "_n": "bluetooth reproduktor"
+        },
+        {
+          "keys": [
+            "jak daleko dosáhne bluetooth"
+          ],
+          "clicks": 0,
+          "impressions": 24,
+          "ctr": 0,
+          "position": 9.291666666666666,
+          "_q": "jak daleko dosáhne bluetooth",
+          "_n": "jak daleko dosahne bluetooth"
+        },
+        {
+          "keys": [
+            "bluetooth dual audio"
+          ],
+          "clicks": 0,
+          "impressions": 20,
+          "ctr": 0,
+          "position": 9,
+          "_q": "bluetooth dual audio",
+          "_n": "bluetooth dual audio"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/03/11/bezeztratovy-zvuk-pro-kazdeho-bluetooth-ceka-zasadni-zmena-a-mohl-by-ji-mit-i-samsung/",
+      "target_path": "/2026/03/11/bezeztratovy-zvuk-pro-kazdeho-bluetooth-ceka-zasadni-zmena-a-mohl-by-ji-mit-i-samsung/",
+      "page_imp": 432,
+      "page_clicks": 54,
+      "page_pos": 9.50925925925926,
+      "action": "UPDATE",
+      "score": 1766.4081965475912,
+      "serp_adjusted_score": 3391.503737371375,
+      "http_status": "HTTP 200",
+      "rank_v2": 12
+    },
+    {
+      "title": "Galaxy Watch ciferníky zdarma: kde je hledat bezpečně",
+      "type": "How-to",
+      "why": "Přesný long-tail s praktickou hodnotou a slabou direct-answer náhradou.",
+      "unique": "Galaxy Wearable, Play Store, placené/zdarma, bezpečnost a baterie.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 1243,
+      "clicks": 84,
+      "ctr": 0.06757843925985518,
+      "position": 12.785197103781174,
+      "qcount": 4,
+      "impressions_90d": 659,
+      "sk_impressions": 161,
+      "sk_position": 4.3354037267080745,
+      "top_queries": [
+        {
+          "keys": [
+            "galaxy watch ciferníky zdarma"
+          ],
+          "clicks": 29,
+          "impressions": 753,
+          "ctr": 0.03851261620185923,
+          "position": 17.831341301460824,
+          "_q": "galaxy watch ciferníky zdarma",
+          "_n": "galaxy watch ciferniky zdarma"
+        },
+        {
+          "keys": [
+            "galaxy watch nejlepší ciferníky"
+          ],
+          "clicks": 36,
+          "impressions": 243,
+          "ctr": 0.14814814814814814,
+          "position": 3.3045267489711936,
+          "_q": "galaxy watch nejlepší ciferníky",
+          "_n": "galaxy watch nejlepsi ciferniky"
+        },
+        {
+          "keys": [
+            "ciferníky samsung galaxy watch zdarma"
+          ],
+          "clicks": 13,
+          "impressions": 178,
+          "ctr": 0.07303370786516854,
+          "position": 7.174157303370786,
+          "_q": "ciferníky samsung galaxy watch zdarma",
+          "_n": "ciferniky samsung galaxy watch zdarma"
+        },
+        {
+          "keys": [
+            "ciferníky samsung galaxy watch"
+          ],
+          "clicks": 6,
+          "impressions": 69,
+          "ctr": 0.08695652173913043,
+          "position": 5.579710144927536,
+          "_q": "ciferníky samsung galaxy watch",
+          "_n": "ciferniky samsung galaxy watch"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/09/27/stahnete-si-na-galaxy-watch-nove-ciferniky-one-ui-6-watch/",
+      "target_path": "/2024/09/27/stahnete-si-na-galaxy-watch-nove-ciferniky-one-ui-6-watch/",
+      "page_imp": 679,
+      "page_clicks": 38,
+      "page_pos": 8.871870397643594,
+      "action": "UPDATE",
+      "score": 1429.2817333316575,
+      "serp_adjusted_score": 2744.2209279967824,
+      "http_status": "HTTP 200",
+      "rank_v2": 13
+    },
+    {
+      "title": "Google úložiště na Samsungu: co zabírá místo a jak ho uvolnit",
+      "type": "How-to",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Google Fotky, Disk, Gmail, zálohy telefonu a bezpečné uvolnění místa.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 846,
+      "clicks": 1,
+      "ctr": 0.001182033096926714,
+      "position": 10.483451536643026,
+      "qcount": 16,
+      "impressions_90d": 492,
+      "sk_impressions": 2,
+      "sk_position": 10.0,
+      "top_queries": [
+        {
+          "keys": [
+            "úložiště google"
+          ],
+          "clicks": 0,
+          "impressions": 365,
+          "ctr": 0,
+          "position": 10.219178082191782,
+          "_q": "úložiště google",
+          "_n": "uloziste google"
+        },
+        {
+          "keys": [
+            "google úložiště"
+          ],
+          "clicks": 0,
+          "impressions": 198,
+          "ctr": 0,
+          "position": 11.212121212121213,
+          "_q": "google úložiště",
+          "_n": "google uloziste"
+        },
+        {
+          "keys": [
+            "cloudové úložiště google"
+          ],
+          "clicks": 1,
+          "impressions": 140,
+          "ctr": 0.007142857142857143,
+          "position": 9.75,
+          "_q": "cloudové úložiště google",
+          "_n": "cloudove uloziste google"
+        },
+        {
+          "keys": [
+            "google fotky úložiště"
+          ],
+          "clicks": 0,
+          "impressions": 26,
+          "ctr": 0,
+          "position": 9.76923076923077,
+          "_q": "google fotky úložiště",
+          "_n": "google fotky uloziste"
+        },
+        {
+          "keys": [
+            "google úložiště fotek"
+          ],
+          "clicks": 0,
+          "impressions": 21,
+          "ctr": 0,
+          "position": 10.523809523809524,
+          "_q": "google úložiště fotek",
+          "_n": "google uloziste fotek"
+        },
+        {
+          "keys": [
+            "jak vyčistit úložiště google"
+          ],
+          "clicks": 0,
+          "impressions": 19,
+          "ctr": 0,
+          "position": 12.31578947368421,
+          "_q": "jak vyčistit úložiště google",
+          "_n": "jak vycistit uloziste google"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/06/28/platite-googlu-za-vetsi-uloziste-mozna-zbytecne-mne-stacilo-v-telefonu-zmenit-jedno-zapomenute-nastaveni/",
+      "target_path": "/2026/06/28/platite-googlu-za-vetsi-uloziste-mozna-zbytecne-mne-stacilo-v-telefonu-zmenit-jedno-zapomenute-nastaveni/",
+      "page_imp": 119,
+      "page_clicks": 0,
+      "page_pos": 9.731092436974789,
+      "action": "UPDATE",
+      "score": 1272.8523167848703,
+      "serp_adjusted_score": 1272.8523167848703,
+      "http_status": "HTTP 200",
+      "rank_v2": 14
+    },
+    {
+      "title": "Samsung Cloud: co zálohuje a co už ne",
+      "type": "Definition",
+      "why": "Samsung-specific evergreen s vysokou potřebou vysvětlení.",
+      "unique": "Záloha nastavení, Galerie/OneDrive, Smart Switch, obnova.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 409,
+      "clicks": 6,
+      "ctr": 0.014669926650366748,
+      "position": 11.836185819070904,
+      "qcount": 17,
+      "impressions_90d": 217,
+      "sk_impressions": 280,
+      "sk_position": 6.95,
+      "top_queries": [
+        {
+          "keys": [
+            "samsung cloud"
+          ],
+          "clicks": 4,
+          "impressions": 347,
+          "ctr": 0.011527377521613832,
+          "position": 11.069164265129682,
+          "_q": "samsung cloud",
+          "_n": "samsung cloud"
+        },
+        {
+          "keys": [
+            "samsung cloud končí"
+          ],
+          "clicks": 0,
+          "impressions": 19,
+          "ctr": 0,
+          "position": 5.368421052631579,
+          "_q": "samsung cloud končí",
+          "_n": "samsung cloud konci"
+        },
+        {
+          "keys": [
+            "samsung cloud cena"
+          ],
+          "clicks": 0,
+          "impressions": 17,
+          "ctr": 0,
+          "position": 32.470588235294116,
+          "_q": "samsung cloud cena",
+          "_n": "samsung cloud cena"
+        },
+        {
+          "keys": [
+            "samsung cloud fotky"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 17.5,
+          "_q": "samsung cloud fotky",
+          "_n": "samsung cloud fotky"
+        },
+        {
+          "keys": [
+            "samsung cloud onedrive"
+          ],
+          "clicks": 1,
+          "impressions": 4,
+          "ctr": 0.25,
+          "position": 10,
+          "_q": "samsung cloud onedrive",
+          "_n": "samsung cloud onedrive"
+        },
+        {
+          "keys": [
+            "samsung cloud co to je"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 13.333333333333334,
+          "_q": "samsung cloud co to je",
+          "_n": "samsung cloud co to je"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/06/09/prevedte-si-vsechny-sve-zalohy-vcas-samsung-cloud-k-tomuto-datu-konci-s-dalsi-podporou/",
+      "target_path": "/2023/06/09/prevedte-si-vsechny-sve-zalohy-vcas-samsung-cloud-k-tomuto-datu-konci-s-dalsi-podporou/",
+      "page_imp": 214,
+      "page_clicks": 2,
+      "page_pos": 12.5,
+      "action": "UPDATE",
+      "score": 634.2159133329549,
+      "serp_adjusted_score": 1217.6945535992734,
+      "http_status": "HTTP 200",
+      "rank_v2": 15
+    },
+    {
+      "title": "Quick Share na Samsungu: sdílení souborů a problémy",
+      "type": "Troubleshooting",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Sdílení mezi Samsungy, Androidem a Windows, viditelnost zařízení a oprávnění.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 266,
+      "clicks": 74,
+      "ctr": 0.2781954887218045,
+      "position": 6.146616541353383,
+      "qcount": 47,
+      "impressions_90d": 84,
+      "sk_impressions": 23,
+      "sk_position": 11.608695652173912,
+      "top_queries": [
+        {
+          "keys": [
+            "quick share"
+          ],
+          "clicks": 72,
+          "impressions": 178,
+          "ctr": 0.4044943820224719,
+          "position": 4.561797752808989,
+          "_q": "quick share",
+          "_n": "quick share"
+        },
+        {
+          "keys": [
+            "quick share samsung"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 10.11111111111111,
+          "_q": "quick share samsung",
+          "_n": "quick share samsung"
+        },
+        {
+          "keys": [
+            "samsung quick share"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 9.333333333333334,
+          "_q": "samsung quick share",
+          "_n": "samsung quick share"
+        },
+        {
+          "keys": [
+            "samsung quick share to iphone"
+          ],
+          "clicks": 1,
+          "impressions": 7,
+          "ctr": 0.14285714285714285,
+          "position": 8.571428571428571,
+          "_q": "samsung quick share to iphone",
+          "_n": "samsung quick share to iphone"
+        },
+        {
+          "keys": [
+            "quick share airdrop"
+          ],
+          "clicks": 1,
+          "impressions": 4,
+          "ctr": 0.25,
+          "position": 6.5,
+          "_q": "quick share airdrop",
+          "_n": "quick share airdrop"
+        },
+        {
+          "keys": [
+            "quick share one ui 8.5"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 6,
+          "_q": "quick share one ui 8.5",
+          "_n": "quick share one ui 8 5"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/04/20/proc-vam-na-samsungu-nefunguje-airdrop-na-vine-muze-byt-jediny-znak/",
+      "target_path": "/2026/04/20/proc-vam-na-samsungu-nefunguje-airdrop-na-vine-muze-byt-jediny-znak/",
+      "page_imp": 137,
+      "page_clicks": 69,
+      "page_pos": 2.562043795620438,
+      "action": "UPDATE",
+      "score": 649.6839473684212,
+      "serp_adjusted_score": 649.6839473684212,
+      "http_status": "HTTP 200",
+      "rank_v2": 16
+    },
+    {
+      "title": "Galaxy Watch nejdou restartovat nebo nereagují",
+      "type": "Troubleshooting",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Tvrdý restart Galaxy Watch, nabíjení, tlačítka, Wear OS a kdy udělat tovární reset.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 224,
+      "clicks": 6,
+      "ctr": 0.026785714285714284,
+      "position": 4.0625,
+      "qcount": 1,
+      "impressions_90d": 109,
+      "sk_impressions": 1,
+      "sk_position": 1.0,
+      "top_queries": [
+        {
+          "keys": [
+            "jak restartovat hodinky samsung"
+          ],
+          "clicks": 6,
+          "impressions": 224,
+          "ctr": 0.026785714285714284,
+          "position": 4.0625,
+          "_q": "jak restartovat hodinky samsung",
+          "_n": "jak restartovat hodinky samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/03/05/jak-restartovat-galaxy-watch-a-proc-byste-to-meli-delat/",
+      "target_path": "/2024/03/05/jak-restartovat-galaxy-watch-a-proc-byste-to-meli-delat/",
+      "page_imp": 225,
+      "page_clicks": 5,
+      "page_pos": 4.0488888888888885,
+      "action": "UPDATE",
+      "score": 625.375625,
+      "serp_adjusted_score": 625.375625,
+      "http_status": "HTTP 200",
+      "rank_v2": 17
+    },
+    {
+      "title": "Samsung TV se sama vypíná nebo zapíná",
+      "type": "Troubleshooting",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Časovač, HDMI-CEC, Eco režim, aktualizace, ovladač a servisní diagnostika.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 554,
+      "clicks": 9,
+      "ctr": 0.016245487364620937,
+      "position": 12.512635379061372,
+      "qcount": 22,
+      "impressions_90d": 379,
+      "sk_impressions": 5,
+      "sk_position": 9.4,
+      "top_queries": [
+        {
+          "keys": [
+            "televize samsung"
+          ],
+          "clicks": 0,
+          "impressions": 358,
+          "ctr": 0,
+          "position": 12.569832402234637,
+          "_q": "televize samsung",
+          "_n": "televize samsung"
+        },
+        {
+          "keys": [
+            "televize samsung se sama vypíná a zapíná"
+          ],
+          "clicks": 0,
+          "impressions": 79,
+          "ctr": 0,
+          "position": 7.3924050632911396,
+          "_q": "televize samsung se sama vypíná a zapíná",
+          "_n": "televize samsung se sama vypina a zapina"
+        },
+        {
+          "keys": [
+            "samsung tv aktualizace softwaru"
+          ],
+          "clicks": 3,
+          "impressions": 35,
+          "ctr": 0.08571428571428572,
+          "position": 10.17142857142857,
+          "_q": "samsung tv aktualizace softwaru",
+          "_n": "samsung tv aktualizace softwaru"
+        },
+        {
+          "keys": [
+            "samsung tv aktualizace"
+          ],
+          "clicks": 6,
+          "impressions": 21,
+          "ctr": 0.2857142857142857,
+          "position": 6.0476190476190474,
+          "_q": "samsung tv aktualizace",
+          "_n": "samsung tv aktualizace"
+        },
+        {
+          "keys": [
+            "ambientní osvětlení televize samsung"
+          ],
+          "clicks": 0,
+          "impressions": 21,
+          "ctr": 0,
+          "position": 19.095238095238095,
+          "_q": "ambientní osvětlení televize samsung",
+          "_n": "ambientni osvetleni televize samsung"
+        },
+        {
+          "keys": [
+            "aplikace televize samsung"
+          ],
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 23.727272727272727,
+          "_q": "aplikace televize samsung",
+          "_n": "aplikace televize samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/05/03/nova-aktualizace-samsung-tv-vypada-skvele-ale-ma-jednu-vadu-takhle-ji-opravite/",
+      "target_path": "/2026/05/03/nova-aktualizace-samsung-tv-vypada-skvele-ale-ma-jednu-vadu-takhle-ji-opravite/",
+      "page_imp": 21,
+      "page_clicks": 6,
+      "page_pos": 6.476190476190476,
+      "action": "UPDATE",
+      "score": 609.9205776173285,
+      "serp_adjusted_score": 609.9205776173285,
+      "http_status": "HTTP 200",
+      "rank_v2": 18
+    },
+    {
+      "title": "Wi‑Fi volání na Samsungu: kdy ho zapnout a proč nefunguje",
+      "type": "Troubleshooting",
+      "why": "Menší objem, ale Samsung-relevantní evergreen s operátorskými rozdíly.",
+      "unique": "Aktivace u operátora, VoWiFi ikona, roaming, signál, modely.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 694,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 24.878962536023053,
+      "qcount": 13,
+      "impressions_90d": 288,
+      "sk_impressions": 1,
+      "sk_position": 5.0,
+      "top_queries": [
+        {
+          "keys": [
+            "wifi volání"
+          ],
+          "clicks": 0,
+          "impressions": 471,
+          "ctr": 0,
+          "position": 24.290870488322717,
+          "_q": "wifi volání",
+          "_n": "wifi volani"
+        },
+        {
+          "keys": [
+            "volání přes wifi"
+          ],
+          "clicks": 0,
+          "impressions": 142,
+          "ctr": 0,
+          "position": 24.161971830985916,
+          "_q": "volání přes wifi",
+          "_n": "volani pres wifi"
+        },
+        {
+          "keys": [
+            "wifi volani"
+          ],
+          "clicks": 0,
+          "impressions": 20,
+          "ctr": 0,
+          "position": 22.7,
+          "_q": "wifi volani",
+          "_n": "wifi volani"
+        },
+        {
+          "keys": [
+            "vodafone wifi volani"
+          ],
+          "clicks": 0,
+          "impressions": 14,
+          "ctr": 0,
+          "position": 41.857142857142854,
+          "_q": "vodafone wifi volani",
+          "_n": "vodafone wifi volani"
+        },
+        {
+          "keys": [
+            "volani pres wifi"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 27.153846153846153,
+          "_q": "volani pres wifi",
+          "_n": "volani pres wifi"
+        },
+        {
+          "keys": [
+            "wifi volání samsung"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 4.222222222222222,
+          "_q": "wifi volání samsung",
+          "_n": "wifi volani samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/04/08/co-to-je-wi-fi-volani/",
+      "target_path": "/2024/04/08/co-to-je-wi-fi-volani/",
+      "page_imp": 4,
+      "page_clicks": 0,
+      "page_pos": 21.5,
+      "action": "UPDATE",
+      "score": 309.33292500000005,
+      "serp_adjusted_score": 593.9192160000001,
+      "http_status": "HTTP 200",
+      "rank_v2": 19
+    },
+    {
+      "title": "Hlasová schránka na Samsungu: vypnutí a nastavení",
+      "type": "How-to",
+      "why": "Telekom utility dotaz, direct answer často neřeší operátory.",
+      "unique": "Kódy operátorů, přesměrování, Samsung Telefon, ověření.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 604,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 17.74337748344371,
+      "qcount": 9,
+      "impressions_90d": 134,
+      "sk_impressions": 11,
+      "sk_position": 80.0909090909091,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zrušit hlasovou schránku"
+          ],
+          "clicks": 0,
+          "impressions": 412,
+          "ctr": 0,
+          "position": 13.009708737864077,
+          "_q": "jak zrušit hlasovou schránku",
+          "_n": "jak zrusit hlasovou schranku"
+        },
+        {
+          "keys": [
+            "hlasová schránka"
+          ],
+          "clicks": 0,
+          "impressions": 75,
+          "ctr": 0,
+          "position": 45.12,
+          "_q": "hlasová schránka",
+          "_n": "hlasova schranka"
+        },
+        {
+          "keys": [
+            "jak zrušit hlasovou schránku t mobile"
+          ],
+          "clicks": 0,
+          "impressions": 43,
+          "ctr": 0,
+          "position": 13.209302325581396,
+          "_q": "jak zrušit hlasovou schránku t mobile",
+          "_n": "jak zrusit hlasovou schranku t mobile"
+        },
+        {
+          "keys": [
+            "jak zrušit hlasovou schránku o2"
+          ],
+          "clicks": 0,
+          "impressions": 28,
+          "ctr": 0,
+          "position": 21.178571428571427,
+          "_q": "jak zrušit hlasovou schránku o2",
+          "_n": "jak zrusit hlasovou schranku o2"
+        },
+        {
+          "keys": [
+            "jak vypnout hlasovou schránku"
+          ],
+          "clicks": 0,
+          "impressions": 26,
+          "ctr": 0,
+          "position": 15.076923076923077,
+          "_q": "jak vypnout hlasovou schránku",
+          "_n": "jak vypnout hlasovou schranku"
+        },
+        {
+          "keys": [
+            "jak vypnout hlasovou schránku o2"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 21,
+          "_q": "jak vypnout hlasovou schránku o2",
+          "_n": "jak vypnout hlasovou schranku o2"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/10/20/jak-zrusit-hlasovou-schranku/",
+      "target_path": "/2023/10/20/jak-zrusit-hlasovou-schranku/",
+      "page_imp": 528,
+      "page_clicks": 0,
+      "page_pos": 13.945075757575758,
+      "action": "UPDATE",
+      "score": 267.3432988410596,
+      "serp_adjusted_score": 513.2991337748344,
+      "http_status": "HTTP 200",
+      "rank_v2": 20
+    },
+    {
+      "title": "Samsung DeX: co umí a pro koho dává smysl",
+      "type": "Definition",
+      "why": "Menší objem, ale čistě Samsung unikát a dlouhodobý obsah.",
+      "unique": "Monitory, Windows app, podporované modely, limity práce.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 162,
+      "clicks": 4,
+      "ctr": 0.024691358024691357,
+      "position": 16.61111111111111,
+      "qcount": 52,
+      "impressions_90d": 99,
+      "sk_impressions": 303,
+      "sk_position": 10.026402640264026,
+      "top_queries": [
+        {
+          "keys": [
+            "samsung dex"
+          ],
+          "clicks": 1,
+          "impressions": 47,
+          "ctr": 0.02127659574468085,
+          "position": 21.48936170212766,
+          "_q": "samsung dex",
+          "_n": "samsung dex"
+        },
+        {
+          "keys": [
+            "samsung dex station"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 31.555555555555557,
+          "_q": "samsung dex station",
+          "_n": "samsung dex station"
+        },
+        {
+          "keys": [
+            "samsung dex app"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 12.142857142857142,
+          "_q": "samsung dex app",
+          "_n": "samsung dex app"
+        },
+        {
+          "keys": [
+            "samsung dex notebook"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 8.285714285714285,
+          "_q": "samsung dex notebook",
+          "_n": "samsung dex notebook"
+        },
+        {
+          "keys": [
+            "samsung dex kabel"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 17.666666666666668,
+          "_q": "samsung dex kabel",
+          "_n": "samsung dex kabel"
+        },
+        {
+          "keys": [
+            "samsung dex pad"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 23.166666666666668,
+          "_q": "samsung dex pad",
+          "_n": "samsung dex pad"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/08/20/5-nejlepsich-veci-ktere-muzete-delat-v-rezimu-samsung-dex/",
+      "target_path": "/2023/08/20/5-nejlepsich-veci-ktere-muzete-delat-v-rezimu-samsung-dex/",
+      "page_imp": 14,
+      "page_clicks": 1,
+      "page_pos": 35.0,
+      "action": "UPDATE",
+      "score": 81.23702000000002,
+      "serp_adjusted_score": 155.97507840000003,
+      "http_status": "HTTP 200",
+      "rank_v2": 21
+    },
+    {
+      "title": "Galaxy Watch: které hodinky Samsung vybrat",
+      "type": "Commercial evergreen",
+      "why": "Nákupní evergreen, ale pozor na modelové leaky; cílit na výběr podle uživatele.",
+      "unique": "Baterie, velikost, LTE, sport, kompatibilita, starší modely.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 51051,
+      "clicks": 8542,
+      "ctr": 0.16732287320522615,
+      "position": 7.381089498736557,
+      "qcount": 1106,
+      "impressions_90d": 26017,
+      "sk_impressions": 8162,
+      "sk_position": 14.326145552560646,
+      "top_queries": [
+        {
+          "keys": [
+            "samsung galaxy watch ultra"
+          ],
+          "clicks": 4617,
+          "impressions": 13827,
+          "ctr": 0.33391191147754395,
+          "position": 3.959716496709337,
+          "_q": "samsung galaxy watch ultra",
+          "_n": "samsung galaxy watch ultra"
+        },
+        {
+          "keys": [
+            "samsung galaxy watch"
+          ],
+          "clicks": 2852,
+          "impressions": 13721,
+          "ctr": 0.20785657022082937,
+          "position": 5.806938269805408,
+          "_q": "samsung galaxy watch",
+          "_n": "samsung galaxy watch"
+        },
+        {
+          "keys": [
+            "galaxy watch"
+          ],
+          "clicks": 39,
+          "impressions": 2678,
+          "ctr": 0.014563106796116505,
+          "position": 9.154592979835698,
+          "_q": "galaxy watch",
+          "_n": "galaxy watch"
+        },
+        {
+          "keys": [
+            "samsung galaxy watch ultra2"
+          ],
+          "clicks": 11,
+          "impressions": 2319,
+          "ctr": 0.004743423889607589,
+          "position": 4.228115567054765,
+          "_q": "samsung galaxy watch ultra2",
+          "_n": "samsung galaxy watch ultra2"
+        },
+        {
+          "keys": [
+            "galaxy watch ultra2"
+          ],
+          "clicks": 20,
+          "impressions": 2233,
+          "ctr": 0.008956560680698611,
+          "position": 5.196596506941335,
+          "_q": "galaxy watch ultra2",
+          "_n": "galaxy watch ultra2"
+        },
+        {
+          "keys": [
+            "samsung hodinky"
+          ],
+          "clicks": 2,
+          "impressions": 1810,
+          "ctr": 0.0011049723756906078,
+          "position": 14.620441988950276,
+          "_q": "samsung hodinky",
+          "_n": "samsung hodinky"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/04/13/vime-co-vam-neprimerene-vybiji-galaxy-watch-problem-je-v-aplikaci-kterou-ma-kazdy/",
+      "target_path": "/2026/04/13/vime-co-vam-neprimerene-vybiji-galaxy-watch-problem-je-v-aplikaci-kterou-ma-kazdy/",
+      "page_imp": 4632,
+      "page_clicks": 957,
+      "page_pos": 5.445379965457685,
+      "action": "UPDATE",
+      "score": 96599.42577488688,
+      "serp_adjusted_score": 91769.45448614254,
+      "http_status": "HTTP 200",
+      "rank_v2": 22
+    },
+    {
+      "title": "Stažené soubory v Samsungu: kde jsou a proč nejdou najít",
+      "type": "How-to",
+      "why": "Silný utility intent, direct answer nestačí pokud přidáme Samsung My Files a zdroje stažení.",
+      "unique": "Samsung Moje soubory, Chrome, WhatsApp, PDF, galerie, vyhledávání.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 12653,
+      "clicks": 3,
+      "ctr": 0.00023709792144155535,
+      "position": 11.528807397455148,
+      "qcount": 56,
+      "impressions_90d": 5951,
+      "sk_impressions": 139,
+      "sk_position": 9.546762589928058,
+      "top_queries": [
+        {
+          "keys": [
+            "stažené soubory"
+          ],
+          "clicks": 2,
+          "impressions": 9740,
+          "ctr": 0.0002053388090349076,
+          "position": 10.935728952772074,
+          "_q": "stažené soubory",
+          "_n": "stazene soubory"
+        },
+        {
+          "keys": [
+            "moje soubory"
+          ],
+          "clicks": 0,
+          "impressions": 398,
+          "ctr": 0,
+          "position": 10.972361809045227,
+          "_q": "moje soubory",
+          "_n": "moje soubory"
+        },
+        {
+          "keys": [
+            "stažené soubory v mobilu"
+          ],
+          "clicks": 0,
+          "impressions": 329,
+          "ctr": 0,
+          "position": 13.577507598784194,
+          "_q": "stažené soubory v mobilu",
+          "_n": "stazene soubory v mobilu"
+        },
+        {
+          "keys": [
+            "moje soubory samsung"
+          ],
+          "clicks": 0,
+          "impressions": 289,
+          "ctr": 0,
+          "position": 9.546712802768166,
+          "_q": "moje soubory samsung",
+          "_n": "moje soubory samsung"
+        },
+        {
+          "keys": [
+            "stažené soubory v telefonu"
+          ],
+          "clicks": 0,
+          "impressions": 256,
+          "ctr": 0,
+          "position": 13.921875,
+          "_q": "stažené soubory v telefonu",
+          "_n": "stazene soubory v telefonu"
+        },
+        {
+          "keys": [
+            "soubory"
+          ],
+          "clicks": 0,
+          "impressions": 254,
+          "ctr": 0,
+          "position": 12.311023622047244,
+          "_q": "soubory",
+          "_n": "soubory"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2022/07/09/kde-najit-stazene-soubory-v-samsungu-galaxy/",
+      "target_path": "/2022/07/09/kde-najit-stazene-soubory-v-samsungu-galaxy/",
+      "page_imp": 9717,
+      "page_clicks": 2,
+      "page_pos": 10.84038283420809,
+      "action": "REWRITE",
+      "score": 22853.23479957753,
+      "serp_adjusted_score": 21710.573059598653,
+      "http_status": "HTTP 200",
+      "rank_v2": 23
+    },
+    {
+      "title": "SIM PIN na Samsungu: vypnutí, změna a bezpečnost",
+      "type": "How-to",
+      "why": "Přesný Samsung/Android utility intent s dobrými pozicemi.",
+      "unique": "Postup v One UI, PUK, eSIM, bezpečnostní tradeoff.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1725,
+      "clicks": 21,
+      "ctr": 0.01217391304347826,
+      "position": 6.365797101449275,
+      "qcount": 10,
+      "impressions_90d": 933,
+      "sk_impressions": 98,
+      "sk_position": 9.040816326530614,
+      "top_queries": [
+        {
+          "keys": [
+            "jak vypnout pin na sim kartě"
+          ],
+          "clicks": 6,
+          "impressions": 679,
+          "ctr": 0.008836524300441826,
+          "position": 6.335787923416789,
+          "_q": "jak vypnout pin na sim kartě",
+          "_n": "jak vypnout pin na sim karte"
+        },
+        {
+          "keys": [
+            "jak zrušit pin na sim kartě"
+          ],
+          "clicks": 10,
+          "impressions": 592,
+          "ctr": 0.016891891891891893,
+          "position": 4.961148648648649,
+          "_q": "jak zrušit pin na sim kartě",
+          "_n": "jak zrusit pin na sim karte"
+        },
+        {
+          "keys": [
+            "jak vypnout pin sim karty"
+          ],
+          "clicks": 0,
+          "impressions": 109,
+          "ctr": 0,
+          "position": 7.146788990825688,
+          "_q": "jak vypnout pin sim karty",
+          "_n": "jak vypnout pin sim karty"
+        },
+        {
+          "keys": [
+            "zrušení pin na sim kartě"
+          ],
+          "clicks": 0,
+          "impressions": 95,
+          "ctr": 0,
+          "position": 5.294736842105263,
+          "_q": "zrušení pin na sim kartě",
+          "_n": "zruseni pin na sim karte"
+        },
+        {
+          "keys": [
+            "jak vypnout pin sim karty xiaomi"
+          ],
+          "clicks": 0,
+          "impressions": 92,
+          "ctr": 0,
+          "position": 11.565217391304348,
+          "_q": "jak vypnout pin sim karty xiaomi",
+          "_n": "jak vypnout pin sim karty xiaomi"
+        },
+        {
+          "keys": [
+            "změna pin sim karty"
+          ],
+          "clicks": 0,
+          "impressions": 86,
+          "ctr": 0,
+          "position": 12.046511627906977,
+          "_q": "změna pin sim karty",
+          "_n": "zmena pin sim karty"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/05/25/jak-zrusit-pin-na-sim-karte/",
+      "target_path": "/2023/05/25/jak-zrusit-pin-na-sim-karte/",
+      "page_imp": 1537,
+      "page_clicks": 21,
+      "page_pos": 6.0227716330513985,
+      "action": "UPDATE",
+      "score": 5278.588546453215,
+      "serp_adjusted_score": 5014.659119130554,
+      "http_status": "HTTP 200",
+      "rank_v2": 24
+    },
+    {
+      "title": "Bixby na Samsungu: co to je a jak ho vypnout",
+      "type": "How-to",
+      "why": "Samsung-specific intent, vhodné spojit vysvětlení + vypnutí tlačítka.",
+      "unique": "Bixby vs Gemini, čeština, boční tlačítko, rutiny, soukromí.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1444,
+      "clicks": 190,
+      "ctr": 0.13157894736842105,
+      "position": 9.855263157894736,
+      "qcount": 70,
+      "impressions_90d": 480,
+      "sk_impressions": 651,
+      "sk_position": 10.600614439324117,
+      "top_queries": [
+        {
+          "keys": [
+            "bixby"
+          ],
+          "clicks": 183,
+          "impressions": 729,
+          "ctr": 0.25102880658436216,
+          "position": 6.2181069958847734,
+          "_q": "bixby",
+          "_n": "bixby"
+        },
+        {
+          "keys": [
+            "bixby čeština"
+          ],
+          "clicks": 0,
+          "impressions": 252,
+          "ctr": 0,
+          "position": 10.357142857142858,
+          "_q": "bixby čeština",
+          "_n": "bixby cestina"
+        },
+        {
+          "keys": [
+            "bixby co to je"
+          ],
+          "clicks": 1,
+          "impressions": 72,
+          "ctr": 0.013888888888888888,
+          "position": 17.583333333333332,
+          "_q": "bixby co to je",
+          "_n": "bixby co to je"
+        },
+        {
+          "keys": [
+            "co je bixby"
+          ],
+          "clicks": 1,
+          "impressions": 50,
+          "ctr": 0.02,
+          "position": 26.46,
+          "_q": "co je bixby",
+          "_n": "co je bixby"
+        },
+        {
+          "keys": [
+            "jak vypnout bixby"
+          ],
+          "clicks": 1,
+          "impressions": 36,
+          "ctr": 0.027777777777777776,
+          "position": 4.027777777777778,
+          "_q": "jak vypnout bixby",
+          "_n": "jak vypnout bixby"
+        },
+        {
+          "keys": [
+            "samsung bixby"
+          ],
+          "clicks": 0,
+          "impressions": 35,
+          "ctr": 0,
+          "position": 28.285714285714285,
+          "_q": "samsung bixby",
+          "_n": "samsung bixby"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/04/01/bixby-4-0-je-tu-velka-aktualizace-pro-galaxy-s26-meni-pravidla-hry/",
+      "target_path": "/2026/04/01/bixby-4-0-je-tu-velka-aktualizace-pro-galaxy-s26-meni-pravidla-hry/",
+      "page_imp": 438,
+      "page_clicks": 179,
+      "page_pos": 3.67351598173516,
+      "action": "UPDATE",
+      "score": 2872.289170435856,
+      "serp_adjusted_score": 2728.6747119140628,
+      "http_status": "HTTP 200",
+      "rank_v2": 25
+    },
+    {
+      "title": "Fotoaparát Samsung: nastavení, Pro režim a nejlepší aplikace",
+      "type": "How-to",
+      "why": "Foto nastavení je praktičtější než obecný dotaz “fotoaparát”.",
+      "unique": "Pro režim, rozlišení, noční režim, skenování dokumentů, alternativní appky.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 993,
+      "clicks": 30,
+      "ctr": 0.030211480362537766,
+      "position": 8.856998992950654,
+      "qcount": 10,
+      "impressions_90d": 545,
+      "sk_impressions": 91,
+      "sk_position": 9.637362637362637,
+      "top_queries": [
+        {
+          "keys": [
+            "aplikace fotoaparát"
+          ],
+          "clicks": 3,
+          "impressions": 360,
+          "ctr": 0.008333333333333333,
+          "position": 9.580555555555556,
+          "_q": "aplikace fotoaparát",
+          "_n": "aplikace fotoaparat"
+        },
+        {
+          "keys": [
+            "aplikace fotoaparát android"
+          ],
+          "clicks": 1,
+          "impressions": 190,
+          "ctr": 0.005263157894736842,
+          "position": 7.668421052631579,
+          "_q": "aplikace fotoaparát android",
+          "_n": "aplikace fotoaparat android"
+        },
+        {
+          "keys": [
+            "samsung fotoaparát"
+          ],
+          "clicks": 0,
+          "impressions": 119,
+          "ctr": 0,
+          "position": 12.890756302521009,
+          "_q": "samsung fotoaparát",
+          "_n": "samsung fotoaparat"
+        },
+        {
+          "keys": [
+            "aplikace fotoaparát pro android zdarma"
+          ],
+          "clicks": 0,
+          "impressions": 109,
+          "ctr": 0,
+          "position": 6.541284403669724,
+          "_q": "aplikace fotoaparát pro android zdarma",
+          "_n": "aplikace fotoaparat pro android zdarma"
+        },
+        {
+          "keys": [
+            "nastaveni fotoaparatu samsung"
+          ],
+          "clicks": 19,
+          "impressions": 79,
+          "ctr": 0.24050632911392406,
+          "position": 5.063291139240507,
+          "_q": "nastaveni fotoaparatu samsung",
+          "_n": "nastaveni fotoaparatu samsung"
+        },
+        {
+          "keys": [
+            "samsung nastavení fotoaparátu"
+          ],
+          "clicks": 4,
+          "impressions": 49,
+          "ctr": 0.08163265306122448,
+          "position": 6.448979591836735,
+          "_q": "samsung nastavení fotoaparátu",
+          "_n": "samsung nastaveni fotoaparatu"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/07/19/5-nejlepsich-fotografickych-aplikaci-na-android/",
+      "target_path": "/2023/07/19/5-nejlepsich-fotografickych-aplikaci-na-android/",
+      "page_imp": 695,
+      "page_clicks": 6,
+      "page_pos": 8.17841726618705,
+      "action": "UPDATE",
+      "score": 2131.3057572866087,
+      "serp_adjusted_score": 2024.7404694222782,
+      "http_status": "HTTP 200",
+      "rank_v2": 26
+    },
+    {
+      "title": "Always On Display na Samsungu: baterie, nastavení a vypnutí",
+      "type": "How-to",
+      "why": "Samsung-specific evergreen, direct answer risk snížit dopadem na baterii a režimy.",
+      "unique": "Časový plán, klepnutí, baterie, zamykací obrazovka, notifikace.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 912,
+      "clicks": 5,
+      "ctr": 0.005482456140350877,
+      "position": 10.010964912280702,
+      "qcount": 47,
+      "impressions_90d": 332,
+      "sk_impressions": 70,
+      "sk_position": 9.071428571428571,
+      "top_queries": [
+        {
+          "keys": [
+            "always on display"
+          ],
+          "clicks": 0,
+          "impressions": 415,
+          "ctr": 0,
+          "position": 11.549397590361446,
+          "_q": "always on display",
+          "_n": "always on display"
+        },
+        {
+          "keys": [
+            "always on display samsung"
+          ],
+          "clicks": 2,
+          "impressions": 209,
+          "ctr": 0.009569377990430622,
+          "position": 7.669856459330144,
+          "_q": "always on display samsung",
+          "_n": "always on display samsung"
+        },
+        {
+          "keys": [
+            "co je always on display"
+          ],
+          "clicks": 0,
+          "impressions": 108,
+          "ctr": 0,
+          "position": 10.49074074074074,
+          "_q": "co je always on display",
+          "_n": "co je always on display"
+        },
+        {
+          "keys": [
+            "samsung always on display"
+          ],
+          "clicks": 1,
+          "impressions": 65,
+          "ctr": 0.015384615384615385,
+          "position": 7.553846153846154,
+          "_q": "samsung always on display",
+          "_n": "samsung always on display"
+        },
+        {
+          "keys": [
+            "always on display co to je"
+          ],
+          "clicks": 0,
+          "impressions": 38,
+          "ctr": 0,
+          "position": 11.026315789473685,
+          "_q": "always on display co to je",
+          "_n": "always on display co to je"
+        },
+        {
+          "keys": [
+            "always-on display"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 10.11111111111111,
+          "_q": "always-on display",
+          "_n": "always on display"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/01/28/pouzivate-always-on-display/",
+      "target_path": "/2026/01/28/pouzivate-always-on-display/",
+      "page_imp": 761,
+      "page_clicks": 3,
+      "page_pos": 10.215505913272011,
+      "action": "UPDATE",
+      "score": 2013.976254896338,
+      "serp_adjusted_score": 1913.2774421515212,
+      "http_status": "HTTP 200",
+      "rank_v2": 27
+    },
+    {
+      "title": "Historie v mobilu Samsung: Google, Chrome a prohlížení",
+      "type": "How-to",
+      "why": "Evergreen privacy intent, ale musí být širší než jednovětý postup.",
+      "unique": "Google účet, Chrome, Samsung Internet, YouTube, aktivita na webu.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1802,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 14.072697003329633,
+      "qcount": 7,
+      "impressions_90d": 595,
+      "sk_impressions": 0,
+      "sk_position": null,
+      "top_queries": [
+        {
+          "keys": [
+            "jak vymazat historii v mobilu"
+          ],
+          "clicks": 0,
+          "impressions": 450,
+          "ctr": 0,
+          "position": 8.824444444444445,
+          "_q": "jak vymazat historii v mobilu",
+          "_n": "jak vymazat historii v mobilu"
+        },
+        {
+          "keys": [
+            "smazat historii vyhledávání google"
+          ],
+          "clicks": 0,
+          "impressions": 360,
+          "ctr": 0,
+          "position": 14.925,
+          "_q": "smazat historii vyhledávání google",
+          "_n": "smazat historii vyhledavani google"
+        },
+        {
+          "keys": [
+            "jak vymazat historii vyhledávání google"
+          ],
+          "clicks": 0,
+          "impressions": 328,
+          "ctr": 0,
+          "position": 14.978658536585366,
+          "_q": "jak vymazat historii vyhledávání google",
+          "_n": "jak vymazat historii vyhledavani google"
+        },
+        {
+          "keys": [
+            "smazat historii vyhledávání"
+          ],
+          "clicks": 0,
+          "impressions": 303,
+          "ctr": 0,
+          "position": 17.26732673267327,
+          "_q": "smazat historii vyhledávání",
+          "_n": "smazat historii vyhledavani"
+        },
+        {
+          "keys": [
+            "jak smazat historii vyhledávání"
+          ],
+          "clicks": 0,
+          "impressions": 251,
+          "ctr": 0,
+          "position": 19.01593625498008,
+          "_q": "jak smazat historii vyhledávání",
+          "_n": "jak smazat historii vyhledavani"
+        },
+        {
+          "keys": [
+            "jak vymazat historii google v mobilu"
+          ],
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": 0,
+          "position": 9.87378640776699,
+          "_q": "jak vymazat historii google v mobilu",
+          "_n": "jak vymazat historii google v mobilu"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/06/24/jak-na-mobilu-smazat-historii/",
+      "target_path": "/2024/06/24/jak-na-mobilu-smazat-historii/",
+      "page_imp": 975,
+      "page_clicks": 0,
+      "page_pos": 11.314871794871795,
+      "action": "UPDATE",
+      "score": 1970.5021875000007,
+      "serp_adjusted_score": 1871.9770781250006,
+      "http_status": "HTTP 200",
+      "rank_v2": 28
+    },
+    {
+      "title": "Jak zvětšit klávesnici na mobilu Samsung",
+      "type": "How-to",
+      "why": "Konkrétní accessibility intent pro začátečníky a seniory.",
+      "unique": "Velikost klávesnice, písmo, režim jednou rukou, Gboard.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 660,
+      "clicks": 17,
+      "ctr": 0.025757575757575757,
+      "position": 6.433333333333334,
+      "qcount": 3,
+      "impressions_90d": 334,
+      "sk_impressions": 1,
+      "sk_position": 15.0,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zvětšit klávesnici na mobilu"
+          ],
+          "clicks": 4,
+          "impressions": 345,
+          "ctr": 0.011594202898550725,
+          "position": 4.6173913043478265,
+          "_q": "jak zvětšit klávesnici na mobilu",
+          "_n": "jak zvetsit klavesnici na mobilu"
+        },
+        {
+          "keys": [
+            "nastavení klávesnice v mobilu"
+          ],
+          "clicks": 1,
+          "impressions": 184,
+          "ctr": 0.005434782608695652,
+          "position": 12.228260869565217,
+          "_q": "nastavení klávesnice v mobilu",
+          "_n": "nastaveni klavesnice v mobilu"
+        },
+        {
+          "keys": [
+            "nastavení klávesnice samsung"
+          ],
+          "clicks": 12,
+          "impressions": 131,
+          "ctr": 0.0916030534351145,
+          "position": 3.0763358778625953,
+          "_q": "nastavení klávesnice samsung",
+          "_n": "nastaveni klavesnice samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2022/04/11/jak-zvetsit-klavesnici-na-androidu/",
+      "target_path": "/2022/04/11/jak-zvetsit-klavesnici-na-androidu/",
+      "page_imp": 347,
+      "page_clicks": 4,
+      "page_pos": 4.806916426512969,
+      "action": "REWRITE",
+      "score": 1794.724368323864,
+      "serp_adjusted_score": 1704.9881499076707,
+      "http_status": "HTTP 200",
+      "rank_v2": 29
+    },
+    {
+      "title": "Aplikace Fotoaparát pro Android/Samsung: kdy má smysl náhrada",
+      "type": "Commercial evergreen",
+      "why": "Aplikační výběr je klikovější než základní definice.",
+      "unique": "Open Camera, ProShot, Expert RAW, rizika APK, pro koho nativní stačí.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 729,
+      "clicks": 6,
+      "ctr": 0.00823045267489712,
+      "position": 8.696844993141289,
+      "qcount": 5,
+      "impressions_90d": 377,
+      "sk_impressions": 17,
+      "sk_position": 9.176470588235293,
+      "top_queries": [
+        {
+          "keys": [
+            "aplikace fotoaparát"
+          ],
+          "clicks": 3,
+          "impressions": 360,
+          "ctr": 0.008333333333333333,
+          "position": 9.580555555555556,
+          "_q": "aplikace fotoaparát",
+          "_n": "aplikace fotoaparat"
+        },
+        {
+          "keys": [
+            "aplikace fotoaparát android"
+          ],
+          "clicks": 1,
+          "impressions": 190,
+          "ctr": 0.005263157894736842,
+          "position": 7.668421052631579,
+          "_q": "aplikace fotoaparát android",
+          "_n": "aplikace fotoaparat android"
+        },
+        {
+          "keys": [
+            "aplikace fotoaparát pro android zdarma"
+          ],
+          "clicks": 0,
+          "impressions": 109,
+          "ctr": 0,
+          "position": 6.541284403669724,
+          "_q": "aplikace fotoaparát pro android zdarma",
+          "_n": "aplikace fotoaparat pro android zdarma"
+        },
+        {
+          "keys": [
+            "nejlepší aplikace fotoaparát pro android"
+          ],
+          "clicks": 2,
+          "impressions": 37,
+          "ctr": 0.05405405405405406,
+          "position": 10.297297297297296,
+          "_q": "nejlepší aplikace fotoaparát pro android",
+          "_n": "nejlepsi aplikace fotoaparat pro android"
+        },
+        {
+          "keys": [
+            "aplikace fotoaparát samsung"
+          ],
+          "clicks": 0,
+          "impressions": 33,
+          "ctr": 0,
+          "position": 10.303030303030303,
+          "_q": "aplikace fotoaparát samsung",
+          "_n": "aplikace fotoaparat samsung"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/07/19/5-nejlepsich-fotografickych-aplikaci-na-android/",
+      "target_path": "/2023/07/19/5-nejlepsich-fotografickych-aplikaci-na-android/",
+      "page_imp": 695,
+      "page_clicks": 6,
+      "page_pos": 8.17841726618705,
+      "action": "UPDATE",
+      "score": 1447.0499553078803,
+      "serp_adjusted_score": 1374.6974575424863,
+      "http_status": "HTTP 200",
+      "rank_v2": 30
+    },
+    {
+      "title": "Aplikace vodováha v Samsungu: kdy stačí telefon",
+      "type": "How-to",
+      "why": "Malý, ale evergreen utility long-tail s praktickým použitím.",
+      "unique": "Senzory, přesnost, kalibrace, kdy použít skutečnou vodováhu.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 477,
+      "clicks": 1,
+      "ctr": 0.0020964360587002098,
+      "position": 7.5576519916142555,
+      "qcount": 5,
+      "impressions_90d": 254,
+      "sk_impressions": 9,
+      "sk_position": 4.444444444444445,
+      "top_queries": [
+        {
+          "keys": [
+            "aplikace vodováha"
+          ],
+          "clicks": 1,
+          "impressions": 297,
+          "ctr": 0.003367003367003367,
+          "position": 7.127946127946128,
+          "_q": "aplikace vodováha",
+          "_n": "aplikace vodovaha"
+        },
+        {
+          "keys": [
+            "vodováha aplikace"
+          ],
+          "clicks": 0,
+          "impressions": 85,
+          "ctr": 0,
+          "position": 7.752941176470588,
+          "_q": "vodováha aplikace",
+          "_n": "vodovaha aplikace"
+        },
+        {
+          "keys": [
+            "vodovaha aplikace"
+          ],
+          "clicks": 0,
+          "impressions": 45,
+          "ctr": 0,
+          "position": 8.577777777777778,
+          "_q": "vodovaha aplikace",
+          "_n": "vodovaha aplikace"
+        },
+        {
+          "keys": [
+            "aplikace vodováha zdarma"
+          ],
+          "clicks": 0,
+          "impressions": 27,
+          "ctr": 0,
+          "position": 10.962962962962964,
+          "_q": "aplikace vodováha zdarma",
+          "_n": "aplikace vodovaha zdarma"
+        },
+        {
+          "keys": [
+            "aplikace vodovaha"
+          ],
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 6.391304347826087,
+          "_q": "aplikace vodovaha",
+          "_n": "aplikace vodovaha"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/08/04/jak-pouzit-mobil-jako-vodovahu/",
+      "target_path": "/2023/08/04/jak-pouzit-mobil-jako-vodovahu/",
+      "page_imp": 345,
+      "page_clicks": 1,
+      "page_pos": 7.208695652173913,
+      "action": "UPDATE",
+      "score": 1378.3181121006141,
+      "serp_adjusted_score": 1309.4022064955834,
+      "http_status": "HTTP 200",
+      "rank_v2": 31
+    },
+    {
+      "title": "Jak skrýt číslo na Androidu/Samsungu",
+      "type": "How-to",
+      "why": "Telefonní utility intent, vhodný pro Samsung návody.",
+      "unique": "Nastavení volání, operátor, jednorázový prefix, kdy to nejde.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 543,
+      "clicks": 3,
+      "ctr": 0.0055248618784530384,
+      "position": 8.994475138121548,
+      "qcount": 8,
+      "impressions_90d": 212,
+      "sk_impressions": 2,
+      "sk_position": 6.5,
+      "top_queries": [
+        {
+          "keys": [
+            "jak skryt cislo na androidu"
+          ],
+          "clicks": 3,
+          "impressions": 313,
+          "ctr": 0.009584664536741214,
+          "position": 6.958466453674121,
+          "_q": "jak skryt cislo na androidu",
+          "_n": "jak skryt cislo na androidu"
+        },
+        {
+          "keys": [
+            "jak skrýt číslo android"
+          ],
+          "clicks": 0,
+          "impressions": 143,
+          "ctr": 0,
+          "position": 9.41958041958042,
+          "_q": "jak skrýt číslo android",
+          "_n": "jak skryt cislo android"
+        },
+        {
+          "keys": [
+            "jak nastavit skryté číslo samsung"
+          ],
+          "clicks": 0,
+          "impressions": 40,
+          "ctr": 0,
+          "position": 9.175,
+          "_q": "jak nastavit skryté číslo samsung",
+          "_n": "jak nastavit skryte cislo samsung"
+        },
+        {
+          "keys": [
+            "jak skrýt číslo"
+          ],
+          "clicks": 0,
+          "impressions": 31,
+          "ctr": 0,
+          "position": 21.70967741935484,
+          "_q": "jak skrýt číslo",
+          "_n": "jak skryt cislo"
+        },
+        {
+          "keys": [
+            "jak skryt cislo pri volani"
+          ],
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 19.363636363636363,
+          "_q": "jak skryt cislo pri volani",
+          "_n": "jak skryt cislo pri volani"
+        },
+        {
+          "keys": [
+            "jak skrýt číslo při volání"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 19,
+          "_q": "jak skrýt číslo při volání",
+          "_n": "jak skryt cislo pri volani"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/04/28/jak-na-androidu-skryt-telefonni-cislo/",
+      "target_path": "/2023/04/28/jak-na-androidu-skryt-telefonni-cislo/",
+      "page_imp": 543,
+      "page_clicks": 3,
+      "page_pos": 8.994475138121548,
+      "action": "UPDATE",
+      "score": 1317.665366222414,
+      "serp_adjusted_score": 1251.7820979112932,
+      "http_status": "HTTP 200",
+      "rank_v2": 32
+    },
+    {
+      "title": "Samsung Internet: nastavení, soukromí a výchozí prohlížeč",
+      "type": "How-to",
+      "why": "Doplněno jako long-tail Samsung evergreen po druhém průchodu GSC.",
+      "unique": "Výchozí prohlížeč, blokování reklam/sledování, synchronizace, režim tajné karty.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1540,
+      "clicks": 19,
+      "ctr": 0.012337662337662338,
+      "position": 14.733116883116883,
+      "qcount": 51,
+      "impressions_90d": 884,
+      "sk_impressions": 1048,
+      "sk_position": 7.456106870229007,
+      "top_queries": [
+        {
+          "keys": [
+            "samsung internet"
+          ],
+          "clicks": 16,
+          "impressions": 1353,
+          "ctr": 0.011825572801182557,
+          "position": 15.23059866962306,
+          "_q": "samsung internet",
+          "_n": "samsung internet"
+        },
+        {
+          "keys": [
+            "samsung internet browser"
+          ],
+          "clicks": 2,
+          "impressions": 81,
+          "ctr": 0.024691358024691357,
+          "position": 10.037037037037036,
+          "_q": "samsung internet browser",
+          "_n": "samsung internet browser"
+        },
+        {
+          "keys": [
+            "samsung internet pc"
+          ],
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 15.818181818181818,
+          "_q": "samsung internet pc",
+          "_n": "samsung internet pc"
+        },
+        {
+          "keys": [
+            "samsung internet browsers"
+          ],
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": 0,
+          "position": 25.875,
+          "_q": "samsung internet browsers",
+          "_n": "samsung internet browsers"
+        },
+        {
+          "keys": [
+            "samsung internet for pc"
+          ],
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": 0,
+          "position": 21.125,
+          "_q": "samsung internet for pc",
+          "_n": "samsung internet for pc"
+        },
+        {
+          "keys": [
+            "adblock for samsung internet"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 9.142857142857142,
+          "_q": "adblock for samsung internet",
+          "_n": "adblock for samsung internet"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/03/13/samsung-internet-skutecne-skoncil-vysvetlujeme-zmatek-i-to-cim-byl-nahrazen/",
+      "target_path": "/2026/03/13/samsung-internet-skutecne-skoncil-vysvetlujeme-zmatek-i-to-cim-byl-nahrazen/",
+      "page_imp": 889,
+      "page_clicks": 12,
+      "page_pos": 8.607424071991002,
+      "action": "UPDATE",
+      "score": 739.7285113636362,
+      "serp_adjusted_score": 739.7285113636362,
+      "http_status": "HTTP 200",
+      "rank_v2": 33
+    },
+    {
+      "title": "Klávesnice Samsung: nastavení, velikost a Gboard",
+      "type": "How-to",
+      "why": "Samsung utility intent s jasným nastavením a alternativami.",
+      "unique": "Velikost, predikce, jazyk, Gboard, clipboard, zvuk/vibrace.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 470,
+      "clicks": 13,
+      "ctr": 0.027659574468085105,
+      "position": 12.03191489361702,
+      "qcount": 12,
+      "impressions_90d": 236,
+      "sk_impressions": 214,
+      "sk_position": 2.892523364485981,
+      "top_queries": [
+        {
+          "keys": [
+            "nastavení klávesnice v mobilu"
+          ],
+          "clicks": 1,
+          "impressions": 184,
+          "ctr": 0.005434782608695652,
+          "position": 12.228260869565217,
+          "_q": "nastavení klávesnice v mobilu",
+          "_n": "nastaveni klavesnice v mobilu"
+        },
+        {
+          "keys": [
+            "nastavení klávesnice samsung"
+          ],
+          "clicks": 12,
+          "impressions": 131,
+          "ctr": 0.0916030534351145,
+          "position": 3.0763358778625953,
+          "_q": "nastavení klávesnice samsung",
+          "_n": "nastaveni klavesnice samsung"
+        },
+        {
+          "keys": [
+            "samsung klávesnice"
+          ],
+          "clicks": 0,
+          "impressions": 59,
+          "ctr": 0,
+          "position": 22.576271186440678,
+          "_q": "samsung klávesnice",
+          "_n": "samsung klavesnice"
+        },
+        {
+          "keys": [
+            "klávesnice samsung"
+          ],
+          "clicks": 0,
+          "impressions": 38,
+          "ctr": 0,
+          "position": 21.07894736842105,
+          "_q": "klávesnice samsung",
+          "_n": "klavesnice samsung"
+        },
+        {
+          "keys": [
+            "gboard klávesnice"
+          ],
+          "clicks": 0,
+          "impressions": 21,
+          "ctr": 0,
+          "position": 11.428571428571429,
+          "_q": "gboard klávesnice",
+          "_n": "gboard klavesnice"
+        },
+        {
+          "keys": [
+            "samsung klavesnice"
+          ],
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 11.454545454545455,
+          "_q": "samsung klavesnice",
+          "_n": "samsung klavesnice"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/12/12/jak-prizpusobit-klavesnici-samsung-na-vasem-telefonu-nebo-tabletu/",
+      "target_path": "/2023/12/12/jak-prizpusobit-klavesnici-samsung-na-vasem-telefonu-nebo-tabletu/",
+      "page_imp": 337,
+      "page_clicks": 13,
+      "page_pos": 9.160237388724036,
+      "action": "UPDATE",
+      "score": 753.6921392103328,
+      "serp_adjusted_score": 716.0075322498161,
+      "http_status": "HTTP 200",
+      "rank_v2": 34
+    },
+    {
+      "title": "Jak zjistit IMEI telefonu Samsung",
+      "type": "How-to",
+      "why": "Přesný utility intent s praktickými důvody: reklamace, bazar, blokace.",
+      "unique": "*#06#, Nastavení, krabička, eSIM/dual SIM, kontrola před koupí.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 899,
+      "clicks": 1,
+      "ctr": 0.0011123470522803114,
+      "position": 15.672969966629589,
+      "qcount": 14,
+      "impressions_90d": 241,
+      "sk_impressions": 133,
+      "sk_position": 11.06015037593985,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zjistit imei telefonu"
+          ],
+          "clicks": 0,
+          "impressions": 528,
+          "ctr": 0,
+          "position": 16.206439393939394,
+          "_q": "jak zjistit imei telefonu",
+          "_n": "jak zjistit imei telefonu"
+        },
+        {
+          "keys": [
+            "jak zjistit imei"
+          ],
+          "clicks": 0,
+          "impressions": 153,
+          "ctr": 0,
+          "position": 16.732026143790847,
+          "_q": "jak zjistit imei",
+          "_n": "jak zjistit imei"
+        },
+        {
+          "keys": [
+            "imei samsung"
+          ],
+          "clicks": 0,
+          "impressions": 58,
+          "ctr": 0,
+          "position": 11.879310344827585,
+          "_q": "imei samsung",
+          "_n": "imei samsung"
+        },
+        {
+          "keys": [
+            "imei telefonu samsung"
+          ],
+          "clicks": 0,
+          "impressions": 52,
+          "ctr": 0,
+          "position": 12.038461538461538,
+          "_q": "imei telefonu samsung",
+          "_n": "imei telefonu samsung"
+        },
+        {
+          "keys": [
+            "samsung imei"
+          ],
+          "clicks": 1,
+          "impressions": 46,
+          "ctr": 0.021739130434782608,
+          "position": 12.195652173913043,
+          "_q": "samsung imei",
+          "_n": "samsung imei"
+        },
+        {
+          "keys": [
+            "jak zjistit imei android"
+          ],
+          "clicks": 0,
+          "impressions": 36,
+          "ctr": 0,
+          "position": 10.13888888888889,
+          "_q": "jak zjistit imei android",
+          "_n": "jak zjistit imei android"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2022/04/13/jak-zjistit-imei-na-androidu/",
+      "target_path": "/2022/04/13/jak-zjistit-imei-na-androidu/",
+      "page_imp": 761,
+      "page_clicks": 0,
+      "page_pos": 15.367936925098554,
+      "action": "REWRITE",
+      "score": 608.5223091839931,
+      "serp_adjusted_score": 578.0961937247935,
+      "http_status": "HTTP 200",
+      "rank_v2": 35
+    },
+    {
+      "title": "Google jako výchozí vyhledávač v Samsung Internetu",
+      "type": "How-to",
+      "why": "Samsung Internet/Chrome nastavení, menší ale evergreen.",
+      "unique": "Samsung Internet, Chrome, widget, vyhledávač v adresním řádku.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1026,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 16.659844054580898,
+      "qcount": 8,
+      "impressions_90d": 407,
+      "sk_impressions": 0,
+      "sk_position": null,
+      "top_queries": [
+        {
+          "keys": [
+            "jak nastavit google jako výchozí vyhledávač"
+          ],
+          "clicks": 0,
+          "impressions": 287,
+          "ctr": 0,
+          "position": 19.355400696864113,
+          "_q": "jak nastavit google jako výchozí vyhledávač",
+          "_n": "jak nastavit google jako vychozi vyhledavac"
+        },
+        {
+          "keys": [
+            "nastavit google jako výchozí vyhledávač"
+          ],
+          "clicks": 0,
+          "impressions": 250,
+          "ctr": 0,
+          "position": 17.128,
+          "_q": "nastavit google jako výchozí vyhledávač",
+          "_n": "nastavit google jako vychozi vyhledavac"
+        },
+        {
+          "keys": [
+            "jak nastavit vyhledávač google"
+          ],
+          "clicks": 0,
+          "impressions": 239,
+          "ctr": 0,
+          "position": 16.171548117154813,
+          "_q": "jak nastavit vyhledávač google",
+          "_n": "jak nastavit vyhledavac google"
+        },
+        {
+          "keys": [
+            "jak nastavit google jako výchozí vyhledávač android"
+          ],
+          "clicks": 0,
+          "impressions": 153,
+          "ctr": 0,
+          "position": 10.947712418300654,
+          "_q": "jak nastavit google jako výchozí vyhledávač android",
+          "_n": "jak nastavit google jako vychozi vyhledavac android"
+        },
+        {
+          "keys": [
+            "nastavit google jako výchozí vyhledávač chrome"
+          ],
+          "clicks": 0,
+          "impressions": 77,
+          "ctr": 0,
+          "position": 15.558441558441558,
+          "_q": "nastavit google jako výchozí vyhledávač chrome",
+          "_n": "nastavit google jako vychozi vyhledavac chrome"
+        },
+        {
+          "keys": [
+            "jak nastavit google jako výchozí vyhledávač v libovolném prohlížeči"
+          ],
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 20.09090909090909,
+          "_q": "jak nastavit google jako výchozí vyhledávač v libovolném prohlížeči",
+          "_n": "jak nastavit google jako vychozi vyhledavac v libovolnem prohlizeci"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/06/17/jak-zmenit-vychozi-vyhledavac-v-prohlizeci-chrome/",
+      "target_path": "/2024/06/17/jak-zmenit-vychozi-vyhledavac-v-prohlizeci-chrome/",
+      "page_imp": 918,
+      "page_clicks": 0,
+      "page_pos": 16.125272331154683,
+      "action": "UPDATE",
+      "score": 457.0830000000001,
+      "serp_adjusted_score": 434.2288500000001,
+      "http_status": "HTTP 200",
+      "rank_v2": 36
+    },
+    {
+      "title": "Google Fotky na Samsungu: záloha, úložiště a obnova fotek",
+      "type": "How-to",
+      "why": "Velký evergreen s jasným praktickým přesahem pro Samsung uživatele.",
+      "unique": "Záloha, koš, uvolnit místo, galerie Samsung vs Google Fotky.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 37749,
+      "clicks": 2567,
+      "ctr": 0.06800180137222178,
+      "position": 7.164746085989033,
+      "qcount": 196,
+      "impressions_90d": 23589,
+      "sk_impressions": 3379,
+      "sk_position": 8.778040840485351,
+      "top_queries": [
+        {
+          "keys": [
+            "fotky google"
+          ],
+          "clicks": 2556,
+          "impressions": 26129,
+          "ctr": 0.0978223429905469,
+          "position": 6.073519843851659,
+          "_q": "fotky google",
+          "_n": "fotky google"
+        },
+        {
+          "keys": [
+            "google fotky"
+          ],
+          "clicks": 8,
+          "impressions": 7959,
+          "ctr": 0.001005151400929765,
+          "position": 8.051639653222766,
+          "_q": "google fotky",
+          "_n": "google fotky"
+        },
+        {
+          "keys": [
+            "fotky"
+          ],
+          "clicks": 0,
+          "impressions": 1605,
+          "ctr": 0,
+          "position": 7.784423676012461,
+          "_q": "fotky",
+          "_n": "fotky"
+        },
+        {
+          "keys": [
+            "googlefotky"
+          ],
+          "clicks": 0,
+          "impressions": 106,
+          "ctr": 0,
+          "position": 8.169811320754718,
+          "_q": "googlefotky",
+          "_n": "googlefotky"
+        },
+        {
+          "keys": [
+            "gogle fotky"
+          ],
+          "clicks": 0,
+          "impressions": 93,
+          "ctr": 0,
+          "position": 8.086021505376344,
+          "_q": "gogle fotky",
+          "_n": "gogle fotky"
+        },
+        {
+          "keys": [
+            "fotkygoogle"
+          ],
+          "clicks": 0,
+          "impressions": 77,
+          "ctr": 0,
+          "position": 9.025974025974026,
+          "_q": "fotkygoogle",
+          "_n": "fotkygoogle"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/06/06/takto-jsem-se-v-aplikaci-fotky-google-zbavil-balastu/",
+      "target_path": "/2026/06/06/takto-jsem-se-v-aplikaci-fotky-google-zbavil-balastu/",
+      "page_imp": 6773,
+      "page_clicks": 717,
+      "page_pos": 6.321423298390669,
+      "action": "UPDATE",
+      "score": 88980.67540717138,
+      "serp_adjusted_score": 170842.89678176906,
+      "http_status": "HTTP 200",
+      "rank_v2": 37
+    },
+    {
+      "title": "Obchod Play na Samsungu: instalace, aktualizace a chyby",
+      "type": "Troubleshooting",
+      "why": "Evergreen základ pro Samsung/Android, bránitelný přes troubleshooting.",
+      "unique": "Play Store vs Galaxy Store, cache, aktualizace, služby Google, bezpečné APK.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 2672,
+      "clicks": 1,
+      "ctr": 0.00037425149700598805,
+      "position": 8.693862275449101,
+      "qcount": 34,
+      "impressions_90d": 2442,
+      "sk_impressions": 157,
+      "sk_position": 14.59235668789809,
+      "top_queries": [
+        {
+          "keys": [
+            "obchod play"
+          ],
+          "clicks": 1,
+          "impressions": 1992,
+          "ctr": 0.000502008032128514,
+          "position": 8.196787148594378,
+          "_q": "obchod play",
+          "_n": "obchod play"
+        },
+        {
+          "keys": [
+            "obchod play aplikace"
+          ],
+          "clicks": 0,
+          "impressions": 325,
+          "ctr": 0,
+          "position": 6.489230769230769,
+          "_q": "obchod play aplikace",
+          "_n": "obchod play aplikace"
+        },
+        {
+          "keys": [
+            "google obchod play"
+          ],
+          "clicks": 0,
+          "impressions": 142,
+          "ctr": 0,
+          "position": 9.633802816901408,
+          "_q": "google obchod play",
+          "_n": "google obchod play"
+        },
+        {
+          "keys": [
+            "aktualizace obchod play"
+          ],
+          "clicks": 0,
+          "impressions": 43,
+          "ctr": 0,
+          "position": 16.558139534883722,
+          "_q": "aktualizace obchod play",
+          "_n": "aktualizace obchod play"
+        },
+        {
+          "keys": [
+            "obchod play instalace aplikace android"
+          ],
+          "clicks": 0,
+          "impressions": 40,
+          "ctr": 0,
+          "position": 10.425,
+          "_q": "obchod play instalace aplikace android",
+          "_n": "obchod play instalace aplikace android"
+        },
+        {
+          "keys": [
+            "obchod play aktualizace"
+          ],
+          "clicks": 0,
+          "impressions": 27,
+          "ctr": 0,
+          "position": 20.25925925925926,
+          "_q": "obchod play aktualizace",
+          "_n": "obchod play aktualizace"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/08/11/google-play-otevira-dvere-konkurenci-stahnete-z-nej-aptoide/",
+      "target_path": "/2026/08/11/google-play-otevira-dvere-konkurenci-stahnete-z-nej-aptoide/",
+      "page_imp": 946,
+      "page_clicks": 1,
+      "page_pos": 6.679704016913319,
+      "action": "UPDATE",
+      "score": 7049.985026601444,
+      "serp_adjusted_score": 13535.971251074772,
+      "http_status": "HTTP 200",
+      "rank_v2": 38
+    },
+    {
+      "title": "Android Auto po aktualizaci nefunguje",
+      "type": "Troubleshooting",
+      "why": "Android Auto má obrovský evergreen demand a troubleshooting přidává klikový důvod proti direct answer.",
+      "unique": "Kabel, cache, verze aplikace, auto, oprávnění, rollback, beta a seznam symptomů.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 501,
+      "clicks": 20,
+      "ctr": 0.03992015968063872,
+      "position": 9.606786427145709,
+      "qcount": 4,
+      "impressions_90d": 267,
+      "sk_impressions": 49,
+      "sk_position": 8.0,
+      "top_queries": [
+        {
+          "keys": [
+            "android auto aktualizace"
+          ],
+          "clicks": 15,
+          "impressions": 230,
+          "ctr": 0.06521739130434782,
+          "position": 10.71304347826087,
+          "_q": "android auto aktualizace",
+          "_n": "android auto aktualizace"
+        },
+        {
+          "keys": [
+            "aktualizace android auto"
+          ],
+          "clicks": 1,
+          "impressions": 178,
+          "ctr": 0.0056179775280898875,
+          "position": 9.241573033707866,
+          "_q": "aktualizace android auto",
+          "_n": "aktualizace android auto"
+        },
+        {
+          "keys": [
+            "android auto nefunguje"
+          ],
+          "clicks": 2,
+          "impressions": 57,
+          "ctr": 0.03508771929824561,
+          "position": 6.2631578947368425,
+          "_q": "android auto nefunguje",
+          "_n": "android auto nefunguje"
+        },
+        {
+          "keys": [
+            "jak aktualizovat android auto"
+          ],
+          "clicks": 2,
+          "impressions": 36,
+          "ctr": 0.05555555555555555,
+          "position": 9.63888888888889,
+          "_q": "jak aktualizovat android auto",
+          "_n": "jak aktualizovat android auto"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/08/14/jak-a-proc-aktualizovat-android-auto/",
+      "target_path": "/2026/08/14/jak-a-proc-aktualizovat-android-auto/",
+      "page_imp": 96,
+      "page_clicks": 6,
+      "page_pos": 6.083333333333333,
+      "action": "UPDATE",
+      "score": 917.9412288363021,
+      "serp_adjusted_score": 1762.4471593657,
+      "http_status": "HTTP 200",
+      "rank_v2": 39
+    },
+    {
+      "title": "Android Auto a Gemini: co funguje v autě a co zatím ne",
+      "type": "Definition",
+      "why": "Novější query s jasným Android Auto/Samsung přesahem, vyžaduje aktuální kontext.",
+      "unique": "Hlasové ovládání, zprávy, limity jazyků, rozdíl Assistant vs Gemini.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 498,
+      "clicks": 57,
+      "ctr": 0.1144578313253012,
+      "position": 9.25301204819277,
+      "qcount": 21,
+      "impressions_90d": 29,
+      "sk_impressions": 103,
+      "sk_position": 9.902912621359222,
+      "top_queries": [
+        {
+          "keys": [
+            "android auto gemini"
+          ],
+          "clicks": 29,
+          "impressions": 246,
+          "ctr": 0.11788617886178862,
+          "position": 8.772357723577237,
+          "_q": "android auto gemini",
+          "_n": "android auto gemini"
+        },
+        {
+          "keys": [
+            "gemini android auto"
+          ],
+          "clicks": 12,
+          "impressions": 94,
+          "ctr": 0.1276595744680851,
+          "position": 8.329787234042552,
+          "_q": "gemini android auto",
+          "_n": "gemini android auto"
+        },
+        {
+          "keys": [
+            "gemini v android auto"
+          ],
+          "clicks": 10,
+          "impressions": 76,
+          "ctr": 0.13157894736842105,
+          "position": 9.776315789473685,
+          "_q": "gemini v android auto",
+          "_n": "gemini v android auto"
+        },
+        {
+          "keys": [
+            "kdy bude gemini v android auto"
+          ],
+          "clicks": 2,
+          "impressions": 21,
+          "ctr": 0.09523809523809523,
+          "position": 9.952380952380953,
+          "_q": "kdy bude gemini v android auto",
+          "_n": "kdy bude gemini v android auto"
+        },
+        {
+          "keys": [
+            "android auto gemini česky"
+          ],
+          "clicks": 2,
+          "impressions": 18,
+          "ctr": 0.1111111111111111,
+          "position": 13.5,
+          "_q": "android auto gemini česky",
+          "_n": "android auto gemini cesky"
+        },
+        {
+          "keys": [
+            "jak nastavit gemini v android auto"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 12.923076923076923,
+          "_q": "jak nastavit gemini v android auto",
+          "_n": "jak nastavit gemini v android auto"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/03/29/android-auto-a-gemini-4-mesice-cekam-a-se-mnou-ridici-po-celem-svete/",
+      "target_path": "/2026/03/29/android-auto-a-gemini-4-mesice-cekam-a-se-mnou-ridici-po-celem-svete/",
+      "page_imp": 322,
+      "page_clicks": 31,
+      "page_pos": 8.590062111801242,
+      "action": "UPDATE",
+      "score": 634.9208352990274,
+      "serp_adjusted_score": 1219.0480037741327,
+      "http_status": "HTTP 200",
+      "rank_v2": 40
+    },
+    {
+      "title": "WhatsApp nefunguje nebo má výpadek",
+      "type": "Troubleshooting",
+      "why": "Výpadky a problémy direct answer nepokryje dobře, čtenář chce ověřit příčinu a opravy.",
+      "unique": "Status, internet, oprávnění, cache, aktualizace, notifikace.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 94,
+      "clicks": 4,
+      "ctr": 0.0425531914893617,
+      "position": 10.138297872340425,
+      "qcount": 6,
+      "impressions_90d": 94,
+      "sk_impressions": 2,
+      "sk_position": 15.0,
+      "top_queries": [
+        {
+          "keys": [
+            "výpadek whatsapp"
+          ],
+          "clicks": 2,
+          "impressions": 29,
+          "ctr": 0.06896551724137931,
+          "position": 11.275862068965518,
+          "_q": "výpadek whatsapp",
+          "_n": "vypadek whatsapp"
+        },
+        {
+          "keys": [
+            "whatsapp výpadek"
+          ],
+          "clicks": 1,
+          "impressions": 29,
+          "ctr": 0.034482758620689655,
+          "position": 9.241379310344827,
+          "_q": "whatsapp výpadek",
+          "_n": "whatsapp vypadek"
+        },
+        {
+          "keys": [
+            "whatsapp vypadek"
+          ],
+          "clicks": 0,
+          "impressions": 18,
+          "ctr": 0,
+          "position": 10,
+          "_q": "whatsapp vypadek",
+          "_n": "whatsapp vypadek"
+        },
+        {
+          "keys": [
+            "whatsapp výpadek dnes"
+          ],
+          "clicks": 1,
+          "impressions": 9,
+          "ctr": 0.1111111111111111,
+          "position": 10.11111111111111,
+          "_q": "whatsapp výpadek dnes",
+          "_n": "whatsapp vypadek dnes"
+        },
+        {
+          "keys": [
+            "vypadek whatsapp"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 9.5,
+          "_q": "vypadek whatsapp",
+          "_n": "vypadek whatsapp"
+        },
+        {
+          "keys": [
+            "výpadek whatsapp dnes"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 10,
+          "_q": "výpadek whatsapp dnes",
+          "_n": "vypadek whatsapp dnes"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/06/12/meta-ma-velky-vypadek-nejde-facebook-a-messenger-instagram-i-whatsapp-hlasi-problemy/",
+      "target_path": "/2026/06/12/meta-ma-velky-vypadek-nejde-facebook-a-messenger-instagram-i-whatsapp-hlasi-problemy/",
+      "page_imp": 26,
+      "page_clicks": 3,
+      "page_pos": 11.23076923076923,
+      "action": "UPDATE",
+      "score": 157.04364195478723,
+      "serp_adjusted_score": 301.52379255319147,
+      "http_status": "HTTP 200",
+      "rank_v2": 41
+    },
+    {
+      "title": "WhatsApp na Samsungu: online stav, neviditelnost a soukromí",
+      "type": "How-to",
+      "why": "Broad WhatsApp je navigační, ale soukromí/online stav je klikovější praktický angle.",
+      "unique": "Online/naposledy, potvrzení přečtení, skupiny, soukromí na Samsungu.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 2528,
+      "clicks": 2,
+      "ctr": 0.0007911392405063291,
+      "position": 7.21875,
+      "qcount": 7,
+      "impressions_90d": 2404,
+      "sk_impressions": 76,
+      "sk_position": 6.868421052631579,
+      "top_queries": [
+        {
+          "keys": [
+            "whatsapp online"
+          ],
+          "clicks": 1,
+          "impressions": 2282,
+          "ctr": 0.00043821209465381246,
+          "position": 6.434268185801928,
+          "_q": "whatsapp online",
+          "_n": "whatsapp online"
+        },
+        {
+          "keys": [
+            "jak nastavit na whatsapp neviditelnost"
+          ],
+          "clicks": 0,
+          "impressions": 165,
+          "ctr": 0,
+          "position": 17.21818181818182,
+          "_q": "jak nastavit na whatsapp neviditelnost",
+          "_n": "jak nastavit na whatsapp neviditelnost"
+        },
+        {
+          "keys": [
+            "samsung whatsapp"
+          ],
+          "clicks": 1,
+          "impressions": 53,
+          "ctr": 0.018867924528301886,
+          "position": 6.60377358490566,
+          "_q": "samsung whatsapp",
+          "_n": "samsung whatsapp"
+        },
+        {
+          "keys": [
+            "whatsapp neviditelnost"
+          ],
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 14.304347826086957,
+          "_q": "whatsapp neviditelnost",
+          "_n": "whatsapp neviditelnost"
+        },
+        {
+          "keys": [
+            "samsung whatsapp chat"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 7.666666666666667,
+          "_q": "samsung whatsapp chat",
+          "_n": "samsung whatsapp chat"
+        },
+        {
+          "keys": [
+            "dual app samsung whatsapp"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11,
+          "_q": "dual app samsung whatsapp",
+          "_n": "dual app samsung whatsapp"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2026/07/06/whatsapp-green-dot/",
+      "target_path": "/2026/07/06/whatsapp-green-dot/",
+      "page_imp": 1098,
+      "page_clicks": 1,
+      "page_pos": 6.344262295081967,
+      "action": "UPDATE",
+      "score": 7631.895131465093,
+      "serp_adjusted_score": 7250.300374891838,
+      "http_status": "HTTP 200",
+      "rank_v2": 42
+    },
+    {
+      "title": "Nejlepší aplikace pro Android Auto a co má smysl instalovat",
+      "type": "How-to",
+      "why": "Aplikační seznam je bránitelnější než definice Android Auto, protože vyžaduje výběr a praktické doporučení.",
+      "unique": "Navigace, hudba, podcasty, zprávy, nabíjení, co Android Auto nepustí.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1547,
+      "clicks": 53,
+      "ctr": 0.03425985778926956,
+      "position": 10.694893341952165,
+      "qcount": 7,
+      "impressions_90d": 871,
+      "sk_impressions": 6,
+      "sk_position": 10.0,
+      "top_queries": [
+        {
+          "keys": [
+            "android auto aplikace"
+          ],
+          "clicks": 24,
+          "impressions": 778,
+          "ctr": 0.030848329048843187,
+          "position": 9.42159383033419,
+          "_q": "android auto aplikace",
+          "_n": "android auto aplikace"
+        },
+        {
+          "keys": [
+            "aplikace android auto"
+          ],
+          "clicks": 7,
+          "impressions": 254,
+          "ctr": 0.027559055118110236,
+          "position": 12.429133858267717,
+          "_q": "aplikace android auto",
+          "_n": "aplikace android auto"
+        },
+        {
+          "keys": [
+            "nejlepší aplikace pro android auto"
+          ],
+          "clicks": 14,
+          "impressions": 250,
+          "ctr": 0.056,
+          "position": 8.324,
+          "_q": "nejlepší aplikace pro android auto",
+          "_n": "nejlepsi aplikace pro android auto"
+        },
+        {
+          "keys": [
+            "aplikace pro android auto"
+          ],
+          "clicks": 8,
+          "impressions": 232,
+          "ctr": 0.034482758620689655,
+          "position": 13.732758620689655,
+          "_q": "aplikace pro android auto",
+          "_n": "aplikace pro android auto"
+        },
+        {
+          "keys": [
+            "android auto aplikace ke stažení"
+          ],
+          "clicks": 0,
+          "impressions": 29,
+          "ctr": 0,
+          "position": 23.551724137931036,
+          "_q": "android auto aplikace ke stažení",
+          "_n": "android auto aplikace ke stazeni"
+        },
+        {
+          "keys": [
+            "co je aplikace android auto"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 11.333333333333334,
+          "_q": "co je aplikace android auto",
+          "_n": "co je aplikace android auto"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/04/07/10-nejlepsich-android-auto-aplikaci-roku-2024/",
+      "target_path": "/2024/04/07/10-nejlepsich-android-auto-aplikaci-roku-2024/",
+      "page_imp": 399,
+      "page_clicks": 15,
+      "page_pos": 11.233082706766917,
+      "action": "UPDATE",
+      "score": 2496.656242504925,
+      "serp_adjusted_score": 2371.823430379679,
+      "http_status": "HTTP 200",
+      "rank_v2": 43
+    },
+    {
+      "title": "OnePlay přes O2: jak zrušit službu bez bloudění v Moje O2",
+      "type": "How-to",
+      "why": "Velký dlouhodobý servisní cluster. Není Samsung-specific, ale Samsungmagazine už na něj rankuje; držet jako širší tech/service.",
+      "unique": "Moje O2, předplatné, přechod z O2 TV, rozdíl OnePlay/Voyo, potvrzení zrušení.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 32205,
+      "clicks": 2,
+      "ctr": 6.210215804999224e-05,
+      "position": 15.23642291569632,
+      "qcount": 47,
+      "impressions_90d": 1418,
+      "sk_impressions": 0,
+      "sk_position": null,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zrušit oneplay u 02"
+          ],
+          "clicks": 0,
+          "impressions": 1037,
+          "ctr": 0,
+          "position": 13.85824493731919,
+          "_q": "jak zrušit oneplay u 02",
+          "_n": "jak zrusit oneplay u 02"
+        },
+        {
+          "keys": [
+            "jak zrusit oneplay 02"
+          ],
+          "clicks": 0,
+          "impressions": 959,
+          "ctr": 0,
+          "position": 13.977059436913452,
+          "_q": "jak zrusit oneplay 02",
+          "_n": "jak zrusit oneplay 02"
+        },
+        {
+          "keys": [
+            "oneplay 02 jak zrušit předplatné"
+          ],
+          "clicks": 0,
+          "impressions": 931,
+          "ctr": 0,
+          "position": 13.345864661654135,
+          "_q": "oneplay 02 jak zrušit předplatné",
+          "_n": "oneplay 02 jak zrusit predplatne"
+        },
+        {
+          "keys": [
+            "jak zrušit oneplay 02"
+          ],
+          "clicks": 0,
+          "impressions": 916,
+          "ctr": 0,
+          "position": 13.829694323144105,
+          "_q": "jak zrušit oneplay 02",
+          "_n": "jak zrusit oneplay 02"
+        },
+        {
+          "keys": [
+            "jak zrušit oneplay v moje o2"
+          ],
+          "clicks": 0,
+          "impressions": 902,
+          "ctr": 0,
+          "position": 16.07538802660754,
+          "_q": "jak zrušit oneplay v moje o2",
+          "_n": "jak zrusit oneplay v moje o2"
+        },
+        {
+          "keys": [
+            "jak zrusit oneplay v moje o2"
+          ],
+          "clicks": 0,
+          "impressions": 889,
+          "ctr": 0,
+          "position": 16.152980877390327,
+          "_q": "jak zrusit oneplay v moje o2",
+          "_n": "jak zrusit oneplay v moje o2"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2025/04/10/jak-zrusit-oneplay/",
+      "target_path": "/2025/04/10/jak-zrusit-oneplay/",
+      "page_imp": 24293,
+      "page_clicks": 2,
+      "page_pos": 14.364055489235582,
+      "action": "UPDATE",
+      "score": 19561.454996238295,
+      "serp_adjusted_score": 37557.99359277752,
+      "http_status": "HTTP 200",
+      "rank_v2": 44
+    },
+    {
+      "title": "Messenger na Samsungu nefunguje nebo nejdou zprávy",
+      "type": "Troubleshooting",
+      "why": "Širší tech/social, ale troubleshooting má klikovou hodnotu.",
+      "unique": "Cache, oprávnění, notifikace, deaktivace vs smazání účtu.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 953,
+      "clicks": 4,
+      "ctr": 0.004197271773347324,
+      "position": 8.965372507869885,
+      "qcount": 5,
+      "impressions_90d": 615,
+      "sk_impressions": 2,
+      "sk_position": 26.5,
+      "top_queries": [
+        {
+          "keys": [
+            "nejde mi messenger v mobilu"
+          ],
+          "clicks": 0,
+          "impressions": 355,
+          "ctr": 0,
+          "position": 11.64225352112676,
+          "_q": "nejde mi messenger v mobilu",
+          "_n": "nejde mi messenger v mobilu"
+        },
+        {
+          "keys": [
+            "jak deaktivovat messenger"
+          ],
+          "clicks": 3,
+          "impressions": 347,
+          "ctr": 0.008645533141210375,
+          "position": 7.265129682997118,
+          "_q": "jak deaktivovat messenger",
+          "_n": "jak deaktivovat messenger"
+        },
+        {
+          "keys": [
+            "jak zrušit messenger"
+          ],
+          "clicks": 1,
+          "impressions": 216,
+          "ctr": 0.004629629629629629,
+          "position": 6.194444444444445,
+          "_q": "jak zrušit messenger",
+          "_n": "jak zrusit messenger"
+        },
+        {
+          "keys": [
+            "jak zrušit messenger účet"
+          ],
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 7.130434782608695,
+          "_q": "jak zrušit messenger účet",
+          "_n": "jak zrusit messenger ucet"
+        },
+        {
+          "keys": [
+            "messenger nefunguje"
+          ],
+          "clicks": 0,
+          "impressions": 12,
+          "ctr": 0,
+          "position": 32.33333333333333,
+          "_q": "messenger nefunguje",
+          "_n": "messenger nefunguje"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/05/29/jak-zrusit-messenger-a-proc-byste-to-meli-udelat/",
+      "target_path": "/2023/05/29/jak-zrusit-messenger-a-proc-byste-to-meli-udelat/",
+      "page_imp": 586,
+      "page_clicks": 4,
+      "page_pos": 6.86518771331058,
+      "action": "UPDATE",
+      "score": 2338.0792508631694,
+      "serp_adjusted_score": 4489.112161657285,
+      "http_status": "HTTP 200",
+      "rank_v2": 45
+    },
+    {
+      "title": "Jak zrušit Revolut účet v mobilu",
+      "type": "How-to",
+      "why": "Širší fintech utility intent; zařadit nízko jako tech service, ne Samsung core.",
+      "unique": "Zůstatek, karty, předplatné, support, potvrzení zrušení.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 789,
+      "clicks": 3,
+      "ctr": 0.0038022813688212928,
+      "position": 11.357414448669202,
+      "qcount": 4,
+      "impressions_90d": 443,
+      "sk_impressions": 6,
+      "sk_position": 10.666666666666666,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zrušit revolut účet"
+          ],
+          "clicks": 2,
+          "impressions": 267,
+          "ctr": 0.00749063670411985,
+          "position": 10.771535580524345,
+          "_q": "jak zrušit revolut účet",
+          "_n": "jak zrusit revolut ucet"
+        },
+        {
+          "keys": [
+            "jak zrusit revolut ucet"
+          ],
+          "clicks": 0,
+          "impressions": 246,
+          "ctr": 0,
+          "position": 10.963414634146341,
+          "_q": "jak zrusit revolut ucet",
+          "_n": "jak zrusit revolut ucet"
+        },
+        {
+          "keys": [
+            "jak zrušit revolut"
+          ],
+          "clicks": 1,
+          "impressions": 236,
+          "ctr": 0.00423728813559322,
+          "position": 12.533898305084746,
+          "_q": "jak zrušit revolut",
+          "_n": "jak zrusit revolut"
+        },
+        {
+          "keys": [
+            "jak zrusit revolut"
+          ],
+          "clicks": 0,
+          "impressions": 40,
+          "ctr": 0,
+          "position": 10.75,
+          "_q": "jak zrusit revolut",
+          "_n": "jak zrusit revolut"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/02/20/jak-zrusit-revolut/",
+      "target_path": "/2024/02/20/jak-zrusit-revolut/",
+      "page_imp": 787,
+      "page_clicks": 3,
+      "page_pos": 11.344345616264295,
+      "action": "UPDATE",
+      "score": 1429.4573880463975,
+      "serp_adjusted_score": 2744.558185049083,
+      "http_status": "HTTP 200",
+      "rank_v2": 46
+    },
+    {
+      "title": "Jak zrušit PayPal účet v mobilu",
+      "type": "How-to",
+      "why": "Širší fintech evergreen, držet jako low-priority servisní návod.",
+      "unique": "Zůstatek, propojené karty, předplatné, omezení účtu.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 476,
+      "clicks": 7,
+      "ctr": 0.014705882352941176,
+      "position": 6.491596638655462,
+      "qcount": 3,
+      "impressions_90d": 227,
+      "sk_impressions": 31,
+      "sk_position": 5.709677419354839,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zrušit paypal"
+          ],
+          "clicks": 4,
+          "impressions": 308,
+          "ctr": 0.012987012987012988,
+          "position": 6.512987012987013,
+          "_q": "jak zrušit paypal",
+          "_n": "jak zrusit paypal"
+        },
+        {
+          "keys": [
+            "jak zrušit paypal účet"
+          ],
+          "clicks": 3,
+          "impressions": 167,
+          "ctr": 0.017964071856287425,
+          "position": 6.437125748502994,
+          "_q": "jak zrušit paypal účet",
+          "_n": "jak zrusit paypal ucet"
+        },
+        {
+          "keys": [
+            "ako zrušiť paypal účet"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9,
+          "_q": "ako zrušiť paypal účet",
+          "_n": "ako zrusit paypal ucet"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/09/16/jak-zrusit-paypal-a-proc-byste-to-meli-udelat/",
+      "target_path": "/2024/09/16/jak-zrusit-paypal-a-proc-byste-to-meli-udelat/",
+      "page_imp": 475,
+      "page_clicks": 7,
+      "page_pos": 6.486315789473684,
+      "action": "UPDATE",
+      "score": 1421.0063352346456,
+      "serp_adjusted_score": 2728.3321636505193,
+      "http_status": "HTTP 200",
+      "rank_v2": 47
+    },
+    {
+      "title": "OnePlay nejde spustit po spojení s O2: co zkontrolovat",
+      "type": "Troubleshooting",
+      "why": "Problémový OnePlay intent je bránitelnější než obecné zrušení.",
+      "unique": "Přihlášení, migrace účtu, aplikace v TV/mobilu, O2 účet, cache.",
+      "zero_click_risk": "LOW",
+      "serp_defensibility": "HIGH",
+      "impressions": 1528,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 18.540575916230367,
+      "qcount": 4,
+      "impressions_90d": 51,
+      "sk_impressions": 0,
+      "sk_position": null,
+      "top_queries": [
+        {
+          "keys": [
+            "nejde zrušit oneplay na 02"
+          ],
+          "clicks": 0,
+          "impressions": 466,
+          "ctr": 0,
+          "position": 17.667381974248926,
+          "_q": "nejde zrušit oneplay na 02",
+          "_n": "nejde zrusit oneplay na 02"
+        },
+        {
+          "keys": [
+            "po spojení o2 a oneplay nejde spustit tv program"
+          ],
+          "clicks": 0,
+          "impressions": 380,
+          "ctr": 0,
+          "position": 18.7,
+          "_q": "po spojení o2 a oneplay nejde spustit tv program",
+          "_n": "po spojeni o2 a oneplay nejde spustit tv program"
+        },
+        {
+          "keys": [
+            "po spojení 02 a oneplay nejde spustit tv program"
+          ],
+          "clicks": 0,
+          "impressions": 363,
+          "ctr": 0,
+          "position": 19.068870523415978,
+          "_q": "po spojení 02 a oneplay nejde spustit tv program",
+          "_n": "po spojeni 02 a oneplay nejde spustit tv program"
+        },
+        {
+          "keys": [
+            "nejde zrušit oneplay na o2"
+          ],
+          "clicks": 0,
+          "impressions": 319,
+          "ctr": 0,
+          "position": 19.025078369905955,
+          "_q": "nejde zrušit oneplay na o2",
+          "_n": "nejde zrusit oneplay na o2"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2025/03/20/oneplay-nefunguje/",
+      "target_path": "/2025/03/20/oneplay-nefunguje/",
+      "page_imp": 742,
+      "page_clicks": 0,
+      "page_pos": 18.881401617250674,
+      "action": "UPDATE",
+      "score": 529.4849999999999,
+      "serp_adjusted_score": 1016.6111999999998,
+      "http_status": "HTTP 200",
+      "rank_v2": 48
+    },
+    {
+      "title": "Aplikace pro restaurace v Androidu: rezervace, menu, slevy",
+      "type": "Commercial evergreen",
+      "why": "Širší tech evergreen z GSC, ale držet níže kvůli slabší Samsung relevanci.",
+      "unique": "Mapy, rezervace, rozvoz, věrnostní programy, bezpečnost plateb.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 1356,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 15.050147492625369,
+      "qcount": 7,
+      "impressions_90d": 667,
+      "sk_impressions": 385,
+      "sk_position": 13.893506493506493,
+      "top_queries": [
+        {
+          "keys": [
+            "aplikace restaurace"
+          ],
+          "clicks": 0,
+          "impressions": 299,
+          "ctr": 0,
+          "position": 15.491638795986622,
+          "_q": "aplikace restaurace",
+          "_n": "aplikace restaurace"
+        },
+        {
+          "keys": [
+            "aplikace na restaurace"
+          ],
+          "clicks": 0,
+          "impressions": 286,
+          "ctr": 0,
+          "position": 14.122377622377622,
+          "_q": "aplikace na restaurace",
+          "_n": "aplikace na restaurace"
+        },
+        {
+          "keys": [
+            "nejlepší aplikace restaurace"
+          ],
+          "clicks": 0,
+          "impressions": 256,
+          "ctr": 0,
+          "position": 14.86328125,
+          "_q": "nejlepší aplikace restaurace",
+          "_n": "nejlepsi aplikace restaurace"
+        },
+        {
+          "keys": [
+            "nejlepší aplikace pro restaurace"
+          ],
+          "clicks": 0,
+          "impressions": 237,
+          "ctr": 0,
+          "position": 13.746835443037975,
+          "_q": "nejlepší aplikace pro restaurace",
+          "_n": "nejlepsi aplikace pro restaurace"
+        },
+        {
+          "keys": [
+            "+aplikace +restaurace"
+          ],
+          "clicks": 0,
+          "impressions": 226,
+          "ctr": 0,
+          "position": 14.676991150442477,
+          "_q": "+aplikace +restaurace",
+          "_n": "aplikace restaurace"
+        },
+        {
+          "keys": [
+            "aplikace na restaurace v okoli"
+          ],
+          "clicks": 0,
+          "impressions": 48,
+          "ctr": 0,
+          "position": 26.395833333333332,
+          "_q": "aplikace na restaurace v okoli",
+          "_n": "aplikace na restaurace v okoli"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2023/08/13/jak-najit-nejlepsi-restauraci/",
+      "target_path": "/2023/08/13/jak-najit-nejlepsi-restauraci/",
+      "page_imp": 1314,
+      "page_clicks": 0,
+      "page_pos": 15.037290715372906,
+      "action": "UPDATE",
+      "score": 979.5414823008851,
+      "serp_adjusted_score": 930.5644081858409,
+      "http_status": "HTTP 200",
+      "rank_v2": 49
+    },
+    {
+      "title": "Jak zrušit Badoo účet v mobilu",
+      "type": "How-to",
+      "why": "Širší app utility dotaz z GSC; zařadit nízko.",
+      "unique": "Smazání profilu, předplatné, Play Store platby, potvrzení.",
+      "zero_click_risk": "MEDIUM",
+      "serp_defensibility": "MEDIUM",
+      "impressions": 308,
+      "clicks": 0,
+      "ctr": 0.0,
+      "position": 9.340909090909092,
+      "qcount": 2,
+      "impressions_90d": 149,
+      "sk_impressions": 0,
+      "sk_position": null,
+      "top_queries": [
+        {
+          "keys": [
+            "jak zrušit badoo"
+          ],
+          "clicks": 0,
+          "impressions": 289,
+          "ctr": 0,
+          "position": 9.373702422145328,
+          "_q": "jak zrušit badoo",
+          "_n": "jak zrusit badoo"
+        },
+        {
+          "keys": [
+            "jak zrusit badoo"
+          ],
+          "clicks": 0,
+          "impressions": 19,
+          "ctr": 0,
+          "position": 8.842105263157894,
+          "_q": "jak zrusit badoo",
+          "_n": "jak zrusit badoo"
+        }
+      ],
+      "target_url": "https://samsungmagazine.eu/2024/06/10/jak-zrusit-badoo/",
+      "target_path": "/2024/06/10/jak-zrusit-badoo/",
+      "page_imp": 305,
+      "page_clicks": 0,
+      "page_pos": 9.259016393442623,
+      "action": "UPDATE",
+      "score": 742.5928125,
+      "serp_adjusted_score": 705.4631718750001,
+      "http_status": "HTTP 200",
+      "rank_v2": 50
+    }
+  ]
+}

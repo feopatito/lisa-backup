@@ -1,0 +1,20 @@
+{
+  "_comment": "Google Trends konfigurace — aktualizováno Moulou 2026-08-26",
+  "primary": {
+    "provider": "justserpapi",
+    "base_url": "https://api.justserpapi.com/api/v1",
+    "key_env": "JUSTSERPAPI_KEY",
+    "header": "x-api-key",
+    "status": "outage_500 - provider vraci code=500 i pro search/news/trends, bypass na fallback"
+  },
+  "fallback": {
+    "provider": "pytrends",
+    "library": "pytrends",
+    "geo": "CZ",
+    "hl": "cs-CZ",
+    "tz": 60,
+    "status": "active - funguje 2026-08-26 po pin urllib3==1.26.20",
+    "usage": "from pytrends.request import TrendReq; pt = TrendReq(hl='cs-CZ', tz=60)"
+  },
+  "rule": "Pokud JustSerpAPI vraci 500 nebo 4xx -> okamzite pouzij pytrends. Nikdy nenahradzuj Trends odhadem."
+}

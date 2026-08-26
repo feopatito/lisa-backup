@@ -1,0 +1,164 @@
+{
+  "provider": "pytrends",
+  "status": "CHECKED",
+  "timeframe": "now 7-d",
+  "geo": "CZ",
+  "terms": {
+    "LSA": {
+      "iPhone": {
+        "avg": 38.1,
+        "max": 100,
+        "last": 29
+      },
+      "Apple": {
+        "avg": 18.8,
+        "max": 36,
+        "last": 17
+      },
+      "ChatGPT": {
+        "avg": 20.2,
+        "max": 42,
+        "last": 21
+      },
+      "LEGO": {
+        "avg": 19.1,
+        "max": 84,
+        "last": 15
+      },
+      "Mac mini": {
+        "avg": 0.3,
+        "max": 5,
+        "last": 1
+      },
+      "iOS": {
+        "avg": 20.3,
+        "max": 88,
+        "last": 23
+      },
+      "Apple Watch": {
+        "avg": 33.1,
+        "max": 100,
+        "last": 35
+      },
+      "AirPods": {
+        "avg": 29.9,
+        "max": 98,
+        "last": 32
+      },
+      "Apple Maps": {
+        "avg": 0.0,
+        "max": 7,
+        "last": 0
+      },
+      "iCloud": {
+        "avg": 13.2,
+        "max": 34,
+        "last": 15
+      }
+    },
+    "Samsung": {
+      "Samsung": {
+        "avg": 45.6,
+        "max": 100,
+        "last": 37
+      },
+      "One UI": {
+        "avg": 0.4,
+        "max": 6,
+        "last": 0
+      },
+      "Gemini": {
+        "avg": 37.1,
+        "max": 57,
+        "last": 38
+      },
+      "Galaxy S26": {
+        "avg": 0.6,
+        "max": 4,
+        "last": 2
+      },
+      "Galaxy Watch": {
+        "avg": 1.3,
+        "max": 4,
+        "last": 0
+      },
+      "Android Auto": {
+        "avg": 15.2,
+        "max": 100,
+        "last": 23
+      },
+      "Google Wallet": {
+        "avg": 5.0,
+        "max": 90,
+        "last": 0
+      },
+      "Galaxy AI": {
+        "avg": 0.1,
+        "max": 15,
+        "last": 0
+      },
+      "Galaxy Buds": {
+        "avg": 0.3,
+        "max": 21,
+        "last": 0
+      },
+      "Galaxy Z Fold": {
+        "avg": 0.4,
+        "max": 30,
+        "last": 0
+      }
+    },
+    "Android": {
+      "Android": {
+        "avg": 28.6,
+        "max": 60,
+        "last": 21
+      },
+      "Google Maps": {
+        "avg": 48.6,
+        "max": 88,
+        "last": 64
+      },
+      "Android Auto": {
+        "avg": 2.3,
+        "max": 15,
+        "last": 3
+      },
+      "Pixel": {
+        "avg": 16.8,
+        "max": 55,
+        "last": 17
+      },
+      "Gemini": {
+        "avg": 65.5,
+        "max": 100,
+        "last": 67
+      },
+      "Wear OS": {
+        "avg": 0.0,
+        "max": 0,
+        "last": 0
+      },
+      "Always On Display": {
+        "avg": 0.1,
+        "max": 21,
+        "last": 0
+      },
+      "RCS": {
+        "avg": 0.1,
+        "max": 11,
+        "last": 0
+      },
+      "HONOR": {
+        "avg": 25.5,
+        "max": 100,
+        "last": 19
+      },
+      "GrapheneOS": {
+        "avg": 0.0,
+        "max": 0,
+        "last": 0
+      }
+    }
+  }
+}

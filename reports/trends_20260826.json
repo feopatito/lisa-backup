@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-26",
+  "source": "pytrends (Google Trends direct)",
+  "geo": "CZ",
+  "timeframe": "7d",
+  "data": {
+    "lsa": {
+      "iphone 18": 10,
+      "mac mini": 0,
+      "chatgpt": 50,
+      "whatsapp": 26,
+      "ios 27": 0
+    },
+    "samsung": {
+      "samsung galaxy s26": 0,
+      "one ui 9": 0,
+      "galaxy watch ultra": 0,
+      "gemini samsung": 0
+    },
+    "android": {
+      "android pulse": 0,
+      "pixel 11": 55,
+      "android tips": 0
+    }
+  }
+}
