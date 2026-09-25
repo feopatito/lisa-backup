@@ -1,0 +1,162 @@
+{
+  "one ui 9": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "UNAVAILABLE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "one ui 9.5": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "UNAVAILABLE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "samsung galaxy s26 fe": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "galaxy s26 ultra": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung galaxy s27": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung galaxy watch ultra 2": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung galaxy buds 4": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "isocell hp9": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "UNAVAILABLE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "samsung zprovozneni android auto": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "galaxy z fold 8": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung galaxy ring 2": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung galaxy tab s12": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung security patch august 2026": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "one ui 9 problemy": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "galaxy s26 fe cena": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  },
+  "samsung galaxy watch 9 ultra": {
+    "manticore": {
+      "status": "OK",
+      "docs": []
+    },
+    "wp": {
+      "status": "OK",
+      "posts": []
+    }
+  }
+}

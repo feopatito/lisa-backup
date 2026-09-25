@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "technical-seo-checker",
+  "installedVersion": "19.0.0",
+  "installedAt": 1786535831245,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "becb316c96fddabe723c96313923c8e8ae32b1b8cc5bd5b0bae75f493e4321a2",
+    "integrity": "sha256-vssxbJb92r5yPJYxOSPI6K4ysbjMW9WwuudfST5DIaI="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "b12d0a7616ea3eff63b5c11ec17974596e2f99cefbdcaecdf8c991f0fc0be0cb"
+  }
+}

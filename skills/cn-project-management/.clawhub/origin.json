@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "cn-project-management",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786532321777,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "d65405a1667b5eaaa5a480e7f69b3196904c18af66c3c7728eb6eeeb525a9523",
+    "integrity": "sha256-1lQFoWZ7XqqlpIDn9psxlpBMGK9mw8dyjrbu61JalSM="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d6bba2199bcf54ae87fc5b87da258ca1680d8915bc71206df24619fd157a3afd"
+  }
+}

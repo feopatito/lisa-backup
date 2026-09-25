@@ -1,0 +1,3 @@
+DŮLEŽITÉ: android-magazine-sa.json patří do ~/.openclaw/creds/
+NE do ~/workspace/. Pokud ho zde vidíš, přesuň ho:
+  mv android-magazine-sa.json ~/.openclaw/creds/

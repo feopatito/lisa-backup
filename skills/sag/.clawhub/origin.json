@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "sag",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786525016194,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "48eb79bbc2e78611269b3869ff0dfee41a6cf6b751faec43b33d644e35b56005",
+    "integrity": "sha256-SOt5u8LnhhEmmzhp/w3+5Bps9rdR+uxDsz1kTjW1YAU="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "e9a062586db13baf6088c28779bc21b0ca80f0e96628de8fe91d604a934c12bb"
+  }
+}

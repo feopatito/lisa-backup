@@ -1,0 +1,632 @@
+{
+  "site": "letemsvetemapplem.eu",
+  "start_date": "2025-05-01",
+  "end_date": "2026-08-30",
+  "posts_count": 8320,
+  "ga4_paths": 203390,
+  "gsc_pages": 37785,
+  "gsc_queries": 356901,
+  "ga4_month_meta": [
+    {
+      "month": "2025-05",
+      "row_count": 135293,
+      "data_loss_from_other": false,
+      "retrieved_rows": 135293
+    },
+    {
+      "month": "2025-06",
+      "row_count": 118706,
+      "data_loss_from_other": false,
+      "retrieved_rows": 118706
+    },
+    {
+      "month": "2025-07",
+      "row_count": 111344,
+      "data_loss_from_other": false,
+      "retrieved_rows": 111344
+    },
+    {
+      "month": "2025-08",
+      "row_count": 98424,
+      "data_loss_from_other": false,
+      "retrieved_rows": 98424
+    },
+    {
+      "month": "2025-09",
+      "row_count": 101219,
+      "data_loss_from_other": false,
+      "retrieved_rows": 101219
+    },
+    {
+      "month": "2025-10",
+      "row_count": 135376,
+      "data_loss_from_other": false,
+      "retrieved_rows": 135376
+    },
+    {
+      "month": "2025-11",
+      "row_count": 181088,
+      "data_loss_from_other": false,
+      "retrieved_rows": 181088
+    },
+    {
+      "month": "2025-12",
+      "row_count": 145508,
+      "data_loss_from_other": false,
+      "retrieved_rows": 145508
+    },
+    {
+      "month": "2026-01",
+      "row_count": 133995,
+      "data_loss_from_other": false,
+      "retrieved_rows": 133995
+    },
+    {
+      "month": "2026-02",
+      "row_count": 105210,
+      "data_loss_from_other": false,
+      "retrieved_rows": 105210
+    },
+    {
+      "month": "2026-03",
+      "row_count": 124118,
+      "data_loss_from_other": false,
+      "retrieved_rows": 124118
+    },
+    {
+      "month": "2026-04",
+      "row_count": 299547,
+      "data_loss_from_other": false,
+      "retrieved_rows": 299547
+    },
+    {
+      "month": "2026-05",
+      "row_count": 879769,
+      "data_loss_from_other": false,
+      "retrieved_rows": 879769
+    },
+    {
+      "month": "2026-06",
+      "row_count": 258800,
+      "data_loss_from_other": false,
+      "retrieved_rows": 258800
+    },
+    {
+      "month": "2026-07",
+      "row_count": 108188,
+      "data_loss_from_other": false,
+      "retrieved_rows": 108188
+    },
+    {
+      "month": "2026-08",
+      "row_count": 1321230,
+      "data_loss_from_other": false,
+      "retrieved_rows": 1321230
+    }
+  ],
+  "gsc_page_meta": [
+    {
+      "month": "2025-05",
+      "dimension": "page",
+      "rows": 34468
+    },
+    {
+      "month": "2025-06",
+      "dimension": "page",
+      "rows": 31559
+    },
+    {
+      "month": "2025-07",
+      "dimension": "page",
+      "rows": 33592
+    },
+    {
+      "month": "2025-08",
+      "dimension": "page",
+      "rows": 38057
+    },
+    {
+      "month": "2025-09",
+      "dimension": "page",
+      "rows": 37992
+    },
+    {
+      "month": "2025-10",
+      "dimension": "page",
+      "rows": 41722
+    },
+    {
+      "month": "2025-11",
+      "dimension": "page",
+      "rows": 38004
+    },
+    {
+      "month": "2025-12",
+      "dimension": "page",
+      "rows": 53250
+    },
+    {
+      "month": "2026-01",
+      "dimension": "page",
+      "rows": 57882
+    },
+    {
+      "month": "2026-02",
+      "dimension": "page",
+      "rows": 58104
+    },
+    {
+      "month": "2026-03",
+      "dimension": "page",
+      "rows": 64661
+    },
+    {
+      "month": "2026-04",
+      "dimension": "page",
+      "rows": 62489
+    },
+    {
+      "month": "2026-05",
+      "dimension": "page",
+      "rows": 58546
+    },
+    {
+      "month": "2026-06",
+      "dimension": "page",
+      "rows": 51282
+    },
+    {
+      "month": "2026-07",
+      "dimension": "page",
+      "rows": 51148
+    },
+    {
+      "month": "2026-08",
+      "dimension": "page",
+      "rows": 44112
+    }
+  ],
+  "gsc_query_meta": [
+    {
+      "month": "2025-05",
+      "dimension": "query",
+      "rows": 62326
+    },
+    {
+      "month": "2025-06",
+      "dimension": "query",
+      "rows": 60612
+    },
+    {
+      "month": "2025-07",
+      "dimension": "query",
+      "rows": 54548
+    },
+    {
+      "month": "2025-08",
+      "dimension": "query",
+      "rows": 50416
+    },
+    {
+      "month": "2025-09",
+      "dimension": "query",
+      "rows": 48495
+    },
+    {
+      "month": "2025-10",
+      "dimension": "query",
+      "rows": 49666
+    },
+    {
+      "month": "2025-11",
+      "dimension": "query",
+      "rows": 46343
+    },
+    {
+      "month": "2025-12",
+      "dimension": "query",
+      "rows": 47471
+    },
+    {
+      "month": "2026-01",
+      "dimension": "query",
+      "rows": 46811
+    },
+    {
+      "month": "2026-02",
+      "dimension": "query",
+      "rows": 42476
+    },
+    {
+      "month": "2026-03",
+      "dimension": "query",
+      "rows": 46089
+    },
+    {
+      "month": "2026-04",
+      "dimension": "query",
+      "rows": 43416
+    },
+    {
+      "month": "2026-05",
+      "dimension": "query",
+      "rows": 41656
+    },
+    {
+      "month": "2026-06",
+      "dimension": "query",
+      "rows": 42448
+    },
+    {
+      "month": "2026-07",
+      "dimension": "query",
+      "rows": 44236
+    },
+    {
+      "month": "2026-08",
+      "dimension": "query",
+      "rows": 42454
+    }
+  ],
+  "top_topics": [
+    {
+      "label": "Lego a sběratelství",
+      "posts": 129,
+      "ga4_sessions": 503510,
+      "ga4_page_views": 7979170,
+      "ga4_active_users": 474711,
+      "ga4_share": 0.055168023561263504,
+      "ga4_sessions_per_post": 3903.1782945736436,
+      "ga4_engagement_rate": 0.9415721634128419,
+      "ga4_avg_session_duration": 73.82508333286528,
+      "gsc_clicks": 61436,
+      "gsc_impressions": 1158041,
+      "gsc_share": 0.02753884669088725,
+      "gsc_clicks_per_post": 476.2480620155039,
+      "gsc_position": 15.282721423507457,
+      "query_clicks": 48937,
+      "query_impressions": 848399,
+      "query_impression_share": 0.006640191493831099,
+      "query_position": 7.942893614914681,
+      "efficiency_score": 0.7366959822675546
+    },
+    {
+      "label": "iPhone a iOS",
+      "posts": 2111,
+      "ga4_sessions": 3517045,
+      "ga4_page_views": 40586271,
+      "ga4_active_users": 3180070,
+      "ga4_share": 0.3853516740998669,
+      "ga4_sessions_per_post": 1666.0563713879678,
+      "ga4_engagement_rate": 0.8721150852491225,
+      "ga4_avg_session_duration": 114.7385627544635,
+      "gsc_clicks": 1239889,
+      "gsc_impressions": 37645097,
+      "gsc_share": 0.5557834670993799,
+      "gsc_clicks_per_post": 587.3467550923733,
+      "gsc_position": 8.00998863145445,
+      "query_clicks": 1462912,
+      "query_impressions": 43651395,
+      "query_impression_share": 0.34164776452218987,
+      "query_position": 4.992831981658318,
+      "efficiency_score": 0.69127496362565
+    },
+    {
+      "label": "Apple Watch",
+      "posts": 300,
+      "ga4_sessions": 441315,
+      "ga4_page_views": 4046132,
+      "ga4_active_users": 402769,
+      "ga4_share": 0.048353510988737074,
+      "ga4_sessions_per_post": 1471.05,
+      "ga4_engagement_rate": 0.8417547556733852,
+      "ga4_avg_session_duration": 115.56921653059383,
+      "gsc_clicks": 122394,
+      "gsc_impressions": 2918091,
+      "gsc_share": 0.05486342863930682,
+      "gsc_clicks_per_post": 407.98,
+      "gsc_position": 13.82525013784697,
+      "query_clicks": 98089,
+      "query_impressions": 1774996,
+      "query_impression_share": 0.013892417766621867,
+      "query_position": 11.673498419151366,
+      "efficiency_score": 0.41878033693137245
+    },
+    {
+      "label": "Ostatní Apple / mix",
+      "posts": 2222,
+      "ga4_sessions": 1596353,
+      "ga4_page_views": 11537180,
+      "ga4_active_users": 1457068,
+      "ga4_share": 0.17490742967586279,
+      "ga4_sessions_per_post": 718.4306930693069,
+      "ga4_engagement_rate": 0.8895382161714859,
+      "ga4_avg_session_duration": 104.83768761706031,
+      "gsc_clicks": 254462,
+      "gsc_impressions": 12816730,
+      "gsc_share": 0.1140632529242879,
+      "gsc_clicks_per_post": 114.51935193519351,
+      "gsc_position": 9.713610569934765,
+      "query_clicks": 1230438,
+      "query_impressions": 58516199,
+      "query_impression_share": 0.45799059976629847,
+      "query_position": 8.000812099911,
+      "efficiency_score": 0.35107044366068346
+    },
+    {
+      "label": "iPad",
+      "posts": 133,
+      "ga4_sessions": 175357,
+      "ga4_page_views": 1345606,
+      "ga4_active_users": 160253,
+      "ga4_share": 0.019213320703923426,
+      "ga4_sessions_per_post": 1318.4736842105262,
+      "ga4_engagement_rate": 0.8527061936506669,
+      "ga4_avg_session_duration": 117.70585181056359,
+      "gsc_clicks": 30293,
+      "gsc_impressions": 1032863,
+      "gsc_share": 0.0135789159907391,
+      "gsc_clicks_per_post": 227.7669172932331,
+      "gsc_position": 16.079450033547527,
+      "query_clicks": 28290,
+      "query_impressions": 1119312,
+      "query_impression_share": 0.008760554905584608,
+      "query_position": 13.518464020755607,
+      "efficiency_score": 0.29155968165856044
+    },
+    {
+      "label": "Návody a řešení problémů",
+      "posts": 224,
+      "ga4_sessions": 235451,
+      "ga4_page_views": 1557791,
+      "ga4_active_users": 207769,
+      "ga4_share": 0.02579763324566156,
+      "ga4_sessions_per_post": 1051.1205357142858,
+      "ga4_engagement_rate": 0.8251143550038013,
+      "ga4_avg_session_duration": 124.53110672128805,
+      "gsc_clicks": 60323,
+      "gsc_impressions": 2748334,
+      "gsc_share": 0.02703994154786105,
+      "gsc_clicks_per_post": 269.29910714285717,
+      "gsc_position": 10.652089593186272,
+      "query_clicks": 24966,
+      "query_impressions": 468505,
+      "query_impression_share": 0.00366686301588915,
+      "query_position": 11.783039668733524,
+      "efficiency_score": 0.2832610323588903
+    },
+    {
+      "label": "Recenze",
+      "posts": 252,
+      "ga4_sessions": 311483,
+      "ga4_page_views": 3141784,
+      "ga4_active_users": 283546,
+      "ga4_share": 0.03412822284151862,
+      "ga4_sessions_per_post": 1236.0436507936508,
+      "ga4_engagement_rate": 0.8418950632939839,
+      "ga4_avg_session_duration": 139.75210722507168,
+      "gsc_clicks": 58688,
+      "gsc_impressions": 1464694,
+      "gsc_share": 0.026307048547997768,
+      "gsc_clicks_per_post": 232.88888888888889,
+      "gsc_position": 17.867200930706346,
+      "query_clicks": 30346,
+      "query_impressions": 428827,
+      "query_impression_share": 0.003356313948655183,
+      "query_position": 7.806565351528705,
+      "efficiency_score": 0.28274847322366703
+    },
+    {
+      "label": "AirPods a audio",
+      "posts": 171,
+      "ga4_sessions": 173660,
+      "ga4_page_views": 1165300,
+      "ga4_active_users": 153712,
+      "ga4_share": 0.019027385695714126,
+      "ga4_sessions_per_post": 1015.5555555555555,
+      "ga4_engagement_rate": 0.840976620983531,
+      "ga4_avg_session_duration": 114.30966358634687,
+      "gsc_clicks": 40941,
+      "gsc_impressions": 1582169,
+      "gsc_share": 0.01835190966813619,
+      "gsc_clicks_per_post": 239.42105263157896,
+      "gsc_position": 15.89110960965611,
+      "query_clicks": 51023,
+      "query_impressions": 1815926,
+      "query_impression_share": 0.014212765902160108,
+      "query_position": 12.646891998903039,
+      "efficiency_score": 0.26596167845220403
+    },
+    {
+      "label": "Mac a macOS",
+      "posts": 498,
+      "ga4_sessions": 399187,
+      "ga4_page_views": 2978778,
+      "ga4_active_users": 360663,
+      "ga4_share": 0.04373767714911341,
+      "ga4_sessions_per_post": 801.5803212851406,
+      "ga4_engagement_rate": 0.8613782512957586,
+      "ga4_avg_session_duration": 126.42706924378801,
+      "gsc_clicks": 107341,
+      "gsc_impressions": 3502835,
+      "gsc_share": 0.04811588226197227,
+      "gsc_clicks_per_post": 215.5441767068273,
+      "gsc_position": 12.59121854155277,
+      "query_clicks": 90757,
+      "query_impressions": 2678609,
+      "query_impression_share": 0.020964754434056883,
+      "query_position": 10.03797568066112,
+      "efficiency_score": 0.2300126265325653
+    },
+    {
+      "label": "Apple TV a video",
+      "posts": 132,
+      "ga4_sessions": 100504,
+      "ga4_page_views": 536727,
+      "ga4_active_users": 91736,
+      "ga4_share": 0.01101191046851349,
+      "ga4_sessions_per_post": 761.3939393939394,
+      "ga4_engagement_rate": 0.8650700469633049,
+      "ga4_avg_session_duration": 104.04159902506368,
+      "gsc_clicks": 30484,
+      "gsc_impressions": 1511541,
+      "gsc_share": 0.01366453223720631,
+      "gsc_clicks_per_post": 230.93939393939394,
+      "gsc_position": 12.87731659280165,
+      "query_clicks": 28928,
+      "query_impressions": 984928,
+      "query_impression_share": 0.007708767369641026,
+      "query_position": 8.049650329770298,
+      "efficiency_score": 0.2287647643556204
+    }
+  ],
+  "top_formats": [
+    {
+      "label": "Spekulace a úniky",
+      "posts": 818,
+      "ga4_sessions": 1164495,
+      "ga4_page_views": 13319663,
+      "ga4_active_users": 1062859,
+      "ga4_share": 0.127590092742892,
+      "ga4_sessions_per_post": 1423.5880195599022,
+      "ga4_engagement_rate": 0.8890428898363668,
+      "ga4_avg_session_duration": 104.5750304517778,
+      "gsc_clicks": 388466,
+      "gsc_impressions": 10409043,
+      "gsc_share": 0.17413089424152298,
+      "gsc_clicks_per_post": 474.89731051344745,
+      "gsc_position": 9.062564733376545,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.7384688073299166
+    },
+    {
+      "label": "Novinka",
+      "posts": 807,
+      "ga4_sessions": 1265743,
+      "ga4_page_views": 12388924,
+      "ga4_active_users": 1151199,
+      "ga4_share": 0.13868352097575887,
+      "ga4_sessions_per_post": 1568.454770755886,
+      "ga4_engagement_rate": 0.8843943833779843,
+      "ga4_avg_session_duration": 107.55615868180266,
+      "gsc_clicks": 263369,
+      "gsc_impressions": 9216471,
+      "gsc_share": 0.11805583882629539,
+      "gsc_clicks_per_post": 326.3556381660471,
+      "gsc_position": 9.413891173747523,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.6685246315546193
+    },
+    {
+      "label": "Sleva",
+      "posts": 355,
+      "ga4_sessions": 585422,
+      "ga4_page_views": 3171175,
+      "ga4_active_users": 541136,
+      "ga4_share": 0.06414286645604259,
+      "ga4_sessions_per_post": 1649.0760563380281,
+      "ga4_engagement_rate": 0.8869123469907179,
+      "ga4_avg_session_duration": 71.25369693731182,
+      "gsc_clicks": 92576,
+      "gsc_impressions": 2333742,
+      "gsc_share": 0.041497432633237484,
+      "gsc_clicks_per_post": 260.7774647887324,
+      "gsc_position": 9.84783279385639,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.6421933661350391
+    },
+    {
+      "label": "Recenze",
+      "posts": 267,
+      "ga4_sessions": 335406,
+      "ga4_page_views": 3468900,
+      "ga4_active_users": 303912,
+      "ga4_share": 0.036749391492898145,
+      "ga4_sessions_per_post": 1256.2022471910113,
+      "ga4_engagement_rate": 0.8438847247813098,
+      "ga4_avg_session_duration": 144.54312514945764,
+      "gsc_clicks": 72654,
+      "gsc_impressions": 1865607,
+      "gsc_share": 0.03256734434988805,
+      "gsc_clicks_per_post": 272.1123595505618,
+      "gsc_position": 15.558362506144112,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.543339764858446
+    },
+    {
+      "label": "Běžná novinka",
+      "posts": 5729,
+      "ga4_sessions": 5448527,
+      "ga4_page_views": 50932823,
+      "ga4_active_users": 4946288,
+      "ga4_share": 0.5969781452407705,
+      "ga4_sessions_per_post": 951.04328853203,
+      "ga4_engagement_rate": 0.8642060505527457,
+      "ga4_avg_session_duration": 110.69436067518293,
+      "gsc_clicks": 1342894,
+      "gsc_impressions": 54194803,
+      "gsc_share": 0.6019557260907666,
+      "gsc_clicks_per_post": 234.40286262873101,
+      "gsc_position": 9.287657785193906,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.4322760115523603
+    },
+    {
+      "label": "Návod",
+      "posts": 290,
+      "ga4_sessions": 276334,
+      "ga4_page_views": 1927940,
+      "ga4_active_users": 243592,
+      "ga4_share": 0.030277056310258364,
+      "ga4_sessions_per_post": 952.8758620689655,
+      "ga4_engagement_rate": 0.8360462339053464,
+      "ga4_avg_session_duration": 126.15068702128941,
+      "gsc_clicks": 64131,
+      "gsc_impressions": 2982714,
+      "gsc_share": 0.02874688744601358,
+      "gsc_clicks_per_post": 221.14137931034483,
+      "gsc_position": 10.790739239497988,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.4230023521041587
+    },
+    {
+      "label": "Komentář a historie",
+      "posts": 54,
+      "ga4_sessions": 50918,
+      "ga4_page_views": 519565,
+      "ga4_active_users": 47388,
+      "ga4_share": 0.005578926781379546,
+      "ga4_sessions_per_post": 942.925925925926,
+      "ga4_engagement_rate": 0.915039868023096,
+      "ga4_avg_session_duration": 90.41878717716718,
+      "gsc_clicks": 6795,
+      "gsc_impressions": 354269,
+      "gsc_share": 0.0030458764122758457,
+      "gsc_clicks_per_post": 125.83333333333333,
+      "gsc_position": 11.298702398459927,
+      "query_clicks": 0,
+      "query_impressions": 0,
+      "query_impression_share": 0.0,
+      "query_position": 0.0,
+      "efficiency_score": 0.3500450459833772
+    }
+  ]
+}

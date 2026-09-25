@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "pseo-auditor-lite",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535917596,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "3093a5f535d114cab4102036da13c59579d3c39869a4be2c0ec8353846eaf881",
+    "integrity": "sha256-MJOl9TXRFMq0ECA22hPFlXnTw5hppL4sDsg1OEbq+IE="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d9437fda69281cf31b8e7b6e4489dc721060d1684b0b75fa7341f140b9db6e49"
+  }
+}

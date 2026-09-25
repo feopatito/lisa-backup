@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "pdf-studio",
+  "installedVersion": "1.1.0",
+  "installedAt": 1786524872509,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "e417baca7eae840e719e60a450a5126ebce7341f0426758759acc583e229af94",
+    "integrity": "sha256-5Be6yn6uhA5xnmCkUKUSbrznNB8EJnWHWazFg+Ipr5Q="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "c34c613f3d33275f886ae5624c7824abe93671b3df989f168b155b9519dc47e7"
+  }
+}

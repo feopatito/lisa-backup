@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "marketing-analytics",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786524813777,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "cb0a7d4a9e10441c729be01525ae2ea9e2eee8325983dac0395a719b289999e5",
+    "integrity": "sha256-ywp9Sp4QRBxym+AVJa4uqeLu6DJZg9rAOVpxmyiZmeU="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d05dc11ab990ebe10df99bd1473906374e7f8aa535ff3f7f0f151e5133b22f23"
+  }
+}

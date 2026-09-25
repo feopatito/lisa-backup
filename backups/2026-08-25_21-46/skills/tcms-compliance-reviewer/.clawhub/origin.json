@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "tcms-compliance-reviewer",
+  "installedVersion": "1.1.2",
+  "installedAt": 1786569074431,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "c3e82856c14652a4c2b9b8e5af69049b5d8cb71a496a6926aa85e5880c078c6a",
+    "integrity": "sha256-w+goVsFGUqTCubjlr2kEm12MtxpJamkmqoXliAwHjGo="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "ee53e8e162ff9d1a9b5a65fd7d4d5881585246acf5115171041db37462d8b951"
+  }
+}

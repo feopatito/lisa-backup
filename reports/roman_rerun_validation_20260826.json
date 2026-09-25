@@ -1,0 +1,2081 @@
+{
+  "generated_at": "2026-08-26T09:30:29.645462",
+  "items": [
+    {
+      "id": "LSA-01",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Mac mini s M6: co Apple skutečně změnil a komu se vyplatí",
+      "candidate_id": "LSA-01",
+      "exact_topic": "mac mini m6",
+      "proposed_title": "Mac mini s M6: co Apple skutečně změnil a komu se vyplatí",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Apple Newsroom + MacRumors/9to5Mac, čerstvé uvedení Mac mini.; GSC 8495 imp / pos 2.11 / CTR 9.59 %; GA4 1669 sessions / 8120 views",
+      "hard_evidence": "Apple Newsroom + MacRumors/9to5Mac, čerstvé uvedení Mac mini.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr",
+      "unique_value": "Rozebrat konfigurace, AI výkon a český nákupní kontext.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-02",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Mac Studio s M5 Max a M5 Ultra: tichý upgrade pro profesionály",
+      "candidate_id": "LSA-02",
+      "exact_topic": "mac studio m5 ultra",
+      "proposed_title": "Mac Studio s M5 Max a M5 Ultra: tichý upgrade pro profesionály",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Apple Newsroom: nový Mac Studio s M5 Max/M5 Ultra.; GSC 8495 imp / pos 2.11 / CTR 9.59 %; GA4 1669 sessions / 8120 views",
+      "hard_evidence": "Apple Newsroom: nový Mac Studio s M5 Max/M5 Ultra.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr",
+      "unique_value": "Srovnat proti Mac mini M6 a vysvětlit pro koho je Studio.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-03",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "M6 a M5 Ultra: proč Apple tlačí AI výkon do Maců",
+      "candidate_id": "LSA-03",
+      "exact_topic": "m6 m5 ultra ai compute",
+      "proposed_title": "M6 a M5 Ultra: proč Apple tlačí AI výkon do Maců",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "Apple Newsroom: nové čipy M6/M5 Ultra a AI compute.; GA4 1160 sessions / 2219 views",
+      "hard_evidence": "Apple Newsroom: nové čipy M6/M5 Ultra a AI compute.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Přeložit technický čipový launch do uživatelských dopadů.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-04",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Jak sledovat Apple Keynote 9. září v Česku",
+      "candidate_id": "LSA-04",
+      "exact_topic": "jak sledovat apple keynote",
+      "proposed_title": "Jak sledovat Apple Keynote 9. září v Česku",
+      "action": "FOLLOW-UP",
+      "primary_lane": "SEO + CURRENT DEMAND",
+      "why_now": "Google Trends via pytrends iPhone 18 10/100 teď nízko, ale GSC iPhone 18 silný; MacRumors/9to5Mac sledují zářijové okno.; GA4 5495 sessions / 14566 views",
+      "hard_evidence": "GSC iPhone 18 silný; MacRumors/9to5Mac sledují zářijové okno.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v  | Unikla krabička iPhone 18 Pro Max. Apple na ní odhaluje největší novinku fotoapa",
+      "unique_value": "Praktický servis: čas v ČR, stream, co čekat, co je zatím spekulace.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v  | Unikla krabička iPhone 18 Pro Max. Apple na ní odhaluje největší novinku fotoapa",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-05",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "iPhone 18 Pro: co víme, co jsou úniky a co neříkat jako fakt",
+      "candidate_id": "LSA-05",
+      "exact_topic": "iphone 18 pro",
+      "proposed_title": "iPhone 18 Pro: co víme, co jsou úniky a co neříkat jako fakt",
+      "action": "UPDATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GSC: iPhone 18 Pro patří mezi nejsilnější LSA dotazy.; GSC 680779 imp / pos 1.35 / CTR 4.89 %; GA4 4712 sessions / 51935 views",
+      "hard_evidence": "GSC: iPhone 18 Pro patří mezi nejsilnější LSA dotazy.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v ",
+      "unique_value": "Oddělit ověřené informace od leaků, vyčistit záměny intentu.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v ",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-06",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "iPhone Ultra: proč skládací iPhone táhne Discover",
+      "candidate_id": "LSA-06",
+      "exact_topic": "iphone ultra",
+      "proposed_title": "iPhone Ultra: proč skládací iPhone táhne Discover",
+      "action": "FOLLOW-UP",
+      "primary_lane": "DISCOVER",
+      "why_now": "GA4: skládací iPhone Ultra měl vysoké pageviews; GSC iPhone Ultra silný.; GSC 680779 imp / pos 1.35 / CTR 4.89 %; GA4 4712 sessions / 51935 views",
+      "hard_evidence": "GA4: skládací iPhone Ultra měl vysoké pageviews; GSC iPhone Ultra silný.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr",
+      "unique_value": "Cena/dostupnost/komu dává smysl, ne opakování prvních dojmů.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-07",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Apple Maps reklamy jsou živé: kde se zobrazí a proč nejdou vypnout",
+      "candidate_id": "LSA-07",
+      "exact_topic": "apple maps ads reklamy",
+      "proposed_title": "Apple Maps reklamy jsou živé: kde se zobrazí a proč nejdou vypnout",
+      "action": "UPDATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "MacRumors/AppleInsider: reklamy Apple Maps live v USA/Kanadě.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views",
+      "hard_evidence": "MacRumors/AppleInsider: reklamy Apple Maps live v USA/Kanadě.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Maps zaplaví reklamy a to už letos v létě! | Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU",
+      "unique_value": "Navázat na starší článek; vysvětlit praktický dopad pro uživatele.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple Maps zaplaví reklamy a to už letos v létě! | Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-08",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "ChatGPT na Macu a iMessage: co je reálně možné a kde jsou rizika",
+      "candidate_id": "LSA-08",
+      "exact_topic": "chatgpt imessage mac",
+      "proposed_title": "ChatGPT na Macu a iMessage: co je reálně možné a kde jsou rizika",
+      "action": "UPDATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Google Trends via pytrends ChatGPT 50/100 + Moula/GSC: ChatGPT 32k imp, slabý CTR; Manticore našel fresh články.; GA4 1669 sessions / 8120 views",
+      "hard_evidence": "Moula/GSC: ChatGPT 32k imp, slabý CTR; Manticore našel fresh články.; WP/Manticore: SIMILAR_EXISTS přes Manticore: ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesí | iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit",
+      "unique_value": "Zlepšit CTR konkrétním bezpečnostním a praktickým úhlem.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesí | iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-09",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "LEGO PlayStation 1 a proč LEGO teď funguje na LSA",
+      "candidate_id": "LSA-09",
+      "exact_topic": "lego playstation 1",
+      "proposed_title": "LEGO PlayStation 1 a proč LEGO teď funguje na LSA",
+      "action": "FOLLOW-UP",
+      "primary_lane": "DISCOVER",
+      "why_now": "GSC LEGO 68k imp; GA4 LEGO články vysoké views.; GSC 71079 imp / pos 6.48 / CTR 3.71 %; GA4 5111 sessions / 54080 views",
+      "hard_evidence": "GSC LEGO 68k imp; GA4 LEGO články vysoké views.; WP/Manticore: SIMILAR_EXISTS přes Manticore: LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako orig | LEGO a Sony chystají senzaci. Vedle stavebnicového PlayStationu dorazí i legendá",
+      "unique_value": "Zachytit nostalgii/popkulturu, ověřit intent před publikací.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako orig | LEGO a Sony chystají senzaci. Vedle stavebnicového PlayStationu dorazí i legendá",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-10",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "iCloud trik na fotky: co ještě funguje a co Apple brzy utne",
+      "candidate_id": "LSA-10",
+      "exact_topic": "icloud uloziste fotky",
+      "proposed_title": "iCloud trik na fotky: co ještě funguje a co Apple brzy utne",
+      "action": "UPDATE",
+      "primary_lane": "DISCOVER",
+      "why_now": "GA4: iCloud storage článek jeden z top výkonů týdne.; GSC 2570 imp / pos 4.49 / CTR 17.16 %; GA4 5495 sessions / 14566 views",
+      "hard_evidence": "GA4: iCloud storage článek jeden z top výkonů týdne.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Appl | Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplatí vědět",
+      "unique_value": "Praktická kontrola aktuálnosti a limitů, interní link na původní článek.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Appl | Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplatí vědět",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-11",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "CarPlay v iOS 27: změny, které řidiči uvidí jako první",
+      "candidate_id": "LSA-11",
+      "exact_topic": "carplay ios 27",
+      "proposed_title": "CarPlay v iOS 27: změny, které řidiči uvidí jako první",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GA4: CarPlay/iOS 27 článek ve výkonu týdne.; GA4 3251 sessions / 5918 views",
+      "hard_evidence": "GA4: CarPlay/iOS 27 článek ve výkonu týdne.; WP/Manticore: SIMILAR_EXISTS přes Manticore: CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky | Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů",
+      "unique_value": "Konkrétní use-cases místo obecného výčtu funkcí.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky | Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-12",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Apple Watch 12: šest očekávání před keynote, jasně oddělená od faktů",
+      "candidate_id": "LSA-12",
+      "exact_topic": "apple watch 12",
+      "proposed_title": "Apple Watch 12: šest očekávání před keynote, jasně oddělená od faktů",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Manticore ukazuje fresh článek; Apple event proximity.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views",
+      "hard_evidence": "Manticore ukazuje fresh článek; Apple event proximity.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v ",
+      "unique_value": "Checklist fakt/leak/spekulace, nepovyšovat úniky na potvrzení.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v ",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-13",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "AirPods 5 před zářím: co dává smysl čekat a co je jen rumor",
+      "candidate_id": "LSA-13",
+      "exact_topic": "airpods 5",
+      "proposed_title": "AirPods 5 před zářím: co dává smysl čekat a co je jen rumor",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Manticore fresh AirPods 5 zmínky; Apple event proximity.; GA4 1463 sessions / 4997 views",
+      "hard_evidence": "Manticore fresh AirPods 5 zmínky; Apple event proximity.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 | Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air",
+      "unique_value": "Vysvětlit pravděpodobnost a praktický dopad pro nákup.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 | Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-14",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "iPhone 20 design: proč už teď zajímá čtenáře víc než by měl",
+      "candidate_id": "LSA-14",
+      "exact_topic": "iphone 20 design",
+      "proposed_title": "iPhone 20 design: proč už teď zajímá čtenáře víc než by měl",
+      "action": "FOLLOW-UP",
+      "primary_lane": "DISCOVER",
+      "why_now": "GA4: iPhone 20 design článek má silné views.; GSC 680779 imp / pos 1.35 / CTR 4.89 %; GA4 4712 sessions / 51935 views",
+      "hard_evidence": "GA4: iPhone 20 design článek má silné views.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone b | Bloomberg: Revoluční iPhone 20 není zrušen, bude ale vypadat jinak než původně m",
+      "unique_value": "Trendový follow-up s opatrným rámováním vzdálené budoucnosti.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone b | Bloomberg: Revoluční iPhone 20 není zrušen, bude ale vypadat jinak než původně m",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-15",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Nová Apple TV 4K a Siri Remote: malý update, velký dopad v obýváku",
+      "candidate_id": "LSA-15",
+      "exact_topic": "apple tv 4k siri remote",
+      "proposed_title": "Nová Apple TV 4K a Siri Remote: malý update, velký dopad v obýváku",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GA4: Apple TV/Siri Remote článek fungoval.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views",
+      "hard_evidence": "GA4: Apple TV/Siri Remote článek fungoval.; WP/Manticore: SIMILAR_EXISTS přes Manticore: S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějšíc | Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri i přepr",
+      "unique_value": "Praktický dopad ovladače, Wi-Fi, HomeKit, cena.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějšíc | Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri i přepr",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-16",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Apple mění pravidla pro aplikace v EU: co to znamená pro majitele iPhonů",
+      "candidate_id": "LSA-16",
+      "exact_topic": "apple european union apps changes",
+      "proposed_title": "Apple mění pravidla pro aplikace v EU: co to znamená pro majitele iPhonů",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Apple Newsroom: changes for apps in EU.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views",
+      "hard_evidence": "Apple Newsroom: changes for apps in EU.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Přeložit regulatorní změnu do češtiny a praktických dopadů.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-17",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Která Apple zařízení už mají plnou podporu Wi-Fi 7",
+      "candidate_id": "LSA-17",
+      "exact_topic": "wifi 7 apple devices",
+      "proposed_title": "Která Apple zařízení už mají plnou podporu Wi-Fi 7",
+      "action": "CREATE",
+      "primary_lane": "SEO + CURRENT DEMAND",
+      "why_now": "9to5Mac: přehled zařízení s Wi-Fi 7.; GA4 3251 sessions / 5918 views",
+      "hard_evidence": "9to5Mac: přehled zařízení s Wi-Fi 7.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Kompetní historie Apple iPhone: jak vznikal hudební přehrávač, telefon a interne",
+      "unique_value": "Nákupní přehled pro iPhone/Mac/iPad uživatele.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Kompetní historie Apple iPhone: jak vznikal hudební přehrávač, telefon a interne",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-18",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "BenQ iScreenBar pro iMac: doplněk, který Apple nikdy neudělal",
+      "candidate_id": "LSA-18",
+      "exact_topic": "benq iscreenbar imac",
+      "proposed_title": "BenQ iScreenBar pro iMac: doplněk, který Apple nikdy neudělal",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "MacRumors: BenQ iScreenBar for iMac.",
+      "hard_evidence": "MacRumors: BenQ iScreenBar for iMac.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Produktový praktický tip pro LSA publikum.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-19",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Apple 40W Dynamic Power Adapter míří do dalších zemí: proč je zajímavý",
+      "candidate_id": "LSA-19",
+      "exact_topic": "40w dynamic power adapter",
+      "proposed_title": "Apple 40W Dynamic Power Adapter míří do dalších zemí: proč je zajímavý",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "MacRumors: adaptér expanduje do dalších zemí.",
+      "hard_evidence": "MacRumors: adaptér expanduje do dalších zemí.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě a | iPad Pro M5 v prvních recenzích! Jaký je nejvýkonnější tablet současnosti v reál",
+      "unique_value": "Vysvětlit nabíjení, kompatibilitu a zda čekat CZ dostupnost.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě a | iPad Pro M5 v prvních recenzích! Jaký je nejvýkonnější tablet současnosti v reál",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "LSA-20",
+      "prefix": "LSA",
+      "site": "letemsvetemapplem.eu",
+      "heading": "Apple otevřel Advanced Manufacturing Center v Houstonu: proč to není jen PR",
+      "candidate_id": "LSA-20",
+      "exact_topic": "apple manufacturing center houston",
+      "proposed_title": "Apple otevřel Advanced Manufacturing Center v Houstonu: proč to není jen PR",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "Apple Newsroom: nové manufacturing centrum.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views",
+      "hard_evidence": "Apple Newsroom: nové manufacturing centrum.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Sklo pro iPhone a Apple Watch bude již brzy 100% z USA",
+      "unique_value": "Napojit na čipy, dodavatelský řetězec a Apple Intelligence.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Sklo pro iPhone a Apple Watch bude již brzy 100% z USA",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-01",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "One UI 9 Beta 6: co opravuje a kdo ji dostává",
+      "candidate_id": "SAM-01",
+      "exact_topic": "one ui 9 beta 6",
+      "proposed_title": "One UI 9 Beta 6: co opravuje a kdo ji dostává",
+      "action": "UPDATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Android Central + Samsung/One UI signály; GSC one ui 132k+ imp.; GSC 135824 imp / pos 4.02 / CTR 16.78 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "Android Central + Samsung/One UI signály; GSC one ui 132k+ imp.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Samsung vydává 6. betu One UI 9 pro Galaxy S26. Opravuje fotoaparát i rozbité wi | Ostrá verze One UI 9 má zpoždění. Samsung pro Galaxy S26 chystá další betu",
+      "unique_value": "Přesný stav bety, opravy, dostupnost, interní linky.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Samsung vydává 6. betu One UI 9 pro Galaxy S26. Opravuje fotoaparát i rozbité wi | Ostrá verze One UI 9 má zpoždění. Samsung pro Galaxy S26 chystá další betu",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-02",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Gemini na Samsungu: obří zájem, mizerný CTR, praktický návod",
+      "candidate_id": "SAM-02",
+      "exact_topic": "gemini samsung",
+      "proposed_title": "Gemini na Samsungu: obří zájem, mizerný CTR, praktický návod",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GSC/Moula: 224k imp, CTR 0.1 %.; GA4 22735 sessions / 29358 views",
+      "hard_evidence": "GSC/Moula: 224k imp, CTR 0.1 %.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Gemini Intelligence přináší do Androidu autonomii. Známe seznam telefonů, které  | Stabilní verze One UI 9: Na která zařízení dorazí jako první a jak se liší od be",
+      "unique_value": "Přepsat angle na uživatelské otázky: kde je Gemini, co umí, vypnutí.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Gemini Intelligence přináší do Androidu autonomii. Známe seznam telefonů, které  | Stabilní verze One UI 9: Na která zařízení dorazí jako první a jak se liší od be",
+      "opportunity_score": "78",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-03",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Galaxy S26 vs S25: má upgrade smysl?",
+      "candidate_id": "SAM-03",
+      "exact_topic": "galaxy s26 s25 upgrade",
+      "proposed_title": "Galaxy S26 vs S25: má upgrade smysl?",
+      "action": "CREATE",
+      "primary_lane": "SEO + CURRENT DEMAND",
+      "why_now": "GSC Samsung Galaxy/S26 silné dotazy.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "GSC Samsung Galaxy/S26 silné dotazy.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Galaxy Z Fold8 Ultra dostane nečekaný upgrade displeje. Nejde jen o méně viditel | Čeká nás po čtyřech letech změna? Galaxy S27 Pro a Ultra dostanou novinku, ktero",
+      "unique_value": "Jasný nákupní checklist místo obecné novinky.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Galaxy Z Fold8 Ultra dostane nečekaný upgrade displeje. Nejde jen o méně viditel | Čeká nás po čtyřech letech změna? Galaxy S27 Pro a Ultra dostanou novinku, ktero",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-04",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Galaxy S26 FE: co sledovat po eventu 27. srpna",
+      "candidate_id": "SAM-04",
+      "exact_topic": "galaxy s26 fe event",
+      "proposed_title": "Galaxy S26 FE: co sledovat po eventu 27. srpna",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Samsung Newsroom invitation; existující články před eventem.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "Samsung Newsroom invitation; existující články před eventem.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Samsung Galaxy S26 FE: cena, datum a co čekat od Galaxy Event August 2026 | Zapište si toto datum. Samsung prozradil, kdy představí Galaxy S26 FE a další no",
+      "unique_value": "Po eventu doplnit cenu, dostupnost, odlišnosti od spekulací.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Samsung Galaxy S26 FE: cena, datum a co čekat od Galaxy Event August 2026 | Zapište si toto datum. Samsung prozradil, kdy představí Galaxy S26 FE a další no",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-05",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Galaxy Watch Ultra 2: recenze a srovnání s Watch Ultra a Garminem",
+      "candidate_id": "SAM-05",
+      "exact_topic": "galaxy watch ultra 2 recenze",
+      "proposed_title": "Galaxy Watch Ultra 2: recenze a srovnání s Watch Ultra a Garminem",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Moula: hype fáze; Manticore bez přesné recenze Ultra 2.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "Moula: hype fáze; Manticore bez přesné recenze Ultra 2.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Samsung Galaxy Z Fold8 Ultra recenze: Je to špička, ale trochu nuda | Nové skládačky od Samsungu stojí ranec. Tímto trikem ale můžete ušetřit desítky ",
+      "unique_value": "CZ recenze/srovnání, ne jen přepis specifikací.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Samsung Galaxy Z Fold8 Ultra recenze: Je to špička, ale trochu nuda | Nové skládačky od Samsungu stojí ranec. Tímto trikem ale můžete ušetřit desítky ",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-06",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Jak snadno přejít na Galaxy Z Fold8",
+      "candidate_id": "SAM-06",
+      "exact_topic": "switch to galaxy z fold8",
+      "proposed_title": "Jak snadno přejít na Galaxy Z Fold8",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Samsung Newsroom: Easier Way to Switch to New Galaxy Z Fold8.; GA4 2097 sessions / 5703 views",
+      "hard_evidence": "Samsung Newsroom: Easier Way to Switch to New Galaxy Z Fold8.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Přehled aktualizací Samsung: Která zařízení obdržela ve 34. týdnu roku 2026 nové | Skvělá aplikace od Samsungu má velký problém. Uživatelům po přechodu na nový tel",
+      "unique_value": "Praktický migrační návod pro iPhone/Samsung uživatele.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Přehled aktualizací Samsung: Která zařízení obdržela ve 34. týdnu roku 2026 nové | Skvělá aplikace od Samsungu má velký problém. Uživatelům po přechodu na nový tel",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-07",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Galaxy Buds4 Pro mají uznaný Hi-Fi zvuk: co to znamená v praxi",
+      "candidate_id": "SAM-07",
+      "exact_topic": "galaxy buds4 pro hi-fi sound",
+      "proposed_title": "Galaxy Buds4 Pro mají uznaný Hi-Fi zvuk: co to znamená v praxi",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Samsung Newsroom: audio experts recognition.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "Samsung Newsroom: audio experts recognition.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Oddělit certifikaci/marketing od reálného poslechu.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-08",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Srpnové bezpečnostní aktualizace Galaxy: kdo je dostává",
+      "candidate_id": "SAM-08",
+      "exact_topic": "august 2026 security patch galaxy",
+      "proposed_title": "Srpnové bezpečnostní aktualizace Galaxy: kdo je dostává",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "SamMobile: August 2026 security patch pro Galaxy M55 + patch vlna.; GA4 2134 sessions / 3271 views",
+      "hard_evidence": "SamMobile: August 2026 security patch pro Galaxy M55 + patch vlna.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Krátký servisní roundup s modely a postupem kontroly.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-09",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Galaxy S27 Ultra leak: vodorovný fotomodul a riziko iPhone looku",
+      "candidate_id": "SAM-09",
+      "exact_topic": "galaxy s27 ultra camera bar",
+      "proposed_title": "Galaxy S27 Ultra leak: vodorovný fotomodul a riziko iPhone looku",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "Android Central/SamMobile: S27 Ultra redesign leak.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "Android Central/SamMobile: S27 Ultra redesign leak.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Jasně označit leak; porovnat designový směr a očekávání.",
+      "reality_status": "UNCERTAIN - leak/spekulace jasně označit",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-10",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Good Lock MultiStar/FlipShot: malá funkce pro skládačky, velký rozdíl",
+      "candidate_id": "SAM-10",
+      "exact_topic": "good lock multistar flipshot",
+      "proposed_title": "Good Lock MultiStar/FlipShot: malá funkce pro skládačky, velký rozdíl",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "Samsung specialist media signály z 24.–25.8.",
+      "hard_evidence": "Samsung specialist media signály z 24.–25.8.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Praktický návod pro Fold/Flip majitele.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-11",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Samsung na Gamescomu 2026: proč to zajímá i majitele Galaxy",
+      "candidate_id": "SAM-11",
+      "exact_topic": "samsung gamescom 2026",
+      "proposed_title": "Samsung na Gamescomu 2026: proč to zajímá i majitele Galaxy",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "Samsung Newsroom Global: Gamescom 2026 gaming solutions.; GSC 281731 imp / pos 3.89 / CTR 23.64 %; GA4 22735 sessions / 29358 views",
+      "hard_evidence": "Samsung Newsroom Global: Gamescom 2026 gaming solutions.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Napojit na gaming monitory, Galaxy, cloud gaming.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-12",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Čínská odpověď na Galaxy Z TriFold přijde příští měsíc",
+      "candidate_id": "SAM-12",
+      "exact_topic": "galaxy z trifold china",
+      "proposed_title": "Čínská odpověď na Galaxy Z TriFold přijde příští měsíc",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "SamMobile: China answer to Galaxy Z TriFold coming next month.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "SamMobile: China answer to Galaxy Z TriFold coming next month.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Konkurence jako tlak na Samsung; jasně označit jako konkurenční signál.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-13",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Galaxy Z Fold8 má možná až moc selfie kamer",
+      "candidate_id": "SAM-13",
+      "exact_topic": "galaxy z fold 8 selfie camera",
+      "proposed_title": "Galaxy Z Fold8 má možná až moc selfie kamer",
+      "action": "FOLLOW-UP",
+      "primary_lane": "DISCOVER",
+      "why_now": "SamMobile hot take; Fold8 témata běží v GA4.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "SamMobile hot take; Fold8 témata běží v GA4.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Pixel 11 Pro vyzval Galaxy S26 Ultra. Která vlajková loď vám nabídne více?",
+      "unique_value": "Názorový/analytický úhel pro redaktora, ne AI hotový článek.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Pixel 11 Pro vyzval Galaxy S26 Ultra. Která vlajková loď vám nabídne více?",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-14",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Android Auto na Samsungu: tři nastavení, která dnes řeší nejvíc lidí",
+      "candidate_id": "SAM-14",
+      "exact_topic": "android auto samsung",
+      "proposed_title": "Android Auto na Samsungu: tři nastavení, která dnes řeší nejvíc lidí",
+      "action": "CREATE",
+      "primary_lane": "SEO + CURRENT DEMAND",
+      "why_now": "GSC android auto 124k imp; GA4 Android Auto články silné.; GSC 124797 imp / pos 5.04 / CTR 17.62 %; GA4 13421 sessions / 16605 views",
+      "hard_evidence": "GSC android auto 124k imp; GA4 Android Auto články silné.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Android Auto se zbavuje té nejotravnější chyby. Bude připojení konečně stabilní? | Epic, Google a Samsung hlásí mír. Do Androidu míří snadnější instalace obchodů, ",
+      "unique_value": "Praktický návod s odkazy na existující články.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Android Auto se zbavuje té nejotravnější chyby. Bude připojení konečně stabilní? | Epic, Google a Samsung hlásí mír. Do Androidu míří snadnější instalace obchodů, ",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-15",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Jak uvolnit místo na Samsungu bez mazání aplikací",
+      "candidate_id": "SAM-15",
+      "exact_topic": "uvolnit misto samsung",
+      "proposed_title": "Jak uvolnit místo na Samsungu bez mazání aplikací",
+      "action": "FOLLOW-UP",
+      "primary_lane": "DISCOVER",
+      "why_now": "GA4 CZ článek 7 908 sessions / 32 547 views.; GA4 7912 sessions / 32560 views",
+      "hard_evidence": "GA4 CZ článek 7 908 sessions / 32 547 views.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji | Majitelé telefonů Samsung oslavují. Konečně z nich smažou aplikaci, kterou nikdy",
+      "unique_value": "Navazující tipy, ne duplicitní rewrite.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji | Majitelé telefonů Samsung oslavují. Konečně z nich smažou aplikaci, kterou nikdy",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-16",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Google Wallet redesign na Samsungu: co se změnilo",
+      "candidate_id": "SAM-16",
+      "exact_topic": "google wallet redesign",
+      "proposed_title": "Google Wallet redesign na Samsungu: co se změnilo",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GA4: Google Wallet redesign 7 007 sessions / 50 799 views.; GSC 10118 imp / pos 4.89 / CTR 24.85 %; GA4 7007 sessions / 50799 views",
+      "hard_evidence": "GA4: Google Wallet redesign 7 007 sessions / 50 799 views.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Peněženka Google spouští velký redesign, na který všichni čekali. Podívejte se, ",
+      "unique_value": "Aktualizovat s praktickými screenshot/body.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Peněženka Google spouští velký redesign, na který všichni čekali. Podívejte se, ",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-17",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Samsung zdražuje čipy: zdraží i telefony střední třídy?",
+      "candidate_id": "SAM-17",
+      "exact_topic": "samsung chip price midrange",
+      "proposed_title": "Samsung zdražuje čipy: zdraží i telefony střední třídy?",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GA4 CZ článek 13 820 sessions.; GSC 281731 imp / pos 3.89 / CTR 23.64 %; GA4 22735 sessions / 29358 views",
+      "hard_evidence": "GA4 CZ článek 13 820 sessions.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Příští telefon vás přijde draho. Samsung v tichosti chystá krok, který zničí dos",
+      "unique_value": "Follow-up s dopadem na S26 FE a A řadu.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Příští telefon vás přijde draho. Samsung v tichosti chystá krok, který zničí dos",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-18",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Které Galaxy telefony letos končí s podporou",
+      "candidate_id": "SAM-18",
+      "exact_topic": "galaxy end of life support",
+      "proposed_title": "Které Galaxy telefony letos končí s podporou",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GA4 lifecycle/support obsah silný globálně.; GSC 222261 imp / pos 3.7 / CTR 6.31 %; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "GA4 lifecycle/support obsah silný globálně.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Těmto telefonům Samsung Galaxy dochází čas. Zkontrolujte, zda mezi nimi není i t",
+      "unique_value": "Aktualizovat modely, interní linky, FAQ.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Těmto telefonům Samsung Galaxy dochází čas. Zkontrolujte, zda mezi nimi není i t",
+      "opportunity_score": "78",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-19",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "SwiftKey v One UI 9: proč ho půjde odstranit a koho se to týká",
+      "candidate_id": "SAM-19",
+      "exact_topic": "swiftkey samsung one ui 9",
+      "proposed_title": "SwiftKey v One UI 9: proč ho půjde odstranit a koho se to týká",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GA4: SwiftKey/One UI 9 článek silný v JA.; GSC 8481 imp / pos 1 / CTR 56.18 %; GA4 8897 sessions / 13704 views",
+      "hard_evidence": "GA4: SwiftKey/One UI 9 článek silný v JA.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Majitelé telefonů Samsung oslavují. Konečně z nich smažou aplikaci, kterou nikdy | Každý Samsung obsahuje umělou inteligenci. Ano, i ten váš",
+      "unique_value": "CZ verze prakticky a stručně.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Majitelé telefonů Samsung oslavují. Konečně z nich smažou aplikaci, kterou nikdy | Každý Samsung obsahuje umělou inteligenci. Ano, i ten váš",
+      "opportunity_score": "78",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "SAM-20",
+      "prefix": "SAM",
+      "site": "samsungmagazine.eu",
+      "heading": "Zamrzlé Galaxy Watch: proč nedělat tovární reset jako první",
+      "candidate_id": "SAM-20",
+      "exact_topic": "frozen galaxy watch reset",
+      "proposed_title": "Zamrzlé Galaxy Watch: proč nedělat tovární reset jako první",
+      "action": "CREATE",
+      "primary_lane": "SEO",
+      "why_now": "Manticore/signály na Galaxy Watch problémy; evergreen řešení.; GA4 15000 sessions / 24381 views",
+      "hard_evidence": "Manticore/signály na Galaxy Watch problémy; evergreen řešení.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji",
+      "unique_value": "Servisní návod s jasnými kroky.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Zlobí vás Galaxy Watch? Tovární reset nedělejte, problém vyřešíte jednodušeji",
+      "opportunity_score": "78",
+      "predictive_score": "72",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-01",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Co je Android Pulse a proč se objevuje v Google Play aktualizacích",
+      "candidate_id": "AND-01",
+      "exact_topic": "android pulse app",
+      "proposed_title": "Co je Android Pulse a proč se objevuje v Google Play aktualizacích",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "9to5Google RSS: Android Pulse app appeared in Play Store updates.; GSC 37 imp / pos 10.16 / CTR 40.54 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "9to5Google RSS: Android Pulse app appeared in Play Store updates.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Vysvětlit nový systémový prvek bez paniky.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-02",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Pixel Rambler voice-to-text: funkce, která může změnit diktování",
+      "candidate_id": "AND-02",
+      "exact_topic": "pixel rambler voice to text",
+      "proposed_title": "Pixel Rambler voice-to-text: funkce, která může změnit diktování",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "9to5Google RSS: Pixel 11 Rambler voice-to-text.; GSC 41 imp / pos 8.17 / CTR 9.76 %; GA4 43 sessions / 81 views",
+      "hard_evidence": "9to5Google RSS: Pixel 11 Rambler voice-to-text.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Praktický demo/impact angle pro Google/Pixel publikum.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-03",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Gemini Device Help na Pixelu: poradí s telefonem, ale není bez limitů",
+      "candidate_id": "AND-03",
+      "exact_topic": "gemini device help pixel",
+      "proposed_title": "Gemini Device Help na Pixelu: poradí s telefonem, ale není bez limitů",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Android Authority + 9to5Google webové signály.",
+      "hard_evidence": "Android Authority + 9to5Google webové signály.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Potřebujete změnit nastavení svého mobilu? Stačí požádat Gemini a nemusíte už ni",
+      "unique_value": "Uživatelský test/hranice funkce.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Potřebujete změnit nastavení svého mobilu? Stačí požádat Gemini a nemusíte už ni",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-04",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Google Maps v Android Auto nezobrazuje dopravu: co zkusit",
+      "candidate_id": "AND-04",
+      "exact_topic": "google maps android auto traffic",
+      "proposed_title": "Google Maps v Android Auto nezobrazuje dopravu: co zkusit",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "9to5Google + XDA: traffic data bug.; GSC 41 imp / pos 8.17 / CTR 9.76 %; GA4 47 sessions / 115 views",
+      "hard_evidence": "9to5Google + XDA: traffic data bug.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Rychlý servisní článek s workaroundy.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-05",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Srpnové Google System Updates: co je nové v Androidu, Play Store a Auto",
+      "candidate_id": "AND-05",
+      "exact_topic": "google system updates august",
+      "proposed_title": "Srpnové Google System Updates: co je nové v Androidu, Play Store a Auto",
+      "action": "UPDATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "9to5Google update 24.8.; existující Android Magazine článek.; GSC 41 imp / pos 8.17 / CTR 9.76 %; GA4 47 sessions / 115 views",
+      "hard_evidence": "9to5Google update 24.8.; existující Android Magazine článek.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Doplnit nové body, ne nový duplicitní článek.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-06",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Android Auto se odpojuje nebo mrzne: Google chystá opravu",
+      "candidate_id": "AND-06",
+      "exact_topic": "android auto disconnect freeze",
+      "proposed_title": "Android Auto se odpojuje nebo mrzne: Google chystá opravu",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "9to5Google: disconnect/freeze fix update.; GSC 37 imp / pos 10.16 / CTR 40.54 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "9to5Google: disconnect/freeze fix update.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Servisní článek + kontrola verze aplikace.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-07",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Always On Display na Androidu: zapnutí, výdrž baterie a nejlepší nastavení",
+      "candidate_id": "AND-07",
+      "exact_topic": "always on display android",
+      "proposed_title": "Always On Display na Androidu: zapnutí, výdrž baterie a nejlepší nastavení",
+      "action": "CREATE",
+      "primary_lane": "SEO",
+      "why_now": "GSC Android: 261 imp, pozice 13.6.; GSC 266 imp / pos 13.94 / CTR 1.13 %; GA4 104 sessions / 431 views",
+      "hard_evidence": "GSC Android: 261 imp, pozice 13.6.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Pixel 11 Pro HiLight: co to vlastně je a proč první reakce vyvolaly rozpaky | Google konečně zapíná Live Updates pro stopky a časovač. Novinka výrazně zpříjem",
+      "unique_value": "CZ návod pro malý web, jasný evergreen.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Pixel 11 Pro HiLight: co to vlastně je a proč první reakce vyvolaly rozpaky | Google konečně zapíná Live Updates pro stopky a časovač. Novinka výrazně zpříjem",
+      "opportunity_score": "66",
+      "predictive_score": "72",
+      "confidence": "MEDIUM",
+      "final_write_gate": "PASS_CONDITIONAL",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-08",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Smazali jste oznámení? Android ho umí najít",
+      "candidate_id": "AND-08",
+      "exact_topic": "android notification history",
+      "proposed_title": "Smazali jste oznámení? Android ho umí najít",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GA4: existující notification článek v top Android pages.; GSC 37 imp / pos 10.16 / CTR 40.54 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "GA4: existující notification článek v top Android pages.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Smazali jste omylem oznámení? Android ho umí najít. Stačí zapnout tuto funkci",
+      "unique_value": "Rozšířit o modely a screenshot-like kroky.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Smazali jste omylem oznámení? Android ho umí najít. Stačí zapnout tuto funkci",
+      "opportunity_score": "66",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-09",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "RCS chyba 3100 po přechodu na Galaxy: co dělat",
+      "candidate_id": "AND-09",
+      "exact_topic": "rcs chyba 3100",
+      "proposed_title": "RCS chyba 3100 po přechodu na Galaxy: co dělat",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Existující Android Magazine článek 21.8.",
+      "hard_evidence": "Existující Android Magazine článek 21.8.; WP/Manticore: SIMILAR_EXISTS přes Manticore: RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100",
+      "unique_value": "Navázat praktickým návodem a stavem řešení.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-10",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Android 17 zpřísňuje aplikace na pozadí: komu může přestat hrát zvuk",
+      "candidate_id": "AND-10",
+      "exact_topic": "android 17 background audio",
+      "proposed_title": "Android 17 zpřísňuje aplikace na pozadí: komu může přestat hrát zvuk",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Existující článek 19.8.; aktuální developer/user dopad.; GSC 37 imp / pos 10.16 / CTR 40.54 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "Existující článek 19.8.; aktuální developer/user dopad.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Android 17 zpřísňuje aplikace běžící na pozadí. U některých může přestat fungova",
+      "unique_value": "Přehled dotčených aplikací a workaround.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Android 17 zpřísňuje aplikace běžící na pozadí. U některých může přestat fungova",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-11",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Pixel 11 nabídky: kdy dává smysl koupit a kdy počkat",
+      "candidate_id": "AND-11",
+      "exact_topic": "pixel 11 deals",
+      "proposed_title": "Pixel 11 nabídky: kdy dává smysl koupit a kdy počkat",
+      "action": "CREATE",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "Google Trends via pytrends Pixel 11 55/100 + Android Central RSS: Pixel 11 deals.; GSC 41 imp / pos 8.17 / CTR 9.76 %; GA4 43 sessions / 81 views",
+      "hard_evidence": "Android Central RSS: Pixel 11 deals.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Nákupní úhel, ne jen affiliate/akce.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-12",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Tracker pro Android i iPhone do kola nebo golfových holí",
+      "candidate_id": "AND-12",
+      "exact_topic": "android iphone tracker bike",
+      "proposed_title": "Tracker pro Android i iPhone do kola nebo golfových holí",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "9to5Google RSS: tracker with 3-year battery.; GSC 37 imp / pos 10.16 / CTR 40.54 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "9to5Google RSS: tracker with 3-year battery.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Praktický gadget článek s cross-platform routingem.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-13",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Wear OS sdílení polohy: co Google přidává do hodinek",
+      "candidate_id": "AND-13",
+      "exact_topic": "wear os location sharing",
+      "proposed_title": "Wear OS sdílení polohy: co Google přidává do hodinek",
+      "action": "FOLLOW-UP",
+      "primary_lane": "CURRENT DEMAND",
+      "why_now": "GA4 Android: Wear OS location sharing article běží v RU.; GA4 47 sessions / 115 views",
+      "hard_evidence": "GA4 Android: Wear OS location sharing article běží v RU.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Google rozšiřuje polohu na Wear OS. Přibývá Location Sharing i Find people",
+      "unique_value": "CZ follow-up pro Android/Wear OS.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Google rozšiřuje polohu na Wear OS. Přibývá Location Sharing i Find people",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-14",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "HONOR Robot Phone: nejdivnější telefon roku, nebo ukázka budoucnosti?",
+      "candidate_id": "AND-14",
+      "exact_topic": "honor robot phone",
+      "proposed_title": "HONOR Robot Phone: nejdivnější telefon roku, nebo ukázka budoucnosti?",
+      "action": "FOLLOW-UP",
+      "primary_lane": "DISCOVER",
+      "why_now": "GA4 Android: Honor Robot Phone v top.; GSC 161 imp / pos 9.12 / CTR 4.97 %; GA4 40 sessions / 246 views",
+      "hard_evidence": "GA4 Android: Honor Robot Phone v top.; WP/Manticore: SIMILAR_EXISTS přes Manticore: HONOR Robot Phone: gimbal, AI a nejdivnější smartphone roku | HONOR Robot Phone je realita, má gimbal, filmové barvy a AI, která zvládne přes ",
+      "unique_value": "Trendový follow-up s ověřením aktuálního stavu.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: HONOR Robot Phone: gimbal, AI a nejdivnější smartphone roku | HONOR Robot Phone je realita, má gimbal, filmové barvy a AI, která zvládne přes ",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-15",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "5 tipů, jak vylepšit Pixel bez výměny telefonu",
+      "candidate_id": "AND-15",
+      "exact_topic": "pixel tips",
+      "proposed_title": "5 tipů, jak vylepšit Pixel bez výměny telefonu",
+      "action": "FOLLOW-UP",
+      "primary_lane": "SEO + DISCOVER",
+      "why_now": "GA4 Android: Pixel tips v top.; GSC 41 imp / pos 8.17 / CTR 9.76 %; GA4 43 sessions / 81 views",
+      "hard_evidence": "GA4 Android: Pixel tips v top.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Praktický evergreen s novými Android/Pixel funkcemi.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-16",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Jak vypnout Android telefon: aktualizovaný návod pro rok 2026",
+      "candidate_id": "AND-16",
+      "exact_topic": "vypnout android telefon",
+      "proposed_title": "Jak vypnout Android telefon: aktualizovaný návod pro rok 2026",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GSC: 4 644 imp, pozice 5.19, CTR 1.23 %.; GSC 1129 imp / pos 3.5 / CTR 2.13 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "GSC: 4 644 imp, pozice 5.19, CTR 1.23 %.; WP/Manticore: SIMILAR_EXISTS přes Manticore: RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100 | Jak na Androidu snadno nastavit tapety podle denní doby",
+      "unique_value": "Aktualizovat existující evergreen a titulkově zlepšit CTR.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100 | Jak na Androidu snadno nastavit tapety podle denní doby",
+      "opportunity_score": "66",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-17",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Jak vynutit LTE nebo 5G na Androidu",
+      "candidate_id": "AND-17",
+      "exact_topic": "force lte 5g android",
+      "proposed_title": "Jak vynutit LTE nebo 5G na Androidu",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GA4 ukazuje historický výkon RU verze.; GA4 32 sessions / 58 views",
+      "hard_evidence": "GA4 ukazuje historický výkon RU verze.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "CZ návod s upozorněním na rizika a modelové rozdíly.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-18",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Jak vysypat koš na Androidu",
+      "candidate_id": "AND-18",
+      "exact_topic": "android kos",
+      "proposed_title": "Jak vysypat koš na Androidu",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GSC: související dotazy v top Android Search.; GSC 37 imp / pos 10.16 / CTR 40.54 %; GA4 941 sessions / 1066 views",
+      "hard_evidence": "GSC: související dotazy v top Android Search.; WP/Manticore: SIMILAR_EXISTS přes Manticore: 6 skrytých aplikací od Googlu, které by měl znát každý uživatel Androidu | Jak obnovit smazané soubory a fotky v Androidu?",
+      "unique_value": "Krátký evergreen s kroky podle Google Photos/Files/Gmail.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: 6 skrytých aplikací od Googlu, které by měl znát každý uživatel Androidu | Jak obnovit smazané soubory a fotky v Androidu?",
+      "opportunity_score": "66",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-19",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "Jak odblokovat číslo na Androidu",
+      "candidate_id": "AND-19",
+      "exact_topic": "blokovani cisla android",
+      "proposed_title": "Jak odblokovat číslo na Androidu",
+      "action": "UPDATE",
+      "primary_lane": "SEO",
+      "why_now": "GSC: multilingual dotazy na odblokování čísla.; GA4 941 sessions / 1066 views",
+      "hard_evidence": "GSC: multilingual dotazy na odblokování čísla.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Google Scam Detection míří mimo Pixel: jak Android pozná podvodný hovor | Konec bankovních podvodů? Google zavádí AI ochranu a biometrický zámek proti krá",
+      "unique_value": "CZ návod + Samsung/Pixel/Xiaomi rozdíly.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "SIMILAR_EXISTS přes Manticore: Google Scam Detection míří mimo Pixel: jak Android pozná podvodný hovor | Konec bankovních podvodů? Google zavádí AI ochranu a biometrický zámek proti krá",
+      "opportunity_score": "66",
+      "predictive_score": "72",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    },
+    {
+      "id": "AND-20",
+      "prefix": "AND",
+      "site": "androidmagazine.eu",
+      "heading": "GrapheneOS míří nejdřív na Motorolu: proč je to velká změna",
+      "candidate_id": "AND-20",
+      "exact_topic": "grapheneos motorola 2027",
+      "proposed_title": "GrapheneOS míří nejdřív na Motorolu: proč je to velká změna",
+      "action": "CREATE",
+      "primary_lane": "DISCOVERY",
+      "why_now": "Android Central RSS: GrapheneOS/Motorola 2027.",
+      "hard_evidence": "Android Central RSS: GrapheneOS/Motorola 2027.; WP/Manticore: NO_DUPLICATE přes Manticore",
+      "unique_value": "Bezpečnostní úhel pro Android publikum.",
+      "reality_status": "PASS",
+      "information_age_status": "FRESH",
+      "wp_check_status": "NO_DUPLICATE přes Manticore",
+      "opportunity_score": "66",
+      "predictive_score": "80",
+      "confidence": "HIGH",
+      "final_write_gate": "PASS",
+      "fail_reasons": "-"
+    }
+  ],
+  "wp_rest": {
+    "LSA-01": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:30:58",
+        "status": "publish"
+      }
+    ],
+    "LSA-02": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:30:58",
+        "status": "publish"
+      }
+    ],
+    "LSA-03": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:30:59",
+        "status": "publish"
+      }
+    ],
+    "LSA-04": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:00",
+        "status": "publish"
+      }
+    ],
+    "LSA-05": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:00",
+        "status": "publish"
+      }
+    ],
+    "LSA-06": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:01",
+        "status": "publish"
+      }
+    ],
+    "LSA-07": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:02",
+        "status": "publish"
+      }
+    ],
+    "LSA-08": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:02",
+        "status": "publish"
+      }
+    ],
+    "LSA-09": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:03",
+        "status": "publish"
+      }
+    ],
+    "LSA-10": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:04",
+        "status": "publish"
+      }
+    ],
+    "LSA-11": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:05",
+        "status": "publish"
+      }
+    ],
+    "LSA-12": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:05",
+        "status": "publish"
+      }
+    ],
+    "LSA-13": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:06",
+        "status": "publish"
+      }
+    ],
+    "LSA-14": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:07",
+        "status": "publish"
+      }
+    ],
+    "LSA-15": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:07",
+        "status": "publish"
+      }
+    ],
+    "LSA-16": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:08",
+        "status": "publish"
+      }
+    ],
+    "LSA-17": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:09",
+        "status": "publish"
+      }
+    ],
+    "LSA-18": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:10",
+        "status": "publish"
+      }
+    ],
+    "LSA-19": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:12",
+        "status": "publish"
+      }
+    ],
+    "LSA-20": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:13",
+        "status": "publish"
+      }
+    ],
+    "SAM-01": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:14",
+        "status": "publish"
+      }
+    ],
+    "SAM-02": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:15",
+        "status": "publish"
+      }
+    ],
+    "SAM-03": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:17",
+        "status": "publish"
+      }
+    ],
+    "SAM-04": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:18",
+        "status": "publish"
+      }
+    ],
+    "SAM-05": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:18",
+        "status": "publish"
+      }
+    ],
+    "SAM-06": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:19",
+        "status": "publish"
+      }
+    ],
+    "SAM-07": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:20",
+        "status": "publish"
+      }
+    ],
+    "SAM-08": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:21",
+        "status": "publish"
+      }
+    ],
+    "SAM-09": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:22",
+        "status": "publish"
+      }
+    ],
+    "SAM-10": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:22",
+        "status": "publish"
+      }
+    ],
+    "SAM-11": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:23",
+        "status": "publish"
+      }
+    ],
+    "SAM-12": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:24",
+        "status": "publish"
+      }
+    ],
+    "SAM-13": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:25",
+        "status": "publish"
+      }
+    ],
+    "SAM-14": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:26",
+        "status": "publish"
+      }
+    ],
+    "SAM-15": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:26",
+        "status": "publish"
+      }
+    ],
+    "SAM-16": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:27",
+        "status": "publish"
+      }
+    ],
+    "SAM-17": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:28",
+        "status": "publish"
+      }
+    ],
+    "SAM-18": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:29",
+        "status": "publish"
+      }
+    ],
+    "SAM-19": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:29",
+        "status": "publish"
+      }
+    ],
+    "SAM-20": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:30",
+        "status": "publish"
+      }
+    ],
+    "AND-01": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:31",
+        "status": "publish"
+      }
+    ],
+    "AND-02": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:32",
+        "status": "publish"
+      }
+    ],
+    "AND-03": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:32",
+        "status": "publish"
+      }
+    ],
+    "AND-04": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:33",
+        "status": "publish"
+      }
+    ],
+    "AND-05": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:34",
+        "status": "publish"
+      }
+    ],
+    "AND-06": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:35",
+        "status": "publish"
+      }
+    ],
+    "AND-07": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:35",
+        "status": "publish"
+      }
+    ],
+    "AND-08": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:36",
+        "status": "publish"
+      }
+    ],
+    "AND-09": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:37",
+        "status": "publish"
+      }
+    ],
+    "AND-10": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:38",
+        "status": "publish"
+      }
+    ],
+    "AND-11": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:38",
+        "status": "publish"
+      }
+    ],
+    "AND-12": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:39",
+        "status": "publish"
+      }
+    ],
+    "AND-13": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:40",
+        "status": "publish"
+      }
+    ],
+    "AND-14": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:40",
+        "status": "publish"
+      }
+    ],
+    "AND-15": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:41",
+        "status": "publish"
+      }
+    ],
+    "AND-16": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:42",
+        "status": "publish"
+      }
+    ],
+    "AND-17": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:43",
+        "status": "publish"
+      }
+    ],
+    "AND-18": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:44",
+        "status": "publish"
+      }
+    ],
+    "AND-19": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:44",
+        "status": "publish"
+      }
+    ],
+    "AND-20": [
+      {
+        "title": "",
+        "link": false,
+        "date": "2026-08-26T09:31:45",
+        "status": "publish"
+      }
+    ]
+  },
+  "global_trends": {
+    "mac mini m6": {
+      "max7d": 30,
+      "avg7d": 2.4437869822485205,
+      "last": 26
+    },
+    "mac studio m5 ultra": {
+      "max7d": 8,
+      "avg7d": 0.5976331360946746,
+      "last": 5
+    },
+    "m6 m5 ultra ai compute": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "jak sledovat apple keynote": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "iphone 18 pro": {
+      "max7d": 100,
+      "avg7d": 81.2603550295858,
+      "last": 70
+    },
+    "iphone ultra": {
+      "max7d": 100,
+      "avg7d": 78.87573964497041,
+      "last": 96
+    },
+    "apple maps ads reklamy": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "chatgpt imessage mac": {
+      "max7d": 1,
+      "avg7d": 0.011834319526627219,
+      "last": 0
+    },
+    "lego playstation 1": {
+      "max7d": 1,
+      "avg7d": 0.011834319526627219,
+      "last": 0
+    },
+    "icloud uloziste fotky": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "carplay ios 27": {
+      "max7d": 25,
+      "avg7d": 3.3846153846153846,
+      "last": 0
+    },
+    "apple watch 12": {
+      "max7d": 100,
+      "avg7d": 61.06508875739645,
+      "last": 75
+    },
+    "airpods 5": {
+      "max7d": 65,
+      "avg7d": 35.17751479289941,
+      "last": 51
+    },
+    "iphone 20 design": {
+      "max7d": 25,
+      "avg7d": 3.603550295857988,
+      "last": 0
+    },
+    "apple tv 4k siri remote": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "apple european union apps changes": {
+      "max7d": 68,
+      "avg7d": 0.7455621301775148,
+      "last": 0
+    },
+    "wifi 7 apple devices": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "benq iscreenbar imac": {
+      "max7d": 85,
+      "avg7d": 0.5029585798816568,
+      "last": 0
+    },
+    "40w dynamic power adapter": {
+      "max7d": 100,
+      "avg7d": 10.455621301775148,
+      "last": 0
+    },
+    "apple manufacturing center houston": {
+      "max7d": 60,
+      "avg7d": 0.35502958579881655,
+      "last": 0
+    },
+    "switch to galaxy z fold8": {
+      "max7d": 100,
+      "avg7d": 0.591715976331361,
+      "last": 0
+    },
+    "galaxy buds4 pro hi-fi sound": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "august 2026 security patch galaxy": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "galaxy s27 ultra camera bar": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "good lock multistar flipshot": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "samsung gamescom 2026": {
+      "max7d": 17,
+      "avg7d": 0.23076923076923078,
+      "last": 0
+    },
+    "galaxy z trifold china": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "galaxy z fold 8 selfie camera": {
+      "max7d": 14,
+      "avg7d": 0.08284023668639054,
+      "last": 0
+    },
+    "android auto samsung": {
+      "max7d": 100,
+      "avg7d": 49.349112426035504,
+      "last": 46
+    },
+    "uvolnit misto samsung": {
+      "max7d": 18,
+      "avg7d": 0.20710059171597633,
+      "last": 0
+    },
+    "android pulse app": {
+      "max7d": 100,
+      "avg7d": 10.44378698224852,
+      "last": 0
+    },
+    "pixel rambler voice to text": {
+      "max7d": 3,
+      "avg7d": 0.01775147928994083,
+      "last": 0
+    },
+    "gemini device help pixel": {
+      "max7d": 3,
+      "avg7d": 0.01775147928994083,
+      "last": 0
+    },
+    "google maps android auto traffic": {
+      "max7d": 5,
+      "avg7d": 0.20710059171597633,
+      "last": 0
+    },
+    "google system updates august": {
+      "max7d": 2,
+      "avg7d": 0.08284023668639054,
+      "last": 0
+    },
+    "android auto disconnect freeze": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "always on display android": {
+      "max7d": 100,
+      "avg7d": 2.1242603550295858,
+      "last": 0
+    },
+    "android notification history": {
+      "max7d": 90,
+      "avg7d": 1.4792899408284024,
+      "last": 0
+    },
+    "rcs chyba 3100": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "android 17 background audio": {
+      "max7d": 68,
+      "avg7d": 0.40236686390532544,
+      "last": 0
+    },
+    "pixel 11 deals": {
+      "max7d": 6,
+      "avg7d": 1.9644970414201184,
+      "last": 0
+    },
+    "android iphone tracker bike": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "wear os location sharing": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "honor robot phone": {
+      "max7d": 100,
+      "avg7d": 56.42603550295858,
+      "last": 59
+    },
+    "pixel tips": {
+      "max7d": 4,
+      "avg7d": 0.7751479289940828,
+      "last": 0
+    },
+    "vypnout android telefon": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "force lte 5g android": {
+      "max7d": 0,
+      "avg7d": 0.0,
+      "last": 0
+    },
+    "android kos": {
+      "max7d": 54,
+      "avg7d": 0.31952662721893493,
+      "last": 0
+    },
+    "blokovani cisla android": {
+      "max7d": 29,
+      "avg7d": 0.17159763313609466,
+      "last": 0
+    },
+    "grapheneos motorola 2027": {
+      "max7d": 100,
+      "avg7d": 8.497041420118343,
+      "last": 0
+    }
+  },
+  "errors": [
+    {
+      "trends_batch": [
+        "one ui 9 beta 6",
+        "gemini samsung",
+        "galaxy s26 s25 upgrade",
+        "galaxy s26 fe event",
+        "galaxy watch ultra 2 recenze"
+      ],
+      "error": "The request failed: Google returned a response with code 429"
+    },
+    {
+      "trends_batch": [
+        "google wallet redesign",
+        "samsung chip price midrange",
+        "galaxy end of life support",
+        "swiftkey samsung one ui 9",
+        "frozen galaxy watch reset"
+      ],
+      "error": "The request failed: Google returned a response with code 429"
+    }
+  ]
+}

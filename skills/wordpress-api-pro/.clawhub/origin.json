@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "wordpress-api-pro",
+  "installedVersion": "3.8.2",
+  "installedAt": 1786548262312,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "b44b89a8a5f3ad7e60714c7b5d00322ec8830bf76e5aa857b45501d7636fbf3b",
+    "integrity": "sha256-tEuJqKXzrX5gcUx7XQAyLsiDC/duWqhXtFUB12Nvvzs="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "e9af531af523b7bf2b677b997174cd43114520df871d8d11d9ab21a891f46c79"
+  }
+}

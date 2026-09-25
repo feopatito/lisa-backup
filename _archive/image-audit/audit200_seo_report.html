@@ -1,0 +1,2479 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AndroidMagazine SEO Image Audit v2</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, Arial, sans-serif; font-size: 12px; background: #f2f2f2; color: #222; }
+.header { background: #1a1a1a; color: #fff; padding: 16px 24px; }
+.header h1 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.stats { display: flex; gap: 16px; font-size: 12px; margin-top: 10px; flex-wrap: wrap; align-items: center; }
+.stat { padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 12px; }
+.stat.total  { background: #444; }
+.stat.update { background: #c0392b; }
+.stat.keep   { background: #27ae60; }
+.stat.manual { background: #888; }
+.meta { font-size: 11px; color: #aaa; margin-top: 8px; }
+.note { background: #fff3cd; border-left: 4px solid #f39c12; padding: 10px 16px; margin: 12px 16px; border-radius: 4px; font-size: 12px; }
+.wrap { padding: 12px 16px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+thead th { background: #222; color: #fff; padding: 9px 8px; text-align: left; font-size: 10px; font-weight: 700; white-space: nowrap; border-right: 1px solid #333; }
+tbody tr:nth-child(even) { background: #f9f9f9; }
+tbody tr:hover { background: #eef4ff; }
+td { padding: 6px 8px; border-bottom: 1px solid #e8e8e8; vertical-align: middle; font-size: 11px; border-right: 1px solid #f0f0f0; }
+.num  { color: #999; text-align: center; font-size: 10px; width: 28px; }
+.img-cell { width: 90px; text-align: center; }
+.img-cell img { width: 82px; height: 54px; object-fit: cover; border-radius: 3px; display: block; margin: 0 auto; }
+.noimg { width: 82px; height: 54px; background: #eee; border-radius: 3px; display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 9px; }
+.wpid  { color: #888; font-size: 10px; text-align: center; }
+.fn    { color: #aaa; font-size: 9px; word-break: break-all; max-width: 100px; }
+.orig  { color: #999; font-size: 10px; }
+.orig.empty { color: #ddd; font-style: italic; }
+.new   { color: #111; font-weight: 600; font-size: 11px; }
+.conf  { text-align: center; font-weight: 700; font-size: 11px; }
+.c5 { color: #27ae60; } .c4 { color: #2ecc71; } .c3 { color: #f39c12; }
+.c2, .c1 { color: #c0392b; }
+.badge { display: inline-block; padding: 3px 9px; border-radius: 12px; font-size: 10px; font-weight: 700; white-space: nowrap; }
+.badge.UPDATE { background: #fdecea; color: #c0392b; }
+.badge.KEEP   { background: #eafaf1; color: #27ae60; }
+.badge.MANUAL_REVIEW { background: #f5f5f5; color: #888; border: 1px solid #ddd; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>AndroidMagazine.eu &mdash; SEO Image Audit v2</h1>
+  <div class="stats">
+    <span class="stat total">Celkem: 200</span>
+    <span class="stat update">UPDATE: 112</span>
+    <span class="stat keep">KEEP: 54</span>
+    <span class="stat manual">MANUAL: 34</span>
+  </div>
+  <div class="meta">Model: GPT-4o-mini Vision &bull; SEO prompt v2: Brand + Model + Tech detail &bull; 2026-08-18 22:21 &bull; DRY-RUN &mdash; nic nezapsano do WP &bull; Filename se NEMENI</div>
+</div>
+<div class="note">
+  ⚠️ <strong>Filename se nemění!</strong> Měníme pouze <code>alt_text</code> a <code>title</code>. URL obrázku zůstává nedotčená.
+</div>
+<div class="wrap">
+<table>
+<thead>
+<tr>
+  <th class="num">#</th>
+  <th>Náhled</th>
+  <th>WP ID</th>
+  <th>Filename (nemění se)</th>
+  <th>Orig ALT</th>
+  <th>Orig title</th>
+  <th>✅ Navrhovaný ALT</th>
+  <th>✅ Navrhovaný title</th>
+  <th>Conf</th>
+  <th>Akce</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td class="num">1</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/11/s5610.jpg" loading="lazy" alt="Samsung mobile phone with dual sim capab" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">12</td>
+  <td class="fn">s5610.jpg</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="new">Samsung mobile phone with dual sim capability</td>
+  <td class="new">samsung mobile dual sim</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">2</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/11/Galaxy_S41.jpg" loading="lazy" alt="Samsung Galaxy S4 with AMOLED display, a" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">15</td>
+  <td class="fn">Galaxy_S41.jpg</td>
+  <td class="orig">galaxy s4</td>
+  <td class="orig">galaxy s4</td>
+  <td class="new">Samsung Galaxy S4 with AMOLED display, a sleek and powerful smartphone design.</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">3</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/11/galaxy-s1-s2-s3-s4-s5-evolution.jpg" loading="lazy" alt="Samsung Galaxy S4 AMOLED display smartph" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">17</td>
+  <td class="fn">galaxy-s1-s2-s3-s4-s5-evolution.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-s1-s2-s3-s4-s5-evolution</td>
+  <td class="new">Samsung Galaxy S4 AMOLED display smartphone</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">4</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/11/note3_red-e1385828321245.jpg" loading="lazy" alt="Samsung Galaxy Note 3 leather back desig" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">25</td>
+  <td class="fn">note3_red-e1385828321245.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">note3_red</td>
+  <td class="new">Samsung Galaxy Note 3 leather back design, vibrant red color</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">5</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/11/note3_gold-e1385828329455.jpg" loading="lazy" alt="Samsung Note 3 stylus smartphone with la" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">26</td>
+  <td class="fn">note3_gold-e1385828329455.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">note3_gold</td>
+  <td class="new">Samsung Note 3 stylus smartphone with large display</td>
+  <td class="new">samsung note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">6</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/11/note3_icon.jpg" loading="lazy" alt="Samsung Galaxy Note 3 with stylus for en" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">30</td>
+  <td class="fn">note3_icon.jpg</td>
+  <td class="orig">note3_icon</td>
+  <td class="orig">note3_icon</td>
+  <td class="new">Samsung Galaxy Note 3 with stylus for enhanced productivity and creativity.</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">7</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/note3-e1385981703680.jpg" loading="lazy" alt="Samsung Galaxy Note 3 with stylus for pr" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">128</td>
+  <td class="fn">note3-e1385981703680.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">note3</td>
+  <td class="new">Samsung Galaxy Note 3 with stylus for productivity, max 120 chars</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">8</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/note3-ikona1-e1385986807403.jpg" loading="lazy" alt="Samsung Galaxy Note 3 AMOLED display pho" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">133</td>
+  <td class="fn">note3-ikona1-e1385986807403.jpg</td>
+  <td class="orig">note3-ikona</td>
+  <td class="orig">note3-ikona</td>
+  <td class="new">Samsung Galaxy Note 3 AMOLED display phone with a large screen for enhanced viewing.</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">9</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-noteII.jpg" loading="lazy" alt="Samsung Galaxy Note 3 with stylus for ve" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">154</td>
+  <td class="fn">galaxy-noteII.jpg</td>
+  <td class="orig">galaxy-noteII</td>
+  <td class="orig">galaxy-noteII</td>
+  <td class="new">Samsung Galaxy Note 3 with stylus for versatile note-taking and creativity</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">10</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/google-play-logo.jpg" loading="lazy" alt="Google Pixel 6 5G smartphone with advanc" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">171</td>
+  <td class="fn">google-play-logo.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">google-play-logo</td>
+  <td class="new">Google Pixel 6 5G smartphone with advanced camera features</td>
+  <td class="new">google pixel 6</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">11</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/pic01-e1386025396839.jpg" loading="lazy" alt="Samsung phone with 5.0 mega camera, idea" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">187</td>
+  <td class="fn">pic01-e1386025396839.jpg</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="new">Samsung phone with 5.0 mega camera, ideal for basic communication and entertainment.</td>
+  <td class="new">samsung phone variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">12</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsung_Galaxy_gear.png" loading="lazy" alt="Samsung Galaxy Gear smartwatch with fitn" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">241</td>
+  <td class="fn">samsung_Galaxy_gear.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung_Galaxy_gear</td>
+  <td class="new">Samsung Galaxy Gear smartwatch with fitness tracking features and vibrant display.</td>
+  <td class="new">samsung galaxy gear</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">13</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Samsung-Galaxy-Note-8.0-2014-edition-2-e1386111548792.png" loading="lazy" alt="Samsung Galaxy Tab 3 7-inch display for " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">259</td>
+  <td class="fn">Samsung-Galaxy-Note-8.0-2014-edition-2-e1386111548792.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-Galaxy-Note-8.0-2014-edition-2</td>
+  <td class="new">Samsung Galaxy Tab 3 7-inch display for portable multimedia.</td>
+  <td class="new">samsung galaxy tab 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">14</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Samsung-Galaxy-Note-8.0-2014-edition-1-e1386111555689.png" loading="lazy" alt="tech product carbon fiber back design, s" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">260</td>
+  <td class="fn">Samsung-Galaxy-Note-8.0-2014-edition-1-e1386111555689.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-Galaxy-Note-8.0-2014-edition-1</td>
+  <td class="new">tech product carbon fiber back design, sleek and modern aesthetics</td>
+  <td class="new">tech product variant</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">15</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-note-8-0-e1386111664233.jpg" loading="lazy" alt="Samsung Galaxy Note 8 with stylus for en" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">262</td>
+  <td class="fn">galaxy-note-8-0-e1386111664233.jpg</td>
+  <td class="orig">galaxy-note-8-0</td>
+  <td class="orig">galaxy-note-8-0</td>
+  <td class="new">Samsung Galaxy Note 8 with stylus for enhanced productivity and creativity.</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">16</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/image-e1386154979466.jpg" loading="lazy" alt="Samsung SM-G900S with fingerprint sensor" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">280</td>
+  <td class="fn">image-e1386154979466.jpg</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="new">Samsung SM-G900S with fingerprint sensor technology, providing advanced security features.</td>
+  <td class="new">samsung sm-g900s variant</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">17</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsung-displej-patent-1-e1386195160296.jpg" loading="lazy" alt="Samsung transparent display control meth" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">343</td>
+  <td class="fn">samsung-displej-patent-1-e1386195160296.jpg</td>
+  <td class="orig">samsung-displej-patent-1</td>
+  <td class="orig">samsung-displej-patent-1</td>
+  <td class="new">Samsung transparent display control method patent illustration</td>
+  <td class="new">samsung transparent display</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">18</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/bb7be75d023b09bbcaa6e500ac3dd40c.jpg" loading="lazy" alt="Color display component for a tech devic" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">350</td>
+  <td class="fn">bb7be75d023b09bbcaa6e500ac3dd40c.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">bb7be75d023b09bbcaa6e500ac3dd40c</td>
+  <td class="new">Color display component for a tech device.</td>
+  <td class="new">display component</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">19</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsung_display_4K.png" loading="lazy" alt="Samsung tech product" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">351</td>
+  <td class="fn">samsung_display_4K.png</td>
+  <td class="orig">samsung_display_4K</td>
+  <td class="orig">samsung_display_4K</td>
+  <td class="new">Samsung tech product</td>
+  <td class="new">samsung product</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">20</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-note-2014-e1386229500143.png" loading="lazy" alt="Samsung Galaxy Note 10.1 with stylus for" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">352</td>
+  <td class="fn">galaxy-note-2014-e1386229500143.png</td>
+  <td class="orig">Samsung Galaxy Note 10.1</td>
+  <td class="orig">Samsung Galaxy Note 10.1</td>
+  <td class="new">Samsung Galaxy Note 10.1 with stylus for enhanced productivity</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">21</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/touchid_hero.png" loading="lazy" alt="Apple iPhone 5s with touch ID button at " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">384</td>
+  <td class="fn">touchid_hero.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">touchid_hero</td>
+  <td class="new">Apple iPhone 5s with touch ID button at the bottom and sleek design</td>
+  <td class="new">apple iphone 5s</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">22</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/fingerprint_Vector_Clipart.jpg" loading="lazy" alt="Fingerprint scan design with intricate d" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">385</td>
+  <td class="fn">fingerprint_Vector_Clipart.jpg</td>
+  <td class="orig">fingerprint_Vector_Clipart</td>
+  <td class="orig">fingerprint_Vector_Clipart</td>
+  <td class="new">Fingerprint scan design with intricate details</td>
+  <td class="new">fingerprint scan design</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">23</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/4-4-mid-range-devices1.jpg" loading="lazy" alt="Samsung Galaxy S4 Mini with compact desi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">388</td>
+  <td class="fn">4-4-mid-range-devices1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">4-4-mid-range-devices1</td>
+  <td class="new">Samsung Galaxy S4 Mini with compact design, perfect for portability.</td>
+  <td class="new">samsung galaxy s4 mini</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">24</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/android-e1386327872991.png" loading="lazy" alt="Google Android KitKat with chocolate des" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">389</td>
+  <td class="fn">android-e1386327872991.png</td>
+  <td class="orig">android</td>
+  <td class="orig">android</td>
+  <td class="new">Google Android KitKat with chocolate design and playful iconography</td>
+  <td class="new">google android kitkat</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">25</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/CyanogenMod_Logo-e1386520293270.png" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">447</td>
+  <td class="fn">CyanogenMod_Logo-e1386520293270.png</td>
+  <td class="orig">CyanogenMod_Logo</td>
+  <td class="orig">CyanogenMod_Logo</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">26</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsung-galaxy-j.png" loading="lazy" alt="Samsung Galaxy J7 with AMOLED display fo" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">488</td>
+  <td class="fn">samsung-galaxy-j.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-galaxy-j</td>
+  <td class="new">Samsung Galaxy J7 with AMOLED display for vibrant visuals.</td>
+  <td class="new">samsung galaxy j7</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">27</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsung-galaxy-j.jpg" loading="lazy" alt="Samsung Galaxy J colorful smartphone wit" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">489</td>
+  <td class="fn">samsung-galaxy-j.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-galaxy-j</td>
+  <td class="new">Samsung Galaxy J colorful smartphone with multiple design variants</td>
+  <td class="new">samsung galaxy j variants</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">28</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsung-galaxy-j1.jpg" loading="lazy" alt="Samsung Galaxy J colorful design, availa" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">490</td>
+  <td class="fn">samsung-galaxy-j1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-galaxy-j</td>
+  <td class="new">Samsung Galaxy J colorful design, available in blue, pink, and white variants.</td>
+  <td class="new">samsung galaxy j variants</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">29</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/smg900f-benchmark.jpg" loading="lazy" alt="Apple 5s PowerVR G6430 for enhanced grap" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">493</td>
+  <td class="fn">smg900f-benchmark.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">smg900f-benchmark</td>
+  <td class="new">Apple 5s PowerVR G6430 for enhanced graphics performance in mobile applications.</td>
+  <td class="new">apple 5s</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">30</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-fleur.jpg" loading="lazy" alt="Samsung Galaxy S3 with AMOLED display, s" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">514</td>
+  <td class="fn">galaxy-fleur.jpg</td>
+  <td class="orig">galaxy-fleur</td>
+  <td class="orig">galaxy-fleur</td>
+  <td class="new">Samsung Galaxy S3 with AMOLED display, sleek design and stylish case</td>
+  <td class="new">samsung galaxy s3</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">31</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/product_1375611.jpg" loading="lazy" alt="Samsung Galaxy S3 Mini Android smartphon" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">515</td>
+  <td class="fn">product_1375611.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">product_1375611</td>
+  <td class="new">Samsung Galaxy S3 Mini Android smartphone with floral design.</td>
+  <td class="new">samsung galaxy s3 mini</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">32</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/phonesat202_1.png" loading="lazy" alt="NASA Phonesat CubeSat with technical fea" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">519</td>
+  <td class="fn">phonesat202_1.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">phonesat202_1</td>
+  <td class="new">NASA Phonesat CubeSat with technical features for space exploration.</td>
+  <td class="new">nasa phonesat cubesat</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">33</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/nasa.jpg" loading="lazy" alt="NASA logo featuring celestial elements." onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">520</td>
+  <td class="fn">nasa.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">nasa</td>
+  <td class="new">NASA logo featuring celestial elements.</td>
+  <td class="new">nasa logo</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">34</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/vgx.jpg" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">528</td>
+  <td class="fn">vgx.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">vgx</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">35</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/484915_10151191016109247_197912322_n.jpg" loading="lazy" alt="Apple specialist business card for Pacif" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">594</td>
+  <td class="fn">484915_10151191016109247_197912322_n.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">484915_10151191016109247_197912322_n</td>
+  <td class="new">Apple specialist business card for Pacific Centre, Vancouver</td>
+  <td class="new">apple business card</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">36</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/applelogo.jpg" loading="lazy" alt="Apple logo, iconic design recognized wor" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">595</td>
+  <td class="fn">applelogo.jpg</td>
+  <td class="orig">applelogo</td>
+  <td class="orig">applelogo</td>
+  <td class="new">Apple logo, iconic design recognized worldwide</td>
+  <td class="new">apple logo</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">37</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-tab-31.jpg" loading="lazy" alt="Samsung Galaxy Tab 4 IPS display tablet " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">623</td>
+  <td class="fn">galaxy-tab-31.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-tab-3</td>
+  <td class="new">Samsung Galaxy Tab 4 IPS display tablet for versatile media use</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">38</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/gt-p5200-tab3-e1386870303887.jpg" loading="lazy" alt="Samsung Galaxy Tab 3 10.1 inch display t" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">624</td>
+  <td class="fn">gt-p5200-tab3-e1386870303887.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">gt-p5200-tab3</td>
+  <td class="new">Samsung Galaxy Tab 3 10.1 inch display tablet with sleek design</td>
+  <td class="new">samsung galaxy tab 3</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">39</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/apple-vs-samsung-e1386938302332.jpeg" loading="lazy" alt="Apple black logo" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">645</td>
+  <td class="fn">apple-vs-samsung-e1386938302332.jpeg</td>
+  <td class="orig">apple-vs-samsung</td>
+  <td class="orig">apple-vs-samsung</td>
+  <td class="new">Apple black logo</td>
+  <td class="new">apple logo black</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">40</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-S-vs-iPhone-3G.png" loading="lazy" alt="Samsung Galaxy S touchscreen smartphone " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">647</td>
+  <td class="fn">Galaxy-S-vs-iPhone-3G.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-S-vs-iPhone-3G</td>
+  <td class="new">Samsung Galaxy S touchscreen smartphone with vibrant display</td>
+  <td class="new">samsung galaxy s</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">41</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/samsungfactory-e1432225292113.jpg" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">650</td>
+  <td class="fn">samsungfactory-e1432225292113.jpg</td>
+  <td class="orig">samsungfactory</td>
+  <td class="orig">samsungfactory</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">42</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Samsung-Logo-e1401354838918.jpg" loading="lazy" alt="Samsung tech product" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">652</td>
+  <td class="fn">Samsung-Logo-e1401354838918.jpg</td>
+  <td class="orig">Samsung-Logo</td>
+  <td class="orig">Samsung-Logo</td>
+  <td class="new">Samsung tech product</td>
+  <td class="new">samsung tech product</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">43</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/z-icon-e1386953549955.png" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">655</td>
+  <td class="fn">z-icon-e1386953549955.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">z-icon</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">44</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_4-e1387190181890.jpg" loading="lazy" alt="slim profile tech product" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">669</td>
+  <td class="fn">Galaxy-Core-Advance_4-e1387190181890.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_4</td>
+  <td class="new">slim profile tech product</td>
+  <td class="new">slim profile device</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">45</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_5-e1387190174727.jpg" loading="lazy" alt="Samsung Galaxy S4 Active with water-resi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">670</td>
+  <td class="fn">Galaxy-Core-Advance_5-e1387190174727.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_5</td>
+  <td class="new">Samsung Galaxy S4 Active with water-resistant feature</td>
+  <td class="new">samsung galaxy s4 active</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">46</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_6-e1387190167598.jpg" loading="lazy" alt="Samsung Galaxy S4 with AMOLED display, s" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">671</td>
+  <td class="fn">Galaxy-Core-Advance_6-e1387190167598.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_6</td>
+  <td class="new">Samsung Galaxy S4 with AMOLED display, sleek design for optimal performance.</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">47</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_W_1-e1387190157102.jpg" loading="lazy" alt="Samsung Galaxy Grand 2 with 5.2-inch dis" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">672</td>
+  <td class="fn">Galaxy-Core-Advance_W_1-e1387190157102.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_W_1</td>
+  <td class="new">Samsung Galaxy Grand 2 with 5.2-inch display, ideal for multimedia.</td>
+  <td class="new">samsung galaxy grand 2</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">48</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_W_3-e1387190137208.jpg" loading="lazy" alt="Samsung smartphone in white color" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">673</td>
+  <td class="fn">Galaxy-Core-Advance_W_3-e1387190137208.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_W_3</td>
+  <td class="new">Samsung smartphone in white color</td>
+  <td class="new">samsung smartphone variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">49</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_W_4-e1387190129708.jpg" loading="lazy" alt="slim design smartphone" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">674</td>
+  <td class="fn">Galaxy-Core-Advance_W_4-e1387190129708.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_W_4</td>
+  <td class="new">slim design smartphone</td>
+  <td class="new">slim smartphone</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">50</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_W_5-e1387190098409.jpg" loading="lazy" alt="slim profile tech product" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">675</td>
+  <td class="fn">Galaxy-Core-Advance_W_5-e1387190098409.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_W_5</td>
+  <td class="new">slim profile tech product</td>
+  <td class="new">slim profile device</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">51</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_W_6-e1387190090330.jpg" loading="lazy" alt="Samsung Galaxy S4 with AMOLED display, c" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">676</td>
+  <td class="fn">Galaxy-Core-Advance_W_6-e1387190090330.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_W_6</td>
+  <td class="new">Samsung Galaxy S4 with AMOLED display, clear UI and sleek design.</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">52</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_W_7-e1387190077624.jpg" loading="lazy" alt="Samsung Galaxy S4 AMOLED display smartph" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">677</td>
+  <td class="fn">Galaxy-Core-Advance_W_7-e1387190077624.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_W_7</td>
+  <td class="new">Samsung Galaxy S4 AMOLED display smartphone</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">53</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_1-e1387190066955.jpg" loading="lazy" alt="Samsung Galaxy Rugby Pro rugged smartpho" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">678</td>
+  <td class="fn">Galaxy-Core-Advance_1-e1387190066955.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_1</td>
+  <td class="new">Samsung Galaxy Rugby Pro rugged smartphone with bright display</td>
+  <td class="new">samsung galaxy rugby</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">54</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_2-e1387190059479.jpg" loading="lazy" alt="Samsung smartphone with camera at the ba" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">679</td>
+  <td class="fn">Galaxy-Core-Advance_2-e1387190059479.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_2</td>
+  <td class="new">Samsung smartphone with camera at the back</td>
+  <td class="new">samsung smartphone variant</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">55</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_3-e1387190048116.jpg" loading="lazy" alt="slim design of an unidentified tech prod" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">680</td>
+  <td class="fn">Galaxy-Core-Advance_3-e1387190048116.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_3</td>
+  <td class="new">slim design of an unidentified tech product</td>
+  <td class="new">slim design variant</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">56</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Galaxy-Core-Advance_ikona-e1387190215566.jpg" loading="lazy" alt="Samsung Galaxy S4 with AMOLED display, s" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">682</td>
+  <td class="fn">Galaxy-Core-Advance_ikona-e1387190215566.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Core-Advance_ikona</td>
+  <td class="new">Samsung Galaxy S4 with AMOLED display, sleek design and user-friendly interface.</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">57</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/fs_011-e1387321150687.jpg" loading="lazy" alt="Samsung AMOLED display technology showca" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">726</td>
+  <td class="fn">fs_011-e1387321150687.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">fs_011</td>
+  <td class="new">Samsung AMOLED display technology showcased in store</td>
+  <td class="new">samsung display showcase</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">58</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxytab3-ikona-e1387358702747.jpg" loading="lazy" alt="Samsung Galaxy Tab 3 with 7 inch display" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">729</td>
+  <td class="fn">galaxytab3-ikona-e1387358702747.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxytab3-ikona</td>
+  <td class="new">Samsung Galaxy Tab 3 with 7 inch display for portability and convenience</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">59</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/sm-t110-fcc.jpg" loading="lazy" alt="Samsung SM-T110 tablet with compact desi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">730</td>
+  <td class="fn">sm-t110-fcc.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">sm-t110-fcc</td>
+  <td class="new">Samsung SM-T110 tablet with compact design, perfect for on-the-go use.</td>
+  <td class="new">samsung sm-t110 tablet</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">60</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/sm-t900-e1387373311923.png" loading="lazy" alt="Samsung Galaxy Tab tablet with sleek des" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">733</td>
+  <td class="fn">sm-t900-e1387373311923.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">sm-t900</td>
+  <td class="new">Samsung Galaxy Tab tablet with sleek design, ideal for R&amp;D purposes.</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">61</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/amoled_logo.png" loading="lazy" alt="Samsung smartphone with AMOLED display t" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">747</td>
+  <td class="fn">amoled_logo.png</td>
+  <td class="orig">amoled_logo</td>
+  <td class="orig">amoled_logo</td>
+  <td class="new">Samsung smartphone with AMOLED display technology.</td>
+  <td class="new">samsung amoled variant</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">62</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/Android-4.4-Galaxy-S4-Galaxy-Note-3-SFR-e1387402632363.png" loading="lazy" alt="Samsung Galaxy S4 Super AMOLED display f" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">763</td>
+  <td class="fn">Android-4.4-Galaxy-S4-Galaxy-Note-3-SFR-e1387402632363.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Android-4.4-Galaxy-S4-Galaxy-Note-3-SFR</td>
+  <td class="new">Samsung Galaxy S4 Super AMOLED display for vibrant visuals</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">63</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/CURVED-UHD-TV_01.jpg" loading="lazy" alt="Samsung UHD TV Ultra High Definition scr" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">766</td>
+  <td class="fn">CURVED-UHD-TV_01.jpg</td>
+  <td class="orig">CURVED-UHD-TV_01</td>
+  <td class="orig">CURVED-UHD-TV_01</td>
+  <td class="new">Samsung UHD TV Ultra High Definition screen with stunning landscape display</td>
+  <td class="new">samsung uhd tv</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">64</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/CURVED-UHD-TV_02-e1387438207260.jpg" loading="lazy" alt="curved display tech product with stunnin" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">767</td>
+  <td class="fn">CURVED-UHD-TV_02-e1387438207260.jpg</td>
+  <td class="orig">CURVED-UHD-TV_02</td>
+  <td class="orig">CURVED-UHD-TV_02</td>
+  <td class="new">curved display tech product with stunning coastal scenery</td>
+  <td class="new">curved display product</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">65</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/skype-e1387462162938.png" loading="lazy" alt="SKYPE with a unique logo and design" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">771</td>
+  <td class="fn">skype-e1387462162938.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">skype</td>
+  <td class="new">SKYPE with a unique logo and design</td>
+  <td class="new">skype logo design</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">66</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/skype-611.jpg" loading="lazy" alt="SKYPE - communication platform known for" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">772</td>
+  <td class="fn">skype-611.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">skype-611</td>
+  <td class="new">SKYPE - communication platform known for video calls and messaging</td>
+  <td class="new">skype application</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">67</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/skype-311-2.jpg" loading="lazy" alt="high disk usage monitor overview, reflec" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">773</td>
+  <td class="fn">skype-311-2.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">skype-311-2</td>
+  <td class="new">high disk usage monitor overview, reflects performance issues</td>
+  <td class="new">performance monitor overview</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">68</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/S4-La-Fleur.jpg" loading="lazy" alt="Samsung Galaxy S4 color variant with flo" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">816</td>
+  <td class="fn">S4-La-Fleur.jpg</td>
+  <td class="orig">S4 La Fleur</td>
+  <td class="orig">S4 La Fleur</td>
+  <td class="new">Samsung Galaxy S4 color variant with floral design, vibrant red finish</td>
+  <td class="new">samsung galaxy s4 variant</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">69</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/cdpkorea-1387526508-1-e1387561360896.jpg" loading="lazy" alt="Samsung laptop with white finish" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">823</td>
+  <td class="fn">cdpkorea-1387526508-1-e1387561360896.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">cdpkorea-1387526508-1</td>
+  <td class="new">Samsung laptop with white finish</td>
+  <td class="new">samsung laptop variant</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">70</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/328540-samsung-ativ-book-9-lite-mineral-white-e1387561400441.jpg" loading="lazy" alt="Samsung ultra-thin laptop with sleek des" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">824</td>
+  <td class="fn">328540-samsung-ativ-book-9-lite-mineral-white-e1387561400441.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">328540-samsung-ativ-book-9-lite-mineral-white</td>
+  <td class="new">Samsung ultra-thin laptop with sleek design</td>
+  <td class="new">samsung laptop variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">71</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/creative-book-9.jpg" loading="lazy" alt="Samsung laptop with white casing for a s" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">825</td>
+  <td class="fn">creative-book-9.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">creative-book-9</td>
+  <td class="new">Samsung laptop with white casing for a sleek design</td>
+  <td class="new">samsung laptop variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">72</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/g4-ikona-e1387628115290.jpg" loading="lazy" alt="Samsung Galaxy S4 in red color variant w" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">882</td>
+  <td class="fn">g4-ikona-e1387628115290.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">g4-ikona</td>
+  <td class="new">Samsung Galaxy S4 in red color variant with stylish design</td>
+  <td class="new">samsung galaxy s4 red</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">73</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-note-pro-12.2-leak.jpg" loading="lazy" alt="tech product with stylus feature" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">892</td>
+  <td class="fn">galaxy-note-pro-12.2-leak.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-note-pro-12.2-leak</td>
+  <td class="new">tech product with stylus feature</td>
+  <td class="new">stylus tech product</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">74</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/note-pro-ikona.jpg" loading="lazy" alt="Samsung Galaxy Note 3 AMOLED display" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">894</td>
+  <td class="fn">note-pro-ikona.jpg</td>
+  <td class="orig">note-pro-ikona</td>
+  <td class="orig">note-pro-ikona</td>
+  <td class="new">Samsung Galaxy Note 3 AMOLED display</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">75</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/note-3-flip-e1404724244645.jpg" loading="lazy" alt="Samsung Galaxy Note 3 stylus featuring a" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">898</td>
+  <td class="fn">note-3-flip-e1404724244645.jpg</td>
+  <td class="orig">galaxy note 3 s view flip cover</td>
+  <td class="orig">galaxy note 3 s view flip cover</td>
+  <td class="new">Samsung Galaxy Note 3 stylus featuring a protective cover</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">76</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/note-3-flip-black.jpg" loading="lazy" alt="Samsung Galaxy Note 3 stylus with leathe" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">899</td>
+  <td class="fn">note-3-flip-black.jpg</td>
+  <td class="orig">note-3-flip-black</td>
+  <td class="orig">note-3-flip-black</td>
+  <td class="new">Samsung Galaxy Note 3 stylus with leather case for enhanced protection and access.</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">77</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/note-3-flip-white.jpg" loading="lazy" alt="Samsung Galaxy Note 3 with stylus suppor" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">900</td>
+  <td class="fn">note-3-flip-white.jpg</td>
+  <td class="orig">note-3-flip-white</td>
+  <td class="orig">note-3-flip-white</td>
+  <td class="new">Samsung Galaxy Note 3 with stylus support in elegant white case</td>
+  <td class="new">samsung galaxy note 3</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">78</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2013/12/galaxy-band.jpg" loading="lazy" alt="Samsung fitness tracker with colorful ba" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">905</td>
+  <td class="fn">galaxy-band.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy band</td>
+  <td class="new">Samsung fitness tracker with colorful bands for health monitoring</td>
+  <td class="new">samsung fitness tracker</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">79</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-galaxy-F.jpg" loading="lazy" alt="Samsung Galaxy S4 with metallic finish, " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">917</td>
+  <td class="fn">samsung-galaxy-F.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-galaxy-F</td>
+  <td class="new">Samsung Galaxy S4 with metallic finish, a sleek and stylish smartphone design.</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">80</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-2k-display.jpg" loading="lazy" alt="Samsung Galaxy S5 curved display will ch" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">920</td>
+  <td class="fn">galaxy-s5-2k-display.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-s5-2k-display</td>
+  <td class="new">Samsung Galaxy S5 curved display will change viewing experience forever</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">81</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-rear-camera1.jpg" loading="lazy" alt="Samsung Galaxy S5 16 mp camera, capture " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">921</td>
+  <td class="fn">galaxy-s5-rear-camera1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-s5-rear-camera1</td>
+  <td class="new">Samsung Galaxy S5 16 mp camera, capture moments in 4k with active noise cancellation.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">82</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-front-camera-eye-scanner.jpg" loading="lazy" alt="Samsung Galaxy S5 with iris scanner tech" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">922</td>
+  <td class="fn">galaxy-s5-front-camera-eye-scanner.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-s5-front-camera-eye-scanner</td>
+  <td class="new">Samsung Galaxy S5 with iris scanner technology, 4MP front camera, proximity and ambient sensors.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">83</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-quad-speakers.jpg" loading="lazy" alt="Samsung Galaxy S5 with Quad-Speakers for" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">923</td>
+  <td class="fn">galaxy-s5-quad-speakers.jpg</td>
+  <td class="orig">galaxy-s5-quad-speakers</td>
+  <td class="orig">galaxy-s5-quad-speakers</td>
+  <td class="new">Samsung Galaxy S5 with Quad-Speakers for enhanced sound experience</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">84</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-concept-design.jpg" loading="lazy" alt="Samsung Galaxy S5 AMOLED display phone w" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">924</td>
+  <td class="fn">galaxy-s5-concept-design.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-s5-concept-design</td>
+  <td class="new">Samsung Galaxy S5 AMOLED display phone with sleek design.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">85</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/6.jpg" loading="lazy" alt="Samsung Galaxy S5 with AMOLED display te" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">925</td>
+  <td class="fn">6.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">6</td>
+  <td class="new">Samsung Galaxy S5 with AMOLED display technology, sleek design</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">86</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-s5-flexible-screen.jpg" loading="lazy" alt="Samsung Galaxy S5 Flexi-Curved 2K Displa" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">926</td>
+  <td class="fn">samsung-s5-flexible-screen.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-s5-flexible-screen</td>
+  <td class="new">Samsung Galaxy S5 Flexi-Curved 2K Display smartphone with sleek design.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">87</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-concept-specs.jpg" loading="lazy" alt="Samsung Galaxy S5 with iris scanner, 4GB" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">927</td>
+  <td class="fn">galaxy-s5-concept-specs.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-s5-concept-specs</td>
+  <td class="new">Samsung Galaxy S5 with iris scanner, 4GB RAM, and 16 MP camera highlights.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">88</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/9.jpg" loading="lazy" alt="Samsung GALAXY S5 curved display, sleek " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">928</td>
+  <td class="fn">9.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">9</td>
+  <td class="new">Samsung GALAXY S5 curved display, sleek design, modern technology.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">89</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/10.jpg" loading="lazy" alt="Samsung Galaxy S5 AMOLED display smartph" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">929</td>
+  <td class="fn">10.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">10</td>
+  <td class="new">Samsung Galaxy S5 AMOLED display smartphone design</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">90</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/12.jpg" loading="lazy" alt="Samsung Galaxy S5 AMOLED display and sle" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">930</td>
+  <td class="fn">12.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">12</td>
+  <td class="new">Samsung Galaxy S5 AMOLED display and sleek design showcase premium technology.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">91</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/1.jpg" loading="lazy" alt="Samsung Galaxy S5 AMOLED display with sl" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">931</td>
+  <td class="fn">1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">1</td>
+  <td class="new">Samsung Galaxy S5 AMOLED display with sleek design.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">92</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/5.jpg" loading="lazy" alt="Samsung Galaxy S5 AMOLED display, sleek " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">932</td>
+  <td class="fn">5.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">5</td>
+  <td class="new">Samsung Galaxy S5 AMOLED display, sleek design and powerful features.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">93</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-oled-tv.jpg" loading="lazy" alt="Samsung OLED TV with vibrant color and c" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">935</td>
+  <td class="fn">samsung-oled-tv.jpg</td>
+  <td class="orig">samsung-oled-tv</td>
+  <td class="orig">samsung-oled-tv</td>
+  <td class="new">Samsung OLED TV with vibrant color and clarity.</td>
+  <td class="new">samsung oled tv</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">94</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/P905-1-e1388586872890.png" loading="lazy" alt="Samsung SM-P905 with Quad-Core processor" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">945</td>
+  <td class="fn">P905-1-e1388586872890.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">P905-1</td>
+  <td class="new">Samsung SM-P905 with Quad-Core processor for enhanced performance.</td>
+  <td class="new">samsung sm-p905 variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">95</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/P905-2-e1388586863252.png" loading="lazy" alt="Samsung SM-P905 excellent multitasking p" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">946</td>
+  <td class="fn">P905-2-e1388586863252.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">P905-2</td>
+  <td class="new">Samsung SM-P905 excellent multitasking performance for smooth usage</td>
+  <td class="new">samsung sm-p905</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">96</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/20140101_184229.jpg" loading="lazy" alt="potted plant with vibrant red leaves, id" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">956</td>
+  <td class="fn">20140101_184229.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">20140101_184229</td>
+  <td class="new">potted plant with vibrant red leaves, ideal for holiday decor</td>
+  <td class="new">potted plant decor</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">97</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/20140101_1848210.jpg" loading="lazy" alt="Samsung Galaxy S III mini plastic body w" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">957</td>
+  <td class="fn">20140101_1848210.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">20140101_1848210</td>
+  <td class="new">Samsung Galaxy S III mini plastic body with a display.</td>
+  <td class="new">samsung galaxy s iii</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">98</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/headset.jpg" loading="lazy" alt="Samsung earbud with white design and erg" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">958</td>
+  <td class="fn">headset.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">headset</td>
+  <td class="new">Samsung earbud with white design and ergonomic fit</td>
+  <td class="new">samsung earbud white</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">99</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/S3-mini.jpg" loading="lazy" alt="Samsung Galaxy S3 Mini super AMOLED disp" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">959</td>
+  <td class="fn">S3-mini.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">S3 mini</td>
+  <td class="new">Samsung Galaxy S3 Mini super AMOLED display phone</td>
+  <td class="new">samsung galaxy s3 mini</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">100</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/s3-mini-recenzia.jpg" loading="lazy" alt="Samsung Galaxy S3 in blue color, featuri" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">963</td>
+  <td class="fn">s3-mini-recenzia.jpg</td>
+  <td class="orig">s3-mini-recenzia</td>
+  <td class="orig">s3-mini-recenzia</td>
+  <td class="new">Samsung Galaxy S3 in blue color, featuring a sleek design and compact size.</td>
+  <td class="new">samsung galaxy s3 blue</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">101</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-S3-mini.jpg" loading="lazy" alt="Samsung Galaxy S3 Mini color smartphone " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">965</td>
+  <td class="fn">galaxy-S3-mini.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-S3-mini</td>
+  <td class="new">Samsung Galaxy S3 Mini color smartphone with a vibrant display</td>
+  <td class="new">samsung galaxy s3 mini</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">102</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/s-iii-mini-screen.png" loading="lazy" alt="Samsung Galaxy S4 AMOLED display with we" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">973</td>
+  <td class="fn">s-iii-mini-screen.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">s-iii-mini-screen</td>
+  <td class="new">Samsung Galaxy S4 AMOLED display with weather widget</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">103</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-apps.png" loading="lazy" alt="Samsung app store interface showcasing v" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">974</td>
+  <td class="fn">samsung-apps.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-apps</td>
+  <td class="new">Samsung app store interface showcasing various apps</td>
+  <td class="new">samsung apps section</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">104</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-tab-pro-84.jpg" loading="lazy" alt="Samsung Galaxy Tab Pro 8.4 color tablet " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">982</td>
+  <td class="fn">galaxy-tab-pro-84.jpg</td>
+  <td class="orig">galaxy-tab-pro-84</td>
+  <td class="orig">galaxy-tab-pro-84</td>
+  <td class="new">Samsung Galaxy Tab Pro 8.4 color tablet with sleek design</td>
+  <td class="new">samsung galaxy tab pro</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">105</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-tab-pro-84x.jpg" loading="lazy" alt="Samsung Galaxy Tab Pro with stylus funct" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">983</td>
+  <td class="fn">galaxy-tab-pro-84x.jpg</td>
+  <td class="orig">galaxy-tab-pro-84x</td>
+  <td class="orig">galaxy-tab-pro-84x</td>
+  <td class="new">Samsung Galaxy Tab Pro with stylus functionality</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">106</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-galaxy-note-3-lite-uaprof.png" loading="lazy" alt="Samsung SM-T500 with 10.4 inch display f" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">992</td>
+  <td class="fn">samsung-galaxy-note-3-lite-uaprof.png</td>
+  <td class="orig">samsung-galaxy-note-3-lite-uaprof</td>
+  <td class="orig">samsung-galaxy-note-3-lite-uaprof</td>
+  <td class="new">Samsung SM-T500 with 10.4 inch display for versatile use</td>
+  <td class="new">samsung sm-t500 tablet</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">107</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/patent.png" loading="lazy" alt="design patent showing phone with unique " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">998</td>
+  <td class="fn">patent.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">patent</td>
+  <td class="new">design patent showing phone with unique features and aesthetics</td>
+  <td class="new">phone design patent</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">108</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/patent2.png" loading="lazy" alt="stylus feature design patent illustratio" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">999</td>
+  <td class="fn">patent2.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">patent2</td>
+  <td class="new">stylus feature design patent illustration</td>
+  <td class="new">stylus design patent</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">109</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/patent3.png" loading="lazy" alt="Samsung Galaxy S4 with curved display" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1000</td>
+  <td class="fn">patent3.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">patent3</td>
+  <td class="new">Samsung Galaxy S4 with curved display</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">110</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/patent4.png" loading="lazy" alt="design patent for a tech product featuri" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1001</td>
+  <td class="fn">patent4.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">patent4</td>
+  <td class="new">design patent for a tech product featuring unique design elements.</td>
+  <td class="new">design patent unique</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">111</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/patent5.png" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1002</td>
+  <td class="fn">patent5.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">patent5</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">112</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/patent6.png" loading="lazy" alt="curved design smartphone patent image" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1003</td>
+  <td class="fn">patent6.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">patent6</td>
+  <td class="new">curved design smartphone patent image</td>
+  <td class="new">smartphone patent image</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">113</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/gg2.jpg" loading="lazy" alt="Samsung Galaxy S4 with Super AMOLED disp" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1010</td>
+  <td class="fn">gg2.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">gg2</td>
+  <td class="new">Samsung Galaxy S4 with Super AMOLED display</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">114</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-B-1-e1388688039916.jpg" loading="lazy" alt="Samsung Galaxy camera with 21x zoom" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1017</td>
+  <td class="fn">Galaxy-Camera-2-B-1-e1388688039916.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 B 1</td>
+  <td class="new">Samsung Galaxy camera with 21x zoom</td>
+  <td class="new">samsung galaxy camera</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">115</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-1-e1388688029328.jpg" loading="lazy" alt="Samsung Galaxy camera with 21x zoom for " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1018</td>
+  <td class="fn">Galaxy-Camera-2-1-e1388688029328.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 1</td>
+  <td class="new">Samsung Galaxy camera with 21x zoom for high-quality photography.</td>
+  <td class="new">samsung galaxy camera</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">116</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-2-e1388688012753.jpg" loading="lazy" alt="Samsung camera with 21x zoom lens for hi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1019</td>
+  <td class="fn">Galaxy-Camera-2-2-e1388688012753.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 2</td>
+  <td class="new">Samsung camera with 21x zoom lens for high-quality photography.</td>
+  <td class="new">samsung camera zoom</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">117</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-4-e1388688065714.jpg" loading="lazy" alt="camera with zoom lens feature" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1020</td>
+  <td class="fn">Galaxy-Camera-2-4-e1388688065714.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 4</td>
+  <td class="new">camera with zoom lens feature</td>
+  <td class="new">camera zoom lens</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">118</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-B-7-e1388688073550.jpg" loading="lazy" alt="Samsung Galaxy Camera compact design wit" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1021</td>
+  <td class="fn">Galaxy-Camera-2-B-7-e1388688073550.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 B 7</td>
+  <td class="new">Samsung Galaxy Camera compact design with sleek silver finish</td>
+  <td class="new">samsung galaxy camera</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">119</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-B-5-e1388688081941.jpg" loading="lazy" alt="Samsung camera with 21x zoom for versati" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1022</td>
+  <td class="fn">Galaxy-Camera-2-B-5-e1388688081941.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 B 5</td>
+  <td class="new">Samsung camera with 21x zoom for versatile photography</td>
+  <td class="new">samsung camera</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">120</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-B-2-e1388688132315.jpg" loading="lazy" alt="Samsung camera with 21x zoom lens for ve" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1023</td>
+  <td class="fn">Galaxy-Camera-2-B-2-e1388688132315.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy Camera 2 B 2</td>
+  <td class="new">Samsung camera with 21x zoom lens for versatile photography</td>
+  <td class="new">samsung camera 21x</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">121</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy-Camera-2-ikona-e1388688327914.jpg" loading="lazy" alt="Samsung camera with a zoom lens for enha" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1025</td>
+  <td class="fn">Galaxy-Camera-2-ikona-e1388688327914.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy-Camera-2-ikona</td>
+  <td class="new">Samsung camera with a zoom lens for enhanced photography capabilities.</td>
+  <td class="new">samsung camera variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">122</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/specGalTabPro.jpg" loading="lazy" alt="Samsung SM-T520 with Mali-T628 graphics " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1042</td>
+  <td class="fn">specGalTabPro.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">specGalTabPro</td>
+  <td class="new">Samsung SM-T520 with Mali-T628 graphics for enhanced performance</td>
+  <td class="new">samsung sm-t520 tablet</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">123</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-nx-feature-1-e1404137030958.jpg" loading="lazy" alt="camera with touchscreen display and intu" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1050</td>
+  <td class="fn">galaxy-nx-feature-1-e1404137030958.jpg</td>
+  <td class="orig">galaxy-nx-feature-1</td>
+  <td class="orig">galaxy-nx-feature-1</td>
+  <td class="new">camera with touchscreen display and intuitive interface</td>
+  <td class="new">camera touchscreen display</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">124</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/CES.png" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1052</td>
+  <td class="fn">CES.png</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">CES</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">125</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-galaxy-nx-mini.png" loading="lazy" alt="Samsung NX Mini compact camera with mode" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1053</td>
+  <td class="fn">samsung-galaxy-nx-mini.png</td>
+  <td class="orig">samsung-galaxy-nx-mini</td>
+  <td class="orig">samsung-galaxy-nx-mini</td>
+  <td class="new">Samsung NX Mini compact camera with modern design</td>
+  <td class="new">samsung nx mini</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">126</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-ikona-e1388761695733.jpg" loading="lazy" alt="Samsung device with a distinctive design" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1061</td>
+  <td class="fn">samsung-ikona-e1388761695733.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-ikona</td>
+  <td class="new">Samsung device with a distinctive design</td>
+  <td class="new">samsung device</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">127</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-ikona1-e1388761755466.jpg" loading="lazy" alt="Samsung tech product" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1062</td>
+  <td class="fn">samsung-ikona1-e1388761755466.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-ikona</td>
+  <td class="new">Samsung tech product</td>
+  <td class="new">samsung product</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">128</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Galaxy_Studio_v_Italii-e1388761942618.jpg" loading="lazy" alt="" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1063</td>
+  <td class="fn">Galaxy_Studio_v_Italii-e1388761942618.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Galaxy_Studio_v_Italii</td>
+  <td class="new"></td>
+  <td class="new"></td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">129</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-ski-studio.jpg" loading="lazy" alt="Samsung stylus accessory in Galaxy Studi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1064</td>
+  <td class="fn">galaxy-ski-studio.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-ski-studio</td>
+  <td class="new">Samsung stylus accessory in Galaxy Studio with vibrant colors and tech displays.</td>
+  <td class="new">samsung stylus accessory</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">130</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/gear-tease.png" loading="lazy" alt="Samsung Galaxy Gear weather widget displ" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1069</td>
+  <td class="fn">gear-tease.png</td>
+  <td class="orig">gear-tease</td>
+  <td class="orig">gear-tease</td>
+  <td class="new">Samsung Galaxy Gear weather widget display, showing time and temperature.</td>
+  <td class="new">samsung galaxy gear</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">131</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-HT-H7730WM.jpg" loading="lazy" alt="Samsung surround sound system for immers" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1077</td>
+  <td class="fn">Samsung-HT-H7730WM.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-HT-H7730WM</td>
+  <td class="new">Samsung surround sound system for immersive audio experience, sleek design.</td>
+  <td class="new">samsung surround sound</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">132</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/HW-H600-Sound-Stand.jpg" loading="lazy" alt="flat design accessory for tech devices" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1078</td>
+  <td class="fn">HW-H600-Sound-Stand.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">HW-H600-Sound-Stand</td>
+  <td class="new">flat design accessory for tech devices</td>
+  <td class="new">flat design accessory</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">133</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-tab-pro-1.jpg" loading="lazy" alt="Samsung Galaxy Note Pro stylus, perfect " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1083</td>
+  <td class="fn">samsung-tab-pro-1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-tab-pro-1</td>
+  <td class="new">Samsung Galaxy Note Pro stylus, perfect for productivity and creativity.</td>
+  <td class="new">samsung galaxy note pro</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">134</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-tab-pro-leak.jpg" loading="lazy" alt="Samsung Galaxy Tab 4 with white plastic " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1084</td>
+  <td class="fn">galaxy-tab-pro-leak.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-tab-pro-leak</td>
+  <td class="new">Samsung Galaxy Tab 4 with white plastic casing for easy handling and portability.</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">135</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-tab-pro-icon-e1389002018684.jpg" loading="lazy" alt="Samsung Galaxy Tab colorful display for " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1085</td>
+  <td class="fn">galaxy-tab-pro-icon-e1389002018684.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">galaxy-tab-pro-icon</td>
+  <td class="new">Samsung Galaxy Tab colorful display for vibrant visuals</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">136</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-ces-2014-1-e1389009366793.jpg" loading="lazy" alt="modern tech setup with framed pictures" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1088</td>
+  <td class="fn">samsung-ces-2014-1-e1389009366793.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-ces-2014-1</td>
+  <td class="new">modern tech setup with framed pictures</td>
+  <td class="new">modern tech setup</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">137</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-ces-2014-2-e1389009375838.jpg" loading="lazy" alt="Tech product display in modern showroom " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1089</td>
+  <td class="fn">samsung-ces-2014-2-e1389009375838.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-ces-2014-2</td>
+  <td class="new">Tech product display in modern showroom with various devices.</td>
+  <td class="new">tech product showcase</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">138</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-ces-2014-3-e1389009359396.jpg" loading="lazy" alt="digital signage solution for restaurants" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1090</td>
+  <td class="fn">samsung-ces-2014-3-e1389009359396.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">samsung-ces-2014-3</td>
+  <td class="new">digital signage solution for restaurants, perfect for menus and promotions.</td>
+  <td class="new">restaurant digital signage</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">139</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung_tv_SDK.png" loading="lazy" alt="Samsung smart TV with various apps and f" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1098</td>
+  <td class="fn">samsung_tv_SDK.png</td>
+  <td class="orig">samsung_tv_SDK</td>
+  <td class="orig">samsung_tv_SDK</td>
+  <td class="new">Samsung smart TV with various apps and features, ideal for modern entertainment</td>
+  <td class="new">samsung smart tv</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">140</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung_tv_SDK1.png" loading="lazy" alt="Samsung Smart TV - versatile entertainme" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1101</td>
+  <td class="fn">samsung_tv_SDK1.png</td>
+  <td class="orig">samsung_tv_SDK</td>
+  <td class="orig">samsung_tv_SDK</td>
+  <td class="new">Samsung Smart TV - versatile entertainment options and apps</td>
+  <td class="new">samsung smart tv</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">141</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/20131227095337447.jpg" loading="lazy" alt="Samsung smart hub with gesture control." onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1102</td>
+  <td class="fn">20131227095337447.jpg</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="orig">mobile-tech-image</td>
+  <td class="new">Samsung smart hub with gesture control.</td>
+  <td class="new">samsung smart hub</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">142</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/top_banner_img1.jpg" loading="lazy" alt="Samsung Smart TV 2014 model with intuiti" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1104</td>
+  <td class="fn">top_banner_img1.jpg</td>
+  <td class="orig">top_banner_img1</td>
+  <td class="orig">top_banner_img1</td>
+  <td class="new">Samsung Smart TV 2014 model with intuitive interface and app support</td>
+  <td class="new">samsung smart tv</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">143</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/top_banner_img11.jpg" loading="lazy" alt="Samsung Smart TV with Smart TV SDK for a" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1105</td>
+  <td class="fn">top_banner_img11.jpg</td>
+  <td class="orig">top_banner_img1</td>
+  <td class="orig">top_banner_img1</td>
+  <td class="new">Samsung Smart TV with Smart TV SDK for application development.</td>
+  <td class="new">samsung smart tv</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">144</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-S5-1-750x400.jpg" loading="lazy" alt="Samsung Galaxy S5 with AMOLED display" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1108</td>
+  <td class="fn">Samsung-Galaxy-S5-1-750x400.jpg</td>
+  <td class="orig">Samsung-Galaxy-S5-1-750x400</td>
+  <td class="orig">Samsung-Galaxy-S5-1-750&amp;#215;400</td>
+  <td class="new">Samsung Galaxy S5 with AMOLED display</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">145</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-M5-better-640_large_verge_medium_landscape.jpg" loading="lazy" alt="Samsung unique design tech product with " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1109</td>
+  <td class="fn">Samsung-M5-better-640_large_verge_medium_landscape.jpg</td>
+  <td class="orig">Samsung-M5-better-640_large_verge_medium_landscape</td>
+  <td class="orig">Samsung-M5-better-640_large_verge_medium_landscape</td>
+  <td class="new">Samsung unique design tech product with stylish appearance</td>
+  <td class="new">samsung unique design</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">146</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-M5-better-640_large_verge_medium_landscape.png" loading="lazy" alt="wireless tech accessory with sleek desig" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1111</td>
+  <td class="fn">Samsung-M5-better-640_large_verge_medium_landscape.png</td>
+  <td class="orig">Samsung-M5-better-640_large_verge_medium_landscape</td>
+  <td class="orig">Samsung-M5-better-640_large_verge_medium_landscape</td>
+  <td class="new">wireless tech accessory with sleek design</td>
+  <td class="new">wireless tech accessory</td>
+  <td class="conf c2">2/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">147</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung_giga.jpg" loading="lazy" alt="Samsung Giga Sound speaker with LED ligh" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1112</td>
+  <td class="fn">samsung_giga.jpg</td>
+  <td class="orig">samsung_giga</td>
+  <td class="orig">samsung_giga</td>
+  <td class="new">Samsung Giga Sound speaker with LED lighting for immersive audio experience</td>
+  <td class="new">samsung giga sound</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">148</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/anfg-800.jpg" loading="lazy" alt="Sony home theater system with sleek towe" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1113</td>
+  <td class="fn">anfg-800.jpg</td>
+  <td class="orig">anfg-800</td>
+  <td class="orig">anfg-800</td>
+  <td class="new">Sony home theater system with sleek towers and subwoofer</td>
+  <td class="new">sony home theater system</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">149</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/suddenly-samsung-and-others-are-trying-to-make-an-apple-tv-before-apple-can.jpg" loading="lazy" alt="Samsung Smart TV with advanced features " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1116</td>
+  <td class="fn">suddenly-samsung-and-others-are-trying-to-make-an-apple-tv-before-apple-can.jpg</td>
+  <td class="orig">suddenly-samsung-and-others-are-trying-to-make-an-apple-tv-before-apple-can</td>
+  <td class="orig">suddenly-samsung-and-others-are-trying-to-make-an-apple-tv-before-apple-can</td>
+  <td class="new">Samsung Smart TV with advanced features and stunning display</td>
+  <td class="new">samsung smart tv</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">150</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/11719862235_15d22e7f91_o.jpg" loading="lazy" alt="Samsung NX30 interchangeable lens camera" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1122</td>
+  <td class="fn">11719862235_15d22e7f91_o.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">11719862235_15d22e7f91_o</td>
+  <td class="new">Samsung NX30 interchangeable lens camera for high-quality photography</td>
+  <td class="new">samsung nx30 camera</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">151</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/samsung-nx-30-e1389026366478.jpg" loading="lazy" alt="camera with articulating screen for vers" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1123</td>
+  <td class="fn">samsung-nx-30-e1389026366478.jpg</td>
+  <td class="orig">samsung-nx-30</td>
+  <td class="orig">samsung-nx-30</td>
+  <td class="new">camera with articulating screen for versatile shooting angles</td>
+  <td class="new">camera articulating screen</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">152</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/11720138193_f22e025de3_b.jpg" loading="lazy" alt="Samsung NX30 camera with WiFi for easy f" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1124</td>
+  <td class="fn">11720138193_f22e025de3_b.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">11720138193_f22e025de3_b</td>
+  <td class="new">Samsung NX30 camera with WiFi for easy file sharing and connectivity.</td>
+  <td class="new">samsung nx30 camera</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">153</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/11719862555_31df4b38c6_b.jpg" loading="lazy" alt="Samsung NX30 with WiFi capability for ea" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1125</td>
+  <td class="fn">11719862555_31df4b38c6_b.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">11719862555_31df4b38c6_b</td>
+  <td class="new">Samsung NX30 with WiFi capability for easy sharing and transfer</td>
+  <td class="new">samsung nx30 camera</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">154</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_2.jpg" loading="lazy" alt="Samsung tablet with leather-like back de" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1141</td>
+  <td class="fn">TabPRO_8.4_2.jpg</td>
+  <td class="orig">TabPRO_8</td>
+  <td class="orig">TabPRO_8.4_2</td>
+  <td class="new">Samsung tablet with leather-like back design</td>
+  <td class="new">samsung tablet design</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">155</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_1.jpg" loading="lazy" alt="Samsung Galaxy Tab with stylus support, " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1142</td>
+  <td class="fn">TabPRO_8.4_1.jpg</td>
+  <td class="orig">TabPRO_8</td>
+  <td class="orig">TabPRO_8.4_1</td>
+  <td class="new">Samsung Galaxy Tab with stylus support, ideal for productivity and entertainment.</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">156</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/tab-pro-8.4-photo.png" loading="lazy" alt="Samsung Galaxy Tab 4 with multicolor dis" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1143</td>
+  <td class="fn">tab-pro-8.4-photo.png</td>
+  <td class="orig">tab-pro-8</td>
+  <td class="orig">tab-pro-8.4-photo</td>
+  <td class="new">Samsung Galaxy Tab 4 with multicolor display for vibrant visuals, ideal for entertainment</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">157</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_7-e1423294327131.jpg" loading="lazy" alt="Samsung smartphone with camera features " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1145</td>
+  <td class="fn">TabPRO_8.4_7-e1423294327131.jpg</td>
+  <td class="orig">TabPRO_8</td>
+  <td class="orig">TabPRO_8.4_7</td>
+  <td class="new">Samsung smartphone with camera features and sleek design</td>
+  <td class="new">samsung smartphone</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">158</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_6.jpg" loading="lazy" alt="slim design of an unspecified tech produ" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1146</td>
+  <td class="fn">TabPRO_8.4_6.jpg</td>
+  <td class="orig">TabPRO_8</td>
+  <td class="orig">TabPRO_8.4_6</td>
+  <td class="new">slim design of an unspecified tech product</td>
+  <td class="new">slim design variant</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">159</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_5.jpg" loading="lazy" alt="Samsung Galaxy Tab S4 slim design" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1147</td>
+  <td class="fn">TabPRO_8.4_5.jpg</td>
+  <td class="orig">TabPRO_8</td>
+  <td class="orig">TabPRO_8.4_5</td>
+  <td class="new">Samsung Galaxy Tab S4 slim design</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">160</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/tab-pro-8.4-photo1.png" loading="lazy" alt="Samsung Galaxy Tab colorful display" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1151</td>
+  <td class="fn">tab-pro-8.4-photo1.png</td>
+  <td class="orig">tab-pro-8</td>
+  <td class="orig">tab-pro-8.4-photo</td>
+  <td class="new">Samsung Galaxy Tab colorful display</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">161</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/pro2.jpg" loading="lazy" alt="Samsung tablet with stylus for enhanced " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1157</td>
+  <td class="fn">pro2.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">pro2</td>
+  <td class="new">Samsung tablet with stylus for enhanced productivity</td>
+  <td class="new">samsung tablet stylus</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">162</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/pro4.jpg" loading="lazy" alt="slim profile tech product with minimal d" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1159</td>
+  <td class="fn">pro4.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">pro4</td>
+  <td class="new">slim profile tech product with minimal design</td>
+  <td class="new">slim profile device</td>
+  <td class="conf c1">1/5</td>
+  <td><span class="badge MANUAL_REVIEW">MANUAL_REVIEW</span></td>
+</tr>
+<tr>
+  <td class="num">163</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_12.2_1-180x120-e1389046978787.jpg" loading="lazy" alt="Samsung Galaxy Tab S AMOLED display tabl" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1161</td>
+  <td class="fn">TabPRO_12.2_1-180x120-e1389046978787.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">TabPRO_12.2_1-180&amp;#215;120</td>
+  <td class="new">Samsung Galaxy Tab S AMOLED display tablet</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">164</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_12.2_2.jpg" loading="lazy" alt="Samsung tablet with leather texture desi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1162</td>
+  <td class="fn">TabPRO_12.2_2.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">TabPRO_12.2_2</td>
+  <td class="new">Samsung tablet with leather texture design</td>
+  <td class="new">samsung tablet variant</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">165</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/ikonapro.jpg" loading="lazy" alt="Samsung Galaxy Tab S4 with AMOLED displa" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1164</td>
+  <td class="fn">ikonapro.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">ikonapro</td>
+  <td class="new">Samsung Galaxy Tab S4 with AMOLED display for vibrant visuals</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">166</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-ATIV-Book9-2014-Edition_2.jpg" loading="lazy" alt="Samsung laptop with a slim design and sl" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1179</td>
+  <td class="fn">Samsung-ATIV-Book9-2014-Edition_2.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-ATIV-Book9-2014-Edition_2</td>
+  <td class="new">Samsung laptop with a slim design and sleek finish</td>
+  <td class="new">samsung laptop design</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">167</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-ATIV-Book9-2014-Edition_1.jpg" loading="lazy" alt="Samsung laptop with high-resolution disp" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1180</td>
+  <td class="fn">Samsung-ATIV-Book9-2014-Edition_1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-ATIV-Book9-2014-Edition_1</td>
+  <td class="new">Samsung laptop with high-resolution display for clear visuals</td>
+  <td class="new">samsung laptop 2014</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">168</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-ATIV-Book9-2014-Edition-icon-e1389050741757.jpg" loading="lazy" alt="Samsung Series 9 ultra-slim laptop with " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1181</td>
+  <td class="fn">Samsung-ATIV-Book9-2014-Edition-icon-e1389050741757.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-ATIV-Book9-2014-Edition-icon</td>
+  <td class="new">Samsung Series 9 ultra-slim laptop with sleek design, perfect for portability.</td>
+  <td class="new">samsung series 9 laptop</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">169</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-ATIV-One7-2014-Edition_3.jpg" loading="lazy" alt="Samsung all-in-one PC with sleek design " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1186</td>
+  <td class="fn">Samsung-ATIV-One7-2014-Edition_3.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-ATIV-One7-2014-Edition_3</td>
+  <td class="new">Samsung all-in-one PC with sleek design for home or office use, perfect for productivity.</td>
+  <td class="new">samsung all-in-one</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">170</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-ATIV-One7-2014-Edition-icon-e1389051124346.jpg" loading="lazy" alt="Samsung all-in-one desktop computer with" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1187</td>
+  <td class="fn">Samsung-ATIV-One7-2014-Edition-icon-e1389051124346.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-ATIV-One7-2014-Edition-icon</td>
+  <td class="new">Samsung all-in-one desktop computer with sleek design and modern display.</td>
+  <td class="new">samsung all-in-one</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">171</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-ATIV-One7-2014-Edition_1.jpg" loading="lazy" alt="Samsung all-in-one desktop with sleek de" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1188</td>
+  <td class="fn">Samsung-ATIV-One7-2014-Edition_1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Samsung-ATIV-One7-2014-Edition_1</td>
+  <td class="new">Samsung all-in-one desktop with sleek design, suitable for home or office use.</td>
+  <td class="new">samsung all-in-one</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">172</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_4.jpg" loading="lazy" alt="Samsung Galaxy Tab S with AMOLED display" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1196</td>
+  <td class="fn">TabPRO_8.4_4.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">TabPRO_8.4_4</td>
+  <td class="new">Samsung Galaxy Tab S with AMOLED display, sleek design and advanced features.</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">173</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_12.2_1.jpg" loading="lazy" alt="Samsung Galaxy Note 10.1 with stylus for" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1197</td>
+  <td class="fn">TabPRO_12.2_1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">TabPRO_12.2_1</td>
+  <td class="new">Samsung Galaxy Note 10.1 with stylus for enhanced productivity and creativity</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">174</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/NotePRO_1-e1389049151108.jpg" loading="lazy" alt="Samsung Galaxy Tab S4 with stylus for cr" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1198</td>
+  <td class="fn">NotePRO_1-e1389049151108.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">NotePRO_1-e1389049151108</td>
+  <td class="new">Samsung Galaxy Tab S4 with stylus for creative and productivity tasks.</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">175</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_12.2_3.jpg" loading="lazy" alt="Samsung Galaxy Note 10.1 with stylus fun" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1199</td>
+  <td class="fn">TabPRO_12.2_3.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">TabPRO_12.2_3</td>
+  <td class="new">Samsung Galaxy Note 10.1 with stylus functionality and vibrant display</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">176</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/pro3.jpg" loading="lazy" alt="Samsung Galaxy Note 10.1 with stylus for" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1200</td>
+  <td class="fn">pro3.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">pro3</td>
+  <td class="new">Samsung Galaxy Note 10.1 with stylus for enhanced productivity and creativity</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">177</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/TabPRO_8.4_3.jpg" loading="lazy" alt="Samsung Galaxy Tab 4 multi-window featur" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1201</td>
+  <td class="fn">TabPRO_8.4_3.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">TabPRO_8.4_3</td>
+  <td class="new">Samsung Galaxy Tab 4 multi-window feature for enhanced multitasking</td>
+  <td class="new">samsung galaxy tab</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">178</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Concept-of-Samsung-Galaxy-Note-4.png" loading="lazy" alt="Samsung Galaxy S4 AMOLED display smartph" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1205</td>
+  <td class="fn">Concept-of-Samsung-Galaxy-Note-4.png</td>
+  <td class="orig">Concept-of-Samsung-Galaxy-Note-4</td>
+  <td class="orig">Concept-of-Samsung-Galaxy-Note-4</td>
+  <td class="new">Samsung Galaxy S4 AMOLED display smartphone</td>
+  <td class="new">samsung galaxy s4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">179</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/galaxy-s5-render-2014.jpg" loading="lazy" alt="Samsung Galaxy S5 AMOLED display, sleek " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1206</td>
+  <td class="fn">galaxy-s5-render-2014.jpg</td>
+  <td class="orig">galaxy-s5-render-2014</td>
+  <td class="orig">galaxy-s5-render-2014</td>
+  <td class="new">Samsung Galaxy S5 AMOLED display, sleek design, premium build.</td>
+  <td class="new">samsung galaxy s5</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">180</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-S5-render-2014-1.jpg" loading="lazy" alt="Samsung Galaxy S5 curved display concept" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1207</td>
+  <td class="fn">Samsung-Galaxy-S5-render-2014-1.jpg</td>
+  <td class="orig">Samsung-Galaxy-S5-render-2014-1</td>
+  <td class="orig">Samsung-Galaxy-S5-render-2014-1</td>
+  <td class="new">Samsung Galaxy S5 curved display concept design</td>
+  <td class="new">samsung galaxy s5 concept</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">181</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-11.jpg" loading="lazy" alt="Samsung Galaxy Note 4 stylus feature for" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1208</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-11.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-11</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-11</td>
+  <td class="new">Samsung Galaxy Note 4 stylus feature for enhanced productivity.</td>
+  <td class="new">samsung galaxy note 4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">182</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-S5-render-2014asfsafsaasggasgasags-1.jpg" loading="lazy" alt="Samsung Galaxy S4 foldable design, sleek" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1211</td>
+  <td class="fn">Samsung-Galaxy-S5-render-2014asfsafsaasggasgasags-1.jpg</td>
+  <td class="orig">Samsung-Galaxy-S5-render-2014asfsafsaasggasgasags-1</td>
+  <td class="orig">Samsung-Galaxy-S5-render-2014asfsafsaasggasgasags-1</td>
+  <td class="new">Samsung Galaxy S4 foldable design, sleek and modern look</td>
+  <td class="new">samsung galaxy s4 foldable</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">183</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-2.jpg" loading="lazy" alt="Samsung Galaxy Note 4 with stylus suppor" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1212</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-2.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-2</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-2</td>
+  <td class="new">Samsung Galaxy Note 4 with stylus support</td>
+  <td class="new">samsung galaxy note 4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">184</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-2-490x275.jpg" loading="lazy" alt="Samsung Galaxy Note 4 with stylus featur" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1213</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-2-490x275.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-2-490x275</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-2-490&amp;#215;275</td>
+  <td class="new">Samsung Galaxy Note 4 with stylus feature for creative tasks.</td>
+  <td class="new">samsung galaxy note 4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">185</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-6-490x275.jpg" loading="lazy" alt="Samsung Galaxy Note 4 with stylus for cr" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1214</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-6-490x275.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-6-490x275</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-6-490&amp;#215;275</td>
+  <td class="new">Samsung Galaxy Note 4 with stylus for creative productivity.</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">186</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-7-490x275.jpg" loading="lazy" alt="Samsung Galaxy Note 4 with stylus for en" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1215</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-7-490x275.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-7-490x275</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-7-490&amp;#215;275</td>
+  <td class="new">Samsung Galaxy Note 4 with stylus for enhanced productivity and creativity.</td>
+  <td class="new">samsung galaxy note 4</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">187</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-3-490x275.jpg" loading="lazy" alt="Samsung Galaxy Note 4 with stylus featur" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1216</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-3-490x275.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-3-490x275</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-3-490&amp;#215;275</td>
+  <td class="new">Samsung Galaxy Note 4 with stylus feature, stylish design, and premium build.</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">188</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Samsung-Galaxy-Note-4-concept-Jermaine-4-490x275.jpg" loading="lazy" alt="Samsung Galaxy Note 4 with stylus for en" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1217</td>
+  <td class="fn">Samsung-Galaxy-Note-4-concept-Jermaine-4-490x275.jpg</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-4-490x275</td>
+  <td class="orig">Samsung-Galaxy-Note-4-concept-Jermaine-4-490&amp;#215;275</td>
+  <td class="new">Samsung Galaxy Note 4 with stylus for enhanced productivity and creativity.</td>
+  <td class="new">samsung galaxy note</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge KEEP">KEEP</span></td>
+</tr>
+<tr>
+  <td class="num">189</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/new-touchwiz.jpg" loading="lazy" alt="Samsung unknown AMOLED display with fitn" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1222</td>
+  <td class="fn">new-touchwiz.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">new-touchwiz</td>
+  <td class="new">Samsung unknown AMOLED display with fitness tracking features</td>
+  <td class="new">samsung unknown variant</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">190</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/Untitled.jpg" loading="lazy" alt="smartwatch with touchscreen for vehicle " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1226</td>
+  <td class="fn">Untitled.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">Untitled</td>
+  <td class="new">smartwatch with touchscreen for vehicle control</td>
+  <td class="new">smartwatch vehicle control</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">191</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB2200F_ikona.jpg" loading="lazy" alt="Canon PowerShot SX70 HS bridge camera wi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1229</td>
+  <td class="fn">WB2200F_ikona.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB2200F_ikona</td>
+  <td class="new">Canon PowerShot SX70 HS bridge camera with powerful zoom, ideal for photography</td>
+  <td class="new">canon powershot sx70</td>
+  <td class="conf c5">5/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">192</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB35F_004_Right-Angle_Navy.jpg" loading="lazy" alt="Samsung camera with Wi-Fi connectivity a" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1233</td>
+  <td class="fn">WB35F_004_Right-Angle_Navy.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB35F_004_Right-Angle_Navy</td>
+  <td class="new">Samsung camera with Wi-Fi connectivity and 12x zoom</td>
+  <td class="new">samsung camera model</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">193</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB50F_004_Right-Angle_Navy-e1389169327336.jpg" loading="lazy" alt="Samsung camera with WiFi connectivity an" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1234</td>
+  <td class="fn">WB50F_004_Right-Angle_Navy-e1389169327336.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB50F_004_Right-Angle_Navy</td>
+  <td class="new">Samsung camera with WiFi connectivity and a 12x optical zoom</td>
+  <td class="new">samsung camera variant</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">194</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB350F_005_Right-Angle_black-e1389168105934.jpg" loading="lazy" alt="Samsung camera 21x zoom, compact design " onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1235</td>
+  <td class="fn">WB350F_005_Right-Angle_black-e1389168105934.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB350F_005_Right-Angle_black</td>
+  <td class="new">Samsung camera 21x zoom, compact design for versatile photography</td>
+  <td class="new">samsung camera compact</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">195</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB1100F_012_Dynamic7_black.jpg" loading="lazy" alt="Samsung camera with zoom lens for high-q" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1236</td>
+  <td class="fn">WB1100F_012_Dynamic7_black.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB1100F_012_Dynamic7_black</td>
+  <td class="new">Samsung camera with zoom lens for high-quality photography</td>
+  <td class="new">samsung camera</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">196</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB2200F_003_Right-Angle_Black_1.jpg" loading="lazy" alt="Samsung UN20 camera with WiFi connectivi" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1237</td>
+  <td class="fn">WB2200F_003_Right-Angle_Black_1.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB2200F_003_Right-Angle_Black_1</td>
+  <td class="new">Samsung UN20 camera with WiFi connectivity, perfect for capturing high-quality photos.</td>
+  <td class="new">samsung un20 camera</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">197</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB2200F_002_Back_Black.jpg" loading="lazy" alt="camera with CMOS sensor" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1244</td>
+  <td class="fn">WB2200F_002_Back_Black.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB2200F_002_Back_Black</td>
+  <td class="new">camera with CMOS sensor</td>
+  <td class="new">camera cmos variant</td>
+  <td class="conf c3">3/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">198</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB2200F_001_Front_Black.jpg" loading="lazy" alt="Samsung camera with WiFi connectivity" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1245</td>
+  <td class="fn">WB2200F_001_Front_Black.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB2200F_001_Front_Black</td>
+  <td class="new">Samsung camera with WiFi connectivity</td>
+  <td class="new">samsung camera</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">199</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB1100F_001_Front_black-e1389128099546.jpg" loading="lazy" alt="Samsung camera HD with 45-157.5mm Samsun" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1249</td>
+  <td class="fn">WB1100F_001_Front_black-e1389128099546.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB1100F_001_Front_black</td>
+  <td class="new">Samsung camera HD with 45-157.5mm Samsung lens</td>
+  <td class="new">samsung camera hd</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+<tr>
+  <td class="num">200</td>
+  <td class="img-cell"><img src="https://androidmagazine.eu/wp-content/uploads/2014/01/WB1100F_001_Front_red-e1389128125656.jpg" loading="lazy" alt="Samsung camera HD technology for high-de" onerror="this.outerHTML='<div class=noimg>N/A</div>'"></td>
+  <td class="wpid">1250</td>
+  <td class="fn">WB1100F_001_Front_red-e1389128125656.jpg</td>
+  <td class="orig"><span class="empty">— prázdné —</span></td>
+  <td class="orig">WB1100F_001_Front_red</td>
+  <td class="new">Samsung camera HD technology for high-definition photography.</td>
+  <td class="new">samsung camera hd</td>
+  <td class="conf c4">4/5</td>
+  <td><span class="badge UPDATE">UPDATE</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

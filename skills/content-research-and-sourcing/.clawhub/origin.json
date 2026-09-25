@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "content-research-and-sourcing",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786598480773,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "9534c37c4728fe84ceec485ac4d9b98f78983fb194fa310f9b20c2e01e946cd6",
+    "integrity": "sha256-lTTDfEco/oTO7EhaxNm5j3iYP7GU+jEPmyDC4B6UbNY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "09e20e9625e67da25e4e9d3d3e970329281c81145123ddfda60eaac5c667476d"
+  }
+}

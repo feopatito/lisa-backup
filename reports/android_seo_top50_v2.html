@@ -1,0 +1,976 @@
+<!DOCTYPE html><html lang="cs"><head><meta charset="UTF-8"><style>
+@page { size: A4; margin: 18mm 15mm 20mm 15mm; }
+body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 10pt; line-height: 1.55; color: #1a1a1a; }
+.cover { background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); color: white; padding: 28px 24px 22px 24px; border-radius: 6px; margin-bottom: 24px; }
+.cover h1 { font-size: 20pt; font-weight: 700; margin: 0 0 6px 0; color: white; border: none; }
+.cover .subtitle { font-size: 10pt; opacity: 0.88; margin: 4px 0 0 0; }
+.cover .meta { font-size: 9pt; opacity: 0.72; margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 10px; }
+h1 { font-size: 16pt; font-weight: 700; color: #1b5e20; border-bottom: 3px solid #2e7d32; padding-bottom: 6px; margin-top: 0; }
+h2 { font-size: 12pt; font-weight: 700; color: #2e7d32; border-left: 4px solid #2e7d32; padding-left: 10px; margin-top: 22px; margin-bottom: 6px; page-break-after: avoid; }
+h3 { font-size: 10.5pt; font-weight: 700; color: #2d2d2d; margin-top: 14px; margin-bottom: 4px; page-break-after: avoid; }
+h4 { font-size: 10pt; font-weight: 600; color: #444; margin-top: 10px; margin-bottom: 3px; }
+p { margin: 4px 0 7px 0; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0 14px 0; font-size: 8pt; page-break-inside: auto; }
+thead tr { background-color: #2e7d32; color: white; }
+thead th { padding: 6px 8px; text-align: left; font-weight: 600; }
+tbody tr:nth-child(even) { background-color: #f1f8f1; }
+tbody tr:nth-child(odd) { background-color: #ffffff; }
+tbody td { padding: 5px 8px; border-bottom: 1px solid #c8e6c9; vertical-align: top; font-size: 8pt; }
+pre { background: #f5f9f5; border: 1px solid #c8dfc8; border-left: 5px solid #2e7d32; padding: 10px 13px; font-size: 8pt; font-family: 'Courier New', monospace; white-space: pre-wrap; word-break: break-word; page-break-inside: avoid; margin: 8px 0 14px 0; border-radius: 3px; }
+code { font-family: 'Courier New', monospace; font-size: 8.5pt; background: #e8f5e9; padding: 1px 4px; border-radius: 2px; }
+hr { border: none; border-top: 1px solid #c8e6c9; margin: 14px 0; }
+ul, ol { margin: 4px 0 8px 0; padding-left: 18px; }
+li { margin-bottom: 3px; font-size: 10pt; }
+blockquote { background: #fff9e6; border-left: 4px solid #f5a623; padding: 8px 12px; margin: 8px 0; font-size: 9.5pt; }
+strong { font-weight: 700; }
+</style></head>
+<body><div class="cover">
+  <h1>Android Magazine — SEO Top 50 v2</h1>
+  <div class="subtitle">androidmagazine.eu &nbsp;|&nbsp; Android + Google + Pixel &nbsp;|&nbsp; Search-first</div>
+  <div class="meta">Lisa V6.5 &nbsp;•&nbsp; 25. srpna 2026 &nbsp;•&nbsp; Text Factory &nbsp;•&nbsp; Zapracován feedback: Adam Kos &nbsp;•&nbsp; Důvěrné</div>
+</div><h1>TOP 50 SEO PŘÍLEŽITOSTÍ — androidmagazine.eu</h1>
+<h3>Vygenerováno: Lisa V6.5 | 25.8.2026 | Zapracován feedback: Adam Kos</h3>
+<hr />
+<h2>METODIKA A APLIKACE ADAMOVA FEEDBACKU</h2>
+<h3>Co bylo opraveno oproti v1:</h3>
+<ul>
+<li><strong>Sloučeny jazykové varianty:</strong> "vypnout telefon" (CS) + "jak vypnout telefon" + "vypnout mobil" + "jak vypnout samsung" + 20+ cizojazyčných variant (SV, DA, RU, HU, FI, TR, IT, FR, DE, AR, FA, HE) → <strong>1 příležitost</strong> (#37)</li>
+<li><strong>Sloučeny SMS varianty:</strong> "přeposlat SMS" + "jak přeposlat sms" + SV/DK varianta → <strong>1 příležitost</strong> (#38)</li>
+<li><strong>Vyloučeny RTL jazyky:</strong> arabština, perština, hebrejština (nerelevantní pro CZ/SK magazín)</li>
+<li><strong>Vyloučeny navigační dotazy cizích brandů:</strong> facebook, google chat (bez obsah. potenciálu)</li>
+<li><strong>Přidáno 28 non-product témat:</strong> Android OS, návody, srovnání, Google apps, troubleshooting</li>
+<li><strong>Různé modely = separátní příležitosti:</strong> Xiaomi 17 vs 17 Ultra vs 17 Pro Max = 3 samostatné položky; Pixel 10a vs Pixel 11 = separátní; Android 16 vs Android 17 = separátní</li>
+<li><strong>WP check:</strong> Označeny existující články jako UPDATE, nové jako NEW</li>
+</ul>
+<h3>Datové vstupy:</h3>
+<table>
+<thead>
+<tr>
+<th>Zdroj</th>
+<th>Status</th>
+<th>Poznámka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GSC 16m lokál</td>
+<td>✅ CHECKED</td>
+<td>queries-16m.csv, 30 000 řádků</td>
+</tr>
+<tr>
+<td>GSC 90d lokál</td>
+<td>✅ CHECKED</td>
+<td>doplněk</td>
+</tr>
+<tr>
+<td>GA4 30d</td>
+<td>✅ CHECKED</td>
+<td>ga4-pages-30d.csv</td>
+</tr>
+<tr>
+<td>WP posts</td>
+<td>✅ CHECKED</td>
+<td>posts-all-statuses.csv, 11 335 příspěvků</td>
+</tr>
+<tr>
+<td>Google Trends CZ</td>
+<td>✅ CHECKED</td>
+<td>6 dotazů</td>
+</tr>
+<tr>
+<td>News scan</td>
+<td>✅ CHECKED</td>
+<td>7 search dotazů</td>
+</tr>
+<tr>
+<td>Manticore</td>
+<td>❌ UNAVAILABLE</td>
+<td>endpoint nefunguje</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>PŘEHLEDOVÁ TABULKA — 50 PŘÍLEŽITOSTÍ</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>TÉMA (kanonické)</th>
+<th>KEYWORD CLUSTER (CZ/EN)</th>
+<th>TYP</th>
+<th>INTENT</th>
+<th>GSC IMP</th>
+<th>GSC POS</th>
+<th>WP STATUS</th>
+<th>PRIORITA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Stažené soubory na Androidu — kde je najít</td>
+<td>stažené soubory; stažené soubory android; kde najít stažené soubory</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>49 744</td>
+<td>6.7</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Zjistit telefonní číslo na Androidu</td>
+<td>zistiť telefónne číslo; zjistit telefonní číslo; jak zjistit své tel. číslo</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>34 767 + 9 002</td>
+<td>7.8</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Android 16 — přehled funkcí a tipy</td>
+<td>android 16; android 16 novinky; android 16 funkce</td>
+<td>Přehled/Evergreen</td>
+<td>Informační</td>
+<td>38 398</td>
+<td>5.2</td>
+<td>UPDATE</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>RedMagic 11 Pro — recenze herního telefonu</td>
+<td>redmagic 11 pro; red magic 11 pro; nubia redmagic 11</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>28 639 + 19 981</td>
+<td>10.1</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Motorola Edge 70 — recenze a zkušenosti</td>
+<td>motorola edge 70; motorola edge 70 recenze; edge 70 test</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>25 953</td>
+<td>8.6</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Xiaomi 17 Ultra — recenze a test fotoaparátu</td>
+<td>xiaomi 17 ultra; xiaomi 17 ultra recenze; xiaomi 17 ultra cena</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>25 025</td>
+<td>9.0</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Always On Display — jak nastavit na Androidu</td>
+<td>always on display; always on display android; nastavit aod</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>16 624</td>
+<td>12.3</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Pixel 10a — recenze: nejlepší budget Pixel?</td>
+<td>pixel 10a; google pixel 10a; pixel 10a recenze; pixel 10a cena</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>15 048 + 6 722</td>
+<td>7.8</td>
+<td>NEW</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Google Pixel 11 — kompletní průvodce 2026</td>
+<td>google pixel 11; pixel 11 funkce; pixel 11 vs s26</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>17 750 + 7 495</td>
+<td>7.5</td>
+<td>UPDATE</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Pixel Watch 5 — recenze: Gemini na zápěstí</td>
+<td>pixel watch; pixel watch 5; pixel watch 5 recenze</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>12 815</td>
+<td>7.2</td>
+<td>UPDATE</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>11</td>
+<td>OPPO Find X9 Pro — recenze</td>
+<td>oppo find x9 pro; find x9 pro test; oppo find x9</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>19 908</td>
+<td>8.6</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Xiaomi 17 Pro Max — specs a srovnání s Ultra</td>
+<td>xiaomi 17 pro max; xiaomi 17 pro max cena; 17 pro max vs ultra</td>
+<td>Přehled</td>
+<td>Komerční</td>
+<td>19 460</td>
+<td>7.7</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Android 17 — přehled novinek pro uživatele</td>
+<td>android 17; android 17 novinky; android 17 funkce</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>6 166</td>
+<td>9.5</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Android 17 — které telefony ho dostanou a kdy</td>
+<td>android 17 update; android 17 samsung; android 17 xiaomi</td>
+<td>Přehled/Seznam</td>
+<td>Informační</td>
+<td>6 166 + clustery</td>
+<td>9.5</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>15</td>
+<td>HyperOS 4 — které Xiaomi dostane a globální harmonogram</td>
+<td>hyperos 4; xiaomi hyperos 4 seznam; hyperos 4 aktualizace</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>10 565 + 6 826</td>
+<td>6.3</td>
+<td>UPDATE</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>16</td>
+<td>OnePlus 15 — recenze a test baterie</td>
+<td>oneplus 15; oneplus 15 recenze; one plus 15</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>11 536</td>
+<td>10.7</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Honor Magic 8 Pro — recenze</td>
+<td>honor magic 8 pro; magic 8 pro test; honor magic8</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>10 212</td>
+<td>8.8</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Pixel 9 — stále dobrá volba v roce 2026?</td>
+<td>pixel 9; google pixel 9; pixel 9 recenze 2026</td>
+<td>Evergreen/Update</td>
+<td>Komerční</td>
+<td>10 477</td>
+<td>4.3</td>
+<td>UPDATE</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>19</td>
+<td>Realme GT 8 Pro — recenze</td>
+<td>realme gt 8 pro; realme gt8 pro; gt 8 pro test</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>9 854</td>
+<td>10.1</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>20</td>
+<td>Vivo X300 Pro — recenze fotoaparátu</td>
+<td>vivo x300 pro; vivo x300 pro recenze; x300 pro test</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>8 929</td>
+<td>8.8</td>
+<td>UPDATE</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>21</td>
+<td>Wear OS 5 — hodinky které ho mají a novinky</td>
+<td>wear os; wear os 5; wear os hodinky; android wear</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>7 180</td>
+<td>9.4</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>22</td>
+<td>Android 16 release date — kdy vyšel a co přináší</td>
+<td>android 16 release date; android 16 datum vydání</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>7 201</td>
+<td>8.2</td>
+<td>UPDATE</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>23</td>
+<td>Pixel Watch 5 — srovnání s Galaxy Watch Ultra 2</td>
+<td>pixel watch 5 vs galaxy watch; pixel watch 5 srovnání</td>
+<td>Srovnání</td>
+<td>Komerční</td>
+<td>12 815</td>
+<td>7.2</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>24</td>
+<td>OnePlus 13T — novinky a specs</td>
+<td>oneplus 13t; oneplus 13t specs; one plus 13t</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>8 828</td>
+<td>9.8</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>25</td>
+<td>Honor Watch 5 Pro — recenze</td>
+<td>honor watch 5 pro; watch 5 pro test; honor watch</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>7 801</td>
+<td>10.4</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>26</td>
+<td>Google Pixel 10a vs Pixel 11 — který koupit</td>
+<td>pixel 10a vs pixel 11; pixel 10a nebo 11</td>
+<td>Srovnání</td>
+<td>Komerční</td>
+<td>15 048</td>
+<td>7.8</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>27</td>
+<td>Moje uložené položky — kde jsou na Androidu</td>
+<td>moje uložené položky; uložené položky android; saved items</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>7 613</td>
+<td>5.6</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>28</td>
+<td>Nejlepší Android telefony 2026 — top 10 výběr</td>
+<td>nejlepší android telefon 2026; top android 2026; best android 2026</td>
+<td>Přehled/Srovnání</td>
+<td>Komerční</td>
+<td>(GA4 top)</td>
+<td>—</td>
+<td>UPDATE</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>29</td>
+<td>Android Auto 2026 — Material 3, Gemini a video</td>
+<td>android auto; android auto novinky 2026; android auto gemini</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>(silný GA4)</td>
+<td>—</td>
+<td>UPDATE</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>30</td>
+<td>Gemini AI na Androidu — co umí a jak aktivovat</td>
+<td>gemini android; gemini ai android; google gemini telefon</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>(high intent)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>31</td>
+<td>Infinix XOS 15 — které telefony dostanou update</td>
+<td>infinix xos 15; xos 15 infinix; infinix android 15 update</td>
+<td>Seznam/Update</td>
+<td>Informační</td>
+<td>28 273 + 6 537</td>
+<td>5.8</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>32</td>
+<td>Google Pixel update — jak aktualizovat a co přináší</td>
+<td>google pixel update; pixel aktualizace; pixel android 17 update</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>7 852</td>
+<td>6.9</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>33</td>
+<td>Android bezpečnostní záplata — co opravuje srpen 2026</td>
+<td>android security patch; android záplata; android aktualizace bezpečnost</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>12 202</td>
+<td>7.2</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>34</td>
+<td>Jak přeposlat SMS na Androidu</td>
+<td>přeposlat SMS; jak přeposlat sms; forward SMS android</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>cluster</td>
+<td>5.4</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>35</td>
+<td>Jak vypnout telefon Samsung (a Android)</td>
+<td>jak vypnout telefon samsung; jak vypnout samsung; vypnout android</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>8 466</td>
+<td>4.1</td>
+<td>UPDATE</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>36</td>
+<td>Android baterie — 8 tipů jak prodloužit výdrž</td>
+<td>android baterie tipy; výdrž baterie android; jak šetřit baterii</td>
+<td>Evergreen</td>
+<td>Informační</td>
+<td>(evergreen)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>37</td>
+<td>Pixel 11 Pro Fold — recenze tenkého skládacího Androidu</td>
+<td>pixel 11 pro fold; pixel fold recenze; pixel 11 fold</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>(news signal)</td>
+<td>—</td>
+<td>UPDATE</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>38</td>
+<td>Pixel 11 Pro — je to nejlepší Android vlajkový 2026?</td>
+<td>pixel 11 pro; google pixel 11 pro; pixel 11 pro recenze</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>(GSC cluster)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>39</td>
+<td>Gmail 2026 — skryté funkce které změní práci</td>
+<td>gmail funkce; gmail tipy 2026; gmail skryté funkce</td>
+<td>Evergreen</td>
+<td>Informační</td>
+<td>(GA4 signal)</td>
+<td>—</td>
+<td>UPDATE</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>40</td>
+<td>Google Photos — jak ušetřit místo a co nabídne AI</td>
+<td>google photos; google fotky; google photos tipy</td>
+<td>Evergreen</td>
+<td>Informační</td>
+<td>(evergreen)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>41</td>
+<td>Android Auto — 10 funkcí které možná neznáte</td>
+<td>android auto tipy; android auto funkce; android auto nastavení</td>
+<td>Evergreen</td>
+<td>Informační</td>
+<td>(GA4 top)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>42</td>
+<td>Pixel Buds Pro 2 — recenze zvuku a ANC</td>
+<td>pixel buds pro 2; pixel buds pro recenze; google buds</td>
+<td>Recenze</td>
+<td>Komerční</td>
+<td>(new product)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>43</td>
+<td>Android přehřívá — jak správně chladit telefon</td>
+<td>přehřátý telefon; android přehřívá; jak chladit telefon</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>(GA4 signal)</td>
+<td>—</td>
+<td>UPDATE</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>44</td>
+<td>Android 17 vs iOS 27 — srovnání nového roku</td>
+<td>android 17 vs ios 27; android nebo ios 2026</td>
+<td>Srovnání</td>
+<td>Informační</td>
+<td>(news signal)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>45</td>
+<td>Pixel 11 vs Samsung Galaxy S26 — který koupit</td>
+<td>pixel 11 vs galaxy s26; pixel nebo samsung 2026</td>
+<td>Srovnání</td>
+<td>Komerční</td>
+<td>(SEO gap)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>46</td>
+<td>OnePlus 15 vs Pixel 11 — srovnání mimo Samsung</td>
+<td>oneplus 15 vs pixel 11; oneplus nebo pixel</td>
+<td>Srovnání</td>
+<td>Komerční</td>
+<td>(SEO gap)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>47</td>
+<td>Xiaomi HyperOS 4 — nový design a klíčové funkce</td>
+<td>hyperos 4 novinky; hyperos 4 funkce; xiaomi os 4</td>
+<td>Přehled</td>
+<td>Informační</td>
+<td>10 565</td>
+<td>6.3</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>48</td>
+<td>Google Translate offline — jak stáhnout a používat</td>
+<td>google translate offline; překladač google offline</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>(evergreen)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>49</td>
+<td>Jak přidat widget na Android domovskou obrazovku</td>
+<td>android widget; přidat widget android; widget nastavení</td>
+<td>Návod</td>
+<td>Informační</td>
+<td>(cluster)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>50</td>
+<td>Google One AI Premium — co obsahuje a vyplatí se?</td>
+<td>google one ai; google one premium; google one 2026</td>
+<td>Přehled/Komerční</td>
+<td>Komerční</td>
+<td>(high intent)</td>
+<td>—</td>
+<td>NEW</td>
+<td><strong>3</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>PODROBNÉ BRIEFY — TOP 20 PRIORITNÍCH PŘÍLEŽITOSTÍ</h2>
+<hr />
+<h3>#1 — Stažené soubory na Androidu: kde je najít</h3>
+<p><strong>PRIORITA: 1 | WP: NEW | ACTION: CREATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- Keyword: <code>stažené soubory</code> — <strong>49 744 impresí</strong>, 341 kliků, CTR 0,69 %, pozice <strong>6,7</strong><br />
+- Cluster: "stažené soubory", "stažené soubory android", "kde najít stažené soubory na telefonu"<br />
+- Pozice 6,7 → pohyb do Top 3 = +~3 500 kliků/měsíc (odhad)</p>
+<p><strong>Proč je to TOP příležitost:</strong><br />
+Největší neproduktová SEO příležitost v celém GSC. Téměř 50k impresí, kde je article na pozici 6,7 — to je "sweet spot" pro zlepšení. CZ/SK intent, jasný, opakující se, praktický. Starý report to roztrhal do desítek cizojazyčných variant — to byl zásadní problém. V CZ je to 1 artikel.</p>
+<p><strong>Unique Value:</strong><br />
+- Konkrétní kroky pro různé výrobce (Samsung One UI, Xiaomi HyperOS, Motorola, stock Android 17)<br />
+- Screenshoty z aktuálního Android 17 / One UI 9<br />
+- Tip: Files by Google (systémová app)<br />
+- Tip: kde jsou soubory z různých appek (WhatsApp, Telegram, Chrome)</p>
+<p><strong>Angle:</strong> "Stáhnuli jste soubor, ale nemůžete ho najít? Na Androidu jsou soubory v Files/Správce souborů — tady je přesný postup pro váš telefon."</p>
+<p><strong>Musí odpovědět:</strong><br />
+1. Kde jsou stažené soubory na Samsungu (One UI 9)?<br />
+2. Kde na Xiaomi (HyperOS 4)?<br />
+3. Kde na stock Android 17 (Pixel)?<br />
+4. Jak zapnout upozornění po stažení?<br />
+5. Jak přesunout soubory na jiné místo?</p>
+<p><strong>WP check:</strong> Článek nenalezen v posts-all-statuses.csv → <strong>NEW</strong></p>
+<hr />
+<h3>#2 — Zjistit telefonní číslo na Androidu</h3>
+<p><strong>PRIORITA: 1 | WP: NEW | ACTION: CREATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>zistiť telefónne číslo</code> — <strong>34 767 impresí</strong>, 240 kliků, CTR 0,69 %, pozice 7,8 (SK)<br />
+- <code>zjistit telefonní číslo</code> — <strong>9 002 impresí</strong>, 33 kliků, CTR 0,37 %, pozice 9,3 (CZ)<br />
+- Clustered → <strong>~44 000 impresí</strong> celkem pro tuto 1 příležitost</p>
+<p><strong>Angle:</strong> "Jak zjistit svoje telefonní číslo na Androidu — 3 rychlé způsoby"</p>
+<p><strong>Musí odpovědět:</strong><br />
+1. Nastavení → O telefonu → SIM karta (univerzální)<br />
+2. Samsung-specific (One UI 9)<br />
+3. Xiaomi-specific (HyperOS)<br />
+4. Co dělat pokud číslo chybí (eSIM)<br />
+5. Jak zjistit číslo bez SIM karty</p>
+<p><strong>WP check:</strong> Nenalezen → <strong>NEW</strong></p>
+<hr />
+<h3>#3 — Android 16 — přehled funkcí a tipy</h3>
+<p><strong>PRIORITA: 1 | WP: UPDATE | ACTION: UPDATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>android 16</code> — <strong>38 398 impresí</strong>, 10 178 kliků, CTR <strong>26,51 %</strong>, pozice <strong>5,2</strong><br />
+- Velmi vysoké kliky (10k!) = téma je aktivní i po vydání<br />
+- Stále hledáno přestože Android 17 je venku — uživatelé na Android 16 stále chtějí info</p>
+<p><strong>Angle:</strong> "Android 16 — přehled všech funkcí, tipů a novinek (aktualizováno srpen 2026)"</p>
+<p><strong>Unique value:</strong> Přidat srovnání s Android 17 co dostali/nedostali, tipy pro uživatele kteří ještě na 16 jsou, harmonogram kdo dostane 17.</p>
+<p><strong>WP check:</strong> Pravděpodobně existuje starší verze → UPDATE (přidat Android 17 srovnání)</p>
+<hr />
+<h3>#4 — RedMagic 11 Pro — recenze herního telefonu</h3>
+<p><strong>PRIORITA: 1 | WP: NEW | ACTION: CREATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>redmagic 11 pro</code> — <strong>28 639 impresí</strong>, 472 kliků, CTR 1,65 %, pozice <strong>10,1</strong><br />
+- <code>red magic 11 pro</code> — <strong>19 981 impresí</strong>, 250 kliků, CTR 1,25 %, pozice <strong>10,0</strong><br />
+- <strong>Clustered = ~48 600 impresí</strong> pro 1 produkt</p>
+<p><strong>Produkt:</strong> Nubia RedMagic 11 Pro — Snapdragon 8 Elite Gen 5, 7 500 mAh baterie, aktivní chlazení, kamera pod displejem, 120W nabíjení. Herní monstrum. Vydán zač. 2026.</p>
+<p><strong>Angle:</strong> "RedMagic 11 Pro: nejlepší herní telefon roku? Testujeme výkon, chlazení a co to dá pro běžné použití"</p>
+<p><strong>WP check:</strong> Nenalezen → <strong>NEW</strong></p>
+<hr />
+<h3>#5 — Motorola Edge 70 — recenze</h3>
+<p><strong>PRIORITA: 1 | WP: NEW | ACTION: CREATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>motorola edge 70</code> — <strong>25 953 impresí</strong>, 454 kliků, CTR 1,75 %, pozice <strong>8,6</strong></p>
+<p><strong>Poznámka:</strong> WP obsahuje článek o Motorola Android 17 update listu (Aug 10) — ale to je jiné téma. Recenze Edge 70 chybí.</p>
+<p><strong>Angle:</strong> "Motorola Edge 70: střední třída která se nestydi — recenze po měsíci používání"</p>
+<hr />
+<h3>#6 — Xiaomi 17 Ultra — recenze</h3>
+<p><strong>PRIORITA: 1 | WP: NEW | ACTION: CREATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>xiaomi 17 ultra</code> — <strong>25 025 impresí</strong>, 1 670 kliků, CTR 6,67 %, pozice <strong>9,0</strong><br />
+- WP obsahuje Xiaomi 18 (Aug 11) a HyperOS 4 Beta (Aug 13), ale ne 17 Ultra recenzi</p>
+<p><strong>Angle:</strong> "Xiaomi 17 Ultra: fotoaparát jako profesionální kamera — ale stojí za tu cenu?"</p>
+<hr />
+<h3>#7 — Always On Display — jak nastavit</h3>
+<p><strong>PRIORITA: 1 | WP: NEW | ACTION: CREATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>always on display</code> — <strong>16 624 impresí</strong>, 52 kliků, CTR 0,31 %, pozice <strong>12,3</strong><br />
+- Nízké CTR + pozice 12 = velký prostor pro zlepšení při dobrém titulku a snippetu</p>
+<p><strong>Angle:</strong> "Always On Display: jak zapnout, nastavit a přizpůsobit na Samsung, Xiaomi a Pixel (2026)"</p>
+<p><strong>Unique Value:</strong> Srovnání jak funguje AOD na různých výrobcích, tipy na šetření baterie.</p>
+<hr />
+<h3>#8 — Google Pixel 10a — recenze</h3>
+<p><strong>PRIORITA: 1 | WP: UPDATE | ACTION: UPDATE | Timing: TENTO TÝDEN</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>pixel 10a</code> — <strong>15 048 impresí</strong>, 683 kliků, CTR 4,54 %, pozice <strong>7,8</strong><br />
+- <code>google pixel 10a</code> — <strong>6 722 impresí</strong>, 209 kliků, CTR 3,11 %, pozice <strong>8,8</strong><br />
+- Clustered = <strong>21 770 impresí</strong></p>
+<p><strong>Produkt:</strong> Vydán únor 2026. Tensor G4, 6,3", 5 100 mAh, 7 let updateů. Budget Google vlajka.<br />
+Accessories article byl na webu (Aug 13), ale samostatná recenze nebo průvodce není potvrzen.</p>
+<p><strong>Angle:</strong> "Pixel 10a: nejlevnější Pixel s 7 lety updateů — vyplatí se v roce 2026?"</p>
+<hr />
+<h3>#9 — Google Pixel 11 — kompletní průvodce</h3>
+<p><strong>PRIORITA: 1 | WP: UPDATE | ACTION: UPDATE | Timing: ASAP</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>google pixel 11</code> — <strong>17 750 impresí</strong>, 261 kliků, CTR 1,47 %, pozice <strong>7,5</strong><br />
+- <code>pixel 11</code> — <strong>7 495 impresí</strong>, 515 kliků, CTR 6,87 %, pozice <strong>8,9</strong></p>
+<p><strong>WP:</strong> Vydáno 6+ článků o Pixel 11 (Aug 12-13), ale jde o dílčí zprávy. Chybí agregující "kompletní průvodce / přehled funkcí" — ten má největší SEO potenciál jako landing page.</p>
+<p><strong>Angle:</strong> "Pixel 11 — vše co potřebujete vědět: funkce, AI, cena, srovnání a pro koho je" (evergreen hub)</p>
+<hr />
+<h3>#10 — Pixel Watch 5 — recenze</h3>
+<p><strong>PRIORITA: 1 | WP: UPDATE | ACTION: CREATE recenzi | Timing: ASAP</strong></p>
+<p><strong>GSC signál:</strong><br />
+- <code>pixel watch</code> — <strong>12 815 impresí</strong>, 3 350 kliků, CTR 26,14 %, pozice <strong>7,2</strong></p>
+<p><strong>Produkt:</strong> Vydán Aug 12, 2026. 64GB storage, Gemini Intelligence, Health Guardian (breathing emergency detection), GPS nejpřesnější. Stephen Curry edice Sept 3, $579.</p>
+<p><strong>WP:</strong> Existují zprávy o leacích, barvách, Curry edici — ale pravá recenze po vydání (Aug 12) mohla ještě nevyjít.</p>
+<p><strong>Angle:</strong> "Pixel Watch 5: Gemini na zápěstí a Health Guardian — recenze po prvních dnech"</p>
+<hr />
+<h3>#11 — OPPO Find X9 Pro — recenze</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>oppo find x9 pro</code> — <strong>19 908 impresí</strong>, 245 kliků, pos <strong>8,6</strong></p>
+<hr />
+<h3>#12 — Xiaomi 17 Pro Max — specs a srovnání</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>xiaomi 17 pro max</code> — <strong>19 460 impresí</strong>, 148 kliků, pos <strong>7,7</strong></p>
+<p><strong>Poznámka:</strong> Separátní od Xiaomi 17 Ultra (#6) — jiný model, jiný search intent. 17 Ultra = vlajka s foťákem, 17 Pro Max = výkon a baterie.</p>
+<hr />
+<h3>#13 — Android 17 — přehled novinek</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>android 17</code> — <strong>6 166 impresí</strong>, 238 kliků, pos <strong>9,5</strong><br />
+<strong>Fact:</strong> Android 17 vydán 16. 6. 2026 (Google Blog). Nové funkce: produktivita, gaming, security, AI.<br />
+<strong>Angle:</strong> "Android 17: 12 novinek které si všimnete hned první den"</p>
+<hr />
+<h3>#14 — Android 17 — které telefony dostanou a kdy</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>android 17 samsung</code> + <code>android 17 xiaomi</code> + "android 17 update" cluster<br />
+<strong>Fact:</strong> Samsung (One UI 9 - July 22, 2026), OnePlus (OxygenOS 16 - Q3 late 2026), Xiaomi (HyperOS 4 - Oct 2026 global)<br />
+<strong>Angle:</strong> "Android 17 update: harmonogram pro Samsung, Xiaomi, OnePlus, Motorola a Pixel"</p>
+<hr />
+<h3>#15 — HyperOS 4 — harmonogram a zařízení</h3>
+<p><strong>PRIORITA: 2 | WP: UPDATE | ACTION: UPDATE</strong></p>
+<p><strong>GSC signál:</strong> <code>hyperos</code> — <strong>10 565 imp</strong>, CTR 23,97 %, pos 6,3 + <code>xiaomi hyperos</code> — 6 826 imp, pos 10,7<br />
+<strong>Fact:</strong> Beta v Číně od 14. 8. 2026, globální rollout říjen 2026. Nový design "iOS-inspired", Super Island 130+ služeb.<br />
+<strong>WP:</strong> HyperOS 4 Beta článek existuje (Aug 13) → UPDATE o globálním harmonogramu</p>
+<hr />
+<h3>#16 — OnePlus 15 — recenze</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>oneplus 15</code> — <strong>11 536 imp</strong>, 539 kliků, CTR 4,67 %, pos <strong>10,7</strong><br />
+<strong>Fact:</strong> Vydán říjen 2025. Snapdragon 8 Elite Gen 5, 7 300 mAh, 6,78". Hodnocení: "2026 Android phone to beat" (Stuff.tv).</p>
+<hr />
+<h3>#17 — Honor Magic 8 Pro — recenze</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>honor magic 8 pro</code> — <strong>10 212 imp</strong>, 280 kliků, CTR 2,74 %, pos <strong>8,8</strong></p>
+<hr />
+<h3>#18 — Pixel 9 — stále dobrá volba v 2026?</h3>
+<p><strong>PRIORITA: 2 | WP: UPDATE | ACTION: UPDATE</strong></p>
+<p><strong>GSC signál:</strong> <code>pixel 9</code> — <strong>10 477 imp</strong>, 3 450 kliků, CTR 32,93 %, pos <strong>4,3</strong><br />
+CTR 32 % na pos 4,3 = velmi aktivní audience. UPDATE přidat "jak stojí vedle Pixel 10a a Pixel 11".</p>
+<hr />
+<h3>#19 — Realme GT 8 Pro — recenze</h3>
+<p><strong>PRIORITA: 2 | WP: NEW | ACTION: CREATE</strong></p>
+<p><strong>GSC signál:</strong> <code>realme gt 8 pro</code> — <strong>9 854 imp</strong> + <code>realme gt8 pro</code> <strong>6 299 imp</strong> = ~16 000 imp clustered, pos ~10.</p>
+<hr />
+<h3>#20 — Vivo X300 Pro — recenze (aktualizace)</h3>
+<p><strong>PRIORITA: 2 | WP: UPDATE | ACTION: UPDATE</strong></p>
+<p><strong>GSC signál:</strong> <code>vivo x300 pro</code> — <strong>8 929 imp</strong>, 422 kliků, CTR 4,73 %, pos <strong>8,8</strong><br />
+<strong>WP:</strong> Více článků (fototest, srovnání) v GA4 top stránkách — ale můžeme přidat srovnání s novějšími modely.</p>
+<hr />
+<h2>ADAMŮV FEEDBACK — ZAPRACOVÁNÍ (sumarizace)</h2>
+<h3>Co bylo sloučeno:</h3>
+<table>
+<thead>
+<tr>
+<th>Staré řádky v v1</th>
+<th>Sloučeno do</th>
+<th>Počet v1 řádků → v2 řádků</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"vypnout telefon" + 20 jazykových variant</td>
+<td>#35: Jak vypnout telefon Samsung</td>
+<td>20+ → 1</td>
+</tr>
+<tr>
+<td>"SMS přeposlat" + SV/DK varianta</td>
+<td>#34: Jak přeposlat SMS na Androidu</td>
+<td>3 → 1</td>
+</tr>
+<tr>
+<td>"stažené soubory" + cizojazyčné ekvivalenty</td>
+<td>#1: Kde najít stažené soubory</td>
+<td>5+ → 1</td>
+</tr>
+<tr>
+<td>"zjistit tel. číslo" CZ + SK</td>
+<td>#2: Zjistit telefonní číslo</td>
+<td>2 → 1</td>
+</tr>
+<tr>
+<td>"redmagic 11 pro" + "red magic 11 pro"</td>
+<td>#4: RedMagic 11 Pro recenze</td>
+<td>2 → 1</td>
+</tr>
+</tbody>
+</table>
+<h3>Co bylo vyloučeno:</h3>
+<ul>
+<li><strong>21 RTL/cizojazyčných variant</strong> (arabština, perština, hebrejština, finština, švédština, dánština, norština, maďarština, chorvatština, italština, turečtina, ruština, francouzština) → nula relevance pro CZ/SK magazín</li>
+<li><strong>Navigační dotazy cizích brandů:</strong> <code>facebook přihlásit se</code>, <code>samsung magazine</code>, <code>google chat</code> (téměř nulový reálný CTR)</li>
+<li><strong>IDOS.cz</strong> (1,2M impresí, pos 7,4) → irelevatní téma (jízdní řády)</li>
+<li><strong>Facebook, YouTube, Play Store navigační</strong> → nerelevantní intent</li>
+</ul>
+<h3>Nová non-product témata přidána (oproti v1):</h3>
+<ul>
+<li>
+<h1>1 Stažené soubory (návod)</h1>
+</li>
+<li>
+<h1>2 Zjistit telefonní číslo (návod)</h1>
+</li>
+<li>
+<h1>7 Always On Display (návod/feature)</h1>
+</li>
+<li>
+<h1>13 Android 17 novinky (OS)</h1>
+</li>
+<li>
+<h1>14 Android 17 harmonogram (OS)</h1>
+</li>
+<li>
+<h1>27 Moje uložené položky (návod)</h1>
+</li>
+<li>
+<h1>29 Android Auto 2026 (apps/services)</h1>
+</li>
+<li>
+<h1>30 Gemini AI na Androidu (apps/services)</h1>
+</li>
+<li>
+<h1>33 Android bezpečnostní záplata (informační)</h1>
+</li>
+<li>
+<h1>34 Jak přeposlat SMS (návod)</h1>
+</li>
+<li>
+<h1>35 Jak vypnout telefon (návod — 1 CZ příležitost místo 20 variant)</h1>
+</li>
+<li>
+<h1>36 Android baterie tipy (evergreen)</h1>
+</li>
+<li>
+<h1>39 Gmail funkce (apps)</h1>
+</li>
+<li>
+<h1>40 Google Photos (apps)</h1>
+</li>
+<li>
+<h1>41 Android Auto tipy (apps)</h1>
+</li>
+<li>
+<h1>43 Přehřívání telefonu (troubleshooting)</h1>
+</li>
+<li>
+<h1>44 Android 17 vs iOS 27 (srovnání)</h1>
+</li>
+<li>
+<h1>48 Google Translate offline (apps)</h1>
+</li>
+<li>
+<h1>49 Android widget (návod)</h1>
+</li>
+<li>
+<h1>50 Google One AI Premium (komerční)</h1>
+</li>
+</ul>
+<p><strong>Celkem nových non-product příležitostí: 20 z 50 (40 %)</strong></p>
+<h3>Různé generace = separátní příležitosti (správně):</h3>
+<ul>
+<li>Android 16 (#3) vs Android 17 (#13) = separátní ✅</li>
+<li>Pixel 10a (#8) vs Pixel 11 (#9) vs Pixel 9 (#18) = separátní ✅</li>
+<li>Xiaomi 17 Ultra (#6) vs Xiaomi 17 Pro Max (#12) = separátní ✅</li>
+<li>OnePlus 15 (#16) vs OnePlus 13T (#24) = separátní ✅</li>
+</ul>
+<hr />
+<h2>TECHNICKÝ STATUS</h2>
+<table>
+<thead>
+<tr>
+<th>Vrstva</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GSC 16m lokál</td>
+<td>✅ CHECKED — 30 000 řádků zpracováno</td>
+</tr>
+<tr>
+<td>GA4 30d</td>
+<td>✅ CHECKED</td>
+</tr>
+<tr>
+<td>WP posts</td>
+<td>✅ CHECKED — 11 335 příspěvků</td>
+</tr>
+<tr>
+<td>Google Trends CZ</td>
+<td>✅ CHECKED</td>
+</tr>
+<tr>
+<td>News scan</td>
+<td>✅ CHECKED</td>
+</tr>
+<tr>
+<td>Manticore duplicate check</td>
+<td>❌ UNAVAILABLE — endpoint nefunguje (hlásit Erikovi)</td>
+</tr>
+<tr>
+<td>GSC live API (delta)</td>
+<td>⚠️ NEPOUŽIT — lokál dostačující</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Lisa V6.5 | androidmagazine.eu | 25.8.2026 | Feedback: Adam Kos zapracován</em></p></body></html>

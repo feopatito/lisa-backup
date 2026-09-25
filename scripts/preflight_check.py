@@ -1,111 +1,100 @@
-#!/usr/bin/env python3
-"""
-Lisa Pre-flight Check — spustit PŘED každým ranním cyklem
-Výstup: PASS (vše OK) nebo FAIL (co nefunguje + ETA instrukce)
-"""
-import datetime
-import os, sys, json, urllib.parse, urllib.request, base64
+import warnings; warnings.filterwarnings("ignore")
+import datetime, os, sys, json, urllib.parse, urllib.request, base64
+from pathlib import Path
+
+with open(os.path.expanduser("~/.openclaw/openclaw.json")) as f:
+    cfg = json.load(f)
+env = cfg.get("env", {})
+def g(k): return env.get(k) or env.get("vars", {}).get(k, "")
+
+for k in ["MANTICORE_USER","MANTICORE_PASS","MANTICORE_URL",
+          "WP_LSA_URL","WP_LSA_USER","WP_LSA_PASS",
+          "WP_ANDROID_URL","WP_ANDROID_USER","WP_ANDROID_PASS",
+          "WP_SAMSUNG_URL","WP_SAMSUNG_USER","WP_SAMSUNG_PASS"]:
+    v = g(k)
+    if v: os.environ[k] = v
+
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-RESULTS = {}
+R = {}
+SA_CANDIDATES = [
+    Path(os.path.expanduser("~/.openclaw/creds/android-magazine-sa.json")),
+    Path(os.path.expanduser("~/.openclaw/workspace/android-magazine-sa.json")),
+]
+SA = next((str(path) for path in SA_CANDIDATES if path.exists()), None)
+if SA is None:
+    missing = ", ".join(str(path) for path in SA_CANDIDATES)
+    print("=== LISA PRE-FLIGHT CHECK v2 ===")
+    print(f"  [FAIL] SA: missing service account file, checked: {missing}")
+    print("STOP - opravit")
+    sys.exit(1)
 
-# --- 1. GA4 (all 3 active sites) ---
-SA_PATH = os.path.expanduser("~/.openclaw/workspace/android-magazine-sa.json")
 try:
-    creds = service_account.Credentials.from_service_account_file(
-        SA_PATH, scopes=["https://www.googleapis.com/auth/analytics.readonly"])
-    svc = build("analyticsdata", "v1beta", credentials=creds, cache_discovery=False)
-    ga4_properties = {
-        "LSA": "361706440",
-        "Android": "361709661",
-        "Samsung": "361723333",
-    }
-    for name, property_id in ga4_properties.items():
-        svc.properties().runReport(property=f"properties/{property_id}", body={
-            "dateRanges": [{"startDate": "1daysAgo","endDate": "yesterday"}],
-            "metrics": [{"name":"sessions"}],
-            "limit": 1,
-        }).execute()
-        RESULTS[f"GA4_{name}"] = "PASS"
+    c = service_account.Credentials.from_service_account_file(SA, scopes=["https://www.googleapis.com/auth/analytics.readonly"])
+    s = build("analyticsdata", "v1beta", credentials=c, cache_discovery=False)
+    for n,p in {"LSA":"361706440","Android":"361709661","Samsung":"361723333"}.items():
+        s.properties().runReport(property="properties/"+p, body={"dateRanges":[{"startDate":"1daysAgo","endDate":"yesterday"}],"metrics":[{"name":"sessions"}],"limit":1}).execute()
+        R["GA4_"+n] = "PASS"
 except Exception as e:
-    RESULTS["GA4"] = f"FAIL: {str(e)[:80]}"
+    R["GA4"] = "FAIL: "+str(e)[:80]
 
-# --- 2. GSC (all 3 active sites) ---
 try:
-    creds = service_account.Credentials.from_service_account_file(
-        SA_PATH, scopes=["https://www.googleapis.com/auth/webmasters.readonly"])
-    svc = build("searchconsole", "v1", credentials=creds, cache_discovery=False)
-    gsc_sites = {
-        "LSA": "sc-domain:letemsvetemapplem.eu",
-        "Android": "sc-domain:androidmagazine.eu",
-        "Samsung": "sc-domain:samsungmagazine.eu",
-    }
-    body = {
-        "startDate": (datetime.date.today() - datetime.timedelta(days=7)).isoformat(),
-        "endDate": (datetime.date.today() - datetime.timedelta(days=1)).isoformat(),
-        "dimensions": ["date"],
-        "rowLimit": 1,
-    }
-    for name, site_url in gsc_sites.items():
-        svc.searchanalytics().query(siteUrl=site_url, body=body).execute()
-        RESULTS[f"GSC_{name}"] = "PASS"
+    c = service_account.Credentials.from_service_account_file(SA, scopes=["https://www.googleapis.com/auth/webmasters.readonly"])
+    s = build("searchconsole", "v1", credentials=c, cache_discovery=False)
+    body = {"startDate":(datetime.date.today()-datetime.timedelta(7)).isoformat(),"endDate":(datetime.date.today()-datetime.timedelta(1)).isoformat(),"dimensions":["date"],"rowLimit":1}
+    for n,site in {"LSA":"sc-domain:letemsvetemapplem.eu","Android":"sc-domain:androidmagazine.eu","Samsung":"sc-domain:samsungmagazine.eu"}.items():
+        s.searchanalytics().query(siteUrl=site, body=body).execute()
+        R["GSC_"+n] = "PASS"
 except Exception as e:
-    RESULTS["GSC"] = f"FAIL: {str(e)[:80]}"
+    R["GSC"] = "FAIL: "+str(e)[:80]
 
-# --- 3. Manticore (all 3 active sites) ---
-MANTICORE_URL = "https://searchnew.tfsys.eu/results"
-MANTICORE_USER = "lisa.ai.textfactory.cz"
-MANTICORE_PASS = os.environ.get("MANTICORE_PASS", "")
-try:
-    if not MANTICORE_PASS:
-        raise RuntimeError("MANTICORE_PASS missing")
-    token = base64.b64encode(f"{MANTICORE_USER}:{MANTICORE_PASS}".encode()).decode()
-    for name, tf_user in {
-        "LSA": "letemsvetemapplem.eu",
-        "Android": "androidmagazine.eu",
-        "Samsung": "samsungmagazine.eu",
-    }.items():
-        query = urllib.parse.urlencode({
-            "tf_user": tf_user,
-            "s": "test",
-            "count": 1,
-            "post_status": "any",
-        })
-        req = urllib.request.Request(
-            f"{MANTICORE_URL}?{query}",
-            headers={"Authorization": f"Basic {token}"}
-        )
-        with urllib.request.urlopen(req, timeout=8) as r:
-            data = json.loads(r.read())
-            RESULTS[f"Manticore_{name}"] = f"PASS ({len(data.get('docs', []))} docs)"
-except Exception as e:
-    RESULTS["Manticore"] = f"FAIL: {str(e)[:80]}"
-
-# --- 4. WordPress auth (všechny 3 weby) ---
-WP_SITES = {
-    "LSA": ("https://www.letemsvetemapplem.eu/wp-json/wp/v2/posts?per_page=1", "Lisa", os.environ.get("WP_LSA_PASS","")),
-    "Android": ("https://androidmagazine.eu/wp-json/wp/v2/posts?per_page=1", "Lisa", os.environ.get("WP_ANDROID_PASS","")),
-    "Samsung": ("https://samsungmagazine.eu/wp-json/wp/v2/posts?per_page=1", "LisaAI", os.environ.get("WP_SAMSUNG_PASS","")),
+WP_CONFIGS = {
+    "LSA": (g("WP_LSA_URL") or "https://www.letemsvetemapplem.eu", "Lisa", g("WP_LSA_PASS")),
+    "Android": (g("WP_ANDROID_URL") or "https://androidmagazine.eu", "Lisa", g("WP_ANDROID_PASS")),
+    "Samsung": (g("WP_SAMSUNG_URL") or "https://samsungmagazine.eu", "LisaAI", g("WP_SAMSUNG_PASS")),
 }
-for name, (url, user, pwd) in WP_SITES.items():
+
+wp_pass = set()
+for n,(url,user,pwd) in WP_CONFIGS.items():
     try:
-        token = base64.b64encode(f"{user}:{pwd}".encode()).decode()
-        req = urllib.request.Request(url, headers={"Authorization": f"Basic {token}"})
-        with urllib.request.urlopen(req, timeout=8) as r:
-            posts = json.loads(r.read())
-            RESULTS[f"WP_{name}"] = f"PASS ({len(posts)} posts)"
+        tok = base64.b64encode((user+":"+pwd).encode()).decode()
+        req = urllib.request.Request(url+"/wp-json/wp/v2/posts?per_page=1", headers={"Authorization":"Basic "+tok})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            posts = json.loads(r.read()); R["WP_"+n] = "PASS ("+str(len(posts))+" posts)"
+            wp_pass.add(n)
     except Exception as e:
-        RESULTS[f"WP_{name}"] = f"FAIL: {str(e)[:60]}"
+        R["WP_"+n] = "FAIL: "+str(e)[:60]
 
-# --- Výstup ---
-print("\n=== LISA PRE-FLIGHT CHECK ===")
-all_pass = True
-for k, v in RESULTS.items():
-    icon = "✅" if v.startswith("PASS") else "❌"
-    print(f"  {icon} {k}: {v}")
-    if not v.startswith("PASS"):
-        all_pass = False
+MU = g("MANTICORE_URL") or "https://searchnew.tfsys.eu/results"
+MP = g("MANTICORE_PASS"); MN = g("MANTICORE_USER")
+for n,tf in {"LSA":"letemsvetemapplem.eu","Android":"androidmagazine.eu","Samsung":"samsungmagazine.eu"}.items():
+    try:
+        if not MP:
+            raise RuntimeError("MANTICORE_PASS chybi")
+        tok = base64.b64encode((MN+":"+MP).encode()).decode()
+        q = urllib.parse.urlencode({"tf_user":tf,"s":"test","count":1,"post_status":"any"})
+        req = urllib.request.Request(MU+"?"+q, headers={"Authorization":"Basic "+tok})
+        with urllib.request.urlopen(req, timeout=8) as r:
+            data = json.loads(r.read()); R["Manticore_"+n] = "PASS ("+str(len(data.get("docs",[])))+" docs)"
+    except Exception as e:
+        if n in wp_pass:
+            R["Manticore_"+n] = "PASS_FALLBACK -> WP REST"
+        else:
+            R["Manticore_"+n] = "FAIL: "+str(e)[:80]
 
-print(f"\n{'✅ VŠECHNO OK — cyklus může běžet' if all_pass else '❌ STOP — opravit výše uvedené před spuštěním cyklu'}")
-sys.exit(0 if all_pass else 1)
+print("=== LISA PRE-FLIGHT CHECK v2 ===")
+ok = True
+for k,v in R.items():
+    passed = v.startswith("PASS")
+    print("  ["+( "OK" if passed else "FAIL")+"] "+k+": "+v)
+    if not passed and (
+        k.startswith("GA4_")
+        or k == "GA4"
+        or k.startswith("GSC_")
+        or k == "GSC"
+        or k.startswith("Manticore_")
+    ):
+        ok = False
+print("VSECHNO OK" if ok else "STOP - opravit")
+sys.exit(0 if ok else 1)

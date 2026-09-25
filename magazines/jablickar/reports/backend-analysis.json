@@ -1,0 +1,209 @@
+{
+  "site": {
+    "url": "https://jablickar.cz",
+    "name": "Jablíčkář.cz",
+    "organization": "Text Factory s.r.o.",
+    "founded": "2008",
+    "last_analyzed": "2026-08-14T05:24:00Z"
+  },
+  "wordpress": {
+    "version": "6.9.7",
+    "rest_api": {
+      "enabled": true,
+      "endpoint": "/wp-json/wp/v2",
+      "authentication": "required_for_users"
+    },
+    "server": "nginx"
+  },
+  "theme": {
+    "active_theme": "lsa8-jablickar",
+    "parent_theme": "lsa8",
+    "custom_child_theme": true,
+    "designer": "Feo Patito",
+    "developer": "Erik Bročko"
+  },
+  "plugins": [
+    {
+      "name": "TFNotifier WP",
+      "slug": "tfnotifier-wp",
+      "version": "3.0",
+      "purpose": "Push notifications for content updates",
+      "detected": true,
+      "visible_in_source": true
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "slug": "jirifilip",
+      "name": "Jiří Filip",
+      "bio": "Přestože chtěl být zprvu sportovním novinářem, kouzlo technologií jej omámilo natolik, že v tomto světě působí nepřetržitě od roku 2017. Jasným lovebrandem je pro něj Apple, nadchnout se však dokáže i pro jakoukoliv jinou tech hračku, která má dává v pracovním či osobním životě smysl. Vedle záliby v technologiích si pak chodí rád vyčistit hlavu na florbal a zároveň si užívá roli novopečeného otce. A když se vše podaří doplnit ještě dobrým jídlem a nějakou pěknou LEGO stavebnicí, je v sedmém nebi.",
+      "specialty": "Apple products, Technology journalism",
+      "total_articles": 3241,
+      "linkedin": "https://www.linkedin.com/in/jiří-filip-891b211b6/",
+      "profile_url": "https://jablickar.cz/author/jirifilip/",
+      "active": true
+    },
+    {
+      "id": 2,
+      "slug": "adamkos",
+      "name": "Adam Kos",
+      "bio": "Od konstruování CNG čerpacích stanic utekl ke svému koníčku: K psaní o moderních technologiích. Tomu se věnuje už od roku 2011. Když si ale chce od digitálního světa odpočinout, uchýlí se k tomu analogovému, sbírá totiž vintage náramkové hodinky a ty také amatérsky servisuje. Jinak je pejskař, fanoušek filmů všeho druhu, hudby, co patřičně rozproudí krev a dobrého jídla.",
+      "specialty": "Technology, Vintage watches, Consumer electronics",
+      "total_articles": 3431,
+      "profile_url": "https://jablickar.cz/author/adamkos/",
+      "active": true
+    },
+    {
+      "id": 3,
+      "slug": "amtom",
+      "name": "Amaya Tomanová",
+      "bio": "Její nadšení pro Apple produkty začalo ve chvíli, kdy před lety dostala iPhone 4 a bílý plastový MacBook z druhé ruky. Od té doby se její jablečný arzenál mírně rozšířil a proměnil, z nadšence se stal střízlivý skeptik, ale Applu je věrná i nadále. Zajímá se o oblast chytré domácnosti, využívání chytré elektroniky při sportu, a poslední dobou ji začaly zajímat i možnosti propojení hudební tvorby a interpretace s chytrými technologiemi.",
+      "specialty": "Apple ecosystem, Smart home, Music technology, Sports gadgets",
+      "total_articles": 5803,
+      "profile_url": "https://jablickar.cz/author/amtom/",
+      "active": true
+    },
+    {
+      "id": 4,
+      "slug": "janvajdak",
+      "name": "Jan Vajdák",
+      "bio": "Svět technologií pro něj byl lákavý už od útlého věku, k Apple produktům si však hledal cestu docela dlouho. Nakonec však vyměnil své Samsungy za iPhony a pochopil, proč tyto telefony miluje celá planeta. Po čase přibyla k iPhonu další jablečná výbava v čele s MacBookem, iPadem či AirPods, díky čemuž je tak dnes srdcem jablíčkář. Ve volném čase rád hraje na PS5, sleduje fotbal či chodí cvičit.",
+      "specialty": "Apple products, iPhone reviews, Mac ecosystem",
+      "total_articles": 584,
+      "profile_url": "https://jablickar.cz/author/janvajdak/",
+      "active": true
+    }
+  ],
+  "content_structure": {
+    "total_authors": 4,
+    "total_articles": 13059,
+    "average_articles_per_author": 3264.75,
+    "top_contributor": {
+      "author": "Amaya Tomanová",
+      "slug": "amtom",
+      "articles": 5803,
+      "percentage": 44.4
+    },
+    "categories_detected": [
+      {
+        "id": 9,
+        "slug": "zpravy",
+        "name": "Zprávy"
+      },
+      {
+        "id": 439,
+        "detected": true
+      },
+      {
+        "id": 1313,
+        "slug": "komercni_sdeleni",
+        "name": "Komerční sdělení"
+      },
+      {
+        "id": 4979,
+        "slug": "iphone",
+        "name": "iPhone"
+      },
+      {
+        "id": 4982,
+        "detected": true
+      },
+      {
+        "id": 56999,
+        "detected": true
+      },
+      {
+        "id": 6958,
+        "detected": true
+      },
+      {
+        "id": 8737,
+        "detected": true
+      }
+    ],
+    "primary_topics": [
+      "Apple products",
+      "iPhone",
+      "Technology news",
+      "Tech reviews",
+      "Consumer electronics"
+    ]
+  },
+  "backend_tech_stack": {
+    "cms": "WordPress 6.9.7",
+    "server": "nginx",
+    "theme_framework": "LSA8 (custom child theme)",
+    "plugins_identified": [
+      "tfnotifier-wp (v3.0)"
+    ],
+    "rest_api_available": true,
+    "admin_panel": "/wp-admin (likely location)",
+    "content_types": [
+      "posts",
+      "pages",
+      "attachments",
+      "menu-items",
+      "custom-posts"
+    ]
+  },
+  "author_specialties": {
+    "by_topic": {
+      "Apple_ecosystem": ["Jiří Filip", "Amaya Tomanová", "Jan Vajdák", "Adam Kos"],
+      "iPhone_reviews": ["Jiří Filip", "Amaya Tomanová", "Jan Vajdák", "Adam Kos"],
+      "Smart_home": ["Amaya Tomanová"],
+      "Music_technology": ["Amaya Tomanová"],
+      "Sports_gadgets": ["Amaya Tomanová"],
+      "Technology_journalism": ["Jiří Filip", "Adam Kos"],
+      "Vintage_electronics": ["Adam Kos"]
+    }
+  },
+  "content_coverage": {
+    "focused_topics": [
+      "Apple News",
+      "iPhone releases and updates",
+      "Mac products",
+      "iPad ecosystem",
+      "Apple Watch",
+      "AirPods and audio devices",
+      "iOS updates",
+      "Tech gadgets and reviews"
+    ],
+    "commercial_content": "Present (category: Komerční sdělení)",
+    "press_releases": "Detected in content structure"
+  },
+  "metadata": {
+    "copyright": "© 2008-2026 Text Factory s.r.o.",
+    "design_credits": "Feo Patito (design), Erik Bročko (code)",
+    "related_properties": [
+      "Apple Bazar",
+      "Samsung Magazine",
+      "Letem světem Applem",
+      "FREEBIT",
+      "AppleMix.cz",
+      "Laboratorniservis.cz",
+      "JabkoLevně.cz"
+    ]
+  },
+  "access_notes": {
+    "rest_api_users": "Protected - requires authentication",
+    "rest_api_posts_public": "Accessible without auth",
+    "author_pages": "Public, with full bio and article count",
+    "admin_panel": "Standard WordPress location"
+  },
+  "analysis_methodology": {
+    "data_sources": [
+      "REST API examination",
+      "HTML source code analysis",
+      "Author profile pages",
+      "Home page structure",
+      "HTTP headers inspection"
+    ],
+    "limitations": [
+      "REST API user/post endpoints require authentication for full data",
+      "Some plugin information not visible in public source code",
+      "Complete plugin list not accessible without admin access",
+      "Custom post types and taxonomies partially obscured"
+    ]
+  }
+}

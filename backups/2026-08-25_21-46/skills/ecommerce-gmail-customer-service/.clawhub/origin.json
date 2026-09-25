@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "ecommerce-gmail-customer-service",
+  "installedVersion": "1.2.8",
+  "installedAt": 1786532438602,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "3f2eb0b6d4d86b422612015c635061953b36862782838fdef7b5d0328df1f6ed",
+    "integrity": "sha256-Py6wttTYa0ImEgFcY1BhlTs2hieCg4/e97XQMo3x9u0="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "21a6e13baad0d3dd727b0acdb656ba2c5c933953e8da8920678ef4970841e032"
+  }
+}

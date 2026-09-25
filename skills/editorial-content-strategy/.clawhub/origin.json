@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "editorial-content-strategy",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786598379326,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "0c6907e49a7f6d314bfe9201a50db425678a36d5a63b09e86579eb604126b777",
+    "integrity": "sha256-DGkH5Jp/bTFL/pIBpQ20JWeKNtWmOwnoZXnrYEEmt3c="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "e7d92cbf1318834a182af2d68ef8c83238326738c555e87c1f11d1efd08e0a0e"
+  }
+}

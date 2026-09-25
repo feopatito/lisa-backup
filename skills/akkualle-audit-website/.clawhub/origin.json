@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "akkualle-audit-website",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535902434,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "b385a979a92b048cef59da9452c8b15f488851481129ad403fc1387f7a08d84a",
+    "integrity": "sha256-s4WpeakrBIzvWdqUUsixX0iIUUgRKa1AP8E4f3oI2Eo="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "ab95268b64e16a88b47b77d93f9a060f231082f040d6d5d3c56d2e27e49ed3cc"
+  }
+}

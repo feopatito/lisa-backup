@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "image-optimization",
+  "installedVersion": "1.2.1",
+  "installedAt": 1786569264202,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "b826baf79d599962d3a43286cc70683cf47b9231a215f2a88148fa8782c977c3",
+    "integrity": "sha256-uCa6951ZmWLTpDKGzHBoPPR7kjGiFfKogUj6h4LJd8M="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "4a410b72a2f27e16acf5e2313f1f89e6ff10ff44bf7e146d138007c98b7ae2b6"
+  }
+}

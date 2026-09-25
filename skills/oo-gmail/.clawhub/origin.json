@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "oo-gmail",
+  "installedVersion": "1.0.2",
+  "installedAt": 1786524785988,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "00790d69b43715e43e9949c66fee75caf24a3e01b2cd7166aac024b5a2ec2a28",
+    "integrity": "sha256-AHkNabQ3FeQ+mUnGb+51yvJKPgGyzXFmqsAktaLsKig="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "0495b4cc489d84efd3db0521072f91208b0ff11239db30a15431bb1315dc439d"
+  }
+}

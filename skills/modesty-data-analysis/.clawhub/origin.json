@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "modesty-data-analysis",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786597854110,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "fef2d30d9a48a4354c3ef012c3a61cc04c6475eb981d79d17c3549e702b437d7",
+    "integrity": "sha256-/vLTDZpIpDVMPvASw6YcwExkdeuYHXnRfDVJ5wK0N9c="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "024ca3bab1db6257d3068eb8a9fa27a8e055a4446ff28aa955dc1b6ab522f2d0"
+  }
+}

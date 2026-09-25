@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "ai-writing-agent",
+  "installedVersion": "1.1.0",
+  "installedAt": 1786524709137,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "f76bf852625878f41575f5c5f65f3cf3fef968cb759ff4b781b88934ff0b6279",
+    "integrity": "sha256-92v4UmJYePQVdfXF9l888/75aMt1n/S3gbiJNP8LYnk="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "491ff5367d31532096f6e23eccd5de5eb4c8594482ecea4ad969da4ddf1f0f51"
+  }
+}

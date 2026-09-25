@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "editorial-topic-portfolio-skill",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786598395859,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "07113626544b9ad936654de647209229d53ff20b0ac7419301c47f5566ad7438",
+    "integrity": "sha256-BxE2JlRLmtk2ZU3mRyCSKdU/8gsKx0GTAcR/VWatdDg="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d38a2d0447b962f511a1130e43cc455f3ab287f2c1c6b1a489dcc702dd1775c6"
+  }
+}

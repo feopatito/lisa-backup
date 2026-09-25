@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jablickar.cz Health Check Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial Unicode MS', 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 40px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #4A90E2;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #4A90E2;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+        .score-box {
+            background: #4A90E2;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .section {
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+        h2 {
+            color: #4A90E2;
+            font-size: 18px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #E8F0FE;
+            padding-bottom: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .stat-box {
+            background: #F0F4F9;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #4A90E2;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4A90E2;
+            margin-top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th {
+            background: #4A90E2;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #E8F0FE;
+        }
+        tr:nth-child(even) {
+            background: #F9FAFB;
+        }
+        .footer {
+            margin-top: 40px;
+            border-top: 2px solid #E8F0FE;
+            padding-top: 20px;
+            text-align: center;
+            color: #999;
+            font-size: 12px;
+        }
+        .check {
+            color: #27AE60;
+        }
+        .alert {
+            color: #E74C3C;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Jablickar.cz — Health Check Report</h1>
+        <p class="subtitle">Kompletní audit webového magazínu • 2026-08-14</p>
+    </div>
+
+    <div class="score-box">
+        ⭐ SKÓRE: 7.8/10
+    </div>
+
+    <div class="section">
+        <h2>📈 Klíčové Metriky</h2>
+        <div class="grid">
+            <div class="stat-box">
+                <div class="stat-label">Backend Setup</div>
+                <div class="stat-value">9/10 <span class="check">✓</span></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Frontend Performance</div>
+                <div class="stat-value">7/10</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Content Structure</div>
+                <div class="stat-value">8/10 <span class="check">✓</span></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">SEO Technical</div>
+                <div class="stat-value">7/10</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>👥 Editorský Tým (4 Autoři)</h2>
+        <table>
+            <tr>
+                <th>Jméno</th>
+                <th>Články</th>
+                <th>Specialita</th>
+            </tr>
+            <tr>
+                <td>Amaya Tomanová</td>
+                <td>5,803 (44%)</td>
+                <td>Apple, chytrá domácnost, IoT</td>
+            </tr>
+            <tr>
+                <td>Adam Kos</td>
+                <td>3,431 (26%)</td>
+                <td>Hardware, fotografie, tech</td>
+            </tr>
+            <tr>
+                <td>Jiří Filip</td>
+                <td>3,241 (25%)</td>
+                <td>Apple news, reporting</td>
+            </tr>
+            <tr>
+                <td>Jan Vajdák</td>
+                <td>584 (5%)</td>
+                <td>Leaky, rumory, analýza</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>✅ Silné Stránky</h2>
+        <ul style="margin-left: 20px;">
+            <li><span class="check">✓</span> Technická infrastruktura A-tier (WordPress 6.9.7 + nginx)</li>
+            <li><span class="check">✓</span> Výborné SEO nastavení (hreflang, robots.txt, sitemaps)</li>
+            <li><span class="check">✓</span> 35+ jazyků správně implementované</li>
+            <li><span class="check">✓</span> Editorský tým: 13,059 článků za 12+ let</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="alert">⚠️</span> Oblasti k Zlepšení</h2>
+        <ul style="margin-left: 20px;">
+            <li><span class="alert">✗</span> Chybí Article/NewsArticle schema na postech</li>
+            <li><span class="alert">✗</span> Font loading (display="block" → display="swap")</li>
+            <li><span class="alert">✗</span> Promo obsah není jasně oddělen od editoriálu</li>
+            <li><span class="alert">✗</span> Slabé E-E-A-T signály v autorských profilech</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p><strong>Report generován AI redakční asistentkou Lisa</strong></p>
+        <p>TextFactory • 2026-08-14 14:01 GMT+2</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "crawl4ai-docker-skill",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535706052,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "708023b76022677a089143d9a0a7f121202a95e8347c9e3f9b18671cc0ec1eb5",
+    "integrity": "sha256-cIAjt2AiZ3oIkUPZoKfxISAqleg0fJ4/mxhnHMDsHrU="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "3674c1d988c10096baf3a1fe71fc09f98613746a72eb6724bafd357638e301e5"
+  }
+}

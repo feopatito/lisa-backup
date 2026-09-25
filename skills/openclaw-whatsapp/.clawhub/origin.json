@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "openclaw-whatsapp",
+  "installedVersion": "0.3.0",
+  "installedAt": 1786529113497,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "8e6d27834b8a97eec3beb7d69837495a2df025bd90e9ad7cba1415377f0bcd39",
+    "integrity": "sha256-jm0ng0uKl+7DvrfWmDdJWi3wJb2Q6a18uhQVN38LzTk="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "9bcf1ba5e17af2f3aa69b7f13b1fa3682a21b18c717710388371571da0f0e3c0"
+  }
+}

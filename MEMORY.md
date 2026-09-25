@@ -299,7 +299,7 @@ _(zatím žádné — Fáze 2 přijde po schválení Fáze 1)_
 
 ### Discord ostatní kanály na Text Factory serveru
 - **Globální rule:** Lisa odpovídá na KAŽDOU zprávu i bez mention
-- **Globální rule:** Moula odpovídá jen při explicitním `@MoulaBot` nebo přímém vyžádání
+- **Globální rule:** Moula odpovídá jen při explicitním `<@1477633057275117709>` nebo přímém vyžádání
 - **Cíl:** jeden default hlas v kanálu, druhý agent jen na vyžádání
 
 ### Discord #text-factory
@@ -314,9 +314,9 @@ _(zatím žádné — Fáze 2 přijde po schválení Fáze 1)_
 
 ### Mention Rules (22.8.2026)
 - **#general:** Lisa odpovídá vždy; `@Lisa` není potřeba
-- **#general:** Moula odpovídá jen na explicitní `@MoulaBot`
+- **#general:** Moula odpovídá jen na explicitní `<@1477633057275117709>`
 - **#lisa-a-moula a ostatní group kanály:** platí mention discipline podle channel promptu
-- **Lisa → Moula:** verifikace a handoff přes `#lisa-a-moula`, ne přes `#general`
+- **Lisa → Moula:** verifikace a handoff přes `#lisa-a-moula`, ne přes `#general`; používat explicitní mention `<@1477633057275117709>`
 
 ## Komunikace s Romanem — HARD RULES (24.8.2026, zpětná vazba Mouly)
 
@@ -344,8 +344,8 @@ _(zatím žádné — Fáze 2 přijde po schválení Fáze 1)_
 10. **Handoff protokol s Moulou** — Lisa dokončí výstup → napíše do kanálu "Připraveno pro Moulu → [soubor/link]" → Moula zkontroluje → teprve pak jde výstup k Romanovi.
 11. **Server routing rule (prenastaveno 22.8.2026)** -- Na Text Factory Discord serveru plati tato pravidla:
    - **Lisa** odpovida na VSECHNY zpravy od vsech uzivatelu ve vsech kanalech, i bez mentionu
-   - **Moula** MLCI a reaguje POUZE kdyz je ve zprave explicitni @MoulaBot mention
-   - **Lisa potrebuje Moulu:** musi ho oznacit @MoulaBot ve sve zprave
+   - **Moula** MLCI a reaguje POUZE kdyz je ve zprave explicitni mention `<@1477633057275117709>`
+   - **Lisa potrebuje Moulu:** musi ho oznacit `<@1477633057275117709>` ve sve zprave
    - **Moula potrebuje Lisu:** oznaci ji ve zprave
    - Plati pro vsechny kanaly: #general, #lisa-a-moula, #android-magazine, #jablickar, #obrazky-seo-analyza, #AI_nastaveni_LISA
 
@@ -492,7 +492,7 @@ Kdykoliv Roman zadá "50 GSC" nebo "50 SEO příležitostí" pro nějaký web, u
 5. **False positives ověřit** — pokud Manticore vrátí nesmyslný výsledek (jiný produkt, jiný rok), ověřit a opravit na NO DUP
 6. **Impression inheritance** — generic single-word query (keynote, iphone) ≠ specifický intent. Pokud specifická query neexistuje v GSC → sloupec GSC = „—“
 7. **Samsung formát** — přehledová tabulka s imp + kliky + pozice pro všech 50, detailní briefs pro top 8, zkráceno pro #9–50
-8. **PDF přes WeasyPrint** — odeslat přes message upload-file
+8. **PDF přes Python + ReportLab** — stabilní default pro ranní plány; nepoužívat k rannímu plánu xelatex/chromium cesty
 
 V6.6 guardrails aplikovat přirozeně (ne jako verbose labels v každém briefu).
 
@@ -671,8 +671,8 @@ Pořád víc než jsem tvrdila ($1.20), ale u Haiku přijatelnější. Důležit
 
 11. **Server routing rule (prenastaveno 22.8.2026)** -- Na Text Factory Discord serveru plati tato pravidla:
    - **Lisa** odpovida na VSECHNY zpravy od vsech uzivatelu ve vsech kanalech, i bez mentionu
-   - **Moula** MLCI a reaguje POUZE kdyz je ve zprave explicitni @MoulaBot mention
-   - **Lisa potrebuje Moulu:** musi ho oznacit @MoulaBot ve sve zprave
+   - **Moula** MLCI a reaguje POUZE kdyz je ve zprave explicitni mention `<@1477633057275117709>`
+   - **Lisa potrebuje Moulu:** musi ho oznacit `<@1477633057275117709>` ve sve zprave
    - **Moula potrebuje Lisu:** oznaci ji ve zprave
    - Plati pro vsechny kanaly: #general, #lisa-a-moula, #android-magazine, #jablickar, #obrazky-seo-analyza, #AI_nastaveni_LISA
 ## ⛔ Manticore endpoint — NATVRDO (přidáno Moulou 25.8.2026)
@@ -762,3 +762,50 @@ Správný výstup = **LSA evergreen SEO 50**:
 - News/leaky typu iPhone 18, keynote, nové produkty, AirPods Pro rumor apod. patří mimo tento report, maximálně jako oddělený current-demand appendix.
 
 Referenční schválený výstup: `reports/lsa_evergreen_seo_50_16m_20260826.pdf`.
+
+
+## Ranní redakční plán — proces a výstupní formát (Moula, 27.8.2026)
+
+### Čas spuštění
+Cron job: 06:00 každý den (Europe/Prague). Cíl: výstup do 07:00.
+
+### Výstupní formát — 3 PDF jako primární deliverable
+Konec každého cyklu = tři oddělená PDF:
+- roman-ranni-plan-lsa-YYYYMMDD.pdf
+- roman-ranni-plan-android-YYYYMMDD.pdf
+- roman-ranni-plan-samsung-YYYYMMDD.pdf
+
+Obsah každého PDF: témata + proč vybráno (data, zdroj, why_now) + action enum.
+Renderer: Python + ReportLab.
+PDF nejsou bonus po ručním potvrzení, ale standardní ranní výstup.
+
+### Schvalovací proces — aktualizace 29.8.2026
+1. Lisa pošle do #redakční-plán textový brief a 3 PDF ve stejném ranním běhu
+2. `Vrstva 1` zůstává jen pro silné live `CREATE now`, typicky 5-8 kusů
+3. `Vrstva 2` tvoří 12-15 ověřených GSC/evergreen témat z datové základny
+4. Chybějící počet do `20+` témat na magazín se doplní z ověřeného `GSC/evergreen defensible poolu`
+5. Pokud `cache/morning_context_latest.md` není z dneška, ranní cyklus se nezastaví; jen vypíše WARNING a pokračuje s live daty
+6. Připomínky od Romana/Toma se zapisují do rejected topics + session learnings a promítají se do dalšího rána
+7. Na konci VŽDY 3 výstupy — ani jeden nesmí chybět
+
+### Duplicate check pravidlo (Roman, 27.8.2026)
+Hard duplicate: stejný intent, existující URL → ven z CREATE
+Soft duplicate: nový angle ale jen o odstavec navíc → ven z CREATE
+Same intent: jiný titulek, stejná potřeba → ven z CREATE
+Pravidlo: Pokud neunese samostatný článek s vlastním příběhem → CREATE ne.
+
+### Morning context update (Tom + Roman potvrdili, 29.8.2026)
+- Pokud `cache/morning_context_latest.md` není z dneška, ranní cyklus se NESMÍ zastavit.
+- Postup: WARNING a pokračovat s live daty.
+
+### Struktura ranního výstupu (Tom + Roman potvrdili, 29.8.2026)
+- Každý magazín má mít vždy minimálně 20 témat.
+- Vrstva 1: 5-8 breaking/fresh `CREATE` z live RSS + web scanu přes noc.
+- Vrstva 2: 12-15 GSC/evergreen témat z ověřené datové základny; typicky high-traffic queries bez pokrytí nebo se zastaralým článkem.
+- Evergreen ze GSC základny je povinný backbone ranního plánu, ne nouzový doplněk.
+- Cíl není 20 čistých breaking news; správný je mix live + evergreen.
+
+### Ranní baseline po kalibraci 29.8.2026
+- Výstup označený Tomem jako obstojný byl dnešní stav po cca `07:30`, kdy se zachovalo ranní live síto a počet se doplnil z ověřeného evergreen/GSC poolu.
+- Pro další rána preferovat stejný model: silné live kusy nahoře, potom datově obhájené evergreen/SEO kusy pro doplnění na `20+` témat na magazín.
+- PDF je primární ranní výstup a má vznikat rovnou se jmény `roman-ranni-plan-[magazin]-YYYYMMDD.pdf`.

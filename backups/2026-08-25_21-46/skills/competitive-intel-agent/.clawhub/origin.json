@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "competitive-intel-agent",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786535639654,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "7f0dead5ab52620c21e3831ded0ed549493886867985d12efd5cd8fe8de19621",
+    "integrity": "sha256-fw3q1atSYgwh44Md7Q7VSUk4hoZ5hdEu/VzY/o3hliE="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "dc6a163f610e1eea041db9be65858afc7702ea23f4484ddce7baa85765eda60b"
+  }
+}

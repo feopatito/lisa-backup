@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "git-workflows",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786540600790,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "27c896f9d2e7006e1911c7a0141ebdf245dfaec6f596b2073e4de5ae98ebe246",
+    "integrity": "sha256-J8iW+dLnAG4ZEcegFB698kXfrsb1lrIHPk3lrpjr4kY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d469d22281d222d3cc7a32ea8dcd35b183aacd714e996918835099895d73c455"
+  }
+}

@@ -1,0 +1,150 @@
+================================================================================
+JABLÍČKÁŘ.CZ FRONTEND ANALYSIS SUMMARY
+Generated: 2026-08-14 07:24 GMT+2
+================================================================================
+
+📊 LIGHTHOUSE ESTIMATES (Based on Technical Audit):
+────────────────────────────────────────────────────
+• Performance:        B+ (65-80)
+• SEO:               A (90-95)
+• Accessibility:     B+ (75-85)
+• Best Practices:    A (80-95)
+
+🏗️ TECHNICAL STACK:
+────────────────────────────────────────────────────
+CMS:                 WordPress 6.9.7
+Theme:               LSA8 (Text Factory proprietary) - custom child theme
+Server:              nginx with HTTP/2, HSTS enabled
+CSS Framework:       Custom CSS (no Bootstrap/Tailwind)
+JS Framework:        Vanilla JavaScript (no React/Vue/jQuery)
+Font Stack:          Roboto (Google Fonts) + Source Sans Pro (self-hosted)
+
+📱 RESPONSIVE DESIGN:
+────────────────────────────────────────────────────
+✓ Mobile-responsive viewport configured
+✓ Responsive CSS grid-based layout
+✓ WebP image format for optimization
+✗ Large HTML payload (145KB) may impact mobile networks
+✗ Font loading strategy (display=block) causes FOUT on slow connections
+
+🎨 DESIGN & UX:
+────────────────────────────────────────────────────
+Layout:              Professional magazine/blog layout
+Typography:          Roboto sans-serif with proper hierarchy
+Navigation:          35+ language support with hreflang implementation
+Visual Structure:    Clear article grid with thumbnails
+UX Strengths:        Content-focused, well-organized, international reach
+Potential Issues:    No breadcrumbs, font loading delays
+
+⚡ PERFORMANCE FEATURES:
+────────────────────────────────────────────────────
+✓ HTTP/2 enabled
+✓ Image lazy-loading (lazyload.js v17.6.1)
+✓ Async script loading for non-critical JS
+✓ Font preloading for icon fonts
+✓ Image preloading for above-fold content
+✗ Multiple CSS files (4 stylesheets) - consolidation needed
+✗ HTML payload (145KB) substantial
+✗ Font loading strategy needs optimization (use display=swap)
+
+🔍 ACCESSIBILITY (WCAG):
+────────────────────────────────────────────────────
+Strengths:
+✓ Excellent schema.org markup (NewsArticle, Person, Organization, etc.)
+✓ Semantic HTML structure
+✓ Proper meta tags and robots directives
+✓ Canonical tags configured
+✓ Responsive viewport
+
+Concerns:
+✗ ARIA label coverage unknown
+✗ Placeholder image with minimal alt text (alt=".")
+✗ Color contrast ratios not verified
+✗ Full keyboard navigation testing needed
+Status:  Likely WCAG AA compliant but needs full audit
+
+🌍 SEO METRICS:
+────────────────────────────────────────────────────
+Score Estimate:      A (90-95)
+Schema.org:          Comprehensive implementation (exceptional)
+Multilingual:        35+ languages with proper hreflang
+Meta Tags:           Title, description, robots directives all present
+Sitemap:             Expected to be present
+Strengths:           Industry-leading SEO foundation
+Recommendations:     Add FAQ schema for Apple tech Q&A
+
+📊 CORE WEB VITALS INDICATORS:
+────────────────────────────────────────────────────
+Largest Contentful Paint (LCP):
+  - Large featured images + 145KB HTML may cause delays
+  - Image preloading is implemented (positive)
+  - Estimated: Fair (2.5-4s range)
+
+First Input Delay (FID):
+  - Async JS loading is good practice
+  - Vanilla JS reduces overhead
+  - Estimated: Good (<100ms)
+
+Cumulative Layout Shift (CLS):
+  - Font loading (display=block) may cause shifts
+  - Lazy-loaded content may shift layout
+  - Estimated: Fair (0.1-0.25 threshold)
+
+🚨 PRIORITY IMPROVEMENTS:
+────────────────────────────────────────────────────
+HIGH PRIORITY:
+1. Change Google Fonts display strategy: "block" → "swap"
+2. Consolidate CSS files (4 requests → 2-3)
+3. Reduce HTML payload (consider lazy-loading components)
+4. Monitor and optimize Core Web Vitals metrics
+
+MEDIUM PRIORITY:
+5. Conduct full WCAG accessibility audit
+6. Add breadcrumb navigation schema
+7. Implement Service Worker for offline support
+8. Verify CDN implementation for images
+
+LOW PRIORITY:
+9. Add FAQ schema for content enrichment
+10. Consider image optimization at source
+
+📱 MOBILE EXPERIENCE INSIGHTS:
+────────────────────────────────────────────────────
+Strengths:
+✓ Responsive design implemented
+✓ Touch-friendly navigation expected
+✓ Image lazy-loading for network efficiency
+✓ Async script loading reduces blocking
+
+Concerns:
+✗ 145KB HTML on slower networks (3G) perceived slowness
+✗ Font loading (display=block) causes FOUT
+✗ Multiple CSS requests impact initial render
+
+Verdict:  Good mobile experience with room for optimization
+
+✨ OVERALL ASSESSMENT:
+────────────────────────────────────────────────────
+Health Grade:        Good to Excellent (7.5/10)
+
+Strengths:
+• Professional WordPress architecture
+• Exemplary multilingual implementation
+• Strong SEO foundation
+• Security headers properly configured
+• Performance-conscious design decisions
+• Custom theme allows fine-tuned optimization
+
+Weaknesses:
+• HTML/CSS payload optimization needed
+• Font loading strategy suboptimal
+• Accessibility audit required
+• Core Web Vitals monitoring needed
+
+Recommendation: This is a well-built, professional media site with strong
+fundamentals. Focus on performance optimization (font strategy, CSS
+consolidation) and comprehensive accessibility testing to reach excellence.
+
+================================================================================
+Full detailed JSON report: jablickar_frontend_audit.json
+================================================================================

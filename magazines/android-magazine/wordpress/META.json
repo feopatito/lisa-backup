@@ -1,0 +1,22 @@
+{
+  "downloaded_at": "2026-08-13T22:11:52.847Z",
+  "site_url": "https://androidmagazine.eu",
+  "totals": {
+    "posts": 11335,
+    "authors": 34,
+    "categories": 16,
+    "tags": 158,
+    "media": 29166,
+    "comments": 2579
+  },
+  "files": [
+    "posts-all-statuses.csv",
+    "authors.csv",
+    "author-post-counts.csv",
+    "categories.csv",
+    "tags.csv",
+    "media.csv",
+    "comments-meta.csv"
+  ],
+  "next_refresh": "Use for baseline tomorrow; API only for new posts since this timestamp"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "email-writer",
+  "installedVersion": "1.0.5",
+  "installedAt": 1786532419887,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "46f93d5464aa2117746b3ae01f3fb987fd4dad73feb73373b9d1a947764f7e4f",
+    "integrity": "sha256-Rvk9VGSqIRd0azrgHz+5h/1NrXP+tzNzudGpR3ZPfk8="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d24f2fd381cb92f7366c4e5c968142306c62d3d28fceae03562dfe865186075b"
+  }
+}

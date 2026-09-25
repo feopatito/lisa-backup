@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "social0",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786598212232,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "e78a3e80563e8a647459b0bc313e3cf8294bcd4b9af999cc816100f4b6255ce6",
+    "integrity": "sha256-54o+gFY+imR0WbC8MT48+ClLzUua+ZnMgWEA9LYlXOY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "bd5eac11bca51d07515659f11d6e95daa60f34be59a045076410324c667ee213"
+  }
+}

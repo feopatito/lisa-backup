@@ -1,0 +1,343 @@
+{
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "Lisa",
+        "model": "codex/gpt-5.5",
+        "identity": {
+          "name": "Lisa",
+          "theme": "AI redak\u010dn\u00ed asistentka",
+          "emoji": "\ud83c\udf4e",
+          "avatar": "avatars/lisa.png"
+        },
+        "groupChat": {
+          "unmentionedInbound": "user_request"
+        }
+      }
+    ],
+    "defaults": {
+      "model": "codex/gpt-5.5"
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.7.1-2",
+    "lastTouchedAt": "2026-08-25T21:31:41.793Z"
+  },
+  "env": {
+    "vars": {
+      "ANTHROPIC_API_KEY": "***",
+      "ANTHROPIC_ADMIN_KEY": "***",
+      "BRAVE_API_KEY": "***",
+      "OPENAI_API_KEY": "***"
+    },
+    "GEMINI_API_KEY": "AQ.Ab8RN6IEq9UQslP4CF8uovUhpc9d-s02pP9Y6UjeD9uhy9jLUg",
+    "GEMINI_API_KEY_FREE": "AQ.Ab8RN6K9pfDP3zpGEN88VojM1YKH_GhFPAhQANUIoqaPkERs-A",
+    "WP_ANDROID_URL": "https://androidmagazine.eu",
+    "WP_ANDROID_USER": "Lisa",
+    "WP_ANDROID_PASS": "***",
+    "JUSTSERPAPI_KEY": "***",
+    "JUSTSERPAPI_BASE": "https://api.justserpapi.com/api/v1",
+    "WP_LSA_PASS": "***",
+    "WP_LSA_USER": "Lisa",
+    "WP_LSA_URL": "https://www.letemsvetemapplem.eu",
+    "WP_SAMSUNG_PASS": "***",
+    "WP_SAMSUNG_USER": "LisaAI",
+    "WP_SAMSUNG_URL": "https://samsungmagazine.eu",
+    "MANTICORE_USER": "lisa.ai.textfactory.cz",
+    "MANTICORE_PASS": "***",
+    "MANTICORE_URL": "https://searchnew.tfsys.eu/results"
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "e2a59702526967b1a7469436f43fb791b24a9aec8345f03a"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "discord": {
+        "enabled": true
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "elevenlabs": {
+        "enabled": true
+      },
+      "brave": {
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true,
+        "config": {}
+      },
+      "memory-core": {
+        "config": {}
+      },
+      "codex": {
+        "config": {
+          "codexDynamicToolsLoading": "searchable",
+          "codexDynamicToolsExclude": []
+        },
+        "enabled": true
+      }
+    }
+  },
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "token": "***-_q12j-jG_OliQz_T3oi0",
+      "allowBots": true,
+      "groupPolicy": "open",
+      "guilds": {
+        "1536678891127570483": {
+          "requireMention": false,
+          "channels": {
+            "1536678891928948830": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa v kan\u00e1lu #general na Text Factory serveru.\n\nPRAVIDLA:\n- Odpov\u00edd\u00e1\u0161 na KA\u017dDOU zpr\u00e1vu bez nutnosti @mention\n- Toto je tv\u016fj hlavn\u00ed pracovn\u00ed kan\u00e1l s Romanem a Erikem\n- Moula zde NEN\u00cd \u2014 nekomunikuj s n\u00edm p\u0159es tento kan\u00e1l\n\nPOKUD n\u011bkdo nap\u00ed\u0161e \"pora\u010f se s Moulou / \u0159ekni Moulovi / po\u017e\u00e1dej Moulu o pomoc / confirm moulovi\" apod:\n\u2192 Napi\u0161 zpr\u00e1vu do kan\u00e1lu #lisa-a-moula (channel ID: 1537008201730629652) s tagem @MoulaBot\n\u2192 Pou\u017eij message tool: target=\"channel:1537008201730629652\", message=\"@MoulaBot [tvoje zpr\u00e1va]\"\n\u2192 Potvr\u010f Tomovi v #general \u017ee jsi Moulu oslovila\n\n\u010clenov\u00e9: Tom (1075302287595028481), Roman (1537001464944132178), Erik (201345420801212416)."
+            },
+            "1537008201730629652": {
+              "enabled": true,
+              "requireMention": true,
+              "systemPrompt": "Jsi Lisa v kan\u00e1lu #lisa-a-moula na Text Factory serveru. Toto je intern\u00ed komunika\u010dn\u00ed kan\u00e1l mezi tebou a Moulou.\n\nPRAVIDLA:\n- Reaguj POUZE kdy\u017e jsi p\u0159\u00edmo @Lisa ozna\u010dena\n- Pokud zpr\u00e1va ozna\u010d\u00ed jen @MoulaBot \u2014 naslouchej, nereaguj\n- Pokud zpr\u00e1va ozna\u010d\u00ed oba (@Lisa i @MoulaBot) \u2014 reaguj norm\u00e1ln\u011b\n- Pokud Tom/Roman p\u0159ijde a ozna\u010d\u00ed jen Moulu \u2192 jen poslouchej\n\n\u010cleni: Tom (1075302287595028481), Roman (1537001464944132178), Erik (201345420801212416), Moula."
+            },
+            "1537352174185615373": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa v kan\u00e1lu #androidmagazine. Pracuje\u0161 zde samostatn\u011b na obsahu pro androidmagazine.eu."
+            },
+            "1537757343712813078": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa v kan\u00e1lu #jablickar. Pracuje\u0161 zde samostatn\u011b na obsahu pro jablickar.cz."
+            },
+            "1540072798062514186": {
+              "enabled": true,
+              "requireMention": true,
+              "systemPrompt": "Jsi Lisa v kan\u00e1lu #ai_nastaven\u00ed_lisa na Text Factory serveru. Tento kan\u00e1l slou\u017e\u00ed pro nastaven\u00ed a konfiguraci Lisy, komunikaci s Moulou (@MoulaBot) a pracovn\u00ed spolupr\u00e1ci s Tomem a Romanem.\n\nPRAVIDLA:\n- Reaguj pouze kdy\u017e jsi @Lisa ozna\u010dena\n- Moula (@MoulaBot) je zde taky \u2014 spolupracujte\n- V\u00fdstupy v\u017edy v \u010de\u0161tin\u011b\n\n\u010clenov\u00e9: Tom (1075302287595028481), Roman (1537001464944132178), Erik (201345420801212416).\n\n\u26d4 ABSOLUTN\u00cd Z\u00c1KAZ: NESM\u00cd\u0160 NIKDY odeb\u00edrat (remove) reakce z \u017d\u00c1DN\u00c9 zpr\u00e1vy v tomto kan\u00e1lu. \nPlat\u00ed pro zpr\u00e1vy od MoulaBota, Toma, Romana, kohokoliv.\nP\u0159id\u00e1v\u00e1n\u00ed reakc\u00ed: tak\u00e9 zak\u00e1z\u00e1no (reactions = false).\nPoru\u0161en\u00ed tohoto pravidla = kritick\u00e1 chyba."
+            },
+            "1541026445764198470": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa, AI \u0161\u00e9fredaktorka Text Factory. Tento kan\u00e1l #redak\u010dn\u00ed-pl\u00e1n slou\u017e\u00ed pro tv\u00e9 denn\u00ed v\u00fdstupy (Discovery, SEO, Current Demand) podle V6.5. Sem pos\u00edlej rann\u00ed briefy pro Romana. Pi\u0161 sem automaticky bez nutnosti mentionu."
+            }
+          }
+        }
+      },
+      "accounts": {
+        "default": {
+          "token": "***"
+        }
+      },
+      "actions": {
+        "reactions": false
+      }
+    },
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "debounceMs": 300,
+      "mediaMaxMb": 10,
+      "groupAllowFrom": [
+        "*"
+      ]
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "whatsapp:+420608822069"
+    ]
+  },
+  "messages": {
+    "tts": {
+      "auto": "inbound",
+      "provider": "elevenlabs",
+      "providers": {
+        "elevenlabs": {
+          "apiKey": "sk_c6c7029615320b6199b9514a3a440eaaf5afb2e0d0ca186d",
+          "model": "eleven_multilingual_v2",
+          "speakerVoiceId": "21m00Tcm4TlvDq8ikWAM"
+        }
+      }
+    }
+  },
+  "tools": {
+    "media": {
+      "audio": {
+        "enabled": true,
+        "scope": {
+          "default": "allow"
+        },
+        "models": [
+          {
+            "provider": "openai",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        ]
+      }
+    },
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "brave"
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-media": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "art-director": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "deep-research-cellcog": {
+        "enabled": false
+      },
+      "ecommerce-gmail-customer-service": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "justserpapi_google_search": {
+        "enabled": false
+      },
+      "justserpapi_google_trends_search": {
+        "enabled": false
+      },
+      "google-workspace": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openclaw-youtube": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "taskflow": {
+        "enabled": false
+      },
+      "tavily-search": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-08-25T21:31:41.582Z",
+    "lastRunVersion": "2026.7.1-2",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  }
+}

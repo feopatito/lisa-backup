@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "crawl4ai-skill",
+  "installedVersion": "1.0.10",
+  "installedAt": 1786535876629,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "354e0186db8eddf04f1fc725e19ca73ae1032663945396c2225cd83fed0bdeac",
+    "integrity": "sha256-NU4BhtuO3fBPH8cl4ZynOuEDJmOUU5bCIlzYP+0L3qw="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "a926ed2c033de82e29d2269e5bb795c717842d5420340f3f71e318fec309ad0c"
+  }
+}

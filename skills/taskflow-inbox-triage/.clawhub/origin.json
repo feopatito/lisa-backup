@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "taskflow-inbox-triage",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786532307243,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "39aa6730b4529218339bdf1c02e3506b9f126473d9d23c8dfa38134b300f8113",
+    "integrity": "sha256-OapnMLRSkhgzm98cAuNQa58SZHPZ0jyN+jgTSzAPgRM="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "88ece750e25d49414842de5355f23b1c9f0d9ff83e7d95beea3d87901d8e1963"
+  }
+}

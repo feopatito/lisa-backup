@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "model-switcher",
+  "installedVersion": "1.0.2",
+  "installedAt": 1786524978680,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "dbd14de6f029ad9a7fd46274ef0e2e43ccd1790dbb0ad72a5dddb8a38935ae76",
+    "integrity": "sha256-29FN5vAprZp/1GJ07w4uQ8zReQ27CtcqXd24o4k1rnY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "5ba77c616d4ff7fb232d735b2a6d3dcfe493308de9e4df3d573c8cb96877847d"
+  }
+}

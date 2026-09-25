@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "perplexity-research",
+  "installedVersion": "2.0.0",
+  "installedAt": 1786598212585,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "74e580949d007b5cbdd3f2bc2b22292681feeaf1089258608dc1f9a3bc1cacf9",
+    "integrity": "sha256-dOWAlJ0Ae1y90/K8KyIpJoH+6vEIklhgjcH5o7wcrPk="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "5188e36b778a2c74203f5b25ad0983d86191c92c235aadb240d780e861701d95"
+  }
+}

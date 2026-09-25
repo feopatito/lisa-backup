@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "wordpress",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535570690,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "f59622118007706d951c13c431cb44c3b6096205f040bca213208e195eaca738",
+    "integrity": "sha256-9ZYiEYAHcG2VHBPEMctEw7YJYgXwQLyiEyCOGV6spzg="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "afa5c7d90de454030f15d3fbcc7cfca701d62f986242d9f2e6d8acd7222ff202"
+  }
+}

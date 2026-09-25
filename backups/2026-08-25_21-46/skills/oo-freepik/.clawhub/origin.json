@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "oo-freepik",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786524949338,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "73b239bd9bb592060ee4fefd27a45f7fa86f061c7028a54872184d55f8af8c46",
+    "integrity": "sha256-c7I5vZu1kgYO5P79J6Rff6hvBhxwKKVIchhNVfivjEY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "9f13aa6e5abe616c36223a2dc5358c4da079a40f4517709b6ab878911d8433f1"
+  }
+}

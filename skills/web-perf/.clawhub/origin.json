@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "web-perf",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786569217250,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "8e0255e758fc075103910cdc462d14c7fa1f8740a4ea667ebba01a983db07186",
+    "integrity": "sha256-jgJV51j8B1EDkQzcRi0Ux/ofh0Ck6mZ+u6AamD2wcYY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "dbb0e6ab3e3565cf49de6b2c3bcd62339aafebb099514ec3c86771a096cd920b"
+  }
+}

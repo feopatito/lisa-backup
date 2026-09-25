@@ -1,0 +1,9 @@
+{
+  "total_requested": 1000,
+  "downloaded": 999,
+  "ready_for_analysis": 999,
+  "download_dir": "/Users/lisa/.openclaw/workspace/media-analysis-1000",
+  "manifest": "/Users/lisa/.openclaw/workspace/media-analysis-1000/manifest.csv",
+  "timestamp": "2026-08-15T19:30:29.575296",
+  "next_step": "vision_analysis_per_image"
+}

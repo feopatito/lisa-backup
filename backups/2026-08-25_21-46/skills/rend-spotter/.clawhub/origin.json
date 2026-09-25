@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "rend-spotter",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786598600091,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "2097abeb54c3f75ba1267a3c4fbb578d9f573d6ba99cdc23ecafd9e5fed3133f",
+    "integrity": "sha256-IJer61TD91uhJno8T7tXjZ9XPWupnNwj7K/Z5f7TEz8="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "e0c26804f883833a31332f2f4e6f62461e9deef5c6f809bba9a78ce2cb38ae9e"
+  }
+}

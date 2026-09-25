@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "oracle",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786525032825,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "aaf624f3939b764a1d7c8534cd1c5051f2654feb0814162e40bc0025a06b7e4f",
+    "integrity": "sha256-qvYk85ObdkodfIU0zRxQUfJlT+sIFBYuQLwAJaBrfk8="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "183045d445482c95a1f4b81d87650bc9438ebf396cc8a92f05f9222f41c9efc6"
+  }
+}

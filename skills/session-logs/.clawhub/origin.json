@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "session-logs",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786524992442,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "6a57c3877be636e9c3d2b6de0d91ce1a2de9392bedfaf0513215f9fec2e7aa05",
+    "integrity": "sha256-alfDh3vmNunD0rbeDZHOGi3pOSvt+vBRMhX5/sLnqgU="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "f87582f99fee9009249bd66cedd6d227303b6fbe25ac55a0cb756c81eb808187"
+  }
+}

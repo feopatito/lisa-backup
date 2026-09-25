@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "justserpapi-google-search",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535682778,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "34dcea4282c251b7eeacdf505f58927bfaa76e1832adac32b74aef736ce88ce8",
+    "integrity": "sha256-NNzqQoLCUbfurN9QX1iSe/qnbhgyrawyt0rvc2zojOg="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "55d38a43b16aa9032da212cb59f82c75e3fbc0f32d653a6cd0b506fb5382ab5c"
+  }
+}

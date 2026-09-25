@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "auto-trading-strategy",
+  "installedVersion": "1.1.0",
+  "installedAt": 1786532405700,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "424a98a7121db4f6abb6ccd63334d8ab7874c045ddf252abba5d8230dcc3a78f",
+    "integrity": "sha256-QkqYpxIdtPartszWMzTYq3h0wEXd8lKrul2CMNzDp48="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "eb8226c566aecb89d29971cfab65ce69589b6a00aeb82ac1c040e643b844c147"
+  }
+}

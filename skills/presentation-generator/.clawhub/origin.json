@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "presentation-generator",
+  "installedVersion": "1.32.2",
+  "installedAt": 1786540660703,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "2dfa88304bed365d0ef6dd5790e4c7c3d64dc077209b8ae0deecb0bd5bb44739",
+    "integrity": "sha256-LfqIMEvtNl0O9t1XkOTHw9ZNwHcgm4rg3uywvVu0Rzk="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "8220839158e0b827024d341a97ea9d5da0c8f0bf43247ddb63b47a47537ad08a"
+  }
+}

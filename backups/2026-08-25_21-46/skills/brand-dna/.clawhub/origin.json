@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "brand-dna",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786532237641,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "02a99d932dde68fcde497db7b9717f7731e8cbb182dc47bcb253af0c70d9dc7f",
+    "integrity": "sha256-Aqmdky3eaPzeSX23uXF/dzHoy7GC3Ee8slOvDHDZ3H8="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "b1f5151aadc172761ee2b24e49d0070e9f9021e90f03eede1189f6bee88e5461"
+  }
+}

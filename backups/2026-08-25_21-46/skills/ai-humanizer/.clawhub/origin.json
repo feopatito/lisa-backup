@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "ai-humanizer",
+  "installedVersion": "2.1.0",
+  "installedAt": 1786598398010,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "aab85740da6b685725c654756072f8ba11ef7df87cfcc9e53de7b7bb0377c102",
+    "integrity": "sha256-qrhXQNpraFclxlR1YHL4uhHvffh8/MnlPee3uwN3wQI="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "b152c9276cebcd8dfdd6882183a0f27d8687ddcb48ef4e287f12ba2efe4a0aca"
+  }
+}

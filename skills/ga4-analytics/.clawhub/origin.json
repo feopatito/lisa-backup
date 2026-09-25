@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "ga4-analytics",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535953953,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "1ed1eb204312c40d584f785c89ab44c0c494e124a0a4b89f341dd26e5d436622",
+    "integrity": "sha256-HtHrIEMSxA1YT3hciatEwMSU4SSgpLifNB3Sbl1DZiI="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "aa175e6e19a236837250a1fcbe75b2c28f2d08c67e084478df1723585d1ab08b"
+  }
+}

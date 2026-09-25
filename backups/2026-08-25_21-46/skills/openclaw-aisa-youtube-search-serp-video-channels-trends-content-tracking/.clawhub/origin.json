@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "openclaw-aisa-youtube-search-serp-video-channels-trends-content-tracking",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786598229501,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "b5103d99b78b6b89deeb606a0fe658285fb10a18e1f39392af0be5ad0a6c359b",
+    "integrity": "sha256-tRA9mbeLa4ne62BqD+ZYKF+xChjh85OSrwvlrQpsNZs="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "1940499994070bef1b0e6d1192936ddda43bed4376ce8f8000d91fe3e7082a74"
+  }
+}

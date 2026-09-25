@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "google-analytics-cli",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786568344043,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "77a561f72db4bb477e4d0a0e0dae4ca88d119a0533c4dcfae819e1383584896e",
+    "integrity": "sha256-d6Vh9y20u0d+TQoODa5MqI0RmgUzxNz66BnhODWEiW4="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d186f237bc4c35cba59602048d5b64df9ac558c37345c8ca3bcada0be70cf86d"
+  }
+}

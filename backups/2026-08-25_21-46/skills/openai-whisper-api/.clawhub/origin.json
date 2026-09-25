@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "openai-whisper-api",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786524908843,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "6faddfc8795c01826f9e283f41273fea5b156d46c8da5d427cc7f52635b789fb",
+    "integrity": "sha256-b63fyHlcAYJvnig/QSc/6lsVbUbI2l1CfMf1JjW3ifs="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "4cd90ed4d059a385948ffbf2896764a7db66dfbd06010d699b269e89e3f586be"
+  }
+}

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android Magazine — Ranní redakční plán 29.8.2026</title>
+  <style>
+@page {
+  size: A4;
+  margin: 18mm 15mm 20mm 15mm;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.55;
+  color: #1a1a1a;
+  background: white;
+}
+
+/* Cover header */
+.cover {
+  background: linear-gradient(135deg, #1d72b8 0%, #0e4d88 100%);
+  color: white;
+  padding: 28px 24px 22px 24px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+.cover h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+  color: white;
+  border: none;
+}
+.cover .subtitle {
+  font-size: 11pt;
+  opacity: 0.88;
+  margin: 4px 0 0 0;
+}
+.cover .meta {
+  font-size: 9pt;
+  opacity: 0.72;
+  margin-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: 700;
+  color: #0a0a0a;
+  border-bottom: 3px solid #1d72b8;
+  padding-bottom: 6px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: #1d72b8;
+  border-left: 4px solid #1d72b8;
+  padding-left: 10px;
+  margin-top: 22px;
+  margin-bottom: 6px;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+p { margin: 4px 0 7px 0; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 14px 0;
+  font-size: 8.5pt;
+  page-break-inside: auto;
+}
+
+thead tr {
+  background-color: #1d72b8;
+  color: white;
+}
+
+thead th {
+  padding: 6px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 8.5pt;
+}
+
+tbody tr:nth-child(even) { background-color: #f2f7fd; }
+tbody tr:nth-child(odd)  { background-color: #ffffff; }
+
+tbody td {
+  padding: 5px 8px;
+  border-bottom: 1px solid #dde8f5;
+  vertical-align: top;
+  font-size: 8.5pt;
+}
+
+/* Code / brief cards */
+pre {
+  background: #f5f8fc;
+  border: 1px solid #c8d8ea;
+  border-left: 5px solid #1d72b8;
+  padding: 10px 13px;
+  font-size: 8pt;
+  font-family: 'Courier New', 'Lucida Console', monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  page-break-inside: avoid;
+  margin: 8px 0 14px 0;
+  border-radius: 3px;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 8.5pt;
+  background: #eaf0fa;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d8e4f0;
+  margin: 14px 0;
+}
+
+ul, ol {
+  margin: 4px 0 8px 0;
+  padding-left: 18px;
+}
+li { margin-bottom: 3px; font-size: 10pt; }
+
+blockquote {
+  background: #fff9e6;
+  border-left: 4px solid #f5a623;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 9.5pt;
+  border-radius: 0 3px 3px 0;
+}
+
+strong { font-weight: 700; }
+
+/* Source coverage audit section */
+.audit {
+  background: #f9fafb;
+  border: 1px solid #dde4ec;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 9pt;
+  margin-top: 16px;
+}
+
+/* Page break helpers */
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+  
+    <div class="cover">
+      <h1>Android Magazine — Ranní redakční plán 29.8.2026</h1>
+      <div class="subtitle">androidmagazine.eu  |  Android + Google/Pixel  |  rerun po live DATA GATE</div>
+      <div class="meta">Lisa V6.5  •  29. srpna 2026  •  Text Factory  •  interní redakční materiál</div>
+    </div>
+    
+  <h1>Android Magazine — Ranní redakční plán 29.8.2026</h1>
+<p>Web: androidmagazine.eu<br />
+Datum: 29. 8. 2026<br />
+DATA GATE: PASS | live GSC + GA4 + Manticore ověřeno 29.8.2026 07:20 CEST<br />
+Zdroj doplnění do počtu: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code></p>
+<p>Rerun zachovává původní síto: live current-demand scan -&gt; duplicate / intent overlap / reality check -&gt; při nedostatku čistých CREATE doplnění z ověřeného GSC evergreen poolu se SERP filtrem.</p>
+<h2>Vrstva 1 — 20 silných ověřených témat</h2>
+<h3>1. Android 17 QPR2 Beta 4</h3>
+<ul>
+<li>Action: <code>CREATE</code></li>
+<li>Lane: <code>Current Demand / Beta rollout</code></li>
+<li>Proč teď: Rollout i soupis novinek spadly mezi 23:53 a 01:10 CEST přímo do ranního okna.</li>
+<li>Hard evidence: 9to5Google: Android 17 QPR2 Beta 4 rolling out with many Pixel bug fixes + Here’s everything new in Android 17 QPR2 Beta 4</li>
+<li>Zdroj: Live ranní scan 29.8.2026</li>
+<li>Target URL: NEW URL</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>2. Gemini Notebook mění usage limity</h3>
+<ul>
+<li>Action: <code>CREATE</code></li>
+<li>Lane: <code>Current Demand / Product change</code></li>
+<li>Proč teď: Oficiální Google Blog vyšel 28. 8. v 19:00 CEST a následně se rozjela sekundární coverage.</li>
+<li>Hard evidence: Google Blog: We’re introducing flexible usage limits for Gemini Notebook.</li>
+<li>Zdroj: Live ranní scan 29.8.2026</li>
+<li>Target URL: NEW URL</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>3. Stažené soubory v Androidu: kde jsou, proč nejdou najít a jak je otevřít podle aplikace</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>82 091</code> impresemi za 16 měsíců, průměrnou pozicí <code>6.4</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>MEDIUM</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/07/02/jak-najit-stazene-soubory-na-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>4. Smazané soubory v Androidu: reálné možnosti obnovy bez falešných slibů</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>8 370</code> impresemi za 16 měsíců, průměrnou pozicí <code>10.5</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/01/jak-a-kdy-obnovit-android-zarizeni-do-tovarniho-nastaveni/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>5. ChatGPT nefunguje: co zkusit v telefonu</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>4 737</code> impresemi za 16 měsíců, průměrnou pozicí <code>4.8</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/11/10/co-delat-kdyz-vam-nefunguje-chatgpt-rychly-prehled-reseni/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>6. Pomalý Android telefon: co opravdu zrychlí systém a co jsou jen mýty</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>3 178</code> impresemi za 16 měsíců, průměrnou pozicí <code>5.1</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/13/10-tipu-jak-zrychlit-android-telefon-a-zlepsit-jeho-vykon/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>7. Kde najdu odinstalované nebo smazané aplikace</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>2 723</code> impresemi za 16 měsíců, průměrnou pozicí <code>6.7</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/04/jak-obnovit-smazane-aplikace-na-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>8. Tovární nastavení Androidu bez ztráty dat: záloha, Google účet a FRP lock</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>4 715</code> impresemi za 16 měsíců, průměrnou pozicí <code>12.4</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/01/jak-a-kdy-obnovit-android-zarizeni-do-tovarniho-nastaveni/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>9. Vrácení peněz v Google Play: kdy refund projde, lhůty a rozdíl aplikace vs předplatné</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>2 275</code> impresemi za 16 měsíců, průměrnou pozicí <code>6.2</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/12/jak-podat-zadost-o-vraceni-penez-z-obchodu-google-play/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>10. Mezipaměť v Androidu: kdy ji mazat, kdy ne a proč to někdy smaže nastavení aplikace</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>2 450</code> impresemi za 16 měsíců, průměrnou pozicí <code>7.1</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/01/jak-vymazat-mezipamet-aplikaci-na-androidu-a-kdy-se-to-vyplati/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>11. Smazané fotky v Androidu: koš, Google Fotky, galerie výrobce a kdy už je pozdě</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>10 447</code> impresemi za 16 měsíců, průměrnou pozicí <code>15.7</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2025/02/18/jak-obnovit-smazane-soubory-a-fotky-v-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>12. Obchod Play zmizel nebo nejde nainstalovat: bezpečná obnova bez rizikových APK</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>2 792</code> impresemi za 16 měsíců, průměrnou pozicí <code>11.0</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/23/jak-instalovat-aplikace-na-android-mimo-google-play/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>13. Google Zprávy: nastavení, RCS a problémy</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>2 949</code> impresemi za 16 měsíců, průměrnou pozicí <code>9.4</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2025/12/07/4-prehlizene-funkce-zprav-google-ktere-vam-kazdy-den-usetri-spoustu-casu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>14. Nahrávání hovorů na Androidu: co dovolí Google Telefon, Samsung a česká pravidla</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>1 783</code> impresemi za 16 měsíců, průměrnou pozicí <code>10.9</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/16/jak-nahrat-hovor-na-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>15. Jde vrátit aktualizaci Androidu? Co je bezpečné a kdy hrozí ztráta dat</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>403</code> impresemi za 16 měsíců, průměrnou pozicí <code>4.4</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/15/jak-se-vratit-na-starsi-verzi-jakekoliv-aplikace-na-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>16. Jak zjistit stav baterie telefonu Android</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>351</code> impresemi za 16 měsíců, průměrnou pozicí <code>9.0</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/19/zjistete-stav-baterie-na-androidu-jak-na-to-jednoduse-a-efektivne/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>17. Family Link v Androidu: nastavení dítěte, limity a co dělat, když rodičovská kontrola zlobí</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>825</code> impresemi za 16 měsíců, průměrnou pozicí <code>26.9</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/25/jak-nastavit-rodicovskou-kontrolu-na-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>18. NFC v Androidu: platby, tagy, automatizace a bezpečnostní nastavení</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>466</code> impresemi za 16 měsíců, průměrnou pozicí <code>28.3</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>LOW</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/11/02/pokrocile-vyuziti-nfc-tagu-pro-automatizaci-na-androidu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>19. Android Auto po aktualizaci nefunguje: update, kabel, cache a návrat funkčnosti</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>2 180</code> impresemi za 16 měsíců, průměrnou pozicí <code>3.7</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>MEDIUM</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/22/jak-a-proc-aktualizovat-android-auto/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h3>20. Bezdrátové Android Auto nejde připojit: podmínky, první párování a adaptéry</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Lane: <code>SEO / evergreen opportunity</code></li>
+<li>Proč teď: ověřený GSC intent s <code>786</code> impresemi za 16 měsíců, průměrnou pozicí <code>10.6</code>, SERP šancí <code>HIGH</code> a AI/zero-click rizikem <code>MEDIUM</code>.</li>
+<li>Hard evidence: <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> (26.8.2026)</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/28/bezdratove-android-auto-pohodlne-propojeni-bez-kabelu/</li>
+<li>FINAL_WRITE_GATE: <code>PASS</code></li>
+</ul>
+<h2>Vrstva 2 — Doplňující témata do počtu 30</h2>
+<h3>1. Google Home v Androidu: párování zařízení, členové domácnosti a opravy chyb</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>2 598</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2025/12/01/chcete-aby-na-vas-doma-promlouvala-gemini-tenhle-trik-pro-google-home-vam-to-umozni/</li>
+</ul>
+<h3>2. Rozdělení obrazovky v Androidu</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>1 386</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/18/jak-rozdelit-obrazovku-na-androidu/</li>
+</ul>
+<h3>3. Optimalizace baterie v Androidu: jak neodstřelit notifikace a přitom prodloužit výdrž</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>930</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/25/jak-optimalizovat-baterii-na-starsich-android-zarizenich/</li>
+</ul>
+<h3>4. Google Kalendář v Androidu: nastavení a synchronizace</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>1 364</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2025/12/07/4-skryte-funkce-kalendare-google-ktere-pomohou-zlepsit-planovani-a-zabrani-chaosu/</li>
+</ul>
+<h3>5. Kde bezpečně stahovat aplikace pro Android zdarma</h3>
+<ul>
+<li>Action: <code>REWRITE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>663</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2020/04/01/jak-instalovat-aplikace-mimo-obchod-google-play/</li>
+</ul>
+<h3>6. Jak přesunout aplikace na SD kartu</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>541</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/17/jak-presunout-aplikace-z-androidu-na-sd-kartu/</li>
+</ul>
+<h3>7. Aktualizace Androidu nejde nainstalovat: proč ji telefon nenabízí a co s tím</h3>
+<ul>
+<li>Action: <code>CREATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>2 651</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: NEW URL / potřeba nový target po schválení</li>
+</ul>
+<h3>8. Přenos eSIM do nového Androidu: operátor, QR kód, dual SIM a nejčastější chyby</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>534</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/05/06/jak-presunout-esim-mezi-android-telefony/</li>
+</ul>
+<h3>9. Jak skrýt aplikace v Androidu</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>263</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/20/jak-skryt-aplikace-na-androidu-prakticke-tipy-a-triky/</li>
+</ul>
+<h3>10. Úložiště Androidu je plné: co smazat bezpečně a co nechat být</h3>
+<ul>
+<li>Action: <code>UPDATE</code></li>
+<li>Proč je tady: doplňující ověřený cluster z <code>android_evergreen_serp_defensible_50_16m_20260826.md</code> se SERP šancí <code>MEDIUM</code> a GSC evidencí <code>157</code> impresí.</li>
+<li>Zdroj: GSC CZ 16m + SERP defensibility filtr</li>
+<li>Target URL: /2024/10/12/jak-uvolnit-uloziste-na-androidu-prakticke-tipy-pro-vice-mista/</li>
+</ul>
+<h2>Source Coverage Audit</h2>
+<ul>
+<li>WordPress/Manticore: CHECKED live</li>
+<li>GSC: CHECKED live</li>
+<li>GA4: CHECKED live</li>
+<li>Google Trends: CHECKED via <code>pytrends</code> fallback v ranním běhu</li>
+<li>Google News / major tech media: CHECKED v ranním běhu</li>
+<li>Evergreen evidence layer: CHECKED přes <code>android_evergreen_serp_defensible_50_16m_20260826.md</code></li>
+<li>Reddit: částečný fallback / bez kritického vlivu na tento rerun</li>
+</ul>
+<h2>Poznámka</h2>
+<p>Tento rerun drží kvalitu: ranní live CREATE vrstva zůstala omezená, proto je zbytek portfolia doplněn pouze ověřenými GSC příležitostmi místo slabých nebo duplicitních news slotů.</p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "scrapling",
+  "installedVersion": "1.0.8",
+  "installedAt": 1786535968825,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "666bd3541e117c3b8f0b9e7ba8ea82f3446f7de7df90071fb61f3d8717ba0030",
+    "integrity": "sha256-ZmvTVB4RfDuPC557qOqC80RvfeffkAcfth89hxe6ADA="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "d01d5d4799922c9632e16887d563b508aefd8fc376c55f73092d78f9a8df8a00"
+  }
+}

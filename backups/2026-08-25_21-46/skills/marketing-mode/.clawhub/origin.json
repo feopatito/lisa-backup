@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "marketing-mode",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786568324279,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "641c784114bdc7e1ed86f2bcc1768c45ede1e38b37c81bc685881a941a1b3ce7",
+    "integrity": "sha256-ZBx4QRS9x+HthvK8wXaMRe3h44s3yBvGhYgalBobPOc="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "27f1838f183c95938df215d17ddc784c0a8a07185882061774421c94a5b85f7e"
+  }
+}

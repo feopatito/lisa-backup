@@ -2,10 +2,12 @@
 # Lisa Pre-flight Check — spustit PŘED každým ranním cyklem
 # Verze: 1.0 — přidáno Moulou 25.8.2026
 
-DISCORD_TOKEN=$(cat ~/.openclaw/openclaw.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('channels',{}).get('discord',{}).get('token',''))" 2>/dev/null)
+PYTHON_BIN="${HOME}/.openclaw/workspace/scripts/lisa_python.sh"
+
+DISCORD_TOKEN=$(cat ~/.openclaw/openclaw.json | "$PYTHON_BIN" -c "import json,sys; d=json.load(sys.stdin); print(d.get('channels',{}).get('discord',{}).get('token',''))" 2>/dev/null)
 CHANNEL_ID="1536678891928948830"
 MANTICORE_URL="https://searchnew.tfsys.eu/results"
-MANTICORE_PASS=$(cat ~/.openclaw/openclaw.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('env',{}).get('MANTICORE_PASS',''))" 2>/dev/null)
+MANTICORE_PASS=$(cat ~/.openclaw/openclaw.json | "$PYTHON_BIN" -c "import json,sys; d=json.load(sys.stdin); print(d.get('env',{}).get('MANTICORE_PASS',''))" 2>/dev/null)
 
 PASS=true
 REPORT=""

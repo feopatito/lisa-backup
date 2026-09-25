@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "ai-data-analysis",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786597833547,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "dea084157b94816796fbc38acbf93d485335fc4fe3f2c47a42dcc1b9164cb08d",
+    "integrity": "sha256-3qCEFXuUgWeW+8OKy/k9SFM1/E/j8sR6QtzBuRZMsI0="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "2cb3a7637a1cfa57fb6d0b34172203d96bf4bc8c02899c146c831ae372bf68bb"
+  }
+}

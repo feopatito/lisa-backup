@@ -1,0 +1,173 @@
+/* Lisa V6.5 — Redakční plán PDF styl */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@page {
+  size: A4;
+  margin: 18mm 15mm 18mm 15mm;
+  @top-center {
+    content: string(doc-title);
+    font-size: 9pt;
+    color: #888;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font-size: 8pt;
+    color: #aaa;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  @bottom-left {
+    content: "Lisa V6.5 | Text Factory | Důvěrné";
+    font-size: 8pt;
+    color: #ccc;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: white;
+}
+
+h1 {
+  string-set: doc-title content();
+  font-size: 20pt;
+  font-weight: 700;
+  color: #0a0a0a;
+  border-bottom: 3px solid #1d72b8;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+  page-break-before: avoid;
+}
+
+h2 {
+  font-size: 13pt;
+  font-weight: 700;
+  color: #1d72b8;
+  border-left: 4px solid #1d72b8;
+  padding-left: 10px;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+p { margin: 4px 0 8px 0; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 16px 0;
+  font-size: 9pt;
+  page-break-inside: auto;
+}
+
+thead tr {
+  background: #1d72b8;
+  color: white;
+}
+
+thead th {
+  padding: 6px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 9pt;
+}
+
+tbody tr:nth-child(even) {
+  background: #f4f8fd;
+}
+
+tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+tbody td {
+  padding: 5px 8px;
+  border-bottom: 1px solid #e0e8f0;
+  vertical-align: top;
+}
+
+/* Code blocks — brief cards */
+pre {
+  background: #f7f9fc;
+  border: 1px solid #d0dcea;
+  border-left: 4px solid #1d72b8;
+  padding: 10px 12px;
+  font-size: 8.5pt;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  page-break-inside: avoid;
+  margin: 8px 0 12px 0;
+  border-radius: 3px;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 8.5pt;
+  background: #eef3fa;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+/* Horizontal rule = section divider */
+hr {
+  border: none;
+  border-top: 1px solid #dde5f0;
+  margin: 14px 0;
+}
+
+/* Lists */
+ul, ol {
+  margin: 4px 0 8px 0;
+  padding-left: 18px;
+}
+li { margin-bottom: 3px; }
+
+/* Blockquotes — highlight boxes */
+blockquote {
+  background: #fff8e1;
+  border-left: 4px solid #f5a623;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 9.5pt;
+}
+
+/* Strong */
+strong { color: #0a0a0a; font-weight: 700; }
+
+/* GATE badges via em styling */
+em { font-style: normal; }
+
+/* Page break before each major candidate */
+h2.candidate-break { page-break-before: always; }
+
+/* Cover / header area */
+.cover-header {
+  background: #1d72b8;
+  color: white;
+  padding: 16px 20px;
+  margin: -10px -10px 20px -10px;
+  border-radius: 4px;
+}

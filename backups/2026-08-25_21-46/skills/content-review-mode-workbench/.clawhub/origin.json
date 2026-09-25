@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "content-review-mode-workbench",
+  "installedVersion": "1.0.4",
+  "installedAt": 1786569104240,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "d3089830f37695288448315a1990b96a6af14eb2ea70a039541bd8d74e24f368",
+    "integrity": "sha256-0wiYMPN2lSiESDFaGZC5amrxTrLqcKA5VBvY104k82g="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "598c26e4c9fb75ce5bfcecf3875a8e19a74ed834abe0dead1d6f82c408cd2194"
+  }
+}

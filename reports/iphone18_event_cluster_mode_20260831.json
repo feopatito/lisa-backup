@@ -1,0 +1,874 @@
+{
+  "meta": {
+    "site": "letemsvetemapplem.eu",
+    "entity": "iPhone 18",
+    "event": "Apple keynote / představení iPhone 18",
+    "event_date": "2026-09-09",
+    "primary_window": "2026-08-31 až 2026-09-16",
+    "secondary_window": "2026-09-17 až 2026-10-24",
+    "current_gsc_period": "2026-08-01 až 2026-08-30",
+    "historical_limit_note": "GSC historicky dovoluje max. 16 měsíců, takže plný prelaunch iPhone 16 a iPhone 15 není dostupný. Hlavní analog je iPhone 17 a pro Ultra/Air vstupuje i iPhone Air."
+  },
+  "executive_summary": {
+    "strong_opportunities": 6,
+    "create": 0,
+    "update": 3,
+    "merge": 3,
+    "keep": 0,
+    "estimated_base_incremental_clicks": 6536,
+    "top_3_actions_now": [
+      "Sloučit generic iPhone 18 intent do jednoho hlavního hubu a přestat ho rozbíjet mezi rumor články.",
+      "Přepsat a sjednotit date / release / preorder intent, protože právě tam teď Google střídá více částečně chybných URL.",
+      "U price a Ultra hubu dotáhnout referenční landing pages dřív, než přijde keynote peak."
+    ],
+    "biggest_blocker": "Největší brzda clusteru není malá poptávka, ale roztříštěná URL mapa. LSA má search demand, ale zbytečně ji tříští do mnoha leak článků místo několika cílových stránek."
+  },
+  "top_opportunities": [
+    {
+      "intent": "iPhone 18 / Pro / Pro Max overview hub",
+      "id": "generic_hub",
+      "user_job": "Uživatel chce na jednom místě rychle zjistit, co o celé řadě iPhone 18 už víme a na co se zaměřit před keynote.",
+      "action": "MERGE",
+      "target_url": "https://www.letemsvetemapplem.eu/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/",
+      "suggested_title": "iPhone 18: co víme o celé řadě, jaké modely přijdou a co čekat od keynote",
+      "suggested_h1": "iPhone 18: co víme o celé řadě, modelech Pro, Pro Max a Ultra",
+      "content_gap": "Zastavit rozptyl mezi desítkami rumor URL a přepsat cílovou stránku do role hlavního přehledu: modely, nejjistější novinky, co je potvrzené vs. leak, interní rozcestník na cenu, datum, barvy a Ultra.",
+      "internal_links": [
+        "/2026/07/27/iphone-18-pro-cena-2026/",
+        "/2026/08/26/iphone-18-pro-date/",
+        "/2026/08/06/iphone-ultra-specifikace-cena-a-vse-ostatni-co-potrebujete-vedet/"
+      ],
+      "deadline": "NOW",
+      "why_now": "Je to největší search bucket v clusteru a zároveň největší chaos v URL mapě. Každý další leak teď dál ředí signály. Konsolidace má smysl ještě před hlavní eventovou špičkou.",
+      "risk": "cannibalization",
+      "confidence": "HIGH",
+      "diagnosis": "CANNIBALIZATION RISK",
+      "current_period": "2026-08-01 až 2026-08-30",
+      "current_impressions": 199013,
+      "current_clicks": 20946,
+      "current_ctr": 0.1052494058177104,
+      "weighted_position": 2.4046871309914426,
+      "trend_7_14_28": {
+        "7d": {
+          "impressions": 42329,
+          "clicks": 5962
+        },
+        "14d": {
+          "impressions": 83380,
+          "clicks": 9675
+        },
+        "28d": {
+          "impressions": 143596,
+          "clicks": 19486
+        }
+      },
+      "historical_analog": {
+        "impressions": 287586,
+        "clicks": 20866,
+        "peak_day": "2025-09-09",
+        "peak_impressions": 77356
+      },
+      "existing_urls": [
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/",
+          "impressions": 31432,
+          "clicks": 4933,
+          "share": 15.8
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/26/iphone-18-pro-date/",
+          "impressions": 21343,
+          "clicks": 3968,
+          "share": 10.7
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/21/apple-pristi-mesic-nepredstavi-iphone-18-ale/",
+          "impressions": 19712,
+          "clicks": 1383,
+          "share": 9.9
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/01/iphone-18-pro-muze-byt-nejvetsi-upgrade-za-roky-tohle-jsou-vsechny-duvody/",
+          "impressions": 18419,
+          "clicks": 2254,
+          "share": 9.3
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/14/apple-letos-udela-s-iphone-neco-co-tu-jeste-nebylo-z-iphone-18-pro-se-stane-zaklad/",
+          "impressions": 12971,
+          "clicks": 1659,
+          "share": 6.5
+        }
+      ],
+      "forecast_impressions": 251477,
+      "incremental_low": 2716,
+      "incremental_base": 4527,
+      "incremental_high": 6564,
+      "attainable_ctr": 0.1232494058177104,
+      "scale_vs_analog_pre": 0.87,
+      "query_cluster": [
+        "iphone 18",
+        "iphone 18 pro",
+        "iphone 18 pro max",
+        "apple iphone 18",
+        "nový iphone 18",
+        "novy iphone 18",
+        "iphone 18pro",
+        "iphone 18 ultra",
+        "kolik bude stat iphone 18 pro",
+        "iphone18",
+        "kdy vychazi iphone 18",
+        "iphone 18 fold"
+      ],
+      "hist_16m_impressions": 471607,
+      "hist_16m_clicks": 49622,
+      "urls_count": 480,
+      "winner_share": 0.15793943109244118,
+      "target_ga4": {
+        "sessions": 17190,
+        "views": 226990,
+        "engagement_rate": 0.8708,
+        "avg_session_duration": 126.5
+      },
+      "target_meta": {
+        "date": "2026-08-08",
+        "title": "iPhone 18 Pro je už za dveřmi. Toto je 12 největších novinek, které má nabídnout",
+        "slug": "iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout",
+        "topic": "iPhone a iOS",
+        "format": "Běžná novinka"
+      },
+      "rank": 1
+    },
+    {
+      "intent": "RELEASE DATE / keynote datum / kdy vyjde",
+      "id": "release",
+      "user_job": "Uživatel chce přesně vědět, kdy Apple iPhone 18 ukáže a kdy se reálně čeká spuštění prodeje.",
+      "action": "MERGE",
+      "target_url": "https://www.letemsvetemapplem.eu/2026/08/26/iphone-18-pro-date/",
+      "suggested_title": "Kdy vyjde iPhone 18 a kdy bude keynote: datum představení, prodeje a důležité termíny",
+      "suggested_h1": "Kdy vyjde iPhone 18: keynote, předobjednávky a start prodeje",
+      "content_gap": "Sloučit event-date intent do jedné URL, jasně oddělit keynote, předobjednávky a první prodejní den. Dnešní problém je, že Google tahá víc různých článků s lehce jinou interpretací téhož data.",
+      "internal_links": [
+        "/2026/08/31/iphone-18-pro-preorders/",
+        "/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/"
+      ],
+      "deadline": "NOW",
+      "why_now": "Datum je D-9 evergreen v rámci eventu: peak jde před keynote a znovu při potvrzení na pódiu. Pokud se intent nesjednotí teď, redakce si sama sebere část budoucích kliků.",
+      "risk": "cannibalization",
+      "confidence": "HIGH",
+      "diagnosis": "WRONG PAGE / CANNIBALIZATION RISK",
+      "current_period": "2026-08-01 až 2026-08-30",
+      "current_impressions": 20722,
+      "current_clicks": 2153,
+      "current_ctr": 0.10389923752533539,
+      "weighted_position": 4.20022198629476,
+      "trend_7_14_28": {
+        "7d": {
+          "impressions": 4134,
+          "clicks": 368
+        },
+        "14d": {
+          "impressions": 8461,
+          "clicks": 1159
+        },
+        "28d": {
+          "impressions": 13658,
+          "clicks": 1944
+        }
+      },
+      "historical_analog": {
+        "impressions": 8584,
+        "clicks": 1921,
+        "peak_day": "2025-09-09",
+        "peak_impressions": 2779
+      },
+      "existing_urls": [
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/07/30/kdy-vyjde-iphone-18-vime-apple-odhali-svuj-novy-zakladni-model/",
+          "impressions": 9624,
+          "clicks": 883,
+          "share": 46.4
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/07/27/iphone-18-pro-predstaveni/",
+          "impressions": 3075,
+          "clicks": 224,
+          "share": 14.8
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/14/apple-letos-udela-s-iphone-neco-co-tu-jeste-nebylo-z-iphone-18-pro-se-stane-zaklad/",
+          "impressions": 2112,
+          "clicks": 481,
+          "share": 10.2
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/21/iphone-18-pro-dorazi-uz-za-par-tydnu-tohle-je-nejpravdepodobnejsi-datum-predobjednavek/",
+          "impressions": 1568,
+          "clicks": 171,
+          "share": 7.6
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/26/iphone-18-pro-date/",
+          "impressions": 1294,
+          "clicks": 181,
+          "share": 6.2
+        }
+      ],
+      "forecast_impressions": 18885,
+      "incremental_low": 283,
+      "incremental_base": 472,
+      "incremental_high": 684,
+      "attainable_ctr": 0.1288992375253354,
+      "scale_vs_analog_pre": 2.2,
+      "query_cluster": [
+        "kdy vyjde iphone 18",
+        "iphone 18 kdy vyjde",
+        "kdy vyjde iphone 18 pro",
+        "kdy bude iphone 18",
+        "predstaveni iphone 18",
+        "iphone 18 pro max kdy vyjde",
+        "představení iphone 18",
+        "iphone 18 pro kdy vyjde",
+        "kdy vyjde iphone 18 pro max",
+        "kdy vyjde nový iphone 18",
+        "kdy bude iphone 18 pro",
+        "kdy vyjde iphone 18?"
+      ],
+      "hist_16m_impressions": 29447,
+      "hist_16m_clicks": 2248,
+      "urls_count": 69,
+      "winner_share": 0.46443393494836405,
+      "target_ga4": {
+        "sessions": 6689,
+        "views": 99751,
+        "engagement_rate": 0.9915,
+        "avg_session_duration": 130.7
+      },
+      "target_meta": {
+        "date": "2026-08-26",
+        "title": "iPhone 18 Pro datum představení oficiálně oznámeno!",
+        "slug": "iphone-18-pro-date",
+        "topic": "iPhone a iOS",
+        "format": "Spekulace a úniky"
+      },
+      "rank": 2
+    },
+    {
+      "intent": "COLORS / barvy",
+      "id": "colors",
+      "user_job": "Uživatel chce rychle zjistit, v jakých barvách mají nové iPhony dorazit a které varianty jsou nejpravděpodobnější.",
+      "action": "MERGE",
+      "target_url": "https://www.letemsvetemapplem.eu/2026/08/04/tyto-barvy-iphone-18-pro-dorazi-na-podzim-jedna-z-nich-vypada-naprosto-fantasticky/",
+      "suggested_title": "iPhone 18 barvy: jaké varianty čekat u Pro, Pro Max a Ultra",
+      "suggested_h1": "iPhone 18 barvy: přehled očekávaných variant",
+      "content_gap": "Sloučit barevné leaky do jedné referenční URL, přidat tabulku model x barva x jistota informace a omezit vznik dalších téměř duplicitních color článků.",
+      "internal_links": [
+        "/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/",
+        "/2026/08/06/iphone-ultra-specifikace-cena-a-vse-ostatni-co-potrebujete-vedet/"
+      ],
+      "deadline": "NEXT 72H",
+      "why_now": "Barvy tradičně rostou těsně před keynote a pak znovu v noci po potvrzení. Tady už teď vidíme slušný objem, ale je rozbitý do příliš mnoha podobných článků.",
+      "risk": "cannibalization",
+      "confidence": "HIGH",
+      "diagnosis": "CANNIBALIZATION RISK",
+      "current_period": "2026-08-01 až 2026-08-30",
+      "current_impressions": 7474,
+      "current_clicks": 881,
+      "current_ctr": 0.11787530104361787,
+      "weighted_position": 4.297698688787798,
+      "trend_7_14_28": {
+        "7d": {
+          "impressions": 1454,
+          "clicks": 339
+        },
+        "14d": {
+          "impressions": 2969,
+          "clicks": 562
+        },
+        "28d": {
+          "impressions": 5226,
+          "clicks": 848
+        }
+      },
+      "historical_analog": {
+        "impressions": 9268,
+        "clicks": 1608,
+        "peak_day": "2025-09-09",
+        "peak_impressions": 2923
+      },
+      "existing_urls": [
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/04/tyto-barvy-iphone-18-pro-dorazi-na-podzim-jedna-z-nich-vypada-naprosto-fantasticky/",
+          "impressions": 2058,
+          "clicks": 369,
+          "share": 27.5
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/11/iphone-18-pro-dostane-barvu-jakou-apple-jeste-nepouzil-uz-ted-vime-jak-presne-bude-vypadat/",
+          "impressions": 1554,
+          "clicks": 139,
+          "share": 20.8
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/07/27/iphone-18-pro-predstaveni/",
+          "impressions": 801,
+          "clicks": 44,
+          "share": 10.7
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/18/iphone-18-pro-bude-poradna-pecka-techto-6-novinek-ma-letos-apple-naservirovat/",
+          "impressions": 444,
+          "clicks": 37,
+          "share": 5.9
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/21/iphone-18-pro-dorazi-uz-za-par-tydnu-tohle-je-nejpravdepodobnejsi-datum-predobjednavek/",
+          "impressions": 358,
+          "clicks": 112,
+          "share": 4.8
+        }
+      ],
+      "forecast_impressions": 17638,
+      "incremental_low": 265,
+      "incremental_base": 441,
+      "incremental_high": 639,
+      "attainable_ctr": 0.14287530104361787,
+      "scale_vs_analog_pre": 1.9,
+      "query_cluster": [
+        "iphone 18 barvy",
+        "iphone 18 pro barvy",
+        "iphone 18 pro max barvy",
+        "predstaveni iphone 18",
+        "barvy iphone 18",
+        "barvy iphone 18 pro",
+        "iphone 18 cherry red",
+        "iphone 18 pro colors",
+        "iphone 18 colors",
+        "iphone 18 red",
+        "iphone 18 burgundy",
+        "iphone 18 pro red"
+      ],
+      "hist_16m_impressions": 11898,
+      "hist_16m_clicks": 1194,
+      "urls_count": 85,
+      "winner_share": 0.27535456248327533,
+      "target_ga4": {
+        "sessions": 4871,
+        "views": 55751,
+        "engagement_rate": 0.9497,
+        "avg_session_duration": 87.7
+      },
+      "target_meta": {
+        "date": "2026-08-04",
+        "title": "Tyto barvy iPhone 18 Pro dorazí na podzim. Jedna z nich vypadá naprosto fantasticky",
+        "slug": "tyto-barvy-iphone-18-pro-dorazi-na-podzim-jedna-z-nich-vypada-naprosto-fantasticky",
+        "topic": "iPhone a iOS",
+        "format": "Běžná novinka"
+      },
+      "rank": 3
+    },
+    {
+      "intent": "PRICE / české ceny iPhone 18",
+      "id": "price",
+      "user_job": "Uživatel chce vědět, kolik budou stát modely iPhone 18 v Česku a jaké cenové rozdíly čekat mezi Pro, Pro Max a Ultra.",
+      "action": "UPDATE",
+      "target_url": "https://www.letemsvetemapplem.eu/2026/07/27/iphone-18-pro-cena-2026/",
+      "suggested_title": "iPhone 18 cena v Česku: kolik mohou stát Pro, Pro Max a Ultra",
+      "suggested_h1": "iPhone 18 cena v Česku: odhad cen všech modelů",
+      "content_gap": "Doplnit jednu jasnou českou cenovou tabulku, co je analytický odhad a co je leak, odlišit Pro / Pro Max / Ultra a přidat sekci co může s cenou zahýbat po keynote.",
+      "internal_links": [
+        "/2026/08/26/iphone-18-pro-date/",
+        "/2026/08/31/iphone-18-pro-preorders/",
+        "/2026/08/06/iphone-ultra-specifikace-cena-a-vse-ostatni-co-potrebujete-vedet/"
+      ],
+      "deadline": "NOW",
+      "why_now": "Cena má silný intent už před keynote a po eventu tradičně vyletí ještě víc. Správná URL už existuje, ale téma si dnes dělí příliš mnoho cenových leaků.",
+      "risk": "split signal",
+      "confidence": "HIGH",
+      "diagnosis": "SPLIT SIGNAL",
+      "current_period": "2026-08-01 až 2026-08-30",
+      "current_impressions": 12764,
+      "current_clicks": 1956,
+      "current_ctr": 0.15324349733625822,
+      "weighted_position": 4.123628956439988,
+      "trend_7_14_28": {
+        "7d": {
+          "impressions": 2916,
+          "clicks": 547
+        },
+        "14d": {
+          "impressions": 5014,
+          "clicks": 1220
+        },
+        "28d": {
+          "impressions": 8067,
+          "clicks": 1852
+        }
+      },
+      "historical_analog": {
+        "impressions": 17763,
+        "clicks": 1412,
+        "peak_day": "2025-09-09",
+        "peak_impressions": 6113
+      },
+      "existing_urls": [
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/07/27/iphone-18-pro-cena-2026/",
+          "impressions": 5195,
+          "clicks": 1311,
+          "share": 40.7
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/04/cena-iphone-18-pro-vyvolava-obavy-zdrazeni-o-tretinu-je-ale-nepravdepodobne/",
+          "impressions": 2445,
+          "clicks": 289,
+          "share": 19.2
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/06/27/vime-o-kolik-ma-zdrazit-iphone-18-pro-max/",
+          "impressions": 2309,
+          "clicks": 66,
+          "share": 18.1
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/25/iphone-18-pro-mozna-zdrazi-mene-nez-se-cekalo/",
+          "impressions": 1542,
+          "clicks": 231,
+          "share": 12.1
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/27/iphone-17-pro-vs-iphone-18-pro/",
+          "impressions": 405,
+          "clicks": 17,
+          "share": 3.2
+        }
+      ],
+      "forecast_impressions": 21920,
+      "incremental_low": 263,
+      "incremental_base": 438,
+      "incremental_high": 635,
+      "attainable_ctr": 0.1732434973362582,
+      "scale_vs_analog_pre": 1.23,
+      "query_cluster": [
+        "iphone 18 pro cena",
+        "iphone 18 pro max cena",
+        "iphone 18 cena",
+        "cena iphone 18 pro",
+        "cena iphone 18",
+        "cena iphone 18 pro max",
+        "iphone 18 ultra cena",
+        "iphone 18 pro price",
+        "iphone 18 fold cena",
+        "iphone 18 pro max price in czech republic",
+        "iphone 18pro cena",
+        "kdy vyjde iphone 18 cena"
+      ],
+      "hist_16m_impressions": 14050,
+      "hist_16m_clicks": 2385,
+      "urls_count": 52,
+      "winner_share": 0.4070040739580069,
+      "target_ga4": {
+        "sessions": 9163,
+        "views": 65071,
+        "engagement_rate": 0.8553,
+        "avg_session_duration": 105.1
+      },
+      "target_meta": {
+        "date": "2026-07-27",
+        "title": "iPhone 18 Pro cena: Kolik bude stát nejočekávanější telefon letoška?",
+        "slug": "iphone-18-pro-cena-2026",
+        "topic": "iPhone a iOS",
+        "format": "Běžná novinka"
+      },
+      "rank": 4
+    },
+    {
+      "intent": "iPhone Ultra hub",
+      "id": "ultra_hub",
+      "user_job": "Uživatel chce pochopit, co je iPhone Ultra zač, v čem se liší od Pro modelů a zda opravdu dorazí už letos.",
+      "action": "UPDATE",
+      "target_url": "https://www.letemsvetemapplem.eu/2026/08/06/iphone-ultra-specifikace-cena-a-vse-ostatni-co-potrebujete-vedet/",
+      "suggested_title": "iPhone Ultra: cena, datum, specifikace a vše, co zatím víme",
+      "suggested_h1": "iPhone Ultra: co o prvním skládacím iPhonu víme",
+      "content_gap": "Udržet z této URL skutečný hub pro Ultra: co je potvrzené, odlišit ji od Pro modelů, dát cenu/datum/specs na jednu stránku a odkázat na separátní srovnání s Pro.",
+      "internal_links": [
+        "/2026/07/27/iphone-ultra-cena-kolik-bude-stat-prvni-skladaci-telefon-od-applu/",
+        "/2026/07/27/iphone-ultra-predstaveni/",
+        "/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/"
+      ],
+      "deadline": "NOW",
+      "why_now": "Ultra už má vlastní významný search bucket a čtenářský job je odlišný od běžného iPhonu 18. Výhoda je, že LSA už má relativně vhodnou hub URL, takže tady není nutné zakládat novou.",
+      "risk": "split signal",
+      "confidence": "HIGH",
+      "diagnosis": "CLEAN WINNER WITH LEAK SPILLOVER",
+      "current_period": "2026-08-01 až 2026-08-30",
+      "current_impressions": 9923,
+      "current_clicks": 1334,
+      "current_ctr": 0.13443515066008263,
+      "weighted_position": 2.702307769827673,
+      "trend_7_14_28": {
+        "7d": {
+          "impressions": 2353,
+          "clicks": 389
+        },
+        "14d": {
+          "impressions": 3435,
+          "clicks": 640
+        },
+        "28d": {
+          "impressions": 5683,
+          "clicks": 1211
+        }
+      },
+      "historical_analog": {
+        "impressions": 11435,
+        "clicks": 440,
+        "peak_day": "2025-09-09",
+        "peak_impressions": 3516
+      },
+      "existing_urls": [
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/06/iphone-ultra-specifikace-cena-a-vse-ostatni-co-potrebujete-vedet/",
+          "impressions": 2606,
+          "clicks": 326,
+          "share": 26.3
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/24/prvni-lide-uz-vyzkouseli-skladaci-iphone-ultra-ma-pry-jen-jeden-problem/",
+          "impressions": 1847,
+          "clicks": 282,
+          "share": 18.6
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/10/iphone-ultra-bude-mit-jen-dve-barvy-apple-udajne-sahne-po-prekvapive-decentni-kombinaci/",
+          "impressions": 1794,
+          "clicks": 336,
+          "share": 18.1
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/07/27/iphone-ultra-predstaveni/",
+          "impressions": 479,
+          "clicks": 10,
+          "share": 4.8
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/07/ohebne-telefony-ceka-rekordni-rok-muze-za-to-jediny-produkt-od-apple/",
+          "impressions": 340,
+          "clicks": 7,
+          "share": 3.4
+        }
+      ],
+      "forecast_impressions": 25157,
+      "incremental_low": 226,
+      "incremental_base": 377,
+      "incremental_high": 547,
+      "attainable_ctr": 0.14943515066008262,
+      "scale_vs_analog_pre": 2.2,
+      "query_cluster": [
+        "iphone ultra",
+        "apple iphone ultra",
+        "iphone ultra 2026",
+        "iphone ultra fold",
+        "iphone ultra case",
+        "iphone ultra 2",
+        "tom holland iphone ultra",
+        "iphone ultra.",
+        "how much will iphone ultra cost",
+        "iphone ultra?",
+        "iphone ultra magsafe",
+        "iphone ultra lidar"
+      ],
+      "hist_16m_impressions": 10752,
+      "hist_16m_clicks": 1906,
+      "urls_count": 111,
+      "winner_share": 0.2626221908696967,
+      "target_ga4": {
+        "sessions": 2854,
+        "views": 40222,
+        "engagement_rate": 0.8605,
+        "avg_session_duration": 139.3
+      },
+      "target_meta": {
+        "date": "2026-08-06",
+        "title": "iPhone Ultra: Specifikace, cena a vše ostatní, co potřebujete vědět",
+        "slug": "iphone-ultra-specifikace-cena-a-vse-ostatni-co-potrebujete-vedet",
+        "topic": "iPhone a iOS",
+        "format": "Běžná novinka"
+      },
+      "rank": 5
+    },
+    {
+      "intent": "Pro Max differences / proč vzít Pro Max místo Pro",
+      "id": "pro_max_diff",
+      "user_job": "Uživatel chce vědět, co navíc Pro Max přinese proti Pro a zda ten rozdíl stojí za vyšší cenu i větší rozměry.",
+      "action": "UPDATE",
+      "target_url": "https://www.letemsvetemapplem.eu/2026/08/18/iphone-18-pro-max-ma-dostat-neco-co-iphone-18-pro-mit-nebude-apple-chysta-exkluzivni-vylepseni-fotoaparatu/",
+      "suggested_title": "iPhone 18 Pro Max vs Pro: co bude exkluzivní a komu se vyplatí větší model",
+      "suggested_h1": "iPhone 18 Pro Max vs Pro: hlavní rozdíly",
+      "content_gap": "Přepsat článek z jednorázového foto leak kusu na evergreen eventovou landing page pro rozdíly Pro Max vs Pro: foťák, baterie, velikost, cena a cílový uživatel.",
+      "internal_links": [
+        "/2026/07/27/iphone-18-pro-cena-2026/",
+        "/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/"
+      ],
+      "deadline": "NEXT 72H",
+      "why_now": "Query na Pro Max jsou velké, ale Google je teď posílá na články, které řeší jen dílčí leak. Přeskládání na 'rozdíly a rozhodnutí' má lepší clickability i delší život po eventu.",
+      "risk": "wrong page",
+      "confidence": "MEDIUM",
+      "diagnosis": "WRONG PAGE",
+      "current_period": "2026-08-01 až 2026-08-30",
+      "current_impressions": 16568,
+      "current_clicks": 1565,
+      "current_ctr": 0.09445919845485273,
+      "weighted_position": 2.840837759536456,
+      "trend_7_14_28": {
+        "7d": {
+          "impressions": 3430,
+          "clicks": 374
+        },
+        "14d": {
+          "impressions": 8178,
+          "clicks": 940
+        },
+        "28d": {
+          "impressions": 13020,
+          "clicks": 1443
+        }
+      },
+      "historical_analog": {
+        "impressions": 19087,
+        "clicks": 1870,
+        "peak_day": "2025-09-09",
+        "peak_impressions": 4530
+      },
+      "existing_urls": [
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/18/iphone-18-pro-max-ma-dostat-neco-co-iphone-18-pro-mit-nebude-apple-chysta-exkluzivni-vylepseni-fotoaparatu/",
+          "impressions": 3811,
+          "clicks": 369,
+          "share": 23.0
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/01/iphone-18-pro-muze-byt-nejvetsi-upgrade-za-roky-tohle-jsou-vsechny-duvody/",
+          "impressions": 1545,
+          "clicks": 172,
+          "share": 9.3
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/14/apple-letos-udela-s-iphone-neco-co-tu-jeste-nebylo-z-iphone-18-pro-se-stane-zaklad/",
+          "impressions": 1355,
+          "clicks": 183,
+          "share": 8.2
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/11/phone-18-pro-max-dostane-obri-baterii-na-internet-nyni-unikla-jeji-presna-kapacita/",
+          "impressions": 1350,
+          "clicks": 122,
+          "share": 8.1
+        },
+        {
+          "url": "https://www.letemsvetemapplem.eu/2026/08/26/iphone-18-pro-date/",
+          "impressions": 1199,
+          "clicks": 168,
+          "share": 7.2
+        }
+      ],
+      "forecast_impressions": 14043,
+      "incremental_low": 169,
+      "incremental_base": 281,
+      "incremental_high": 407,
+      "attainable_ctr": 0.11445919845485274,
+      "scale_vs_analog_pre": 0.74,
+      "query_cluster": [
+        "iphone 18 pro max",
+        "apple iphone 18 pro max",
+        "kolik bude stat iphone 18 pro max",
+        "kolik bude stát iphone 18 pro max",
+        "kolik stojí iphone 18 pro max",
+        "iphone 18 pro max dark cherry",
+        "iphone 18 pro max cherry",
+        "novy iphone 18 pro max",
+        "iphone 18 pro max 512gb",
+        "iphone 18 pro max jak bude vypadat",
+        "iphone 18 pro max leaks",
+        "iphone 18 pro max ціна"
+      ],
+      "hist_16m_impressions": 50149,
+      "hist_16m_clicks": 4276,
+      "urls_count": 158,
+      "winner_share": 0.2300217286335104,
+      "target_ga4": {
+        "sessions": 1949,
+        "views": 16411,
+        "engagement_rate": 0.8928,
+        "avg_session_duration": 105.8
+      },
+      "target_meta": {
+        "date": "2026-08-18",
+        "title": "iPhone 18 Pro Max má dostat něco, co iPhone 18 Pro mít nebude. Apple chystá exkluzivní vylepšení fotoaparátu",
+        "slug": "iphone-18-pro-max-ma-dostat-neco-co-iphone-18-pro-mit-nebude-apple-chysta-exkluzivni-vylepseni-fotoaparatu",
+        "topic": "iPhone a iOS",
+        "format": "Spekulace a úniky"
+      },
+      "rank": 6
+    }
+  ],
+  "rejected_ideas": [
+    {
+      "idea": "iPhone 17 vs iPhone 18 a iPhone 17 Pro vs iPhone 18 Pro jako top search zásahy",
+      "reason": "Aktuální CZ search data jsou výrazně slabší než u generic/date/price/color intentů. Tyhle kusy mohou fungovat redakčně nebo v Discoveru, ale teď nejsou mezi TOP search opportunities."
+    },
+    {
+      "idea": "Samostatný článek pro každou barvu iPhone 18 Pro",
+      "reason": "Patří do jednoho color intentu. Další separace by jen zhoršila kanibalizaci."
+    },
+    {
+      "idea": "X emoji k keynote nebo jak sledovat keynote živě jako search top opportunity",
+      "reason": "Tohle jsou spíš Discover side-bets; search intent je proti hlavním eventovým dotazům malý nebo navigační."
+    },
+    {
+      "idea": "Čistě camera-only nebo design-only standalone URL bez širšího user jobu",
+      "reason": "V současných datech nemají dost velký samostatný search upside proti price/date/generic/Ultra hubům."
+    }
+  ],
+  "cannibalization_map": [
+    {
+      "intent": "Generic iPhone 18 / Pro / Pro Max",
+      "competing_urls": [
+        "https://www.letemsvetemapplem.eu/2026/08/08/iphone-18-pro-je-uz-za-dvermi-toto-je-12-nejvetsich-novinek-ktere-ma-nabidnout/",
+        "https://www.letemsvetemapplem.eu/2026/08/26/iphone-18-pro-date/",
+        "https://www.letemsvetemapplem.eu/2026/08/21/apple-pristi-mesic-nepredstavi-iphone-18-ale/",
+        "https://www.letemsvetemapplem.eu/2026/08/01/iphone-18-pro-muze-byt-nejvetsi-upgrade-za-roky-tohle-jsou-vsechny-duvody/",
+        "https://www.letemsvetemapplem.eu/2026/08/14/apple-letos-udela-s-iphone-neco-co-tu-jeste-nebylo-z-iphone-18-pro-se-stane-zaklad/"
+      ],
+      "resolution": "Jeden hlavní hub + zbytek interně odkázat jako supporting pieces; netvořit další generic summary URL."
+    },
+    {
+      "intent": "Release date / kdy vyjde",
+      "competing_urls": [
+        "https://www.letemsvetemapplem.eu/2026/07/30/kdy-vyjde-iphone-18-vime-apple-odhali-svuj-novy-zakladni-model/",
+        "https://www.letemsvetemapplem.eu/2026/08/26/iphone-18-pro-date/",
+        "https://www.letemsvetemapplem.eu/2026/08/21/iphone-18-pro-dorazi-uz-za-par-tydnu-tohle-je-nejpravdepodobnejsi-datum-predobjednavek/"
+      ],
+      "resolution": "Sjednotit date intent do jedné referenční URL a zbylé články z ní interně odkazovat."
+    },
+    {
+      "intent": "Price",
+      "competing_urls": [
+        "https://www.letemsvetemapplem.eu/2026/07/27/iphone-18-pro-cena-2026/",
+        "https://www.letemsvetemapplem.eu/2026/06/27/vime-o-kolik-ma-zdrazit-iphone-18-pro-max/",
+        "https://www.letemsvetemapplem.eu/2026/08/04/cena-iphone-18-pro-vyvolava-obavy-zdrazeni-o-tretinu-je-ale-nepravdepodobne/"
+      ],
+      "resolution": "Držet jednu price URL s tabulkou a ostatní cenové leaky používat jen jako zdroje a interní odkazy."
+    },
+    {
+      "intent": "Colors",
+      "competing_urls": [
+        "https://www.letemsvetemapplem.eu/2026/08/04/tyto-barvy-iphone-18-pro-dorazi-na-podzim-jedna-z-nich-vypada-naprosto-fantasticky/",
+        "https://www.letemsvetemapplem.eu/2026/05/23/barvy-iphone-18-pro-potvrzeny-dalsim-unikem-fotky/",
+        "https://www.letemsvetemapplem.eu/2026/08/11/iphone-18-pro-dostane-barvu-jakou-apple-jeste-nepouzil-uz-ted-vime-jak-presne-bude-vypadat/"
+      ],
+      "resolution": "Z jedné URL udělat color hub a další variace už jen aktualizovat uvnitř ní."
+    }
+  ],
+  "discover_side_bets": [
+    {
+      "idea": "Apple Keynote 2026 livestream: představení iPhone 18 Pro živě",
+      "reason": "Má smysl pro Discover a realtime interest, ale není to jedna z největších search opportunities v clusteru."
+    },
+    {
+      "idea": "5 teorií, co by mohla prozrazovat pozvánka na představení iPhone 18 Pro a Ultra",
+      "reason": "Dobrý clickbait/discovery kus, ale slabší search economics než date/price/generic intent."
+    }
+  ],
+  "missing_data": [
+    {
+      "missing": "Plná GSC historie iPhone 16 a iPhone 15 prelaunch oken",
+      "impact": "Snižuje confidence u historických multiplikátorů. GSC má limit 16 měsíců, takže plný starší prelaunch už z API nevytáhneme."
+    },
+    {
+      "missing": "Čerstvá Search Console data za posledních 48-72 hodin po 2026-08-30",
+      "impact": "Mírně snižuje confidence u intentů kolem dnešní preorders URL. To je normální GSC lag."
+    },
+    {
+      "missing": "Live SERP snapshot po intentu",
+      "impact": "Diagnóza clickability a zero-click risku je silná, ale ne podložená dedikovaným dnešním SERP crawllem pro každou query variantu."
+    }
+  ],
+  "execution_plan_24h": [
+    "Přepsat hlavní iPhone 18 hub z 8. 8. do role jediné referenční landing page pro generic intent.",
+    "Sjednotit release/date intent kolem jedné URL a jasně oddělit keynote datum, předobjednávky a prodej.",
+    "Na price URL doplnit českou tabulku všech modelů a odstranit nejistotu mezi Pro, Pro Max a Ultra.",
+    "Připravit preorders URL jako event-night landing page a silně ji interně propojit z date a price stránek.",
+    "Z Ultra URL udělat hlavní rozcestník pro fold/Ultra dotazy a přestat rozbíjet generic Ultra intent do leaku o barvách či videích."
+  ],
+  "country_split_current": [
+    {
+      "country": "cze",
+      "impressions": 185782,
+      "clicks": 26656,
+      "ctr": 0.14347999267959222
+    },
+    {
+      "country": "jpn",
+      "impressions": 106676,
+      "clicks": 8209,
+      "ctr": 0.07695264164385617
+    },
+    {
+      "country": "deu",
+      "impressions": 112647,
+      "clicks": 5149,
+      "ctr": 0.04570916225021528
+    },
+    {
+      "country": "ita",
+      "impressions": 115562,
+      "clicks": 5014,
+      "ctr": 0.04338796490195739
+    },
+    {
+      "country": "pol",
+      "impressions": 93932,
+      "clicks": 4726,
+      "ctr": 0.05031299237746455
+    },
+    {
+      "country": "grc",
+      "impressions": 67395,
+      "clicks": 3916,
+      "ctr": 0.05810520068254321
+    },
+    {
+      "country": "nld",
+      "impressions": 61165,
+      "clicks": 2970,
+      "ctr": 0.04855718139458841
+    },
+    {
+      "country": "bra",
+      "impressions": 91883,
+      "clicks": 2306,
+      "ctr": 0.025097134399181566
+    }
+  ],
+  "device_split_current_cz": [
+    {
+      "device": "MOBILE",
+      "impressions": 156761,
+      "clicks": 21982,
+      "ctr": 0.1402262042217133
+    },
+    {
+      "device": "DESKTOP",
+      "impressions": 26074,
+      "clicks": 4488,
+      "ctr": 0.17212548899286645
+    },
+    {
+      "device": "TABLET",
+      "impressions": 2947,
+      "clicks": 186,
+      "ctr": 0.06311503223617237
+    }
+  ]
+}

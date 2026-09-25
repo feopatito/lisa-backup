@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "content-extraction",
+  "installedVersion": "1.1.0",
+  "installedAt": 1786535610212,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "50c4eac8c18e1ea56073f5c1d92ac1f797a212474d83f7ba4c8ec9ea36a9f445",
+    "integrity": "sha256-UMTqyMGOHqVgc/XB2SrB95eiEkdNg/e6TI7J6jap9EU="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "6b7d48067031697a59f0ed36c978fd5a7da7103cede5639173769da8f1d19c9b"
+  }
+}

@@ -18,3 +18,6 @@ media/
 node_modules/
 .DS_Store
 __pycache__/
+# Credentials - never commit
+android-magazine-sa.json
+*.json.DEPRECATED*

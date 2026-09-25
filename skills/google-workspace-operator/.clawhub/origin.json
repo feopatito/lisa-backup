@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "google-workspace-operator",
+  "installedVersion": "0.1.1",
+  "installedAt": 1786525127866,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "c31fc61ffe654f796b6d18b667780abbe1dd831b4695d1d55e2396addacbf02b",
+    "integrity": "sha256-wx/GH/5lT3lrbRi2Z3gKu+HdgxtGldHVXiOWrdrL8Cs="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "291dcde3f836241671c7788b8a3f53095136aab78b9d66c1f8186137a796db49"
+  }
+}

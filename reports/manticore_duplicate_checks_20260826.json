@@ -1,0 +1,228 @@
+{
+  "checked_at": "2026-08-26T06:58:36",
+  "checks": [
+    {
+      "candidate_id": "LSA-1",
+      "site": "letemsvetemapplem.eu",
+      "query": "apple event september iphone 18 ultra",
+      "status": "CHECKED",
+      "docs_returned": 0,
+      "top_matches": []
+    },
+    {
+      "candidate_id": "LSA-2",
+      "site": "letemsvetemapplem.eu",
+      "query": "apple maps reklamy ads",
+      "status": "CHECKED",
+      "docs_returned": 5,
+      "top_matches": [
+        {
+          "title": "Apple Maps zaplaví reklamy a to už letos v létě!",
+          "url": "https://www.letemsvetemapplem.eu/2026/03/24/apple-maps-zaplavi-reklamy-a-to-uz-letos-v-lete/",
+          "postStatus": "publish",
+          "date": "2026-03-24T11:04:16.000Z"
+        },
+        {
+          "title": "Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU",
+          "url": "https://www.letemsvetemapplem.eu/2026/02/09/apple-muze-slavit-apple-maps-i-apple-ads-vyvazly-regulaci-ze-strany-eu/",
+          "postStatus": "publish",
+          "date": "2026-02-09T14:00:40.000Z"
+        },
+        {
+          "title": "Apple začne v App Store od března 2026 zobrazovat více reklam a změní způsob, jak hledáme aplikace",
+          "url": "https://www.letemsvetemapplem.eu/2026/01/23/apple-zacne-v-app-store-od-brezna-2026-zobrazovat-vice-reklam-a-zmeni-zpusob-jak-hledame-aplikace/",
+          "postStatus": "publish",
+          "date": "2026-01-23T20:00:28.000Z"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LSA-3",
+      "site": "letemsvetemapplem.eu",
+      "query": "iphone ultra cena skladaci",
+      "status": "CHECKED",
+      "docs_returned": 5,
+      "top_matches": [
+        {
+          "title": "Apple připravuje zdražení iPhone. Kvůli této věci je letos nevyhnutelné a to i u starších modelů",
+          "url": "https://www.letemsvetemapplem.eu/2026/08/24/apple-pripravuje-zdrazeni-iphone-kvuli-teto-veci-je-letos-nevyhnutelne-a-to-i-u-starsich-modelu/",
+          "postStatus": "publish",
+          "date": "2026-08-24T12:02:42.000Z"
+        },
+        {
+          "title": "První lidé už vyzkoušeli skládací iPhone Ultra. Má prý jen jeden problém",
+          "url": "https://www.letemsvetemapplem.eu/2026/08/24/prvni-lide-uz-vyzkouseli-skladaci-iphone-ultra-ma-pry-jen-jeden-problem/",
+          "postStatus": "publish",
+          "date": "2026-08-24T10:04:53.000Z"
+        },
+        {
+          "title": "Apple má jasno, jak se budou jmenovat revoluční AirPods s kamerami. Překvapení se nekoná",
+          "url": "https://www.letemsvetemapplem.eu/2026/08/19/apple-ma-jasno-jak-se-budou-jmenovat-revolucni-airpods-s-kamerami-prekvapeni-se-nekona/",
+          "postStatus": "publish",
+          "date": "2026-08-19T10:09:13.000Z"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LSA-4",
+      "site": "letemsvetemapplem.eu",
+      "query": "iphone 18 pristi mesic nepredstavi",
+      "status": "CHECKED",
+      "docs_returned": 5,
+      "top_matches": [
+        {
+          "title": "Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme",
+          "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/",
+          "postStatus": "publish",
+          "date": "2026-08-25T18:02:53.000Z"
+        },
+        {
+          "title": "Apple chystá nový Mac mini. Představí jej ještě před iPhone 18 Pro",
+          "url": "https://www.letemsvetemapplem.eu/2026/08/25/apple-chysta-novy-mac-mini-predstavi-jej-jeste-pred-iphone-18-pro/",
+          "postStatus": "publish",
+          "date": "2026-08-25T07:03:31.000Z"
+        },
+        {
+          "title": "Apple připravuje zdražení iPhone. Kvůli této věci je letos nevyhnutelné a to i u starších modelů",
+          "url": "https://www.letemsvetemapplem.eu/2026/08/24/apple-pripravuje-zdrazeni-iphone-kvuli-teto-veci-je-letos-nevyhnutelne-a-to-i-u-starsich-modelu/",
+          "postStatus": "publish",
+          "date": "2026-08-24T12:02:42.000Z"
+        }
+      ]
+    },
+    {
+      "candidate_id": "SAM-1",
+      "site": "samsungmagazine.eu",
+      "query": "Galaxy Event S26 FE srpen",
+      "status": "CHECKED",
+      "docs_returned": 2,
+      "top_matches": [
+        {
+          "title": "Samsung Galaxy S26 FE: cena, datum a co čekat od Galaxy Event August 2026",
+          "url": "https://samsungmagazine.eu/2026/08/25/samsung-galaxy-s26-fe-cena-datum-a-co-cekat-od-galaxy-event-august-2026/",
+          "postStatus": "publish",
+          "date": "2026-08-25T13:59:15.000Z"
+        },
+        {
+          "title": "Zapište si toto datum. Samsung prozradil, kdy představí Galaxy S26 FE a další novinky",
+          "url": "https://samsungmagazine.eu/2026/08/20/galaxy-event-august-2026-galaxy-s26-fe/",
+          "postStatus": "publish",
+          "date": "2026-08-20T05:09:22.000Z"
+        }
+      ]
+    },
+    {
+      "candidate_id": "SAM-2",
+      "site": "samsungmagazine.eu",
+      "query": "One UI 9 zařízení beta",
+      "status": "CHECKED",
+      "docs_returned": 5,
+      "top_matches": [
+        {
+          "title": "Ostrá verze One UI 9 má zpoždění. Samsung pro Galaxy S26 chystá další betu",
+          "url": "https://samsungmagazine.eu/2026/08/25/samsung-galaxy-s26-one-ui-9-beta-6-delay/",
+          "postStatus": "publish",
+          "date": "2026-08-25T09:04:59.000Z"
+        },
+        {
+          "title": "Stabilní verze One UI 9: Na která zařízení dorazí jako první a jak se liší od bety? Kompletní přehled rolloutu",
+          "url": "https://samsungmagazine.eu/2026/08/25/one-ui-9-update-list-features-samsung/",
+          "postStatus": "publish",
+          "date": "2026-08-25T05:55:27.000Z"
+        },
+        {
+          "title": "Přehled aktualizací Samsung: Která zařízení obdržela ve 34. týdnu roku 2026 nové verze?",
+          "url": "https://samsungmagazine.eu/2026/08/24/prehled-aktualizaci-samsung/",
+          "postStatus": "publish",
+          "date": "2026-08-24T04:03:04.000Z"
+        }
+      ]
+    },
+    {
+      "candidate_id": "SAM-3",
+      "site": "samsungmagazine.eu",
+      "query": "August security patch Galaxy S26",
+      "status": "CHECKED",
+      "docs_returned": 0,
+      "top_matches": []
+    },
+    {
+      "candidate_id": "SAM-4",
+      "site": "samsungmagazine.eu",
+      "query": "Galaxy Watch Ultra 2 recenze",
+      "status": "CHECKED",
+      "docs_returned": 5,
+      "top_matches": [
+        {
+          "title": "Samsung Galaxy Z Fold8 Ultra recenze: Je to špička, ale trochu nuda",
+          "url": "https://samsungmagazine.eu/2026/08/09/samsung-galaxy-z-fold8-ultra-recenze/",
+          "postStatus": "publish",
+          "date": "2026-08-09T17:56:54.000Z"
+        },
+        {
+          "title": "Nové skládačky od Samsungu stojí ranec. Tímto trikem ale můžete ušetřit desítky tisíc",
+          "url": "https://samsungmagazine.eu/2026/07/22/kolik-stoji-galaxy-z-fold8-flip8-a-watch9-kompletni-cenik/",
+          "postStatus": "publish",
+          "date": "2026-07-22T13:10:16.000Z"
+        },
+        {
+          "title": "Recenze Galaxy Watch8 Classic: Skvělé chytré hodinky v nevábném obalu",
+          "url": "https://samsungmagazine.eu/2025/09/21/recenze-galaxy-watch8-classic/",
+          "postStatus": "publish",
+          "date": "2025-09-21T18:00:55.000Z"
+        }
+      ]
+    },
+    {
+      "candidate_id": "AND-1",
+      "site": "androidmagazine.eu",
+      "query": "Google System Updates August 2026 Android",
+      "status": "CHECKED",
+      "docs_returned": 0,
+      "top_matches": []
+    },
+    {
+      "candidate_id": "AND-2",
+      "site": "androidmagazine.eu",
+      "query": "Google Maps Android Auto traffic data",
+      "status": "CHECKED",
+      "docs_returned": 0,
+      "top_matches": []
+    },
+    {
+      "candidate_id": "AND-3",
+      "site": "androidmagazine.eu",
+      "query": "Gemini Device Help Pixel 11",
+      "status": "CHECKED",
+      "docs_returned": 0,
+      "top_matches": []
+    },
+    {
+      "candidate_id": "AND-4",
+      "site": "androidmagazine.eu",
+      "query": "vypnout android telefon",
+      "status": "CHECKED",
+      "docs_returned": 5,
+      "top_matches": [
+        {
+          "title": "RCS po přechodu na nový Galaxy přestává fungovat. Google řeší chybu 3100",
+          "url": "https://androidmagazine.eu/2026/08/21/google-3100/",
+          "postStatus": "publish",
+          "date": "2026-08-21T08:20:05.000Z"
+        },
+        {
+          "title": "Jak na Androidu snadno nastavit tapety podle denní doby",
+          "url": "https://androidmagazine.eu/2026/08/20/jak-na-androidu-snadno-nastavit-tapety-podle-denni-doby/",
+          "postStatus": "publish",
+          "date": "2026-08-20T06:29:58.000Z"
+        },
+        {
+          "title": "Android 17 zpřísňuje aplikace běžící na pozadí. U některých může přestat fungovat zvuk",
+          "url": "https://androidmagazine.eu/2026/08/19/android-17-audio/",
+          "postStatus": "publish",
+          "date": "2026-08-19T12:20:48.000Z"
+        }
+      ]
+    }
+  ]
+}

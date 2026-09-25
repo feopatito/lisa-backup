@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "personal-productivity",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786532373314,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "daf4b77df3d2cbb2e5cbc12c7533947c704d46888ce5b8c43e0044ecb6650a58",
+    "integrity": "sha256-2vS3ffPSy7Lly8EsdTOUfHBNRoiM5bjEPgBE7LZlClg="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "3e1998f1059fbf75dc3ea92e90485a59a3332bd8bd9c81fbc706ffd16d751ee0"
+  }
+}

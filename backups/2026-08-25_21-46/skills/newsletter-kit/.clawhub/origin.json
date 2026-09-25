@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "newsletter-kit",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786598379484,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "8309c9699ce1e90fa5f01466ccde5445e7c1f5c17ad55a8af7c66d85fcbc5109",
+    "integrity": "sha256-gwnJaZzh6Q+l8BRmzN5URefB9cF61VqK98Zthfy8UQk="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "567516fe0d1d810f641e78b91e997a835f17012d9a900a7ee48d4cdefe16c421"
+  }
+}

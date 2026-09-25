@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "ai-image-editing",
+  "installedVersion": "1.0.1",
+  "installedAt": 1786524843538,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "38c77b158d3b065461975e3b21ea517ce8faaa6ad752dbf35cdd714a81eb1097",
+    "integrity": "sha256-OMd7FY07BlRhl147IepRfOj6qmrXUtvzXN1xSoHrEJc="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "2f942bb6515d52d2ee9c149d4692caf75501dd3555a00953c211dcfcf74e5c53"
+  }
+}

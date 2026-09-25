@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "apple-media",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786540625760,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "b17285ebbded295c9ad4859ce633ab0a2d6984527a0cf43e0bbfe75bd7fa12f3",
+    "integrity": "sha256-sXKF673tKVya1IWc5jOrCi1phFJ6DPQ+C7/nW9f6EvM="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "367bb3a98bc8eee413e21034a5c3f619852aaa9dd017949438348c07e30e19a6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "notion",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786525156144,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "5db6db3f3ba619f0432fbb28fa0d1e9cd5f6dff39fe6a62d8be840637fa6aadc",
+    "integrity": "sha256-XbbbPzumGfBDL7so+g0enNX23/Of5qYti+hAY3+mqtw="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "1002bcb8230ff496b65c2cb030737ed561c8c85fa1f823bed9192550e282a6fa"
+  }
+}

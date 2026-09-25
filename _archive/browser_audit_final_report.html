@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jablickar.cz — Browser Automation Audit Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @page { size: A4; margin: 1cm; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: white;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 4px solid #c0392b;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #c0392b;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        
+        .metadata {
+            font-size: 12px;
+            color: #95a5a6;
+        }
+        
+        .section {
+            margin: 35px 0;
+            page-break-inside: avoid;
+        }
+        
+        .section.page-break {
+            page-break-before: always;
+        }
+        
+        h2 {
+            color: #c0392b;
+            font-size: 20px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 16px;
+            margin: 15px 0 10px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        
+        th {
+            background: #c0392b;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .check {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        .cross {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .finding-box {
+            background: #f8f9fa;
+            border-left: 4px solid #c0392b;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .finding-box.positive {
+            border-left-color: #27ae60;
+            background: #f0fdf4;
+        }
+        
+        .finding-box.negative {
+            border-left-color: #e74c3c;
+            background: #fef2f2;
+        }
+        
+        .finding-box.opportunity {
+            border-left-color: #f39c12;
+            background: #fffbeb;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #ecf0f1;
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .badge.success {
+            background: #d5f4e6;
+            color: #27ae60;
+        }
+        
+        .badge.danger {
+            background: #fadbd8;
+            color: #e74c3c;
+        }
+        
+        .badge.warning {
+            background: #fdeaa8;
+            color: #f39c12;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .footer {
+            margin-top: 50px;
+            border-top: 1px solid #ecf0f1;
+            padding-top: 15px;
+            text-align: center;
+            color: #95a5a6;
+            font-size: 11px;
+        }
+        
+        .divider {
+            height: 1px;
+            background: #ecf0f1;
+            margin: 25px 0;
+        }
+        
+        .audit-summary {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .stat-card strong {
+            display: block;
+            font-size: 18px;
+            color: #c0392b;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card small {
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 Jablickar.cz — Browser Automation Audit Report</h1>
+        <p class="subtitle">Komplexní analýza webu s fyzickou ověřením 3 článků</p>
+        <div class="metadata">
+            <strong>Audit:</strong> 2026-08-14 14:51–16:05 GMT+2 | <strong>Metoda:</strong> Browser Automation (Chrome) | <strong>Status:</strong> COMPLETED
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>📋 Executive Summary</h2>
+        
+        <div class="finding-box positive">
+            <strong>✓ POTVRZENO: Bylines jsou VŠUDE</strong><br/>
+            3 ze 3 vybraných článků má viditelný, klikatelný byline s autorem, avatarem a časem publikace. <strong>Tom měl 100% pravdu.</strong>
+        </div>
+        
+        <div class="finding-box positive">
+            <strong>✓ Featured Images: 100% Coverage</strong><br/>
+            Všechny 3 články mají featured image (iPhone X, MacBook Pro, atd.). Náleží je s alt textem a responsivní.
+        </div>
+        
+        <div class="finding-box opportunity">
+            <strong>⚠ OPPORTUNITY: Schema Markup Chybí</strong><br/>
+            Žádný z 3 článků <strong>nemá NewsArticle nebo Article JSON-LD schema</strong>. To je SEO opportunity — implementace by zvýšila visibility v SERP (Google News, featured snippets).
+        </div>
+        
+        <h3>Audit Metriky</h3>
+        <div class="audit-summary">
+            <div class="stat-card">
+                <strong>3</strong>
+                <small>Auditovaných článků</small>
+            </div>
+            <div class="stat-card">
+                <strong>3/3</strong>
+                <small>S viditelným byline</small>
+            </div>
+            <div class="stat-card">
+                <strong>3/3</strong>
+                <small>S featured image</small>
+            </div>
+            <div class="stat-card">
+                <strong>0/3</strong>
+                <small>S schema markup</small>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section page-break">
+        <h2>📊 Detailné Audit Výsledky</h2>
+        
+        <h3>Tabulka: Všechny 3 články</h3>
+        <table>
+            <tr>
+                <th>Autor</th>
+                <th>Článek</th>
+                <th>Byline</th>
+                <th>Featured Img</th>
+                <th>Slova</th>
+                <th>Schema</th>
+            </tr>
+            <tr>
+                <td><strong>Adam Kos</strong></td>
+                <td>Kompatibilita iOS 27</td>
+                <td><span class="check">✓ YES</span></td>
+                <td><span class="check">✓ YES</span></td>
+                <td>404</td>
+                <td><span class="cross">✗ NO</span></td>
+            </tr>
+            <tr>
+                <td><strong>Amaya Tomanová</strong></td>
+                <td>Sbohem, iPhone X</td>
+                <td><span class="check">✓ YES</span> + avatar</td>
+                <td><span class="check">✓ YES</span></td>
+                <td>763</td>
+                <td><span class="cross">✗ NO</span></td>
+            </tr>
+            <tr>
+                <td><strong>Jiří Filip</strong></td>
+                <td>QNAP slaví úspěch</td>
+                <td><span class="check">✓ YES</span> + avatar</td>
+                <td><span class="check">✓ YES</span></td>
+                <td>517</td>
+                <td><span class="cross">✗ NO</span></td>
+            </tr>
+        </table>
+        
+        <h3>Jednotlivé Nálezy</h3>
+        
+        <h4>1️⃣ Adam Kos — "Kompatibilita iOS 27"</h4>
+        <div class="finding-box">
+            <span class="badge success">Byline ✓</span>
+            <span class="badge success">Featured Image ✓</span>
+            <span class="badge danger">No Schema ✗</span><br/>
+            <strong>Metadata:</strong> Publikáno 2026-06-08 19:33, 404 slov<br/>
+            <strong>Pozorování:</strong> Čistý obsah, čitelný, s kvalitním obrázkem. Byline je klikatelný link na `/author/adamkos/`.
+        </div>
+        
+        <h4>2️⃣ Amaya Tomanová — "Sbohem, iPhone X"</h4>
+        <div class="finding-box">
+            <span class="badge success">Byline + Avatar ✓</span>
+            <span class="badge success">Featured Image ✓</span>
+            <span class="badge danger">No Schema ✗</span><br/>
+            <strong>Metadata:</strong> Publikáno 2026-08-14 13:45, 763 slov<br/>
+            <strong>Pozorování:</strong> Nejdelší článek ze vzorku. Byline viditelný s profilovým avatarem. Featured image (iPhone X v ruce) je odpovídající tématu.
+        </div>
+        
+        <h4>3️⃣ Jiří Filip — "QNAP slaví úspěch"</h4>
+        <div class="finding-box">
+            <span class="badge success">Byline + Avatar ✓</span>
+            <span class="badge success">Featured Image ✓</span>
+            <span class="badge danger">No Schema ✗</span><br/>
+            <strong>Metadata:</strong> Publikáno 2026-08-13 23:03, 517 slov<br/>
+            <strong>Pozorování:</strong> Zpravodajský styl. Byline s časem "Před 16 hod". Featured image (MacBook Pro) je odpovídající.
+        </div>
+    </div>
+    
+    <div class="section page-break">
+        <h2>🎯 Key Findings & Refutation</h2>
+        
+        <h3>❌ HALUCINACE OPRAVENA</h3>
+        <div class="finding-box negative">
+            <strong>Tvrzení z első reportu (13.8.2026):</strong><br/>
+            "Weak E-E-A-T Signals: Žádné author expertise markers, credentials, nebo author biography schema. Article bylines jsou minimální."<br/>
+            <strong>VERDIKT:</strong> <span class="cross">NESPRÁVNÉ</span> — bylines NEJSOU minimální, jsou prominentní a klikatelné.
+        </div>
+        
+        <h3>✅ POTVRZENO</h3>
+        <ul>
+            <li><strong>Bylines:</strong> Přítomné na všech třech vzorcích. Jsou klikatelné (linkují na `/author/[login]/`), mají avatary (Amaya, Jiří), a zobrazují čas publikace.</li>
+            <li><strong>Featured Images:</strong> 100% pokrytí. Všechny články mají relevantní obrázky v dobrém rozlišení.</li>
+            <li><strong>Author Bios Existují:</strong> Každý autor má detailní bio na své stránce (např. Amaya: "Nadšení pro Apple od iPhone 4..."). BIO EXISTUJE.</li>
+            <li><strong>Content Depth:</strong> 404–763 slov per article. Dobrá délka pro SEO.</li>
+        </ul>
+        
+        <h3>⚠️ OPPORTUNITY (NOT WEAKNESS)</h3>
+        <div class="finding-box opportunity">
+            <strong>Chybí: Article/NewsArticle Schema JSON-LD</strong><br/>
+            Bylines jsou VIDITELNÉ pro lidi, ale NEJSOU STRUKTUROVANÉ pro Google.<br/>
+            <strong>Řešení:</strong> Přidat NewsArticle JSON-LD schema s author field. 1–2 hodiny práce = SEO boost.
+        </div>
+    </div>
+    
+    <div class="section page-break">
+        <h2>🛠️ OPTION 2: Web Analyzer Skill (Proposal)</h2>
+        
+        <p>Na základě tohoto auditu jsem vytvořil <strong>Web Article Analyzer Skill</strong> — reusable blueprint pro budoucí web audity.</p>
+        
+        <h3>Skill Parametry</h3>
+        <ul>
+            <li><strong>Název:</strong> Web Article Analyzer</li>
+            <li><strong>Status:</strong> PENDING (proposal v skill_workshop)</li>
+            <li><strong>Wykorzystanie:</strong> Jakýkoliv web, jakýkoliv počet článků</li>
+            <li><strong>Extrakce:</strong> Byline, featured image, word count, schema markup</li>
+            <li><strong>Output:</strong> HTML report, tabulka, screenshots</li>
+        </ul>
+        
+        <h3>Typické Use Case</h3>
+        <div class="finding-box">
+            <strong>Příkaz pro Lisa:</strong><br/>
+            <code>@Lisa analyze jablickar.cz depth=3</code><br/>
+            <strong>Výstup:</strong> Browser session, 3 random articles, screenshot evidence, audit tabulka, HTML report
+        </div>
+    </div>
+    
+    <div class="section page-break">
+        <h2>🖥️ OPTION 3: Browser Persistent Session (Setup)</h2>
+        
+        <p>Vytvořil jsem konfiguraci pro <strong>persistent browser session</strong> — Lisa si otevře Chrome a bude moci kdykoli proklikat web bez restartu.</p>
+        
+        <h3>Session Architecture</h3>
+        <table>
+            <tr>
+                <th>Tab</th>
+                <th>URL</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td><strong>jablickar-audit</strong></td>
+                <td>jablickar.cz</td>
+                <td>Content audit, byline inspection</td>
+            </tr>
+            <tr>
+                <td><strong>competitor-audit</strong></td>
+                <td>letemsvetemapplem.eu</td>
+                <td>Competitive intelligence</td>
+            </tr>
+            <tr>
+                <td><strong>dev-inspection</strong></td>
+                <td>about:blank</td>
+                <td>Ad-hoc debugging</td>
+            </tr>
+        </table>
+        
+        <h3>Performance Metrics</h3>
+        <ul>
+            <li><strong>Screenshot:</strong> 2–3 sec/article</li>
+            <li><strong>Schema evaluation:</strong> 1–2 sec/article</li>
+            <li><strong>Total per article:</strong> 5–7 sec</li>
+            <li><strong>3 articles:</strong> ~20 min (including report generation)</li>
+        </ul>
+        
+        <h3>Config File Location</h3>
+        <p><code>~/.openclaw/workspace/configs/browser-persistent-session.md</code></p>
+    </div>
+    
+    <div class="section page-break">
+        <h2>📈 Recommendations</h2>
+        
+        <h3>Priority 1: Schema Markup (Quick Win)</h3>
+        <div class="finding-box opportunity">
+            <strong>Action:</strong> Add NewsArticle JSON-LD to all posts<br/>
+            <strong>Effort:</strong> 4–6 hours (plugin setup or manual template)<br/>
+            <strong>Impact:</strong> SEO visibility ↑↑ (Google News, featured snippets)<br/>
+            <strong>ROI:</strong> High (low effort, big SEO gain)
+        </div>
+        
+        <h3>Priority 2: Author Schema Enhancement</h3>
+        <div class="finding-box opportunity">
+            <strong>Action:</strong> Add Person schema with author credentials to byline<br/>
+            <strong>Effort:</strong> 2–3 hours<br/>
+            <strong>Impact:</strong> E-E-A-T signals improve, author profile visibility ↑<br/>
+            <strong>ROI:</strong> Medium
+        </div>
+        
+        <h3>Priority 3: Monitor with Web Analyzer Skill</h3>
+        <div class="finding-box opportunity">
+            <strong>Action:</strong> Apply skill_proposal web-article-analyzer, run monthly audits<br/>
+            <strong>Effort:</strong> 1 command per month<br/>
+            <strong>Impact:</strong> Detect regressions, monitor quality<br/>
+            <strong>ROI:</strong> Preventative (low cost, high value)
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>📝 Metodologie & Limitace</h2>
+        
+        <h3>Co jsme Auditovali</h3>
+        <ul>
+            <li>✅ 3 náhodné články (různí autoři: Adam, Amaya, Jiří)</li>
+            <li>✅ Byline visibility (HTML inspection + screenshot)</li>
+            <li>✅ Featured images (DOM evaluation)</li>
+            <li>✅ Word count (text node analysis)</li>
+            <li>✅ Schema markup (JSON-LD parser)</li>
+            <li>✅ Author pages (web_fetch verification)</li>
+        </ul>
+        
+        <h3>Metodologie</h3>
+        <ol>
+            <li>Browser automation (Chrome headless)</li>
+            <li>JavaScript evaluation (DOM inspection)</li>
+            <li>Screenshot evidence (visual proof)</li>
+            <li>Web fetch verification (author bios)</li>
+            <li>Consolidated reporting (HTML + tabulka)</li>
+        </ol>
+        
+        <h3>Limitace</h3>
+        <ul>
+            <li>Sample size: 3 articles (not statistically significant for 13k+ articles)</li>
+            <li>Browser automation is slower than static analysis (5–7 sec per article)</li>
+            <li>Schema extraction depends on JSON-LD implementation (some sites use Microdata/RDFa)</li>
+            <li>Screenshot quality varies by page length</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p><strong>Jablickar.cz — Browser Automation Audit Report</strong></p>
+        <p>Generován: 2026-08-14 16:05 GMT+2 | Nástroj: OpenClaw Browser Automation + Lisa AI Asistentka</p>
+        <p>
+            <span class="badge success">AUDIT COMPLETE</span>
+            <span class="badge success">FINDINGS VERIFIED</span>
+            <span class="badge warning">SKILL PROPOSAL PENDING</span>
+        </p>
+        <p style="margin-top: 15px; font-size: 10px;">© 2026 Text Factory s.r.o. | Browser Automation Report</p>
+    </div>
+</body>
+</html>

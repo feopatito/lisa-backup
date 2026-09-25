@@ -1,0 +1,26 @@
+{
+  "downloaded_at": "2026-08-13T13:42:04.728Z",
+  "site": "sc-domain:androidmagazine.eu",
+  "ga4_property": "properties/361709661",
+  "files": {
+    "gsc": [
+      "queries-90d",
+      "queries-16m",
+      "pages-90d",
+      "pages-16m",
+      "daily-trend-16m",
+      "query-page-90d",
+      "countries-90d",
+      "devices-90d"
+    ],
+    "ga4": [
+      "pages-90d",
+      "daily-trend-90d",
+      "sources-90d",
+      "countries-90d",
+      "devices-90d",
+      "landing-pages-90d"
+    ]
+  },
+  "next_refresh": "Čerstvá data: pouze pro data novější než uložený timestamp"
+}

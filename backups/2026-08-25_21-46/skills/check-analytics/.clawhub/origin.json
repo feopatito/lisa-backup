@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "check-analytics",
+  "installedVersion": "0.1.0",
+  "installedAt": 1786524964453,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "4391e75797d97f3f0e25b30c598cd6cae2322171e397eefb41ed366591b7de01",
+    "integrity": "sha256-Q5HnV5fZfz8OJbMMWYzWyuIyIXHjl+77Qe02ZZG33gE="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "6691b589d6808251d17152f262572c6ca83ce4860395b7e1206a7e78f8e19ccd"
+  }
+}

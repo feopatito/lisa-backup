@@ -1,0 +1,918 @@
+{
+  "metadata": {
+    "analysis_date": "2026-08-14",
+    "analysis_period": "2026-07-01 to 2026-08-13",
+    "sample_size": 90,
+    "website": "jablickar.cz"
+  },
+  "content_health": {
+    "total_articles": 90,
+    "total_words": 34604,
+    "average_words_per_article": 384.5,
+    "date_range": "2026-07-01 to 2026-08-13",
+    "publication_frequency": "2.4 articles/day",
+    "content_freshness_score": "9/10"
+  },
+  "author_analysis": {
+    "articles_with_bylines": 1,
+    "byline_coverage_percent": 1.1,
+    "unique_authors": 1,
+    "finding": "CRITICAL: Only 1.1% of articles have author attribution"
+  },
+  "writing_style": {
+    "tone": "Technical + Expert",
+    "sentence_length": 12.6,
+    "vocabulary_diversity": "98.1%",
+    "classification": {
+      "formal": "6%",
+      "casual": "0%",
+      "technical": "100%"
+    },
+    "quality_scores": {
+      "clarity": 9,
+      "credibility": 9,
+      "engagement": 6,
+      "readability": 8,
+      "freshness": 7
+    }
+  },
+  "topic_coverage": {
+    "iPhone": 15,
+    "Apple": 24,
+    "macOS": 4,
+    "iPad": 5,
+    "AirPods": 4,
+    "Watch": 0,
+    "App Store": 1,
+    "AI/ML": 0,
+    "Gaming": 0,
+    "Storage": 1
+  },
+  "content_depth": {
+    "short_articles_percent": 43,
+    "medium_articles_percent": 21,
+    "long_articles_percent": 36
+  },
+  "ux_ui_assessment": {
+    "mobile_responsive": true,
+    "dark_mode_support": true,
+    "wcag_compliance": "AA",
+    "design_patterns": {
+      "uses_css_grid": false,
+      "uses_flexbox": false,
+      "has_breadcrumbs": false,
+      "has_sidebar": true,
+      "has_footer_nav": true
+    },
+    "modern_features": [
+      "Lazy loading",
+      "WebP support",
+      "SVG graphics"
+    ],
+    "issues": [
+      "Images not optimized to WebP"
+    ],
+    "overall_score": "7/10"
+  },
+  "seo_score": {
+    "on_page": "8/10",
+    "technical": "7/10",
+    "structured_data": "4/10",
+    "performance": "7/10",
+    "overall": "7.5/10"
+  },
+  "articles": [
+    {
+      "url": "https://jablickar.cz/zvrat-v-planech-apple-sluchatka-airpods-s-kamerou-mohou-dorazit-drive-nez-se-cekalo/",
+      "title": "",
+      "excerpt": "Vývoj bezdrátových sluchátek AirPods vybavených vestavěnými kamerami probíhá v Cupertinu už poměrně dlouho. Primárním účelem této technologie má být hluboké propojení s funkcí...",
+      "publish_date": "2026-08-03T20:15:49+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/Apple-AirPods-4-with-case1520x794.jpg",
+      "author": "",
+      "word_count": 578
+    },
+    {
+      "url": "https://jablickar.cz/ztrata-18-milionu-dolaru-a-zaloba-na-stole-apple-reaguje-na-kauzu-podvodne-kryptopenezenky/",
+      "title": "",
+      "excerpt": "Apple čelí u federálního soudu v Kalifornii žalobě ze strany tří zákazníků, kteří kvůli podvodné aplikaci v App Store přišli dohromady o 1,8 milionu dolarů v kryptoměnách. Žalobci...",
+      "publish_date": "2026-07-28T20:15:54+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2016/03/courtroom-soud1.jpg",
+      "author": "",
+      "word_count": 103
+    },
+    {
+      "url": "https://jablickar.cz/zrychleni-jake-jsme-tu-dlouho-nemeli-apple-v-ios-27-masivne-optimalizoval-vykon-i-pro-letite-iphony/",
+      "title": "",
+      "excerpt": "Letošní podzim se ve světě Applu ponese ve znamení obrovských změn. Zatímco pozornost většiny technologického světa se upíná k od základu přepracované asistentce Siri a zbrusu novým...",
+      "publish_date": "2026-07-20T18:15:40+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/11/iOS-27.png",
+      "author": "",
+      "word_count": 809
+    },
+    {
+      "url": "https://jablickar.cz/zpravy-v-ios-27-jsou-chytrejsi-nez-kdy-driv-apple-pridava-13-praktickych-novinek-ktere-usnadni-kazdodenni-komunikaci/",
+      "title": "",
+      "excerpt": "Když se řekne iPhone, většině z nás se vedle Safari nebo Fotoaparátu vybaví hlavně aplikace Zprávy. Právě v ní totiž často trávíme podstatnou část dne. Apple si to dobře...",
+      "publish_date": "2026-07-08T19:33:28+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/02/iOS-27-FB.jpg",
+      "author": "",
+      "word_count": 120
+    },
+    {
+      "url": "https://jablickar.cz/zneuzivaji-facetime-i-sdileni-obrazovky-apple-a-ftc-varuji-pred-novymi-praktikami-internetovych-podvodniku/",
+      "title": "",
+      "excerpt": "Představení iPhonu 3G v červnu 2008 provázela kuriózní situace. Těsně před premiérou totiž unikla falešná brožura operátora AT&#038;T, která vypadala velmi věrohodně a ukazovala, jak...",
+      "publish_date": "2026-07-14T20:15:27+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2020/08/FaceTime-logo-fb.jpg",
+      "author": "",
+      "word_count": 188
+    },
+    {
+      "url": "https://jablickar.cz/zlato-ropa-i-kakao-tri-komodity-ktere-se-vyplati-sledovat-ve-druhe-polovine-roku/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Komoditní trhy letos rozhodně nespí. Ceny některých surovin během několika měsíců výrazně vzrostly, jiné naopak prošly prudkou korekcí. Investoři proto stále...",
+      "publish_date": "2026-07-15T22:43:14+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Zlato-.jpg",
+      "author": "",
+      "word_count": 665
+    },
+    {
+      "url": "https://jablickar.cz/zdrazeni-jeste-pred-novou-generaci-apple-pry-planuje-zvysit-ceny-u-rady-iphone-17/",
+      "title": "",
+      "excerpt": "Společnost Apple by mohla podle nejnovějších úniků zvýšit ceny aktuálních modelů iPhone 17, a to možná už dnes, v pondělí 10. srpna. Tento překvapivý krok by tak přišel ještě...",
+      "publish_date": "2026-08-10T16:02:18+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/05/iPhone-17-Pro-Max-orange-12.jpg",
+      "author": "",
+      "word_count": 93
+    },
+    {
+      "url": "https://jablickar.cz/zavazna-zranitelnost-v-claude-cowork-utocnici-mohli-ziskat-neomezeny-pristup-k-celemu-macu/",
+      "title": "",
+      "excerpt": "Bezpečnostní výzkumníci odhalili kritickou zranitelnost v populárním nástroji Claude Cowork od společnosti Anthropic. Chyba označená jako SharedRoot umožňovala umělé inteligenci uniknout...",
+      "publish_date": "2026-07-28T18:32:04+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/10/Authy-hack.jpg.webp",
+      "author": "",
+      "word_count": 520
+    },
+    {
+      "url": "https://jablickar.cz/zasadni-zmena-pro-mobilni-fotografy-iphone-18-pro-ziska-fyzickou-promenlivou-clonu/",
+      "title": "",
+      "excerpt": "Podzimní představení jablečných novinek se pomalu blíží a pozornost se upíná k očekávaným modelům iPhone 18 Pro a iPhone 18 Pro Max. Ty by měly podle spolehlivých úniků dorazit se...",
+      "publish_date": "2026-07-23T18:45:19+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/05/iPhone-17-Pro-Max-orange-12.jpg",
+      "author": "",
+      "word_count": 350
+    },
+    {
+      "url": "https://jablickar.cz/zasadni-unik-odhaluje-predni-stranu-iphonu-ultra-ohebny-telefon-dorazi-s-prustrelem-a-bez-face-id/",
+      "title": "",
+      "excerpt": "Známý leaker vystupující pod přezdívkou &#8222;Ice Universe&#8220; sdílel fotografie a krátké video ochranných skel pro dlouho spekulovaný ohebný telefon od Applu, interně označovaný...",
+      "publish_date": "2026-08-13T15:12:26+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/iphone-fold-ultra-leak@2x-scaled-1.jpg",
+      "author": "",
+      "word_count": 336
+    },
+    {
+      "url": "https://jablickar.cz/zasadni-skok-ve-vykonu-cip-a20-pro-pro-iphone-18-pro-a-ultra-spoleha-na-dve-revolucni-technologie/",
+      "title": "",
+      "excerpt": "Každý podzim kalifornský gigant odhaluje novou generaci svých jablečných telefonů, jejíž nedílnou součástí je vždy i zbrusu nový procesor. Podle nejnovějších úniků z...",
+      "publish_date": "2026-07-21T15:32:10+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/05/a20-chip-feature.jpg",
+      "author": "",
+      "word_count": 388
+    },
+    {
+      "url": "https://jablickar.cz/zaruceny-recept-na-dobrou-naladu-prinasime-tipy-na-skvele-komedie-z-netflixu-ktere-vas-stoprocentne-pobavi/",
+      "title": "",
+      "excerpt": "Ať už máte za sebou náročný pracovní den nebo jen hledáte ideální film pro odpočinkový víkend, Netflix nabízí nepřeberné množství žánrové zábavy. Někdy zkrátka není nad to...",
+      "publish_date": "2026-07-06T15:42:09+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Netflix-FB.png",
+      "author": "",
+      "word_count": 496
+    },
+    {
+      "url": "https://jablickar.cz/zaloba-kvuli-siri-ai-pokracuje-apple-muze-nekterym-majitelum-iphonu-vyplatit-az-95-dolaru/",
+      "title": "",
+      "excerpt": "Hromadná žaloba proti Applu kvůli odloženému uvedení funkcí Siri AI se posunula o další krok. Kalifornský soud tento týden projednal předběžné schválení navrhovaného vyrovnání,...",
+      "publish_date": "2026-07-10T15:52:55+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/macOS-iOS-27-Siri-App-Feature.webp",
+      "author": "",
+      "word_count": 102
+    },
+    {
+      "url": "https://jablickar.cz/zaloba-kvuli-kondenzaci-v-airpods-max-dostala-tvrdou-ranu-vetsinu-naroku-soud-zamitl/",
+      "title": "",
+      "excerpt": "Dlouho diskutovaný problém s kondenzací uvnitř sluchátek AirPods Max se opět dostal před soud. Tentokrát ale Apple zaznamenal důležité vítězství. Federální soudkyně ve státě New...",
+      "publish_date": "2026-07-08T20:34:40+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2022/04/AirPods-Max-vs-AirPOds_nahled.png",
+      "author": "",
+      "word_count": 84
+    },
+    {
+      "url": "https://jablickar.cz/zakladni-iphone-18-potesi-zasadnimi-vylepsenimi-analytik-slibuje-12-gb-ram-a-mensi-dynamic-island/",
+      "title": "",
+      "excerpt": "Již za několik málo týdnů nás čeká velká zářijová událost Applu, na které se světu představí očekávané modely iPhone 18 Pro, iPhone 18 Pro Max a zcela nový iPhone Ultra. Podle...",
+      "publish_date": "2026-08-13T10:46:36+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/1920_1080_iPhone_17_modra.jpg",
+      "author": "",
+      "word_count": 611
+    },
+    {
+      "url": "https://jablickar.cz/zakaznicka-podpora-budoucnosti-apple-v-obchodech-testuje-system-ktery-pomoci-ai-nahrava-a-prepisuje-konverzace/",
+      "title": "",
+      "excerpt": "Návštěva pobočky Apple Store a obzvláště sekce Genius Bar je pro mnoho uživatelů spásou při řešení technických potíží. Zkušení technici se snaží pomoci s rozbitým iPhonem či...",
+      "publish_date": "2026-07-20T21:15:15+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/Apple-Store-Barcelano-Passeig-de-Gracia-1-1.jpg",
+      "author": "",
+      "word_count": 370
+    },
+    {
+      "url": "https://jablickar.cz/zajimave-macos-aplikace-promente-mac-pomoci-ai-zivych-tapet-a-chytrych-pripominek/",
+      "title": "",
+      "excerpt": "Sentient Sentient je bezplatná open-source aplikace pro macOS, která se snaží proměnit Mac v proaktivního osobního asistenta. Každou noc analyzuje pomocí lokálně spuštěného jazykového...",
+      "publish_date": "2026-07-26T00:32:16+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Sentient-.png",
+      "author": "",
+      "word_count": 773
+    },
+    {
+      "url": "https://jablickar.cz/zabava-na-vikend-zarucena-prinasime-dalsi-skvele-filmove-tipy-z-oneplay/",
+      "title": "",
+      "excerpt": "OnePlay skrývá opravdu bohatou knihovnu plnou známých hitů i nestárnoucích klasik, které si zaslouží vaši pozornost. Ať už máte chuť na českou letní jízdu, nebo hollywoodskou...",
+      "publish_date": "2026-07-05T14:05:21+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/pojedem-k-mori-FB.png",
+      "author": "",
+      "word_count": 532
+    },
+    {
+      "url": "https://jablickar.cz/zabava-na-vikend-zajistena-prinasime-tipy-na-ty-nejlepsi-filmove-pecky-ktere-aktualne-najdete-na-hbo/",
+      "title": "",
+      "excerpt": "Máme zde prodloužený víkend, což je naprosto ideální čas na to hodit nohy nahoru a pustit si nějaký skvělý film. Pokud máte předplacenou službu HBO a nevíte, na co se večer podívat,...",
+      "publish_date": "2026-07-04T13:12:35+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Zombieland-fb.png",
+      "author": "",
+      "word_count": 524
+    },
+    {
+      "url": "https://jablickar.cz/z-iphonu-primo-do-utrob-auta-ford-nasadi-do-svych-chystanych-elektromobilu-nativni-mapy-od-applu/",
+      "title": "",
+      "excerpt": "Společnosti Apple a Ford oznámily významné partnerství, které zásadním způsobem mění dosavadní přístup k palubní navigaci. Mapy od Applu se stanou primárním navigačním systémem v...",
+      "publish_date": "2026-07-24T11:04:59+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/03/Ads-Are-Coming-to-Apple-Maps-Feature.jpg",
+      "author": "",
+      "word_count": 322
+    },
+    {
+      "url": "https://jablickar.cz/z-historie-applu-pred-20-lety-apple-poslal-do-duchodu-svuj-posledni-mac-s-crt-monitorem-skoncila-tim-jedna-technologicka-era/",
+      "title": "",
+      "excerpt": "Jsou produkty, které mění svět, a pak jsou produkty, které jej tiše opouštějí. Přesně to se stalo 5. července 2006, kdy Apple definitivně ukončil prodej modelu eMac. Na první pohled...",
+      "publish_date": "2026-08-01T19:32:11+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2021/08/eMac-4.jpg",
+      "author": "",
+      "word_count": 110
+    },
+    {
+      "url": "https://jablickar.cz/z-historie-applu-iphone-3g-telefon-ktery-z-iphonu-udelal-fenomen-a-navzdy-zmenil-mobilni-svet/",
+      "title": "",
+      "excerpt": "Když Apple v roce 2007 představil první iPhone, bylo jasné, že mobilní telefony už nikdy nebudou stejné. O rok později ale přišel produkt, který měl možná ještě větší dopad. Dne...",
+      "publish_date": "2026-07-18T20:30:08+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2019/03/App-Store-on-iPhone-3G.jpg",
+      "author": "",
+      "word_count": 96
+    },
+    {
+      "url": "https://jablickar.cz/z-historie-applu-ctvrta-generace-ipodu-sjednotila-ovladani-do-legendarniho-click-wheelu/",
+      "title": "",
+      "excerpt": "Společnost Apple představila 19. července roku 2004 čtvrtou generaci iPodu. Na první pohled nešlo o žádnou revoluci – přehrávač si zachoval bílý plastový design, monochromatický...",
+      "publish_date": "2026-07-26T13:32:31+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2019/07/iPod-4th-Gen-1.jpg",
+      "author": "",
+      "word_count": 91
+    },
+    {
+      "url": "https://jablickar.cz/xtb-rozsiruje-nabidku-komodit-nove-muzete-obchodovat-plyn-kakao-i-pomerancovy-dzus/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Komodity si v posledních letech získávají mezi investory stále větší oblibu. Výrazné cenové pohyby u energií, zemědělských plodin i dalších surovin totiž...",
+      "publish_date": "2026-07-05T23:32:58+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/XTB-rozsiruje-ponuku-komodit-.jpg",
+      "author": "",
+      "word_count": 656
+    },
+    {
+      "url": "https://jablickar.cz/windows-i-office-za-ceny-ktere-prekvapi-letni-vyprodej-godeal24-prave-odstartoval/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Léto je často oblíbeným obdobím pro modernizaci počítačů, ať už jde o výměnu zastaralého systému, sestavení nového stolního počítače nebo přípravu...",
+      "publish_date": "2026-07-02T19:03:37+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/260609-720p-gd24-E.jpg",
+      "author": "",
+      "word_count": 1075
+    },
+    {
+      "url": "https://jablickar.cz/whatsapp-spousti-uzivatelska-jmena-telefonni-cislo-uz-nebude-pro-komunikaci-nezbytne/",
+      "title": "",
+      "excerpt": "Nejpoužívanější komunikační platforma na světě začíná konečně uvolňovat dlouho očekávanou funkci, která od základu mění způsob, jakým ji používáme. Doposud byl WhatsApp...",
+      "publish_date": "2026-07-17T20:15:54+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/04/Whatsapp-Feature.jpg",
+      "author": "",
+      "word_count": 163
+    },
+    {
+      "url": "https://jablickar.cz/whatsapp-pro-mac-meni-pravidla-beta-testeri-si-nove-mohou-vybrat-jak-casto-chteji-stahovat-aktualizace/",
+      "title": "",
+      "excerpt": "Nejnovější beta verze WhatsAppu pro Mac přináší velmi užitečnou novinku pro všechny nadšené testery. Uživatelé si nově mohou svobodně vybrat, zda chtějí přijímat aktualizace na...",
+      "publish_date": "2026-08-04T20:15:24+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/04/Whatsapp-Feature.jpg",
+      "author": "",
+      "word_count": 177
+    },
+    {
+      "url": "https://jablickar.cz/vysledkova-sezona-technologickych-gigantu-kdo-prekvapil-a-kdo-investory-zklamal/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Výsledková sezóna je opět v plném proudu a největší technologické firmy světa zveřejňují hospodářské výsledky za uplynulé čtvrtletí. Právě tyto společnosti...",
+      "publish_date": "2026-08-01T22:03:46+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Vysledkova-sezona-vrcholi-.png",
+      "author": "",
+      "word_count": 580
+    },
+    {
+      "url": "https://jablickar.cz/vyrocni-iphone-20-ma-prinest-nejvetsi-redesign-od-iphonu-x-apple-chysta-sklenene-telo-i-displej-bez-vyrezu/",
+      "title": "",
+      "excerpt": "Apple oslaví v příštím roce dvacet let od zahájení prodeje prvního iPhonu a podle dosavadních úniků chystá skutečně výjimečný model. Výroční novinka, označovaná prozatím jako...",
+      "publish_date": "2026-07-30T17:45:51+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/iPhone-20-2.jpg",
+      "author": "",
+      "word_count": 92
+    },
+    {
+      "url": "https://jablickar.cz/vyroba-iphonu-18-pro-jede-naplno-nabidne-mensi-dynamic-island-a-promenlivou-clonu/",
+      "title": "",
+      "excerpt": "Podle informací deníku China Securities News vstoupily očekávané modely iPhone 18 Pro do fáze masové produkce. Hlavní montážní partner Applu, společnost Foxconn, spustil agresivní...",
+      "publish_date": "2026-07-23T15:28:19+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Dynamic-Island-iPhone-18-Pro-Feature.jpg",
+      "author": "",
+      "word_count": 455
+    },
+    {
+      "url": "https://jablickar.cz/volvo-pridava-apple-music-do-vice-nez-2-milionu-aut-aktualizaci-nainstaluje-na-dalku/",
+      "title": "",
+      "excerpt": "Majitelé vozů Volvo získají další možnost, jak poslouchat hudbu bez připojování iPhonu a používání CarPlay. Automobilka začala prostřednictvím vzdálené softwarové aktualizace...",
+      "publish_date": "2026-07-22T20:15:24+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/CarPlay-iOS-26-2.png",
+      "author": "",
+      "word_count": 85
+    },
+    {
+      "url": "https://jablickar.cz/vivo-v70-lite-5g-ukazuje-ze-velka-baterie-nemusi-znamenat-tlusty-telefon-ted-navic-stoji-jen-8-999-kc/",
+      "title": "",
+      "excerpt": "Velkokapacitní baterie bývá často vykoupena větší tloušťkou a vyšší hmotností telefonu. Model vivo V70 Lite 5G se však snaží ukázat, že to nemusí být pravidlem. Do konstrukce...",
+      "publish_date": "2026-07-30T23:15:29+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/image003.jpg",
+      "author": "",
+      "word_count": 596
+    },
+    {
+      "url": "https://jablickar.cz/vivo-v70-lite-5g-sazi-na-fotoaparat-sony-ve-stredni-tride-nabizi-vybavu-ktera-prekvapi/",
+      "title": "",
+      "excerpt": "Fotoaparát bývá u telefonů střední třídy často jednou z oblastí, kde výrobci hledají úspory. vivo se ale u modelu V70 Lite 5G rozhodlo vydat opačným směrem. Novinka, která je...",
+      "publish_date": "2026-07-31T23:46:50+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/image003.jpg",
+      "author": "",
+      "word_count": 562
+    },
+    {
+      "url": "https://jablickar.cz/vivo-v70-lite-5g-dorazilo-do-ceska-zaujme-6-500mah-baterii-amoled-displejem-i-cenou/",
+      "title": "",
+      "excerpt": "Společnost vivo uvádí na český trh nový model střední třídy V70 Lite 5G, který láká především na kombinaci velké baterie, kvalitního fotoaparátu Sony a jasného AMOLED displeje. To...",
+      "publish_date": "2026-07-29T23:03:32+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/V70-Lite-Black-Horizontal-CZ_RGB.jpg",
+      "author": "",
+      "word_count": 676
+    },
+    {
+      "url": "https://jablickar.cz/vivo-prinasi-do-ceska-nove-watch-gt-2-nabidnou-az-25denni-vydrz-i-ai-funkce/",
+      "title": "",
+      "excerpt": "vivo přináší na český trh nové chytré hodinky vivo WATCH GT 2. Novinka chce zaujmout velkým AMOLED displejem, výdrží až 25 dní i sportovními funkcemi zaměřenými mimo jiné na padel a...",
+      "publish_date": "2026-07-01T23:02:40+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/WATCH-GT-2_产品KV_黑白_横版_RGB_CZ.jpg",
+      "author": "",
+      "word_count": 548
+    },
+    {
+      "url": "https://jablickar.cz/vivo-na-summitu-ai-for-good-global-summit-2026-predstavilo-bezpecnostni-reseni-pro-on-device-ai/",
+      "title": "",
+      "excerpt": "Ženeva, 10. července 2026 – Ve dnech 7. až 10. července 2026 se ve švýcarské Ženevě konal AI for Good Global Summit, který pořádá Mezinárodní telekomunikační unie (ITU) ve...",
+      "publish_date": "2026-07-13T14:15:37+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Picture-1.jpg",
+      "author": "",
+      "word_count": 1107
+    },
+    {
+      "url": "https://jablickar.cz/verejni-testeri-dostavaji-novy-firmware-pro-airpods-pripravuje-je-na-ios-27/",
+      "title": "",
+      "excerpt": "Apple pokračuje v ladění svých operačních systémů před podzimním vydáním a spolu s nimi nezapomíná ani na AirPods. Veřejným beta testerům nyní zpřístupnil novou testovací verzi...",
+      "publish_date": "2026-07-15T16:45:06+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/09/AirPods-Pro-3-LsA11.jpg",
+      "author": "",
+      "word_count": 97
+    },
+    {
+      "url": "https://jablickar.cz/verejna-beta-ios-27-dorazi-uz-brzy-tohle-byste-meli-vedet-pred-instalaci/",
+      "title": "",
+      "excerpt": "Apple už dříve potvrdil, že první veřejná beta systému iOS 27 vyjde během července. Přestože přesné datum zatím neoznámil, pokud bude pokračovat v zaběhnutém harmonogramu z...",
+      "publish_date": "2026-07-09T08:32:02+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/11/iOS-27.png",
+      "author": "",
+      "word_count": 100
+    },
+    {
+      "url": "https://jablickar.cz/ventusky-zasadne-vylepsuje-predpoved-pocasi-nove-ukaze-dest-vitr-i-oblacnost-do-nejmensich-detailu/",
+      "title": "",
+      "excerpt": "Tým stojící za aplikací Ventusky se v nejnovější aktualizaci zaměřil na výrazné vylepšení tabulkových předpovědí počasí. Kompletně přepracované zobrazení nyní nabízí mnohem...",
+      "publish_date": "2026-07-15T12:54:28+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/forecasts-pic1-cz.jpg",
+      "author": "",
+      "word_count": 624
+    },
+    {
+      "url": "https://jablickar.cz/velke-letni-slevy-na-jbl-jsou-tady-usetrit-muzete-na-sluchatkach-i-reproduktorech/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Ať už se letos chystáte na dovolenou, festival, k vodě nebo plánujete trávit večery na zahradě s přáteli, kvalitní audio výbava přijde vhod téměř při každé...",
+      "publish_date": "2026-07-19T18:02:11+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/jbl-2.jpg",
+      "author": "",
+      "word_count": 485
+    },
+    {
+      "url": "https://jablickar.cz/ve-zpravach-uz-omylem-nespustite-diktovani-ani-nahravani-ios-27-dovoli-tlacitko-uplne-skryt/",
+      "title": "",
+      "excerpt": "Stačí odeslat zprávu, položit prst o několik milimetrů vedle a iPhone začne místo očekávané reakce poslouchat. Hudba se pozastaví a ve Zprávách se spustí diktování nebo nahrávání...",
+      "publish_date": "2026-07-30T21:45:32+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/11/iOS-27.png",
+      "author": "",
+      "word_count": 83
+    },
+    {
+      "url": "https://jablickar.cz/unikly-vsechny-barvy-iphone-18-pro-tohle-jsou-odstiny-ze-kterych-budete-vybirat/",
+      "title": "",
+      "excerpt": "Do odhalení nové generace iPhonů zbývá už jen několik týdnů a na internet se dostává stále více informací. Tentokrát unikly rendery zachycující všechny čtyři barevné varianty, ve...",
+      "publish_date": "2026-08-03T17:35:13+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/08/iPhone-18-Pro-barvy.jpeg",
+      "author": "",
+      "word_count": 449
+    },
+    {
+      "url": "https://jablickar.cz/umela-inteligence-zene-cipove-firmy-vzhuru-proc-jsou-dnes-stredem-pozornosti-investoru/",
+      "title": "",
+      "excerpt": "Jen málokterá technologie ovlivňuje dnešní svět tolik jako polovodičové čipy. Jsou součástí chytrých telefonů, počítačů, automobilů, domácích spotřebičů i platebních karet. S...",
+      "publish_date": "2026-07-30T07:05:19+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Cipove-firmy-.jpg",
+      "author": "",
+      "word_count": 739
+    },
+    {
+      "url": "https://jablickar.cz/tyto-macos-aplikace-stoji-za-vyzkouseni-zrychli-finder-nahradi-launchpad-i-usnadni-praci-s-poznamkami/",
+      "title": "",
+      "excerpt": "Jot Jot je minimalistická aplikace pro macOS, která umožňuje bleskově ukládat poznámky odkudkoliv v systému. Stačí stisknout klávesovou zkratku Option + mezerník, napsat myšlenku a...",
+      "publish_date": "2026-07-12T00:32:21+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/PowerClick-5.webp",
+      "author": "",
+      "word_count": 617
+    },
+    {
+      "url": "https://jablickar.cz/tyto-aplikace-pro-mac-vam-pomohou-s-poznamkami-baterii-fotografiemi-i-kontrolou-systemu/",
+      "title": "",
+      "excerpt": "Craft Pokud hledáte moderní aplikaci na poznámky, která zvládne mnohem víc než obyčejný textový editor, stojí za pozornost Craft. Umožňuje vytvářet přehledně strukturované dokumenty,...",
+      "publish_date": "2026-08-01T12:33:34+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2024/06/Batfi-2.jpg",
+      "author": "",
+      "word_count": 551
+    },
+    {
+      "url": "https://jablickar.cz/tvrdy-uder-z-bruselu-google-musi-zaplatit-temer-miliardu-eur-za-porusovani-digitalnich-pravidel/",
+      "title": "",
+      "excerpt": "Evropská komise opět ukazuje svou sílu v boji proti velkým technologickým gigantům. Tentokrát se v jejím hledáčku ocitla společnost Google, která od regulátorů dostala astronomickou...",
+      "publish_date": "2026-07-24T09:44:26+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2020/06/EU-Flag-vlajka-fb.jpg",
+      "author": "",
+      "word_count": 155
+    },
+    {
+      "url": "https://jablickar.cz/tsmc-masivne-rozsiri-vyrobu-cipu-v-usa-apple-z-toho-bude-vyrazne-tezit/",
+      "title": "",
+      "excerpt": "Největší světový výrobce čipů TSMC oznámil další obrovskou investici do výroby ve Spojených státech. Společnost navýší svůj americký investiční plán o dalších 100 miliard...",
+      "publish_date": "2026-07-17T18:15:35+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/04/Big-Tech-1-1.jpeg",
+      "author": "",
+      "word_count": 107
+    },
+    {
+      "url": "https://jablickar.cz/trh-s-pocitaci-pada-ale-apple-roste-macy-prekvapive-ziskavaji-dalsi-zakazniky/",
+      "title": "",
+      "excerpt": "Globální trh s osobními počítači po více než dvou letech opět zpomalil. Ve druhém čtvrtletí letošního roku se podle analytické společnosti IDC prodalo přibližně 68,2 milionu...",
+      "publish_date": "2026-07-09T17:32:01+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/03/MacBook-Neo-LsA-14.jpg",
+      "author": "",
+      "word_count": 88
+    },
+    {
+      "url": "https://jablickar.cz/tlak-z-bileho-domu-zafungoval-apple-se-vyhne-clum-cast-cipu-ale-musi-vyrabet-u-problemoveho-intelu/",
+      "title": "",
+      "excerpt": "Podle zprávy deníku The Wall Street Journal čelila společnost Apple loni v létě tlaku ze strany Bílého domu, aby využívala výrobní závody Intelu. Tento tlak se objevil v době, kdy Apple...",
+      "publish_date": "2026-07-13T18:45:48+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2022/12/tim-cook-made-in-america.webp",
+      "author": "",
+      "word_count": 138
+    },
+    {
+      "url": "https://jablickar.cz/tim-cook-prirovnal-ceny-pameti-ke-stolete-povodni-apple-kvuli-nim-zdrazil-macy-a-ipady/",
+      "title": "",
+      "excerpt": "Červnové zdražení Maců a iPadů nebylo podle Applu pokusem jednoduše zvýšit marže. Generální ředitel Tim Cook během hovoru k finančním výsledkům uvedl, že společnost ceny zvedala...",
+      "publish_date": "2026-07-31T20:32:07+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2023/11/MacBook-Pro-M3-LsA-19.jpg",
+      "author": "",
+      "word_count": 84
+    },
+    {
+      "url": "https://jablickar.cz/tim-cook-absolvoval-posledni-financni-hovor-jako-ceo-applu-vedeni-v-zari-prevezme-john-ternus/",
+      "title": "",
+      "excerpt": "Jedna z nejvýraznějších kapitol v historii Applu se blíží ke konci. Tim Cook během hovoru k finančním výsledkům potvrdil, že před analytiky a akcionáře vystoupil naposledy ve funkci...",
+      "publish_date": "2026-07-31T17:32:16+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2021/10/CEO-pay-Tim-Cook.jpeg",
+      "author": "",
+      "word_count": 94
+    },
+    {
+      "url": "https://jablickar.cz/takto-ma-vypadat-vyrocni-iphone-20-apple-jej-promeni-v-temer-jednolity-kus-skla/",
+      "title": "",
+      "excerpt": "Apple si pro rok 2027 údajně připravuje největší proměnu iPhonu za posledních deset let. Výroční model, kterému se zatím neoficiálně říká iPhone 20, má nabídnout zakřivené...",
+      "publish_date": "2026-07-27T21:15:30+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/iPhone-20-2.jpg",
+      "author": "",
+      "word_count": 99
+    },
+    {
+      "url": "https://jablickar.cz/stahli-si-falesnou-bitcoinovou-penezenku-z-app-storu-a-prisli-o-miliony-apple-celi-zalobe/",
+      "title": "",
+      "excerpt": "Apple čelí nové žalobě kvůli falešné bitcoinové peněžence, která se dostala do App Storu a připravila trojici uživatelů dohromady o přibližně 1,8 milionu dolarů. Poškození tvrdí,...",
+      "publish_date": "2026-07-27T16:45:50+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2025/02/Bitcoin.jpeg",
+      "author": "",
+      "word_count": 92
+    },
+    {
+      "url": "https://jablickar.cz/spacex-odhalila-prvni-vysledky-po-vstupu-na-burzu-trzby-leti-vzhuru-nejvic-ale-prekvapila-ai/",
+      "title": "",
+      "excerpt": "Komerční sdělení: SpaceX otevřela novou kapitolu své historie. Společnost Elona Muska zveřejnila vůbec poprvé kvartální výsledky po vstupu na burzu, díky čemuž investoři získali...",
+      "publish_date": "2026-08-06T23:24:09+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/08/SpaceX-.jpg",
+      "author": "",
+      "word_count": 826
+    },
+    {
+      "url": "https://jablickar.cz/sonos-chysta-dalsiho-soupere-pro-airpods-max-ace-ultra-maji-vsadit-na-ai-a-hlasove-ovladani/",
+      "title": "",
+      "excerpt": "Sonos se podle všeho chystá na druhý pokus o výraznější průlom mezi prémiovými náhlavními sluchátky. Připravovaný model Sonos Ace Ultra se již objevil v dokumentech americké FCC a...",
+      "publish_date": "2026-08-12T20:15:43+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/08/ace_park_black-ve-velke-velikosti.jpeg",
+      "author": "",
+      "word_count": 113
+    },
+    {
+      "url": "https://jablickar.cz/sluzby-applu-rostly-pomaleji-nez-se-cekalo-app-store-zasahl-utlum-mobilnich-her-i-nizsi-poplatky/",
+      "title": "",
+      "excerpt": "Služby zůstávají jedním z hlavních motorů hospodaření Applu, jejich poslední výsledky však investory úplně nenadchly. Tržby této části podnikání dosáhly 30,7 miliardy dolarů,...",
+      "publish_date": "2026-07-31T15:34:11+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/App-Store-logo-fb.png",
+      "author": "Applu rostly pomaleji",
+      "word_count": 87
+    },
+    {
+      "url": "https://jablickar.cz/slibene-soukromi-s-trhlinami-sluzba-icloud-private-relay-v-safari-skryte-propousti-ip-adresy-uzivatelu/",
+      "title": "",
+      "excerpt": "Pokud spoléháte na placenou ochranu od Applu a věříte, že je vaše IP adresa při procházení internetu v naprostém bezpečí, měli byste zpozornět. Dvojice bezpečnostních expertů totiž...",
+      "publish_date": "2026-08-06T18:23:39+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/04/MacBook-Pro-M5-LsA-review-1.jpg",
+      "author": "",
+      "word_count": 404
+    },
+    {
+      "url": "https://jablickar.cz/skladaci-iphone-stale-neni-pripraveny-pro-hladkou-seriovou-vyrobu/",
+      "title": "",
+      "excerpt": "První skládací iPhone se sice nezadržitelně blíží, jeho uvedení na trh však podle nejnovějších informací stále není definitivně rozhodnuté. Foxconn provádí poslední úpravy...",
+      "publish_date": "2026-07-24T16:34:18+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/iphone-fold-ultra-leak@2x-scaled-1.jpg",
+      "author": "",
+      "word_count": 98
+    },
+    {
+      "url": "https://jablickar.cz/skladaci-iphone-nema-sanci-tvrdi-sef-samsungu-strach-z-nej-ale-nezapre/",
+      "title": "",
+      "excerpt": "Možná jste to postřehli, možná vás to nechává chladnými, Samsung ale včera představil trojici nových ohebných telefonů. Dva modely vycházejí z předchozích generací, pak je tu ale...",
+      "publish_date": "2026-07-23T21:45:50+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Galaxy-Z-Fold8-33.jpg",
+      "author": "",
+      "word_count": 348
+    },
+    {
+      "url": "https://jablickar.cz/skladaci-iphone-a-vyrocni-model-dostanou-lepsi-chlazeni-apple-pry-vyznamne-navysil-objednavky-chladicich-komor/",
+      "title": "",
+      "excerpt": "Apple podle nejnovějších zpráv navýšil počet objednaných chladicích komor (tzv. vapor chamber) u svých dodavatelů. Tyto komponenty by s největší pravděpodobností měla využít ve...",
+      "publish_date": "2026-07-17T11:30:29+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/iphone-fold-ultra-leak@2x-scaled-1.jpg",
+      "author": "",
+      "word_count": 512
+    },
+    {
+      "url": "https://jablickar.cz/sandisk-predstavil-novou-2tb-rozsirujici-kartu-pro-xbox-series-xs-s-podporou-quick-resume/",
+      "title": "",
+      "excerpt": "Dochází vám místo na Xbox Series X nebo Xbox Series S? Právě pro takové případy uvedl Sandisk novou rozšiřující kartu SANDISK Optimus GX C50 Storage Expansion Card for XBOX™, která je...",
+      "publish_date": "2026-08-06T13:03:51+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/08/Life_SNDK_Optimus_GX_C50_Storage_Expansion_Card_Xbox_Series_X_S_01_PO.jpg",
+      "author": "",
+      "word_count": 394
+    },
+    {
+      "url": "https://jablickar.cz/samsung-prekvapil-rekordnimi-vysledky-na-boomu-ai-vydelava-doslova-miliardy/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Společnost Samsung zveřejnila finanční výsledky za druhé čtvrtletí roku 2026 a překvapila i velmi optimistické odhady analytiků. Provozní zisk dosáhl 89,4 bilionu...",
+      "publish_date": "2026-07-14T23:33:44+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Samsung-a-giganti-pamati-.jpg",
+      "author": "",
+      "word_count": 566
+    },
+    {
+      "url": "https://jablickar.cz/samsung-dotahuje-apple-galaxy-buds-dostanou-funkci-ktera-z-airpods-udelala-skutecne-naslouchatko/",
+      "title": "",
+      "excerpt": "Apple před dvěma lety ukázal, že bezdrátová sluchátka nemusí sloužit pouze k poslechu hudby, podcastů a telefonování. Z AirPods Pro udělal zařízení schopné pomáhat lidem s lehkou až...",
+      "publish_date": "2026-08-12T13:56:13+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2022/03/airpods-pro-a-airpods-fb-unsplash.jpg",
+      "author": "",
+      "word_count": 111
+    },
+    {
+      "url": "https://jablickar.cz/samsung-dnes-predstavi-novinky-ktere-mohou-ovlivnit-i-budoucnost-iphonu-tady-je-muzete-sledovat-zive/",
+      "title": "",
+      "excerpt": "Fanoušci Applu dnes budou mít dobrý důvod sledovat konkurenci. Samsung totiž od 15:00 SELČ pořádá svou letní konferenci Galaxy Unpacked 2026, na které ukáže novou generaci skládacích...",
+      "publish_date": "2026-07-22T08:52:05+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/galaxy-unpacked-samsungmagazine.png",
+      "author": "",
+      "word_count": 207
+    },
+    {
+      "url": "https://jablickar.cz/samsung-a-sk-hynix-po-raketovem-rustu-padaji-co-stoji-za-propadem-jihokorejskych-akcii/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Jihokorejské akcie v posledních měsících patřily mezi nejvýkonnější na světě, především díky tamním technologickým společnostem. Hlavním motorem růstu byla...",
+      "publish_date": "2026-07-26T22:02:32+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/Samsung-a-SK-Hynix-.jpg",
+      "author": "",
+      "word_count": 635
+    },
+    {
+      "url": "https://jablickar.cz/root-bez-hesla-i-padajici-wi-fi-pripomente-si-7-nejvetsich-preslapu-ktere-musel-apple-v-macos-hasit/",
+      "title": "",
+      "excerpt": "Operační systém macOS, dříve známý jako OS X, je dlouhodobě považován za jeden z nejstabilnějších a nejbezpečnějších na světě. Od svého vzniku v roce 2001 se stal symbolem pro...",
+      "publish_date": "2026-07-06T05:04:37+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/macos-sidecar.jpg",
+      "author": "",
+      "word_count": 782
+    },
+    {
+      "url": "https://jablickar.cz/roblox-umozni-vytvaret-vlastni-hry-na-iphonu-staci-napsat-par-vet/",
+      "title": "",
+      "excerpt": "Roblox pokračuje v masivním rozšiřování možností umělé inteligence. Společnost oznámila novou funkci Build, která uživatelům umožní vytvářet vlastní hry přímo na iPhonu nebo...",
+      "publish_date": "2026-07-17T17:15:26+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2021/07/roblox_fb.jpeg",
+      "author": "",
+      "word_count": 99
+    },
+    {
+      "url": "https://jablickar.cz/regulator-kritizuje-apple-podle-nej-nedela-dost-proti-sexualnimu-vydirani-deti/",
+      "title": "",
+      "excerpt": "Australský úřad pro online bezpečnost eSafety vyzval největší technologické společnosti světa, aby výrazně posílily ochranu uživatelů před takzvaným sextortion, tedy sexuálním...",
+      "publish_date": "2026-07-15T10:46:53+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2022/03/soukromi_privacy_iphone_fb.jpg",
+      "author": "",
+      "word_count": 70
+    },
+    {
+      "url": "https://jablickar.cz/recenze-dji-osmo-pocket-4/",
+      "title": "",
+      "excerpt": "Značka DJI se svou modelovou řadou Osmo Pocket před lety definovala zcela novou kategorii. Kapesní kamery s mechanickou stabilizací si okamžitě podmanily vlogery, influencery a kreativce...",
+      "publish_date": "2026-07-18T12:30:00+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/DJI-Osmo-Pocket-4-29.jpg",
+      "author": "",
+      "word_count": 1507
+    },
+    {
+      "url": "https://jablickar.cz/qualcomm-ceka-rychlejsi-propad-prijmu-od-applu-v-novych-iphonech-dostanou-vetsi-prostor-vlastni-modemy/",
+      "title": "",
+      "excerpt": "Qualcomm se musí připravit na rychlejší ústup Applu, než ještě nedávno očekával. Výrobce modemů původně počítal s tím, že u chystané generace iPhonů udrží přibližně...",
+      "publish_date": "2026-07-30T18:45:02+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2022/02/5G-modem.jpg",
+      "author": "",
+      "word_count": 102
+    },
+    {
+      "url": "https://jablickar.cz/qnap-spousti-ai-genius-novy-chytry-asistent-poradi-s-produkty-i-technickou-podporou/",
+      "title": "",
+      "excerpt": "Společnost QNAP® Systems, Inc., která patří mezi přední výrobce síťových, úložných a výpočetních řešení, oznámila spuštění QNAP AI Genius. Nový inteligentní asistent je...",
+      "publish_date": "2026-07-22T23:03:57+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/PR-QNAP-AI-Genius-cz.jpg",
+      "author": "",
+      "word_count": 475
+    },
+    {
+      "url": "https://jablickar.cz/qnap-slavi-dalsi-uspech-crn-jej-zaradil-mezi-50-nejvyznamnejsich-dodavatelu-ulozist/",
+      "title": "",
+      "excerpt": "Společnost QNAP® Systems, Inc., která se zaměřuje na výpočetní, síťová a úložná řešení, oznámila významný úspěch. CRN®, značka společnosti The Channel Company, zařadila QNAP...",
+      "publish_date": "2026-08-13T23:03:38+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/08/2026-CRN-Storage-100_PR1313_cz.jpg",
+      "author": "",
+      "word_count": 497
+    },
+    {
+      "url": "https://jablickar.cz/prvni-vodeodolny-ipad-ma-dorazit-uz-letos-novy-ipad-mini-nabidne-take-oled-displej/",
+      "title": "",
+      "excerpt": "Apple se údajně chystá odstranit jednu z dlouholetých slabin svých tabletů. Nová generace iPadu mini má jako vůbec první iPad nabídnout konstrukci odolnou proti vodě. Představení se...",
+      "publish_date": "2026-07-27T20:15:21+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2024/10/Apple-iPad-mini-Apple-Pencil-Pro-241015.jpg",
+      "author": "",
+      "word_count": 86
+    },
+    {
+      "url": "https://jablickar.cz/prvni-chytre-bryle-od-applu-se-maji-ukazat-na-wwdc-2027-soukromi-bude-jejich-hlavni-zbrani/",
+      "title": "",
+      "excerpt": "Apple se údajně připravuje na vstup do další produktové kategorie. Své první chytré brýle má představit na vývojářské konferenci WWDC v červnu 2027, přičemž jedním z jejich...",
+      "publish_date": "2026-07-27T18:15:11+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2020/05/Apple-Glass-concept-fb.jpg",
+      "author": "",
+      "word_count": 105
+    },
+    {
+      "url": "https://jablickar.cz/prohlizec-duckduckgo-nove-blokuje-reklamy-na-youtube-funguje-na-iphonu-i-macu/",
+      "title": "",
+      "excerpt": "Pokud vás při sledování YouTube pravidelně obtěžují reklamy, máme dobrou zprávu. Vývojáři prohlížeče DuckDuckGo totiž představili novou funkci, která dokáže blokovat většinu...",
+      "publish_date": "2026-07-10T17:07:44+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/duck-duck-go-youtube-ads-blocked.jpg",
+      "author": "",
+      "word_count": 78
+    },
+    {
+      "url": "https://jablickar.cz/prodeje-tabletu-celosvetove-klesaji-apple-s-ipady-i-tak-suverenne-vladne-trhu-roste-jen-lenovo/",
+      "title": "",
+      "excerpt": "Minulý týden společnost Apple oznámila meziroční pokles příjmů z prodeje iPadů za červnové čtvrtletí o pět procent. Nová zpráva od analytické společnosti Omdia nyní ukazuje, jak si...",
+      "publish_date": "2026-08-07T17:30:45+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/1920_1080_iPad_11.jpg",
+      "author": "",
+      "word_count": 314
+    },
+    {
+      "url": "https://jablickar.cz/proc-se-hraci-v-survival-strileckach-uchyluji-k-cheatum-psychologie-ztraty-grindu-a-vzestup-chytrych-modovacich-menu/",
+      "title": "",
+      "excerpt": "Survival střílečky — obzvláště ty zasazené do ponurého postapokalyptického prostředí — nejsou stvořeny pro slabé povahy. Vyžadují čas, trpělivost a emocionální odolnost. Na...",
+      "publish_date": "2026-08-12T15:11:35+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2022/04/Call-of-Duty-Black-Ops-III-3.jpg",
+      "author": "",
+      "word_count": 1622
+    },
+    {
+      "url": "https://jablickar.cz/prisna-pravidla-pro-reklamy-v-apple-maps-zakazani-budou-remeslnici-kryptomenove-bankomaty-i-konkurence/",
+      "title": "",
+      "excerpt": "Společnost Apple tento týden zveřejnila nové zásady reklamních služeb, které jasně vymezují, jaké druhy reklam nebudou v aplikaci Mapy povoleny. Podle informací portálu TechCrunch...",
+      "publish_date": "2026-07-17T13:43:51+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/03/Ads-Are-Coming-to-Apple-Maps-Feature.jpg",
+      "author": "",
+      "word_count": 359
+    },
+    {
+      "url": "https://jablickar.cz/prechod-z-iphonu-na-android-bude-konecne-mnohem-jednodussi-android-17-prenese-hesla-ucty-i-esim/",
+      "title": "",
+      "excerpt": "Přechod mezi iPhonem a telefonem s Androidem už nebude znamenat dlouhé večery strávené obnovováním hesel, přihlašováním k účtům a hledáním údajů k domácí Wi-Fi. Google totiž v...",
+      "publish_date": "2026-07-24T05:32:09+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2018/10/Android-vs-iOS.jpeg",
+      "author": "",
+      "word_count": 103
+    },
+    {
+      "url": "https://jablickar.cz/pravni-bitva-o-hardware-nabira-na-obratkach-apple-rozeslal-desitkam-byvalych-zamestnancu-v-openai-varovne-dopisy/",
+      "title": "",
+      "excerpt": "Spory mezi technologickými giganty nejsou ničím výjimečným, ale aktuální právní bitva mezi Applem a společností OpenAI nabírá na nečekané intenzitě. Jablečný gigant se rozhodl...",
+      "publish_date": "2026-07-17T19:15:43+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/OpenAI-logo.png",
+      "author": "",
+      "word_count": 111
+    },
+    {
+      "url": "https://jablickar.cz/pracujte-pohodlneji-a-levneji-produkty-alzaergo-jsou-nyni-ve-slevach-az-40/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Trávíte u počítače několik hodin denně a přemýšlíte, jak si práci zpříjemnit? Pak by vám neměla uniknout aktuální akce na AlzaErgo. Na Alza.cz nyní pořídíte...",
+      "publish_date": "2026-08-05T19:04:08+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/08/ergo-bp-banner.jpg",
+      "author": "",
+      "word_count": 405
+    },
+    {
+      "url": "https://jablickar.cz/pozor-na-novy-malware-pro-macos-vydava-se-za-nastroj-applu-a-cili-na-hesla-i-kryptopenezenky/",
+      "title": "",
+      "excerpt": "Bezpečnostní experti z Jamf Threat Labs upozornili na nový škodlivý software pro macOS s názvem CrashStealer. Na první pohled působí velmi nenápadně – vydává se totiž za systémový...",
+      "publish_date": "2026-07-16T20:15:01+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2018/08/malware-mac.jpeg",
+      "author": "",
+      "word_count": 93
+    },
+    {
+      "url": "https://jablickar.cz/pouzivate-na-macu-office-2019-pozor-bez-prechodu-na-novejsi-verzi-vas-ceka-neprijemne-omezeni/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Pokud na svém Macu stále používáte Microsoft Office 2019, je nejvyšší čas zvážit přechod na novější verzi. Microsoft totiž ukončil podporu certifikátu...",
+      "publish_date": "2026-07-23T19:03:19+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/260721-720p-gd24-CZ.jpg",
+      "author": "",
+      "word_count": 777
+    },
+    {
+      "url": "https://jablickar.cz/pouzivate-google-chrome-techto-5-rozsireni-vam-usetri-cas-kazdy-den/",
+      "title": "",
+      "excerpt": "Toby Pokud při práci běžně končíte s několika desítkami otevřených karet, Toby vám může výrazně usnadnit život. Místo tradičních záložek nabízí možnost vytvářet tematické...",
+      "publish_date": "2026-07-12T13:43:09+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2021/09/Tactiq-2.jpg",
+      "author": "",
+      "word_count": 590
+    },
+    {
+      "url": "https://jablickar.cz/pouzivate-ai-od-applu-kazdy-den-vyssi-limity-si-zrejme-budete-moci-prikoupit-k-icloud/",
+      "title": "",
+      "excerpt": "Apple se připravuje na dobu, kdy budou uživatelé využívat generativní umělou inteligenci podstatně častěji než dnes. Základní funkce včetně nové Siri mají zůstat bezplatné, pro...",
+      "publish_date": "2026-08-02T19:32:55+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2021/12/icloud_plus_mac_fb.jpg",
+      "author": "",
+      "word_count": 75
+    },
+    {
+      "url": "https://jablickar.cz/posledni-sance-usetrit-az-55-oblibena-akce-tsb-dny-konci-uz-zitra/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Červenec se chýlí ke konci a s ním i jedna z nejzajímavějších slevových akcí tohoto léta. Pokud jste přemýšleli o koupi nové elektroniky, domácích spotřebičů...",
+      "publish_date": "2026-07-30T19:02:03+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/tsbdny26_07_330_bez_CTA_ffe08b6eec-1.jpeg",
+      "author": "",
+      "word_count": 416
+    },
+    {
+      "url": "https://jablickar.cz/pohled-do-budoucnosti-iphone-pro-rok-2028-opravi-detske-nemoci-a-prinese-fotoaparat-s-200-megapixely/",
+      "title": "",
+      "excerpt": "Ačkoliv nás od uvedení iPhonu pro rok 2028 dělí ještě více než dva roky, z dodavatelského řetězce už začínají prosakovat první konkrétní obrysy. Tento model naváže na chystaný...",
+      "publish_date": "2026-08-03T16:35:04+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/06/1520_794_iPhone_17_Pro_hand_back.jpg",
+      "author": "",
+      "word_count": 731
+    },
+    {
+      "url": "https://jablickar.cz/podivejte-se-na-nejnovejsi-filmove-trailery-navrat-kultovni-komedie-i-napinave-thrillery/",
+      "title": "",
+      "excerpt": "Buchty a klobásy Buchty a klobásy, první mládeži nepřístupný počítačem animovaný film, vypráví o skupině potravin, které se pod vedením odvážné uzeniny rozhodnou odhalit pravdu o...",
+      "publish_date": "2026-07-12T20:18:59+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2020/08/iTunes-iPad-fb.jpg",
+      "author": "",
+      "word_count": 653
+    },
+    {
+      "url": "https://jablickar.cz/po-sedmi-letech-konci-mario-kart-tour-oblibenou-hru-na-iphonu-uz-si-brzy-nezahrajete/",
+      "title": "",
+      "excerpt": "Éra Mario Kart Tour se definitivně chýlí ke konci. Nintendo oznámilo, že mobilní závodní hra pro iPhone a iPad bude vypnuta 29. září 2026. Po tomto datu přestanou fungovat všechny online...",
+      "publish_date": "2026-07-09T21:15:34+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/mariokart8deluxe.jpg",
+      "author": "",
+      "word_count": 88
+    },
+    {
+      "url": "https://jablickar.cz/panzerglass-vyresil-nocni-muru-s-domacim-lepenim-skla-na-iphone/",
+      "title": "",
+      "excerpt": "Komerční sdělení: Nalepit si ochranné sklo na telefon v domácích podmínkách není pro každého jednoduchá disciplína. PanzerGlass ale přichází s řešením, které celou aplikaci...",
+      "publish_date": "2026-07-05T19:02:36+02:00",
+      "featured_image": "https://jablickar.cz/wp-content/uploads/2026/07/1520_794_PanzerGlass_Ceramic_instalacni_box_Gemini_generated.jpg",
+      "author": "",
+      "word_count": 530
+    }
+  ],
+  "recommendations": {
+    "immediate_actions": [
+      "Add breadcrumb navigation",
+      "Implement consistent author bylines",
+      "Convert all images to WebP",
+      "Add related articles widget"
+    ],
+    "growth_opportunities": [
+      "Guest expert program",
+      "Interactive video series",
+      "Community-driven content",
+      "Topic deep-dives",
+      "Structured data implementation"
+    ],
+    "design_improvements": [
+      "Modern CSS Grid layout",
+      "Micro-interactions",
+      "Sticky header navigation",
+      "Table of contents for long articles",
+      "Reading time estimates"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "justserpapi-google-trends-search",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786541600672,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "6e91b5f3c3bcc9bce19cc188c83b6bec16d477f5707cb1303ac2c82d10b9b395",
+    "integrity": "sha256-bpG188O8ybzhnMGIyDtr7BbUd/VwfLEwOsLILRC5s5U="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "9d3708c6e1ea8ef144ea2049f85a9606b537dd5cc4b0abe8bd24dc62d14e8ea0"
+  }
+}

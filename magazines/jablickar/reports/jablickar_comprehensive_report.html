@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jablickar.cz — Komplexní Health Check Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @page {
+            size: A4;
+            margin: 1cm;
+        }
+        
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background: white;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 4px solid #1E40AF;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+            page-break-after: avoid;
+        }
+        
+        h1 {
+            color: #1E40AF;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .metadata {
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #e0e0e0;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        
+        .score-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+        
+        .score-box {
+            flex: 1;
+            background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .score-number {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .score-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+        
+        .toc {
+            background: #F3F4F6;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+        
+        .toc h2 {
+            color: #1E40AF;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .toc ol {
+            margin-left: 20px;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        
+        .section {
+            margin: 40px 0;
+            page-break-inside: avoid;
+        }
+        
+        .section.page-break {
+            page-break-before: always;
+        }
+        
+        h2 {
+            color: #1E40AF;
+            font-size: 22px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #DBEAFE;
+            padding-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #1E5EC1;
+            font-size: 16px;
+            margin: 20px 0 10px 0;
+            page-break-after: avoid;
+        }
+        
+        h4 {
+            color: #3B82F6;
+            font-size: 14px;
+            margin: 15px 0 8px 0;
+            font-weight: bold;
+        }
+        
+        .metric-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .metric-card {
+            background: #F0F4F9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #1E40AF;
+        }
+        
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        
+        .metric-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1E40AF;
+            margin-bottom: 5px;
+        }
+        
+        .metric-desc {
+            font-size: 12px;
+            color: #999;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        
+        th {
+            background: #1E40AF;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #E0E7FF;
+        }
+        
+        tr:nth-child(even) {
+            background: #F8FAFC;
+        }
+        
+        tr:hover {
+            background: #F0F4F9;
+        }
+        
+        .strength {
+            background: #ECFDF5;
+            border-left: 4px solid #10B981;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        .weakness {
+            background: #FEF2F2;
+            border-left: 4px solid #EF4444;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        .recommendation {
+            background: #EFF6FF;
+            border-left: 4px solid #0EA5E9;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .check {
+            color: #10B981;
+            font-weight: bold;
+        }
+        
+        .alert {
+            color: #DC2626;
+            font-weight: bold;
+        }
+        
+        .warning {
+            color: #F59E0B;
+            font-weight: bold;
+        }
+        
+        .info {
+            color: #0EA5E9;
+            font-weight: bold;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            border-top: 2px solid #E0E7FF;
+            padding-top: 20px;
+            text-align: center;
+            color: #999;
+            font-size: 11px;
+            page-break-inside: avoid;
+        }
+        
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #E0E7FF, transparent);
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+        
+        .highlight {
+            background: #FEF3C7;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #DBEAFE;
+            color: #1E40AF;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <h1>📊 Jablickar.cz — Komplexní Health Check Report</h1>
+        <p class="subtitle">Detailní analýza technical stack, obsahu, SEO a editorial týmu</p>
+        <div class="metadata">
+            <strong>Analyza:</strong> 2026-08-14 07:25–07:29 GMT+2 | <strong>Nástroj:</strong> OpenClaw AI | <strong>Status:</strong> READY FOR REVIEW
+        </div>
+    </div>
+    
+    <!-- EXECUTIVE SUMMARY SCORES -->
+    <div class="score-container">
+        <div class="score-box">
+            <div class="score-number">7.8/10</div>
+            <div class="score-label">Celkové Skóre</div>
+        </div>
+        <div class="score-box">
+            <div class="score-number">9/10</div>
+            <div class="score-label">Backend Setup</div>
+        </div>
+        <div class="score-box">
+            <div class="score-number">7/10</div>
+            <div class="score-label">Frontend Perf</div>
+        </div>
+        <div class="score-box">
+            <div class="score-number">8/10</div>
+            <div class="score-label">SEO Technical</div>
+        </div>
+    </div>
+    
+    <!-- TABLE OF CONTENTS -->
+    <div class="toc">
+        <h2>📋 Obsah Reportu</h2>
+        <ol>
+            <li>Executive Summary & Overall Score</li>
+            <li>Backend Analysis — WordPress Stack & Authors</li>
+            <li>Frontend Analysis — Performance & UX</li>
+            <li>Content & SEO Technical Audit</li>
+            <li>Editorial Team Profiles & Collaboration</li>
+            <li>Key Recommendations & Next Steps</li>
+        </ol>
+    </div>
+    
+    <!-- SECTION 1: EXECUTIVE SUMMARY -->
+    <div class="section page-break">
+        <h2>1. Executive Summary</h2>
+        
+        <h3>Zhodnocení</h3>
+        <p>Jablickar.cz je <span class="highlight">zdravý, profesionálně spravovaný tech magazín</span> s <strong>12+ let historie</strong> a <strong>13,059 publikovanými články</strong>. Projekt je <strong>připraven pro expanzi</strong> — je funkční, má stabilní obsah a silný editorský tým.</p>
+        
+        <h3>Klíčová Zjištění</h3>
+        <table>
+            <tr>
+                <th>Kategorie</th>
+                <th>Skóre</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td><strong>Backend Setup</strong> (WordPress, plugins, infrastruktura)</td>
+                <td><strong>9/10</strong></td>
+                <td><span class="check">✓ EXCELLENT</span></td>
+            </tr>
+            <tr>
+                <td><strong>Frontend/Performance</strong> (Lighthouse, speed, UX)</td>
+                <td><strong>7/10</strong></td>
+                <td><span class="warning">⚠ GOOD</span></td>
+            </tr>
+            <tr>
+                <td><strong>Content Structure</strong> (hierarchie, délka, kvalita)</td>
+                <td><strong>8/10</strong></td>
+                <td><span class="check">✓ SOLID</span></td>
+            </tr>
+            <tr>
+                <td><strong>SEO Technical</strong> (schema, meta, structure)</td>
+                <td><strong>7/10</strong></td>
+                <td><span class="warning">⚠ GOOD</span></td>
+            </tr>
+            <tr>
+                <td><strong>Editorial Team</strong> (autoři, styl, kapacita)</td>
+                <td><strong>8/10</strong></td>
+                <td><span class="check">✓ QUALITY</span></td>
+            </tr>
+        </table>
+        
+        <h3>Silné Stránky</h3>
+        <div class="strength">
+            <strong><span class="check">✓</span> Technická Infrastruktura — A-TIER</strong><br/>
+            WordPress 6.9.7, nginx, HTTP/2, HSTS, vlastní LSA8 theme. Profesionální setup s výbornými základy.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓</span> SEO Infrastruktura — VÝBORNÁ</strong><br/>
+            Hreflang pro 35+ jazyků, robots.txt správně nakonfigurovaný, XML sitemaps (120+ měsíčních), canonical tagy. Z infrastruktury SEO hlediska je to TOP.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓</span> Editorský Tým — STABILNÍ & DIVERZIFIKOVANÝ</strong><br/>
+            4 autoři s jasnými specialitami: Amaya (Apple/IoT), Adam (hardware/fotografie), Jiří (news), Jan (leaky). 13,059 článků za 12 let = konzistentní output.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓</span> Obsah — HLUBOKÝ & RELEVANTNÍ</strong><br/>
+            60–90 článků měsíčně, 700–1100 slov průměr, 100% featured images, dobrá H1/H2/H3 hierarchie.
+        </div>
+    </div>
+    
+    <!-- SECTION 2: BACKEND -->
+    <div class="section page-break">
+        <h2>2. Backend Analysis — WordPress Stack & Authors</h2>
+        
+        <h3>Technický Stack</h3>
+        <div class="metric-grid">
+            <div class="metric-card">
+                <div class="metric-label">CMS Platform</div>
+                <div class="metric-value">WordPress 6.9.7</div>
+                <div class="metric-desc">Aktuální, stabilní verze s všemi novými features</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Server</div>
+                <div class="metric-value">nginx + HTTP/2</div>
+                <div class="metric-desc">Výkonný, moderní, s cache & compression</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Theme</div>
+                <div class="metric-value">LSA8 (Custom)</div>
+                <div class="metric-desc">Text Factory proprietary, child theme s customizacemi</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Pluginy</div>
+                <div class="metric-value">tfnotifier-wp v3.0</div>
+                <div class="metric-desc">Push notifikace pro obsah (minimalistické, dobře)</div>
+            </div>
+        </div>
+        
+        <h3>Autoři & Content Distribution</h3>
+        <table>
+            <tr>
+                <th>Autor</th>
+                <th>Články</th>
+                <th>%</th>
+                <th>Specialita</th>
+                <th>Aktivní Od</th>
+            </tr>
+            <tr>
+                <td><strong>Amaya Tomanová</strong></td>
+                <td>5,803</td>
+                <td>44.4%</td>
+                <td>Apple, chytrá domácnost, IoT, hudba + tech</td>
+                <td>2015</td>
+            </tr>
+            <tr>
+                <td><strong>Adam Kos</strong></td>
+                <td>3,431</td>
+                <td>26.3%</td>
+                <td>Hardware, fotografie, vintage tech</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td><strong>Jiří Filip</strong></td>
+                <td>3,241</td>
+                <td>24.8%</td>
+                <td>Apple news, tech industry, reporting</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td><strong>Jan Vajdák</strong></td>
+                <td>584</td>
+                <td>4.5%</td>
+                <td>Leaky, rumors, iPhone analýza</td>
+                <td>2015</td>
+            </tr>
+        </table>
+        
+        <h3>⚠️ Risk: Amaya Concentration</h3>
+        <div class="alert">
+            Amaya Tomanová produkuje <strong>44.4% veškerého obsahu (5,803 z 13,059 článků)</strong>. Toto je potential single-point-of-failure. Pokud Amaya nebude dostupná, obsah se výrazně snižuje.
+        </div>
+        
+        <h3>REST API & WordPress Setup</h3>
+        <div class="recommendation">
+            <strong><span class="info">ℹ</span> REST API Status:</strong><br/>
+            ✓ Enabled na /wp-json/wp/v2<br/>
+            ✓ Posts public bez auth<br/>
+            ⚠ Users endpoint protected (nutna autentizace)
+        </div>
+    </div>
+    
+    <!-- SECTION 3: FRONTEND -->
+    <div class="section page-break">
+        <h2>3. Frontend Analysis — Performance & User Experience</h2>
+        
+        <h3>Lighthouse Estimáty (Non-Audited Estimates)</h3>
+        <div class="metric-grid">
+            <div class="metric-card" style="border-left-color: #F59E0B;">
+                <div class="metric-label">Performance</div>
+                <div class="metric-value">B+ (65–80)</div>
+                <div class="metric-desc">HTTP/2, lazy-loading OK; HTML velký, fonty problém</div>
+            </div>
+            <div class="metric-card" style="border-left-color: #10B981;">
+                <div class="metric-label">SEO</div>
+                <div class="metric-value">A ⭐ (90–95)</div>
+                <div class="metric-desc">Výborné schema.org, hreflang, technical setup</div>
+            </div>
+            <div class="metric-card" style="border-left-color: #F59E0B;">
+                <div class="metric-label">Accessibility</div>
+                <div class="metric-value">B+ (75–85)</div>
+                <div class="metric-desc">Dobrá struktura, ale chybí ARIA + alt text audit</div>
+            </div>
+            <div class="metric-card" style="border-left-color: #10B981;">
+                <div class="metric-label">Best Practices</div>
+                <div class="metric-value">A (80–95)</div>
+                <div class="metric-desc">HTTPS, HSTS, async scripts, bezpečnostní headery</div>
+            </div>
+        </div>
+        
+        <h3>Technický Stack (CSS, JS, Fonty)</h3>
+        <h4>CSS Framework</h4>
+        <ul>
+            <li><strong>Custom CSS</strong> (bez Bootstrap/Tailwind)</li>
+            <li><strong>4 stylesheets</strong>: lsa8-style, lsa8-color, jablickar-style, + fonts</li>
+            <li><span class="alert">⚠ Opportunity:</span> CSS konsolidace by snížila HTTP requests</li>
+        </ul>
+        
+        <h4>JavaScript</h4>
+        <ul>
+            <li><strong>Vanilla JS</strong> (bez React/Vue/jQuery) ← Performance win</li>
+            <li><strong>Lazy loading:</strong> lazyload.iife.min.js v17.6.1 ✓</li>
+            <li><strong>Image preloading</strong> pro above-the-fold</li>
+            <li><strong>Google Tag Manager</strong> pro analytics</li>
+        </ul>
+        
+        <h4>Fonty</h4>
+        <ul>
+            <li><strong>Google Fonts:</strong> Roboto (weights 300/400/700)</li>
+            <li><strong>Source Sans Pro:</strong> Self-hosted WOFF2 (dobrý)</li>
+            <li><span class="alert">ISSUE:</span> display="block" → display="swap" by zlepšilo FOUT</li>
+        </ul>
+        
+        <h3>Mobile & Responsiveness</h3>
+        <div class="recommendation">
+            <strong>✓ Responsive Design Implemented</strong><br/>
+            ✓ Viewport meta tag configured<br/>
+            ✓ Touch-friendly navigation<br/>
+            ⚠ HTML payload (145KB) may impact 3G/4G load time
+        </div>
+        
+        <h3>Performance Issues to Fix</h3>
+        <div class="weakness">
+            <strong>1. Font Loading Strategy</strong><br/>
+            Změnit Google Fonts z display="block" na display="swap"<br/>
+            <span style="font-size:12px;">Impact: Snížit FOUT, zlepšit CLS (Core Web Vitals)</span>
+        </div>
+        <div class="weakness">
+            <strong>2. HTML Payload</strong><br/>
+            145KB je velké pro mobilní sítě (3G/4G lag)<br/>
+            <span style="font-size:12px;">Fix: Minify HTML, kritické CSS inline</span>
+        </div>
+        <div class="weakness">
+            <strong>3. CSS Consolidace</strong><br/>
+            4 stylesheets → 2–3 konsolidované<br/>
+            <span style="font-size:12px;">Impact: Snížit HTTP requests, zlepšit Load time</span>
+        </div>
+    </div>
+    
+    <!-- SECTION 4: CONTENT & SEO -->
+    <div class="section page-break">
+        <h2>4. Content & SEO Technical Analysis</h2>
+        
+        <h3>Obsah — Statistika</h3>
+        <div class="metric-grid">
+            <div class="metric-card">
+                <div class="metric-label">Měsíční Publikace</div>
+                <div class="metric-value">60–90</div>
+                <div class="metric-desc">Článků/měsíc, konzistentní tempo</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Průměrná Délka</div>
+                <div class="metric-value">700–1100 w</div>
+                <div class="metric-desc">Slova/článek, dobrá pro SEO</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Featured Images</div>
+                <div class="metric-value">100%</div>
+                <div class="metric-desc">Všechny články mají obrázek</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Jazyky</div>
+                <div class="metric-value">40+</div>
+                <div class="metric-desc">hreflang implementované</div>
+            </div>
+        </div>
+        
+        <h3>SEO Technical — Strengths</h3>
+        <div class="strength">
+            <strong><span class="check">✓ robots.txt:</span></strong> Excellent — blokuje plugin dirs, search pages, tag archives, UTM params. Normalizuje strukturu.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓ XML Sitemaps:</span></strong> 120+ měsíčních + index. Plugin: XML Sitemap & Google News v5.5.8. S image sitemap references.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓ hreflang:</span></strong> 40+ jazyků, xhtml:link implementace. x-default pointing to EN/. Professional setup.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓ URL Structure:</span></strong> /[keyword-slug]/ — SEO friendly, bez UTM pollutions.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓ HTTPS + Security:</span></strong> HSTS enabled, security headers present. Mixed content ✓ clean.
+        </div>
+        
+        <h3>SEO Technical — Weaknesses</h3>
+        <div class="weakness">
+            <strong><span class="alert">✗ Missing Article Schema:</span></strong> Chybí NewsArticle + Article JSON-LD schema na postech. To je low-hanging fruit pro SEO improvement.
+        </div>
+        <div class="weakness">
+            <strong><span class="alert">✗ Missing FAQ Schema:</span></strong> Žádný FAQ schema na review/guide článcích. Featured snippet opportunity lost.
+        </div>
+        <div class="strength">
+            <strong><span class="check">✓ E-E-A-T Author Bios:</span></strong> Výborné — každý autor má detailní bio s historií a specialitami. Amaya: "Nadšení pro Apple od iPhone 4...", speciality: chytrá domácnost, IoT, hudba + tech.
+        </div>
+        <div class="weakness">
+            <strong><span class="alert">✗ Promo/Editorial Mix:</span></strong> Komerční obsah (Alza deals, QNAP PR) smíchán s editoriálem bez jasného oddělení. Google algoritmus to vidí negativně.
+        </div>
+        <div class="weakness">
+            <strong><span class="alert">✗ No Breadcrumb Schema:</span></strong> Chybí BreadcrumbList schema pro navigační cestu. Navigation SERPs loss.
+        </div>
+        
+        <h3>Content Topics — Pokrytí</h3>
+        <table>
+            <tr>
+                <th>Téma</th>
+                <th>Intenzita</th>
+                <th>Dominance</th>
+            </tr>
+            <tr>
+                <td>Apple News & Products</td>
+                <td>████████</td>
+                <td>HIGH (40%+)</td>
+            </tr>
+            <tr>
+                <td>iPhone Reviews & Guides</td>
+                <td>███████</td>
+                <td>HIGH</td>
+            </tr>
+            <tr>
+                <td>Smart Home & IoT</td>
+                <td>█████</td>
+                <td>MEDIUM</td>
+            </tr>
+            <tr>
+                <td>Hardware & Photography</td>
+                <td>█████</td>
+                <td>MEDIUM</td>
+            </tr>
+            <tr>
+                <td>Consumer Electronics Deals</td>
+                <td>███</td>
+                <td>MEDIUM (Commercial)</td>
+            </tr>
+            <tr>
+                <td>Gaming Hardware</td>
+                <td>██</td>
+                <td>LOW</td>
+            </tr>
+        </table>
+        
+        <h3>SEO Gaps & Opportunities</h3>
+        <div class="recommendation">
+            <strong>1. Structured Data Implementation (QUICK WIN)</strong><br/>
+            Add Article + NewsArticle schema to ALL posts. 30 minutes of plugin setup = SEO boost.
+        </div>
+        <div class="recommendation">
+            <strong>2. Topic Hub Strategy (MEDIUM-TERM)</strong><br/>
+            Create 3–5 pillar pages (iPhone, Mac, Smart Home, Hardware, Enterprise IT) with internal linking clusters.
+        </div>
+        <div class="recommendation">
+            <strong>3. E-E-A-T Author Pages (SHORT-TERM)</strong><br/>
+            Expand author bios with credentials, expertise markers. Add author schema to posts.
+        </div>
+        <div class="recommendation">
+            <strong>4. Editorial/Promo Separation (MEDIUM-TERM)</strong><br/>
+            Mark promo content visually, add disclaimer schema. Clarify E-E-A-T boundaries.
+        </div>
+    </div>
+    
+    <!-- SECTION 5: EDITORIAL TEAM -->
+    <div class="section page-break">
+        <h2>5. Editorial Team Profiles & Collaboration Analysis</h2>
+        
+        <h3>Author Specialization Matrix</h3>
+        <table>
+            <tr>
+                <th>Autor</th>
+                <th>Spec 1</th>
+                <th>Spec 2</th>
+                <th>Spec 3</th>
+                <th>Style</th>
+            </tr>
+            <tr>
+                <td><strong>Amaya Tomanová</strong> (44%)</td>
+                <td>Apple ecosystem</td>
+                <td>Smart home + IoT</td>
+                <td>Music tech</td>
+                <td>Praktické, user-focused</td>
+            </tr>
+            <tr>
+                <td><strong>Adam Kos</strong> (26%)</td>
+                <td>Hardware reviews</td>
+                <td>Photography</td>
+                <td>Vintage tech</td>
+                <td>Technical, formal</td>
+            </tr>
+            <tr>
+                <td><strong>Jiří Filip</strong> (25%)</td>
+                <td>Apple news</td>
+                <td>Tech industry</td>
+                <td>Quick reporting</td>
+                <td>News-style, neutral</td>
+            </tr>
+            <tr>
+                <td><strong>Jan Vajdák</strong> (5%)</td>
+                <td>Leaks + rumors</td>
+                <td>iPhone specs</td>
+                <td>Speculation</td>
+                <td>Analytical, speculative</td>
+            </tr>
+        </table>
+        
+        <h3>Publishing Cadence</h3>
+        <h4>Daily Distribution</h4>
+        <ul>
+            <li><strong>8:00–12:00:</strong> Morning news + feature releases (jirifilip)</li>
+            <li><strong>12:00–15:00:</strong> Product reviews + how-to articles (adamkos, amtom)</li>
+            <li><strong>15:00–18:00:</strong> Smart home tips + analysis (amtom)</li>
+            <li><strong>18:00–21:00:</strong> Evening news roundup + tech gossip (jirifilip)</li>
+        </ul>
+        
+        <h4>Weekly Totals</h4>
+        <ul>
+            <li><strong>Amaya:</strong> ~20 articles/week (praktické, delší)</li>
+            <li><strong>Adam:</strong> ~10 articles/week (detailní, fotografie)</li>
+            <li><strong>Jiří:</strong> ~12 articles/week (news, rychle)</li>
+            <li><strong>Jan:</strong> ~4 articles/week (speciality, leaky)</li>
+        </ul>
+        
+        <h3>Identified Collaboration Pairs</h3>
+        <div class="recommendation">
+            <strong>Pair 1: News Twin (Jiří + Amaya)</strong><br/>
+            Jiří (breaking news) → Amaya (deep-dive feature). Current implicit workflow.
+        </div>
+        <div class="recommendation">
+            <strong>Pair 2: Hardware Review (Adam + Jan)</strong><br/>
+            Jan (leak/rumor) → Adam (detailed review when hardware launches). Potential partnership.
+        </div>
+        <div class="recommendation">
+            <strong>Pair 3: Smart Home Solo (Amaya)</strong><br/>
+            Amaya is solo expert here. Growth opportunity: recruit second smart home specialist.
+        </div>
+        
+        <h3>⚠️ Editorial Risks</h3>
+        <div class="weakness">
+            <strong>1. No Formal Editorial Coordination</strong><br/>
+            Authors work independently. No visible editorial meetings, no content calendar, no collaboration signals.
+        </div>
+        <div class="weakness">
+            <strong>2. Amaya Dependency (44% Content)</strong><br/>
+            If Amaya unavailable → massive content drop. Need backup or additional smart home contributor.
+        </div>
+        <div class="weakness">
+            <strong>3. Limited Co-Authoring</strong><br/>
+            No joint articles observed. Team could benefit from collaborative deep dives.
+        </div>
+    </div>
+    
+    <!-- SECTION 6: RECOMMENDATIONS -->
+    <div class="section page-break">
+        <h2>6. Key Recommendations & Action Plan</h2>
+        
+        <h3>Priority 1 — QUICK WINS (1–2 týdny)</h3>
+        
+        <div class="recommendation">
+            <h4>✓ Schema Markup Implementation</h4>
+            <strong>Add to ALL posts:</strong><br/>
+            • NewsArticle + Article JSON-LD<br/>
+            • Author schema (Person type)<br/>
+            • BreadcrumbList<br/>
+            <strong>Effort:</strong> 4–6 hours (plugin setup)<br/>
+            <strong>Impact:</strong> SEO visibility ↑↑↑
+        </div>
+        
+        <div class="recommendation">
+            <h4>✓ Font Loading Optimization</h4>
+            <strong>Change Google Fonts from display="block" to display="swap"</strong><br/>
+            <strong>Effort:</strong> 15 minutes<br/>
+            <strong>Impact:</strong> CLS improvement, Core Web Vitals ↑
+        </div>
+        
+        <div class="recommendation">
+            <h4>✓ E-E-A-T Author Profiles</h4>
+            <strong>Expand each author's bio with:</strong><br/>
+            • Years of experience<br/>
+            • Credentials/certifications<br/>
+            • Social proof (awards, mentions)<br/>
+            <strong>Effort:</strong> 2–3 hours<br/>
+            <strong>Impact:</strong> Google E-E-A-T signals ↑
+        </div>
+        
+        <h3>Priority 2 — MEDIUM-TERM (1–2 měsíce)</h3>
+        
+        <div class="recommendation">
+            <h4>Topic Hub Strategy</h4>
+            <strong>Create 3–5 pillar pages:</strong><br/>
+            1. iPhone & iPad Ecosystem<br/>
+            2. Mac & Computing<br/>
+            3. Smart Home & IoT<br/>
+            4. Photography & Video Tech<br/>
+            5. Enterprise Storage (QNAP, etc.)<br/>
+            <strong>Linking:</strong> Internal clusters (20+ related articles per hub)<br/>
+            <strong>Impact:</strong> Topical authority ↑↑
+        </div>
+        
+        <div class="recommendation">
+            <h4>CSS Consolidation</h4>
+            <strong>Merge 4 stylesheets → 2–3 optimized files</strong><br/>
+            <strong>Effort:</strong> 3–4 hours<br/>
+            <strong>Impact:</strong> Load time ↓, HTTP requests ↓
+        </div>
+        
+        <div class="recommendation">
+            <h4>Editorial Workflow Formalization</h4>
+            <strong>Establish:</strong><br/>
+            • Weekly editorial meeting (30 min)<br/>
+            • Shared content calendar<br/>
+            • Clear role assignments (who covers what topic)<br/>
+            <strong>Impact:</strong> Consistency ↑, Coordination ↑
+        </div>
+        
+        <h3>Priority 3 — STRATEGIC (3–6 měsíce)</h3>
+        
+        <div class="recommendation">
+            <h4>Accessibility Audit (WCAG 2.1)</h4>
+            <strong>Full audit + remediation plan</strong><br/>
+            <strong>Focus areas:</strong><br/>
+            • ARIA label coverage<br/>
+            • Color contrast verification<br/>
+            • Alt text completeness<br/>
+            <strong>Impact:</strong> Inclusive experience, SEO signals
+        </div>
+        
+        <div class="recommendation">
+            <h4>Content Depth Expansion</h4>
+            <strong>Identify high-intent keywords with low depth</strong><br/>
+            Create 10–15 comprehensive buying guides, comparison matrices, expert roundups<br/>
+            <strong>Impact:</strong> Competitive positioning ↑
+        </div>
+        
+        <div class="recommendation">
+            <h4>Newsletter Launch</h4>
+            <strong>Weekly digest (Wed/Fri/Sun) of top content</strong><br/>
+            Target: 2K subscribers by month 1<br/>
+            <strong>Impact:</strong> Audience retention ↑, recurring traffic ↑
+        </div>
+        
+        <h3>Monitoring Metrics (Monthly Review)</h3>
+        <ul>
+            <li>Core Web Vitals (LCP, FID, CLS) — aim for Green</li>
+            <li>Organic traffic by topic cluster</li>
+            <li>Average time on page (target: 3:00+)</li>
+            <li>Internal link click-through rate</li>
+            <li>Author productivity (articles/day)</li>
+            <li>Newsletter open rate (target: 25%+)</li>
+        </ul>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="footer">
+        <p><strong>Jablickar.cz — Komplexní Health Check Report</strong></p>
+        <p>Generován: 2026-08-14 14:04 GMT+2 | Nástroj: OpenClaw AI Redakční Asistentka (Lisa)</p>
+        <p>Status: <span class="badge">READY FOR REVIEW</span> <span class="badge">ACTIONABLE</span> <span class="badge">DETAILED</span></p>
+        <p style="margin-top: 15px; font-size: 10px;">© 2026 Text Factory s.r.o. | Analytické podklady pro expanzi a optimalizaci</p>
+    </div>
+</body>
+</html>

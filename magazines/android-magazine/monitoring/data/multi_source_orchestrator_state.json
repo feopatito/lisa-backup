@@ -1,0 +1,25 @@
+{
+  "last_run_at": "2026-08-20T05:33:58Z",
+  "mode": "PRODUCTION",
+  "supervised": false,
+  "production_active": false,
+  "source_watermarks": {
+    "github": "2026-08-19T18:51:56Z",
+    "gsc": "2026-08-13T13:42:04Z",
+    "ga4": "2026-08-13T13:41:53Z",
+    "wordpress": "2026-08-13T22:11:52Z",
+    "trends": "2026-08-18T04:49:34Z"
+  },
+  "workflow_order": [
+    "SOURCE DELTA SYNC",
+    "LOCAL STORES",
+    "NORMALIZATION",
+    "CROSS-SOURCE CLUSTERING",
+    "WATCHLIST RE-EVALUATION",
+    "CANDIDATE UNIVERSE",
+    "V6.5 FUNNEL",
+    "GLOBAL RANKING",
+    "FINAL PORTFOLIO",
+    "MORNING REPORT"
+  ]
+}

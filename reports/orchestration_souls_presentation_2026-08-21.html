@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lisa Orchestrace - Detailní prezentace</title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --paper: #fffaf2;
+      --ink: #1c1a17;
+      --muted: #676158;
+      --accent: #c43d2f;
+      --accent-2: #184e77;
+      --accent-3: #226b52;
+      --line: #e7dccb;
+      --shadow: 0 12px 40px rgba(28, 26, 23, 0.10);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, rgba(196, 61, 47, 0.10), transparent 28%),
+        radial-gradient(circle at top right, rgba(24, 78, 119, 0.08), transparent 26%),
+        linear-gradient(180deg, #f8f4ed 0%, #efe6d8 100%);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 80px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #241f1c 0%, #3a3128 100%);
+      color: #fff;
+      border-radius: 28px;
+      padding: 36px 34px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: -30% auto auto 55%;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(196,61,47,0.30), rgba(196,61,47,0) 70%);
+      pointer-events: none;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 12px;
+      color: #f2c9bf;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 54px);
+      line-height: 1.05;
+      margin: 0 0 12px;
+      font-weight: 700;
+    }
+    .subtitle {
+      max-width: 800px;
+      color: #f0e6de;
+      font-size: 18px;
+      margin: 0 0 20px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      backdrop-filter: blur(8px);
+    }
+    .nav {
+      margin: 22px 0 34px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .nav a {
+      background: rgba(255,255,255,0.72);
+      border: 1px solid var(--line);
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--ink);
+      font-size: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid rgba(231, 220, 203, 0.9);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 28px;
+      line-height: 1.15;
+      margin: 0 0 14px;
+      font-weight: 700;
+    }
+    h3 {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+    h4 {
+      font-size: 16px;
+      margin: 18px 0 8px;
+      color: var(--accent-2);
+    }
+    p { margin: 0 0 12px; }
+    ul, ol { margin: 10px 0 14px 22px; }
+    li { margin: 6px 0; }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .stat {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .stat .label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .stat .value {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .stat .note {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .callout {
+      background: linear-gradient(180deg, #fff 0%, #fcf8f0 100%);
+      border-left: 5px solid var(--accent);
+      border-radius: 16px;
+      padding: 18px 18px 16px;
+      margin: 16px 0;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .badge {
+      display: inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #f2ebe0;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      font-size: 12px;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .role {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      background: #fff;
+      height: 100%;
+    }
+    .role .name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .role .name strong {
+      font-size: 18px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: #f2ebe0;
+      color: var(--muted);
+    }
+    .accent-accent { border-left: 5px solid var(--accent); }
+    .accent-blue { border-left: 5px solid var(--accent-2); }
+    .accent-green { border-left: 5px solid var(--accent-3); }
+    .diagram {
+      width: 100%;
+      overflow: auto;
+      background: linear-gradient(180deg, #fff 0%, #faf7f0 100%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+    }
+    svg { width: 100%; min-width: 920px; height: auto; display: block; }
+    .foot {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    .step {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px 18px;
+    }
+    .step .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+    .warning {
+      background: #fff8f5;
+      border-left: 5px solid var(--accent);
+    }
+    .success {
+      background: #f5fbf8;
+      border-left: 5px solid var(--accent-3);
+    }
+    .page-break {
+      break-before: page;
+      page-break-before: always;
+    }
+    .small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    @media (max-width: 900px) {
+      .grid, .two-col, .columns { grid-template-columns: 1fr; }
+      .wrap { padding: 14px 12px 60px; }
+      .hero { padding: 26px 20px; border-radius: 22px; }
+      h2 { font-size: 24px; }
+      h3 { font-size: 18px; }
+      svg { min-width: 760px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .hero, .card { box-shadow: none; }
+      .nav { display: none; }
+      .page-break { break-before: page; page-break-before: always; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Text Factory / Lisa orchestration</div>
+      <h1>Detailní prezentace soulu a orchestrace agentů</h1>
+      <p class="subtitle">
+        Tohle je pracovní prezentace pro Romana. Vysvětluje, proč je lepší stavět Lisu jako
+        orchestrátora funkcí, jak vypadají jednotlivé souls, jaké mají hranice a jak se tenhle
+        model aktivuje v praxi.
+      </p>
+      <div class="meta">
+        <span class="pill">Struktura: role → scope → hard constraints → tool rules → output → failure</span>
+        <span class="pill">Stav: draft pro schválení</span>
+        <span class="pill">Datum: 2026-08-21</span>
+      </div>
+    </section>
+
+    <nav class="nav" aria-label="Navigace">
+      <a href="#summary">Shrnutí</a>
+      <a href="#why">Proč takhle</a>
+      <a href="#diagram">Schema</a>
+      <a href="#souls">Souly</a>
+      <a href="#activation">Aktivace</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#proscons">Pro / proti</a>
+      <a href="#github">GitHub</a>
+    </nav>
+
+    <div class="grid">
+      <main>
+        <section class="card accent-accent" id="summary">
+          <h2>1. Shrnutí</h2>
+          <p>
+            Navrhuji orchestrace postavenou na funkčních vrstvách, ne na webech. Lisa zůstává
+            jediný rozhodovací uzel a specialisti dostávají přesně vymezené úlohy.
+          </p>
+          <div class="columns">
+            <div class="stat">
+              <div class="label">Lisa</div>
+              <div class="value">editor-in-chief</div>
+              <div class="note">Řídí priority, ne detailní produkci.</div>
+            </div>
+            <div class="stat">
+              <div class="label">Knowledge</div>
+              <div class="value">paměť / dedupe</div>
+              <div class="note">Hlídá duplicity, historii a confidence.</div>
+            </div>
+            <div class="stat">
+              <div class="label">Quality gate</div>
+              <div class="value">final check</div>
+              <div class="note">Chrání Romana před slabým výstupem.</div>
+            </div>
+          </div>
+          <div class="callout">
+            <strong>Klíčová věta:</strong> Nejde o agenta na každý web. Jde o architekturu funkcí:
+            rozhodování, paměť, opportunity, tvorba, vizuál, image SEO a kontrola.
+          </div>
+        </section>
+
+        <section class="card accent-blue" id="why">
+          <h2>2. Proč je tenhle model lepší</h2>
+          <div class="two-col">
+            <div>
+              <h3>Co získáme</h3>
+              <ul>
+                <li>Lisa drží priority a editorial rozhodnutí.</li>
+                <li>Deduplikace je oddělená od tvorby.</li>
+                <li>SEO a content se nepletou dohromady.</li>
+                <li>Image SEO je samostatná disciplína.</li>
+                <li>Quality gate chrání poslední krok před Romanem.</li>
+                <li>Model se dá testovat po vrstvách.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Co je riziko</h3>
+              <ul>
+                <li>Více kroků znamená větší orchestrace.</li>
+                <li>Bez hranic se role začnou překrývat.</li>
+                <li>Příliš jemné dělení zpomalí jednoduché úkoly.</li>
+                <li>Knowledge a SEO mohou sklouznout do duplicity, pokud je nedefinujeme.</li>
+                <li>Quality gate může být overhead, když nebude jasně vymezen.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="callout warning">
+            Doporučení: začít s Lisa, Knowledge, SEO, Content, Image, Image SEO a Quality gate.
+            Další agenty přidávat až ve chvíli, kdy bude jasně doloženo, že existující vrstvy nestačí.
+          </div>
+        </section>
+
+        <section class="card" id="diagram">
+          <h2>3. Vizuální schema orchestrace</h2>
+          <p class="small">
+            Diagram ukazuje tok signálu od prvotního podnětu přes deduplikaci, opportunity a tvorbu až po finální kontrolu a Romanovo schválení.
+          </p>
+          <div class="diagram" role="img" aria-label="Diagram orchestrace Lisy">
+            <svg viewBox="0 0 1020 600" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#c43d2f"></path>
+                </marker>
+                <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+                  <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.12"/>
+                </filter>
+              </defs>
+              <rect x="395" y="28" rx="18" ry="18" width="230" height="74" fill="#1c1a17" filter="url(#shadow)"/>
+              <text x="510" y="60" text-anchor="middle" fill="#fff" font-size="24" font-family="Georgia, serif" font-weight="700">Lisa</text>
+              <text x="510" y="82" text-anchor="middle" fill="#f4e7dd" font-size="13" font-family="Georgia, serif">editor-in-chief / decision node</text>
+
+              <rect x="30" y="170" rx="16" ry="16" width="180" height="84" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="120" y="202" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">Knowledge</text>
+              <text x="120" y="223" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">history • dedupe</text>
+
+              <rect x="225" y="170" rx="16" ry="16" width="180" height="84" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="315" y="202" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">SEO</text>
+              <text x="315" y="223" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">intent • gap • timing</text>
+
+              <rect x="420" y="170" rx="16" ry="16" width="180" height="84" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="510" y="202" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">Content</text>
+              <text x="510" y="223" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">brief → draft</text>
+
+              <rect x="615" y="170" rx="16" ry="16" width="180" height="84" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="705" y="202" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">Image</text>
+              <text x="705" y="223" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">visual concept</text>
+
+              <rect x="225" y="330" rx="16" ry="16" width="180" height="84" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="315" y="362" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">Image SEO</text>
+              <text x="315" y="383" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">alt • filename • caption</text>
+
+              <rect x="420" y="330" rx="16" ry="16" width="180" height="84" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="510" y="362" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">Quality gate</text>
+              <text x="510" y="383" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">pass / fail / fix</text>
+
+              <rect x="395" y="496" rx="16" ry="16" width="230" height="64" fill="#fff" stroke="#e7dccb" filter="url(#shadow)"/>
+              <text x="510" y="527" text-anchor="middle" fill="#1c1a17" font-size="18" font-weight="700" font-family="Georgia, serif">Roman</text>
+              <text x="510" y="548" text-anchor="middle" fill="#676158" font-size="13" font-family="Georgia, serif">explicit approval</text>
+
+              <line x1="510" y1="102" x2="120" y2="170" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+              <line x1="510" y1="102" x2="315" y2="170" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+              <line x1="510" y1="102" x2="510" y2="170" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+              <line x1="510" y1="102" x2="705" y2="170" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+
+              <line x1="510" y1="254" x2="315" y2="330" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+              <line x1="705" y1="254" x2="510" y2="330" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+              <line x1="315" y1="414" x2="510" y2="414" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+              <line x1="510" y1="414" x2="510" y2="496" stroke="#c43d2f" stroke-width="3" marker-end="url(#arrow)"/>
+
+              <text x="34" y="450" fill="#676158" font-size="14" font-family="Georgia, serif">
+                Flow: signal → dedupe → opportunity → draft / visual → final check → Roman
+              </text>
+            </svg>
+          </div>
+        </section>
+
+        <section class="card accent-green" id="souls">
+          <h2>4. Detaily jednotlivých souls</h2>
+          <p>
+            Tady je plný návrh toho, co každý souly dělá, čeho se nesmí dotknout a jaký má výstupní kontrakt.
+          </p>
+
+          <div class="two-col">
+            <div class="role">
+              <div class="name"><strong>Lisa</strong><span class="tag">decision</span></div>
+              <p><strong>Role:</strong> AI šéfredaktorka a jediný rozhodovací uzel.</p>
+              <p><strong>Scope:</strong> prioritizace, timing, dedupe, orchestrace, přidělování práce specialistům.</p>
+              <p><strong>Hard constraints:</strong> nikdy nepublikovat bez explicitního schválení Romana nebo Toma; nepřebírat specialistům rozhodování; neoznačovat spekulaci jako fakt.</p>
+              <p><strong>Output:</strong> co dělat, proč teď, riziko, kdo to řeší.</p>
+              <p><strong>Failure behavior:</strong> když data nestačí, říká přesně co chybí a navrhuje další ověření.</p>
+            </div>
+            <div class="role">
+              <div class="name"><strong>Knowledge / Memory</strong><span class="tag">context</span></div>
+              <p><strong>Role:</strong> paměť systému a deduplication vrstva.</p>
+              <p><strong>Scope:</strong> historie témat, duplicitní úhly, předchozí výkony, známé korekce, confidence.</p>
+              <p><strong>Hard constraints:</strong> neschvaluje priority; nepíše články; nevymýšlí missing data.</p>
+              <p><strong>Output:</strong> zdroj, relevance, novelty, confidence, doporučení.</p>
+              <p><strong>Failure behavior:</strong> když je data málo, označí gap a navrhne validaci.</p>
+            </div>
+            <div class="role">
+              <div class="name"><strong>SEO / Opportunity</strong><span class="tag">opportunity</span></div>
+              <p><strong>Role:</strong> search intent, mezery, timing a konkurenční tlak, ale v praktickém a technickém režimu.</p>
+              <p><strong>Scope:</strong> query opportunity, content gap, trend vs evergreen, rizika duplicity, on-page stav, technické limity, UX dopad a AI/GEO přesah.</p>
+              <p><strong>Styl práce:</strong> žádné obecné SEO fráze. Agent pracuje konkrétně, opírá se o data, rozlišuje technické SEO, obsah, strategii a použitelnost pro čtenáře.</p>
+              <p><strong>Hard constraints:</strong> neurčuje priority sám; nevyrábí keyword spam; nepřebírá neověřená data; neslibuje pozice ani kliky bez podkladu.</p>
+              <p><strong>Output:</strong> score, why now, search opportunity, risk, recommendation, technické poznámky a redakční dopad.</p>
+              <p><strong>Failure behavior:</strong> když je intent nejasný nebo chybí data, navrhne monitor, odložení nebo doplnění podkladů.</p>
+              <p><strong>Inspirační princip:</strong> „těžký kalibr na SEO“ znamená praktické, přímočaré a použitelné doporučení, ne teoretický audit do šuplíku.</p>
+            </div>
+            <div class="role">
+              <div class="name"><strong>Content / Draft</strong><span class="tag">draft</span></div>
+              <p><strong>Role:</strong> převádí schválený směr do použitelného draftu.</p>
+              <p><strong>Scope:</strong> osnovy, titulky, draft body, struktura článku, přepis podle briefu.</p>
+              <p><strong>Hard constraints:</strong> neurčuje strategii; nepřidává nový směr bez zadání; nepublikuje bez schválení.</p>
+              <p><strong>Output:</strong> titul, úhel, osnovy, draft text, otázky.</p>
+              <p><strong>Failure behavior:</strong> když je brief slabý, zastaví se a vrátí otázky.</p>
+            </div>
+            <div class="role">
+              <div class="name"><strong>Image</strong><span class="tag">visual</span></div>
+              <p><strong>Role:</strong> řeší vizuální podobu článků a assetů.</p>
+              <p><strong>Scope:</strong> vizuální koncept, prompt pro obrázek, varianty, kompozice, styl.</p>
+              <p><strong>Hard constraints:</strong> nepíše obsah článku; nerozhoduje o tématu; neignoruje brand a kontext.</p>
+              <p><strong>Output:</strong> concept, varianty, prompt, rizika, doporučení.</p>
+              <p><strong>Failure behavior:</strong> když chybí kontext, řekne si o brief.</p>
+            </div>
+            <div class="role">
+              <div class="name"><strong>Image SEO</strong><span class="tag">metadata</span></div>
+              <p><strong>Role:</strong> optimalizuje obrázky pro vyhledatelnost a přesnost.</p>
+              <p><strong>Scope:</strong> alt text, filename, title, caption a relevance obrázku.</p>
+              <p><strong>Hard constraints:</strong> neplní alt text keyword spamem; nevyrábí zavádějící popisky.</p>
+              <p><strong>Output:</strong> alt, filename, title, caption, reason.</p>
+              <p><strong>Failure behavior:</strong> když obrázek nesedí, řekne to a navrhne alternativu.</p>
+            </div>
+            <div class="role">
+              <div class="name"><strong>Quality gate</strong><span class="tag">review</span></div>
+              <p><strong>Role:</strong> poslední kontrola před předáním Romanovi.</p>
+              <p><strong>Scope:</strong> konzistence, duplicity, brief-fit, rizika, odstranění slabých míst.</p>
+              <p><strong>Hard constraints:</strong> nepřidává nové téma; nenechá projít slabý výstup jen proto, že je hotový.</p>
+              <p><strong>Output:</strong> pass / fail, co opravit, co je v pořádku.</p>
+              <p><strong>Failure behavior:</strong> pokud výstup nesedí, vrací ho zpět k opravě.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" id="activation">
+          <h2>5. Jak tenhle model aktivovat</h2>
+          <div class="timeline">
+            <div class="step">
+              <span class="num">1</span><strong>Schválit rámec.</strong> Roman nebo Tom potvrdí, že se jde funkční cestou, ne cestou web-by-web.
+            </div>
+            <div class="step">
+              <span class="num">2</span><strong>Zafixovat role.</strong> Každý agent dostane vlastní soul a jasné hranice.
+            </div>
+            <div class="step">
+              <span class="num">3</span><strong>Nastavit routing.</strong> Signál jde nejdřív do Knowledge, pak do SEO, potom do Lisa.
+            </div>
+            <div class="step">
+              <span class="num">4</span><strong>Zavést výstupní kontrakty.</strong> SEO agent má navíc povinně oddělené technické poznámky, obsahové poznámky a priority.
+            </div>
+            <div class="step">
+              <span class="num">5</span><strong>Zapnout Quality gate.</strong> Žádný výstup nejde k Romanovi bez poslední kontroly.
+            </div>
+            <div class="step">
+              <span class="num">6</span><strong>Otestovat na malém objemu.</strong> Nejprve několik témat, ne celý provoz.
+            </div>
+            <div class="step">
+              <span class="num">7</span><strong>Kalibrovat podle reality.</strong> Zpětná vazba od Romana upravuje soul texty, ne pocitově, ale podle konkrétních chyb.
+            </div>
+          </div>
+          <div class="callout success">
+            Praktická zásada: aktivace neznamená hned publikovat. Nejdřív read-only / draft fáze, potom teprve asistované publikování.
+          </div>
+        </section>
+
+        <section class="card" id="workflow">
+          <h2>6. Jak bude práce probíhat</h2>
+          <div class="two-col">
+            <div>
+              <h3>Příklad: nové téma</h3>
+              <ol>
+                <li>Lisa dostane signál.</li>
+                <li>Knowledge ověří duplicitu a historii.</li>
+                <li>SEO vyhodnotí opportunity a timing.</li>
+                <li>Lisa rozhodne CREATE / UPDATE / MONITOR / DROP.</li>
+                <li>Content připraví draft.</li>
+                <li>Image připraví vizuál.</li>
+                <li>Image SEO doplní metadata.</li>
+                <li>Quality gate zkontroluje balík.</li>
+                <li>Roman dostane hotový podklad ke schválení.</li>
+              </ol>
+            </div>
+            <div>
+              <h3>Příklad: staré téma s novým signálem</h3>
+              <ol>
+                <li>Knowledge najde, že téma už existuje.</li>
+                <li>SEO potvrdí, že nový signál není dost silný pro nový článek.</li>
+                <li>Lisa místo nového kusu navrhne UPDATE nebo REWRITE.</li>
+                <li>Content připraví brief pro existující URL.</li>
+                <li>Quality gate ověří, že se nevracíme do recyklace.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="callout">
+            <strong>Pro image workflow:</strong> Lisa zadá účel, Image navrhne koncept, Image SEO připraví metadata a Quality gate zkontroluje, že obrázek sedí na obsah i účel.
+          </div>
+        </section>
+
+        <section class="card warning" id="proscons">
+          <h2>7. Pro a proti orchestrace</h2>
+          <div class="two-col">
+            <div>
+              <h3>Pro</h3>
+              <ul>
+                <li>Jasné rozhodování u Lisy.</li>
+                <li>Menší chaos a méně překryvů.</li>
+                <li>Lepší dedupe a méně recyklace.</li>
+                <li>Lepší auditovatelnost.</li>
+                <li>Možnost po čase přidávat další vrstvu jen tam, kde to dává smysl.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Proti</h3>
+              <ul>
+                <li>Více komponent, více práce na řízení.</li>
+                <li>Bez dobré dokumentace se role rozpadnou.</li>
+                <li>Jednoduchý úkol může být zbytečně pomalý.</li>
+                <li>Je nutné držet disciplínu a nechat agenty v jejich mantinelech.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" id="github">
+          <h2>8. GitHub a publikace</h2>
+          <p>
+            HTML prezentace je připravená lokálně. Do GitHubu ji nemůžu poslat bez explicitního
+            schválení Romana nebo Toma, protože to už je publikace obsahu ven.
+          </p>
+          <div class="callout warning">
+            Pokud bude chtít Roman/Tom publish, připravím i čistý repo layout, README a případný deploy balíček.
+            Teď je bezpečný stav: lokální draft připravený k revizi.
+          </div>
+          <div class="badges">
+            <span class="badge">local draft ready</span>
+            <span class="badge">GitHub push pending approval</span>
+            <span class="badge">Roman review needed</span>
+            <span class="badge">Tom approval needed</span>
+          </div>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Rychlé body</h3>
+          <ul>
+            <li>Lisa je jediný decision node.</li>
+            <li>Knowledge a SEO jsou oddělené.</li>
+            <li>Image SEO není totéž co Image.</li>
+            <li>Quality gate je povinný finální filtr.</li>
+            <li>Publikace ven vyžaduje schválení.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Co bych poslala Romanovi</h3>
+          <p class="small">
+            Krátký executive summary, schema orchestrace, detaily souls a aktivační postup.
+            Tohle HTML to všechno obsahuje a dá se rovnou proměnit v prezentaci nebo webovou revizi.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Další krok</h3>
+          <p class="small">
+            Pokud Roman/Tom potvrdí, můžu z toho udělat i verzi pro GitHub Pages nebo čistý PDF export.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <p class="foot">
+      Lisa • Text Factory • orchestrace agentů • draft pro schválení
+    </p>
+  </div>
+</body>
+</html>

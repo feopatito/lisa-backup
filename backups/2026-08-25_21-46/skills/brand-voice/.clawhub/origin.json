@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "brand-voice",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786524929338,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "04647015aad85954573c536ba1eb1bed4fd66b826344324348a6bc48f93282e0",
+    "integrity": "sha256-BGRwFarYWVRXPFNroesb7U/Wa4JjRDJDSKa8SPkyguA="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "24cf9c5e2b46a5f1591819d101611a4457f0cdbb519e9a100568128945cfb8a2"
+  }
+}

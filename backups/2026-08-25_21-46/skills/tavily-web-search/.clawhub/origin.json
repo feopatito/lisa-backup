@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "tavily-web-search",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786535623911,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "d613fee2a04ea1e32f4d3431dd383039629fb7580865c037ac22eac8c4480047",
+    "integrity": "sha256-1hP+4qBOoeMvTTQx3TgwOWKft1gIZcA3rCLqyMRIAEc="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "1d297e1144d7c13f77535fbe0dd1d6deb8ee8f8192216e77c8850de22f82c0a8"
+  }
+}

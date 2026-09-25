@@ -1,0 +1,20 @@
+{
+  "last_run_at": "2026-08-20T05:33:58Z",
+  "mode": "PRODUCTION",
+  "supervised": false,
+  "production_active": false,
+  "watchlist_persistence": "PASS",
+  "structured_trends_store": "PASS",
+  "workflow_order": [
+    "SOURCE DELTA SYNC",
+    "LOCAL STORES",
+    "NORMALIZATION",
+    "CROSS-SOURCE CLUSTERING",
+    "WATCHLIST RE-EVALUATION",
+    "CANDIDATE UNIVERSE",
+    "V6.5 FUNNEL",
+    "GLOBAL RANKING",
+    "FINAL PORTFOLIO",
+    "MORNING REPORT"
+  ]
+}

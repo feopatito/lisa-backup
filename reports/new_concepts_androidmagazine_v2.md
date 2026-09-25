@@ -1,0 +1,258 @@
+# Reworked AndroidMagazine selection for today
+
+Romanovy připomínky jsem promítla do nového výběru. Discovery jsem držela jen tam, kde stojí na skutečném early signálu; mainstreamové launch coverage už nepovažuju za Discovery.
+
+## 1. Android 17 zpřísňuje audio na pozadí: které aplikace mohou začít zlobit
+- WP ID: `78796`
+- Kategorie: `25`
+- Priority: `DISCOVERY / PREDICTIVE`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish now, then monitor support noise.`
+- Reality: `PASS` | Confidence: `MEDIUM`
+- Doporučený titulek: `Android 17 zpřísňuje audio na pozadí: které aplikace mohou začít zlobit`
+- Where was it discovered? Android Developers docs / release notes
+- Early signals: official behavior change, release notes, background audio hardening
+- Major media coverage: low
+- Why could this become a hit? apps that do audio in background will trigger support/search as soon as Android 17 rolls out
+- Expected time horizon: 24h–3d
+- Why now: Official docs just landed and user impact can surface as soon as more apps are tested on Android 17.
+- Unique value: Přeložit vývojářskou změnu do uživatelského dopadu, přidat kontrolní seznam a varovné scénáře.
+- WP check: NO DIRECT MATCH; RELATED: general Android 17 coverage exists, but not this behavior change.
+- Cannibalization risk: LOW
+- GSC / signal: WHERE WAS IT DISCOVERED? Android Developers release notes and background audio hardening docs. WHAT ARE THE EARLY SIGNALS? Official behavior change, release notes, and repeated references to background audio restrictions. HOW MANY MAJOR MEDIA ALREADY COVER IT? Low. WHY COULD THIS BECOME A HIT? Když se to dotkne Spotify-like, podcast and fitness apps, začne se to rychle šířit napříč support a community hledáním. EXPECTED TIME HORIZON: 24h–3d.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 66 / 82
+- Evidence strength: EMERGING
+- Local signal: LOW
+- Global signal: MEDIUM
+- Trend velocity: MEDIUM
+- Trend acceleration: MEDIUM
+- Recommended author confidence: LOW
+- Publication timing: Publish now, then monitor support noise.
+- Next action: Draft outline with affected apps and verification checklist.
+
+## 2. Google Wallet na Pixel Watch: expresní platby přímo z hodinek
+- WP ID: `78797`
+- Kategorie: `19`
+- Priority: `CURRENT DEMAND / TREND`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `HIGH`
+- Doporučený titulek: `Google Wallet na Pixel Watch: expresní platby přímo z hodinek`
+- Why now: Google just documented the feature in release notes; this is the moment to explain it before support questions spike.
+- Unique value: Přesný postup + troubleshooting + omezení podle regionu, ne jen oznámení funkce.
+- WP check: NO DIRECT MATCH; RELATED Wallet coverage exists, but not express pay on watch.
+- Cannibalization risk: LOW
+- GSC / signal: Source: Google System Services Release Notes (Aug 2026) notes that Wear users can set up express pay for Pixel Watch directly from the watch. GSC signal is broad across wallet queries, but this specific intent is not saturated. EXPECTED TIME HORIZON: immediate.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 74 / 54
+- Evidence strength: PROVEN
+- Local signal: MEDIUM
+- Global signal: HIGH
+- Trend velocity: HIGH
+- Trend acceleration: MEDIUM
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Prepare step-by-step screenshots for Pixel Watch setup.
+
+## 3. Pixel Watch 5: co říká oficiální nápověda o kompatibilitě, nabíjení a specifikacích
+- WP ID: `78798`
+- Kategorie: `25`
+- Priority: `CURRENT DEMAND / TREND`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `HIGH`
+- Doporučený titulek: `Pixel Watch 5: co říká oficiální nápověda o kompatibilitě, nabíjení a specifikacích`
+- Why now: People searching Pixel Watch 5 need a non-leak, trustable reference page.
+- Unique value: Převést support data na rozhodovací článek: koupit / počkat / přejít z Pixel Watch 4.
+- WP check: NO DIRECT MATCH; there are many leak stories, but not an official-spec explainer.
+- Cannibalization risk: MEDIUM
+- GSC / signal: Query family around google pixel watch 5 still exists in GSC, but most current coverage is leak-heavy. Official help content is the cleaner hook.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 68 / 40
+- Evidence strength: PROVEN
+- Local signal: LOW
+- Global signal: MEDIUM
+- Trend velocity: MEDIUM
+- Trend acceleration: LOW
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Extract exact spec lines from the support page and build a short comparison table.
+
+## 4. Galaxy Watch6 LTE: proč nefungují hovory bez Bluetooth a jak to ověřit
+- WP ID: `78799`
+- Kategorie: `19`
+- Priority: `SHOULD WRITE`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `MEDIUM`
+- Doporučený titulek: `Galaxy Watch6 LTE: proč nefungují hovory bez Bluetooth a jak to ověřit`
+- Why now: The query already has impressions without clicks; a sharper troubleshooting article can capture that intent.
+- Unique value: Kombinace komunitního problému + přesný troubleshooting + rozdíl mezi LTE a Bluetooth scénářem.
+- WP check: RELATED pages exist for general Galaxy Watch calls, but not this LTE-specific failure mode.
+- Cannibalization risk: MEDIUM
+- GSC / signal: GSC: galaxy watch 6 classic lte chamadas não funcionam = 46 impressions, 0 clicks, position 9.9. RELATED query: how to call from samsung galaxy watch. Community threads point to recurring LTE activation / Bluetooth dependency confusion. EXPECTED TIME HORIZON: immediate.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 71 / 46
+- Evidence strength: EMERGING
+- Local signal: MEDIUM
+- Global signal: MEDIUM
+- Trend velocity: MEDIUM
+- Trend acceleration: LOW
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Build a 3-step diagnostics flow and separate LTE vs Bluetooth symptoms.
+
+## 5. Android 17 a spotřeba dat: jak najít aplikaci, která žere data v popředí i na pozadí
+- WP ID: `78800`
+- Kategorie: `19`
+- Priority: `SHOULD WRITE`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `MEDIUM`
+- Doporučený titulek: `Android 17 a spotřeba dat: jak najít aplikaci, která žere data v popředí i na pozadí`
+- Why now: Users still search for data drain problems and Android 17 changes make the steps worth refreshing.
+- Unique value: Nový Android 17 kontext + praktický postup + rozdíly mezi výrobci.
+- WP check: RELATED English page exists, but the Czech Android 17 angle is not direct cannibalization.
+- Cannibalization risk: MEDIUM
+- GSC / signal: GSC families: data usage / data usage android / how to check data usage on android show weak ranking but persistent demand. Existing English article exists, but the Android 17 angle and local Czech treatment are new.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 65 / 38
+- Evidence strength: EMERGING
+- Local signal: MEDIUM
+- Global signal: MEDIUM
+- Trend velocity: LOW
+- Trend acceleration: LOW
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Write a branded step-by-step with screenshots from Pixel and Samsung.
+
+## 6. Samsungu přestaly fungovat RCS? Co znamená „not supported by carrier“ a co s tím
+- WP ID: `78801`
+- Kategorie: `18`
+- Priority: `SHOULD WRITE`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `MEDIUM`
+- Doporučený titulek: `Samsungu přestaly fungovat RCS? Co znamená „not supported by carrier“ a co s tím`
+- Why now: The error keeps showing up in community threads, which means the intent is alive.
+- Unique value: Jasný troubleshooting pro konkrétní error, ne další obecný článek o RCS.
+- WP check: RELATED Google Messages / RCS coverage exists, but not this exact error-driven angle.
+- Cannibalization risk: MEDIUM
+- GSC / signal: Support/community threads show recurring RCS carrier errors and forced Samsung -> Google Messages transitions. Good long-tail intent, lower saturation than generic Google Messages launch pieces.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 62 / 44
+- Evidence strength: EMERGING
+- Local signal: MEDIUM
+- Global signal: HIGH
+- Trend velocity: MEDIUM
+- Trend acceleration: LOW
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Collect exact wording of the error and a carrier/app troubleshooting flow.
+
+## 7. Pixel 11: oficiální detail o chytrých návrzích do Wallet, Map a Kalendáře
+- WP ID: `78802`
+- Kategorie: `25`
+- Priority: `CURRENT DEMAND / TREND`
+- Action: `CREATE`
+- Autor: `Roman Zavřel`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `HIGH`
+- Doporučený titulek: `Pixel 11: oficiální detail o chytrých návrzích do Wallet, Map a Kalendáře`
+- Why now: Official launch copy already talks about everyday help, which is the strongest user angle.
+- Unique value: Ne marketing, ale praktický rozpad funkcí na konkrétní scénáře používání.
+- WP check: RELATED Pixel 11 launch pieces exist, but this is the useful-features angle.
+- Cannibalization risk: MEDIUM
+- GSC / signal: Source: official Pixel 11 launch page says the phones come with more proactive Gemini support and time-saving personal help. This is still current demand, not discovery, because launch coverage is already broad.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 73 / 34
+- Evidence strength: PROVEN
+- Local signal: MEDIUM
+- Global signal: HIGH
+- Trend velocity: HIGH
+- Trend acceleration: LOW
+- Recommended author confidence: HIGH
+- Publication timing: Publish today.
+- Next action: Pull 3 real-world examples of the Wallet/Maps/Calendar suggestions.
+
+## 8. Telefony s 8000mAh baterií v roce 2026: které modely to skutečně mají a proč
+- WP ID: `78803`
+- Kategorie: `25`
+- Priority: `CURRENT DEMAND / TREND`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `MEDIUM`
+- Doporučený titulek: `Telefony s 8000mAh baterií v roce 2026: které modely to skutečně mají a proč`
+- Why now: Battery size is becoming a mainstream buying criterion again.
+- Unique value: Srovnávací přehled napříč značkami a reálný dopad na výdrž, ne jen seznam mAh.
+- WP check: NO DIRECT MATCH; topic is broader than existing individual model pieces.
+- Cannibalization risk: LOW
+- GSC / signal: GSC shows generic smartphone battery queries, and external coverage points to 8000mAh and even larger cells in 2026. This is a clean trend story with broad audience potential.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 69 / 58
+- Evidence strength: EMERGING
+- Local signal: LOW
+- Global signal: HIGH
+- Trend velocity: HIGH
+- Trend acceleration: MEDIUM
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Build a model list with official capacities and a short verdict per device.
+
+## 9. Tecno Pova 8 5G: herní Android s 8000mAh baterií, který tlačí výdrž před design
+- WP ID: `78804`
+- Kategorie: `25`
+- Priority: `CURRENT DEMAND / TREND`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `MEDIUM`
+- Doporučený titulek: `Tecno Pova 8 5G: herní Android s 8000mAh baterií, který tlačí výdrž před design`
+- Why now: It is a concrete example of the battery race and likely to pull long-tail search.
+- Unique value: Proměnit specifikaci v praktické rozhodnutí pro čtenáře.
+- WP check: NO DIRECT MATCH; appears new for this device.
+- Cannibalization risk: LOW
+- GSC / signal: GSMArena shows Tecno Pova 8 5G with 8000mAh battery. It fits the broader battery story and gives us a concrete example for readers.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 67 / 52
+- Evidence strength: PROVEN
+- Local signal: LOW
+- Global signal: HIGH
+- Trend velocity: MEDIUM
+- Trend acceleration: MEDIUM
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Pull exact spec sheet and compare it with a mainstream 5000mAh phone.
+
+## 10. Galaxy Watch Ultra2: 800mAh baterie a 60 hodin výdrže, ale co ukáže praxe?
+- WP ID: `78805`
+- Kategorie: `25`
+- Priority: `CURRENT DEMAND / TREND`
+- Action: `CREATE`
+- Autor: `redaktor`
+- Timing: `Publish today.`
+- Reality: `PASS` | Confidence: `HIGH`
+- Doporučený titulek: `Galaxy Watch Ultra2: 800mAh baterie a 60 hodin výdrže, ale co ukáže praxe?`
+- Why now: Fresh official claims plus community battery debate make a strong practical hook.
+- Unique value: Spojit oficiální claimy s reálnými scénáři použití a komunitními reakcemi.
+- WP check: NO DIRECT MATCH; this specific Ultra2 angle is new.
+- Cannibalization risk: LOW
+- GSC / signal: Official Samsung page says 800mAh battery, up to 60h with AOD on, and 40% charge in 30 minutes. Community threads are already debating whether the runtime matches the claim.
+- Signal score breakdown: GSC 20 | Trend 15 | Freshness 10 | Historical 15 | Discover 15 | Global 15 | Commercial 5 | Gap 5
+- Opportunity / Predictive: 70 / 44
+- Evidence strength: PROVEN
+- Local signal: LOW
+- Global signal: HIGH
+- Trend velocity: HIGH
+- Trend acceleration: MEDIUM
+- Recommended author confidence: MEDIUM
+- Publication timing: Publish today.
+- Next action: Gather the exact Samsung claim and one or two user battery experiences.

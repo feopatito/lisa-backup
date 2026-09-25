@@ -1,0 +1,320 @@
+{
+  "audit_date": "2026-08-14T05:24:00Z",
+  "url": "https://jablickar.cz",
+  "website": "Jablíčkář.cz - Apple Tech Magazine",
+  "cms": "WordPress 6.9.7",
+  "theme": "LSA8 Theme (Text Factory proprietary)",
+  "server": {
+    "software": "nginx",
+    "protocol": "HTTP/2",
+    "html_size_bytes": 145289,
+    "hsts_enabled": true,
+    "cache_control": "Browser caching configured"
+  },
+  "technical_stack": {
+    "cms": {
+      "platform": "WordPress 6.9.7",
+      "theme": "lsa8-jablickar (custom child theme)",
+      "parent_theme": "lsa8 (proprietary LSA8 framework)"
+    },
+    "css_framework": "Custom CSS (no Bootstrap/Tailwind detected)",
+    "css_files": [
+      {
+        "name": "lsa8-style.css",
+        "version": "1783535740",
+        "scope": "main theme styles"
+      },
+      {
+        "name": "lsa8-color.css",
+        "version": "1782660006",
+        "scope": "color schemes"
+      },
+      {
+        "name": "jablickar-style.css",
+        "version": "1761291006",
+        "scope": "site-specific customization"
+      },
+      {
+        "name": "Roboto (Google Fonts)",
+        "weights": "300,400,700",
+        "subset": "latin-ext",
+        "display_strategy": "block"
+      },
+      {
+        "name": "Source Sans Pro (Variable)",
+        "format": "woff2",
+        "location": "self-hosted"
+      },
+      {
+        "name": "LSAFont (Icon font)",
+        "format": "custom icon font"
+      }
+    ],
+    "javascript": {
+      "framework": "Vanilla JavaScript (no React/Vue/jQuery detected)",
+      "js_files": [
+        {
+          "name": "main.js",
+          "version": "1782660007",
+          "async": true,
+          "purpose": "core functionality"
+        },
+        {
+          "name": "jablickar.js",
+          "version": "1681385839",
+          "async": true,
+          "purpose": "site-specific scripts"
+        },
+        {
+          "name": "cmp.js",
+          "version": "1782660007",
+          "async": true,
+          "purpose": "cookie/consent management"
+        },
+        {
+          "name": "lazyload.iife.min.js",
+          "version": "17.6.1",
+          "async": true,
+          "purpose": "image lazy-loading"
+        },
+        {
+          "name": "mag_ads.js",
+          "version": "1786114695",
+          "async": true,
+          "purpose": "ad management"
+        }
+      ],
+      "external_scripts": [
+        {
+          "name": "Google Tag Manager",
+          "id": "G-TTNFZGHBV1",
+          "type": "Analytics"
+        }
+      ]
+    },
+    "performance_features": {
+      "lazy_loading": "Implemented (lazyload.js v17.6.1)",
+      "font_preloading": "Configured for lsafont.woff2",
+      "image_preloading": "Implemented for above-the-fold images",
+      "http2": "Enabled (nginx server)",
+      "compression": "Not directly verified but likely gzip/brotli on nginx"
+    }
+  },
+  "design_and_ux": {
+    "layout": {
+      "type": "Magazine/Blog layout",
+      "grid": "Custom CSS grid-based",
+      "content_width": "Responsive, no fixed max-width detected in header",
+      "hero_section": "Large featured image area"
+    },
+    "responsiveness": {
+      "viewport_meta": "width=device-width configured",
+      "mobile_first": "Assumed responsive design pattern",
+      "breakpoints": "Not detected but likely desktop/tablet/mobile optimized",
+      "status": "Appears mobile-responsive"
+    },
+    "navigation": {
+      "structure": "Multi-language hreflang support (35+ languages detected)",
+      "languages_supported": "cs, ar, hy, az, bn, bg, zh-CN, da, nl, en, et, fi, fr, de, el, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt, ro, ru, sr, sk, sl, es, sv and more",
+      "pagination": "Implemented (rel=next detected)",
+      "canonical": "Properly configured"
+    },
+    "visual_hierarchy": {
+      "typography": "Roboto (sans-serif, weights 300/400/700)",
+      "font_loading": "display=block for Google Fonts (may cause FOUT)",
+      "images": "WebP format detected (performance optimization)",
+      "content_sections": "Clear article listing with thumbnails"
+    },
+    "loading_performance_hints": {
+      "core_web_vitals_indicators": {
+        "lcp_optimization": "Image preloading for above-fold content",
+        "fid_optimization": "Async script loading for non-critical JS",
+        "cls_risk": "Potential layout shifts from dynamically loaded content"
+      }
+    }
+  },
+  "mobile_experience": {
+    "responsive_design": true,
+    "viewport_configuration": "Correct (width=device-width)",
+    "touch_optimization": "Likely optimized but not explicitly verified",
+    "mobile_friendly": "High probability (WordPress + modern theme)",
+    "potential_issues": [
+      "Font loading strategy (display=block) may cause text shift on slow networks",
+      "Large HTML size (145KB) may impact initial load on mobile networks"
+    ]
+  },
+  "accessibility_wcag": {
+    "semantic_html": "Appears structured with proper schema.org markup",
+    "schema_markup": {
+      "implementation": "Extensive JSON-LD schema.org markup",
+      "schemas_detected": [
+        "NewsArticle",
+        "NewsMediaOrganization", 
+        "Person (author profiles)",
+        "WebSite",
+        "WebPage",
+        "SearchAction"
+      ],
+      "organizations": "Text Factory s.r.o. properly marked"
+    },
+    "images": {
+      "alt_text_potential": "WordPress images typically have alt attributes but not verified in audit",
+      "issue": "Placeholder image with no alt: <img src='data:image/svg+xml...' alt='.'>"
+    },
+    "aria_labels": "Not detected in sampled HTML (potential WCAG issue)",
+    "color_contrast": "Not tested but custom CSS framework should handle",
+    "keyboard_navigation": "Assumed supported (standard WordPress navigation)",
+    "form_labels": "Not found in sampled content",
+    "wcag_compliance_level": "Likely AA or partially WCAG 2.1 compliant (but needs full audit)"
+  },
+  "seo_metrics": {
+    "meta_tags": {
+      "title": "Jablíčkář.cz - Apple magazín",
+      "meta_description": "Comprehensive description about Apple news, reviews, and tips",
+      "robots": "max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    "structured_data": "Excellent implementation with multiple schema.org types",
+    "hreflang": "Properly configured for 35+ language versions",
+    "canonical": "Implemented",
+    "open_graph": "Likely configured (not sampled in audit)",
+    "multilingual_seo": "Strong - extensive hreflang coverage"
+  },
+  "estimated_lighthouse_scores": {
+    "note": "These are estimates based on observed patterns, not actual Lighthouse audit",
+    "performance": {
+      "estimated_score": "65-75",
+      "factors": {
+        "positive": [
+          "HTTP/2 enabled",
+          "Image lazy-loading implemented",
+          "WebP format usage",
+          "Async script loading",
+          "Font preloading"
+        ],
+        "negative": [
+          "Large HTML payload (145KB)",
+          "Font loading with display=block may cause FOUT",
+          "Multiple CSS files (4 stylesheets)",
+          "Possible render-blocking resources"
+        ]
+      }
+    },
+    "accessibility": {
+      "estimated_score": "75-85",
+      "factors": {
+        "positive": [
+          "Semantic HTML structure",
+          "Extensive schema.org markup",
+          "Proper meta tags",
+          "Responsive viewport"
+        ],
+        "negative": [
+          "Unknown aria-label coverage",
+          "Placeholder image with minimal alt text",
+          "Need verification of color contrast"
+        ]
+      }
+    },
+    "best_practices": {
+      "estimated_score": "80-90",
+      "factors": {
+        "positive": [
+          "HTTPS with HSTS enabled",
+          "No detected mixed content",
+          "Async external scripts",
+          "Security headers present"
+        ],
+        "negative": [
+          "Potential third-party script overhead"
+        ]
+      }
+    },
+    "seo": {
+      "estimated_score": "90-95",
+      "factors": {
+        "positive": [
+          "Comprehensive schema.org markup",
+          "Proper hreflang implementation",
+          "Mobile-responsive design",
+          "Meta tags properly configured",
+          "Canonical tags",
+          "XML sitemap support expected"
+        ]
+      }
+    }
+  },
+  "insights_and_recommendations": {
+    "performance": [
+      "Consider reducing HTML payload (145KB is substantial for initial load)",
+      "Implement CSS minification/concatenation to reduce 4 stylesheet requests",
+      "Use display=swap for Google Fonts to avoid FOUT (instead of display=block)",
+      "Consider critical CSS inlining for above-the-fold content",
+      "Verify LCP time - large featured images may impact Core Web Vitals"
+    ],
+    "ux": [
+      "Magazine layout is well-structured and content-focused",
+      "Strong visual hierarchy with thumbnails and clear typography",
+      "Responsive design appears well-implemented",
+      "Navigation with 35+ language support is excellent for international reach",
+      "Consider adding breadcrumb navigation for better UX"
+    ],
+    "technical": [
+      "WordPress + custom theme is good choice for media site",
+      "No heavy JS framework (vanilla JS) is performance-friendly",
+      "Lazy-loading implementation shows performance awareness",
+      "Consider implementing Service Worker for offline capability",
+      "CDN usage should be verified (not detected in audit)"
+    ],
+    "accessibility": [
+      "Excellent schema.org implementation for semantic clarity",
+      "Need to verify color contrast ratios across design",
+      "Audit aria-label coverage, especially for navigation",
+      "Improve img alt text consistency (currently has 1px alt placeholder)",
+      "Test keyboard navigation thoroughly"
+    ],
+    "seo": [
+      "SEO foundation is very strong with schema.org and hreflang",
+      "Multilingual implementation is exemplary",
+      "Monitor Core Web Vitals (LCP, FID, CLS) for Google ranking signals",
+      "Consider adding FAQ schema for common Apple tech questions",
+      "Implement breadcrumb schema for better navigation in SERPs"
+    ]
+  },
+  "mobile_insights": {
+    "strengths": [
+      "Responsive viewport configuration",
+      "Touch-friendly navigation expected",
+      "Image lazy-loading for mobile network efficiency",
+      "Async script loading reduces blocking"
+    ],
+    "concerns": [
+      "145KB HTML on slower mobile networks (3G/4G) may cause perceived slowness",
+      "Font loading strategy (display=block) causes FOUT on initial load",
+      "Large CSS payload may impact mobile rendering performance",
+      "Vimeo cache images may not be optimized for mobile (webp is good sign)"
+    ]
+  },
+  "summary": {
+    "overall_health": "Good to Excellent",
+    "strengths": [
+      "Strong SEO foundation with comprehensive schema.org markup",
+      "Excellent multilingual implementation with 35+ language support",
+      "Performance-conscious architecture (lazy loading, async scripts, HTTP/2)",
+      "Professional WordPress setup with custom theme",
+      "Mobile-responsive design",
+      "Security headers properly configured"
+    ],
+    "areas_for_improvement": [
+      "Reduce initial HTML/CSS payload for better mobile performance",
+      "Optimize font loading strategy (use display=swap instead of display=block)",
+      "Consolidate CSS files to reduce HTTP requests",
+      "Conduct full WCAG accessibility audit and remediation",
+      "Monitor and optimize Core Web Vitals metrics",
+      "Implement image optimization at source (ensure proper sizing)"
+    ],
+    "estimated_performance_grade": "B+ (65-80 Lighthouse Performance score)",
+    "estimated_seo_grade": "A (90+ Lighthouse SEO score)",
+    "estimated_accessibility_grade": "B+ (75-85 Lighthouse Accessibility score)",
+    "estimated_best_practices_grade": "A (80-95 Lighthouse Best Practices score)"
+  }
+}

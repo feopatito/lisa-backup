@@ -1,0 +1,300 @@
+{
+  "site": "jablickar.cz",
+  "analysis_date": "2026-08-14",
+  "content_audit": {
+    "archive_size": {
+      "total_sitemaps": "120+ monthly sitemaps",
+      "date_range": "2014-2026",
+      "active_period": "12 years of continuous publishing"
+    },
+    "recent_articles_examined": 3,
+    "sample_articles": [
+      {
+        "title": "Jak fotí 48MPx fotoaparáty iPhonu 17",
+        "date": "2026-08-13",
+        "url_slug": "jak-foti-48mpx-fotoaparaty-iphonu-17",
+        "word_count_estimate": "~800-1000 words",
+        "h1_title": "Present - technical deep dive",
+        "h2_sections": ["Vyšší flexibilita při úpravách i výřezu", "Mohlo by vás zajímat"],
+        "structure_quality": "Good - clear hierarchy",
+        "featured_image": "Present (iPhone-17-53.jpg)",
+        "alt_text_presence": "Present in sitemap (image:title)"
+      },
+      {
+        "title": "QNAP slaví další úspěch: CRN jej zařadil mezi 50 nejvýznamnějších dodavatelů úložišť",
+        "date": "2026-08-13",
+        "url_slug": "qnap-slavi-dalsi-uspech-crn-jej-zaradil-mezi-50-nejvyznamnejsich-dodavatelu-ulozist",
+        "word_count_estimate": "~900-1200 words",
+        "h1_title": "Present",
+        "h2_sections": ["Multiple corporate/industry-focused"],
+        "structure_quality": "Excellent - professional PR article",
+        "featured_image": "Present (2026-CRN-Storage-100_PR1313_cz.jpg)",
+        "content_type": "Press Release / News"
+      },
+      {
+        "title": "Chystáte se nakupovat elektroniku? Alza Dny - slevy až 30%",
+        "date": "2026-08-13",
+        "url_slug": "chystate-se-nakupovat-elektroniku-alza-dny-prinaseji-slevy-az-30-na-mobily-notebooky-i-spotrebice",
+        "word_count_estimate": "~600-800 words",
+        "h1_title": "Present - promotional",
+        "h2_sections": ["Samsung Galaxy S25 FE i herní ASUS", "Akce končí už 24. srpna"],
+        "structure_quality": "Good - promotional/commerce",
+        "featured_image": "Present",
+        "content_type": "Commercial content / Promotional"
+      }
+    ]
+  },
+  "seo_technical": {
+    "meta_descriptions": {
+      "status": "Present",
+      "sample_descriptions": [
+        "Podívejte se, jak fotí 48MPx fotoaparáty iPhonu 17. Už nemusíte řešit, který objektiv zrovna použijete!",
+        "QNAP Systems byla zařazena do CRN Storage 100 za inovativní řešení v úložištích"
+      ],
+      "quality": "Good - descriptive, action-oriented"
+    },
+    "page_titles": {
+      "structure": "Topic + Context",
+      "examples": [
+        "Jak fotí 48MPx fotoaparáty iPhonu 17",
+        "QNAP slaví další úspěch: CRN jej zařadil mezi 50 nejvýznamnějších dodavatelů úložišť",
+        "Chystáte se nakupovat elektroniku? Alza Dny..."
+      ],
+      "length_range": "60-75 characters",
+      "quality": "Excellent - keyword-rich, descriptive"
+    },
+    "url_structure": {
+      "pattern": "/[keyword-slug]/",
+      "language_support": "Multilingual hreflang tags present",
+      "example_languages": "cs, ar, hy, az, bn, bg, zh-CN, da, nl, en, et, fi, fr, de, el, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt, ro, ru, sr, sk, sl, es, sv, ta, th, tr, uk, vi, he",
+      "quality": "Excellent - SEO-friendly slugs"
+    },
+    "hreflang": {
+      "status": "Implemented",
+      "count_languages": "40+ language variants",
+      "canonical_default": "x-default pointing to /en/",
+      "implementation": "xhtml:link rel=alternate hreflang"
+    },
+    "robots_txt": {
+      "status": "Present and comprehensive",
+      "features": [
+        "Blocks plugin directories",
+        "Blocks search pages",
+        "Blocks tag archives",
+        "Blocks comments feeds",
+        "Blocks UTM parameters (tracking)",
+        "Allows uploads and AJAX"
+      ],
+      "quality": "Excellent - well-configured"
+    },
+    "sitemap": {
+      "status": "Present",
+      "type": "XML Sitemap Index + monthly sitemaps",
+      "features": [
+        "Image sitemap references",
+        "Monthly archives (efficient for large sites)",
+        "Last modified timestamps",
+        "Priority indicators"
+      ],
+      "plugin": "XML Sitemap & Google News for WordPress v5.5.8",
+      "quality": "Excellent"
+    },
+    "structured_data": {
+      "detected": "Image schema.org markup",
+      "image_data": {
+        "loc": "Image URLs",
+        "title": "Image titles as alt text"
+      },
+      "cms": "WordPress with XML Sitemap Feed plugin",
+      "recommendations": "Could benefit from: Article, NewsArticle, BreadcrumbList, Organization schema"
+    },
+    "https": {
+      "status": "Active",
+      "protocol": "https://"
+    }
+  },
+  "content_structure_analysis": {
+    "heading_hierarchy": {
+      "h1": "Present (article title)",
+      "h2": "Present (article sections/subsections)",
+      "h3": "Detected in samples",
+      "quality": "Proper hierarchy maintained"
+    },
+    "internal_linking": {
+      "observed": "\"Mohlo by vás zajímat\" (Similar/Related articles section)",
+      "status": "Present but extent unclear from samples",
+      "recommendation": "Audit full site for link density and relevance"
+    },
+    "featured_images": {
+      "presence": "100% in samples examined",
+      "alt_text": "Present in sitemap (image:title field)",
+      "quality": "Good - all articles have images"
+    },
+    "article_length": {
+      "average_wordcount": "700-1100 words per article",
+      "range": "600-1200 words",
+      "depth": "Medium - adequate for topic coverage"
+    }
+  },
+  "topic_portfolio": {
+    "primary_topics": [
+      {
+        "topic": "Apple Products & iPhones",
+        "examples": ["iPhone 17 camera features", "iPhone camera comparisons"],
+        "dominance": "High"
+      },
+      {
+        "topic": "Enterprise IT & Storage",
+        "examples": ["QNAP NAS systems", "Storage solutions"],
+        "dominance": "Medium"
+      },
+      {
+        "topic": "Consumer Electronics",
+        "examples": ["Smart devices", "Gaming laptops", "Home appliances"],
+        "dominance": "High"
+      },
+      {
+        "topic": "Promotional Content",
+        "examples": ["Deal coverage (Alza.cz)", "Tech product promotions"],
+        "dominance": "Medium - commercial content"
+      },
+      {
+        "topic": "Samsung & Mobile Phones",
+        "examples": ["Samsung Galaxy series"],
+        "dominance": "Medium"
+      },
+      {
+        "topic": "Gaming Hardware",
+        "examples": ["Gaming laptops", "ASUS TUF Gaming"],
+        "dominance": "Low-Medium"
+      }
+    ],
+    "publication_frequency": {
+      "observed_last_3_days": "2-3 articles per day",
+      "monthly_estimate": "60-90 articles per month",
+      "pattern": "Consistent, daily publication"
+    },
+    "content_clusters": {
+      "observed": "Not explicitly clustered",
+      "potential_clusters": [
+        "iPhone ecosystem (hardware + camera guides)",
+        "Storage & Enterprise IT",
+        "Consumer electronics deals",
+        "Gaming & performance hardware"
+      ]
+    },
+    "seo_gaps": {
+      "identified": [
+        "Limited howto/guide depth compared to article count",
+        "No detected product comparison matrix",
+        "Promotional content mixed with editorial (potential E-E-A-T issue)",
+        "Limited long-form evergreen content",
+        "No detected FAQ/schema markup",
+        "Limited category/taxonomy organization visible"
+      ],
+      "opportunities": [
+        "Develop comprehensive product comparison guides",
+        "Create topic clusters with hub pages",
+        "Implement FAQ schema on review articles",
+        "Separate editorial from promotional clearly",
+        "Create buying guides by category",
+        "Develop E-E-A-T signals (author bios, expertise markers)"
+      ]
+    }
+  },
+  "recommendations": {
+    "priority_1_critical": [
+      {
+        "issue": "E-E-A-T clarity",
+        "description": "Promotional content (Alza deals) mixed with editorial. Need clear separation and author credibility signals.",
+        "impact": "High - Google E-E-A-T algorithm",
+        "action": "Add author bios, publication dates, expertise markers to all articles"
+      },
+      {
+        "issue": "Structured data gaps",
+        "description": "Missing NewsArticle, Article, and FAQ schema markup",
+        "impact": "High - SEO visibility in search results",
+        "action": "Implement schema.org markup for all article types"
+      }
+    ],
+    "priority_2_important": [
+      {
+        "issue": "Internal linking strategy",
+        "description": "Limited visible internal linking beyond 'related articles'",
+        "impact": "Medium - Link equity distribution, crawlability",
+        "action": "Develop contextual internal link strategy within article bodies"
+      },
+      {
+        "issue": "Topic clustering",
+        "description": "No visible topic pillar/cluster strategy",
+        "impact": "Medium - Topical authority for Google",
+        "action": "Create hub pages for major topics (iPhone, Storage, Gaming, etc.)"
+      },
+      {
+        "issue": "Content categorization",
+        "description": "URL structure doesn't reflect topic hierarchy",
+        "impact": "Medium - Site organization, user experience",
+        "action": "Consider adding category breadcrumbs: /category/topic/article-slug/"
+      }
+    ],
+    "priority_3_enhancement": [
+      {
+        "issue": "Image optimization",
+        "description": "No detected image alt text optimization in articles",
+        "impact": "Low-Medium - Accessibility, image search",
+        "action": "Audit and enhance all image alt text"
+      },
+      {
+        "issue": "Content depth variation",
+        "description": "Articles average 700-1100 words - some topics may need deeper coverage",
+        "impact": "Low-Medium - Competitive ranking",
+        "action": "Analyze competitor depth for high-value keywords"
+      },
+      {
+        "issue": "FAQ implementation",
+        "description": "No detected FAQ sections with FAQ schema",
+        "impact": "Low - Featured snippet potential",
+        "action": "Add FAQ sections with schema.org/FAQPage markup"
+      }
+    ]
+  },
+  "technical_seo_scores": {
+    "robots_txt_management": 9,
+    "sitemap_implementation": 9,
+    "url_structure": 9,
+    "hreflang_multilingual": 9,
+    "meta_descriptions": 8,
+    "page_titles": 8,
+    "structured_data": 5,
+    "internal_linking": 6,
+    "content_organization": 6,
+    "e_e_a_t_signals": 4,
+    "overall_technical_seo": 7
+  },
+  "summary": {
+    "strengths": [
+      "Excellent technical SEO infrastructure (robots.txt, sitemaps, hreflang)",
+      "Well-structured URL slugs",
+      "Comprehensive multilingual support (40+ languages)",
+      "Consistent article publication (daily)",
+      "Good featured image usage",
+      "Proper heading hierarchy",
+      "Featured images present on all articles"
+    ],
+    "weaknesses": [
+      "Lack of structured data (Article, NewsArticle schema)",
+      "Mixed promotional/editorial content without clear separation",
+      "Limited internal linking strategy",
+      "No visible topic clustering or content hub strategy",
+      "Missing E-E-A-T signals (author credentials, expertise markers)",
+      "No FAQ/common question optimization"
+    ],
+    "quick_wins": [
+      "Add Article + NewsArticle schema to all posts",
+      "Implement breadcrumb navigation + schema",
+      "Create author biography/expertise pages",
+      "Add FAQ sections to top-traffic articles",
+      "Develop 3-5 topic hub pages for major categories"
+    ]
+  }
+}

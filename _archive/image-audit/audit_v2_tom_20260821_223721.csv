@@ -1,0 +1,181 @@
+id,filename,source_url,orig_title,orig_alt,llava_desc,nazev,alt,titulek,popis,kontext_sedi,confidence,poznamka,elapsed
+79383,image001.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/image001.jpg,image001,,"1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is shown in a front view.
+4. The background is plain and does not provide any additional context or environment.
+5. There is a watermark or logo in the upper right corner that reads ""VIVO V70 LITE"" and below it, there is ",,,,,,1,parse error,146.6
+79380,Zlato-.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Zlato-.jpg,Zlato,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",,,,,,1,parse error,151.7
+79371,google-home.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/google-home.jpg,google home,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",,,,,,1,parse error,151.6
+79362,google.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/google.jpg,google,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",,,,,,1,parse error,151.5
+79359,images-4.jpeg,https://androidmagazine.eu/wp-content/uploads/2026/08/images-4.jpeg,gemma,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Gemma,Záběr na mobilní telefon Gemma v standardním zeleném barvě zezadu s černým pozadím.,Gemma,Záběr na mobilní telefon Gemma v standardním zeleném barvě zezadu s černým pozadím.,True,5,"Barva byla identifikována jako zelená, ale nebylo specifikováno konkrétní model Gemmy.",141.9
+79353,motorola-edge-2026-1.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/motorola-edge-2026-1.jpg,motorola-edge-2026-1,,"1. The image shows a smartphone.
+2. The smartphone is gold in color.
+3. The smartphone is in an unfolded state, displaying both the front and back sides.
+4. The background is plain and does not provide any additional context.
+5. The smartphone has a camera module on the back, which includes multiple",Motorola Razr 2026 zlatý,"Zlatý Motorola Razr 2026 v rozváženém stavu, zobrazeny oba strany telefónu s kamerou na zádech.",Motorola Razr 2026 zlatý,"Zlatý Motorola Razr 2026 v rozváženém stavu, zobrazeny oba strany telefónu s kamerou na zádech.",True,4,"Pozdější model Razr byl změněn, ale základní design zůstal shodný.",129.0
+79351,Motorola-Edge-2026.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Motorola-Edge-2026.jpg,Screenshot,,"1. The image shows a smartphone.
+2. The smartphone is olive green in color.
+3. The smartphone is in a front view orientation.
+4. The background features a beach setting with sand, a towel, and a pair of sunglasses.
+5. The smartphone has a camera module on the back, which is a common feature for mode",Motorola Edge olivová,Olivová Motorola Edge v předním zobrazení na písku u bazénu s ručníkem a brýlemi.,Motorola Edge olivová,Olivová Motorola Edge v předním zobrazení na písku u bazénu s ručníkem a brýlemi.,True,5,,113.4
+79350,motorola-edge-2026-2.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/motorola-edge-2026-2.jpg,motorola-edge-2026-2,,"1. The image shows a smartphone with a camera module on the back.
+2. The smartphone is gold in color.
+3. The smartphone is in an unfolded position, displaying the back side with the camera module.
+4. The background is a plain, light-colored surface.
+5. There is a watermark or logo on the smartphone,",Motorola Edge 2026 Zlato,"Zlato Motorola Edge 2026, zpětný čidlový modul na zadní straně displeje, na laciném světle.",Motorola Edge 2026 Zlato,"Zlato Motorola Edge 2026, zpětný čidlový modul na zadní straně displeje, na laciném světle.",True,5,,104.9
+79349,motorola-edge-2026-arrives-with-the-biggest-design-change-v0-IbZ29OKJA5Ka7yDYmGTpGWP_oT3zEQQZryZLyhom-oU.jpeg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/motorola-edge-2026-arrives-with-the-biggest-design-change-v0-IbZ29OKJA5Ka7yDYmGTpGWP_oT3zEQQZryZLyhom-oU.jpeg.webp,motorola-edge-2026-arrives-with-the-biggest-design-change-v0-IbZ29OKJA5Ka7yDYmGTpGWP_oT3zEQQZryZLyhom-oU.jpeg,,"1. The image shows a person holding a smartphone. The brand and model of the phone are not clearly visible.
+2. The smartphone is gold in color.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is out of focus, but it appears to be an outdoor setting wit",,,,,,1,parse error,135.2
+79343,Galaxy-Event-August-2026-cover.png,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-Event-August-2026-cover.png,Galaxy-Event-August-2026-cover,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Samsung Galaxy Event August 2026,"Samsung Galaxy Event August 2026, přehledová obrazovka s mobilními zařízeními v pozadí.",Samsung Galaxy Event August 2026,"Samsung Galaxy Event August 2026, přehledová obrazovka s mobilními zařízeními v pozadí.",False,3,"Obrazovka neobsahuje konkrétní model nebo barvu zařízení, ale ukazuje obecný přehledový výstup s mobilními zařízeními.",130.2
+79331,Logitech-MX-Master-4-LsA-1.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Logitech-MX-Master-4-LsA-1.jpg,Logitech-MX-Master-4-LsA-1,,"1. The image shows a white Nintendo Wii game controller.
+2. The color of the device is white.
+3. The controller is in a folded position, with the buttons and joystick facing upwards.
+4. The background features a table with various items on it, including what appears to be a box, a bottle, and some o",Nintendo-Wii-Controller-White,"Bílá Nintendo Wii hračka v složeném stavu s tlačitky a joystickem nahoru. Na pozadí stůl s různými předměty, včetně krabice a lahve. Složená hračka je na obrázku v dvojité fotografii.",Nintendo-Wii-Controller-White,"Bílá Nintendo Wii hračka v složeném stavu s tlačitky a joystickem nahoru. Na pozadí stůl s různými předměty, včetně krabice a lahve. Složená hračka je na obrázku v dvojité fotografii.",False,3,Obrázek neodpovídá tématu článku o Android a mobilních zařízeních.,148.4
+79313,Door-Lock-N100-Zigbee_Scene_1-1-1024x576-1.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Door-Lock-N100-Zigbee_Scene_1-1-1024x576-1.jpg,Door-Lock-N100-Zigbee_Scene_1-1-1024&#215;576,,"1. The image shows a smart door lock, which appears to be a modern, electronic locking mechanism.
+2. The color of the device is silver.
+3. The device is in an unfolded position, with the locking mechanism extended outward.
+4. The background features a room with a blue chair, a plant, and a wall-moun",Smart Door Lock N100 Zigbee,Moderní elektronický zámek pro dveře N100 s modrým pozadím a rozváženou mechanismikou.,Smart Door Lock N100 Zigbee,Moderní elektronický zámek pro dveře N100 s modrým pozadím a rozváženou mechanismikou.,True,5,Obrazová analýza odpovídá článku o inteligentních dveřích a jejich zabezpečení.,145.0
+79308,android-auto.png,https://androidmagazine.eu/wp-content/uploads/2026/08/android-auto.png,android auto,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Android Auto,Android Auto na obrazovce auta v horizontální orientaci s černým pozadím.,Android Auto,Android Auto na obrazovce auta v horizontální orientaci s černým pozadím.,True,5,"Model není explicitně viditelný, ale základní označení Android Auto je správné.",129.3
+79304,product_5751800.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/product_5751800.jpg,product_5751800,,"1. The image shows a smartphone with a camera attachment, which appears to be a Fujifilm Instax camera.
+2. The smartphone is black.
+3. The smartphone is in a front view, with the camera attachment on top of it.
+4. The background is white, which provides a high contrast to the objects in the foregrou",Fujifilm Instax na smaranděhlíku,Fujifilm Instax na smaranděhlíku v černém barvě. Smaranděhlík je v předzobrazení s Instaxem na vrcholu. Pozadí je bílé.,Fujifilm Instax na smaranděhlíku,Fujifilm Instax na smaranděhlíku v černém barvě. Smaranděhlík je v předzobrazení s Instaxem na vrcholu. Pozadí je bílé.,True,5,Obrazek se dobře shoduje s článkem o Fujifilm Instax.,134.9
+79292,googlebook-desktop-camera-app-ui-image-3.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-3.jpg.webp,googlebook-desktop-camera-app-ui-image-3.jpg,,"1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is in a front view, held by a person.
+4. The background is indoors, with a person taking a selfie with another person.
+5. The smartphone has a camera app open, and the camera is pointed towards the two people.",Google Pixel 4a zlatý přední pohled,"Google Pixel 4a zlatý, přední pohled, telefon v ruce osoby, kamera aplikace otevřená, foto na selfie",Google Pixel 4a zlatý přední pohled,"Google Pixel 4a zlatý, přední pohled, telefon v ruce osoby, kamera aplikace otevřená, foto na selfie",True,5,Obrazek se dobře shoduje s popisem a kontextem článku.,129.2
+79291,googlebook-desktop-camera-app-ui-image-4.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-4.jpg.webp,googlebook-desktop-camera-app-ui-image-4.jpg,,"1. The image shows a smartphone with a screen displaying a photo of a person cooking.
+2. The smartphone is silver.
+3. The smartphone is in a front view, with the screen facing the viewer.
+4. The background of the smartphone image is a kitchen setting, with a person cooking and another person observi",Google Pixel kamera aplikace,Silver Google Pixel smartphone s obrazovkou ukazující foto přípravy jídla v kuchyni. Smartphone v předním zobrazení s kuchyní ve pozadí.,Google Pixel kamera aplikace,Silver Google Pixel smartphone s obrazovkou ukazující foto přípravy jídla v kuchyni. Smartphone v předním zobrazení s kuchyní ve pozadí.,True,4,Model Google Pixel identifikován na základě značky a obrazovky s obrazem přípravy jídla.,140.5
+79290,googlebook-desktop-camera-app-ui-image-1.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-1.jpg.webp,googlebook-desktop-camera-app-ui-image-1.jpg,,"1. The image shows a smartphone with a camera app open, displaying a photo of a person.
+2. The smartphone is silver.
+3. The smartphone is held in a portrait orientation.
+4. The background is indoors, with a person standing in front of a building with a sign that reads ""BARBER SHOP.""
+5. The person in",,,,,,1,parse error,143.0
+79289,googlebook-desktop-camera-app-ui-image-2.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-2.jpg.webp,googlebook-desktop-camera-app-ui-image-2.jpg,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Google Pixel desktop aplikace,"Obrazovka Google Pixel desktopové aplikace s kamerou v levém horním rohu, bílá pozadí.",Google Pixel desktop aplikace,"Obrazovka Google Pixel desktopové aplikace s kamerou v levém horním rohu, bílá pozadí.",True,4,Barva pozadí byla odhadnuta z obrazu.,127.7
+79288,googlebook-app-icon-new-image.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-app-icon-new-image.jpg.webp,googlebook-app-icon-new-image.jpg,,"1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is in a front view, with the screen facing the viewer.
+4. The background is a plain, neutral color, providing no additional context or environment.
+5. The smartphone has a visible camera lens on the back, which is a notabl",Samsung A53 front blue,"Samsung A53 smartphone front view, blue color, plain background, visible camera lens on back",Samsung A53 front blue,"Samsung A53 smartphone front view, blue color, plain background, visible camera lens on back",True,4,Model A53 identifikován podle obecného vzhledu a umístění kamerové lupy.,112.5
+79226,googlebook.png,https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook.png,googlebook,,"1. The image shows a laptop.
+2. The laptop is silver.
+3. The laptop is shown in a front view, with the screen facing the viewer.
+4. The background is a dark, solid color, providing a high-contrast backdrop for the laptop.
+5. There are no other notable visual details in the image.",Laptop Googlebook,"Laptop Googlebook v frontové perspektivě, silvrázný, na tmavém pozadí.",Laptop Googlebook,"Laptop Googlebook v frontové perspektivě, silvrázný, na tmavém pozadí.",True,5,Obrazová analýza odpovídá tématu článku.,116.2
+79223,one-ui-9.5-satellite-connectivity-image-1.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/one-ui-9.5-satellite-connectivity-image-1.jpg.webp,one-ui-9.5-satellite-connectivity-image-1.jpg,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",One UI 9.5 satelitní spojení,"Obrazovka s One UI 9.5 a satelitním spojením v centru obrazu, pozadí černý",One UI 9.5 satelitní spojení,"Obrazovka s One UI 9.5 a satelitním spojením v centru obrazu, pozadí černý",False,3,"Obrazovka neobsahuje specifický model zařízení, ale popisuje One UI 9.5 a satelitní spojení, které se neodpovídají názvu souboru.",135.5
+79222,one-ui-9.5-usb-mode-image.jpg.webp,https://androidmagazine.eu/wp-content/uploads/2026/08/one-ui-9.5-usb-mode-image.jpg.webp,one-ui-9.5-usb-mode-image.jpg,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",USB modový režim One UI 9.5,Zobrazuje obrazovku s USB modovým režimem One UI 9.5 v černobílé orientaci.,USB modový režim One UI 9.5,Zobrazuje obrazovku s USB modovým režimem One UI 9.5 v černobílé orientaci.,False,3,Barva není identifikována. Model není jasně viditelný. Obrazovka se liší od článku o Android a mobilních zařízeních.,136.4
+79221,HPyb65KWMAE92c4.jpeg,https://androidmagazine.eu/wp-content/uploads/2026/08/HPyb65KWMAE92c4.jpeg,HPyb65KWMAE92c4,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Samsung Galaxy S21 Ultra,"Samsung Galaxy S21 Ultra, zde je zadní strana s kamerou, bílá pozadí.",Samsung Galaxy S21 Ultra,"Samsung Galaxy S21 Ultra, zde je zadní strana s kamerou, bílá pozadí.",True,5,Model a barva jsou identifikovány na základě popisu obrazu.,123.3
+79220,HPyb7kgX0AEPfgo.jpeg,https://androidmagazine.eu/wp-content/uploads/2026/08/HPyb7kgX0AEPfgo.jpeg,HPyb7kgX0AEPfgo,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Samsung Galaxy S21 Ultra,"Samsung Galaxy S21 Ultra, základní pozice, černý, základní barva telefónu",Samsung Galaxy S21 Ultra,"Samsung Galaxy S21 Ultra, základní pozice, černý, základní barva telefónu",True,5,Model a barva jsou zřetelně vidět na obrázku a odpovídají kontextu článku.,132.1
+79219,HPyb7OuWcAA-2Mh.jpeg,https://androidmagazine.eu/wp-content/uploads/2026/08/HPyb7OuWcAA-2Mh.jpeg,HPyb7OuWcAA-2Mh,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Samsung Galaxy S21 Ultra,"Samsung Galaxy S21 Ultra, základní pozice, černý, bez barvy pozadí",Samsung Galaxy S21 Ultra,"Samsung Galaxy S21 Ultra, základní pozice, černý, bez barvy pozadí",True,5,"Model je zřetelně identifikován, ale barva pozadí není vidět.",129.9
+79215,Berkshire-Hathaway-1-1.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Berkshire-Hathaway-1-1.jpg,Berkshire Hathaway,,"1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is in a portrait orientation, being held by a person.
+4. The background is blurred, but it appears to be an indoor setting with a window or glass pane.
+5. The smartphone screen displays a notification or message from ""Be",Berkshire Hathaway Smartphone,"Berkshire Hathaway smartphone v sivém barvě, portrétová orientace, zobrazení notifikace s nápisem Berkshire Hathaway na displeji, zahájení v prostředí s roztaženým oknem.",Berkshire Hathaway Smartphone,"Berkshire Hathaway smartphone v sivém barvě, portrétová orientace, zobrazení notifikace s nápisem Berkshire Hathaway na displeji, zahájení v prostředí s roztaženým oknem.",True,5,Obrazek se dobře shoduje s článkem o mobilních zařízeních a společnosti Berkshire Hathaway.,139.6
+79212,Life_SNDK_NAS_Porfolio_Key_Install_NAS_PO.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Life_SNDK_NAS_Porfolio_Key_Install_NAS_PO.jpg,Life_SNDK_NAS_Porfolio_Key_Install_NAS_PO,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",SNDK Portfolio Key Install,Obrazek zobrazení SNDK Portfolio Key Install na zeleném pozadí s horizontální orientací.,SNDK Portfolio Key Install,Obrazek zobrazení SNDK Portfolio Key Install na zeleném pozadí s horizontální orientací.,False,3,"Model není identifikován, červená barva není vidět v obrázku.",128.6
+79209,260818-720p-gd24-CZ.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/260818-720p-gd24-CZ.jpg,260818-720p-gd24-CZ,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Google Pixel 6 Pro,Zdjęcie Google Pixel 6 Pro w czarnym kolorze z tyłu telefonu.,Google Pixel 6 Pro,Zdjęcie Google Pixel 6 Pro w czarnym kolorze z tyłu telefonu.,True,5,"Model telefonu jest jasno widoczny, kolor jest identyfikowany.",122.4
+79163,Poco-F9-Pro-a-Poco-F9-Ultra-v-cervene.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Poco-F9-Pro-a-Poco-F9-Ultra-v-cervene.jpg,Poco-F9-Pro-a-Poco-F9-Ultra-v-cervene,,"1. The image shows a smartphone and a smartwatch.
+2. The smartphone is pink.
+3. The smartwatch is silver.
+4. The background is plain and does not provide any additional context.
+5. The smartphone and smartwatch are displayed side by side, with the smartphone on the left and the smartwatch on the rig",,,,,,1,parse error,143.3
+79162,Zelena-varianta-Poco-F9-Pro-a-Poco-F9-Ultra.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Zelena-varianta-Poco-F9-Pro-a-Poco-F9-Ultra.jpg,Zelena-varianta-Poco-F9-Pro-a-Poco-F9-Ultra,,"1. The image shows a smartphone with a detachable camera module.
+2. The smartphone is green.
+3. The smartphone is in a front view, with the camera module detached and placed on top of it.
+4. The background is a plain, light color, providing a neutral backdrop that does not distract from the product.",Zelená-varianta-Poco-F9-Pro-s-detachovatelnou-kamerou,"Zelená Poco F9 Pro s detachovatelnou kamerou v předzobě, kamera na stole. Pozadí bělohosté.",Zelená-varianta-Poco-F9-Pro-s-detachovatelnou-kamerou,"Zelená Poco F9 Pro s detachovatelnou kamerou v předzobě, kamera na stole. Pozadí bělohosté.",True,5,Obrazek se dobře shoduje s popisem v článku.,131.9
+79161,Biua-verze.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Biua-verze.jpg,Biua-verze,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Biua verze,"Zobrazuje verzi Biua, černý displej s Androidem v horizontální položce na černém pozadí.",Biua verze,"Zobrazuje verzi Biua, černý displej s Androidem v horizontální položce na černém pozadí.",True,4,"Model není jasně identifikován, ale založeno bylo na zobrazení Biua.",128.0
+79160,Nova-vlajkova-lod-v-cerne-barve.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Nova-vlajkova-lod-v-cerne-barve.jpg,Nova-vlajkova-lod-v-cerne-barve,,"1. The image shows a smartphone and a remote control.
+2. The smartphone is black.
+3. The smartphone is in a front view, and the remote control is in a top view.
+4. The background is plain and does not provide any additional context.
+5. The smartphone has a camera on the back, and the remote control ",,,,,,1,parse error,143.5
+79047,Galaxy-S26-112.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-112.jpg,Galaxy S26 112,,"1. The image shows a smartphone.
+2. The smartphone is silver in color.
+3. The smartphone is held in a portrait orientation, with the screen facing upwards.
+4. The background is a paved surface, possibly a sidewalk or patio.
+5. There is a human hand holding the smartphone, and a thumb is visible on t",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26, stříbrný, portrétová orientace, displej vzhůru, pozadí s dlaždicemi, viditelná ruka s ukazovákem na displeji",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26, stříbrný, portrétová orientace, displej vzhůru, pozadí s dlaždicemi, viditelná ruka s ukazovákem na displeji",True,5,,123.5
+79046,Galaxy-S26-111.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-111.jpg,Galaxy S26 111,,"1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a hand, with the screen facing the viewer.
+4. The background is blurred, but it appears to be an outdoor setting with a paved surface.
+5. The smartphone has a camera system on the back, which includes multiple l",Samsung Galaxy S26 Červená,"Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídly kamera na zadní straně, roztažená pozadí s betonovou plochou.",Samsung Galaxy S26 Červená,"Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídly kamera na zadní straně, roztažená pozadí s betonovou plochou.",False,3,Barva telefonu je zjištěna pouze na základě názvu souboru a není totožná s popisem v obrázku.,140.7
+79044,Galaxy-S26-110.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-110.jpg,Galaxy S26 110,,"1. The image shows a Samsung smartphone.
+2. The device is silver in color.
+3. The phone is held in a front view, with the screen facing the viewer.
+4. The background is a blurred outdoor setting, possibly a street or sidewalk.
+5. The phone has a camera module on the back, which includes multiple len",,,,,,1,parse error,140.4
+79043,Galaxy-S26-109.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-109.jpg,Galaxy S26 109,,"1. The image shows a smartphone.
+2. The smartphone is silver in color.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is a paved surface, possibly a sidewalk or a patio.
+5. The smartphone has a case with a visible camera cutout and a notch at the top,",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26, stříbrný barva, přední pohled, displej se značkami aplikací, na paveli, v ruce.",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26, stříbrný barva, přední pohled, displej se značkami aplikací, na paveli, v ruce.",True,5,,139.8
+79042,Galaxy-S26-108.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-108.jpg,Galaxy S26 108,,"1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is being held in a portrait orientation.
+4. The background is a blurred outdoor setting, possibly a street or sidewalk, with a brick pavement.
+5. The smartphone has a colorful wallpaper with a gradient of colors, and ther",Samsung Galaxy S26,"Samsung Galaxy S26 v černém barvě, portrétová orientace, pozadí s brusnou ulicí.",Samsung Galaxy S26,"Samsung Galaxy S26 v černém barvě, portrétová orientace, pozadí s brusnou ulicí.",True,5,Obrazek se dobře shoduje s popisem v článku.,134.3
+79041,Galaxy-S26-107.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-107.jpg,Galaxy S26 107,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)",Samsung Galaxy S26,"Samsung Galaxy S26, zavěšený proti světlu, černý, frontální pohled, tmavý pozadí.",Samsung Galaxy S26,"Samsung Galaxy S26, zavěšený proti světlu, černý, frontální pohled, tmavý pozadí.",True,5,Obrazek odpovídá kontextu článku.,131.6
+79040,Galaxy-S26-106.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-106.jpg,Galaxy S26 106,,"1. The image shows a smartphone.
+2. The smartphone is white.
+3. The smartphone is being held in a portrait orientation.
+4. The background is a blurred outdoor setting, possibly a street or sidewalk, with a brick pavement.
+5. The smartphone has a colorful wallpaper with a time display, and it appears",Samsung Galaxy S26 bílý,Samsung Galaxy S26 bílý v portrétní orientaci na pozadí rozostřeného uličního prostředí s dlažebním nádržem.,Samsung Galaxy S26 bílý,Samsung Galaxy S26 bílý v portrétní orientaci na pozadí rozostřeného uličního prostředí s dlažebním nádržem.,True,5,,112.9
+79039,Galaxy-S26-105.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-105.jpg,Galaxy S26 105,,"1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is held in a portrait orientation, with the screen facing the viewer.
+4. The background is a grassy area with a clear sky.
+5. The smartphone has a camera system on the back, which includes multiple lenses.",Samsung Galaxy S26,"Samsung Galaxy S26 silvr, portrétová orientace, základní část displeje, pozadí s trávou a oblohou",Samsung Galaxy S26,"Samsung Galaxy S26 silvr, portrétová orientace, základní část displeje, pozadí s trávou a oblohou",True,5,,116.1
+79038,Galaxy-S26-104.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-104.jpg,Galaxy S26 104,,"1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is a grassy area with a clear sky.
+5. The smartphone has a camera module on the back, which includes multiple lenses.",Samsung Galaxy S26 Červeně,"Samsung Galaxy S26 v červené barvě, přední pohled, zobrazení obrazovky, pozadí s trávou a oblohou, kamера модуль na zádech s více objektivy",Samsung Galaxy S26 Červeně,"Samsung Galaxy S26 v červené barvě, přední pohled, zobrazení obrazovky, pozadí s trávou a oblohou, kamера модуль na zádeчс s více objektivy",False,3,"Barva červená není identifikována, ale založeno bylo na původním názvu souboru, který naznačuje barvu modrou. Vzhledem k tomu, že článek kontext není zadaný, je možné, že obrázek neodpovídá tématu článku.",136.8
+79037,Galaxy-S26-103.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-103.jpg,Galaxy S26 103,,"1. The image shows a smartphone.
+2. The smartphone is silver in color.
+3. The smartphone is held in a portrait orientation, with the screen facing the viewer.
+4. The background is a grassy area with a person's hand holding the phone.
+5. The smartphone has a camera module on the back, which is visibl",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26 v stříbrném barvu, telefon je držen v portrétní orientaci s obrazovkou k zobrazení, pozadí je trávník s rukou držící telefon.",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26 v stříbrném barvu, telefon je držen v portrétní orientaci s obrazovkou k zobrazení, pozadí je trávník s rukou držící telefon.",True,5,,121.8
+79036,Galaxy-S26-102.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-102.jpg,Galaxy S26 102,,"1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a hand, with the screen facing the viewer.
+4. The background is a grassy area with a patch of dirt.
+5. The smartphone has a visible camera lens on the back.",Samsung Galaxy S26 Červená,"Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídlem k úhlu, pozadí s trávou a zemičkem, zřetelně vidět fotoaparát na zadní straně.",Samsung Galaxy S26 Červená,"Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídlem k úhlu, pozadí s trávou a zemičkem, zřetelně vidět fotoaparát na zadní straně.",False,3,"Barva telefonu je špatně identifikována. V obrázku je telefon červený, ale v názvu bylo uvedeno modré.",124.1
+79035,Galaxy-S26-101.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-101.jpg,Galaxy S26 101,,"1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is held in a hand, with the front view visible.
+4. The background is a grassy area with a person's hand holding the phone.
+5. The smartphone has a camera system on the back, which includes multiple lenses.",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26, stříbrný, fronta, v ruce, na zeleném pozadí s rukou držící telefon",Samsung Galaxy S26 Stříbrný,"Samsung Galaxy S26, stříbrný, fronta, v ruce, na zeleném pozadí s rukou držící telefon",True,5,,110.6
+79034,Galaxy-S26-100.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-100.jpg,Galaxy S26 100,,"1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is a grassy area with a clear sky.
+5. The smartphone has a camera system on the back, which includes multiple lenses.",Samsung Galaxy S26 Červený,"Samsung Galaxy S26, červený, zobrazen v předním zobrazení s obrazovkou křižovatou s obrazem trávy a čistého nebe.",Samsung Galaxy S26 Červený,"Samsung Galaxy S26, červený, zobrazen v předním zobrazení s obrazovkou křižovatou s obrazem trávy a čistého nebe.",False,3,"Barva červená nebyla identifikována, ale základní model a barva byla popsaná podle dostupných informací. Kontext není relevantní pro zobrazení.",125.7
+79033,Galaxy-S26-Ultra-recenze-15.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-15.jpg,Galaxy S26 Ultra recenze 15,,"1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in an unfolded position, displaying its screen.
+4. The background is a wooden surface, possibly a table or a bench.
+5. There is a pen lying next to the smartphone.",Galaxy S26 Ultra recenze,Samsung Galaxy S26 Ultra v černém barvě na otevřeném displeji na dřevěném povrchu s přiloženým krayonem.,Galaxy S26 Ultra recenze,Samsung Galaxy S26 Ultra v černém barvě na otevřeném displeji na dřevěném povrchu s přiloženým krayonem.,True,5,Obrazek se dobře shoduje s tématem recenze Galaxy S26 Ultra.,111.2
+79032,Galaxy-S26-Ultra-recenze-14.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-14.jpg,Galaxy S26 Ultra recenze 14,,"1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in a front view, lying flat on a surface.
+4. The background is a wooden table with a pen on it.
+5. The smartphone has a notch at the top, which is typical for modern smartphones. The notch houses the front-facing camer",Samsung Galaxy S26 Ultra,Samsung Galaxy S26 Ultra v černém barvě leží na stolu s křížkem na špičce displeje a krayínou vedle.,Samsung Galaxy S26 Ultra,Samsung Galaxy S26 Ultra v černém barvě leží na stolu s křížkem na špičce displeje a krayínou vedle.,True,5,Obrazek se dobře shoduje s článkem o recenzi Galaxy S26 Ultra.,117.3
+79031,Galaxy-S26-Ultra-recenze-13.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-13.jpg,Galaxy S26 Ultra recenze 13,,"1. The image shows a smartphone, but the brand and model are not clearly visible.
+2. The smartphone is black.
+3. The smartphone is in a front view, lying flat on a surface.
+4. The background is a wooden table.
+5. There is a pen or stylus resting on the smartphone, indicating that it may be a tablet ",Smartфон s stylusem na stole,"Nerozpoznatelná značka a model smartfónu, který je černý a leží na ploše na stolu s písem nebo stylusem vedle.",Smartфон s stylusem na stole,"Nerozpoznatelná značka a model smartfónu, který je černý a leží na ploše na stolu s písem nebo stylusem vedle.",False,3,"Model a značka nejsou identifikovány, ale základní popis je zahrnut.",120.7
+79030,Galaxy-S26-Ultra-recenze-12.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-12.jpg,Galaxy S26 Ultra recenze 12,,"1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in a folded position, with the screen facing upwards.
+4. The background consists of a wooden surface, possibly a table or deck.
+5. There is a small black object next to the smartphone, which appears to be a SIM card tr",Samsung Galaxy S26 Ultra recenze,"Samsung Galaxy S26 Ultra v černém barvě, zobrazený v zavřeném stavu s obrazovkou vzhůru na stolu s dřevěnou podložkou",Samsung Galaxy S26 Ultra recenze,"Samsung Galaxy S26 Ultra v černém barvě, zobrazený v zavřeném stavu s obrazovkou vzhůru na stolu s dřevěnou podložkou",True,5,Obrázek se dobře shoduje s článkem o recenzi Samsung Galaxy S26 Ultra.,118.7
+79029,Galaxy-S26-Ultra-recenze-11.jpg,https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-11.jpg,Galaxy S26 Ultra recenze 11,,"1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in a rear view orientation, lying flat on a surface.
+4. The background is a wooden table.
+5. The smartphone has a camera module on the back, which includes multiple lenses.",Galaxy S26 Ultra recenze,Zděšená předná strana černého Galaxy S26 Ultra ležící na stolu s dřevěnou podložkou s pozadí.,Galaxy S26 Ultra recenze,Zděšená předná strana černého Galaxy S26 Ultra ležící na stolu s dřevěnou podložkou s pozadí.,True,5,,115.0

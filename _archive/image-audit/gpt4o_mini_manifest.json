@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt-4o-mini-20260820_093053-n500",
+  "status": "completed",
+  "model": "gpt-4o-mini",
+  "batch_size": 500,
+  "checkpoint_every": 50,
+  "target_count": 500,
+  "processed": 500,
+  "updated": 250,
+  "kept": 250,
+  "manual_review": 0,
+  "started_at": "2026-08-20T09:31:01",
+  "last_checkpoint_at": "2026-08-20T09:57:12",
+  "prompt_path": "/Users/lisa/.openclaw/workspace/image-audit/prompt_gpt4o_mini_500.md",
+  "csv_path": "/Users/lisa/.openclaw/workspace/image-audit/runs/gpt-4o-mini-20260820_093053-n500/gpt-4o-mini-20260820_093053-n500.csv",
+  "jsonl_path": "/Users/lisa/.openclaw/workspace/image-audit/runs/gpt-4o-mini-20260820_093053-n500/gpt-4o-mini-20260820_093053-n500.jsonl",
+  "html_path": "/Users/lisa/.openclaw/workspace/image-audit/gpt4o_mini_image_audit.html",
+  "manifest_path": "/Users/lisa/.openclaw/workspace/image-audit/runs/gpt-4o-mini-20260820_093053-n500/manifest.json",
+  "latest_checkpoint_index": 500,
+  "last_media_id": 2424,
+  "last_error": null,
+  "completed_at": "2026-08-20T09:57:12"
+}

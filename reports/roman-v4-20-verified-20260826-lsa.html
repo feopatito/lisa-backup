@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LSA - 20 slotů V4 po keynote errata</title>
+  <style>
+@page {
+  size: A4;
+  margin: 18mm 15mm 20mm 15mm;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.55;
+  color: #1a1a1a;
+  background: white;
+}
+
+/* Cover header */
+.cover {
+  background: linear-gradient(135deg, #1d72b8 0%, #0e4d88 100%);
+  color: white;
+  padding: 28px 24px 22px 24px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+.cover h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+  color: white;
+  border: none;
+}
+.cover .subtitle {
+  font-size: 11pt;
+  opacity: 0.88;
+  margin: 4px 0 0 0;
+}
+.cover .meta {
+  font-size: 9pt;
+  opacity: 0.72;
+  margin-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: 700;
+  color: #0a0a0a;
+  border-bottom: 3px solid #1d72b8;
+  padding-bottom: 6px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: #1d72b8;
+  border-left: 4px solid #1d72b8;
+  padding-left: 10px;
+  margin-top: 22px;
+  margin-bottom: 6px;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+p { margin: 4px 0 7px 0; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 14px 0;
+  font-size: 8.5pt;
+  page-break-inside: auto;
+}
+
+thead tr {
+  background-color: #1d72b8;
+  color: white;
+}
+
+thead th {
+  padding: 6px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 8.5pt;
+}
+
+tbody tr:nth-child(even) { background-color: #f2f7fd; }
+tbody tr:nth-child(odd)  { background-color: #ffffff; }
+
+tbody td {
+  padding: 5px 8px;
+  border-bottom: 1px solid #dde8f5;
+  vertical-align: top;
+  font-size: 8.5pt;
+}
+
+/* Code / brief cards */
+pre {
+  background: #f5f8fc;
+  border: 1px solid #c8d8ea;
+  border-left: 5px solid #1d72b8;
+  padding: 10px 13px;
+  font-size: 8pt;
+  font-family: 'Courier New', 'Lucida Console', monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  page-break-inside: avoid;
+  margin: 8px 0 14px 0;
+  border-radius: 3px;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 8.5pt;
+  background: #eaf0fa;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d8e4f0;
+  margin: 14px 0;
+}
+
+ul, ol {
+  margin: 4px 0 8px 0;
+  padding-left: 18px;
+}
+li { margin-bottom: 3px; font-size: 10pt; }
+
+blockquote {
+  background: #fff9e6;
+  border-left: 4px solid #f5a623;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 9.5pt;
+  border-radius: 0 3px 3px 0;
+}
+
+strong { font-weight: 700; }
+
+/* Source coverage audit section */
+.audit {
+  background: #f9fafb;
+  border: 1px solid #dde4ec;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 9pt;
+  margin-top: 16px;
+}
+
+/* Page break helpers */
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+  
+    <div class="cover">
+      <h1>LSA - 20 slotů V4 po keynote errata</h1>
+      <div class="subtitle">letemsvetemapplem.eu | keynote slot marked FAIL</div>
+      <div class="meta">Lisa V6.5 • 26. srpna 2026 • Roman V4 corrected • Důvěrné</div>
+    </div>
+    
+  <h1>Opravený ranní výstup V3 — 26. 8. 2026</h1>
+<p>Status: rerun po Romanově kontrole. Cíl: 20 slotů pro web, ale bez duplicitních CREATE.</p>
+<h2>Použité vrstvy</h2>
+<ul>
+<li>DATA GATE: GA4/GSC/Manticore/WP PASS v hlavní session.</li>
+<li>Google Trends: GLOBAL pytrends <code>geo=''</code>, <code>now 7-d</code>; dvě Samsung dávky skončily 429 a jsou označené <code>GLOBAL_TRENDS_UNAVAILABLE</code>.</li>
+<li>GSC: live 28d + 7d podklady z dnešního běhu.</li>
+<li>GA4: live 7d top pages.</li>
+<li>Google News/web: CHECKED přes aktuální web search pro Apple / Android / Samsung témata.</li>
+<li>Manticore: CHECKED přes <code>/results</code>, navíc title/exact-topic recheck pro všech 60 kandidátů.</li>
+<li>WP REST: CHECKED pro všech 60 kandidátů jako druhá duplicitní vrstva.</li>
+<li>Fact-check: PASS jen tam, kde existuje hard source; spekulace zůstává označená jako leak/rumor/monitor.</li>
+</ul>
+<h2>Errata po Romanově kontrole 09:36</h2>
+<ul>
+<li>LSA-04 byl chybně označen jako fact-check PASS. Správně: Apple keynote 2026 zatím není oficiálně oznámená, proto servisní článek „jak sledovat" = FINAL_WRITE_GATE FAIL.</li>
+<li>Příčina chyby: sezónní odhad <code>~9. září</code> byl povýšen na fakt.</li>
+</ul>
+<h2>Tvrdá oprava</h2>
+<p>Pokud Manticore nebo WP ukazuje publikovaný nebo velmi podobný intent, <code>CREATE povoleno</code> je <code>NO</code> a akce je UPDATE/FOLLOW-UP/MERGE/MONITOR. To je rozdíl proti předchozí chybné verzi.</p>
+<h1>LSA — letemsvetemapplem.eu — 20 slotů po WP kontrole</h1>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Akce</th>
+<th>CREATE povoleno</th>
+<th>Titulek / intent</th>
+<th>Global Trends</th>
+<th>WP/Manticore verdict</th>
+<th>Fact-check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LSA-01</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Mac mini s M6: co Apple skutečně změnil a komu se vyplatí</td>
+<td>global max 30/100, avg 2.4, last 26</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Alza spustila předobjednávky Macu mini M6 a M5 Pro, objednávejte než se vyprodají / Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-02</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Mac Studio s M5 Max a M5 Ultra: tichý upgrade pro profesionály</td>
+<td>global max 8/100, avg 0.6, last 5</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Pohled do útrob AI serverů Apple. Uniklé fotografie odhalují čip M5 a precizní chlazení / Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-03</td>
+<td>CREATE</td>
+<td>YES</td>
+<td>M6 a M5 Ultra: proč Apple tlačí AI výkon do Maců</td>
+<td>global max 0/100, avg 0.0, last 0</td>
+<td>MANTICORE_NO_EXACT_DUPLICATE; WP_REST_RELATED_HITS</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-04</td>
+<td>MONITOR</td>
+<td>NO</td>
+<td>Apple keynote 2026: pouze monitoring, Apple ji oficiálně neoznámil</td>
+<td>global max 0/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS + NO_OFFICIAL_APPLE_INVITE: servisní článek jak sledovat je předčasný</td>
+<td>FAIL</td>
+</tr>
+<tr>
+<td>LSA-05</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>iPhone 18 Pro: co víme, co jsou úniky a co neříkat jako fakt</td>
+<td>global max 100/100, avg 81.3, last 70</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme / Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-06</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>iPhone Ultra: proč skládací iPhone táhne Discover</td>
+<td>global max 100/100, avg 78.9, last 96</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme / Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-07</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Apple Maps reklamy jsou živé: kde se zobrazí a proč nejdou vypnout</td>
+<td>global max 0/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Apple Maps zaplaví reklamy a to už letos v létě! / Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-08</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>ChatGPT na Macu a iMessage: co je reálně možné a kde jsou rizika</td>
+<td>global max 1/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesílat / iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těši</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-09</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>LEGO PlayStation 1 a proč LEGO teď funguje na LSA</td>
+<td>global max 1/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako originál a ukrývat herní překvapení / LEGO a Sony chystají senzaci. Vedle stavebnicového</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-10</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>iCloud trik na fotky: co ještě funguje a co Apple brzy utne</td>
+<td>global max 0/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Apple ho brzy zatrhne / Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplat</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-11</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>CarPlay v iOS 27: změny, které řidiči uvidí jako první</td>
+<td>global max 25/100, avg 3.4, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky / Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-12</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>Apple Watch 12: šest očekávání před keynote, jasně oddělená od faktů</td>
+<td>global max 100/100, avg 61.1, last 75</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme / Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-13</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>AirPods 5 před zářím: co dává smysl čekat a co je jen rumor</td>
+<td>global max 65/100, avg 35.2, last 51</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 / Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-14</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>iPhone 20 design: proč už teď zajímá čtenáře víc než by měl</td>
+<td>global max 25/100, avg 3.6, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Recenze MacBook Air M3: Velmi příjemný krok vpřed / Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone budoucnosti</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-15</td>
+<td>FOLLOW-UP</td>
+<td>NO</td>
+<td>Nová Apple TV 4K a Siri Remote: malý update, velký dopad v obýváku</td>
+<td>global max 0/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějších funkcí / Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-16</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Apple mění pravidla pro aplikace v EU: co to znamená pro majitele iPhonů</td>
+<td>global max 68/100, avg 0.7, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit / Historie a budoucnost nativních aplikací Applu</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-17</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Která Apple zařízení už mají plnou podporu Wi-Fi 7</td>
+<td>global max 0/100, avg 0.0, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Takto Apple oficiálně představil nové iPady 11 a iPady Air M3 / Apple oficiálně představil iPhone 16e: Výkonný přírůstek do rodiny iPhonů 16!</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-18</td>
+<td>CREATE</td>
+<td>YES</td>
+<td>BenQ iScreenBar pro iMac: doplněk, který Apple nikdy neudělal</td>
+<td>global max 85/100, avg 0.5, last 0</td>
+<td>MANTICORE_NO_EXACT_DUPLICATE; WP_REST_RELATED_HITS</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-19</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Apple 40W Dynamic Power Adapter míří do dalších zemí: proč je zajímavý</td>
+<td>global max 100/100, avg 10.5, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě až 60 W / Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkod</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>LSA-20</td>
+<td>UPDATE</td>
+<td>NO</td>
+<td>Apple otevřel Advanced Manufacturing Center v Houstonu: proč to není jen PR</td>
+<td>global max 60/100, avg 0.4, last 0</td>
+<td>PUBLISHED/SIMILAR_EXISTS: Sklo pro iPhone a Apple Watch bude již brzy 100% z USA</td>
+<td>PASS</td>
+</tr>
+</tbody>
+</table>
+<h2>Detailní sloty</h2>
+<h3>LSA-01 — Mac mini s M6: co Apple skutečně změnil a komu se vyplatí</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: mac mini m6</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: Apple Newsroom + MacRumors/9to5Mac, čerstvé uvedení Mac mini.; GSC 8495 imp / pos 2.11 / CTR 9.59 %; GA4 1669 sessions / 8120 views</li>
+<li>hard_evidence: Apple Newsroom + MacRumors/9to5Mac, čerstvé uvedení Mac mini.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr</li>
+<li>global_trends: global max 30/100, avg 2.4, last 26</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Alza spustila předobjednávky Macu mini M6 a M5 Pro, objednávejte než se vyprodají | Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI</li>
+<li>matching_articles:</li>
+<li>2026-08-26T07:28:19.000Z — Alza spustila předobjednávky Macu mini M6 a M5 Pro, objednávejte než se vyprodají — https://www.letemsvetemapplem.eu/2026/08/26/alza-spustila-predobjednavky-macu-mini-m6-a-m5-pro-objednavejte-nez-se-vyprodaji/</li>
+<li>2026-08-25T14:32:29.000Z — Nový M6 je vůbec první 2nm Apple čip, přináší obrovský skok hlavně v AI — https://www.letemsvetemapplem.eu/2026/08/25/novy-m6-je-vubec-prvni-2nm-apple-cip-prinasi-obrovsky-skok-hlavne-v-ai/</li>
+<li>2026-08-25T14:04:37.000Z — Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně — https://www.letemsvetemapplem.eu/2026/08/25/apple-po-peti-letech-predstavil-novy-cistici-hadrik-a-tentokrat-za-nej-chce-vyrazne-mene/</li>
+<li>unique_value: Rozebrat konfigurace, AI výkon a český nákupní kontext.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-02 — Mac Studio s M5 Max a M5 Ultra: tichý upgrade pro profesionály</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: mac studio m5 ultra</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: Apple Newsroom: nový Mac Studio s M5 Max/M5 Ultra.; GSC 8495 imp / pos 2.11 / CTR 9.59 %; GA4 1669 sessions / 8120 views</li>
+<li>hard_evidence: Apple Newsroom: nový Mac Studio s M5 Max/M5 Ultra.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr</li>
+<li>global_trends: global max 8/100, avg 0.6, last 5</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Pohled do útrob AI serverů Apple. Uniklé fotografie odhalují čip M5 a precizní chlazení | Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM</li>
+<li>matching_articles:</li>
+<li>2026-08-26T07:15:16.000Z — Pohled do útrob AI serverů Apple. Uniklé fotografie odhalují čip M5 a precizní chlazení — https://www.letemsvetemapplem.eu/2026/08/26/pohled-do-utrob-ai-serveru-apple-unikle-fotografie-odhaluji-cip-m5-a-precizni-chlazeni/</li>
+<li>2026-08-25T15:06:53.000Z — Nový M5 Ultra je dosud nejvýkonnější Apple čip, zvládne až 512 GB RAM — https://www.letemsvetemapplem.eu/2026/08/25/novy-m5-ultra-je-dosud-nejvykonnejsi-apple-cip-zvladne-az-512-gb-ram/</li>
+<li>2026-08-25T14:04:37.000Z — Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně — https://www.letemsvetemapplem.eu/2026/08/25/apple-po-peti-letech-predstavil-novy-cistici-hadrik-a-tentokrat-za-nej-chce-vyrazne-mene/</li>
+<li>unique_value: Srovnat proti Mac mini M6 a vysvětlit pro koho je Studio.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-03 — M6 a M5 Ultra: proč Apple tlačí AI výkon do Maců</h3>
+<ul>
+<li>action: CREATE</li>
+<li>create_allowed: YES</li>
+<li>exact_topic: m6 m5 ultra ai compute</li>
+<li>primary_lane: DISCOVERY</li>
+<li>why_now: Apple Newsroom: nové čipy M6/M5 Ultra a AI compute.; GA4 1160 sessions / 2219 views</li>
+<li>hard_evidence: Apple Newsroom: nové čipy M6/M5 Ultra a AI compute.; WP/Manticore: NO_DUPLICATE přes Manticore</li>
+<li>global_trends: global max 0/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: MANTICORE_NO_EXACT_DUPLICATE; WP_REST_RELATED_HITS</li>
+<li>unique_value: Přeložit technický čipový launch do uživatelských dopadů.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-04 — Apple keynote 2026: pouze monitoring, ne článek „jak sledovat"</h3>
+<ul>
+<li>action: MONITOR</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: Apple September/iPhone keynote 2026 status</li>
+<li>primary_lane: MONITOR / predictive lane</li>
+<li>why_now: Apple zatím neposlal oficiální pozvánku. Existuje jen sezónní okno a odhady médií.</li>
+<li>hard_evidence: Apple Newsroom search nevrátil oficiální September/iPhone event invite; 9to5Mac výslovně píše, že Apple invitations ještě neodeslal.</li>
+<li>global_trends: global max 0/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS + NO_OFFICIAL_APPLE_INVITE. Servisní článek „jak sledovat" je předčasný a nesmí projít fact-checkem.</li>
+<li>matching_articles:</li>
+<li>2026-08-25T10:02:49.000Z — Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den — https://www.letemsvetemapplem.eu/2026/08/25/apple-uz-brzy-rozesle-pozvanky-na-nejvetsi-keynote-roku-iphone-18-pro-dorazi-v-tento-den/</li>
+<li>unique_value: Až po oficiální pozvánce připravit servisní článek s časem v ČR a streamem. Do té doby jen monitor.</li>
+<li>reality_status: FAIL_FOR_CREATE</li>
+<li>information_age_status: UNCERTAIN</li>
+<li>final_write_gate: FAIL</li>
+</ul>
+<h3>LSA-05 — iPhone 18 Pro: co víme, co jsou úniky a co neříkat jako fakt</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: iphone 18 pro</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: GSC: iPhone 18 Pro patří mezi nejsilnější LSA dotazy.; GSC 680779 imp / pos 1.35 / CTR 4.89 %; GA4 4712 sessions / 51935 views</li>
+<li>hard_evidence: GSC: iPhone 18 Pro patří mezi nejsilnější LSA dotazy.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v </li>
+<li>global_trends: global max 100/100, avg 81.3, last 70</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den</li>
+<li>matching_articles:</li>
+<li>2026-08-25T18:02:53.000Z — Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme — https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/</li>
+<li>2026-08-25T10:02:49.000Z — Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den — https://www.letemsvetemapplem.eu/2026/08/25/apple-uz-brzy-rozesle-pozvanky-na-nejvetsi-keynote-roku-iphone-18-pro-dorazi-v-tento-den/</li>
+<li>2026-08-25T09:02:07.000Z — Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 — https://www.letemsvetemapplem.eu/2026/08/25/nejen-iphone-18-pro-a-ultra-apple-v-zari-predstavi-i-nove-airpods-5/</li>
+<li>unique_value: Oddělit ověřené informace od leaků, vyčistit záměny intentu.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-06 — iPhone Ultra: proč skládací iPhone táhne Discover</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: iphone ultra</li>
+<li>primary_lane: DISCOVER</li>
+<li>why_now: GA4: skládací iPhone Ultra měl vysoké pageviews; GSC iPhone Ultra silný.; GSC 680779 imp / pos 1.35 / CTR 4.89 %; GA4 4712 sessions / 51935 views</li>
+<li>hard_evidence: GA4: skládací iPhone Ultra měl vysoké pageviews; GSC iPhone Ultra silný.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výr</li>
+<li>global_trends: global max 100/100, avg 78.9, last 96</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně</li>
+<li>matching_articles:</li>
+<li>2026-08-25T18:02:53.000Z — Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme — https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/</li>
+<li>2026-08-25T14:04:37.000Z — Apple po pěti letech představil nový čisticí hadřík. A tentokrát za něj chce výrazně méně — https://www.letemsvetemapplem.eu/2026/08/25/apple-po-peti-letech-predstavil-novy-cistici-hadrik-a-tentokrat-za-nej-chce-vyrazne-mene/</li>
+<li>2026-08-25T11:04:48.000Z — Apple Watch Ultra 3 chystají satelitní revoluci. Co přinese zářijový update? — https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-ultra-3-update/</li>
+<li>unique_value: Cena/dostupnost/komu dává smysl, ne opakování prvních dojmů.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-07 — Apple Maps reklamy jsou živé: kde se zobrazí a proč nejdou vypnout</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: apple maps ads reklamy</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: MacRumors/AppleInsider: reklamy Apple Maps live v USA/Kanadě.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views</li>
+<li>hard_evidence: MacRumors/AppleInsider: reklamy Apple Maps live v USA/Kanadě.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Maps zaplaví reklamy a to už letos v létě! | Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU</li>
+<li>global_trends: global max 0/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Apple Maps zaplaví reklamy a to už letos v létě! | Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU</li>
+<li>matching_articles:</li>
+<li>2026-03-24T11:04:16.000Z — Apple Maps zaplaví reklamy a to už letos v létě! — https://www.letemsvetemapplem.eu/2026/03/24/apple-maps-zaplavi-reklamy-a-to-uz-letos-v-lete/</li>
+<li>2026-02-09T14:00:40.000Z — Apple může slavit! Apple Maps i Apple Ads vyvázly regulaci ze strany EU — https://www.letemsvetemapplem.eu/2026/02/09/apple-muze-slavit-apple-maps-i-apple-ads-vyvazly-regulaci-ze-strany-eu/</li>
+<li>2026-01-23T20:00:28.000Z — Apple začne v App Store od března 2026 zobrazovat více reklam a změní způsob, jak hledáme aplikace — https://www.letemsvetemapplem.eu/2026/01/23/apple-zacne-v-app-store-od-brezna-2026-zobrazovat-vice-reklam-a-zmeni-zpusob-jak-hledame-aplikace/</li>
+<li>unique_value: Navázat na starší článek; vysvětlit praktický dopad pro uživatele.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-08 — ChatGPT na Macu a iMessage: co je reálně možné a kde jsou rizika</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: chatgpt imessage mac</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: Google Trends via pytrends ChatGPT 50/100 + Moula/GSC: ChatGPT 32k imp, slabý CTR; Manticore našel fresh články.; GA4 1669 sessions / 8120 views</li>
+<li>hard_evidence: Moula/GSC: ChatGPT 32k imp, slabý CTR; Manticore našel fresh články.; WP/Manticore: SIMILAR_EXISTS přes Manticore: ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesí | iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit</li>
+<li>global_trends: global max 1/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesílat | iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit</li>
+<li>matching_articles:</li>
+<li>2026-08-21T09:06:01.000Z — ChatGPT dostal na Mac přístup k iMessage. Umí zprávy číst, analyzovat je i odesílat — https://www.letemsvetemapplem.eu/2026/08/21/chatgpt-dostal-na-mac-pristup-k-imessage-umi-zpravy-cist-analyzovat-je-i-odesilat/</li>
+<li>2024-03-23T23:01:16.000Z — iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit — https://www.letemsvetemapplem.eu/2024/03/24/ios-18-mozne-datum-vydani-nove-funkce-podporovana-zarizeni-a-na-co-dalsiho-se-muzeme-tesit/</li>
+<li>unique_value: Zlepšit CTR konkrétním bezpečnostním a praktickým úhlem.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-09 — LEGO PlayStation 1 a proč LEGO teď funguje na LSA</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: lego playstation 1</li>
+<li>primary_lane: DISCOVER</li>
+<li>why_now: GSC LEGO 68k imp; GA4 LEGO články vysoké views.; GSC 71079 imp / pos 6.48 / CTR 3.71 %; GA4 5111 sessions / 54080 views</li>
+<li>hard_evidence: GSC LEGO 68k imp; GA4 LEGO články vysoké views.; WP/Manticore: SIMILAR_EXISTS přes Manticore: LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako orig | LEGO a Sony chystají senzaci. Vedle stavebnicového PlayStationu dorazí i legendá</li>
+<li>global_trends: global max 1/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako originál a ukrývat herní překvapení | LEGO a Sony chystají senzaci. Vedle stavebnicového PlayStationu do</li>
+<li>matching_articles:</li>
+<li>2026-08-24T16:03:55.000Z — LEGO PlayStation 1 bude pořádná nostalgická pecka. Má být stejně velký jako originál a ukrývat herní překvapení — https://www.letemsvetemapplem.eu/2026/08/24/lego-playstation-1-bude-poradna-nostalgicka-pecka-ma-byt-stejne-velky-jako-original-a-ukryvat-herni-prekvapeni/</li>
+<li>2026-08-04T16:03:20.000Z — LEGO a Sony chystají senzaci. Vedle stavebnicového PlayStationu dorazí i legendární Astro Bot a bude zdarma — https://www.letemsvetemapplem.eu/2026/08/04/lego-a-sony-chystaji-senzaci-vedle-stavebnicoveho-playstationu-dorazi-i-legendarni-astro-bot-a-bude-zdarma/</li>
+<li>2026-03-16T19:04:25.000Z — LEGO prý chystá PlayStation 1, legendární konzole by mohla dorazit už letos na Vánoce — https://www.letemsvetemapplem.eu/2026/03/16/lego-72306-playstation-1/</li>
+<li>unique_value: Zachytit nostalgii/popkulturu, ověřit intent před publikací.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-10 — iCloud trik na fotky: co ještě funguje a co Apple brzy utne</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: icloud uloziste fotky</li>
+<li>primary_lane: DISCOVER</li>
+<li>why_now: GA4: iCloud storage článek jeden z top výkonů týdne.; GSC 2570 imp / pos 4.49 / CTR 17.16 %; GA4 5495 sessions / 14566 views</li>
+<li>hard_evidence: GA4: iCloud storage článek jeden z top výkonů týdne.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Appl | Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplatí vědět</li>
+<li>global_trends: global max 0/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Apple ho brzy zatrhne | Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplatí vědět</li>
+<li>matching_articles:</li>
+<li>2026-08-21T22:01:17.000Z — Tajný trik, jak na iCloudu získat neomezené úložiště pro vaše fotky zdarma. Apple ho brzy zatrhne — https://www.letemsvetemapplem.eu/2026/08/22/tajny-trik-jak-na-icloudu-ziskat-neomezene-uloziste-pro-vase-fotky-zdarma-apple-ho-brzy-zatrhne/</li>
+<li>2026-08-21T18:04:42.000Z — Apple vám v iOS 27 vezme další místo na iCloudu. Tohle se vyplatí vědět — https://www.letemsvetemapplem.eu/2026/08/21/apple-vam-v-ios-27-vezme-dalsi-misto-na-icloudu-tohle-se-vyplati-vedet/</li>
+<li>2026-06-27T11:01:02.000Z — Co je NAS a proč může být lepší volbou než cloud — https://www.letemsvetemapplem.eu/2026/06/27/co-je-nas-a-proc-muze-byt-lepsi-volbou-nez-cloud/</li>
+<li>unique_value: Praktická kontrola aktuálnosti a limitů, interní link na původní článek.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-11 — CarPlay v iOS 27: změny, které řidiči uvidí jako první</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: carplay ios 27</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: GA4: CarPlay/iOS 27 článek ve výkonu týdne.; GA4 3251 sessions / 5918 views</li>
+<li>hard_evidence: GA4: CarPlay/iOS 27 článek ve výkonu týdne.; WP/Manticore: SIMILAR_EXISTS přes Manticore: CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky | Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů</li>
+<li>global_trends: global max 25/100, avg 3.4, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky | Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů</li>
+<li>matching_articles:</li>
+<li>2026-08-20T18:05:45.000Z — CarPlay se v iOS 27 pořádně mění. Apple přidá funkce, které jsme chtěli roky — https://www.letemsvetemapplem.eu/2026/08/20/carplay-se-v-ios-27-poradne-meni-apple-prida-funkce-ktere-jsme-chteli-roky/</li>
+<li>2026-08-09T14:06:52.000Z — Apple CarPlay dostane v iOS 27 dvě nové funkce, které potěší miliony řidičů — https://www.letemsvetemapplem.eu/2026/08/09/apple-carplay-dostane-v-ios-27-dve-nove-funkce-ktere-potesi-miliony-ridicu/</li>
+<li>2026-07-10T18:04:24.000Z — Apple odhalil všechny novinky pro CarPlay v iOS 27. Tohle jsou funkce, které ocení prakticky každý řidič — https://www.letemsvetemapplem.eu/2026/07/10/apple-odhalil-vsechny-novinky-pro-carplay-v-ios-27-tohle-jsou-funkce-ktere-oceni-prakticky-kazdy-ridic/</li>
+<li>unique_value: Konkrétní use-cases místo obecného výčtu funkcí.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-12 — Apple Watch 12: šest očekávání před keynote, jasně oddělená od faktů</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: apple watch 12</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: Manticore ukazuje fresh článek; Apple event proximity.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views</li>
+<li>hard_evidence: Manticore ukazuje fresh článek; Apple event proximity.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v </li>
+<li>global_trends: global max 100/100, avg 61.1, last 75</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme | Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den</li>
+<li>matching_articles:</li>
+<li>2026-08-25T18:02:53.000Z — Apple Watch 12 se blíží. Těchto 6 věcí od nich očekáváme — https://www.letemsvetemapplem.eu/2026/08/25/apple-watch-12-se-blizi-techto-6-veci-od-nich-ocekavame/</li>
+<li>2026-08-25T10:02:49.000Z — Apple už brzy rozešle pozvánky na největší Keynote roku. iPhone 18 Pro dorazí v tento den — https://www.letemsvetemapplem.eu/2026/08/25/apple-uz-brzy-rozesle-pozvanky-na-nejvetsi-keynote-roku-iphone-18-pro-dorazi-v-tento-den/</li>
+<li>2026-08-21T07:04:02.000Z — Apple Watch se vrací k luxusu. Apple má letos znovu nabídnout keramickou verzi — https://www.letemsvetemapplem.eu/2026/08/21/apple-watch-se-vraci-k-luxusu-apple-ma-letos-znovu-nabidnout-keramickou-verzi/</li>
+<li>unique_value: Checklist fakt/leak/spekulace, nepovyšovat úniky na potvrzení.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-13 — AirPods 5 před zářím: co dává smysl čekat a co je jen rumor</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: airpods 5</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: Manticore fresh AirPods 5 zmínky; Apple event proximity.; GA4 1463 sessions / 4997 views</li>
+<li>hard_evidence: Manticore fresh AirPods 5 zmínky; Apple event proximity.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 | Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air</li>
+<li>global_trends: global max 65/100, avg 35.2, last 51</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 | Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air</li>
+<li>matching_articles:</li>
+<li>2026-08-25T09:02:07.000Z — Nejen iPhone 18 Pro a Ultra. Apple v září představí i nové AirPods 5 — https://www.letemsvetemapplem.eu/2026/08/25/nejen-iphone-18-pro-a-ultra-apple-v-zari-predstavi-i-nove-airpods-5/</li>
+<li>2026-08-23T10:03:56.000Z — Recenze FIXED Zen 10 Loop: 10 000 mAh, 30 W a dost energie i pro MacBook Air — https://www.letemsvetemapplem.eu/2026/08/23/recenze-fixed-zen-10-loop-10-000-mah-30-w-a-dost-energie-i-pro-macbook-air/</li>
+<li>2026-08-18T13:06:28.000Z — Apple omylem prozradil AirPods 5. Nová generace dorazí ve dvou verzích — https://www.letemsvetemapplem.eu/2026/08/18/apple-omylem-prozradil-airpods-5-nova-generace-dorazi-ve-dvou-verzich/</li>
+<li>unique_value: Vysvětlit pravděpodobnost a praktický dopad pro nákup.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-14 — iPhone 20 design: proč už teď zajímá čtenáře víc než by měl</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: iphone 20 design</li>
+<li>primary_lane: DISCOVER</li>
+<li>why_now: GA4: iPhone 20 design článek má silné views.; GSC 680779 imp / pos 1.35 / CTR 4.89 %; GA4 4712 sessions / 51935 views</li>
+<li>hard_evidence: GA4: iPhone 20 design článek má silné views.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone b | Bloomberg: Revoluční iPhone 20 není zrušen, bude ale vypadat jinak než původně m</li>
+<li>global_trends: global max 25/100, avg 3.6, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Recenze MacBook Air M3: Velmi příjemný krok vpřed | Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone budoucnosti</li>
+<li>matching_articles:</li>
+<li>2024-03-08T23:01:10.000Z — Recenze MacBook Air M3: Velmi příjemný krok vpřed — https://www.letemsvetemapplem.eu/2024/03/09/recenze-macbook-air-m3-velmi-prijemny-krok-vpred/</li>
+<li>2026-08-20T06:04:06.000Z — Apple chystá něco opravdu velkého. Nové úniky ukazují, jak může vypadat iPhone budoucnosti — https://www.letemsvetemapplem.eu/2026/08/20/apple-chysta-neco-opravdu-velkeho-nove-uniky-ukazuji-jak-muze-vypadat-iphone-budoucnosti/</li>
+<li>2026-08-11T10:05:49.000Z — Bloomberg: Revoluční iPhone 20 není zrušen, bude ale vypadat jinak než původně měl — https://www.letemsvetemapplem.eu/2026/08/11/bloomberg-revolucni-iphone-20-neni-zrusen-bude-ale-vypadat-jinak-nez-puvodne-mel/</li>
+<li>unique_value: Trendový follow-up s opatrným rámováním vzdálené budoucnosti.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-15 — Nová Apple TV 4K a Siri Remote: malý update, velký dopad v obýváku</h3>
+<ul>
+<li>action: FOLLOW-UP</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: apple tv 4k siri remote</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: GA4: Apple TV/Siri Remote článek fungoval.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views</li>
+<li>hard_evidence: GA4: Apple TV/Siri Remote článek fungoval.; WP/Manticore: SIMILAR_EXISTS přes Manticore: S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějšíc | Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri i přepr</li>
+<li>global_trends: global max 0/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějších funkcí | Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri i přepracovaný o</li>
+<li>matching_articles:</li>
+<li>2026-08-19T20:03:57.000Z — S novou Apple TV dorazí i vylepšený ovladač. Tohle je jedna z jeho nejžádanějších funkcí — https://www.letemsvetemapplem.eu/2026/08/19/s-novou-apple-tv-dorazi-i-vylepseny-ovladac-tohle-je-jedna-z-jeho-nejzadanejsich-funkci/</li>
+<li>2026-06-23T22:02:06.000Z — Čekání končí. Nová Apple TV 4K dorazí na podzim a přinese chytřejší Siri i přepracovaný ovladač — https://www.letemsvetemapplem.eu/2026/06/24/cekani-konci-nova-apple-tv-4k-dorazi-na-podzim-a-prinese-chytrejsi-siri-i-prepracovany-ovladac/</li>
+<li>2026-06-02T04:06:11.000Z — Apple chystá podzimní novinky. Konečně dorazí nová Apple TV i HomePod mini — https://www.letemsvetemapplem.eu/2026/06/02/apple-chysta-podzimni-novinky-konecne-dorazi-nova-apple-tv-i-homepod-mini/</li>
+<li>unique_value: Praktický dopad ovladače, Wi-Fi, HomeKit, cena.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-16 — Apple mění pravidla pro aplikace v EU: co to znamená pro majitele iPhonů</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: apple european union apps changes</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: Apple Newsroom: changes for apps in EU.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views</li>
+<li>hard_evidence: Apple Newsroom: changes for apps in EU.; WP/Manticore: NO_DUPLICATE přes Manticore</li>
+<li>global_trends: global max 68/100, avg 0.7, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit | Historie a budoucnost nativních aplikací Applu</li>
+<li>matching_articles:</li>
+<li>2024-03-23T23:01:16.000Z — iOS 18: Představení, nové funkce, kompatibilita a na co dalšího se můžeme těšit — https://www.letemsvetemapplem.eu/2024/03/24/ios-18-mozne-datum-vydani-nove-funkce-podporovana-zarizeni-a-na-co-dalsiho-se-muzeme-tesit/</li>
+<li>2020-03-01T11:00:43.000Z — Historie a budoucnost nativních aplikací Applu — https://www.letemsvetemapplem.eu/2020/03/01/historie-a-budoucnost-nativnich-aplikaci-applu/</li>
+<li>2016-05-01T17:36:20.000Z — 101 nejlepších tipů a triků, které musí znát každý majitel iPhonu — https://www.letemsvetemapplem.eu/2016/05/01/101-tipu-a-triku/</li>
+<li>unique_value: Přeložit regulatorní změnu do češtiny a praktických dopadů.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-17 — Která Apple zařízení už mají plnou podporu Wi-Fi 7</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: wifi 7 apple devices</li>
+<li>primary_lane: SEO + CURRENT DEMAND</li>
+<li>why_now: 9to5Mac: přehled zařízení s Wi-Fi 7.; GA4 3251 sessions / 5918 views</li>
+<li>hard_evidence: 9to5Mac: přehled zařízení s Wi-Fi 7.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Kompetní historie Apple iPhone: jak vznikal hudební přehrávač, telefon a interne</li>
+<li>global_trends: global max 0/100, avg 0.0, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Takto Apple oficiálně představil nové iPady 11 a iPady Air M3 | Apple oficiálně představil iPhone 16e: Výkonný přírůstek do rodiny iPhonů 16!</li>
+<li>matching_articles:</li>
+<li>2025-03-04T15:00:23.000Z — Takto Apple oficiálně představil nové iPady 11 a iPady Air M3 — https://www.letemsvetemapplem.eu/2025/03/04/takto-apple-oficialne-predstavil-nove-ipady-11-a-ipady-air-m3/</li>
+<li>2025-02-19T16:11:05.000Z — Apple oficiálně představil iPhone 16e: Výkonný přírůstek do rodiny iPhonů 16! — https://www.letemsvetemapplem.eu/2025/02/19/apple-oficialne-predstavil-iphone-16e-vykonny-prurustek-do-rodiny-iphonu-16/</li>
+<li>2024-12-14T18:00:48.000Z — Jsou levné Androidy opravdu tak špatné? Recenze Vivo V40 SE vás vyvede z omylu — https://www.letemsvetemapplem.eu/2024/12/14/vivo-v40-se-recenze/</li>
+<li>unique_value: Nákupní přehled pro iPhone/Mac/iPad uživatele.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-18 — BenQ iScreenBar pro iMac: doplněk, který Apple nikdy neudělal</h3>
+<ul>
+<li>action: CREATE</li>
+<li>create_allowed: YES</li>
+<li>exact_topic: benq iscreenbar imac</li>
+<li>primary_lane: DISCOVERY</li>
+<li>why_now: MacRumors: BenQ iScreenBar for iMac.</li>
+<li>hard_evidence: MacRumors: BenQ iScreenBar for iMac.; WP/Manticore: NO_DUPLICATE přes Manticore</li>
+<li>global_trends: global max 85/100, avg 0.5, last 0</li>
+<li>wp_manticore_check: MANTICORE_NO_EXACT_DUPLICATE; WP_REST_RELATED_HITS</li>
+<li>unique_value: Produktový praktický tip pro LSA publikum.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-19 — Apple 40W Dynamic Power Adapter míří do dalších zemí: proč je zajímavý</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: 40w dynamic power adapter</li>
+<li>primary_lane: CURRENT DEMAND</li>
+<li>why_now: MacRumors: adaptér expanduje do dalších zemí.</li>
+<li>hard_evidence: MacRumors: adaptér expanduje do dalších zemí.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě a | iPad Pro M5 v prvních recenzích! Jaký je nejvýkonnější tablet současnosti v reál</li>
+<li>global_trends: global max 100/100, avg 10.5, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě až 60 W | Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě až 60 W</li>
+<li>matching_articles:</li>
+<li>2026-08-26T05:52:52.000Z — Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě až 60 W — https://www.letemsvetemapplem.eu/2026/08/26/apple-konecne-privezl-do-evropy-svou-supernabijecku-pro-iphone-umi-kratkodobe-az-60-w/</li>
+<li>2026-08-26T05:52:52.000Z — Apple konečně přivezl do Evropy svou supernabíječku pro iPhone. Umí krátkodobě až 60 W — https://www.letemsvetemapplem.eu/2026/08/26/apple-konecne-privezl-do-evropy-svou-supernabijecku-pro-iphone-umi-kratkodobe-az-60-w/</li>
+<li>2025-10-21T14:13:02.000Z — iPad Pro M5 v prvních recenzích! Jaký je nejvýkonnější tablet současnosti v reálu? — https://www.letemsvetemapplem.eu/2025/10/21/ipad-pro-m5-v-prvnich-recenzich-jaky-je-nejvykonnejsi-tablet-soucasnosti-v-realu/</li>
+<li>unique_value: Vysvětlit nabíjení, kompatibilitu a zda čekat CZ dostupnost.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h3>LSA-20 — Apple otevřel Advanced Manufacturing Center v Houstonu: proč to není jen PR</h3>
+<ul>
+<li>action: UPDATE</li>
+<li>create_allowed: NO</li>
+<li>exact_topic: apple manufacturing center houston</li>
+<li>primary_lane: DISCOVERY</li>
+<li>why_now: Apple Newsroom: nové manufacturing centrum.; GSC 4444 imp / pos 1.12 / CTR 79.43 %; GA4 53227 sessions / 66370 views</li>
+<li>hard_evidence: Apple Newsroom: nové manufacturing centrum.; WP/Manticore: SIMILAR_EXISTS přes Manticore: Sklo pro iPhone a Apple Watch bude již brzy 100% z USA</li>
+<li>global_trends: global max 60/100, avg 0.4, last 0</li>
+<li>wp_manticore_check: PUBLISHED/SIMILAR_EXISTS: Sklo pro iPhone a Apple Watch bude již brzy 100% z USA</li>
+<li>matching_articles:</li>
+<li>2025-08-08T08:00:44.000Z — Sklo pro iPhone a Apple Watch bude již brzy 100% z USA — https://www.letemsvetemapplem.eu/2025/08/08/sklo-pro-iphone-a-apple-watch-bude-brzy-100-z-usa/</li>
+<li>unique_value: Napojit na čipy, dodavatelský řetězec a Apple Intelligence.</li>
+<li>reality_status: PASS</li>
+<li>information_age_status: FRESH</li>
+<li>final_write_gate: PASS</li>
+</ul>
+<h2>Source Coverage Audit</h2>
+<ul>
+<li>WordPress REST: CHECKED pro všech 60 kandidátů</li>
+<li>Manticore: CHECKED pro všech 60 kandidátů + title/exact-topic recheck</li>
+<li>GSC: CHECKED live</li>
+<li>GA4: CHECKED live</li>
+<li>Google Trends global: CHECKED přes pytrends; 2 dávky 429 transparentně označené</li>
+<li>Google News/web: CHECKED pro Apple/Android/Samsung proudy</li>
+<li>Official sources: Apple Newsroom, Samsung Newsroom, Google Support, Meta/WhatsApp dle kandidátů</li>
+<li>Fact-check: PASS/UNCERTAIN uvedeno u slotů; spekulace nepovýšena na fakt</li>
+</ul>
+</body>
+</html>

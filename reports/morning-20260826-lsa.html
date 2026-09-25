@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LSA - Redakční plán 26.8.2026</title>
+  <style>
+@page {
+  size: A4;
+  margin: 18mm 15mm 20mm 15mm;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.55;
+  color: #1a1a1a;
+  background: white;
+}
+
+/* Cover header */
+.cover {
+  background: linear-gradient(135deg, #1d72b8 0%, #0e4d88 100%);
+  color: white;
+  padding: 28px 24px 22px 24px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+.cover h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+  color: white;
+  border: none;
+}
+.cover .subtitle {
+  font-size: 11pt;
+  opacity: 0.88;
+  margin: 4px 0 0 0;
+}
+.cover .meta {
+  font-size: 9pt;
+  opacity: 0.72;
+  margin-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: 700;
+  color: #0a0a0a;
+  border-bottom: 3px solid #1d72b8;
+  padding-bottom: 6px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: #1d72b8;
+  border-left: 4px solid #1d72b8;
+  padding-left: 10px;
+  margin-top: 22px;
+  margin-bottom: 6px;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+p { margin: 4px 0 7px 0; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 14px 0;
+  font-size: 8.5pt;
+  page-break-inside: auto;
+}
+
+thead tr {
+  background-color: #1d72b8;
+  color: white;
+}
+
+thead th {
+  padding: 6px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 8.5pt;
+}
+
+tbody tr:nth-child(even) { background-color: #f2f7fd; }
+tbody tr:nth-child(odd)  { background-color: #ffffff; }
+
+tbody td {
+  padding: 5px 8px;
+  border-bottom: 1px solid #dde8f5;
+  vertical-align: top;
+  font-size: 8.5pt;
+}
+
+/* Code / brief cards */
+pre {
+  background: #f5f8fc;
+  border: 1px solid #c8d8ea;
+  border-left: 5px solid #1d72b8;
+  padding: 10px 13px;
+  font-size: 8pt;
+  font-family: 'Courier New', 'Lucida Console', monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  page-break-inside: avoid;
+  margin: 8px 0 14px 0;
+  border-radius: 3px;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 8.5pt;
+  background: #eaf0fa;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d8e4f0;
+  margin: 14px 0;
+}
+
+ul, ol {
+  margin: 4px 0 8px 0;
+  padding-left: 18px;
+}
+li { margin-bottom: 3px; font-size: 10pt; }
+
+blockquote {
+  background: #fff9e6;
+  border-left: 4px solid #f5a623;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 9.5pt;
+  border-radius: 0 3px 3px 0;
+}
+
+strong { font-weight: 700; }
+
+/* Source coverage audit section */
+.audit {
+  background: #f9fafb;
+  border: 1px solid #dde4ec;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 9pt;
+  margin-top: 16px;
+}
+
+/* Page break helpers */
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+  
+    <div class="cover">
+      <h1>LSA - Redakční plán 26.8.2026</h1>
+      <div class="subtitle">letemsvetemapplem.eu  |  Apple + Tech  |  Discover-first</div>
+      <div class="meta">Lisa V6.5  •  26. srpna 2026  •  Text Factory  •  Důvěrné — pouze pro interní použití</div>
+    </div>
+    
+  <h1>Letem světem Applem - redakční plán 26. 8. 2026</h1>
+<p>Status: opožděný recovery výstup po ranním heartbeat triggeru. Pre-flight prošel živě v 7:13 CEST.</p>
+<p>Web: letemsvetemapplem.eu<br />
+Priorita webu: Discover-first, Apple + širší tech<br />
+Publikace: pouze po schválení Romana nebo Toma</p>
+<h2>Data Gate</h2>
+<ul>
+<li>GA4: PASS</li>
+<li>GSC: PASS</li>
+<li>Manticore: PASS</li>
+<li>WordPress auth/read: PASS</li>
+<li>Google Trends: UNAVAILABLE - JustSerpAPI vracel <code>code=500</code>, nenahrazuji odhadem</li>
+</ul>
+<h2>Doporučené pořadí</h2>
+<ol>
+<li>CREATE - iOS 27 release date</li>
+<li>CREATE - WhatsApp security features</li>
+<li>FOLLOW-UP - Mac mini M6</li>
+</ol>
+<h2>Sloty</h2>
+<h3>1. CREATE - iOS 27 release date</h3>
+<p>Candidate ID: LSA-IOS27<br />
+Exact topic: iOS 27 release date and update timing<br />
+Proposed title: Kdy vyjde iOS 27: očekávaný termín vydání a co hlídat<br />
+Primary lane: SEO<br />
+Timing: dopoledne<br />
+Reality status: PASS<br />
+Information age: CURRENT<br />
+WP check: CHECKED - one old iOS 18.3 article, no same intent<br />
+Opportunity score: 86<br />
+Predictive score: 79<br />
+Confidence: HIGH<br />
+Final write gate: PASS</p>
+<p>Evidence:<br />
+- GSC LSA: <code>ios 27</code> 77 800 impresí, 4 643 kliků, pozice 2.0, CTR 5.97 %<br />
+- 9to5Mac RSS: "iOS 27 release date: Here's when the new iPhone update will launch", 25. 8. 20:45 UTC<br />
+- Manticore: jen starý článek <code>Kdy vyjde iOS 18.3</code>, žádný stejný intent pro iOS 27</p>
+<p>Unique value: český harmonogram, zařízení, rizika bety, co si pohlídat před instalací.</p>
+<h3>2. CREATE - WhatsApp security features</h3>
+<p>Candidate ID: LSA-WHATSAPP<br />
+Exact topic: WhatsApp announces three account security features<br />
+Proposed title: WhatsApp přidává tři novinky pro bezpečnější účet. Tohle si zapněte<br />
+Primary lane: Current Demand<br />
+Timing: po iOS 27 / odpoledne<br />
+Reality status: PASS<br />
+Information age: FRESH<br />
+WP check: CHECKED - no duplicate<br />
+Opportunity score: 78<br />
+Predictive score: 66<br />
+Confidence: MEDIUM<br />
+Final write gate: PASS</p>
+<p>Evidence:<br />
+- 9to5Mac RSS: 25. 8. 20:10 UTC<br />
+- GSC LSA: <code>whatsapp</code> 173 406 impresí, pozice 5.2<br />
+- Manticore: no duplicate</p>
+<p>Unique value: prakticky popsat tři bezpečnostní novinky, co si uživatel má zapnout a co je jen informativní změna. Cross-platform téma, ale LSA dává smysl kvůli velké poptávce.</p>
+<h3>3. FOLLOW-UP - Mac mini M6</h3>
+<p>Candidate ID: LSA-MACMINI<br />
+Exact topic: New Mac mini with M6 and M5 Pro<br />
+Proposed title: Nový Mac mini s M6: co doplnit po prvním vydání<br />
+Primary lane: Current Demand<br />
+Timing: jen pokud je redakčně užitečné doplnění<br />
+Reality status: PASS<br />
+Information age: FRESH<br />
+WP check: CHECKED - same intent published 2026-08-25, follow-up only<br />
+Opportunity score: 74<br />
+Predictive score: 62<br />
+Confidence: HIGH<br />
+Final write gate: PASS jen jako FOLLOW-UP, ne CREATE</p>
+<p>Evidence:<br />
+- Apple Newsroom 25. 8.<br />
+- 9to5Mac a GSMArena pokrytí<br />
+- Manticore našel LSA článek z 25. 8.</p>
+<p>Unique value: nepsat duplicitu. Doplnit jen nové technické detaily, dostupnost, český kontext nebo navazující výklad.</p>
+<h2>Drop / Monitor pro LSA</h2>
+<ul>
+<li>Mac Studio M5 Max / M5 Ultra: DROP jako nový článek. Manticore našel publikovaný článek z 25. 8.; možný jen technický follow-up, pokud redakce má nové informace.</li>
+<li>Google Trends: MONITOR. API dnes vrací chybu 500, bez dat nenahrazuji trend odhadem.</li>
+</ul>
+<h2>Source Coverage Audit</h2>
+<ul>
+<li>WordPress/Manticore: CHECKED</li>
+<li>GSC: CHECKED</li>
+<li>GA4: CHECKED</li>
+<li>AdSense: NOT CHECKED - secondary signal unavailable</li>
+<li>Google Trends: UNAVAILABLE - JustSerpAPI 500</li>
+<li>Google News: NOT CHECKED - recovery běh bez automatické News vrstvy</li>
+<li>Major tech media: CHECKED - 9to5Mac, 9to5Google, GSMArena, The Verge</li>
+<li>Official newsrooms: CHECKED - Apple Newsroom, Samsung Newsroom, Google Blog, Android Developers Blog</li>
+<li>Product pages/support docs: NOT CHECKED - není zapojený delta layer</li>
+<li>Developer docs/changelogs: PARTIAL - Android Developers Blog + GitHub releases</li>
+<li>GitHub: CHECKED read-only, bez silného uživatelského signálu kromě Gemini CLI releasů</li>
+<li>APK/beta/regulatory/Reddit/forums/X/YouTube: NOT CHECKED - není implementováno v recovery běhu</li>
+</ul>
+</body>
+</html>

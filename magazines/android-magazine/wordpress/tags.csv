@@ -1,0 +1,159 @@
+id,name,slug,description,count
+4064,Android (operační systém),android-operacni-system,,0
+4066,Android 1.0,android-1-0,,0
+4067,Android 1.5 Cupcake,android-1-5-cupcake,,0
+4068,Android 1.6 Donut,android-1-6-donut,,0
+4081,Android 10,android-10,,0
+4082,Android 11,android-11,,0
+4083,Android 12,android-12,,0
+4084,Android 13,android-13,,0
+4085,Android 14,android-14,,0
+4086,Android 15,android-15,,0
+4087,Android 16,android-16,,0
+4069,Android 2.0 Eclair,android-2-0-eclair,,0
+4070,Android 2.2 Froyo,android-2-2-froyo,,0
+4071,Android 2.3 Gingerbread,android-2-3-gingerbread,,0
+4072,Android 3.0 Honeycomb,android-3-0-honeycomb,,0
+4073,Android 4.0 Ice Cream Sandwich,android-4-0-ice-cream-sandwich,,0
+4074,Android 4.1 Jelly Bean,android-4-1-jelly-bean,,0
+4075,Android 4.4 KitKat,android-4-4-kitkat,,0
+4076,Android 5.0 Lollipop,android-5-0-lollipop,,0
+4077,Android 6.0 Marshmallow,android-6-0-marshmallow,,0
+4078,Android 7.0 Nougat,android-7-0-nougat,,0
+4079,Android 8.0 Oreo,android-8-0-oreo,,0
+4080,Android 9 Pie,android-9-pie,,0
+4092,Android Auto,android-auto,,0
+4093,Android Automotive OS,android-automotive-os,,0
+4094,Android Go,android-go,,0
+4095,Android One,android-one,,0
+4098,Android Things,android-things,,0
+4090,Android TV,android-tv,,0
+4096,Android XR,android-xr,,0
+4099,AOSP (Android Open Source Project),aosp-android-open-source-project,,0
+4097,ChromeOS,chromeos,,0
+4204,Disk Google,disk-google,,0
+4226,Files by Google,files-by-google,,0
+4199,Filmy Google Play,filmy-google-play,,0
+4221,Find My Device,find-my-device,,0
+4203,Fotky Google,fotky-google,,0
+4229,Gboard,gboard,,0
+4206,Gemini,gemini,,0
+4201,Gmail,gmail,,0
+4205,Google Asistent,google-asistent,,0
+4230,Google Camera,google-camera,,0
+4177,Google Cardboard,google-cardboard,,0
+4210,Google Chrome,google-chrome,,0
+4163,Google Chromecast,google-chromecast,,0
+4165,Google Chromecast (2. generace),google-chromecast-2-generace,,0
+4168,Google Chromecast (3. generace),google-chromecast-3-generace,,0
+4166,Google Chromecast Audio,google-chromecast-audio,,0
+4167,Google Chromecast Ultra,google-chromecast-ultra,,0
+4169,Google Chromecast with Google TV,google-chromecast-with-google-tv,,0
+4170,Google Chromecast with Google TV (HD),google-chromecast-with-google-tv-hd,,0
+4178,Google Daydream View,google-daydream-view,,0
+4217,Google Duo,google-duo,,0
+4232,Google Family Link,google-family-link,,0
+4223,Google Fit,google-fit,,0
+4138,Google Galaxy Nexus,google-galaxy-nexus,,0
+4174,Google Glass,google-glass,,0
+4176,Google Glass Enterprise,google-glass-enterprise,,0
+4180,Google Home,google-home,,0
+4225,Google Home (aplikace),google-home-aplikace,,0
+4183,Google Home Max,google-home-max,,0
+4182,Google Home Mini,google-home-mini,,0
+4214,Google Keep,google-keep,,0
+4207,Google Lens,google-lens,,0
+4216,Google Meet,google-meet,,0
+4187,Google Nest Audio,google-nest-audio,,0
+4193,Google Nest Cam,google-nest-cam,,0
+4192,Google Nest Doorbell,google-nest-doorbell,,0
+4184,Google Nest Hub,google-nest-hub,,0
+4188,Google Nest Hub (2. generace),google-nest-hub-2-generace,,0
+4185,Google Nest Hub Max,google-nest-hub-max,,0
+4191,Google Nest Learning Thermostat,google-nest-learning-thermostat,,0
+4186,Google Nest Mini,google-nest-mini,,0
+4189,Google Nest Wifi,google-nest-wifi,,0
+4190,Google Nest Wifi Pro,google-nest-wifi-pro,,0
+4227,Google News,google-news,,0
+4146,Google Nexus 10,google-nexus-10,,0
+4139,Google Nexus 4,google-nexus-4,,0
+4140,Google Nexus 5,google-nexus-5,,0
+4142,Google Nexus 5X,google-nexus-5x,,0
+4141,Google Nexus 6,google-nexus-6,,0
+4143,Google Nexus 6P,google-nexus-6p,,0
+4144,Google Nexus 7 (2012),google-nexus-7-2012,,0
+4147,Google Nexus 7 (2013),google-nexus-7-2013,,0
+4148,Google Nexus 9,google-nexus-9,,0
+4135,Google Nexus One,google-nexus-one,,0
+4172,Google Nexus Player,google-nexus-player,,0
+4173,Google Nexus Q,google-nexus-q,,0
+4137,Google Nexus S,google-nexus-s,,0
+4222,Google One,google-one,,0
+4209,Google Pay,google-pay,,0
+4208,Google Peněženka,google-penezenka,,0
+4100,Google Pixel,google-pixel,,0
+4128,Google Pixel 10,google-pixel-10,,0
+4129,Google Pixel 10 Pro,google-pixel-10-pro,,0
+4134,Google Pixel 10 Pro Fold,google-pixel-10-pro-fold,,0
+4130,Google Pixel 10 Pro XL,google-pixel-10-pro-xl,,0
+4103,Google Pixel 2,google-pixel-2,,0
+4104,Google Pixel 2 XL,google-pixel-2-xl,,0
+4105,Google Pixel 3,google-pixel-3,,0
+4106,Google Pixel 3 XL,google-pixel-3-xl,,0
+4107,Google Pixel 3a,google-pixel-3a,,0
+4108,Google Pixel 3a XL,google-pixel-3a-xl,,0
+4109,Google Pixel 4,google-pixel-4,,0
+4110,Google Pixel 4 XL,google-pixel-4-xl,,0
+4111,Google Pixel 4a,google-pixel-4a,,0
+4112,Google Pixel 4a 5G,google-pixel-4a-5g,,0
+4113,Google Pixel 5,google-pixel-5,,0
+4114,Google Pixel 5a,google-pixel-5a,,0
+4115,Google Pixel 6,google-pixel-6,,0
+4116,Google Pixel 6 Pro,google-pixel-6-pro,,0
+4117,Google Pixel 6a,google-pixel-6a,,0
+4118,Google Pixel 7,google-pixel-7,,0
+4119,Google Pixel 7 Pro,google-pixel-7-pro,,0
+4120,Google Pixel 7a,google-pixel-7a,,0
+4121,Google Pixel 8,google-pixel-8,,0
+4122,Google Pixel 8 Pro,google-pixel-8-pro,,0
+4123,Google Pixel 8a,google-pixel-8a,,0
+4124,Google Pixel 9,google-pixel-9,,0
+4125,Google Pixel 9 Pro,google-pixel-9-pro,,0
+4133,Google Pixel 9 Pro Fold,google-pixel-9-pro-fold,,0
+4126,Google Pixel 9 Pro XL,google-pixel-9-pro-xl,,0
+4127,Google Pixel 9a,google-pixel-9a,,0
+4157,Google Pixel Buds,google-pixel-buds,,0
+4159,Google Pixel Buds (2020),google-pixel-buds-2020,,0
+4160,Google Pixel Buds A-Series,google-pixel-buds-a-series,,0
+4161,Google Pixel Buds Pro,google-pixel-buds-pro,,0
+4162,Google Pixel Buds Pro 2,google-pixel-buds-pro-2,,0
+4149,Google Pixel C,google-pixel-c,,0
+4131,Google Pixel Fold,google-pixel-fold,,0
+4150,Google Pixel Slate,google-pixel-slate,,0
+4179,Google Pixel Stand,google-pixel-stand,,0
+4151,Google Pixel Tablet,google-pixel-tablet,,0
+4152,Google Pixel Watch,google-pixel-watch,,0
+4154,Google Pixel Watch 2,google-pixel-watch-2,,0
+4155,Google Pixel Watch 3,google-pixel-watch-3,,0
+4156,Google Pixel Watch 4,google-pixel-watch-4,,0
+4102,Google Pixel XL,google-pixel-xl,,0
+4197,Google Play Games,google-play-games,,0
+4200,Google Play Music,google-play-music,,0
+4091,Google TV,google-tv,,0
+4224,Google TV (aplikace),google-tv-aplikace,,0
+4171,Google TV Streamer,google-tv-streamer,,0
+4213,Kalendář Google,kalendar-google,,0
+4198,Knihy Google Play,knihy-google-play,,0
+4220,Kontakty Google,kontakty-google,,0
+4202,Mapy Google,mapy-google,,0
+4194,Obchod Google Play,obchod-google-play,,0
+4215,Překladač Google,prekladac-google,,0
+4231,Quick Share,quick-share,,0
+4196,Služby Google Play,sluzby-google-play,,0
+4219,Telefon Google,telefon-google,,0
+2797,tiskovka,tiskovka,,1403
+4228,Waze,waze,,0
+4088,Wear OS,wear-os,,0
+4211,YouTube,youtube,,0
+4212,YouTube Music,youtube-music,,0
+4218,Zprávy Google,zpravy-google,,0

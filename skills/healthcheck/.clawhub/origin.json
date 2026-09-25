@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "healthcheck",
+  "installedVersion": "1.0.2",
+  "installedAt": 1786525189750,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "d8f0f825021a90d7e9a1d2f0c8e00fa64c95abbdfd87a601f0ddb06686f43a1b",
+    "integrity": "sha256-2PD4JQIakNfpodLwyOAPpkyVq739h6YB8N2wZob0Ohs="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "a7f2ca8668e191d55e7cfa56e43f86ef266142497e39e83408bb48764468ef4e"
+  }
+}

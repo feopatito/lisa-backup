@@ -1,0 +1,333 @@
+{
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "Lisa",
+        "model": "openai/gpt-4o",
+        "identity": {
+          "name": "Lisa",
+          "theme": "AI redakční asistentka",
+          "emoji": "🍎",
+          "avatar": "avatars/lisa.png"
+        },
+        "groupChat": {
+          "unmentionedInbound": "user_request"
+        }
+      }
+    ],
+    "defaults": {
+      "model": "openai/gpt-4o"
+    },
+    "default": {
+      "model": "openai/gpt-4o"
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.7.1-2",
+    "lastTouchedAt": "2026-08-17T15:42:10.153Z"
+  },
+  "env": {
+    "vars": {
+      "ANTHROPIC_API_KEY": "***MASKED***",
+      "ANTHROPIC_ADMIN_KEY": "***MASKED***",
+      "BRAVE_API_KEY": "***MASKED***",
+      "OPENAI_API_KEY": "***MASKED***"
+    },
+    "GEMINI_API_KEY": "***MASKED***",
+    "GEMINI_API_KEY_FREE": "***MASKED***",
+    "WP_ANDROID_URL": "https://androidmagazine.eu",
+    "WP_ANDROID_USER": "Lisa",
+    "WP_ANDROID_PASS": "***MASKED***",
+    "JUSTSERPAPI_KEY": "***MASKED***",
+    "JUSTSERPAPI_BASE": "https://api.justserpapi.com/api/v1",
+    "WP_LSA_PASS": "***MASKED***",
+    "WP_LSA_USER": "Lisa",
+    "WP_LSA_URL": "https://www.letemsvetemapplem.eu/wp-json/wp/v2/",
+    "WP_SAMSUNG_PASS": "***MASKED***",
+    "WP_SAMSUNG_USER": "LisaAI",
+    "WP_SAMSUNG_URL": "https://samsungmagazine.eu/wp-json/wp/v2/",
+    "MANTICORE_USER": "lisa.ai.textfactory.cz",
+    "MANTICORE_PASS": "***MASKED***",
+    "MANTICORE_URL": "https://searchnew.tfsys.eu/",
+    "GOOGLE_APPLICATION_CREDENTIALS": "/Users/lisa/.openclaw/creds/android-magazine-sa.json",
+    "GITHUB_TOKEN": "***MASKED***"
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "***MASKED***"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "discord": {
+        "enabled": true
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "elevenlabs": {
+        "enabled": true
+      },
+      "brave": {
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true,
+        "config": {}
+      }
+    }
+  },
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "token": "***MASKED***",
+      "allowBots": true,
+      "groupPolicy": "open",
+      "guilds": {
+        "1536678891127570483": {
+          "requireMention": false,
+          "channels": {
+            "1536678891928948830": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa v kanálu #general na Text Factory serveru.\n\nPRAVIDLA:\n- Odpovídáš na KAŽDOU zprávu bez nutnosti @mention\n- Toto je tvůj hlavní pracovní kanál s Romanem a Erikem\n- Moula zde NENÍ — nekomunikuj s ním přes tento kanál\n\nPOKUD někdo napíše \"poraď se s Moulou / řekni Moulovi / požádej Moulu o pomoc / confirm moulovi\" apod:\n→ Napiš zprávu do kanálu #lisa-a-moula (channel ID: 1537008201730629652) s tagem @MoulaBot\n→ Použij message tool: target=\"channel:1537008201730629652\", message=\"@MoulaBot [tvoje zpráva]\"\n→ Potvrď Tomovi v #general že jsi Moulu oslovila\n\nČlenové: Tom (1075302287595028481), Roman (1537001464944132178), Erik (201345420801212416)."
+            },
+            "1537008201730629652": {
+              "enabled": true,
+              "requireMention": true,
+              "systemPrompt": "Jsi Lisa v kanálu #lisa-a-moula na Text Factory serveru. Toto je interní komunikační kanál mezi tebou a Moulou.\n\nPRAVIDLA:\n- Reaguj POUZE když jsi přímo @Lisa označena\n- Pokud zpráva označí jen @MoulaBot — naslouchej, nereaguj\n- Pokud zpráva označí oba (@Lisa i @MoulaBot) — reaguj normálně\n- Pokud Tom/Roman přijde a označí jen Moulu → jen poslouchej\n\nČleni: Tom (1075302287595028481), Roman (1537001464944132178), Erik (201345420801212416), Moula."
+            },
+            "1537352174185615373": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa v kanálu #androidmagazine. Pracuješ zde samostatně na obsahu pro androidmagazine.eu."
+            },
+            "1537757343712813078": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa v kanálu #jablickar. Pracuješ zde samostatně na obsahu pro jablickar.cz."
+            },
+            "1540072798062514186": {
+              "enabled": true,
+              "requireMention": true,
+              "systemPrompt": "Jsi Lisa v kanálu #ai_nastavení_lisa na Text Factory serveru. Tento kanál slouží pro nastavení a konfiguraci Lisy, komunikaci s Moulou (@MoulaBot) a pracovní spolupráci s Tomem a Romanem.\n\nPRAVIDLA:\n- Reaguj pouze když jsi @Lisa označena\n- Moula (@MoulaBot) je zde taky — spolupracujte\n- Výstupy vždy v češtině\n\nČlenové: Tom (1075302287595028481), Roman (1537001464944132178), Erik (201345420801212416)."
+            },
+            "1541026445764198470": {
+              "enabled": true,
+              "requireMention": false,
+              "systemPrompt": "Jsi Lisa, AI šéfredaktorka Text Factory. Tento kanál #redakční-plán slouží pro tvé denní výstupy (Discovery, SEO, Current Demand) podle V6.5. Sem posílej ranní briefy pro Romana. Piš sem automaticky bez nutnosti mentionu."
+            }
+          }
+        }
+      },
+      "accounts": {
+        "default": {
+          "token": "***MASKED***"
+        }
+      }
+    },
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "debounceMs": 300,
+      "mediaMaxMb": 10,
+      "groupAllowFrom": [
+        "*"
+      ]
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "whatsapp:+420608822069"
+    ]
+  },
+  "messages": {
+    "tts": {
+      "auto": "inbound",
+      "provider": "elevenlabs",
+      "providers": {
+        "elevenlabs": {
+          "apiKey": "***MASKED***",
+          "model": "eleven_multilingual_v2",
+          "speakerVoiceId": "21m00Tcm4TlvDq8ikWAM"
+        }
+      }
+    }
+  },
+  "tools": {
+    "media": {
+      "audio": {
+        "enabled": true,
+        "scope": {
+          "default": "allow"
+        },
+        "models": [
+          {
+            "provider": "openai",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        ]
+      }
+    },
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "brave"
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": "***MASKED***",
+      "apple-media": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "art-director": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "deep-research-cellcog": {
+        "enabled": false
+      },
+      "ecommerce-gmail-customer-service": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "justserpapi_google_search": {
+        "enabled": false
+      },
+      "justserpapi_google_trends_search": {
+        "enabled": false
+      },
+      "google-workspace": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openclaw-youtube": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "taskflow": {
+        "enabled": false
+      },
+      "tavily-search": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-08-13T14:04:32.668Z",
+    "lastRunVersion": "2026.7.1-2",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  }
+}

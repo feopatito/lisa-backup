@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "wenchang-review",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786569089492,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "20719b8c52e40fa42db921eeccfe70198ba38408e5ecb03b3539c2730370b937",
+    "integrity": "sha256-IHGbjFLkD6QtuSHuzP5wGYujhAjl7LA7NTnCcwNwuTc="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "dc998ad3a07203eac1740a2e721d5f14ef742433c944c1eb81bea866543d6957"
+  }
+}

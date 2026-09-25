@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Image SEO Audit v2 — Tomova pravidla — 20260821_223721</title>
+<style>
+  body{background:#111;color:#e8e8e8;font-family:-apple-system,sans-serif;margin:0;padding:0}
+  header{background:#1a1a2e;padding:2rem;border-bottom:1px solid #333}
+  h1{margin:0;font-size:1.5rem;color:#7c6af7}
+  .meta{color:#888;font-size:.85rem;margin-top:.5rem}
+  .grid{max-width:1200px;margin:2rem auto;padding:0 1rem;display:grid;gap:1.5rem}
+  .card{background:#1e1e1e;border:1px solid #2a2a2a;border-radius:10px;display:grid;grid-template-columns:220px 1fr;gap:0;overflow:hidden}
+  .card-img img{width:220px;height:165px;object-fit:cover;display:block}
+  .card-info{padding:1rem}
+  .filename{font-size:.75rem;color:#555;margin-bottom:.5rem;font-family:monospace}
+  table{width:100%;border-collapse:collapse;font-size:.82rem}
+  td{padding:.2rem .4rem;vertical-align:top}
+  .lbl{color:#888;width:130px;white-space:nowrap}
+  .new{color:#a5d6a7}
+  .llava{font-size:.72rem;color:#555;margin-top:.5rem;border-top:1px solid #2a2a2a;padding-top:.5rem}
+  .note{font-size:.75rem;color:#ffb74d;margin-top:.3rem}
+  @media(max-width:600px){.card{grid-template-columns:1fr}.card-img img{width:100%;height:180px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🏷️ Image SEO Audit v2 — Tomova pravidla</h1>
+  <div class="meta">
+    Model: llava:latest + qwen2.5:7b | Fotek: 50 | Datum: 2026-08-22 00:26 | Web: androidmagazine.eu
+    <br>Pravidla: název max 7 slov (výrobce+model+barva), titulek=zrcadlo názvu, popis=zrcadlo ALT, kontext článku
+  </div>
+</header>
+<div class="grid">
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/image001.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 image001.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>image001</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>146.6s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is shown in a front view.
+4. The background is plain and does not provide any additional context or environment.
+5. There...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Zlato-.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Zlato-.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Zlato</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>151.7s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/google-home.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 google-home.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>google home</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>151.6s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/google.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 google.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>google</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>151.5s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/images-4.jpeg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 images-4.jpeg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>gemma</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Gemma</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Záběr na mobilní telefon Gemma v standardním zeleném barvě zezadu s černým pozadím.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Gemma</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Záběr na mobilní telefon Gemma v standardním zeleném barvě zezadu s černým pozadím.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>141.9s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Barva byla identifikována jako zelená, ale nebylo specifikováno konkrétní model Gemmy.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/motorola-edge-2026-1.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 motorola-edge-2026-1.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>motorola-edge-2026-1</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Motorola Razr 2026 zlatý</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zlatý Motorola Razr 2026 v rozváženém stavu, zobrazeny oba strany telefónu s kamerou na zádech.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Motorola Razr 2026 zlatý</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zlatý Motorola Razr 2026 v rozváženém stavu, zobrazeny oba strany telefónu s kamerou na zádech.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#8bc34a">★★★★☆</span> 4/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>129.0s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is gold in color.
+3. The smartphone is in an unfolded state, displaying both the front and back sides.
+4. The background is plain and does not provid...</em></div>
+        <div class="note">📝 Pozdější model Razr byl změněn, ale základní design zůstal shodný.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Motorola-Edge-2026.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Motorola-Edge-2026.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Screenshot</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Motorola Edge olivová</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Olivová Motorola Edge v předním zobrazení na písku u bazénu s ručníkem a brýlemi.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Motorola Edge olivová</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Olivová Motorola Edge v předním zobrazení na písku u bazénu s ručníkem a brýlemi.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>113.4s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is olive green in color.
+3. The smartphone is in a front view orientation.
+4. The background features a beach setting with sand, a towel, and a pair ...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/motorola-edge-2026-2.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 motorola-edge-2026-2.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>motorola-edge-2026-2</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Motorola Edge 2026 Zlato</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zlato Motorola Edge 2026, zpětný čidlový modul na zadní straně displeje, na laciném světle.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Motorola Edge 2026 Zlato</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zlato Motorola Edge 2026, zpětný čidlový modul na zadní straně displeje, na laciném světle.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>104.9s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone with a camera module on the back.
+2. The smartphone is gold in color.
+3. The smartphone is in an unfolded position, displaying the back side with the camera module.
+4. ...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/motorola-edge-2026-arrives-with-the-biggest-design-change-v0-IbZ29OKJA5Ka7yDYmGTpGWP_oT3zEQQZryZLyhom-oU.jpeg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 motorola-edge-2026-arrives-with-the-biggest-design-change-v0-IbZ29OKJA5Ka7yDYmGTpGWP_oT3zEQQZryZLyhom-oU.jpeg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>motorola-edge-2026-arrives-with-the-biggest-design-change-v0-IbZ29OKJA5Ka7yDYmGTpGWP_oT3zEQQZryZLyhom-oU.jpeg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>135.2s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a person holding a smartphone. The brand and model of the phone are not clearly visible.
+2. The smartphone is gold in color.
+3. The smartphone is held in a front view, with the scre...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-Event-August-2026-cover.png" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-Event-August-2026-cover.png</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy-Event-August-2026-cover</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy Event August 2026</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy Event August 2026, přehledová obrazovka s mobilními zařízeními v pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy Event August 2026</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy Event August 2026, přehledová obrazovka s mobilními zařízeními v pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>130.2s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Obrazovka neobsahuje konkrétní model nebo barvu zařízení, ale ukazuje obecný přehledový výstup s mobilními zařízeními.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Logitech-MX-Master-4-LsA-1.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Logitech-MX-Master-4-LsA-1.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Logitech-MX-Master-4-LsA-1</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Nintendo-Wii-Controller-White</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Bílá Nintendo Wii hračka v složeném stavu s tlačitky a joystickem nahoru. Na pozadí stůl s různými předměty, včetně krabice a lahve. Složená hračka je na obrázku v dvojité fotografii.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Nintendo-Wii-Controller-White</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Bílá Nintendo Wii hračka v složeném stavu s tlačitky a joystickem nahoru. Na pozadí stůl s různými předměty, včetně krabice a lahve. Složená hračka je na obrázku v dvojité fotografii.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>148.4s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a white Nintendo Wii game controller.
+2. The color of the device is white.
+3. The controller is in a folded position, with the buttons and joystick facing upwards.
+4. The background...</em></div>
+        <div class="note">📝 Obrázek neodpovídá tématu článku o Android a mobilních zařízeních.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Door-Lock-N100-Zigbee_Scene_1-1-1024x576-1.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Door-Lock-N100-Zigbee_Scene_1-1-1024x576-1.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Door-Lock-N100-Zigbee_Scene_1-1-1024&#215;576</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Smart Door Lock N100 Zigbee</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Moderní elektronický zámek pro dveře N100 s modrým pozadím a rozváženou mechanismikou.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Smart Door Lock N100 Zigbee</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Moderní elektronický zámek pro dveře N100 s modrým pozadím a rozváženou mechanismikou.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>145.0s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smart door lock, which appears to be a modern, electronic locking mechanism.
+2. The color of the device is silver.
+3. The device is in an unfolded position, with the locking mecha...</em></div>
+        <div class="note">📝 Obrazová analýza odpovídá článku o inteligentních dveřích a jejich zabezpečení.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/android-auto.png" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 android-auto.png</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>android auto</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Android Auto</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Android Auto na obrazovce auta v horizontální orientaci s černým pozadím.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Android Auto</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Android Auto na obrazovce auta v horizontální orientaci s černým pozadím.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>129.3s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model není explicitně viditelný, ale základní označení Android Auto je správné.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/product_5751800.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 product_5751800.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>product_5751800</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Fujifilm Instax na smaranděhlíku</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Fujifilm Instax na smaranděhlíku v černém barvě. Smaranděhlík je v předzobrazení s Instaxem na vrcholu. Pozadí je bílé.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Fujifilm Instax na smaranděhlíku</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Fujifilm Instax na smaranděhlíku v černém barvě. Smaranděhlík je v předzobrazení s Instaxem na vrcholu. Pozadí je bílé.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>134.9s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone with a camera attachment, which appears to be a Fujifilm Instax camera.
+2. The smartphone is black.
+3. The smartphone is in a front view, with the camera attachment on ...</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s článkem o Fujifilm Instax.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-3.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 googlebook-desktop-camera-app-ui-image-3.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>googlebook-desktop-camera-app-ui-image-3.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Google Pixel 4a zlatý přední pohled</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Google Pixel 4a zlatý, přední pohled, telefon v ruce osoby, kamera aplikace otevřená, foto na selfie</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Google Pixel 4a zlatý přední pohled</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Google Pixel 4a zlatý, přední pohled, telefon v ruce osoby, kamera aplikace otevřená, foto na selfie</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>129.2s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is in a front view, held by a person.
+4. The background is indoors, with a person taking a selfie with another person.
+5...</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s popisem a kontextem článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-4.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 googlebook-desktop-camera-app-ui-image-4.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>googlebook-desktop-camera-app-ui-image-4.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Google Pixel kamera aplikace</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Silver Google Pixel smartphone s obrazovkou ukazující foto přípravy jídla v kuchyni. Smartphone v předním zobrazení s kuchyní ve pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Google Pixel kamera aplikace</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Silver Google Pixel smartphone s obrazovkou ukazující foto přípravy jídla v kuchyni. Smartphone v předním zobrazení s kuchyní ve pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#8bc34a">★★★★☆</span> 4/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>140.5s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone with a screen displaying a photo of a person cooking.
+2. The smartphone is silver.
+3. The smartphone is in a front view, with the screen facing the viewer.
+4. The backg...</em></div>
+        <div class="note">📝 Model Google Pixel identifikován na základě značky a obrazovky s obrazem přípravy jídla.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-1.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 googlebook-desktop-camera-app-ui-image-1.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>googlebook-desktop-camera-app-ui-image-1.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>143.0s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone with a camera app open, displaying a photo of a person.
+2. The smartphone is silver.
+3. The smartphone is held in a portrait orientation.
+4. The background is indoors, ...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-desktop-camera-app-ui-image-2.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 googlebook-desktop-camera-app-ui-image-2.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>googlebook-desktop-camera-app-ui-image-2.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Google Pixel desktop aplikace</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Obrazovka Google Pixel desktopové aplikace s kamerou v levém horním rohu, bílá pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Google Pixel desktop aplikace</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Obrazovka Google Pixel desktopové aplikace s kamerou v levém horním rohu, bílá pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#8bc34a">★★★★☆</span> 4/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>127.7s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Barva pozadí byla odhadnuta z obrazu.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook-app-icon-new-image.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 googlebook-app-icon-new-image.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>googlebook-app-icon-new-image.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung A53 front blue</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung A53 smartphone front view, blue color, plain background, visible camera lens on back</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung A53 front blue</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung A53 smartphone front view, blue color, plain background, visible camera lens on back</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#8bc34a">★★★★☆</span> 4/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>112.5s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is in a front view, with the screen facing the viewer.
+4. The background is a plain, neutral color, providing no additiona...</em></div>
+        <div class="note">📝 Model A53 identifikován podle obecného vzhledu a umístění kamerové lupy.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/googlebook.png" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 googlebook.png</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>googlebook</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Laptop Googlebook</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Laptop Googlebook v frontové perspektivě, silvrázný, na tmavém pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Laptop Googlebook</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Laptop Googlebook v frontové perspektivě, silvrázný, na tmavém pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>116.2s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a laptop.
+2. The laptop is silver.
+3. The laptop is shown in a front view, with the screen facing the viewer.
+4. The background is a dark, solid color, providing a high-contrast bac...</em></div>
+        <div class="note">📝 Obrazová analýza odpovídá tématu článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/one-ui-9.5-satellite-connectivity-image-1.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 one-ui-9.5-satellite-connectivity-image-1.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>one-ui-9.5-satellite-connectivity-image-1.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>One UI 9.5 satelitní spojení</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Obrazovka s One UI 9.5 a satelitním spojením v centru obrazu, pozadí černý</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">One UI 9.5 satelitní spojení</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Obrazovka s One UI 9.5 a satelitním spojením v centru obrazu, pozadí černý</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>135.5s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Obrazovka neobsahuje specifický model zařízení, ale popisuje One UI 9.5 a satelitní spojení, které se neodpovídají názvu souboru.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/one-ui-9.5-usb-mode-image.jpg.webp" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 one-ui-9.5-usb-mode-image.jpg.webp</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>one-ui-9.5-usb-mode-image.jpg</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>USB modový režim One UI 9.5</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zobrazuje obrazovku s USB modovým režimem One UI 9.5 v černobílé orientaci.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">USB modový režim One UI 9.5</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zobrazuje obrazovku s USB modovým režimem One UI 9.5 v černobílé orientaci.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>136.4s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Barva není identifikována. Model není jasně viditelný. Obrazovka se liší od článku o Android a mobilních zařízeních.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/HPyb65KWMAE92c4.jpeg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 HPyb65KWMAE92c4.jpeg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>HPyb65KWMAE92c4</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S21 Ultra</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S21 Ultra, zde je zadní strana s kamerou, bílá pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S21 Ultra</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S21 Ultra, zde je zadní strana s kamerou, bílá pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>123.3s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model a barva jsou identifikovány na základě popisu obrazu.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/HPyb7kgX0AEPfgo.jpeg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 HPyb7kgX0AEPfgo.jpeg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>HPyb7kgX0AEPfgo</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S21 Ultra</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S21 Ultra, základní pozice, černý, základní barva telefónu</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S21 Ultra</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S21 Ultra, základní pozice, černý, základní barva telefónu</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>132.1s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model a barva jsou zřetelně vidět na obrázku a odpovídají kontextu článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/HPyb7OuWcAA-2Mh.jpeg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 HPyb7OuWcAA-2Mh.jpeg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>HPyb7OuWcAA-2Mh</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S21 Ultra</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S21 Ultra, základní pozice, černý, bez barvy pozadí</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S21 Ultra</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S21 Ultra, základní pozice, černý, bez barvy pozadí</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>129.9s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model je zřetelně identifikován, ale barva pozadí není vidět.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Berkshire-Hathaway-1-1.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Berkshire-Hathaway-1-1.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Berkshire Hathaway</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Berkshire Hathaway Smartphone</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Berkshire Hathaway smartphone v sivém barvě, portrétová orientace, zobrazení notifikace s nápisem Berkshire Hathaway na displeji, zahájení v prostředí s roztaženým oknem.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Berkshire Hathaway Smartphone</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Berkshire Hathaway smartphone v sivém barvě, portrétová orientace, zobrazení notifikace s nápisem Berkshire Hathaway na displeji, zahájení v prostředí s roztaženým oknem.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>139.6s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is in a portrait orientation, being held by a person.
+4. The background is blurred, but it appears to be an indoor setti...</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s článkem o mobilních zařízeních a společnosti Berkshire Hathaway.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Life_SNDK_NAS_Porfolio_Key_Install_NAS_PO.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Life_SNDK_NAS_Porfolio_Key_Install_NAS_PO.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Life_SNDK_NAS_Porfolio_Key_Install_NAS_PO</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>SNDK Portfolio Key Install</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Obrazek zobrazení SNDK Portfolio Key Install na zeleném pozadí s horizontální orientací.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">SNDK Portfolio Key Install</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Obrazek zobrazení SNDK Portfolio Key Install na zeleném pozadí s horizontální orientací.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>128.6s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model není identifikován, červená barva není vidět v obrázku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/260818-720p-gd24-CZ.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 260818-720p-gd24-CZ.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>260818-720p-gd24-CZ</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Google Pixel 6 Pro</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zdjęcie Google Pixel 6 Pro w czarnym kolorze z tyłu telefonu.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Google Pixel 6 Pro</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zdjęcie Google Pixel 6 Pro w czarnym kolorze z tyłu telefonu.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>122.4s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model telefonu jest jasno widoczny, kolor jest identyfikowany.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Poco-F9-Pro-a-Poco-F9-Ultra-v-cervene.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Poco-F9-Pro-a-Poco-F9-Ultra-v-cervene.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Poco-F9-Pro-a-Poco-F9-Ultra-v-cervene</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>143.3s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone and a smartwatch.
+2. The smartphone is pink.
+3. The smartwatch is silver.
+4. The background is plain and does not provide any additional context.
+5. The smartphone and ...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Zelena-varianta-Poco-F9-Pro-a-Poco-F9-Ultra.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Zelena-varianta-Poco-F9-Pro-a-Poco-F9-Ultra.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Zelena-varianta-Poco-F9-Pro-a-Poco-F9-Ultra</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Zelená-varianta-Poco-F9-Pro-s-detachovatelnou-kamerou</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zelená Poco F9 Pro s detachovatelnou kamerou v předzobě, kamera na stole. Pozadí bělohosté.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Zelená-varianta-Poco-F9-Pro-s-detachovatelnou-kamerou</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zelená Poco F9 Pro s detachovatelnou kamerou v předzobě, kamera na stole. Pozadí bělohosté.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>131.9s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone with a detachable camera module.
+2. The smartphone is green.
+3. The smartphone is in a front view, with the camera module detached and placed on top of it.
+4. The backg...</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s popisem v článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Biua-verze.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Biua-verze.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Biua-verze</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Biua verze</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zobrazuje verzi Biua, černý displej s Androidem v horizontální položce na černém pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Biua verze</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zobrazuje verzi Biua, černý displej s Androidem v horizontální položce na černém pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#8bc34a">★★★★☆</span> 4/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>128.0s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Model není jasně identifikován, ale založeno bylo na zobrazení Biua.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Nova-vlajkova-lod-v-cerne-barve.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Nova-vlajkova-lod-v-cerne-barve.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Nova-vlajkova-lod-v-cerne-barve</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>143.5s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone and a remote control.
+2. The smartphone is black.
+3. The smartphone is in a front view, and the remote control is in a top view.
+4. The background is plain and does not...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-112.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-112.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 112</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Stříbrný</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, stříbrný, portrétová orientace, displej vzhůru, pozadí s dlaždicemi, viditelná ruka s ukazovákem na displeji</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Stříbrný</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, stříbrný, portrétová orientace, displej vzhůru, pozadí s dlaždicemi, viditelná ruka s ukazovákem na displeji</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>123.5s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver in color.
+3. The smartphone is held in a portrait orientation, with the screen facing upwards.
+4. The background is a paved surface, possib...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-111.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-111.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 111</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Červená</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídly kamera na zadní straně, roztažená pozadí s betonovou plochou.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Červená</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídly kamera na zadní straně, roztažená pozadí s betonovou plochou.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>140.7s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a hand, with the screen facing the viewer.
+4. The background is blurred, but it appears to be an outdoor settin...</em></div>
+        <div class="note">📝 Barva telefonu je zjištěna pouze na základě názvu souboru a není totožná s popisem v obrázku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-110.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-110.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 110</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong></strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new"></td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new"></td></tr>
+          <tr><td class="lbl">Popis</td><td class="new"></td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#f44336">★☆☆☆☆</span> 1/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>140.4s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a Samsung smartphone.
+2. The device is silver in color.
+3. The phone is held in a front view, with the screen facing the viewer.
+4. The background is a blurred outdoor setting, poss...</em></div>
+        <div class="note">📝 parse error</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-109.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-109.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 109</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Stříbrný</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, stříbrný barva, přední pohled, displej se značkami aplikací, na paveli, v ruce.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Stříbrný</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, stříbrný barva, přední pohled, displej se značkami aplikací, na paveli, v ruce.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>139.8s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver in color.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is a paved surface, possibly a si...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-108.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-108.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 108</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 v černém barvě, portrétová orientace, pozadí s brusnou ulicí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 v černém barvě, portrétová orientace, pozadí s brusnou ulicí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>134.3s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is being held in a portrait orientation.
+4. The background is a blurred outdoor setting, possibly a street or sidewalk, w...</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s popisem v článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-107.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-107.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 107</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, zavěšený proti světlu, černý, frontální pohled, tmavý pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, zavěšený proti světlu, černý, frontální pohled, tmavý pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>131.6s</td></tr>
+        </table>
+        <div class="llava"><em>llava: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)...</em></div>
+        <div class="note">📝 Obrazek odpovídá kontextu článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-106.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-106.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 106</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 bílý</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 bílý v portrétní orientaci na pozadí rozostřeného uličního prostředí s dlažebním nádržem.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 bílý</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 bílý v portrétní orientaci na pozadí rozostřeného uličního prostředí s dlažebním nádržem.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>112.9s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is white.
+3. The smartphone is being held in a portrait orientation.
+4. The background is a blurred outdoor setting, possibly a street or sidewalk, w...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-105.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-105.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 105</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 silvr, portrétová orientace, základní část displeje, pozadí s trávou a oblohou</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 silvr, portrétová orientace, základní část displeje, pozadí s trávou a oblohou</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>116.1s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is held in a portrait orientation, with the screen facing the viewer.
+4. The background is a grassy area with a clear sk...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-104.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-104.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 104</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Červeně</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 v červené barvě, přední pohled, zobrazení obrazovky, pozadí s trávou a oblohou, kamера модуль na zádech s více objektivy</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Červeně</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 v červené barvě, přední pohled, zobrazení obrazovky, pozadí s trávou a oblohou, kamера модуль na zádeчс s více objektivy</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>136.8s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is a grassy area with a clear sky.
+5. The sm...</em></div>
+        <div class="note">📝 Barva červená není identifikována, ale založeno bylo na původním názvu souboru, který naznačuje barvu modrou. Vzhledem k tomu, že článek kontext není zadaný, je možné, že obrázek neodpovídá tématu článku.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-103.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-103.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 103</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Stříbrný</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 v stříbrném barvu, telefon je držen v portrétní orientaci s obrazovkou k zobrazení, pozadí je trávník s rukou držící telefon.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Stříbrný</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 v stříbrném barvu, telefon je držen v portrétní orientaci s obrazovkou k zobrazení, pozadí je trávník s rukou držící telefon.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>121.8s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver in color.
+3. The smartphone is held in a portrait orientation, with the screen facing the viewer.
+4. The background is a grassy area with a...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-102.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-102.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 102</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Červená</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídlem k úhlu, pozadí s trávou a zemičkem, zřetelně vidět fotoaparát na zadní straně.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Červená</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, červená barva, telefon držen v ruce s obrazovkou křídlem k úhlu, pozadí s trávou a zemičkem, zřetelně vidět fotoaparát na zadní straně.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>124.1s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a hand, with the screen facing the viewer.
+4. The background is a grassy area with a patch of dirt.
+5. The smar...</em></div>
+        <div class="note">📝 Barva telefonu je špatně identifikována. V obrázku je telefon červený, ale v názvu bylo uvedeno modré.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-101.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-101.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 101</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Stříbrný</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, stříbrný, fronta, v ruce, na zeleném pozadí s rukou držící telefon</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Stříbrný</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, stříbrný, fronta, v ruce, na zeleném pozadí s rukou držící telefon</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>110.6s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is silver.
+3. The smartphone is held in a hand, with the front view visible.
+4. The background is a grassy area with a person's hand holding the phon...</em></div>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-100.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-100.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 100</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Červený</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26, červený, zobrazen v předním zobrazení s obrazovkou křižovatou s obrazem trávy a čistého nebe.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Červený</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26, červený, zobrazen v předním zobrazení s obrazovkou křižovatou s obrazem trávy a čistého nebe.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>125.7s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is blue.
+3. The smartphone is held in a front view, with the screen facing the viewer.
+4. The background is a grassy area with a clear sky.
+5. The sm...</em></div>
+        <div class="note">📝 Barva červená nebyla identifikována, ale základní model a barva byla popsaná podle dostupných informací. Kontext není relevantní pro zobrazení.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-15.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-Ultra-recenze-15.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 Ultra recenze 15</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Galaxy S26 Ultra recenze</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 Ultra v černém barvě na otevřeném displeji na dřevěném povrchu s přiloženým krayonem.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Galaxy S26 Ultra recenze</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 Ultra v černém barvě na otevřeném displeji na dřevěném povrchu s přiloženým krayonem.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>111.2s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in an unfolded position, displaying its screen.
+4. The background is a wooden surface, possibly a table or a bench.
+5....</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s tématem recenze Galaxy S26 Ultra.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-14.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-Ultra-recenze-14.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 Ultra recenze 14</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Ultra</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 Ultra v černém barvě leží na stolu s křížkem na špičce displeje a krayínou vedle.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Ultra</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 Ultra v černém barvě leží na stolu s křížkem na špičce displeje a krayínou vedle.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>117.3s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in a front view, lying flat on a surface.
+4. The background is a wooden table with a pen on it.
+5. The smartphone has ...</em></div>
+        <div class="note">📝 Obrazek se dobře shoduje s článkem o recenzi Galaxy S26 Ultra.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-13.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-Ultra-recenze-13.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 Ultra recenze 13</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Smartфон s stylusem na stole</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Nerozpoznatelná značka a model smartfónu, který je černý a leží na ploše na stolu s písem nebo stylusem vedle.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Smartфон s stylusem na stole</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Nerozpoznatelná značka a model smartfónu, který je černý a leží na ploše na stolu s písem nebo stylusem vedle.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#f44336">❌ nesedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#ffc107">★★★☆☆</span> 3/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>120.7s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone, but the brand and model are not clearly visible.
+2. The smartphone is black.
+3. The smartphone is in a front view, lying flat on a surface.
+4. The background is a wood...</em></div>
+        <div class="note">📝 Model a značka nejsou identifikovány, ale základní popis je zahrnut.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-12.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-Ultra-recenze-12.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 Ultra recenze 12</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Samsung Galaxy S26 Ultra recenze</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Samsung Galaxy S26 Ultra v černém barvě, zobrazený v zavřeném stavu s obrazovkou vzhůru na stolu s dřevěnou podložkou</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Samsung Galaxy S26 Ultra recenze</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Samsung Galaxy S26 Ultra v černém barvě, zobrazený v zavřeném stavu s obrazovkou vzhůru na stolu s dřevěnou podložkou</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>118.7s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in a folded position, with the screen facing upwards.
+4. The background consists of a wooden surface, possibly a table...</em></div>
+        <div class="note">📝 Obrázek se dobře shoduje s článkem o recenzi Samsung Galaxy S26 Ultra.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img"><img src="https://androidmagazine.eu/wp-content/uploads/2026/08/Galaxy-S26-Ultra-recenze-11.jpg" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="card-info">
+        <div class="filename">📁 Galaxy-S26-Ultra-recenze-11.jpg</div>
+        <table>
+          <tr><td class="lbl">Původní název</td><td>Galaxy S26 Ultra recenze 11</td></tr>
+          <tr><td class="lbl">Původní ALT</td><td><em>prázdný</em></td></tr>
+          <tr><td class="lbl">Nový název</td><td class="new"><strong>Galaxy S26 Ultra recenze</strong></td></tr>
+          <tr><td class="lbl">Nový ALT</td><td class="new">Zděšená předná strana černého Galaxy S26 Ultra ležící na stolu s dřevěnou podložkou s pozadí.</td></tr>
+          <tr><td class="lbl">Titulek</td><td class="new">Galaxy S26 Ultra recenze</td></tr>
+          <tr><td class="lbl">Popis</td><td class="new">Zděšená předná strana černého Galaxy S26 Ultra ležící na stolu s dřevěnou podložkou s pozadí.</td></tr>
+          <tr><td class="lbl">Kontext článku</td><td><span style="color:#4caf50">✅ sedí</span></td></tr>
+          <tr><td class="lbl">Confidence</td><td><span style="color:#4caf50">★★★★★</span> 5/5</td></tr>
+          <tr><td class="lbl">Čas</td><td>115.0s</td></tr>
+        </table>
+        <div class="llava"><em>llava: 1. The image shows a smartphone.
+2. The smartphone is black.
+3. The smartphone is in a rear view orientation, lying flat on a surface.
+4. The background is a wooden table.
+5. The smartphone has a came...</em></div>
+        
+      </div>
+    </div></div>
+</body>
+</html>

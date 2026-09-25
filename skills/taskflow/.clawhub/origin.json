@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "taskflow",
+  "installedVersion": "1.1.1",
+  "installedAt": 1786524739676,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "1bcdde87c7b889366dec8677e078fa1502882307331b9947af91b6189199c4bb",
+    "integrity": "sha256-G83eh8e4iTZt7IZ34Hj6FQKIIwczG5lHr5G2GJGZxLs="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "30cfa2fc4200ff2789639d8d141997c0fd468d1c0827cc491d641841f05f7e36"
+  }
+}

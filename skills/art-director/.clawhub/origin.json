@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "art-director",
+  "installedVersion": "1.0.3",
+  "installedAt": 1786540562810,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "013d35dce90641d985edf1b008243937d35529c631211fcd3d662aadc810b3ea",
+    "integrity": "sha256-AT013OkGQdmF7fGwCCQ5N9NVKcYxIR/NPWYqrcgQs+o="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "0bab776e57df6186c72647c974da89dc72c1dca89d9da6d5a08fe39639b2cda2"
+  }
+}

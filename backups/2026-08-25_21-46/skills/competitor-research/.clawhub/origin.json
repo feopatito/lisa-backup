@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "competitor-research",
+  "installedVersion": "1.0.0",
+  "installedAt": 1786598228448,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "4785df028d875aee4d6633239b5abdcc7e04ce6664ec8237e44ca1827834d80d",
+    "integrity": "sha256-R4XfAo2HWu5NZjMjm1q9zH4EzmZk7II35Eyhgng02A0="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "51ea87688e7d89f856deff0905780f41f2744660f576928d5f049ed46e4f7dfc"
+  }
+}
